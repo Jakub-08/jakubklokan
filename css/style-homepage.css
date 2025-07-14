@@ -45,7 +45,7 @@ body{
     min-height: 80vh;
     padding-bottom: 20px;
     height: fit-content;
-    background-image: url(Images/GPB\ U17-161.jpg);
+    background-image: url("/images/Images - Homepage/GPB U17-161.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -137,7 +137,7 @@ body{
 
 #Kobe{
     height: 600px;
-    background-image: url(Images/Adria\ U17\ -\ singles.jpg);
+    background-image: url("/images/Images - Homepage/Adria\ U17\ -\ singles.jpg");
     background-position: 30% top;
     background-attachment: fixed;
     
