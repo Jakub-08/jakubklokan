@@ -25,7 +25,7 @@
     />
     <meta name="keyword" content="badminton, škola, blog, sport, o mně" />
     <meta name="author" content="Jakub Klokan" />
-    <meta http-equiv="refresh" content="300" />
+
     <title>Jakub Klokan</title>
   </head>
   <body>
@@ -81,12 +81,22 @@
     <div class="medaile">
       <div class="kruh">
         <div class="obrázek">
-          <img
-            class="image"
-            id="MM"
-            src="/images/Images - Homepage/Adria U17 - medails.jpg"
-            alt="Já se spoluhráčem s medailemi"
-          />
+          <picture>
+            <source
+              srcset="/images/Images - Homepage/Adria U17 - medails.jpg"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/Images - Homepage/Adria U17 - medails.webp"
+              type="image/webp"
+            />
+            <img
+              src="/images/foto.jpg"
+              alt="Já se spoluhráčem s medailemi"
+              class="image"
+              id="MM"
+            />
+          </picture>
           <span class="num">15</span>
         </div>
         <span class="description">Mezinárodní medaile</span>
