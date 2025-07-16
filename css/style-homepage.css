@@ -189,9 +189,8 @@ body {
   background-color: #f7f9fc;
 }
 .sponzoři img {
-  width: 50%; /* Responsive width */
   min-width: 150px; /* Prevent too small */
-  max-width: 250px; /* Prevent too large */
+  max-width: 50%; /* Prevent too large */
   height: auto;
   object-fit: contain;
   background-color: #1c1c1c;
@@ -229,6 +228,7 @@ body {
   color: black;
   text-decoration: none;
   font-size: 1.25rem;
+  text-align: center;
 }
 
 .obec_Raná a:hover {
@@ -478,6 +478,7 @@ body {
   .obec_Raná,
   .sponzoři img {
     margin-bottom: 15px;
+    max-width: 40%;
   }
 
   .sponzoři img {
