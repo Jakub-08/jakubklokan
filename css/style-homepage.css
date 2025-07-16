@@ -173,7 +173,7 @@ body {
 .sponzoři {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   gap: 3vw;
   height: fit-content;
@@ -189,23 +189,38 @@ body {
   background-color: #f7f9fc;
 }
 .sponzoři img {
-  width: 12vw; /* Responsive width */
-  min-width: 100px; /* Prevent too small */
+  width: 50%; /* Responsive width */
+  min-width: 150px; /* Prevent too small */
   max-width: 250px; /* Prevent too large */
   height: auto;
-  margin: 0 20px;
   object-fit: contain;
   background-color: #1c1c1c;
   border-radius: 10px;
   padding: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  justify-self: center;
 }
+
+.sponzoři a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.picture {
+  display: flex;
+  justify-content: center; /* vodorovně */
+  align-items: center;     /* svisle (pokud má výšku) */
+}
+
 
 .obec_Raná {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 100%;
   gap: 20px;
   font-weight: bold;
 }
@@ -466,7 +481,6 @@ body {
   }
 
   .sponzoři img {
-    max-width: 90%;
     object-fit: contain;
   }
 
