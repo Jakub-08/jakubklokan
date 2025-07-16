@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="cs">
   <head>
-    <link rel="stylesheet" href="/css/style-homepage.css" />
+    <link
+      rel="preload"
+      href="/css/style-homepage.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      fetchpriority="high"
+    />
+    <noscript
+      ><link rel="stylesheet" href="/css/style-homepage.css"
+    /></noscript>
     <script src="/js/menu-close.js" defer></script>
     <meta charset="UTF-8" />
     <!-- Google tag (gtag.js) -->
@@ -27,7 +36,13 @@
     <meta name="author" content="Jakub Klokan" />
 
     <title>Jakub Klokan</title>
-    <link rel="preload" as="image" href="/images/homepage/GPB-U17-161.avif" type="image/avif">
+    <link
+      rel="preload"
+      as="image"
+      href="/images/homepage/GPB-U17-161.avif"
+      type="image/avif"
+      fetchpriority="high"
+    />
   </head>
   <body>
     <div id="horní_lišta">
