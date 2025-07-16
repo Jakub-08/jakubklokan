@@ -46,14 +46,15 @@ body {
   min-height: 80vh;
   padding-bottom: 20px;
   height: fit-content;
-  background-image: image-set(
-    url('/images/homepage/GPB-U17-161.avif') type('image/avif'),
-    url('/images/homepage/GPB-U17-161.webp') type('image/webp'),
-    url('/images/homepage/GPB-U17-161.jpg') type('image/jpeg')
-  );
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+  
+}
+
+.pic-úvod {
+  height: 80vh;
+  width: 100vw;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
   filter: brightness(0.9);
 }
 
@@ -90,6 +91,9 @@ body {
   align-items: center;
   height: fit-content;
   padding-bottom: 20px;
+  position:relative;
+  z-index: 20;
+  background-color: #f7f9fc;
 }
 
 .kruh {
@@ -142,16 +146,23 @@ body {
 
 #Kobe {
   height: 600px;
-  background-image: url("/images/homepage/Adria-U17-singles.jpg");
-  background-position: 30% top;
-  background-attachment: fixed;
-
   background-size: cover;
   margin: 0;
-  filter: brightness(0.8);
   overflow: hidden;
   text-shadow: #1c1c1c 0px 0px 10px;
 }
+
+.pic-kobe {
+  height: 600px;
+  width: 100vw;
+  position: absolute;
+  object-fit: cover;
+  object-position: 30% 30%;
+  filter: brightness(0.7);
+
+}
+
+
 
 #qoute {
   position: relative;
@@ -354,7 +365,7 @@ body {
   display: flex;
 }
 
-@media screen and (max-width: 950px) and (min-width: 770px) {
+@media screen and (max-width: 1000px) and (min-width: 770px) {
   .domů {
     margin-right: 12px;
   }
@@ -371,6 +382,11 @@ body {
     text-align: center;
     align-items: center;
   }
+
+  .pic-úvod {
+   object-position: 40% 20%;
+  
+}
 
   .medaile {
     flex-direction: column;
@@ -461,7 +477,6 @@ body {
   #Kobe {
     background-attachment: local;
     background-position: 30% 50%;
-    filter: brightness(0.75);
   }
 
   #qoute {
@@ -485,9 +500,7 @@ body {
     object-fit: contain;
   }
 
-  .obec_Raná {
-    gap: 0;
-  }
+  
 
   .Ronin {
     width: 100%;

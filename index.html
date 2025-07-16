@@ -12,6 +12,13 @@
       ><link rel="stylesheet" href="/css/style-homepage.css"
     /></noscript>
     <script src="/js/menu-close.js" defer></script>
+    <link
+      rel="preload"
+      as="image"
+      href="/images/homepage/GPB-U17-161.avif"
+      type="image/avif"
+      fetchpriority="high"
+    />
     <meta charset="UTF-8" />
     <!-- Google tag (gtag.js) -->
     <script
@@ -36,13 +43,7 @@
     <meta name="author" content="Jakub Klokan" />
 
     <title>Jakub Klokan</title>
-    <link
-      rel="preload"
-      as="image"
-      href="/images/homepage/GPB-U17-161.avif"
-      type="image/avif"
-      fetchpriority="high"
-    />
+    
   </head>
   <body>
     <div id="horní_lišta">
@@ -92,6 +93,15 @@
     </nav>
 
     <div id="úvod">
+      <picture>
+        <source srcset="/images/homepage/GPB-U17-161.avif" type="image/avif" />
+        <source srcset="/images/homepage/GPB-U17-161.webp" type="image/webp" />
+        <img
+          src="/images/homepage/GPB-U17-161.jpg"
+          alt="Já se spoluhráčem s medailemi"
+          class="pic-úvod"
+        />
+      </picture>
       <h1 class="nadpis">Jakub Klokan</h1>
       <p class="nadpis">
         jsem badmintonový hráč reprezentující Českou republiku.
@@ -177,6 +187,15 @@
     </div>
 
     <div id="Kobe">
+      <picture>
+        <source srcset="/images/homepage/Adria-U17-singles.avif" type="image/avif" />
+        <source srcset="/images/homepage/Adria-U17-singles.webp" type="image/webp" />
+        <img
+          src="/images/homepage/Adria-U17-singles.jpg"
+          alt="Já se spoluhráčem s medailemi"
+          class="pic-kobe"
+        />
+      </picture>
       <h2 id="qoute">
         "Rest at the end, not in the middle."
         <div id="author">Kobe Bryant</div>
@@ -191,7 +210,13 @@
           alt="logo firmy Helen Doron"
           width="199"
           height="67"
-          style="max-width: 50%; height: auto; display: block; margin: 0 auto;"
+          style="
+            aspect-ratio: 199 / 67;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+          "
         />
       </a>
       <a href="https://www.peytonlegal.cz/" target="_blank">
@@ -200,7 +225,13 @@
           alt="logo firmy Peyton legal"
           width="447"
           height="171"
-          style="max-width: 50%; height: auto; display: block; margin: 0 auto;"
+          style="
+            aspect-ratio: 447 / 171;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+          "
         />
       </a>
 
@@ -210,7 +241,13 @@
         class="Ronin"
         width="346"
         height="40"
-        style="max-width: 50%; height: auto; display: block; margin: 0 auto;"
+        style="
+          aspect-ratio: 346 / 40;
+          width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        "
       />
 
       <div class="obec_Raná">
@@ -225,7 +262,13 @@
               alt="erb obce Raná"
               width="260"
               height="260"
-              style="max-width: 50%; height: auto; display: block; margin: 0 auto;"
+              style="
+                aspect-ratio: 1 / 1;
+                width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+              "
             />
           </picture>
           <span>OBEC RANÁ</span>
