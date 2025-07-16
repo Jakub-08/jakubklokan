@@ -176,7 +176,8 @@ body{
     align-items: center;
     background-color: rgba(15, 13, 13, 0.993);
     padding: 70px 0 70px 0;
-    height: 200px;
+      height: 200px;
+  padding-bottom: 130px;
 }
 
 .odkazy {

@@ -7,6 +7,7 @@ body {
 
 .social {
   height: 40px;
+  width: 40px;
   margin-top: 20px;
   margin-left: 50px;
   float: left;
@@ -135,6 +136,8 @@ body {
   font-size: 1.25rem;
   font-weight: bold;
   z-index: 3;
+  height: 50px;
+  width: 230px;
 }
 
 #Kobe {
@@ -230,7 +233,9 @@ body {
   align-items: center;
   background-color: rgba(15, 13, 13, 0.993);
   padding: 70px 0 70px 0;
-  height: 200px;
+    height: 200px;
+  padding-bottom: 130px;
+  padding-bottom: 130px;
 }
 
 .odkazy {
@@ -336,7 +341,7 @@ body {
 
 @media screen and (max-width: 950px) and (min-width: 770px) {
   .domů {
-    margin-right: 15px;
+    margin-right: 12px;
   }
 }
 
