@@ -45,7 +45,11 @@ body {
   min-height: 80vh;
   padding-bottom: 20px;
   height: fit-content;
-  background-image: url("/images/homepage/GPB-U17-161.jpg");
+  background-image: image-set(
+    url('/images/homepage/GPB-U17-161.avif') type('image/avif'),
+    url('/images/homepage/GPB-U17-161.webp') type('image/webp'),
+    url('/images/homepage/GPB-U17-161.jpg') type('image/jpeg')
+  );
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
