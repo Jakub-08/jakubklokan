@@ -2,15 +2,11 @@
 <html lang="cs">
   <head>
     <link
-      rel="preload"
+      rel="stylesheet"
       href="/css/style-homepage.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
       fetchpriority="high"
     />
-    <noscript
-      ><link rel="stylesheet" href="/css/style-homepage.css"
-    /></noscript>
+
     <script src="/js/menu-close.js" defer></script>
     <link
       rel="preload"
@@ -45,7 +41,7 @@
     <title>Jakub Klokan</title>
   </head>
   <body>
-    <div id="horní_lišta">
+    <div id="horní_lišta" fetchpriority="high">
       <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
       <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
       <a href="sponzoring.html" class="domů">Sponzoring</a>
@@ -95,8 +91,14 @@
       <picture>
         <source srcset="/images/homepage/GPB-U17-161.avif" type="image/avif" />
         <source srcset="/images/homepage/GPB-U17-161.webp" type="image/webp" />
-        <img src="/images/homepage/GPB-U17-161.jpg" alt="Já se spoluhráčem s
-        medailemi" class="pic-úvod" height="80vh" width="100vw" />
+        <img
+          src="/images/homepage/GPB-U17-161.jpg"
+          alt="Já se spoluhráčem s
+        medailemi"
+          class="pic-úvod"
+          height="1920"
+          width="1080"
+        />
       </picture>
       <h1 class="nadpis">Jakub Klokan</h1>
       <p class="nadpis">
@@ -197,7 +199,7 @@
           alt="Já se spoluhráčem s medailemi"
           class="pic-kobe"
           height="600px"
-          width="100vw" 
+          width="100vw"
         />
       </picture>
       <h2 id="qoute">
