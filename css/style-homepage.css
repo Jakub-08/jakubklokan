@@ -393,7 +393,7 @@ body {
   }
 
   .pic-úvod {
-   object-position: 40% 20%;
+   object-position: center left;
   
 }
 
@@ -465,7 +465,6 @@ body {
     flex-direction: column;
     background-attachment: local;
     filter: brightness(0.9);
-    height: 700px;
   }
 
   #úvod p {
@@ -476,15 +475,14 @@ body {
   .nadpis {
     margin: 0;
     position: relative;
-    top: 32vh;
+    top: 20vh;
     max-width: 90%;
     text-align: center;
     align-self: center;
   }
 
-  #Kobe {
-    background-attachment: local;
-    background-position: 30% 50%;
+  .pic-kobe {
+    object-position: left;
   }
 
   #qoute {

@@ -6,7 +6,11 @@
       href="/css/style-homepage.css"
       fetchpriority="high"
     />
-
+    <link
+      rel="preconnect"
+      href="https://www.googletagmanager.com"
+      crossorigin
+    />
     <script src="/js/menu-close.js" defer></script>
     <link
       rel="preload"
@@ -89,22 +93,38 @@
 
     <div id="úvod">
       <picture>
-        <source srcset="/images/homepage/GPB-U17-161.avif" type="image/avif" />
-        <source srcset="/images/homepage/GPB-U17-161.webp" type="image/webp" />
+        <source
+          srcset="/images/homepage/GPB-U17-161-mobile.avif"
+          type="image/avif"
+          media="(max-width: 768px)"
+        />
+        <source
+          srcset="/images/homepage/GPB-U17-161.avif"
+          type="image/avif"
+          media="(min-width: 769px)"
+        />
+        <source
+          srcset="/images/homepage/GPB-U17-161-mobile.webp"
+          type="image/webp"
+          media="(max-width: 768px)"
+        />
+        <source
+          srcset="/images/homepage/GPB-U17-161.webp"
+          type="image/webp"
+          media="(min-width: 769px)"
+        />
         <img
           src="/images/homepage/GPB-U17-161.jpg"
-          alt="Já se spoluhráčem s
-        medailemi"
+          alt="Momentka ze zápasu"
           class="pic-úvod"
           height="1920"
           width="1080"
         />
       </picture>
+
       <div class="nadpis">
         <h1>Jakub Klokan</h1>
-        <p>
-          jsem badmintonový hráč reprezentující Českou republiku.
-        </p>
+        <p>jsem badmintonový hráč reprezentující Českou republiku.</p>
       </div>
     </div>
 
@@ -189,21 +209,34 @@
     <div id="Kobe">
       <picture>
         <source
+          srcset="/images/homepage/Adria-U17-singles-mobile.avif"
+          type="image/avif"
+          media="(max-width: 768px)"
+        />
+        <source
           srcset="/images/homepage/Adria-U17-singles.avif"
           type="image/avif"
+          media="(min-width: 769px)"
+        />
+        <source
+          srcset="/images/homepage/Adria-U17-singles-mobile.webp"
+          type="image/webp"
+          media="(max-width: 768px)"
         />
         <source
           srcset="/images/homepage/Adria-U17-singles.webp"
           type="image/webp"
+          media="(min-width: 769px)"
         />
         <img
           src="/images/homepage/Adria-U17-singles.jpg"
-          alt="Já se spoluhráčem s medailemi"
+          alt="Já ve dvouhře na turnaji"
           class="pic-kobe"
           height="600px"
           width="100vw"
         />
       </picture>
+
       <h2 id="qoute">
         "Rest at the end, not in the middle."
         <span id="author">Kobe Bryant</span>
