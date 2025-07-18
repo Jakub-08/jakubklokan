@@ -89,6 +89,11 @@ body{
     color: black;
 }
 
+.middle {
+  display: flex;
+  align-items: center;
+}
+
 .úvod p, .badminton p, .škola p, .vzdělání p, .sociální_sítě p {
     font-size: 1.25rem;
     margin-top: 20px;
