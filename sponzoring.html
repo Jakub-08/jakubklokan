@@ -1,6 +1,89 @@
 <!DOCTYPE html>
 <html lang="cs">
   <head>
+    <style>
+      #horní_lišta {
+        height: 80px;
+        background-color: rgba(15, 13, 13, 0.993);
+        font-style: normal;
+        text-decoration: underline rgba(15, 13, 13, 0.993);
+        color: white;
+        position: sticky;
+        top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        z-index: 1000;
+      }
+      .sponzorství {
+        height: fit-content;
+        background-color: #f7f9fc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding-bottom: 30px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+      }
+      #kontakt,
+      #nabídka,
+      #sponzorství {
+        scroll-margin-top: 150px;
+      }
+      .sponzorství h2,
+      .nabídka h2,
+      .kontakt h2 {
+        text-align: center;
+        color: #333;
+        padding-top: 30px;
+        font-size: 2.5rem;
+      }
+      .sponzorství-text {
+        width: 55%;
+        margin-left: 12%;
+        text-align: center;
+        align-self: start;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background-color: white;
+      }
+      .sponzorství-text p,
+      .nabídka-sponzoringu p,
+      .kontakt-text p {
+        font-size: 1.25rem;
+        line-height: 1.5;
+        color: black;
+        text-align: center;
+      }
+      .sponzorství h3,
+      .nabídka-sponzoringu h3,
+      .kontakt-text h3 {
+        text-align: center;
+        font-size: 1.9rem;
+      }
+      .sponzoři-loga {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 32%;
+      }
+      .sponzoři-loga img {
+        width: 150px;
+        height: 110px;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: #2b2a2a 0px 0px 10px;
+      }
+    </style>
     <link rel="stylesheet" href="/css/sponzoring.css" />
     <script src="/js/menu-close.js" defer></script>
     <meta charset="UTF-8" />
