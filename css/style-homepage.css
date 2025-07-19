@@ -46,8 +46,6 @@ body {
   min-height: 80vh;
   padding-bottom: 20px;
   height: fit-content;
-  
-  
 }
 
 .pic-úvod {
@@ -64,7 +62,7 @@ body {
   color: white;
   margin-left: 50%;
   margin-right: 8%;
-  
+
   text-align: center;
   z-index: 3;
   text-shadow: #1c1c1c 0px 0px 10px;
@@ -100,7 +98,7 @@ body {
   align-items: center;
   height: fit-content;
   padding-bottom: 20px;
-  position:relative;
+  position: relative;
   z-index: 20;
   background-color: #f7f9fc;
 }
@@ -168,10 +166,7 @@ body {
   object-fit: cover;
   object-position: 30% 30%;
   filter: brightness(0.7);
-
 }
-
-
 
 #qoute {
   position: relative;
@@ -230,9 +225,8 @@ body {
 .picture {
   display: flex;
   justify-content: center; /* vodorovně */
-  align-items: center;     /* svisle (pokud má výšku) */
+  align-items: center; /* svisle (pokud má výšku) */
 }
-
 
 .obec_Raná {
   display: flex;
@@ -264,7 +258,7 @@ body {
   align-items: center;
   background-color: rgba(15, 13, 13, 0.993);
   padding: 70px 0 70px 0;
-    height: 200px;
+  height: 200px;
   padding-bottom: 130px;
   padding-bottom: 130px;
 }
@@ -389,9 +383,8 @@ body {
   }
 
   .pic-úvod {
-   object-position: center left;
-  
-}
+    object-position: center left;
+  }
 
   .medaile {
     flex-direction: column;
@@ -501,8 +494,6 @@ body {
   .sponzoři img {
     object-fit: contain;
   }
-
-  
 
   .Ronin {
     width: 100%;
