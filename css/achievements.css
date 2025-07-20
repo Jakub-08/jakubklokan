@@ -7,9 +7,21 @@ body {
 
 .social {
   height: 40px;
-  margin-top: 20px;
-  margin-left: 50px;
-  float: left;
+}
+.logo_webu {
+  height: 80px;
+  width: auto;
+  position: absolute;
+  margin-left: 20px;
+}
+.social_div {
+  height: 120px;
+  gap: 40px;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #horní_lišta {
@@ -23,6 +35,12 @@ body {
   margin-bottom: 0;
   padding-bottom: 0;
   z-index: 1000;
+}
+.logo_webu {
+  height: 80px;
+  width: auto;
+  position: absolute;
+  margin-left: 20px;
 }
 
 .domů {
@@ -108,7 +126,7 @@ body {
 
 .záhlaví {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
   justify-content: center;
   align-items: center;
@@ -123,7 +141,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-left: 60%;
 }
 
 .kontakty {
@@ -132,7 +149,6 @@ body {
   align-items: start;
   gap: 10px;
   color: white;
-  margin-right: 60%;
 }
 
 .kontakty h2 {
@@ -253,6 +269,12 @@ body {
 @media screen and (max-width: 850px) {
   #horní_lišta {
     display: none;
+  }
+  .social_div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0;
   }
 
   .úvod h1 {

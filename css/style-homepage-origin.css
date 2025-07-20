@@ -25,6 +25,12 @@ body {
   padding-bottom: 0;
   z-index: 1000;
 }
+.logo_webu {
+  height: 80px;
+  width: auto;
+  position: absolute;
+  margin-left: 20px;
+}
 
 .domů {
   float: right;
@@ -252,7 +258,7 @@ h1 {
 
 .záhlaví {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
   justify-content: center;
   align-items: center;
@@ -268,7 +274,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-left: 60%;
 }
 
 .kontakty {

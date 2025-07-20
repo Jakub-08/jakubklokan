@@ -2,6 +2,16 @@
 <html lang="cs">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="images/homepage/Web_preview.png"
+      type="image/svg+xml"
+    />
+    <link
+      rel="icon"
+      href="images/homepage/Web_preview.png"
+      type="image/svg+xml"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jakub Klokan</title>
     <link
@@ -11,10 +21,7 @@
       type="image/avif"
     />
     <style>
-      #toggle-menu {
-        display: none;
-      }
-      odkazy-menu {
+      .odkazy-menu {
         display: none;
         flex-direction: column;
         background-color: #222;
@@ -28,7 +35,6 @@
         font-size: 1.875rem;
         padding: 15px;
         cursor: pointer;
-        display: none; /* Skryté na desktopu */
       }
       #horní_lišta {
         height: 80px;
@@ -41,13 +47,6 @@
         margin-bottom: 0;
         padding-bottom: 0;
         z-index: 1000;
-      }
-      .social {
-        height: 40px;
-        width: 40px;
-        margin-top: 20px;
-        margin-left: 50px;
-        float: left;
       }
       .domů {
         float: right;
@@ -107,6 +106,14 @@
   <body>
     <header>
       <nav id="horní_lišta" fetchpriority="high">
+        <div class="logo_webu">
+          <img
+            src="images/homepage/logo_webu_white.svg"
+            alt="logo webu"
+            width="80"
+            height="80"
+          />
+        </div>
         <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
         <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
         <a href="sponzoring.html" class="domů">Sponzoring</a>
@@ -114,25 +121,6 @@
         <a href="achievements.html" class="domů">Úspěchy</a>
         <a href="about_me.html" class="domů">O mně</a>
         <a href="index.html" class="domů">Domů</a>
-
-        <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
-          <img
-            class="social"
-            src="/images/homepage/Instagram_logo.svg"
-            alt="logo Instagramu"
-            width="40"
-            height="40"
-          />
-        </a>
-        <a href="https://m.facebook.com/klokanjakub/" target="_blank">
-          <img
-            class="social"
-            src="/images/homepage/Facebook_logo.svg"
-            alt="logo Facebooku"
-            width="40"
-            height="40"
-          />
-        </a>
       </nav>
 
       <nav class="mobilni-menu">
@@ -391,6 +379,22 @@
 
     <footer>
       <div class="záhlaví">
+        <div class="social_div">
+          <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+            <img
+              class="social"
+              src="/images/homepage/Instagram_logo.svg"
+              alt="logo Instagramu"
+            />
+          </a>
+          <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+            <img
+              class="social"
+              src="/images/homepage/Facebook_logo.svg"
+              alt="logo Facebooku"
+            />
+          </a>
+        </div>
         <nav class="odkazy">
           <a href="index.html">Domů</a>
           <a href="about_me.html">O mně</a>
@@ -415,7 +419,6 @@
           </p>
         </div>
       </div>
-
       <p class="copyright">© 2025 Jakub Klokan</p>
       <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
       <p class="copyright">© Super Stars Most</p>
