@@ -11,6 +11,25 @@
       type="image/avif"
     />
     <style>
+      #toggle-menu {
+        display: none;
+      }
+      odkazy-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #222;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+      }
+      .menu-ikona {
+        font-size: 1.875rem;
+        padding: 15px;
+        cursor: pointer;
+        display: none; /* Skryté na desktopu */
+      }
       #horní_lišta {
         height: 80px;
         background-color: rgba(15, 13, 13, 0.993);
