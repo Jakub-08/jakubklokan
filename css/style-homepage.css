@@ -59,7 +59,6 @@ body {
   width: 100vw;
   position: absolute;
   object-fit: cover;
-  object-position: center;
   filter: brightness(0.9);
   display: block;
 }
@@ -492,7 +491,6 @@ odkazy-menu {
   width: 100vw;
   position: absolute;
   object-fit: cover;
-  object-position: center;
   filter: brightness(0.9);
   display: block;
 }

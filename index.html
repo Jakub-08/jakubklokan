@@ -56,9 +56,13 @@
         width: 100vw;
         position: absolute;
         object-fit: cover;
-        object-position: center;
         filter: brightness(0.9);
         display: block;
+      }
+      @media only screen and (max-width: 770px) {
+        .pic-úvod {
+          object-position: center left;
+        }
       }
     </style>
     <link rel="stylesheet" href="/css/style-homepage.css" />
@@ -121,14 +125,16 @@
   <body>
     <header>
       <nav id="horní_lišta" fetchpriority="high">
-        <div class="logo_webu">
-          <img
-            src="/Logo_webu_white.svg"
-            alt="logo webu"
-            width="80"
-            height="80"
-          />
-        </div>
+        <a href="/">
+          <div class="logo_webu">
+            <img
+              src="/Logo_webu_white.svg"
+              alt="logo webu"
+              width="80"
+              height="80"
+            />
+          </div>
+        </a>
         <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
         <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
         <a href="sponzoring.html" class="domů">Sponzoring</a>
@@ -187,7 +193,7 @@
 
         <div class="nadpis">
           <h1>Jakub Klokan</h1>
-          <p>jsem badmintonový hráč reprezentující Českou republiku.</p>
+          <p>Jsem badmintonový hráč reprezentující Českou republiku.</p>
         </div>
       </section>
 
