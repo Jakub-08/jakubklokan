@@ -55,29 +55,24 @@
   </head>
   <body>
     <header>
-      <nav id="horní_lišta">
+      <nav id="horní_lišta" fetchpriority="high">
+        <a href="/">
+          <div class="logo_webu">
+            <img
+              src="/Logo_webu_white.svg"
+              alt="logo webu"
+              width="80"
+              height="80"
+            />
+          </div>
+        </a>
         <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
         <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
-        <a href="sponzoring.html" class="domů">Sponzoring</a>
+        <a href="/sponzoring.html" class="domů">Sponzoring</a>
         <a href="" class="domů">Články</a>
-        <a href="achievements.html" class="domů">Úspěchy</a>
-        <a href="about_me.html" class="domů">O mně</a>
-        <a href="index.html" class="domů">Domů</a>
-
-        <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
-          <img
-            class="social"
-            src="/images/homepage/Instagram_logo.svg"
-            alt="logo Instagramu"
-          />
-        </a>
-        <a href="https://m.facebook.com/klokanjakub/" target="_blank">
-          <img
-            class="social"
-            src="/images/homepage/Facebook_logo.svg"
-            alt="logo Facebooku"
-          />
-        </a>
+        <a href="/achievements.html" class="domů">Úspěchy</a>
+        <a href="/about_me.html" class="domů">O mně</a>
+        <a href="/index.html" class="domů">Domů</a>
       </nav>
 
       <nav class="mobilni-menu">
@@ -85,11 +80,28 @@
         <label for="toggle-menu" class="menu-ikona">&#9776;</label>
 
         <ul class="odkazy-menu">
-          <li><a href="index.html">Domů</a></li>
-          <li><a href="about_me.html">O mně</a></li>
-          <li><a href="achievements.html">Úspěchy</a></li>
+          <li><a href="/index.html">Domů</a></li>
+          <li><a href="/about_me.html">O mně</a></li>
+          <li><a href="/achievements.html">Úspěchy</a></li>
           <li><a href="">Články</a></li>
-          <li><a href="sponzoring.html">Sponzoring</a></li>
+          <li><a href="/sponzoring.html">Sponzoring</a></li>
+          <li>
+            <a href="/Photo_gallery.html">Fotogalerie</a>
+          </li>
+          <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <nav class="mobilni-menu">
+        <input type="checkbox" id="toggle-menu" autocomplete="off" />
+        <label for="toggle-menu" class="menu-ikona">&#9776;</label>
+
+        <ul class="odkazy-menu">
+          <li><a href="/index.html">Domů</a></li>
+          <li><a href="/about_me.html">O mně</a></li>
+          <li><a href="/achievements.html">Úspěchy</a></li>
+          <li><a href="">Články</a></li>
+          <li><a href="/sponzoring.html">Sponzoring</a></li>
           <li>
             <a href="/Photo_gallery.html">Fotogalerie</a>
           </li>
@@ -107,61 +119,121 @@
         <div class="album">
           <a href="../Photo_gallery/Gallery_25/Gallery_25.html" class="img">
             <span class="num" id="bigger">2025</span>
-            <img
-              src="../Photo_gallery/Gallery_25/Images_25/Družstva U19/Družstva U19 3.jpg"
-              alt="Momentka z turnaje"
-            />
+            <picture>
+              <source
+                srcset="../Photo_gallery/Gallery_25/Images_25/Družstva U19/Družstva U19 3.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="../Photo_gallery/Gallery_25/Images_25/Družstva U19/Družstva U19 3.webp"
+                type="image/webp"
+              />
+              <img
+                src="../Photo_gallery/Gallery_25/Images_25/Družstva U19/Družstva U19 3.jpg"
+                alt="Momentka z turnaje"
+              />
+            </picture>
           </a>
         </div>
 
         <div class="album">
           <a href="../Photo_gallery/Gallery_24/Gallery_24.html" class="img">
             <span class="num" id="bigger">2024</span>
-            <img
-              src="../Photo_gallery/Gallery_24/Adria 2024/Adria U17 8.jpg"
-              alt="Já se spoluhráčem s medialem"
-            />
+            <picture>
+              <source
+                srcset="../Photo_gallery/Gallery_24/Adria 2024/Adria U17 8.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="../Photo_gallery/Gallery_24/Adria 2024/Adria U17 8.webp"
+                type="image/webp"
+              />
+              <img
+                src="../Photo_gallery/Gallery_24/Adria 2024/Adria U17 8.jpg"
+                alt="Já se spoluhráčem s medialem"
+              />
+            </picture>
           </a>
         </div>
 
         <div class="album">
           <a href="../Photo_gallery/Gallery_23/Gallery_23.html" class="img">
             <span class="num" id="bigger">2023</span>
-            <img
-              src="../Photo_gallery/Gallery_23/Bozner/Bozner Cup 2.JPG"
-              alt="Momentka z turnaje"
-              class="change_2"
-            />
+            <picture>
+              <source
+                srcset="../Photo_gallery/Gallery_23/Bozner/Bozner Cup 2.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="../Photo_gallery/Gallery_23/Bozner/Bozner Cup 2.webp"
+                type="image/webp"
+              />
+              <img
+                src="../Photo_gallery/Gallery_23/Bozner/Bozner Cup 2.jpg"
+                alt="Momentka z turnaje"
+                class="change_2"
+              />
+            </picture>
           </a>
         </div>
 
         <div class="album">
           <a href="../Photo_gallery/Gallery_22/Gallery_22.html" class="img">
             <span class="num" id="bigger">2022</span>
-            <img
-              src="../Photo_gallery/Gallery_22/GPA U15 - Krumlov/GPA U15 - Krumlov 5.jpg"
-              alt="Momentka z turnaje"
-            />
+            <picture>
+              <source
+                srcset="../Photo_gallery/Gallery_22/GPA U15 - Krumlov/GPA U15 - Krumlov 5.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="../Photo_gallery/Gallery_22/GPA U15 - Krumlov/GPA U15 - Krumlov 5.webp"
+                type="image/webp"
+              />
+              <img
+                src="../Photo_gallery/Gallery_22/GPA U15 - Krumlov/GPA U15 - Krumlov 5.jpg"
+                alt="Momentka z turnaje"
+              />
+            </picture>
           </a>
         </div>
 
         <div class="album">
           <a href="../Photo_gallery/Gallery_21/Gallery_21.html" class="img">
             <span class="num" id="bigger">2021</span>
-            <img
-              src="../Photo_gallery/Gallery_21/Adria U15/Adria U15 4.jpg"
-              alt="Momentka z turnaje"
-            />
+            <picture>
+              <source
+                srcset="../Photo_gallery/Gallery_21/Adria U15/Adria U15 4.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="../Photo_gallery/Gallery_21/Adria U15/Adria U15 4.webp"
+                type="image/webp"
+              />
+              <img
+                src="../Photo_gallery/Gallery_21/Adria U15/Adria U15 4.jpg"
+                alt="Momentka z turnaje"
+              />
+            </picture>
           </a>
         </div>
 
         <div class="album">
           <a href="../Photo_gallery/Gallery_20/GPB U13 - Vary.html" class="img">
             <span class="num" id="bigger">2020</span>
-            <img
-              src="../Photo_gallery/Gallery_20/GPB U13 - Vary - stupně vítězů.jpg"
-              alt="Já na stupních vítězů"
-            />
+            <picture>
+              <source
+                srcset="../Photo_gallery/Gallery_20/GPB U13 - Vary - stupně vítězů.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="../Photo_gallery/Gallery_20/GPB U13 - Vary - stupně vítězů.webp"
+                type="image/webp"
+              />
+              <img
+                src="../Photo_gallery/Gallery_20/GPB U13 - Vary - stupně vítězů.jpg"
+                alt="Já na stupních vítězů"
+              />
+            </picture>
           </a>
         </div>
       </section>
@@ -169,12 +241,28 @@
 
     <footer>
       <div class="záhlaví">
+        <div class="social_div">
+          <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+            <img
+              class="social"
+              src="/images/homepage/Instagram_logo.svg"
+              alt="logo Instagramu"
+            />
+          </a>
+          <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+            <img
+              class="social"
+              src="/images/homepage/Facebook_logo.svg"
+              alt="logo Facebooku"
+            />
+          </a>
+        </div>
         <nav class="odkazy">
-          <a href="index.html">Domů</a>
-          <a href="about_me.html">O mně</a>
-          <a href="achievements.html">Úspěchy</a>
+          <a href="/index.html">Domů</a>
+          <a href="/about_me.html">O mně</a>
+          <a href="/achievements.html">Úspěchy</a>
           <a href="">Články</a>
-          <a href="sponzoring.html">Sponzoring</a>
+          <a href="/sponzoring.html">Sponzoring</a>
           <a href="/Photo_gallery.html">Fotogalerie</a>
           <a href="/sponzoring.html#kontakt">Kontakt</a>
         </nav>

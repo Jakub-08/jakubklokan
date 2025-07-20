@@ -57,49 +57,61 @@
     <title>Fotogalerie 2021 - Adria Youth International</title>
   </head>
   <body>
-    <div id="horní_lišta">
-      <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
-      <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
-      <a href="/sponzoring.html" class="domů">Sponzoring</a>
-      <a href="" class="domů">Články</a>
-      <a href="/achievements.html" class="domů">Úspěchy</a>
-      <a href="/about_me.html" class="domů">O mně</a>
-      <a href="/index.html" class="domů">Domů</a>
+    <header>
+      <nav id="horní_lišta" fetchpriority="high">
+        <a href="/">
+          <div class="logo_webu">
+            <img
+              src="/Logo_webu_white.svg"
+              alt="logo webu"
+              width="80"
+              height="80"
+            />
+          </div>
+        </a>
+        <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
+        <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
+        <a href="/sponzoring.html" class="domů">Sponzoring</a>
+        <a href="" class="domů">Články</a>
+        <a href="/achievements.html" class="domů">Úspěchy</a>
+        <a href="/about_me.html" class="domů">O mně</a>
+        <a href="/index.html" class="domů">Domů</a>
+      </nav>
 
-      <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
-        <img
-          class="social"
-          src="/images/homepage/Instagram_logo.svg"
-          alt="logo Instagramu"
-        />
-      </a>
-      <a href="https://m.facebook.com/klokanjakub/" target="_blank">
-        <img
-          class="social"
-          src="/images/homepage/Facebook_logo.svg"
-          alt="logo Facebooku"
-        />
-      </a>
-    </div>
+      <nav class="mobilni-menu">
+        <input type="checkbox" id="toggle-menu" autocomplete="off" />
+        <label for="toggle-menu" class="menu-ikona">&#9776;</label>
 
-    <nav class="mobilni-menu">
-      <input type="checkbox" id="toggle-menu" autocomplete="off" />
-      <label for="toggle-menu" class="menu-ikona">&#9776;</label>
+        <ul class="odkazy-menu">
+          <li><a href="/index.html">Domů</a></li>
+          <li><a href="/about_me.html">O mně</a></li>
+          <li><a href="/achievements.html">Úspěchy</a></li>
+          <li><a href="">Články</a></li>
+          <li><a href="/sponzoring.html">Sponzoring</a></li>
+          <li>
+            <a href="/Photo_gallery.html">Fotogalerie</a>
+          </li>
+          <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
 
-      <ul class="odkazy-menu">
-        <li><a href="/index.html">Domů</a></li>
-        <li><a href="/about_me.html">O mně</a></li>
-        <li><a href="/achievements.html">Úspěchy</a></li>
-        <li><a href="">Články</a></li>
-        <li><a href="/sponzoring.html">Sponzoring</a></li>
-        <li>
-          <a href="/Photo_gallery.html">Fotogalerie</a>
-        </li>
-        <li>
-          <a href="/sponzoring.html#kontakt">Kontakt</a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="mobilni-menu">
+        <input type="checkbox" id="toggle-menu" autocomplete="off" />
+        <label for="toggle-menu" class="menu-ikona">&#9776;</label>
+
+        <ul class="odkazy-menu">
+          <li><a href="/index.html">Domů</a></li>
+          <li><a href="/about_me.html">O mně</a></li>
+          <li><a href="/achievements.html">Úspěchy</a></li>
+          <li><a href="">Články</a></li>
+          <li><a href="/sponzoring.html">Sponzoring</a></li>
+          <li>
+            <a href="/Photo_gallery.html">Fotogalerie</a>
+          </li>
+          <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <div class="nadpis">
       <h1>Adria Youth International 2021</h1>
@@ -116,33 +128,52 @@
       </div>
     </div>
 
-    <div class="záhlaví">
-      <div class="odkazy">
-        <a href="/index.html">Domů</a>
-        <a href="/about_me.html">O mně</a>
-        <a href="">Články</a>
-        <a href="/achievements.html">Úspěchy</a>
-        <a href="/sponzoring.html">Sponzoři</a>
-        <a href="/Photo_gallery.html">Fotogalerie</a>
-        <a href="/sponzoring.html#kontakt">Kontakt</a>
-      </div>
+    <footer>
+      <div class="záhlaví">
+        <div class="social_div">
+          <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+            <img
+              class="social"
+              src="/images/homepage/Instagram_logo.svg"
+              alt="logo Instagramu"
+            />
+          </a>
+          <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+            <img
+              class="social"
+              src="/images/homepage/Facebook_logo.svg"
+              alt="logo Facebooku"
+            />
+          </a>
+        </div>
+        <nav class="odkazy">
+          <a href="/index.html">Domů</a>
+          <a href="/about_me.html">O mně</a>
+          <a href="/achievements.html">Úspěchy</a>
+          <a href="">Články</a>
+          <a href="/sponzoring.html">Sponzoring</a>
+          <a href="/Photo_gallery.html">Fotogalerie</a>
+          <a href="/sponzoring.html#kontakt">Kontakt</a>
+        </nav>
 
-      <div class="kontakty">
-        <h2>Kontakty</h2>
-        <p>
-          Email:<a href="mailto:klokan.jakub08@gmail.com"
-            >klokan.jakub08@gmail.com</a
-          >
-        </p>
-        <p>Tel.: +420 608 021 109</p>
-        <p>
-          IG: <a href="https://www.instagram.com/jakub.klokan/">jakub.klokan</a>
-        </p>
+        <div class="kontakty">
+          <h2>Kontakty</h2>
+          <p>
+            Email:<a href="mailto:klokan.jakub08@gmail.com"
+              >klokan.jakub08@gmail.com</a
+            >
+          </p>
+          <p>Tel.: +420 608 021 109</p>
+          <p>
+            IG:
+            <a href="https://www.instagram.com/jakub.klokan/">jakub.klokan</a>
+          </p>
+        </div>
       </div>
-    </div>
-    <p class="copyright">© 2025 Jakub Klokan</p>
-    <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
-    <p class="copyright">© Super Stars Most</p>
-    <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
+      <p class="copyright">© 2025 Jakub Klokan</p>
+      <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
+      <p class="copyright">© Super Stars Most</p>
+      <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
+    </footer>
   </body>
 </html>

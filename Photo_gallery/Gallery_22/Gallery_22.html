@@ -57,164 +57,205 @@
     <title>Fotogalerie 2022</title>
   </head>
   <body>
-    <div id="horní_lišta">
-      <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
-      <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
-      <a href="/sponzoring.html" class="domů">Sponzoring</a>
-      <a href="" class="domů">Články</a>
-      <a href="/achievements.html" class="domů">Úspěchy</a>
-      <a href="/about_me.html" class="domů">O mně</a>
-      <a href="/index.html" class="domů">Domů</a>
-
-      <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
-        <img
-          class="social"
-          src="/images/homepage/Instagram_logo.svg"
-          alt="logo Instagramu"
-        />
-      </a>
-      <a href="https://m.facebook.com/klokanjakub/" target="_blank">
-        <img
-          class="social"
-          src="/images/homepage/Facebook_logo.svg"
-          alt="logo Facebooku"
-        />
-      </a>
-    </div>
-
-    <nav class="mobilni-menu">
-      <input type="checkbox" id="toggle-menu" autocomplete="off" />
-      <label for="toggle-menu" class="menu-ikona">&#9776;</label>
-
-      <ul class="odkazy-menu">
-        <li><a href="/index.html">Domů</a></li>
-        <li><a href="/about_me.html">O mně</a></li>
-        <li><a href="/achievements.html">Úspěchy</a></li>
-        <li><a href="">Články</a></li>
-        <li><a href="/sponzoring.html">Sponzoring</a></li>
-        <li>
-          <a href="/Photo_gallery.html">Fotogalerie</a>
-        </li>
-        <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
-
-    <div class="nadpis">
-      <h1>Fotogalerie - 2022</h1>
-      <a href="/Photo_gallery.html">← Zpět</a>
-    </div>
-
-    <div class="roky">
-      <div class="album">
-        <a href="../Gallery_22/Cup/Cup.html" class="img">
-          <span class="num">FALCO Cup</span>
-          <img
-            src="../Gallery_22/Cup/Sev. Český CUP 5.jpg"
-            alt="Momentka z turnaje"
-          />
+    <header>
+      <nav id="horní_lišta" fetchpriority="high">
+        <a href="/">
+          <div class="logo_webu">
+            <img
+              src="/Logo_webu_white.svg"
+              alt="logo webu"
+              width="80"
+              height="80"
+            />
+          </div>
         </a>
+        <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
+        <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
+        <a href="/sponzoring.html" class="domů">Sponzoring</a>
+        <a href="" class="domů">Články</a>
+        <a href="/achievements.html" class="domů">Úspěchy</a>
+        <a href="/about_me.html" class="domů">O mně</a>
+        <a href="/index.html" class="domů">Domů</a>
+      </nav>
+
+      <nav class="mobilni-menu">
+        <input type="checkbox" id="toggle-menu" autocomplete="off" />
+        <label for="toggle-menu" class="menu-ikona">&#9776;</label>
+
+        <ul class="odkazy-menu">
+          <li><a href="/index.html">Domů</a></li>
+          <li><a href="/about_me.html">O mně</a></li>
+          <li><a href="/achievements.html">Úspěchy</a></li>
+          <li><a href="">Články</a></li>
+          <li><a href="/sponzoring.html">Sponzoring</a></li>
+          <li>
+            <a href="/Photo_gallery.html">Fotogalerie</a>
+          </li>
+          <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <nav class="mobilni-menu">
+        <input type="checkbox" id="toggle-menu" autocomplete="off" />
+        <label for="toggle-menu" class="menu-ikona">&#9776;</label>
+
+        <ul class="odkazy-menu">
+          <li><a href="/index.html">Domů</a></li>
+          <li><a href="/about_me.html">O mně</a></li>
+          <li><a href="/achievements.html">Úspěchy</a></li>
+          <li><a href="">Články</a></li>
+          <li><a href="/sponzoring.html">Sponzoring</a></li>
+          <li>
+            <a href="/Photo_gallery.html">Fotogalerie</a>
+          </li>
+          <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="nadpis">
+        <h1>Fotogalerie - 2022</h1>
+        <a href="/Photo_gallery.html">← Zpět</a>
       </div>
 
-      <div class="album">
-        <a
-          href="../Gallery_22/GPA U15 - Hradec/GPA U15 - Hradec.html"
-          class="img"
-        >
-          <span class="num">GPA U15 - Hradec Králové</span>
-          <img
-            src="../Gallery_22/GPA U15 - Hradec/GPA U15 - Hradec 4.jpg"
-            alt="Fotka s medailemi ze smíšené čtyřhry"
-          />
-        </a>
-      </div>
+      <section class="roky">
+        <div class="album">
+          <a href="../Gallery_22/Cup/Cup.html" class="img">
+            <span class="num">FALCO Cup</span>
+            <img
+              src="../Gallery_22/Cup/Sev. Český CUP 5.jpg"
+              alt="Momentka z turnaje"
+            />
+          </a>
+        </div>
 
-      <div class="album">
-        <a
-          href="../Gallery_22/GPA U15 - Krumlov/GPA U15 - Krumlov.html"
-          class="img"
-        >
-          <span class="num">GPA U15 - Český Krumlov</span>
-          <img
-            src="../Gallery_22/GPA U15 - Krumlov/GPA U15 - Krumlov 7.jpg"
-            alt="Momentka z turnaje"
-          />
-        </a>
-      </div>
-
-      <div class="album">
-        <a href="../Gallery_22/GPA U15 - Ústí/GPA U15 - Ústí.html" class="img">
-          <span class="num">GPA U15 - Ústí nad Labem</span>
-          <img
-            src="../Gallery_22/GPA U15 - Ústí/GPA U15 - Ústí 4.jpg"
-            alt="Momentka z turnaje"
-          />
-        </a>
-      </div>
-
-      <div class="album">
-        <a
-          href="../Gallery_22/GPB U15 - Ivančice/GPB U15 - Ivančice.html"
-          class="img"
-        >
-          <span class="num">GPB U15 - Ivančice</span>
-          <img
-            src="../Gallery_22/GPB U15 - Ivančice/GPB U15 - Ivančice 1.jpg"
-            alt="Fotka s medailemi ze smíšené čtyřhry"
-          />
-        </a>
-      </div>
-
-      <div class="album">
-        <a
-          href="../Gallery_22/MČR U15 - Krumlov/MČR U15 - Krumlov.html"
-          class="img"
-        >
-          <span class="num">MČR U15</span>
-          <img
-            src="../Gallery_22/MČR U15 - Krumlov/MČR U15 - Krumlov 4.jpg"
-            alt="Momentka z turnaje"
-          />
-        </a>
-      </div>
-
-      <div class="album">
-        <a href="../Gallery_22/MČR U17 - Brno/MČR U17 - Brno.html" class="img">
-          <span class="num">MČR U17</span>
-          <img
-            src="../Gallery_22/MČR U17 - Brno/MČR U17 - Brno 4.jpg"
-            alt="Momentka z turnaje"
-          />
-        </a>
-      </div>
-    </div>
-
-    <div class="záhlaví">
-      <div class="odkazy">
-        <a href="/index.html">Domů</a>
-        <a href="/about_me.html">O mně</a>
-        <a href="">Články</a>
-        <a href="/achievements.html">Úspěchy</a>
-        <a href="/sponzoring.html">Sponzoři</a>
-        <a href="/Photo_gallery.html">Fotogalerie</a>
-        <a href="/sponzoring.html#kontakt">Kontakt</a>
-      </div>
-
-      <div class="kontakty">
-        <h2>Kontakty</h2>
-        <p>
-          Email:<a href="mailto:klokan.jakub08@gmail.com"
-            >klokan.jakub08@gmail.com</a
+        <div class="album">
+          <a
+            href="../Gallery_22/GPA U15 - Hradec/GPA U15 - Hradec.html"
+            class="img"
           >
-        </p>
-        <p>Tel.: +420 608 021 109</p>
-        <p>
-          IG: <a href="https://www.instagram.com/jakub.klokan/">jakub.klokan</a>
-        </p>
+            <span class="num">GPA U15 - Hradec Králové</span>
+            <img
+              src="../Gallery_22/GPA U15 - Hradec/GPA U15 - Hradec 4.jpg"
+              alt="Fotka s medailemi ze smíšené čtyřhry"
+            />
+          </a>
+        </div>
+
+        <div class="album">
+          <a
+            href="../Gallery_22/GPA U15 - Krumlov/GPA U15 - Krumlov.html"
+            class="img"
+          >
+            <span class="num">GPA U15 - Český Krumlov</span>
+            <img
+              src="../Gallery_22/GPA U15 - Krumlov/GPA U15 - Krumlov 7.jpg"
+              alt="Momentka z turnaje"
+            />
+          </a>
+        </div>
+
+        <div class="album">
+          <a
+            href="../Gallery_22/GPA U15 - Ústí/GPA U15 - Ústí.html"
+            class="img"
+          >
+            <span class="num">GPA U15 - Ústí nad Labem</span>
+            <img
+              src="../Gallery_22/GPA U15 - Ústí/GPA U15 - Ústí 4.jpg"
+              alt="Momentka z turnaje"
+            />
+          </a>
+        </div>
+
+        <div class="album">
+          <a
+            href="../Gallery_22/GPB U15 - Ivančice/GPB U15 - Ivančice.html"
+            class="img"
+          >
+            <span class="num">GPB U15 - Ivančice</span>
+            <img
+              src="../Gallery_22/GPB U15 - Ivančice/GPB U15 - Ivančice 1.jpg"
+              alt="Fotka s medailemi ze smíšené čtyřhry"
+            />
+          </a>
+        </div>
+
+        <div class="album">
+          <a
+            href="../Gallery_22/MČR U15 - Krumlov/MČR U15 - Krumlov.html"
+            class="img"
+          >
+            <span class="num">MČR U15</span>
+            <img
+              src="../Gallery_22/MČR U15 - Krumlov/MČR U15 - Krumlov 4.jpg"
+              alt="Momentka z turnaje"
+            />
+          </a>
+        </div>
+
+        <div class="album">
+          <a
+            href="../Gallery_22/MČR U17 - Brno/MČR U17 - Brno.html"
+            class="img"
+          >
+            <span class="num">MČR U17</span>
+            <img
+              src="../Gallery_22/MČR U17 - Brno/MČR U17 - Brno 4.jpg"
+              alt="Momentka z turnaje"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="záhlaví">
+        <div class="social_div">
+          <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+            <img
+              class="social"
+              src="/images/homepage/Instagram_logo.svg"
+              alt="logo Instagramu"
+            />
+          </a>
+          <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+            <img
+              class="social"
+              src="/images/homepage/Facebook_logo.svg"
+              alt="logo Facebooku"
+            />
+          </a>
+        </div>
+        <nav class="odkazy">
+          <a href="/index.html">Domů</a>
+          <a href="/about_me.html">O mně</a>
+          <a href="/achievements.html">Úspěchy</a>
+          <a href="">Články</a>
+          <a href="/sponzoring.html">Sponzoring</a>
+          <a href="/Photo_gallery.html">Fotogalerie</a>
+          <a href="/sponzoring.html#kontakt">Kontakt</a>
+        </nav>
+
+        <div class="kontakty">
+          <h2>Kontakty</h2>
+          <p>
+            Email:<a href="mailto:klokan.jakub08@gmail.com"
+              >klokan.jakub08@gmail.com</a
+            >
+          </p>
+          <p>Tel.: +420 608 021 109</p>
+          <p>
+            IG:
+            <a href="https://www.instagram.com/jakub.klokan/">jakub.klokan</a>
+          </p>
+        </div>
       </div>
-    </div>
-    <p class="copyright">© 2025 Jakub Klokan</p>
-    <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
-    <p class="copyright">© Super Stars Most</p>
-    <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
+      <p class="copyright">© 2025 Jakub Klokan</p>
+      <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
+      <p class="copyright">© Super Stars Most</p>
+      <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
+    </footer>
   </body>
 </html>
