@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="cs">
   <head>
+    <link
+      rel="preload"
+      as="image"
+      href="/images/homepage/GPB-U17-161-mobile.avif"
+      type="image/avif"
+    />
     <style>
       .pic-úvod {
         height: 80vh;
         width: 100vw;
-        position: absolute;
-        object-fit: cover;
-        object-position: center;
-        filter: brightness(0.9);
         display: block;
       }
     </style>
     <link
       rel="stylesheet"
       href="/css/style-homepage.css"
-      fetchpriority="high"
     />
     <link
       rel="preconnect"
@@ -23,13 +24,6 @@
       crossorigin
     />
     <script src="/js/menu-close.js" defer></script>
-    <link
-      rel="preload"
-      as="image"
-      href="/images/homepage/GPB-U17-161-mobile.avif"
-      type="image/avif"
-      fetchpriority="high"
-    />
     <link
       rel="preload"
       as="image"
@@ -138,7 +132,6 @@
             src="/images/homepage/GPB-U17-161.jpg"
             alt="Momentka ze zápasu"
             fetchpriority="high"
-            loading="eager"
             class="pic-úvod"
             height="1920"
             width="1080"
