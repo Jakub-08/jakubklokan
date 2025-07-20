@@ -60,10 +60,14 @@
       .pic-úvod {
         height: 80vh;
         width: 100vw;
+        position: absolute;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(0.9);
         display: block;
       }
     </style>
-    <link rel="stylesheet" href="/css/style-homepage.css">
+    <link rel="stylesheet" href="/css/style-homepage.css" />
     <link
       rel="preconnect"
       href="https://www.googletagmanager.com"
@@ -294,6 +298,7 @@
             class="pic-kobe"
             height="600px"
             width="100vw"
+            loading="lazy"
           />
         </picture>
 
@@ -312,6 +317,7 @@
               alt="logo firmy Helen Doron"
               width="199"
               height="67"
+              loading="lazy"
               style="
                 aspect-ratio: 199 / 67;
                 width: 100%;
@@ -327,6 +333,7 @@
               alt="logo firmy Peyton legal"
               width="447"
               height="171"
+              loading="lazy"
               style="
                 aspect-ratio: 447 / 171;
                 width: 100%;
@@ -342,6 +349,7 @@
             alt="logo firmy Ronin Advisors"
             class="Ronin"
             width="346"
+            loading="lazy"
             height="40"
             style="
               aspect-ratio: 346 / 40;
@@ -368,6 +376,7 @@
                   alt="erb obce Raná"
                   width="260"
                   height="260"
+                  loading="lazy"
                   style="
                     aspect-ratio: 1 / 1;
                     width: 100%;
