@@ -348,6 +348,10 @@ footer {
     display: none;
   }
 
+  .arrow {
+    font-size: 30px;
+  }
+
   .nadpis a {
     display: none;
   }
