@@ -311,18 +311,22 @@ footer {
 #toggle-menu {
   display: none;
 }
-.menu-ikona {
-  margin-left: 20px;
-}
+
 .odkazy-menu {
   display: none;
   flex-direction: column;
   background-color: #222;
   position: absolute;
-  top: 40px;
+  top: 34px;
   left: 0;
   right: 0;
   z-index: 1000;
+  list-style: none;
+  padding: 0;
+}
+
+.mobilni_logo {
+  margin-left: 20px;
 }
 .odkazy-menu li {
   border-bottom: 1px solid #444;
@@ -334,10 +338,10 @@ footer {
   text-decoration: none;
 } /* Tlačítko (3 čárky) */
 .menu-ikona {
-  font-size: 30px;
-  color: white;
-  padding: 15px;
+  font-size: 1.5rem;
+  padding: 10px;
   cursor: pointer;
+  margin-right: 20px;
   display: none; /* Skryté na desktopu */
 } /* Checkbox ovládá viditelnost menu */
 #toggle-menu:checked + .menu-ikona + .odkazy-menu {
@@ -453,7 +457,6 @@ footer {
 
   .text-footer span {
     width: 90%;
-    width: 50px;
   }
 
   .kontakty img {
@@ -477,6 +480,7 @@ footer {
   }
   .menu-ikona {
     display: block;
+    color: whitesmoke;
   }
   .odkazy-menu {
     display: none;
@@ -490,7 +494,8 @@ footer {
     background: rgba(15, 13, 13, 0.98);
     display: flex;
     align-items: center;
-    height: 60px;
+    justify-content: space-between;
+    height: 50px;
   }
 }
 @media screen and (orientation: landscape) and (max-width: 1000px) {
