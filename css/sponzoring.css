@@ -223,11 +223,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
   justify-content: center;
-  align-items: center;
-  background-color: rgba(15, 13, 13, 0.993);
+  align-items: start;
   padding: 70px 0 70px 0;
-  height: 200px;
-  padding-bottom: 130px;
+  height: fit-content;
+  padding-bottom: 80px;
+  font-size: 0.8rem;
 }
 .odkazy {
   display: flex;
@@ -242,23 +242,47 @@ body {
   gap: 10px;
   color: white;
 }
-.kontakty h2 {
-  font-size: 1.25rem;
-  margin-bottom: 10px;
-  margin-left: 15px;
+footer {
+  background-color: rgba(0, 0, 0, 0.904);
 }
-.záhlaví a {
+
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  line-height: 1.5;
+}
+
+.text-footer span {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.oddělení {
+  display: none;
+}
+
+.kontakty span {
+  margin-left: 15px;
+  font-size: 0.875rem;
+}
+
+.záhlaví a,
+.phone {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
-  font-size: 1.06rem;
-  margin: 0 20px;
+  font-size: 1rem;
 }
 .copyright {
   color: white;
-  background-color: rgba(15, 13, 13, 0.993);
   margin: 0;
   padding-bottom: 20px;
   text-align: center;
+  font-size: 0.75rem;
 }
 .záhlaví a:hover {
   font-weight: bold;
@@ -412,8 +436,28 @@ body {
     align-items: center;
   }
   .kontakty {
-    margin-top: 30px;
     gap: 3px;
+  }
+
+  .oddělení {
+    display: block;
+    margin: 1rem auto;
+    height: 1px;
+    width: 20%;
+    background-color: white;
+  }
+
+  .text-footer {
+    margin-left: 0;
+  }
+
+  .text-footer span {
+    width: 90%;
+    width: 50px;
+  }
+
+  .kontakty img {
+    width: 30px;
   }
   .kontakty h2 {
     margin: 0;
@@ -421,7 +465,7 @@ body {
   }
   .záhlaví {
     height: fit-content;
-    padding: 30px 0 30px 0;
+    padding-bottom: 0;
   }
   .záhlaví a,
   .záhlaví p,

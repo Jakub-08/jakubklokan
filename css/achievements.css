@@ -129,11 +129,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
   justify-content: center;
-  align-items: center;
-  background-color: rgba(15, 13, 13, 0.993);
+  align-items: start;
   padding: 70px 0 70px 0;
-  height: 200px;
-  padding-bottom: 130px;
+  height: fit-content;
+  padding-bottom: 80px;
+  font-size: 0.8rem;
 }
 
 .odkazy {
@@ -151,25 +151,48 @@ body {
   color: white;
 }
 
-.kontakty h2 {
-  font-size: 1.25rem;
-  margin-bottom: 10px;
-  margin-left: 15px;
+footer {
+  background-color: rgba(0, 0, 0, 0.904);
 }
 
-.záhlaví a {
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  line-height: 1.5;
+}
+
+.text-footer span {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.oddělení {
+  display: none;
+}
+
+.kontakty span {
+  margin-left: 15px;
+  font-size: 0.875rem;
+}
+
+.záhlaví a,
+.phone {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
-  font-size: 1.06rem;
-  margin: 0 20px;
+  font-size: 1rem;
 }
 
 .copyright {
   color: white;
-  background-color: rgba(15, 13, 13, 0.993);
   margin: 0;
   padding-bottom: 20px;
   text-align: center;
+  font-size: 0.75rem;
 }
 .záhlaví a:hover {
   font-weight: bold;
@@ -209,6 +232,7 @@ body {
 
 .mobilni-menu {
   display: flex;
+  justify-content: flex-end;
   position: relative;
   top: 15px;
 }
@@ -218,8 +242,13 @@ body {
 }
 
 .menu-ikona {
-  margin-left: 20px;
+  display: flex;
   color: whitesmoke;
+  margin-right: 20px;
+}
+
+.mobilni_logo {
+  margin-left: 20px;
 }
 
 .odkazy-menu {
@@ -227,10 +256,12 @@ body {
   flex-direction: column;
   background-color: #222;
   position: absolute;
-  top: 60px;
+  top: 34px;
   left: 0;
   right: 0;
   z-index: 1000;
+  list-style: none;
+  padding: 0;
 }
 
 .odkazy-menu li {
@@ -245,8 +276,8 @@ body {
 }
 
 .menu-ikona {
-  font-size: 1.875rem;
-  padding: 15px;
+  font-size: 1.5rem;
+  padding: 10px;
   cursor: pointer;
   display: none; /* Skryté na desktopu */
 }
@@ -290,7 +321,8 @@ body {
     background: rgba(15, 13, 13, 0.98);
     display: flex;
     align-items: center;
-    height: 60px;
+    justify-content: space-between;
+    height: 50px;
   }
 
   .grid {
@@ -321,11 +353,31 @@ body {
     grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
+    padding-bottom: 0;
   }
 
   .kontakty {
-    margin-top: 30px;
     gap: 3px;
+  }
+
+  .oddělení {
+    display: block;
+    margin: 1rem auto;
+    height: 1px;
+    width: 20%;
+    background-color: white;
+  }
+
+  .text-footer {
+    margin-left: 0;
+  }
+
+  .text-footer span {
+    width: 90%;
+  }
+
+  .kontakty img {
+    width: 30px;
   }
 
   .kontakty h2 {
@@ -335,7 +387,6 @@ body {
 
   .záhlaví {
     height: fit-content;
-    padding: 30px 0 30px 0;
   }
 
   .záhlaví a,
@@ -356,8 +407,27 @@ body {
   }
 
   .kontakty {
-    margin-top: 30px;
     gap: 3px;
+  }
+
+  .oddělení {
+    display: block;
+    margin: 1rem auto;
+    height: 1px;
+    width: 20%;
+    background-color: white;
+  }
+
+  .text-footer {
+    margin-left: 0;
+  }
+
+  .text-footer span {
+    width: 90%;
+  }
+
+  .kontakty img {
+    width: 30px;
   }
 
   .kontakty h2 {
@@ -367,7 +437,6 @@ body {
 
   .záhlaví {
     height: fit-content;
-    padding: 30px 0 30px 0;
   }
 
   .záhlaví a,
@@ -381,7 +450,7 @@ body {
   }
 
   .menu-ikona {
-    display: block;
+    display: flex;
   }
 
   .odkazy-menu {
