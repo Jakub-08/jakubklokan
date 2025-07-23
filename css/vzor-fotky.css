@@ -55,7 +55,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 20vw;
-  align-items: center;
   justify-content: center;
   gap: 35px;
   padding: 30px;

@@ -104,28 +104,145 @@
       </nav>
     </header>
 
-    <div class="nadpis">
-      <h1>Serbian U17 International</h1>
-      <a href="../../Gallery_24/Gallery_24.html">← Zpět</a>
-    </div>
-
-    <div class="výška">
-      <div class="grid">
-        <img
-          src="../serbia 2024/Serbian U17.jpeg"
-          alt="Momentka ze hry"
-          class="change"
-        />
-        <img
-          src="../serbia 2024/Serbian U17 1.jpeg"
-          alt="Fotka s trenérem"
-          class="down"
-        />
-        <img src="../serbia 2024/Serbian U17 2.jpeg" alt="Momentka ze hry" />
-        <img src="../serbia 2024/Serbian U17 3.jpeg" alt="Fotka u plakátu" />
-        <img src="../serbia 2024/Serbian U17 4.jpeg" alt="Fotka u plakátu" />
+    <main>
+      <div class="nadpis">
+        <h1>Serbian U17 International</h1>
+        <a href="../../Gallery_24/Gallery_24.html">← Zpět</a>
       </div>
-    </div>
+
+      <section class="výška">
+        <div class="grid">
+          <picture>
+            <img
+              src="../Serbia_2024/Serbian_U17.jpeg"
+              data-large="../Serbia_2024/Serbian_U17.jpeg"
+              alt="Momentka ze hry"
+              class="change"
+            />
+          </picture>
+          <picture>
+            <img
+              src="../Serbia_2024/Serbian_U17_1.jpeg"
+              data-large="../Serbia_2024/Serbian_U17_1.jpeg"
+              alt="Fotka s trenérem"
+              class="down"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../serbia_2024/Serbian_U17_2.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="../serbia_2024/Serbian_U17_2.webp"
+              type="image/webp"
+            />
+            <img
+              src="../serbia_2024/Serbian_U17_2.jpeg"
+              data-large="../serbia_2024/Serbian_U17_2.jpeg"
+              alt="Momentka ze hry"
+            />
+          </picture>
+          <picture>
+            <img
+              src="../serbia_2024/Serbian_U17_3.jpeg"
+              data-large="../serbia_2024/Serbian_U17_3.jpeg"
+              alt="Fotka u plakátu"
+            />
+          </picture>
+          <picture>
+            <img
+              src="../serbia_2024/Serbian_U17_4.jpeg"
+              data-large="../serbia_2024/Serbian_U17_4.jpeg"
+              alt="Fotka u plakátu"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <div class="lightbox" id="lightbox">
+        <div class="arrow left" id="prev">&#10094;</div>
+        <img id="lightbox-img" src="" />
+        <div class="arrow right" id="next">&#10095;</div>
+      </div>
+
+      <script>
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        const images = document.querySelectorAll(".grid picture img");
+        const prev = document.getElementById("prev");
+        const next = document.getElementById("next");
+
+        let currentIndex = 0;
+
+        function showImage(index) {
+          const img = images[index];
+          const largeSrc = img.dataset.large || img.src;
+          lightboxImg.src = largeSrc;
+          lightbox.style.display = "flex";
+          currentIndex = index;
+        }
+
+        images.forEach((img, index) => {
+          img.addEventListener("click", () => {
+            showImage(index);
+          });
+        });
+
+        prev.addEventListener("click", (e) => {
+          e.stopPropagation();
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          showImage(currentIndex);
+        });
+
+        next.addEventListener("click", (e) => {
+          e.stopPropagation();
+          currentIndex = (currentIndex + 1) % images.length;
+          showImage(currentIndex);
+        });
+
+        lightbox.addEventListener("click", () => {
+          lightbox.style.display = "none";
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (lightbox.style.display === "flex") {
+            if (e.key === "ArrowLeft") {
+              currentIndex = (currentIndex - 1 + images.length) % images.length;
+              showImage(currentIndex);
+            }
+            if (e.key === "ArrowRight") {
+              currentIndex = (currentIndex + 1) % images.length;
+              showImage(currentIndex);
+            }
+            if (e.key === "Escape") {
+              lightbox.style.display = "none";
+            }
+          }
+        });
+
+        // Swipe gesta pro mobil
+        let startX = 0;
+        let endX = 0;
+
+        lightbox.addEventListener("touchstart", (e) => {
+          startX = e.touches[0].clientX;
+        });
+
+        lightbox.addEventListener("touchend", (e) => {
+          endX = e.changedTouches[0].clientX;
+          const diff = endX - startX;
+          if (Math.abs(diff) > 50) {
+            if (diff > 0) {
+              currentIndex = (currentIndex - 1 + images.length) % images.length;
+            } else {
+              currentIndex = (currentIndex + 1) % images.length;
+            }
+            showImage(currentIndex);
+          }
+        });
+      </script>
+    </main>
 
     <footer>
       <div class="záhlaví">
