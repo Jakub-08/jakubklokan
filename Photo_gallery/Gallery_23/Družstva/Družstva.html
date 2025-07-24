@@ -104,17 +104,130 @@
       </nav>
     </header>
 
-    <div class="nadpis">
-      <h1>Oblastní Přebor Smíšených Družstev Dospělých</h1>
-      <a href="../../Gallery_23/Gallery_23.html">← Zpět</a>
-    </div>
-
-    <div class="výška">
-      <div class="grid">
-        <img src="../Družstva/Družstva Dosp. 1.jpg" alt="Foto s týmem" />
-        <img src="../Družstva/Družstva Dosp..jpg" alt="Foto s týmem" />
+    <main>
+      <div class="nadpis">
+        <h1>Oblastní Přebor Smíšených Družstev Dospělých</h1>
+        <a href="../../Gallery_23/Gallery_23.html">← Zpět</a>
       </div>
-    </div>
+
+      <div class="výška">
+        <section class="grid">
+          <picture>
+            <source
+              srcset="../Družstva/Družstva_Dosp._1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="../Družstva/Družstva_Dosp._1.webp"
+              type="image/webp"
+            />
+            <img
+              src="../Družstva/Družstva_Dosp._1.jpg"
+              data-large="../Družstva/Družstva_Dosp._1.jpg"
+              alt="Foto s týmem"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../Družstva/Družstva_Dosp..avif"
+              type="image/avif"
+            />
+            <source
+              srcset="../Družstva/Družstva_Dosp..webp"
+              type="image/webp"
+            />
+            <img
+              src="../Družstva/Družstva_Dosp..jpg"
+              data-large="../Družstva/Družstva_Dosp..jpg"
+              alt="Foto s týmem"
+            />
+          </picture>
+        </section>
+      </div>
+
+      <div class="lightbox" id="lightbox">
+        <div class="arrow left" id="prev">&#10094;</div>
+        <img id="lightbox-img" src="" />
+        <div class="arrow right" id="next">&#10095;</div>
+      </div>
+
+      <script>
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        const images = document.querySelectorAll(".grid picture img");
+        const prev = document.getElementById("prev");
+        const next = document.getElementById("next");
+
+        let currentIndex = 0;
+
+        function showImage(index) {
+          const img = images[index];
+          const largeSrc = img.dataset.large || img.src;
+          lightboxImg.src = largeSrc;
+          lightbox.style.display = "flex";
+          currentIndex = index;
+        }
+
+        images.forEach((img, index) => {
+          img.addEventListener("click", () => {
+            showImage(index);
+          });
+        });
+
+        prev.addEventListener("click", (e) => {
+          e.stopPropagation();
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          showImage(currentIndex);
+        });
+
+        next.addEventListener("click", (e) => {
+          e.stopPropagation();
+          currentIndex = (currentIndex + 1) % images.length;
+          showImage(currentIndex);
+        });
+
+        lightbox.addEventListener("click", () => {
+          lightbox.style.display = "none";
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (lightbox.style.display === "flex") {
+            if (e.key === "ArrowLeft") {
+              currentIndex = (currentIndex - 1 + images.length) % images.length;
+              showImage(currentIndex);
+            }
+            if (e.key === "ArrowRight") {
+              currentIndex = (currentIndex + 1) % images.length;
+              showImage(currentIndex);
+            }
+            if (e.key === "Escape") {
+              lightbox.style.display = "none";
+            }
+          }
+        });
+
+        // Swipe gesta pro mobil
+        let startX = 0;
+        let endX = 0;
+
+        lightbox.addEventListener("touchstart", (e) => {
+          startX = e.touches[0].clientX;
+        });
+
+        lightbox.addEventListener("touchend", (e) => {
+          endX = e.changedTouches[0].clientX;
+          const diff = endX - startX;
+          if (Math.abs(diff) > 50) {
+            if (diff > 0) {
+              currentIndex = (currentIndex - 1 + images.length) % images.length;
+            } else {
+              currentIndex = (currentIndex + 1) % images.length;
+            }
+            showImage(currentIndex);
+          }
+        });
+      </script>
+    </main>
 
     <footer>
       <div class="záhlaví">
