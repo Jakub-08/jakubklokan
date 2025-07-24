@@ -10,19 +10,25 @@
       type="image/svg+xml"
     />
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-NCZN4K2E8L");
+    <script>
+      window.addEventListener("load", function () {
+        const s = document.createElement("script");
+        s.src = "https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L";
+        s.async = true;
+        document.head.appendChild(s);
+
+        s.onload = function () {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "G-NCZN4K2E8L");
+        };
+      });
     </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Koukněte na fotky z turnajů." />
     <meta
@@ -58,12 +64,8 @@
       <nav id="horní_lišta" fetchpriority="high">
         <a href="/">
           <div class="logo_webu">
-            <img
-              src="/Logo_webu_white.svg"
-              alt="logo webu"
-              width="80"
-              height="80"
-            />
+            <img src="/Logo_webu_white.svg" alt="logo webu" width="80"
+            height="80" loading="lazy">
           </div>
         </a>
         <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
@@ -77,12 +79,8 @@
 
       <nav class="mobilni-menu">
         <a href="/">
-          <img
-            src="/Logo_webu_white.svg"
-            alt="logo_webu"
-            height="40"
-            class="mobilni_logo"
-          />
+          <img src="/Logo_webu_white.svg" alt="logo_webu" height="40"
+          class="mobilni_logo" loading="lazy">
         </a>
         <input type="checkbox" id="toggle-menu" autocomplete="off" />
         <label for="toggle-menu" class="menu-ikona">&#9776;</label>
@@ -111,9 +109,8 @@
           <a href="Photo_gallery/Gallery_25/Gallery_25.html" class="img">
             <span class="num" id="bigger">2025</span>
             <img
-              src="Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_3.jpg"
-              alt="Momentka z turnaje"
-            />
+            src="Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_3.jpg"
+            fetchpriority="high" alt="Momentka z turnaje" loading="lazy">
           </a>
         </div>
 
@@ -129,10 +126,8 @@
                 srcset="Photo_gallery/Gallery_24/Adria_2024/Adria_U17_8.webp"
                 type="image/webp"
               />
-              <img
-                src="Photo_gallery/Gallery_24/Adria_2024/Adria_U17_8.jpg"
-                alt="Já se spoluhráčem s medailí"
-              />
+              <img src="Photo_gallery/Gallery_24/Adria_2024/Adria_U17_8.jpg"
+              alt="Já se spoluhráčem s medailí" loading="lazy">
             </picture>
           </a>
         </div>
@@ -142,22 +137,16 @@
             <span class="num" id="bigger">2023</span>
             <picture>
               <source
-                srcset="
-                  Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.avif
-                "
+                srcset="Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.avif"
                 type="image/avif"
               />
               <source
-                srcset="
-                  Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.webp
-                "
+                srcset="Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.webp"
                 type="image/webp"
               />
-              <img
-                src="Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.jpg"
-                alt="Momentka z turnaje"
-                style="object-position: 30% 20%;"
-              />
+              <img src="Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.jpg"
+              alt="Momentka z turnaje" style="object-position: 30% 20%"
+              loading="lazy">
             </picture>
           </a>
         </div>
@@ -179,9 +168,8 @@
                 type="image/webp"
               />
               <img
-                src="Photo_gallery/Gallery_22/GPA_U15-Krumlov/GPA_U15_-_Krumlov_5.jpg"
-                alt="Momentka z turnaje"
-              />
+              src="Photo_gallery/Gallery_22/GPA_U15-Krumlov/GPA_U15_-_Krumlov_5.jpg"
+              alt="Momentka z turnaje" loading="lazy">
             </picture>
           </a>
         </div>
@@ -198,10 +186,8 @@
                 srcset="Photo_gallery/Gallery_21/Adria_U15/Adria_U15_4.webp"
                 type="image/webp"
               />
-              <img
-                src="Photo_gallery/Gallery_21/Adria_U15/Adria_U15_4.jpg"
-                alt="Momentka z turnaje"
-              />
+              <img src="Photo_gallery/Gallery_21/Adria_U15/Adria_U15_4.jpg"
+              alt="Momentka z turnaje" loading="lazy">
             </picture>
           </a>
         </div>
@@ -211,17 +197,20 @@
             <span class="num" id="bigger">2020</span>
             <picture>
               <source
-                srcset="Photo_gallery/Gallery_20/GPB_U13_-_Vary_-_stupně_vítězů.avif"
+                srcset="
+                  Photo_gallery/Gallery_20/GPB_U13_-_Vary_-_stupně_vítězů.avif
+                "
                 type="image/avif"
               />
               <source
-                srcset="Photo_gallery/Gallery_20/GPB_U13_-_Vary_-_stupně_vítězů.webp"
+                srcset="
+                  Photo_gallery/Gallery_20/GPB_U13_-_Vary_-_stupně_vítězů.webp
+                "
                 type="image/webp"
               />
               <img
-                src="Photo_gallery/Gallery_20/GPB_U13_-_Vary_-_stupně_vítězů.jpg"
-                alt="Já na stupních vítězů"
-              />
+              src="Photo_gallery/Gallery_20/GPB_U13_-_Vary_-_stupně_vítězů.jpg"
+              alt="Já na stupních vítězů" loading="lazy">
             </picture>
           </a>
         </div>
@@ -231,12 +220,8 @@
     <footer>
       <div class="záhlaví">
         <div class="text-footer">
-          <img
-            src="/Logo_webu_white.svg"
-            alt="logo_webu"
-            height="110"
-            width="110"
-          />
+          <img src="/Logo_webu_white.svg" alt="logo_webu" height="110"
+          width="110" loading="lazy">
           <span>
             Jmenuji se Jakub Klokan a&nbsp;jsem vrcholový badmintonista
             z&nbsp;České republiky. Účastním se tuzemských i&nbsp;mezinárodních
@@ -258,39 +243,23 @@
         <div class="oddělení"></div>
         <div class="kontakty">
           <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
-            <img
-              src="/images/homepage/instagram-white-simple.svg"
-              alt="logo Instagramu"
-              height="40"
-              width="40"
-            />
+            <img src="/images/homepage/instagram-white-simple.svg" alt="logo
+            Instagramu" height="40" width="40" loading="lazy">
             <span>@Jakub.klokan</span>
           </a>
           <a href="https://m.facebook.com/klokanjakub/" target="_blank">
-            <img
-              src="/images/homepage/facebook-white-simple.svg"
-              alt="logo Facebooku"
-              height="40"
-              width="40"
-            />
+            <img src="/images/homepage/facebook-white-simple.svg" alt="logo
+            Facebooku" height="40" width="40" loading="lazy">
             <span>@Jakub Klokan</span>
           </a>
           <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
-            <img
-              src="/images/homepage/email-envelope-white-icon.svg"
-              alt="ikona telefonu"
-              height="40"
-              width="40"
-            />
+            <img src="/images/homepage/email-envelope-white-icon.svg" alt="ikona
+            E-mailu" height="40" width="40" loading="lazy">
             <span>klokan.jakub08@gmail.com</span>
           </a>
           <div class="phone">
-            <img
-              src="/images/homepage/phone-white-simple.svg"
-              alt="ikona E-mailu"
-              height="40"
-              width="40"
-            />
+            <img src="/images/homepage/phone-white-simple.svg" alt="ikona
+            telefonu" height="40" width="40" loading="lazy">
             <span>+420 608 021 109</span>
           </div>
         </div>
