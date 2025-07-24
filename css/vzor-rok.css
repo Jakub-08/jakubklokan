@@ -278,6 +278,8 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 150px 150px 150px;
     margin-bottom: 11vh;
+    padding: 15px;
+    gap: 20px;
   }
 
   .num {
