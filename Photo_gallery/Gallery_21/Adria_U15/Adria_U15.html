@@ -104,20 +104,145 @@
       </nav>
     </header>
 
-    <div class="nadpis">
-      <h1>Adria Youth International 2021</h1>
-      <a href="../../Gallery_21/Gallery_21.html">← Zpět</a>
-    </div>
-
-    <div class="výška">
-      <div class="grid">
-        <img src="../Adria U15/Adria U15 1.jpg" alt="Momentka ze hry" />
-        <img src="../Adria U15/Adria U15 2.jpg" alt="Momentka ze hry" />
-        <img src="../Adria U15/Adria U15 3.jpg" alt="Momentka ze hry" />
-        <img src="../Adria U15/Adria U15 4.jpg" alt="Momentka ze hry" />
-        <img src="../Adria U15/Adria U15 5.jpg" alt="Momentka ze hry" />
+    <main>
+      <div class="nadpis">
+        <h1>Adria Youth International 2021</h1>
+        <a href="../../Gallery_21/Gallery_21.html">← Zpět</a>
       </div>
-    </div>
+
+      <section class="výška">
+        <div class="grid">
+          <picture>
+            <source srcset="../Adria_U15/Adria_U15_1.avif" type="image/avif" />
+            <source srcset="../Adria_U15/Adria_U15_1.webp" type="image/webp" />
+            <img
+              src="../Adria_U15/Adria_U15_1.jpg"
+              data-large="../Adria_U15/Adria_U15_1.jpg"
+              alt="Momentka ze hry"
+            />
+          </picture>
+          <picture>
+            <source srcset="../Adria_U15/Adria_U15_2.avif" type="image/avif" />
+            <source srcset="../Adria_U15/Adria_U15_2.webp" type="image/webp" />
+            <img
+              src="../Adria_U15/Adria_U15_2.jpg"
+              data-large="../Adria_U15/Adria_U15_2.jpg"
+              alt="Momentka ze hry"
+            />
+          </picture>
+          <picture>
+            <source srcset="../Adria_U15/Adria_U15_3.avif" type="image/avif" />
+            <source srcset="../Adria_U15/Adria_U15_3.webp" type="image/webp" />
+            <img
+              src="../Adria_U15/Adria_U15_3.jpg"
+              data-large="../Adria_U15/Adria_U15_3.jpg"
+              alt="Momentka ze hry"
+            />
+          </picture>
+          <picture>
+            <source srcset="../Adria_U15/Adria_U15_4.avif" type="image/avif" />
+            <source srcset="../Adria_U15/Adria_U15_4.webp" type="image/webp" />
+            <img
+              src="../Adria_U15/Adria_U15_4.jpg"
+              data-large="../Adria_U15/Adria_U15_4.jpg"
+              alt="Momentka ze hry"
+            />
+          </picture>
+          <picture>
+            <source srcset="../Adria_U15/Adria_U15_5.avif" type="image/avif" />
+            <source srcset="../Adria_U15/Adria_U15_5.webp" type="image/webp" />
+            <img
+              src="../Adria_U15/Adria_U15_5.jpg"
+              data-large="../Adria_U15/Adria_U15_5.jpg"
+              alt="Momentka ze hry"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <div class="lightbox" id="lightbox">
+        <div class="arrow left" id="prev">&#10094;</div>
+        <img id="lightbox-img" src="" />
+        <div class="arrow right" id="next">&#10095;</div>
+      </div>
+
+      <script>
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        const images = document.querySelectorAll(".grid picture img");
+        const prev = document.getElementById("prev");
+        const next = document.getElementById("next");
+
+        let currentIndex = 0;
+
+        function showImage(index) {
+          const img = images[index];
+          const largeSrc = img.dataset.large || img.src;
+          lightboxImg.src = largeSrc;
+          lightbox.style.display = "flex";
+          currentIndex = index;
+        }
+
+        images.forEach((img, index) => {
+          img.addEventListener("click", () => {
+            showImage(index);
+          });
+        });
+
+        prev.addEventListener("click", (e) => {
+          e.stopPropagation();
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          showImage(currentIndex);
+        });
+
+        next.addEventListener("click", (e) => {
+          e.stopPropagation();
+          currentIndex = (currentIndex + 1) % images.length;
+          showImage(currentIndex);
+        });
+
+        lightbox.addEventListener("click", () => {
+          lightbox.style.display = "none";
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (lightbox.style.display === "flex") {
+            if (e.key === "ArrowLeft") {
+              currentIndex = (currentIndex - 1 + images.length) % images.length;
+              showImage(currentIndex);
+            }
+            if (e.key === "ArrowRight") {
+              currentIndex = (currentIndex + 1) % images.length;
+              showImage(currentIndex);
+            }
+            if (e.key === "Escape") {
+              lightbox.style.display = "none";
+            }
+          }
+        });
+
+        // Swipe gesta pro mobil
+        let startX = 0;
+        let endX = 0;
+
+        lightbox.addEventListener("touchstart", (e) => {
+          startX = e.touches[0].clientX;
+        });
+
+        lightbox.addEventListener("touchend", (e) => {
+          endX = e.changedTouches[0].clientX;
+          const diff = endX - startX;
+          if (Math.abs(diff) > 50) {
+            if (diff > 0) {
+              currentIndex = (currentIndex - 1 + images.length) % images.length;
+            } else {
+              currentIndex = (currentIndex + 1) % images.length;
+            }
+            showImage(currentIndex);
+          }
+        });
+      </script>
+    </main>
 
     <footer>
       <div class="záhlaví">
