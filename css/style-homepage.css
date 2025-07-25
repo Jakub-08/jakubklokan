@@ -4,6 +4,9 @@ body {
   padding: 0;
   background-color: #f7f9fc;
 }
+html, body {
+  overflow-x: hidden;
+}
 .social {
   height: 40px;
 }
@@ -55,7 +58,7 @@ body {
   height: fit-content;
 }
 .pic-úvod {
-  height: 80vh;
+  height: 100%;
   width: 100vw;
   position: absolute;
   object-fit: cover;
@@ -455,6 +458,7 @@ footer {
     flex-direction: column;
     background-attachment: local;
     filter: brightness(0.9);
+    
   }
   #úvod p {
     margin: 0;
