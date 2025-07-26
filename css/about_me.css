@@ -238,6 +238,7 @@ footer {
 
 .mobilni_logo {
   margin-left: 20px;
+  display: none;
 }
 .odkazy-menu li {
   border-bottom: 1px solid #444;
@@ -270,6 +271,9 @@ footer {
     justify-content: center;
     align-content: center;
     padding-bottom: 0;
+  }
+  .mobilni_logo {
+    display: block;
   }
   .social_div {
     display: flex;

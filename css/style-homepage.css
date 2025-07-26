@@ -4,7 +4,8 @@ body {
   padding: 0;
   background-color: #f7f9fc;
 }
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 .social {
@@ -338,6 +339,7 @@ footer {
 
 .mobilni_logo {
   margin-left: 20px;
+  display: none;
 }
 .odkazy-menu li {
   border-bottom: 1px solid #444;
@@ -458,7 +460,6 @@ footer {
     flex-direction: column;
     background-attachment: local;
     filter: brightness(0.9);
-    
   }
   #úvod p {
     margin: 0;
@@ -471,6 +472,9 @@ footer {
     max-width: 90%;
     text-align: center;
     align-self: center;
+  }
+  .mobilni_logo {
+    display: block;
   }
   .pic-kobe {
     object-position: left;

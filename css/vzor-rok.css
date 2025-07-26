@@ -111,6 +111,7 @@ body {
 
 .mobilni_logo {
   margin-left: 20px;
+  display: none;
 }
 
 .odkazy-menu li {
@@ -320,6 +321,10 @@ footer {
     height: 1px;
     width: 20%;
     background-color: white;
+  }
+
+  .mobilni_logo {
+    display: block;
   }
 
   .text-footer {

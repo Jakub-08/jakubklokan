@@ -249,6 +249,7 @@ footer {
 
 .mobilni_logo {
   margin-left: 20px;
+  display: none;
 }
 
 .odkazy-menu {
@@ -374,6 +375,10 @@ footer {
 
   .text-footer span {
     width: 90%;
+  }
+
+  .mobilni_logo {
+    display: block;
   }
 
   .kontakty img {
