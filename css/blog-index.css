@@ -1,0 +1,402 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(219, 219, 219);
+}
+
+/*záhlaví*/
+.social {
+  height: 40px;
+}
+
+#horní_lišta {
+  height: 80px;
+  background-color: rgba(15, 13, 13, 0.993);
+  font-style: normal;
+  text-decoration: underline rgba(15, 13, 13, 0.993);
+  color: white;
+  position: sticky;
+  top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  z-index: 1000;
+}
+.logo_webu {
+  height: 80px;
+  width: auto;
+  position: absolute;
+  margin-left: 40px;
+}
+.social_div {
+  height: 120px;
+  gap: 40px;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.domů {
+  float: right;
+  margin-right: 40px;
+  margin-top: 28px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.06rem;
+}
+#horní_lišta a:hover {
+  font-weight: 700;
+}
+.rozcestí {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  font: bold 20px #000;
+}
+.rozcestí a {
+  text-decoration: none;
+  color: #000;
+}
+.rozcestí a:hover {
+  color: #00008b;
+}
+
+.mobilni-menu {
+  display: flex;
+  position: relative;
+  top: 15px;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+.menu-ikona {
+  margin-right: 20px;
+}
+
+.odkazy-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #222;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.odkazy-menu li {
+  border-bottom: 1px solid #444;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.odkazy-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Tlačítko (3 čárky) */
+.menu-ikona {
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+  display: none; /* Skryté na desktopu */
+}
+
+/* Checkbox ovládá viditelnost menu */
+#toggle-menu:checked + .menu-ikona + .odkazy-menu {
+  display: flex;
+}
+
+/*úvod*/
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: black;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+#seznam-clanku{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.clanek {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: 70vw;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.clanek:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s ease;
+}
+
+.clanek img {
+  height: 120px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.info h2,p{
+  text-align: left;
+}
+
+.info a{
+  text-decoration: none;
+  color: #222;
+}
+
+.datum {
+  margin-right: 20px;
+}
+
+
+
+/*js*/
+#filtr-panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#vyhledavac {
+  flex: 1 1 250px;
+  max-width: 300px;
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+}
+
+#vyhledavac:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+
+#filtr-tagy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.filtr-btn {
+  margin: 0.3em;
+  padding: 0.4em 0.8em;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.filtr-btn.aktivni {
+  background-color: #bd1c1c;
+  color: white;
+}
+
+
+.filtr-btn:hover {
+  font-weight: bold;
+}
+
+.filtr-btn.reset {
+  background-color: #ccc;
+}
+
+/*přepínání stran*/
+#paginace {
+  margin: 20px 0 12px;
+  text-align: center;
+}
+
+.stranka-btn {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 6px 12px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.stranka-btn:hover {
+  background-color: #ddd;
+}
+
+.stranka-btn.aktivni {
+  background-color: #007bff;
+  color: white;
+  border-color: #0056b3;
+  font-weight: bold;
+  cursor: default;
+}
+
+/*zápatí*/
+.záhlaví {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: start;
+  padding: 70px 0 70px 0;
+  height: fit-content;
+  padding-bottom: 80px;
+  font-size: 0.8rem;
+}
+
+.odkazy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.kontakty {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  color: white;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  line-height: 1.5;
+}
+
+.text-footer span {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.oddělení {
+  display: none;
+}
+
+.kontakty span {
+  margin-left: 15px;
+  font-size: 0.875rem;
+}
+
+.záhlaví a,
+.phone {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.copyright {
+  color: white;
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+.záhlaví a:hover {
+  font-weight: bold;
+}
+
+.záhlaví p {
+  color: white;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+.mobilni-menu {
+  display: flex;
+  position: relative;
+  top: 15px;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+.odkazy-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #222;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+}
+
+.mobilni_logo {
+  margin-left: 20px;
+  display: none;
+}
+
+.odkazy-menu li {
+  border-bottom: 1px solid #444;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.odkazy-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Tlačítko (3 čárky) */
+.menu-ikona {
+  font-size: 1.875rem;
+  color: whitesmoke;
+  margin-left: 20px;
+  padding: 15px;
+  cursor: pointer;
+  display: none; /* Skryté na desktopu */
+}
+
+/* Checkbox ovládá viditelnost menu */
+#toggle-menu:checked + .menu-ikona + .odkazy-menu {
+  display: flex;
+}
+
+#copa_photo {
+  padding-top: 10px;
+}
