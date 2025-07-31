@@ -1,43 +1,64 @@
-const jsonFile = '../data/posts.json';  // uprav podle cesty k JSON
+fetch("/blog/data/articles.json")
+  .then((response) => response.json())
+  .then((data) => {
+    let path = window.location.pathname;
 
-const currentPath = window.location.pathname;
+    // Odebrání '/blog/' prefixu
+    if (path.startsWith("/blog/")) {
+      path = path.slice(6); // 'articals/article_1.html'
+    }
 
-let pathNoSlash = currentPath.startsWith('/blog/') ? currentPath.slice(6) : currentPath;
-pathNoSlash = pathNoSlash.startsWith('/') ? pathNoSlash.slice(1) : pathNoSlash;
+    // Odebrání počátečního lomítka, pokud zůstane
+    if (path.startsWith("/")) {
+      path = path.slice(1);
+    }
 
-fetch(jsonFile)
-  .then(res => res.json())
-  .then(data => {
-    const articleData = data.find(article => article.filename === pathNoSlash);
+    // Najdi odpovídající článek v JSON
+    const articleData = data.find((article) => article.filename === path);
 
     if (!articleData) {
-      console.warn('Nenašel se článek pro tuto stránku v JSON');
-      console.log('Soubory v JSON:', data.map(a => a.filename));
+      console.error("Nenašel se článek pro tuto stránku v JSON:", path);
       return;
     }
 
-    if (articleData.title) document.title = articleData.title;
+    // Nastavení názvu stránky
+    document.title = articleData.title;
 
-    const h1 = document.querySelector('h1');
-    if (h1 && articleData.title) h1.textContent = articleData.title;
+    // Nadpis článku
+    const h1 = document.querySelector("h1");
+    if (h1) h1.textContent = articleData.title;
 
-    const dateElem = document.querySelector('.date');
-    if (dateElem && articleData.date) {
-      const d = new Date(articleData.date);
-      dateElem.textContent = d.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' });
+    // Datum
+    const dateEl = document.querySelector(".date");
+    if (dateEl) dateEl.textContent = articleData.date;
+
+    // Popis článku (volitelné, pokud existuje textová část)
+    const desc = document.querySelector("p.text");
+    if (desc && articleData.description) {
+      desc.textContent = articleData.description;
     }
 
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc && articleData.description) {
-      metaDesc.setAttribute('content', articleData.description);
+    // Obrázek
+    const img = document.querySelector("main img");
+    if (img && articleData.image) {
+      // Pokud cesta k obrázku nezačíná /, přidáme /blog/
+      img.src = articleData.image.startsWith("/")
+        ? articleData.image
+        : "/blog/" + articleData.image;
     }
 
-    const img = document.querySelector('main img');
-    if (img && articleData.image) img.src = articleData.image;
-
-    const tagsContainer = document.querySelector('.tags');
-    if (tagsContainer && Array.isArray(articleData.tags)) {
-      tagsContainer.innerHTML = articleData.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ');
+    // Tagy
+    const tagsDiv = document.querySelector(".tags");
+    if (tagsDiv && Array.isArray(articleData.tags)) {
+      tagsDiv.innerHTML = ""; // smaže případné původní tagy
+      articleData.tags.forEach((tag) => {
+        const span = document.createElement("span");
+        span.className = "tag";
+        span.textContent = tag;
+        tagsDiv.appendChild(span);
+      });
     }
   })
-  .catch(err => console.error('Chyba při načítání dat:', err));
+  .catch((error) => {
+    console.error("Chyba při načítání JSON souboru:", error);
+  });
