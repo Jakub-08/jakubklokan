@@ -56,7 +56,7 @@ const htmlContent = `<!DOCTYPE html>
   <body>
     <header>
       <nav id="horní_lišta">
-        <a href="/">
+        <a href="/index.html">
           <div class="logo_webu">
             <img
               alt="logo webu"
@@ -75,7 +75,7 @@ const htmlContent = `<!DOCTYPE html>
         <a class="domů" href="/index.html">Domů</a>
       </nav>
       <nav class="mobilni-menu">
-        <a href="/">
+        <a href="/index.html">
           <img
             alt="logo_webu"
             class="mobilni_logo"
