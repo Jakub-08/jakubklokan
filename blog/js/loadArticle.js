@@ -1,22 +1,18 @@
-const jsonFile = '../data/posts.json';
+const jsonFile = '../data/posts.json';  // uprav podle cesty k JSON
 
-// Aktuální cesta z URL, např. "/articals/article_79.html"
 const currentPath = window.location.pathname;
 
+let pathNoSlash = currentPath.startsWith('/blog/') ? currentPath.slice(6) : currentPath;
+pathNoSlash = pathNoSlash.startsWith('/') ? pathNoSlash.slice(1) : pathNoSlash;
+
 fetch(jsonFile)
-  .then(res => {
-    if (!res.ok) throw new Error('Nepodařilo se načíst JSON');
-    return res.json();
-  })
+  .then(res => res.json())
   .then(data => {
-    // Najdeme článek podle přesné shody filename === currentPath bez počátečního /
-    const articleData = data.find(article => {
-      const pathNoSlash = currentPath.startsWith('/') ? currentPath.slice(1) : currentPath;
-      return article.filename === pathNoSlash;
-    });
+    const articleData = data.find(article => article.filename === pathNoSlash);
 
     if (!articleData) {
       console.warn('Nenašel se článek pro tuto stránku v JSON');
+      console.log('Soubory v JSON:', data.map(a => a.filename));
       return;
     }
 
