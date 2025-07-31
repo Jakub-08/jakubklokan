@@ -126,7 +126,7 @@ h2 {
   margin: 20px 0 30px 0;
 }
 
-#seznam-clanku{
+#seznam-clanku {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,9 +146,13 @@ h2 {
   gap: 10px;
 }
 
+#seznam-clanku a {
+  height: 120px;
+}
+
 .clanek:hover {
-    transform: scale(1.01);
-    transition: transform 0.3s ease;
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
 }
 
 .clanek img {
@@ -158,11 +162,18 @@ h2 {
   border-radius: 5px;
 }
 
-.info h2,p{
+.info h2,
+p {
   text-align: left;
+  margin-bottom: 20px;
 }
 
-.info a{
+.info p {
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.info a {
   text-decoration: none;
   color: #222;
 }
@@ -170,8 +181,6 @@ h2 {
 .datum {
   margin-right: 20px;
 }
-
-
 
 /*js*/
 #filtr-panel {
@@ -200,7 +209,6 @@ h2 {
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
 
-
 #filtr-tagy {
   display: flex;
   flex-wrap: wrap;
@@ -222,7 +230,6 @@ h2 {
   background-color: #bd1c1c;
   color: white;
 }
-
 
 .filtr-btn:hover {
   font-weight: bold;

@@ -113,9 +113,26 @@ body {
 }
 
 /*main*/
+.btn-zpet {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin: 15px;
+  transition: background-color 0.2s;
+}
+
+.btn-zpet:hover {
+  background-color: #ddd;
+  border-radius: 15px;
+}
+
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
   color: #333;
   text-align: center;
 }
@@ -125,8 +142,10 @@ h1 {
   margin-bottom: 30px;
   text-align: center;
 }
-img {
+main img {
   max-width: 50vw;
+  display: block;
+  margin: 0 auto;
   height: auto;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -153,7 +172,15 @@ p {
 .text {
   font-size: 1.1rem;
   line-height: 1.6;
-  margin: 20px 50px;
+  padding: 20px;
+  background-color: rgb(216, 216, 216);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: #333;
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 /*zápatí*/
