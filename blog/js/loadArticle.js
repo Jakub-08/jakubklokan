@@ -1,4 +1,4 @@
-const jsonFile = 'blog/data/posts.json';
+const jsonFile = '../data/posts.json';
 
 // Aktuální cesta z URL, např. "/articals/article_79.html"
 const currentPath = window.location.pathname;
