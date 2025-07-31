@@ -18,7 +18,7 @@ function vykresliClanky(data, page = 1) {
 
   strankaClanku.forEach(function (post) {
     let a = document.createElement("a");
-    a.href = post.filename;
+    a.href = `article.html?filename=${encodeURIComponent(post.filename)}`;
     a.className = "clanek";
     a.style.textDecoration = "none";
     a.style.color = "inherit";
@@ -51,7 +51,6 @@ function vykresliClanky(data, page = 1) {
   });
 
   window.scrollTo({ top: 0, behavior: "smooth" });
-
   vykresliPaginaci(data.length, page);
 }
 

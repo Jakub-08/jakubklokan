@@ -136,14 +136,19 @@ h2 {
 
 .clanek {
   display: flex;
-  flex-direction: row;
-  background-color: #fff;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 16px;
   margin-bottom: 20px;
   width: 70vw;
-  border-radius: 5px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-  justify-content: space-between;
-  gap: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+  gap: 16px;
+  position: relative;
 }
 
 #seznam-clanku a {
@@ -156,16 +161,24 @@ h2 {
 }
 
 .clanek img {
+  width: 120px;
   height: 120px;
-  width: 200px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 6px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100% - 225px);
 }
 
 .info h2,
 p {
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 0px;
 }
 
 .info p {
@@ -179,7 +192,12 @@ p {
 }
 
 .datum {
-  margin-right: 20px;
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  color: #777;
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 /*js*/
