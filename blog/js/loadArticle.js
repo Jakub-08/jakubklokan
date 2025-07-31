@@ -1,4 +1,4 @@
-fetch("/blog/data/articles.json")
+fetch("/blog/data/posts.json")
   .then((response) => response.json())
   .then((data) => {
     let path = window.location.pathname;
