@@ -1,5 +1,10 @@
-<!DOCTYPE html>
+const fs = require('fs');
+const path = require('path');
 
+const folderPath = './blog/articals'; // složka, kam soubory budou uloženy
+
+// Tvá šablona HTML jako string
+const htmlContent = `<!DOCTYPE html>
 <html lang="cs">
   <head>
     <link href="/css/blog-article.css" rel="stylesheet" />
@@ -93,25 +98,22 @@
         </ul>
       </nav>
     </header>
+
     <main>
       <a class="btn-zpet" href="/blog/index.html">← Zpět na blog</a>
       <h1></h1>
       <div class="date"></div>
       <p class="text">
-        Ve dvouhře jsem skončil v top 32, když jsem celkem snadno prošel přes
-        první dvě kola 💪. Ve třetím kole jsem prohrál s T. Mitevem 🇧🇬 ve dvou
-        vyrovnaných setech😕. Bohužel mě rozhodčí párkrát zasekl zrovna
-        v rozhodujících výměnách, které mohli zápas otočit. Ale i to bohužel
-        patří ke sportu 🤷‍♂️.<br />Cítím zlepšení ve věcech, na které jsem se
-        chtěl zaměřit🙏. A to je pro mě víc důležité než výsledek. Samozřejmě
-        každý chce vyhrát, ale záleží jak se výhra definuje💪.<br />Děkuji Super
-        Stars Most, že mi dává možnosti zažívat takováto malá i velká vítězství
-        🙏<br />
-        Teďka mě čeká týden volna a poté se vrhnu do letní přípravy 🏋‍♂️, která
-        věřím, že mě posune zas kus blíže.
+        Jako první turnaj sezóny byly právě družstva dospělých, ve složení Anna
+        N. Kohoutová, Markéta Kohoutová, Pavel Brož, Jakub Straka, Jakub
+        Wasylkow a já 😅, pod záštitou našeho klubu Super Stars Most🔥. Dokázali
+        jsme vyhrát utkání proti BK Goram Teplice (8:0) a utkání proti Badminton
+        Proboštov (6:2)💪. Děkuji Super Stars Most za další možnost si vyzkoušet
+        něco nového 🙏 a také děkuji ostatním spoluhráčům 🙏
       </p>
       <img class="img" />
       <div class="tags"></div>
+
       <script src="/blog/js/loadArticle.js"></script>
     </main>
     <footer>
@@ -188,3 +190,18 @@
     </footer>
   </body>
 </html>
+`;
+
+// Ujisti se, že složka existuje, pokud ne, vytvoří ji
+if (!fs.existsSync(folderPath)) {
+  fs.mkdirSync(folderPath, { recursive: true });
+}
+
+// Cyklus pro vytvoření souborů article_2.html až article_79.html
+for (let i = 2; i <= 79; i++) {
+  const fileName = `article_${i}.html`;
+  const filePath = path.join(folderPath, fileName);
+
+  fs.writeFileSync(filePath, htmlContent, 'utf8');
+  console.log(`Vytvořen soubor: ${fileName}`);
+}

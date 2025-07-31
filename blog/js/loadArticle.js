@@ -32,7 +32,7 @@ fetch("/blog/data/posts.json")
       }
 
       // Úvodní obrázek
-      const img = document.querySelector("img[alt='Úvodní obrázek']");
+      const img = document.querySelector(".img");
       if (img && articleData.image) {
         img.src = articleData.image;
       }

@@ -8,6 +8,16 @@ function formatDate(isoDate) {
   return `${d.getDate()}. ${d.getMonth() + 1}. ${d.getFullYear()}`;
 }
 
+function ulozStav() {
+  const dotaz = document.getElementById("vyhledavac").value;
+  const scrollY = window.scrollY || window.pageYOffset;
+
+  sessionStorage.setItem("filterDotaz", dotaz);
+  sessionStorage.setItem("filterTagy", JSON.stringify(aktivniTagy));
+  sessionStorage.setItem("currentPage", currentPage);
+  sessionStorage.setItem("scrollY", scrollY);
+}
+
 function vykresliClanky(data, page = 1) {
   const seznam = document.getElementById("seznam-clanku");
   seznam.innerHTML = "";
@@ -22,6 +32,10 @@ function vykresliClanky(data, page = 1) {
     a.className = "clanek";
     a.style.textDecoration = "none";
     a.style.color = "inherit";
+
+    a.addEventListener("click", function () {
+      ulozStav();
+    });
 
     let img = document.createElement("img");
     img.src = post.image;
@@ -50,7 +64,15 @@ function vykresliClanky(data, page = 1) {
     seznam.appendChild(a);
   });
 
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  // Po vykreslení obsahu obnov scroll pozici (pokud je uložená)
+  const ulozenyScroll = sessionStorage.getItem("scrollY");
+  if (ulozenyScroll) {
+    window.scrollTo({ top: parseInt(ulozenyScroll), behavior: "auto" });
+    sessionStorage.removeItem("scrollY");  // aplikuj jen jednou
+  } else {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   vykresliPaginaci(data.length, page);
 }
 
@@ -70,6 +92,7 @@ function vykresliPaginaci(pocetClanku, aktivniStranka) {
       currentPage = i;
       let filtrovaneClanky = getAktualniFilter();
       vykresliClanky(filtrovaneClanky, currentPage);
+      ulozStav();
     });
 
     paginace.appendChild(btn);
@@ -103,6 +126,7 @@ function generujTagy(data) {
       currentPage = 1;
       const filtrovane = getAktualniFilter();
       vykresliClanky(filtrovane, currentPage);
+      ulozStav();
     });
 
     filtrTagy.appendChild(btn);
@@ -116,6 +140,7 @@ function generujTagy(data) {
     document.querySelectorAll(".filtr-btn").forEach(b => b.classList.remove("aktivni"));
     currentPage = 1;
     vykresliClanky(vsechnyClanky, currentPage);
+    ulozStav();
   });
   filtrTagy.appendChild(reset);
 }
@@ -123,6 +148,8 @@ function generujTagy(data) {
 function getAktualniFilter() {
   const dotaz = document.getElementById("vyhledavac").value.toLowerCase();
   let filtrovane = vsechnyClanky;
+
+  // console.log("Aktivni tagy v getAktualniFilter:", aktivniTagy);
 
   if (aktivniTagy.length > 0) {
     filtrovane = filtrovane.filter(post =>
@@ -145,16 +172,44 @@ fetch("data/posts.json")
   .then(function (data) {
     data.sort((a, b) => new Date(b.date) - new Date(a.date));
     vsechnyClanky = data;
+
+    // Obnovení uloženého stavu
+    const ulozenyDotaz = sessionStorage.getItem("filterDotaz") || "";
+    const ulozeneTagy = JSON.parse(sessionStorage.getItem("filterTagy") || "[]");
+    const ulozenaStranka = parseInt(sessionStorage.getItem("currentPage")) || 1;
+
+    // Nastav vyhledávací dotaz
+    document.getElementById("vyhledavac").value = ulozenyDotaz;
+    // Nastav aktivní tagy
+    aktivniTagy = ulozeneTagy;
+
     generujTagy(data);
-    vykresliClanky(data, currentPage);
+
+    // Označ aktivní tagy tlačítky
+    aktivniTagy.forEach(tag => {
+      const btn = [...document.querySelectorAll(".filtr-btn")].find(b => b.textContent === tag);
+      if (btn) btn.classList.add("aktivni");
+    });
+
+    currentPage = ulozenaStranka;
+
+    // Vykresli podle filtru (filtrovane články)
+    const filtrovaneClanky = getAktualniFilter();
+    vykresliClanky(filtrovaneClanky, currentPage);
+
+    // Vyčistit sessionStorage kromě scrollY (ta se maže při vykreslení)
+    sessionStorage.removeItem("filterDotaz");
+    sessionStorage.removeItem("filterTagy");
+    sessionStorage.removeItem("currentPage");
   })
   .catch(function (error) {
     console.error("Chyba při načítání článků:", error);
   });
 
-// Vyhledávací input
+// Vyhledávací input - při změně filtruj a ukládej stav
 document.getElementById("vyhledavac").addEventListener("input", function () {
   currentPage = 1;
   let filtrovane = getAktualniFilter();
   vykresliClanky(filtrovane, currentPage);
+  ulozStav();
 });

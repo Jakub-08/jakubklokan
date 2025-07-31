@@ -33,4 +33,4 @@ for soubor in os.listdir("."):
         zpracuj_soubor(soubor)
 
 
-# C:\Users\kloka\OneDrive\Desktop\test\blog\articals> python .\spojky.py
+# C:\Users\kloka\OneDrive\Desktop\test\blog\articals> python .\spojky_hromadné.py
