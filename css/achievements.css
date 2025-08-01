@@ -128,13 +128,11 @@ body {
 }
 
 .mezera {
-  width:30%;
+  width: 30%;
   background-color: #303030;
   margin: 0 auto;
   border: #222 solid 1px;
 }
-
-
 
 .grid a:hover {
   color: darkblue;
