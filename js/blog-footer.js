@@ -1,4 +1,4 @@
-function vlozPosledniClanky() {
+function vlozPosledniClanky(idKontejneru) {
   fetch('/blog/data/posts.json')
     .then(res => {
       if (!res.ok) throw new Error('Nepodařilo se načíst posts.json');
@@ -8,8 +8,10 @@ function vlozPosledniClanky() {
       data.sort((a, b) => new Date(b.date) - new Date(a.date));
       const posledni3 = data.slice(0, 3);
 
-      const container = document.getElementById("blog-prehled-seznam");
+      const container = document.getElementById(idKontejneru);
       if (!container) return;
+
+      container.innerHTML = "";  // vyčistit před vložením
 
       posledni3.forEach(post => {
         const a = document.createElement("a");
@@ -32,5 +34,6 @@ function vlozPosledniClanky() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  vlozPosledniClanky();
+  vlozPosledniClanky("blog-prehled-seznam-homepage");  // pro hlavní obsah
+  vlozPosledniClanky("blog-prehled-seznam");  // pro zápatí
 });
