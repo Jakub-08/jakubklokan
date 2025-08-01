@@ -102,8 +102,7 @@ body {
 }
 .right_text {
   width: 40%;
-  right: 10%;
-  text-align: center;
+  right: 8%;
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
@@ -338,7 +337,6 @@ footer {
   .left_text {
     width: 90%;
     margin: 0 auto;
-    text-align: center;
     position: static;
     transform: none;
     left: auto;
@@ -383,7 +381,6 @@ footer {
     transform: none;
     left: auto;
     top: auto;
-    text-align: center;
   }
   .badminton h2,
   .sociální_sítě h2,
