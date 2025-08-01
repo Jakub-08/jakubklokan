@@ -232,6 +232,7 @@ p {
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
+  max-width: 60vw;
 }
 
 .filtr-btn {
@@ -250,7 +251,7 @@ p {
 }
 
 .filtr-btn:hover {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .filtr-btn.reset {
@@ -424,4 +425,131 @@ footer {
 
 #copa_photo {
   padding-top: 10px;
+}
+
+
+@media screen and (max-width: 880px){
+  #horní_lišta,
+  .rozcestí {
+    display: none;
+  }
+  .social_div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    max-width: 90vw;
+    margin: 70px auto;
+    margin-bottom: 20px;
+  }
+
+  .úvod2 {
+    display: none;
+  }
+
+  #filtr-tagy {
+    max-width: 90vw;
+  }
+
+  .info {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .info h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .info p {
+    display: none;
+  }
+
+  .clanek {
+    align-items: center;
+    width: 80vw;
+    padding: 20px;
+  }
+
+  /* Změny pro mobilní zobrazení */
+  .seznam-kontakt a {
+    font-size: 0.9rem;
+  }
+  .odkazy,
+  .kontakty {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+  .kontakty {
+    gap: 3px;
+  }
+  .mobilni_logo {
+    display: block;
+  }
+  .oddělení {
+    display: block;
+    margin: 1rem auto;
+    height: 1px;
+    width: 20%;
+    background-color: white;
+  }
+
+  .text-footer {
+    margin-left: 0;
+  }
+
+  .text-footer span {
+    width: 90%;
+  }
+
+  .kontakty img {
+    width: 30px;
+  }
+  .kontakty h2 {
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  .záhlaví {
+    height: fit-content;
+    padding-bottom: 0;
+  }
+  .záhlaví a,
+  .záhlaví p,
+  .kontakty p {
+    font-size: 0.875rem;
+  }
+  .záhlaví h2 {
+    font-size: 1.06rem;
+  }
+  .menu-ikona {
+    display: block;
+    color: whitesmoke;
+  }
+  .odkazy-menu {
+    display: none;
+  }
+  .mobilni-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+    background: rgba(15, 13, 13, 0.98);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+  }
+  .záhlaví {
+    grid-template-columns: 1fr; /* ze 4 sloupců na 1 */
+    justify-content: center;
+    align-content: center;
+  }
 }

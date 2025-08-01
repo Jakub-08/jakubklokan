@@ -103,13 +103,17 @@ function generujTagy(data) {
   const filtrTagy = document.getElementById("filtr-tagy");
   filtrTagy.innerHTML = "";
 
-  let vsechnyTagy = new Set();
-
+  let vsechnyTagySet = new Set();
   data.forEach(post => {
-    post.tags.forEach(tag => vsechnyTagy.add(tag));
+    post.tags.forEach(tag => vsechnyTagySet.add(tag));
   });
 
-  vsechnyTagy.forEach(tag => {
+  // Převedeme na pole a seřadíme abecedně
+  let serazeneTagy = Array.from(vsechnyTagySet).sort((a, b) =>
+    a.localeCompare(b, 'cs', { sensitivity: 'base' })
+  );
+
+  serazeneTagy.forEach(tag => {
     let btn = document.createElement("button");
     btn.textContent = tag;
     btn.className = "filtr-btn";
@@ -144,6 +148,7 @@ function generujTagy(data) {
   });
   filtrTagy.appendChild(reset);
 }
+
 
 function getAktualniFilter() {
   const dotaz = document.getElementById("vyhledavac").value.toLowerCase();
