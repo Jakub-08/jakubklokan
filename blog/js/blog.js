@@ -64,11 +64,10 @@ function vykresliClanky(data, page = 1) {
     seznam.appendChild(a);
   });
 
-  // Po vykreslení obsahu obnov scroll pozici (pokud je uložená)
   const ulozenyScroll = sessionStorage.getItem("scrollY");
   if (ulozenyScroll) {
     window.scrollTo({ top: parseInt(ulozenyScroll), behavior: "auto" });
-    sessionStorage.removeItem("scrollY");  // aplikuj jen jednou
+    sessionStorage.removeItem("scrollY");
   } else {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -108,7 +107,6 @@ function generujTagy(data) {
     post.tags.forEach(tag => vsechnyTagySet.add(tag));
   });
 
-  // Převedeme na pole a seřadíme abecedně
   let serazeneTagy = Array.from(vsechnyTagySet).sort((a, b) =>
     a.localeCompare(b, 'cs', { sensitivity: 'base' })
   );
@@ -131,6 +129,7 @@ function generujTagy(data) {
       const filtrovane = getAktualniFilter();
       vykresliClanky(filtrovane, currentPage);
       ulozStav();
+      window.scrollTo({ top: 0, behavior: "smooth" }); // ← skok nahoru po kliknutí na tag
     });
 
     filtrTagy.appendChild(btn);
@@ -145,16 +144,14 @@ function generujTagy(data) {
     currentPage = 1;
     vykresliClanky(vsechnyClanky, currentPage);
     ulozStav();
+    window.scrollTo({ top: 0, behavior: "smooth" }); // ← skok nahoru po resetu
   });
   filtrTagy.appendChild(reset);
 }
 
-
 function getAktualniFilter() {
   const dotaz = document.getElementById("vyhledavac").value.toLowerCase();
   let filtrovane = vsechnyClanky;
-
-  // console.log("Aktivni tagy v getAktualniFilter:", aktivniTagy);
 
   if (aktivniTagy.length > 0) {
     filtrovane = filtrovane.filter(post =>
@@ -171,26 +168,21 @@ function getAktualniFilter() {
   return filtrovane;
 }
 
-// Načtení dat a inicializace
 fetch("data/posts.json")
   .then(response => response.json())
   .then(function (data) {
     data.sort((a, b) => new Date(b.date) - new Date(a.date));
     vsechnyClanky = data;
 
-    // Obnovení uloženého stavu
     const ulozenyDotaz = sessionStorage.getItem("filterDotaz") || "";
     const ulozeneTagy = JSON.parse(sessionStorage.getItem("filterTagy") || "[]");
     const ulozenaStranka = parseInt(sessionStorage.getItem("currentPage")) || 1;
 
-    // Nastav vyhledávací dotaz
     document.getElementById("vyhledavac").value = ulozenyDotaz;
-    // Nastav aktivní tagy
     aktivniTagy = ulozeneTagy;
 
     generujTagy(data);
 
-    // Označ aktivní tagy tlačítky
     aktivniTagy.forEach(tag => {
       const btn = [...document.querySelectorAll(".filtr-btn")].find(b => b.textContent === tag);
       if (btn) btn.classList.add("aktivni");
@@ -198,11 +190,9 @@ fetch("data/posts.json")
 
     currentPage = ulozenaStranka;
 
-    // Vykresli podle filtru (filtrovane články)
     const filtrovaneClanky = getAktualniFilter();
     vykresliClanky(filtrovaneClanky, currentPage);
 
-    // Vyčistit sessionStorage kromě scrollY (ta se maže při vykreslení)
     sessionStorage.removeItem("filterDotaz");
     sessionStorage.removeItem("filterTagy");
     sessionStorage.removeItem("currentPage");
@@ -211,7 +201,6 @@ fetch("data/posts.json")
     console.error("Chyba při načítání článků:", error);
   });
 
-// Vyhledávací input - při změně filtruj a ukládej stav
 document.getElementById("vyhledavac").addEventListener("input", function () {
   currentPage = 1;
   let filtrovane = getAktualniFilter();

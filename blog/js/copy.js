@@ -182,6 +182,17 @@ const htmlContent = `<!DOCTYPE html>
           </div>
         </div>
       </div>
+
+      <div class="oddělení"></div>
+
+      <section id="blog-proklik">
+        <h3>Poslední články</h3>
+        <div class="blog-ctverce" id="blog-prehled-seznam"></div>
+        <a href="/blog/index.html" class="zobrazit-vse">Zobrazit vše</a>
+      </section>
+
+      <script src="/js/blog-footer.js"></script>
+
       <div class="oddělení"></div>
       <p class="copyright">© 2025 Jakub Klokan</p>
       <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>

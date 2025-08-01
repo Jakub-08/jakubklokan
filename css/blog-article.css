@@ -324,7 +324,7 @@ footer {
   padding-top: 10px;
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 880px) {
   #horní_lišta,
   .rozcestí {
     display: none;
@@ -342,10 +342,11 @@ footer {
     color: #333;
     text-align: center;
     max-width: 90vw;
-    margin: 10px auto;
+    margin: 70px auto;
+    margin-bottom: 10px;
   }
 
-  .text{
+  .text {
     font-size: 0.9rem;
     line-height: 1.5;
     padding: 10px;
@@ -373,7 +374,9 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-
+  .btn-zpet {
+    display: none;
+  }
 
   /* Změny pro mobilní zobrazení */
   .seznam-kontakt a {
@@ -449,5 +452,108 @@ footer {
     grid-template-columns: 1fr; /* ze 4 sloupců na 1 */
     justify-content: center;
     align-content: center;
+  }
+}
+
+#blog-proklik {
+  padding: 2em 1em;
+  border-top: 1px solid #ddd;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#blog-proklik h3 {
+  margin-bottom: 1em;
+  font-size: 1.4em;
+  color: white;
+}
+
+.blog-ctverce {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-ctverec {
+  position: relative;
+  flex: 1 1 30%;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  min-width: 220px;
+  max-width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.blog-ctverec:hover {
+  transform: scale(1.02);
+}
+
+.blog-ctverec .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1em;
+}
+
+.blog-ctverec h4 {
+  margin: 0 0 0.3em;
+  font-size: 1.1em;
+}
+
+.blog-ctverec p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+.zobrazit-vse {
+  display: inline-block;
+  margin-top: 2em;
+  color: #ddd;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.zobrazit-vse::after {
+  content: "→";
+  margin-left: 0.5em;
+  transition: margin-left 0.2s ease;
+}
+
+.zobrazit-vse:hover {
+  color: #fff;
+}
+
+.zobrazit-vse:hover::after {
+  margin-left: 0.7em;
+}
+
+@media screen and (max-width: 1000px) {
+  #blog-proklik {
+    padding: 0;
+    border-top: none;
+  }
+
+  #blog-proklik h3 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .zobrazit-vse {
+    display: block;
+    text-align: center;
+    margin: 1em auto;
   }
 }
