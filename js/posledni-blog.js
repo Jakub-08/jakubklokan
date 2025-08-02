@@ -20,7 +20,7 @@ fetch("../blog/data/posts.json")
       const overlay = document.createElement("div");
       overlay.className = "overlay";
 
-      const title = document.createElement("h4");
+      const title = document.createElement("h3");
       title.textContent = post.title;
 
       const date = document.createElement("p");
