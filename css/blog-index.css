@@ -263,6 +263,7 @@ p {
   padding: 2em 1em;
   border-top: 1px solid #ddd;
   max-width: 1200px;
+  min-height: 300px;
   margin: 0 auto;
 }
 
@@ -283,6 +284,7 @@ p {
   position: relative;
   flex: 1 1 30%;
   aspect-ratio: 1 / 1;
+  width: 100%;
   background-size: cover;
   background-position: center;
   border-radius: 8px;
@@ -424,6 +426,7 @@ p {
 
 footer {
   background-color: rgba(0, 0, 0, 0.904);
+  min-height: 900px;
 }
 
 .text-footer {
