@@ -30,8 +30,7 @@ function vykresliClanky(data, page = 1) {
     let a = document.createElement("a");
     a.href = post.filename;
     a.className = "clanek";
-    a.style.textDecoration = "none";
-    a.style.color = "inherit";
+    a.style.textDecoration = "none"; 
 
     a.addEventListener("click", function () {
       ulozStav();
