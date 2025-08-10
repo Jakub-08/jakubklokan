@@ -89,7 +89,7 @@ body {
 }
 #úvod {
   overflow: hidden;
-  margin-top: 0;
+  margin-top: 80px;
   padding-top: 0;
   min-height: 80vh;
   border-bottom: #000 1px solid;
@@ -505,6 +505,9 @@ footer {
 @media only screen and (max-width: 800px) {
   #dark-toggle-mobile {
     display: block;
+  }
+  #úvod {
+    margin-top: 0;
   }
   #horní_lišta {
     display: none;

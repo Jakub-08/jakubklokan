@@ -666,3 +666,43 @@ footer {
     max-width: 50px;
   }
 }
+
+body.dark-mode {
+  background-color: #3b3b3b;
+  color: #e0e0e0;
+}
+body.dark-mode .rozcestí a {
+  color: #e0e0e0;
+}
+body.dark-mode .rozcestí a:hover {
+  color: #e5deff;
+}
+body.dark-mode h2 {
+  color: #e9e9e9;
+}
+body.dark-mode .sponzorství,
+body.dark-mode .nabídka,
+body.dark-mode .kontakt {
+  background-color: #1a1a1a;
+  box-shadow: 0 4px 8px rgba(228, 228, 228, 0.2);
+}
+body.dark-mode .sponzorství-text,
+body.dark-mode .nabídka-sponzoringu,
+body.dark-mode .mohu_nabídnout,
+body.dark-mode .kontakt-text,
+body.dark-mode .seznam-kontakt {
+  background-color: #181818;
+  box-shadow: 0 4px 8px rgba(77, 77, 77, 0.2);
+}
+body.dark-mode .sponzoři-loga img {
+  box-shadow: 0 4px 8px rgba(78, 78, 78, 0.2);
+}
+
+body.dark-mode main p,
+body.dark-mode main li,
+body.dark-mode main a {
+  color: white;
+}
+body.dark-mode main a:hover {
+  color: #e5deff;
+}
