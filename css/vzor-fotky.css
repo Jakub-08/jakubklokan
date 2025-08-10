@@ -717,3 +717,9 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
   animation: iconPop 0.3s ease forwards;
   animation-delay: 0.2s;
 }
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .mobilni-menu {
+    display: none;
+  }
+}
