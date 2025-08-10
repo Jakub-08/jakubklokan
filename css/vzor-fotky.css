@@ -8,12 +8,38 @@ body {
 .social {
   height: 40px;
 }
-.logo_webu {
-  height: 80px;
-  width: auto;
-  position: absolute;
-  margin-left: 40px;
+/*Tlačítko pro přepínání dark mode*/
+#dark-mode-toggle {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: auto auto auto 0;
+  color: inherit;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
+
+#dark-mode-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobilní menu: tlačítko styl jako link */
+#dark-toggle-mobile {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  text-align: right;
+  margin-left: 10px;
+}
+
+/* Můžeš přidat hover efekt i tady */
 
 .social_div {
   height: 120px;
@@ -26,16 +52,26 @@ body {
 }
 
 #horní_lišta {
+  display: flex;
+  flex-direction: row-reverse;
   height: 80px;
   background-color: rgba(15, 13, 13, 0.993);
   font-style: normal;
   text-decoration: underline rgba(15, 13, 13, 0.993);
-  color: white;
-  position: sticky;
+  color: #fff;
+  position: fixed;
   top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
   z-index: 1000;
+  width: 100%;
+}
+.logo_webu {
+  margin-right: 20px;
+  margin-left: 40px;
+}
+#dark-toggle-mobile {
+  display: none;
 }
 
 .domů {
@@ -346,6 +382,9 @@ footer {
 @media screen and (max-width: 1100px) {
   #horní_lišta {
     display: none;
+  }
+  #dark-toggle-mobile {
+    display: block;
   }
 
   .arrow {

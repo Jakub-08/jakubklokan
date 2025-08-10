@@ -63,8 +63,22 @@
   <body>
     <header>
       <nav id="horní_lišta" fetchpriority="high">
-        <a href="/index.html">
-          <div class="logo_webu">
+        <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
+        <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
+        <a href="/sponzoring.html" class="domů">Sponzoring</a>
+        <a href="/blog/index.html" class="domů">Blog</a>
+        <a href="/achievements.html" class="domů">Úspěchy</a>
+        <a href="/about_me.html" class="domů">O mně</a>
+        <a href="/index.html" class="domů">Domů</a>
+        <button
+          id="dark-mode-toggle"
+          aria-label="Přepnout tmavý režim"
+          class="dark-toggle"
+        >
+          🌙
+        </button>
+        <a href="/index.html" class="logo_webu">
+          <div>
             <img
               src="/Logo_webu_white.svg"
               alt="logo webu"
@@ -73,13 +87,6 @@
             />
           </div>
         </a>
-        <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
-        <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
-        <a href="/sponzoring.html" class="domů">Sponzoring</a>
-        <a href="/blog/index.html" class="domů">Blog</a>
-        <a href="/achievements.html" class="domů">Úspěchy</a>
-        <a href="/about_me.html" class="domů">O mně</a>
-        <a href="/index.html" class="domů">Domů</a>
       </nav>
 
       <nav class="mobilni-menu">
@@ -91,6 +98,13 @@
             class="mobilni_logo"
           />
         </a>
+        <button
+          id="dark-toggle-mobile"
+          aria-label="Přepnout tmavý režim"
+          class="dark-toggle"
+        >
+          🌙
+        </button>
         <input type="checkbox" id="toggle-menu" autocomplete="off" />
         <label for="toggle-menu" class="menu-ikona">&#9776;</label>
 
@@ -453,5 +467,6 @@
       <p class="copyright">© Super Stars Most</p>
       <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
     </footer>
+    <script src="/js/dark-mode.js"></script>
   </body>
 </html>

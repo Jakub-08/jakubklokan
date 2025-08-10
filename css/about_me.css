@@ -7,11 +7,44 @@ body {
 .social {
   height: 40px;
 }
+/*Tlačítko pro přepínání dark mode*/
+#dark-mode-toggle {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: auto auto auto 0;
+  color: inherit;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#dark-mode-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobilní menu: tlačítko styl jako link */
+#dark-toggle-mobile {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  text-align: right;
+  margin-left: 10px;
+}
+
+/* Můžeš přidat hover efekt i tady */
 .logo_webu {
-  height: 80px;
-  width: auto;
-  position: absolute;
+  margin-right: 20px;
   margin-left: 40px;
+}
+#dark-toggle-mobile {
+  display: none;
 }
 .social_div {
   height: 120px;
@@ -38,6 +71,7 @@ body {
   justify-content: center;
   gap: 30px;
   margin-top: 20px;
+  margin-top: 100px;
   font: bold 20px #000;
 }
 .rozcestí a {
@@ -78,7 +112,6 @@ body {
 .úvod h1 {
   font-size: 2.5rem;
   margin-top: 20px;
-  color: #000;
 }
 .badminton p,
 .sociální_sítě p,
@@ -87,7 +120,6 @@ body {
 .škola p {
   font-size: 1.25rem;
   margin-top: 20px;
-  color: #000;
 }
 .sociální_sítě img,
 .úvod img,
@@ -113,7 +145,6 @@ body {
 .škola h2 {
   font-size: 1.875rem;
   margin-top: 20px;
-  color: #000;
 }
 .vzdělání ul {
   text-align: left;
@@ -265,11 +296,17 @@ footer {
   .rozcestí {
     display: none;
   }
+  #dark-toggle-mobile {
+    display: block;
+  }
   .záhlaví {
     grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
     padding-bottom: 0;
+  }
+  #dark-toggle-mobile {
+    display: block;
   }
   .mobilni_logo {
     display: block;
@@ -488,9 +525,6 @@ footer {
   }
 }
 @media screen and (max-width: 1350px) and (min-width: 1000px) {
-  .domů {
-    margin-right: 20px;
-  }
   .left_text {
     width: 40vw;
   }
@@ -675,4 +709,42 @@ footer {
   .blog-ctverec {
     max-width: 50px;
   }
+}
+
+body.dark-mode {
+  background-color: #505050;
+  color: #e0e0e0;
+}
+
+body.dark-mode .rozcestí a {
+  color: #e0e0e0;
+}
+body.dark-mode .rozcestí a:hover {
+  color: rgb(188, 188, 255);
+}
+
+body.dark-mode .úvod,
+body.dark-mode .badminton,
+body.dark-mode .sociální_sítě,
+body.dark-mode .vzdělání,
+body.dark-mode .škola {
+  background-color: #181818;
+  color: #e9e9e9;
+  box-shadow: #a0a0a0 10px 2px 20px 1px;
+}
+
+body.dark-mode .badminton img,
+body.dark-mode .sociální_sítě img,
+body.dark-mode .vzdělání img,
+body.dark-mode .úvod img,
+body.dark-mode .škola img {
+  box-shadow: none;
+}
+
+body.dark-mode .badminton a,
+body.dark-mode .sociální_sítě a,
+body.dark-mode .vzdělání a,
+body.dark-mode .úvod a,
+body.dark-mode .škola a {
+  color: #e0e0e0;
 }
