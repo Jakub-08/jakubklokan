@@ -6,15 +6,13 @@ fetch("/blog/data/posts.json")
     return response.json();
   })
   .then((data) => {
-    const currentPath = window.location.pathname; // např. "/blog/articals/article_1.html"
+    const currentPath = window.location.pathname;
 
     const articleData = data.find((article) => article.filename === currentPath);
 
     if (articleData) {
-      // Nastav název stránky (title)
       document.title = articleData.title;
 
-      // Datum
       const dateElem = document.querySelector(".date");
       if (dateElem) {
         const formattedDate = new Date(articleData.date).toLocaleDateString("cs-CZ", {
@@ -25,20 +23,20 @@ fetch("/blog/data/posts.json")
         dateElem.textContent = formattedDate;
       }
 
-      // Nadpis
       const heading = document.querySelector("h1");
       if (heading) {
         heading.textContent = articleData.title;
       }
 
-      // Úvodní obrázek
       const img = document.querySelector(".img");
       if (img && articleData.image) {
         img.src = articleData.image;
-        img.alt = articleData.title; // přidaný alt text
+        img.alt = articleData.title;
+        img.style.aspectRatio = "1 / 1";
+        img.style.width = "500px";
+        img.style.height = "500px";
       }
 
-      // Tagy
       const tagsDiv = document.querySelector(".tags");
       if (tagsDiv && Array.isArray(articleData.tags)) {
         tagsDiv.innerHTML = articleData.tags
