@@ -7,6 +7,7 @@ const folderPath = './blog/articals'; // složka, kam soubory budou uloženy
 const htmlContent = `<!DOCTYPE html>
 <html lang="cs">
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link href="/css/blog-article.css" rel="stylesheet" />
     <script
       async=""
