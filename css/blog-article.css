@@ -639,6 +639,13 @@ body.dark-mode p {
   background-color: #222;
   color: #d8d8d8;
 }
+body.dark-mode .btn-zpet {
+  background-color: #3b3b3b;
+  color: #e4e4e4;
+}
+body.dark-mode .btn-zpet:hover {
+  background-color: #313131;
+}
 /* Položky v otevřeném menu */
 .mobilni-menu .odkazy-menu {
   background-color: #121212; /* pro dark mode */
