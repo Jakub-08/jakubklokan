@@ -26,6 +26,7 @@ fetch("/blog/data/posts.json")
       const heading = document.querySelector("h1");
       if (heading) {
         heading.textContent = articleData.title;
+        heading.style.minHeight = "3em";  // rezervace místa pro h1
       }
 
       const img = document.querySelector(".img");
