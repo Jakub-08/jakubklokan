@@ -49,7 +49,7 @@ const htmlContent = `<!DOCTYPE html>
         "@type": "Person",
         "name": "Jakub Klokan",
         "url": "https://jakubklokan.cz",
-        "image": "https://jakubklokan.cz/logo_webu_white.svg"
+        "image": "https://jakubklokan.cz/Logo_webu_white.svg"
       }
     </script>
     <title>MČR U19</title>

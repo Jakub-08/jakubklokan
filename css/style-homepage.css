@@ -155,8 +155,6 @@ main .blog-ctverec .overlay {
   flex-direction: column;
   justify-content: flex-end;
   padding: 1em;
-  min-width: 220px;
-  max-width: 300px;
 }
 
 main .blog-ctverec h3 {
@@ -274,6 +272,8 @@ main .blog-ctverec h3 {
   font-weight: 700;
   font-size: 1.875rem;
   color: #fff;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 #author {
   font-weight: 300;
