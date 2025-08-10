@@ -392,6 +392,7 @@ footer {
 
 #blog-proklik h3 {
   margin-bottom: 1em;
+  margin-left: 1em;
   font-size: 1.4em;
   color: white;
 }
@@ -414,8 +415,20 @@ footer {
   text-decoration: none;
   color: white;
   min-width: 220px;
-  max-width: 300px;
+  max-width: 280px;
   transition: transform 0.2s ease;
+}
+
+.blog-ctverce .overlay {
+  position: relative; /* pro overlay */
+}
+
+.blog-ctverce .overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  pointer-events: none;
 }
 
 .blog-ctverec:hover {
@@ -425,7 +438,6 @@ footer {
 .blog-ctverec .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -435,6 +447,8 @@ footer {
 .blog-ctverec h4 {
   margin: 0 0 0.3em;
   font-size: 1.1em;
+  color: rgb(255, 255, 255);
+  z-index: 1;
 }
 
 .blog-ctverec p {
@@ -452,6 +466,7 @@ footer {
   text-decoration: none;
   position: relative;
   transition: color 0.2s ease;
+  margin-left: 1em;
 }
 
 .zobrazit-vse::after {
@@ -483,5 +498,9 @@ footer {
     display: block;
     text-align: center;
     margin: 1em auto;
+  }
+
+  .blog-ctverec {
+    max-width: 50px;
   }
 }

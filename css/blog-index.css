@@ -270,6 +270,7 @@ p {
 
 #blog-proklik h3 {
   margin-bottom: 1em;
+  margin-left: 1em;
   font-size: 1.4em;
   color: white;
 }
@@ -294,7 +295,7 @@ p {
   display: inline-block;
 }
 
-img {
+main img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -322,7 +323,7 @@ img {
   text-decoration: none;
   color: white;
   min-width: 220px;
-  max-width: 300px;
+  max-width: 280px;
   transition: transform 0.2s ease;
 }
 
@@ -338,11 +339,15 @@ img {
   flex-direction: column;
   justify-content: flex-end;
   padding: 1em;
+  min-width: 220px;
+  max-width: 280px;
 }
 
 .blog-ctverec h4 {
   margin: 0 0 0.3em;
   font-size: 1.1em;
+  color: rgb(255, 255, 255);
+  z-index: 1;
 }
 
 .blog-ctverec p {
@@ -360,6 +365,7 @@ img {
   text-decoration: none;
   position: relative;
   transition: color 0.2s ease;
+  margin-left: 1em;
 }
 
 .zobrazit-vse::after {
@@ -391,6 +397,10 @@ img {
     display: block;
     text-align: center;
     margin: 1em auto;
+  }
+
+  .blog-ctverec {
+    max-width: 50px;
   }
 }
 
