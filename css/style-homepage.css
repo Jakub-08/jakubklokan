@@ -873,3 +873,85 @@ body.dark-mode .sponzoři {
 }
 
 /* Můžeš přidat hover efekt i tady */
+/* Položky v otevřeném menu */
+.mobilni-menu .odkazy-menu {
+  background-color: #121212; /* pro dark mode */
+  margin-top: 10px;
+}
+
+/* Jednotlivé odkazy */
+.mobilni-menu .odkazy-menu li a {
+  color: #fff; /* bílý text pro tmavé pozadí */
+  font-size: 1.1rem;
+}
+
+/* Oddělení mezi položkami */
+.mobilni-menu .odkazy-menu li {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.mobilni-menu .odkazy-menu {
+  background-color: rgba(18,18,18,0.95);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.mobilni-menu .odkazy-menu {
+  position: fixed;
+  height: 360px;
+  width: 100%; /* nebo 100% pokud chceš celé */
+  background-color: rgba(18,18,18,0.95);
+  backdrop-filter: blur(5px);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Když je menu aktivní */
+.mobilni-menu input[type="checkbox"]:checked ~ .odkazy-menu {
+  transform: translateY(0);
+}
+
+/*3*/
+.menu-ikona {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu-ikona span {
+  display: block;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Animace při otevření */
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(2) {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
+/* Efekt ikony při otevření */
+.odkazy-menu li a i {
+  margin-right: 8px;
+  font-size: 1.2rem;
+  width: 20px;
+  text-align: center;
+  transform: scale(0.8);
+  animation: iconPop 0.3s ease forwards;
+  animation-delay: 0.2s;
+}

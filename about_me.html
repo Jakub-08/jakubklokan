@@ -7,21 +7,6 @@
     />
     <link rel="preload" as="image" href="/images/about_me/GPAU15202216.avif" />
     <style>
-      #horní_lišta {
-        display: flex;
-        flex-direction: row-reverse;
-        height: 80px;
-        background-color: rgba(15, 13, 13, 0.993);
-        font-style: normal;
-        text-decoration: underline rgba(15, 13, 13, 0.993);
-        color: #fff;
-        position: fixed;
-        top: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        z-index: 1000;
-        width: 100%;
-      }
       .middle {
         display: flex;
         align-items: center;
@@ -88,6 +73,10 @@
         "image": "https://jakubklokan.cz/Logo_webu_white.svg"
       }
     </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
     <title>O mně</title>
   </head>
@@ -137,18 +126,44 @@
           🌙
         </button>
         <input type="checkbox" id="toggle-menu" autocomplete="off" />
-        <label for="toggle-menu" class="menu-ikona">&#9776;</label>
+        <label for="toggle-menu" class="menu-ikona">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
 
         <ul class="odkazy-menu">
-          <li><a href="/index.html">Domů</a></li>
-          <li><a href="/about_me.html">O mně</a></li>
-          <li><a href="/achievements.html">Úspěchy</a></li>
-          <li><a href="/blog/index.html">Blog</a></li>
-          <li><a href="/sponzoring.html">Sponzoring</a></li>
           <li>
-            <a href="/Photo_gallery.html">Fotogalerie</a>
+            <a href="/index.html"><i class="fa-solid fa-house"></i> Domů</a>
           </li>
-          <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+          <li>
+            <a href="/about_me.html"><i class="fa-solid fa-user"></i> O mně</a>
+          </li>
+          <li>
+            <a href="/achievements.html"
+              ><i class="fa-solid fa-trophy"></i> Úspěchy</a
+            >
+          </li>
+          <li>
+            <a href="/blog/index.html"
+              ><i class="fa-solid fa-pencil-alt"></i> Blog</a
+            >
+          </li>
+          <li>
+            <a href="/sponzoring.html"
+              ><i class="fa-solid fa-hand-holding-dollar"></i> Sponzoring</a
+            >
+          </li>
+          <li>
+            <a href="/Photo_gallery.html"
+              ><i class="fa-solid fa-camera"></i> Fotogalerie</a
+            >
+          </li>
+          <li>
+            <a href="/sponzoring.html#kontakt"
+              ><i class="fa-solid fa-envelope"></i> Kontakt</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
