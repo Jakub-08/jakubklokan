@@ -33,6 +33,8 @@ fetch("/blog/data/posts.json")
         img.src = articleData.image;
         img.alt = articleData.title;
         img.style.aspectRatio = "1 / 1";
+        img.style.width = "50vw";
+        img.style.height = "auto";
       }
 
       const tagsDiv = document.querySelector(".tags");
