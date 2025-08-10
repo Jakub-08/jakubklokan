@@ -35,6 +35,7 @@ fetch("/blog/data/posts.json")
       const img = document.querySelector(".img");
       if (img && articleData.image) {
         img.src = articleData.image;
+        img.alt = articleData.title; // přidaný alt text
       }
 
       // Tagy
