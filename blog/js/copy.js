@@ -27,6 +27,11 @@ const htmlContent = `<!DOCTYPE html>
       content="Sledujte mojí cestu pomocí pravidelných příspěvků."
       name="description"
     />
+    <link
+      rel="icon"
+      href="https://jakubklokan.cz/Logo_webu_white.svg"
+      type="image/svg+xml"
+    />
     <meta
       content="badminton, úspěchy, medaile, turnaj, zahraničí, já, Jakub Klokan, články, blog"
       name="keyword"
