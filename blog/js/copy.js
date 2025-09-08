@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const folderPath = './blog/articals'; // složka, kam soubory budou uloženy
+const folderPath = "./blog/articals"; // složka, kam soubory budou uloženy
 
 // Tvá šablona HTML jako string
 const htmlContent = `<!DOCTYPE html>
@@ -49,7 +49,7 @@ const htmlContent = `<!DOCTYPE html>
         "@type": "Person",
         "name": "Jakub Klokan",
         "url": "https://jakubklokan.cz",
-        "image": "https://jakubklokan.cz/Logo_webu_white.svg"
+        "image": "https://jakubklokan.cz/Logo_webu_preview.png"
       }
     </script>
     <link
@@ -259,6 +259,6 @@ for (let i = 2; i <= 79; i++) {
   const fileName = `article_${i}.html`;
   const filePath = path.join(folderPath, fileName);
 
-  fs.writeFileSync(filePath, htmlContent, 'utf8');
+  fs.writeFileSync(filePath, htmlContent, "utf8");
   console.log(`Vytvořen soubor: ${fileName}`);
 }
