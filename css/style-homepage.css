@@ -313,7 +313,8 @@ main .blog-ctverec h3 {
 }
 #author {
   font-weight: 300;
-  font-size: 1.5625rem;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 .sponzoři {
   display: flex;
@@ -887,20 +888,20 @@ body.dark-mode .sponzoři {
 
 /* Oddělení mezi položkami */
 .mobilni-menu .odkazy-menu li {
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .mobilni-menu .odkazy-menu {
-  background-color: rgba(18,18,18,0.95);
+  background-color: rgba(18, 18, 18, 0.95);
   backdrop-filter: blur(5px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .mobilni-menu .odkazy-menu {
   position: fixed;
   height: 360px;
   width: 100%; /* nebo 100% pokud chceš celé */
-  background-color: rgba(18,18,18,0.95);
+  background-color: rgba(18, 18, 18, 0.95);
   backdrop-filter: blur(5px);
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
@@ -943,7 +944,6 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(2) {
 input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
-
 
 /* Efekt ikony při otevření */
 .odkazy-menu li a i {
@@ -991,7 +991,6 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
 
 .language-switcher a:hover {
   transform: translateY(-3px);
-  
 }
 
 .language-switcher :hover {
@@ -1003,4 +1002,3 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
   vertical-align: middle;
   border-radius: 2px;
 }
-
