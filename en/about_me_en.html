@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
   <head>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
@@ -61,16 +61,16 @@
     </script>
     <script src="/js/menu-close.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Dozvěďte se o mně více." />
+    <meta name="description" content="Learn more about me." />
     <meta
       name="keyword"
-      content="badminton, škola, sport, o mně, vzdělání, sociální_sítě"
+      content="badminton, school, sport, about me, education, social media"
     />
     <meta name="author" content="Jakub Klokan" />
     <meta property="og:title" content="Jakub Klokan" />
     <meta
       property="og:description"
-      content="Jmenuji se Jakub Klokan. Hraji badminton na mezinárodní úrovni a studuji na Podkrušnohorském gymnáziu v Mostě."
+      content="My name is Jakub Klokan. I play badminton at the international level and study at the Podkrušnohorské Sports Grammar School in Most."
     />
     <meta
       property="og:image"
@@ -92,32 +92,28 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
 
-    <title>O mně</title>
+    <title>About Me</title>
   </head>
   <body>
     <header>
       <nav id="horní_lišta" fetchpriority="high">
-        <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
-        <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
-        <a href="/sponzoring.html" class="domů">Sponzoring</a>
+        <a href="/en/sponzoring_en.html#kontakt" class="domů">Contact</a>
+        <a href="/en/Photo_gallery_en.html" class="domů">Photo Gallery</a>
+        <a href="/en/sponzoring_en.html" class="domů">Sponsorship</a>
         <a href="/blog/index.html" class="domů">Blog</a>
-        <a href="/achievements.html" class="domů">Úspěchy</a>
-        <a href="/about_me.html" class="domů">O mně</a>
-        <a href="/index.html" class="domů">Domů</a>
+        <a href="/en/achievements_en.html" class="domů">Achievements</a>
+        <a href="/en/about_me_en.html" class="domů">About Me</a>
+        <a href="/en/index_en.html" class="domů">Home</a>
         <nav class="language-switcher">
           <ul>
             <li>
-              <a href="/en/about_me_en.html" hreflang="en" lang="en">
-                <img
-                  src="/images/gb.svg"
-                  alt="English"
-                  width="24"
-                  height="16"
-                />
+              <a href="/about_me.html" hreflang="cz" lang="cz">
+                <img src="/images/cz.svg" alt="Czech" width="24" height="16" />
               </a>
             </li>
           </ul>
         </nav>
+
         <button
           id="dark-mode-toggle"
           aria-label="Přepnout tmavý režim"
@@ -125,7 +121,7 @@
         >
           🌙
         </button>
-        <a href="/index.html" class="logo_webu">
+        <a href="/en/index_en.html" class="logo_webu">
           <div>
             <img
               src="/Logo_webu_white.svg"
@@ -138,7 +134,7 @@
       </nav>
 
       <nav class="mobilni-menu">
-        <a href="/index.html">
+        <a href="/en/index_en.html">
           <img
             src="/Logo_webu_white.svg"
             alt="logo_webu"
@@ -153,6 +149,15 @@
         >
           🌙
         </button>
+        <nav class="language-switcher_mobile">
+          <ul>
+            <li>
+              <a href="/en/about_me_en.html" hreflang="cz" lang="cz">
+                <img src="/images/cz.svg" alt="Czech" width="24" height="16" />
+              </a>
+            </li>
+          </ul>
+        </nav>
         <input type="checkbox" id="toggle-menu" autocomplete="off" />
         <label for="toggle-menu" class="menu-ikona">
           <span></span>
@@ -162,34 +167,38 @@
 
         <ul class="odkazy-menu">
           <li>
-            <a href="/index.html"><i class="fa-solid fa-house"></i> Domů</a>
+            <a href="/en/index_en.html"
+              ><i class="fa-solid fa-house"></i>Home</a
+            >
           </li>
           <li>
-            <a href="/about_me.html"><i class="fa-solid fa-user"></i> O mně</a>
+            <a href="/en/about_me_en.html"
+              ><i class="fa-solid fa-user"></i>About Me</a
+            >
           </li>
           <li>
-            <a href="/achievements.html"
-              ><i class="fa-solid fa-trophy"></i> Úspěchy</a
+            <a href="/en/achievements_en.html"
+              ><i class="fa-solid fa-trophy"></i>Achievements</a
             >
           </li>
           <li>
             <a href="/blog/index.html"
-              ><i class="fa-solid fa-pencil-alt"></i> Blog</a
+              ><i class="fa-solid fa-pencil-alt"></i>Blog</a
             >
           </li>
           <li>
-            <a href="/sponzoring.html"
-              ><i class="fa-solid fa-hand-holding-dollar"></i> Sponzoring</a
+            <a href="/en/sponzoring_en.html"
+              ><i class="fa-solid fa-hand-holding-dollar"></i>Sponsorship</a
             >
           </li>
           <li>
-            <a href="/Photo_gallery.html"
-              ><i class="fa-solid fa-camera"></i> Fotogalerie</a
+            <a href="/en/Photo_gallery_en.html"
+              ><i class="fa-solid fa-camera"></i>Photo Gallery</a
             >
           </li>
           <li>
-            <a href="/sponzoring.html#kontakt"
-              ><i class="fa-solid fa-envelope"></i> Kontakt</a
+            <a href="/en/sponzoring_en.html#kontakt"
+              ><i class="fa-solid fa-envelope"></i>Contact</a
             >
           </li>
         </ul>
@@ -198,30 +207,28 @@
 
     <main>
       <nav class="rozcestí">
-        <a href="#úvod">Úvod</a>
+        <a href="#úvod">Introduction</a>
         <a href="#badminton">Badminton</a>
-        <a href="#škola">Škola</a>
-        <a href="#vzdělání">Vzdělání</a>
-        <a href="#sociální_sítě">Sociální sítě</a>
+        <a href="#škola">School</a>
+        <a href="#vzdělání">Education</a>
+        <a href="#sociální_sítě">Social Media</a>
       </nav>
 
       <section class="úvod" id="úvod">
         <div class="left_text">
           <h1>Jakub Klokan</h1>
           <p>
-            Můj příběh započal 11.&nbsp;září 2008,&nbsp;když jsem se&nbsp;pozdě
-            v&nbsp;noci narodil v&nbsp;Mostě.<br />Dětství nepoznamenalo nic
-            výjimečného. První stupeň základní školy jsem odchodil na&nbsp;<a
-              href="https://www.4zsmost.cz/"
-              target="_blank"
-              >4.&nbsp;základní škole v&nbsp;Mostě</a
-            >. <br />Po&nbsp;páté třídě mě čekal přestup na&nbsp;osmileté
-            gymnázium
+            My story began on September 11, 2008, when I&nbsp;was born late at
+            night in Most, Czech Republic.<br />My childhood was quite ordinary.
+            I&nbsp; attended
+            <a href="https://www.4zsmost.cz/" target="_blank"
+              >4th&nbsp;Elementary School in Most </a
+            >for the first stage of my education. <br />After fifth grade,
+            I&nbsp;transferred to the eight-year program at
             <a href="https://www.gymmost.cz/" target="_blank"
-              >Podkrušnohorského gymnázia v&nbsp;Mostě</a
-            >.<br />S&nbsp;badmintonem jsem se&nbsp;potkal
-            už&nbsp;v&nbsp;1.&nbsp;třídě a&nbsp;hned jsem věděl, co&nbsp;chci
-            dělat.
+              >Podkrušnohorské Gymnázium in&nbsp;Most</a
+            >.<br />I&nbsp;first encountered badminton in first grade, and
+            I&nbsp;immediately knew it was what I&nbsp;wanted to pursue.
           </p>
         </div>
 
@@ -236,7 +243,7 @@
           />
           <img
             src="/images/about_me/GPAU15202216.jpg"
-            alt="Me with medals from GPA U15 2022"
+            alt="Já s medailem a diplomy z turnaje"
             width="500"
             height="500"
             fetchpriority="high"
@@ -246,22 +253,21 @@
 
       <section class="badminton" id="badminton">
         <div class="right_text">
-          <h2>Badmintonová kariéra</h2>
+          <h2>Badminton Career</h2>
           <p>
-            Už odmalička jsem měl rád pohyb, rychlost, sílu,
-            výbušnost,&nbsp;přesnost. Shodou okolností to&nbsp;jsou
-            ty&nbsp;vlastnosti, které potřebuje každý badmintonista.<br />
-            S&nbsp;badmintonem jsem začal v&nbsp;mých 6 letech,
-            v&nbsp;badmintonovém klubu
+            From a&nbsp;young age, I&nbsp;loved movement, speed, strength,
+            explosiveness, and precision — coincidentally, the very qualities
+            every badminton player needs.<br />
+            I&nbsp;started playing badminton at the age of 6&nbsp;at the
             <a href="https://www.superstars-most.net/" target="_blank"
               >Super Stars Most</a
-            >,&nbsp;kde hraji doteď pod&nbsp;vedením trenéra Lukáše Kroce.<br />Hrál
-            jsem&nbsp;jen&nbsp;pro zábavu, bez vizí a&nbsp;cílů. S&nbsp;postupem
-            času, kdy jsem začínal vyhrávat turnaje, dostávat ocenění
-            a&nbsp;současně mi trenéři začali říkat, že mám talent a&nbsp;šanci
-            na&nbsp;úspěšnou kariéru. Tak se&nbsp;mi&nbsp;v&nbsp;hlavě zrodil
-            cíl. Zároveň i&nbsp;můj sen.<br />A&nbsp;to&nbsp;dosáhnout
-            až&nbsp;na&nbsp;olympijské kruhy.
+            >
+            where I&nbsp;still train under coaches Lukáš Kroc and Veronika
+            Brožkovcová.<br />At first, I&nbsp;played just for fun, without
+            visions or goals. Over time, as I&nbsp;began winning tournaments and
+            receiving awards, my coaches started telling me I&nbsp;had talent
+            and a real chance for a successful career. That’s when a goal — and
+            a dream — was born in my mind: to reach the Olympic stage.
           </p>
         </div>
 
@@ -270,7 +276,7 @@
           <source srcset="/images/about_me/Malý.webp" type="image/webp" />
           <img
             src="/images/about_me/Malý.jpg"
-            alt="I when I was 8"
+            alt="Já v osmi letech"
             width="500"
             height="500"
           />
@@ -279,31 +285,32 @@
 
       <section class="škola" id="škola">
         <div class="left_text">
-          <h2>Škola</h2>
+          <h2>School</h2>
           <p>
-            Postupem času jsem vystřídal dvě školy a&nbsp;tři různé obory.<br />
-            V&nbsp;roce 2016&nbsp;jsem nastoupil do&nbsp;první třídy
-            na&nbsp;Základní škole, Václava Talicha v&nbsp;Mostě. Strávil jsem
-            tam 5&nbsp;let, než jsem přestoupil na osmileté gymnázium při
+            Over the years, I&nbsp;attended two schools and studied three
+            different programs. In 2016, I&nbsp;started first grade
+            at&nbsp;Václav Talich Elementary School in&nbsp;Most, where
+            I&nbsp;spent five years before transferring to the eight-year
+            program at
             <a href="https://www.gymmost.cz/" target="_blank"
-              >Podkrušnohorském gymnáziu Most</a
-            >.<br />Tam jsem studoval 4&nbsp;roky. Docela těžké roky, zcela jiné
-            prostředí než na&nbsp;ZŠ. Ale naučilo mě&nbsp;to,&nbsp;jak se
-            efektivně učit, pracovat samostatně a&nbsp;dodržovat termíny.<br />
-            Po&nbsp;splnění povinné školní docházky jsem změnil obor, kde jsem
-            dodnes. Studuji sportovní gymnázium opět na
+              >Podkrušnohorské Gymnázium Most</a
+            >.<br />Those four years at&nbsp;gymnasium were challenging, very
+            different from elementary school. But they taught me how
+            to&nbsp;study effectively, work independently, and meet
+            deadlines.<br />
+            After completing compulsory education, I&nbsp;changed my program
+            to&nbsp;what I&nbsp;study today:
             <a href="https://www.gymmost.cz/" target="_blank"
-              >Podkrušnohorském gymnáziu Most</a
-            >.<br />Po&nbsp;dokončení střední školy bych chtěl pokračovat
-            na&nbsp;vysokou školu. V&nbsp;oboru nemám ještě zcela jasno,
-            ale&nbsp;pravděpodobně to&nbsp;bude mít spojitost
-            s&nbsp;badmintonem. Uvidíme, kam mě&nbsp;život zavede.
+              >Sports Gymnasium at Podkrušnohorské Gymnázium Most</a
+            >.<br />After high school, I&nbsp;plan to continue my studies at
+            university. I&nbsp;haven’t fully decided on a&nbsp;field yet, but it
+            will likely be related to badminton. We’ll see where life takes me.
           </p>
         </div>
 
         <img
           src="//Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_7.jpg"
-          alt="Me and a teamate reseving serve at Badminton"
+          alt="Já se spoluhráčem klečící u baneru Badminton Europe"
           width="500"
           height="500"
           loading="lazy"
@@ -313,23 +320,24 @@
 
       <section class="vzdělání" id="vzdělání">
         <div class="right_text">
-          <h2>Dosažené vzdělání</h2>
+          <h2>Education and Courses</h2>
           <p>
-            Současně se&nbsp;snažím vzdělávat i&nbsp;mimo školu. Absolvoval jsem
-            několik kurzů a&nbsp;školení, které mi&nbsp;pomohly rozšířit
-            mé&nbsp;znalosti a&nbsp;dovednosti.<br />Velké díky patří týmu klubu
+            Alongside school, I&nbsp;strive to learn beyond the classroom.
+            I&nbsp;have completed several courses and training programs that
+            expanded my knowledge and skills.<br />A&nbsp;big thank you goes to
+            the
             <a href="https://www.superstars-most.net/" target="_blank"
               >Super Stars Most</a
-            >, který mi&nbsp;umožnil se&nbsp;zúčastnit těchto kurzů
-            a&nbsp;školení.
+            >
+            team, who supported my participation in these programs.
           </p>
           <ul>
             <li>
-              Ukončení základního vzdělání s každoročním vyznamenáním
+              Completion of elementary education with annual honors
               (Most&nbsp;2024)
             </li>
             <li>BWF Shuttle Time Youth Leadership (Bahrain&nbsp;2024)</li>
-            <li>Absolovování kurzu Mental Health (Bahrain&nbsp;2024)</li>
+            <li>Mental Health Course (Bahrain 2024)</li>
             <li>
               WAoS Athlete Certificate (Online&nbsp;-&nbsp;Most&nbsp;2024)
             </li>
@@ -348,7 +356,7 @@
             />
             <img
               src="/images/about_me/BWF-Certificate-Jakub_Klokan.jpg"
-              alt="Certifikát od Badmintonové světové organizace"
+              alt="Certicate of completing the BWF Shuttle Time Youth Leadership course"
               class="slide aktivni"
               width="400"
               height="500"
@@ -367,7 +375,7 @@
             />
             <img
               src="/images/about_me/WAOS_AC_Cert.jpg"
-              alt="Certifikát o splnění kurzu"
+              alt="Certificate of completing the WAoS Athlete Certificate course"
               width="400"
               height="500"
               class="slide"
@@ -390,21 +398,19 @@
 
       <section class="sociální_sítě" id="sociální_sítě">
         <div class="left_text">
-          <h2>Sociální sítě</h2>
+          <h2>Social Media</h2>
           <p>
-            V létě 2022 jsem se&nbsp;rozhodl, že&nbsp;se&nbsp;chci podělit
-            a&nbsp;motivovat ostatní tím, co&nbsp;dělám.<br />Tak&nbsp;jsem
-            začal přidávat příspěvky na&nbsp;sociální sítě. Přidávám tam videa
-            a&nbsp;příspěvky z&nbsp;turnajů, tréninků i&nbsp;něco málo
-            z&nbsp;cest na&nbsp;mezinárodní turnaje a&nbsp;osobního života.<br />
-            Je&nbsp;to&nbsp;můj další koníček, sice na&nbsp;něj nezbývá moc
-            času, ale&nbsp;snažím se&nbsp;o&nbsp;co&nbsp;nejlepší výsledek.<br />Budu
-            moc rád, když mě&nbsp;začnete sledovat na&nbsp;mých sociálních
-            sítích. Malá rada, na
+            In summer 2022, I&nbsp;decided to share my journey and inspire
+            others with what I&nbsp;do. I started posting videos and updates
+            from tournaments, training sessions, international trips, and
+            a&nbsp;glimpse into my personal life.<br />
+            Social media has become a&nbsp;secondary hobby — time is limited,
+            but I&nbsp; strive for the best results. I&nbsp;would be very happy
+            if&nbsp;you start following me on my social channels. I&nbsp;am most
+            active on
             <a href="https://www.instagram.com/jakub.klokan" target="_blank"
               >Instagramu</a
-            >
-            jsem nejaktivnější. Děkuju ...
+            >. Thank&nbsp;you!
           </p>
         </div>
 
@@ -432,22 +438,23 @@
             width="110"
           />
           <span>
-            Jmenuji se Jakub Klokan a&nbsp;jsem vrcholový badmintonista
-            z&nbsp;České republiky. Účastním se tuzemských i&nbsp;mezinárodních
-            turnajů, odkud jsem si již přivezl nespočet medailových umístění.<br />
-            Zároveň jsem studentem Podkrušnohorského sportovního gymnázia
-            v&nbsp;Mostě.
+            My name is Jakub Klokan, and I&nbsp;am a&nbsp;top-level badminton
+            player from the Czech Republic. I&nbsp;compete in both national and
+            international tournaments,&nbsp;from which I&nbsp;have brought home
+            numerous medals.<br />
+            I&nbsp;am also a&nbsp;student at the Podkrušnohorské Sports Grammar
+            School in&nbsp;Most.
           </span>
         </div>
         <div class="oddělení"></div>
         <nav class="odkazy">
-          <a href="/index.html">Domů</a>
-          <a href="/about_me.html">O mně</a>
-          <a href="/achievements.html">Úspěchy</a>
+          <a href="/en/index_en.html">Home</a>
+          <a href="/en/about_me_en.html">About Me</a>
+          <a href="/en/achievements_en.html">Achievements</a>
           <a href="/blog/index.html">Blog</a>
-          <a href="/sponzoring.html">Sponzoring</a>
-          <a href="/Photo_gallery.html">Fotogalerie</a>
-          <a href="/sponzoring.html#kontakt">Kontakt</a>
+          <a href="/en/sponzoring_en.html">Sponsorship</a>
+          <a href="/en/Photo_gallery_en.html">Photo Gallery</a>
+          <a href="/en/sponzoring_en.html#kontakt">Contact</a>
         </nav>
         <div class="oddělení"></div>
         <div class="kontakty">
@@ -493,16 +500,16 @@
       <div class="oddělení"></div>
 
       <section id="blog-proklik">
-        <h3>Poslední články</h3>
+        <h3>Latest Posts</h3>
         <div class="blog-ctverce" id="blog-prehled-seznam"></div>
-        <a href="/blog/index.html" class="zobrazit-vse">Zobrazit vše</a>
+        <a href="/blog/index.html" class="zobrazit-vse">View All</a>
       </section>
 
       <script src="/js/blog-footer.js"></script>
 
       <div class="oddělení"></div>
       <p class="copyright">© 2025 Jakub Klokan</p>
-      <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
+      <p class="copyright" id="copa_photo">Photos used on this website:</p>
       <p class="copyright">© Super Stars Most</p>
       <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
     </footer>
