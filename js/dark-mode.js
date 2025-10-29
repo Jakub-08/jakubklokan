@@ -36,3 +36,45 @@ toggleButtons.forEach(button => {
     setDarkMode(!document.body.classList.contains('dark-mode'));
   });
 });
+
+
+
+
+// vybereme všechny odkazy s atributem hreflang
+document.querySelectorAll('a[hreflang]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault(); // zabrání okamžitému přesměrování
+
+    // uložíme aktuální scroll a hash
+    const scrollPos = window.scrollY;
+    const currentHash = window.location.hash; 
+    sessionStorage.setItem('scrollPos', scrollPos);
+    sessionStorage.setItem('scrollHash', currentHash);
+
+    // přesměrujeme na href z odkazu
+    window.location.href = this.href;
+  });
+});
+
+// po načtení stránky obnovíme scroll a hash plynule
+window.addEventListener('load', () => {
+  const scrollPos = sessionStorage.getItem('scrollPos');
+  const scrollHash = sessionStorage.getItem('scrollHash');
+
+  if(scrollPos) {
+    if(scrollHash) {
+      const targetElement = document.querySelector(scrollHash);
+      if(targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' }); // plynulý scroll
+      } else {
+        window.scrollTo({ top: parseInt(scrollPos), behavior: 'smooth' });
+      }
+    } else {
+      window.scrollTo({ top: parseInt(scrollPos), behavior: 'smooth' });
+    }
+
+    sessionStorage.removeItem('scrollPos');
+    sessionStorage.removeItem('scrollHash');
+  }
+});
+

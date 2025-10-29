@@ -54,7 +54,7 @@ const htmlContent = `<!DOCTYPE html>
         "@type": "Person",
         "name": "Jakub Klokan",
         "url": "https://jakubklokan.cz",
-        "image": "https://jakubklokan.cz/Logo_webu_preview.png"
+        "logo": "https://jakubklokan.cz/Logo_webu_preview.png"
       }
     </script>
     <link
