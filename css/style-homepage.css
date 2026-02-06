@@ -91,7 +91,7 @@ body {
   overflow: hidden;
   margin-top: 80px;
   padding-top: 0;
-  min-height: 80vh;
+  min-height: 60vh;
   border-bottom: #000 1px solid;
   height: fit-content;
 }
@@ -105,7 +105,7 @@ body {
 }
 .nadpis {
   color: #fff;
-  margin-left: 50%;
+  margin-left: 52%;
   margin-right: 8%;
   text-align: center;
   z-index: 3;
@@ -116,20 +116,130 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 5vh;
 }
 h1 {
-  color: #fff;
+  color: #f2f2f2;
   font-size: 4.375rem;
-  font-weight: 700;
+  font-weight: 650;
   position: relative;
+  margin-bottom: 0;
+}
+.nadpis_čára {
+  width: 25%;
+  height: 1px;
+  background-color: #cfcfcf;
+  margin: 2px 0;
+  z-index: 1;
+}
+h2 {
+  color: #f2f2f2ef;
+  font-size: 1.875rem;
+  font-weight: 450;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #úvod p {
-  color: #fff;
-  font-size: 1.25rem;
+  color: #f2f2f2ea;
+  font-size: 1.3rem;
   position: relative;
-  margin-top: 0;
+  margin-top: 50px;
   text-align: center;
+}
+.nadpis a p {
+  text-shadow: #1c1c1c 0 0 10px;
+}
+.CTA {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-top: 0px;
+  padding: 10px 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 5px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  z-index: 3;
+  background-color: #f2f2f2;
+}
+.CTA:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/*New sponsors section*/
+/* HLAVNÍ KONTEJNER Sponzoři */
+.sponsors {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* levá kolona | Peyton | pravá kolona */
+  align-items: center;
+  gap: 48px;
+  padding: 50px 24px;
+  padding-bottom: 25px;
+  background: #1a1a1a; /* dark mode pozadí */
+  text-align: center;
+}
+
+/* Hlavní sponzor – Peyton */
+.sponsors-main img {
+  max-width: 290px;
+  shape-rendering: geometricPrecision; /* ostré SVG */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Levá a pravá kolona sponzorů */
+.sponsors-col {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+/* Jednotná výška a hover efekt pro všechny loga */
+.sponsors-col img {
+  max-height: 48px; /* stejné velikosti pro jednotnost */
+  opacity: 0.8; /* jemné utlumení, aby Peyton dominoval */
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+  shape-rendering: geometricPrecision; /* ostré SVG */
+}
+
+.sponsors-col img:hover {
+  transform: scale(1.05); /* jemné zvětšení při hoveru */
+  opacity: 1; /* zvýraznění loga */
+}
+
+.sponsors-main img:hover {
+  transform: scale(1.07); /* jemné zvětšení při hoveru */
+  opacity: 1.2; /* zvýraznění loga */
+}
+
+/* MOBILNÍ VERZE */
+@media (max-width: 768px) {
+  .sponsors {
+    grid-template-columns: 1fr; /* vše pod sebou */
+    text-align: center;
+  }
+
+  .sponsors-main {
+    order: -1; /* Peyton nahoře */
+    margin-bottom: 32px;
+  }
+
+  .sponsors-col {
+    flex-direction: row; /* loga vedle sebe */
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .sponsors-col img {
+    max-height: 40px; /* menší loga na mobilu */
+  }
 }
 
 /*posts*/
@@ -316,64 +426,7 @@ main .blog-ctverec h3 {
   font-size: 1.2rem;
   font-style: italic;
 }
-.sponzoři {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  align-items: center;
-  gap: 3vw;
-  height: fit-content;
-  padding-bottom: 15px;
-  margin: 0;
-  background-color: #f7f9fc;
-}
-.sponzoři-nadpis {
-  text-align: center;
-  font-size: 1.875rem;
-  margin-bottom: 20px;
-  background-color: #f7f9fc;
-}
-.sponzoři img {
-  min-width: 150px;
-  max-width: 50%;
-  height: auto;
-  object-fit: contain;
-  background-color: #1c1c1c;
-  border-radius: 10px;
-  padding: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-  justify-self: center;
-}
-.sponzoři a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.obec_Raná {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  gap: 20px;
-  font-weight: 700;
-}
-.obec_Raná a {
-  color: #000;
-  text-decoration: none;
-  font-size: 1.25rem;
-  text-align: center;
-}
-.sponzoři a img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
+
 .záhlaví {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -675,7 +728,7 @@ footer {
   font-size: 1.06rem;
 }
 .pic-úvod {
-  height: 80vh;
+  height: 65vh;
   width: 100vw;
   position: absolute;
   object-fit: cover;
@@ -996,7 +1049,9 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  transition: color 0.2s, transform 0.2s;
+  transition:
+    color 0.2s,
+    transform 0.2s;
 }
 
 .language-switcher a:hover {
