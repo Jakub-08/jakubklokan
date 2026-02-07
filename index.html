@@ -300,33 +300,33 @@
           <p>
             Spolupracuji se značkami, které míří vysoko.<br />Stejně jako já.
           </p>
-          <a class="CTA" href="/sponzoring.html">Spolupráce & sponzoring</a>
+          <div class="hero-cta">
+            <a href="/sponzoring.html" class="btn-sponsoring">
+              Spolupráce & sponzoring
+            </a>
+          </div>
         </div>
       </section>
 
       <section class="sponsors">
-        <div class="sponsors-col">
-          <a href="https://kvechtru.cz/cs/"
-            ><img src="images\sponzoring\SVG\K_Vechtru.svg" alt=""
-          /></a>
-          <img src="images\sponzoring\SVG\Ronin_Advisors.svg" alt="" />
+        <!-- Levý slot (rotující logo vlevo na desktopu) -->
+        <div class="sponsors-left" id="sponsor-left">
+          <a href="#"><img src="" alt="" /></a>
         </div>
 
+        <!-- Hlavní sponsor (Peyton) -->
         <div class="sponsors-main">
-          <a href="https://www.peytonlegal.cz/"
-            ><img
-              src="images\sponzoring\Peyton_legal.webp"
+          <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
+            <img
+              src="/images/sponzoring/Peyton_legal.webp"
               alt="Peyton – hlavní partner"
-          /></a>
+            />
+          </a>
         </div>
 
-        <div class="sponsors-col">
-          <a href="https://www.brickhouse.cz/"
-            ><img src="images\sponzoring\SVG\Brick_house.svg" alt=""
-          /></a>
-          <a href="https://helendoron.cz/"
-            ><img src="/images/homepage/Helen-Doron.png" alt=""
-          /></a>
+        <!-- Pravý slot (rotující logo vpravo na desktopu a mobilu) -->
+        <div class="sponsors-right" id="sponsor-right">
+          <a href="#"><img src="" alt="" /></a>
         </div>
       </section>
 
@@ -419,43 +419,73 @@
         </div>
       </section>
 
-      <section id="Kobe">
-        <picture>
-          <source
-            srcset="/images/homepage/Adria-U17-singles-mobile.avif"
-            type="image/avif"
-            media="(max-width: 768px)"
-          />
-          <source
-            srcset="/images/homepage/Adria-U17-singles.avif"
-            type="image/avif"
-            media="(min-width: 769px)"
-          />
-          <source
-            srcset="/images/homepage/Adria-U17-singles-mobile.webp"
-            type="image/webp"
-            media="(max-width: 768px)"
-          />
-          <source
-            srcset="/images/homepage/Adria-U17-singles.webp"
-            type="image/webp"
-            media="(min-width: 769px)"
-          />
-          <img
-            src="/images/homepage/Adria-U17-singles.jpg"
-            alt="Já ve dvouhře na turnaji"
-            class="pic-kobe"
-            height="600px"
-            width="100vw"
-            loading="lazy"
-          />
-        </picture>
+      <div class="medals-cta">
+        <a href="achievements.html" class="btn-more-achievements">
+          Více úspěchů
+        </a>
+      </div>
 
-        <h2 id="qoute">
-          "Rest at the end, not in the middle."
-          <span id="author">Kobe Bryant</span>
-        </h2>
+      <div class="link_dark"></div>
+
+      <section class="my-values">
+        <div class="value-item">
+          <img src="/images\homepage\Icon_Focus_target.svg" alt="Fokus" />
+          <h3>Fokus</h3>
+          <p>Vždy soustředěný na cíl a maximální výkon na kurtu i mimo něj.</p>
+        </div>
+
+        <div class="value-item">
+          <img
+            src="/images\homepage\Icon_Disciplin_checklist.svg"
+            alt="Disciplína"
+          />
+          <h3>Disciplína</h3>
+          <p>Systematický přístup ke každému tréninku a k osobnímu rozvoji.</p>
+        </div>
+
+        <div class="value-item">
+          <img src="/images\homepage\Icon_Respect.svg" alt="Respekt" />
+          <h3>Respekt</h3>
+          <p>Fair play a respekt vůči soupeřům, trenérům i partnerům.</p>
+        </div>
+
+        <div class="value-item">
+          <img src="/images\homepage\Icon_vytrvalost.svg" alt="Respekt" />
+          <h3>Vytrvalost</h3>
+          <p>Nezastavit se před překážkami, bojovat až do konce.</p>
+        </div>
       </section>
+
+      <div class="link_dark"></div>
+
+      <section class="quick-links light-bg">
+        <a href="about_me.html" class="link-card">
+          <img src="/images\homepage\Icon_O_mně.svg" alt="O mně" />
+          <h4>O mně</h4>
+        </a>
+
+        <a href="/achievements.html" class="link-card">
+          <img src="/images\homepage\Icon_Achievements_B.svg" alt="Úspěchy" />
+          <h4>Úspěchy</h4>
+        </a>
+
+        <a href="/blog\index.html" class="link-card">
+          <img src="/images\homepage\Icon_Blog.svg" alt="Blog" />
+          <h4>Blog</h4>
+        </a>
+
+        <a href="sponzoring.html" class="link-card">
+          <img src="/images\homepage\Icon_Sponzoring.svg" alt="Sponzoring" />
+          <h4>Sponzoring</h4>
+        </a>
+
+        <a href="Photo_gallery.html" class="link-card">
+          <img src="/images\homepage\Icon_Fotogalerie.svg" alt="Fotogalerie" />
+          <h4>Fotogalerie</h4>
+        </a>
+      </section>
+
+      <div class="link_dark"></div>
     </main>
 
     <footer>
@@ -537,7 +567,7 @@
       <script src="/js/blog-footer.js"></script>
 
       <div class="oddělení"></div>
-      <p class="copyright">© 2025 Jakub Klokan</p>
+      <p class="copyright">© 2026 Jakub Klokan</p>
       <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
       <p class="copyright">© Super Stars Most</p>
       <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>

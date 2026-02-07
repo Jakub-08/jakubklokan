@@ -244,7 +244,7 @@ const htmlContent = `<!DOCTYPE html>
       <script src="/js/blog-footer.js"></script>
 
       <div class="oddělení"></div>
-      <p class="copyright">© 2025 Jakub Klokan</p>
+      <p class="copyright">© 2026 Jakub Klokan</p>
       <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
       <p class="copyright">© Super Stars Most</p>
       <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>

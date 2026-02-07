@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <link
@@ -287,7 +287,37 @@
 
         <div class="nadpis">
           <h1>Jakub Klokan</h1>
-          <p>I am a badminton player representing the Czech Republic.</p>
+          <div class="nadpis_čára"></div>
+          <h2>Elite Badminton Player</h2>
+
+          <p>I collaborate with brands that aim high<br />just like I do.</p>
+          <div class="hero-cta">
+            <a href="/sponzoring.html" class="btn-sponsoring">
+              Collaboration & Sponsorship
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsors">
+        <!-- Levý slot (rotující logo vlevo na desktopu) -->
+        <div class="sponsors-left" id="sponsor-left">
+          <a href="#"><img src="" alt="" /></a>
+        </div>
+
+        <!-- Hlavní sponsor (Peyton) -->
+        <div class="sponsors-main">
+          <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
+            <img
+              src="/images/sponzoring/Peyton_legal.webp"
+              alt="Peyton – main partner"
+            />
+          </a>
+        </div>
+
+        <!-- Pravý slot (rotující logo vpravo na desktopu a mobilu) -->
+        <div class="sponsors-right" id="sponsor-right">
+          <a href="#"><img src="" alt="" /></a>
         </div>
       </section>
 
@@ -380,127 +410,85 @@
         </div>
       </section>
 
-      <section id="Kobe">
-        <picture>
-          <source
-            srcset="/images/homepage/Adria-U17-singles-mobile.avif"
-            type="image/avif"
-            media="(max-width: 768px)"
-          />
-          <source
-            srcset="/images/homepage/Adria-U17-singles.avif"
-            type="image/avif"
-            media="(min-width: 769px)"
-          />
-          <source
-            srcset="/images/homepage/Adria-U17-singles-mobile.webp"
-            type="image/webp"
-            media="(max-width: 768px)"
-          />
-          <source
-            srcset="/images/homepage/Adria-U17-singles.webp"
-            type="image/webp"
-            media="(min-width: 769px)"
-          />
+      <div class="medals-cta">
+        <a href="/en\achievements_en.html" class="btn-more-achievements">
+          More Achievements
+        </a>
+      </div>
+
+      <div class="link_dark"></div>
+
+      <section class="my-values">
+        <div class="value-item">
+          <img src="/images\homepage\Icon_Focus_target.svg" alt="Fokus" />
+          <h3>Focus</h3>
+          <p>
+            Always concentrated on the goal and delivering maximum performance
+            on and off the court.
+          </p>
+        </div>
+
+        <div class="value-item">
           <img
-            src="/images/homepage/Adria-U17-singles.jpg"
-            alt="Me in singles at a tournament"
-            class="pic-kobe"
-            height="600px"
-            width="100vw"
-            loading="lazy"
+            src="/images/homepage/Icon_Disciplin_checklist.svg"
+            alt="Discipline"
           />
-        </picture>
+          <h3>Discipline</h3>
+          <p>
+            A systematic approach to every training session and personal
+            development.
+          </p>
+        </div>
 
-        <h2 id="qoute">
-          "Rest at the end, not in the middle."
-          <span id="author">Kobe Bryant</span>
-        </h2>
-      </section>
+        <div class="value-item">
+          <img src="/images/homepage/Icon_Respect.svg" alt="Respect" />
+          <h3>Respect</h3>
+          <p>Fair play and respect towards opponents, coaches, and partners.</p>
+        </div>
 
-      <section>
-        <h2 class="sponzoři-nadpis">Main Sponsors</h2>
-        <div class="sponzoři">
-          <a href="https://helendoron.cz/" target="_blank">
-            <img
-              src="/images/homepage/Helen-Doron.png"
-              alt="logo firmy Helen Doron"
-              width="199"
-              height="67"
-              loading="lazy"
-              style="
-                aspect-ratio: 199 / 67;
-                width: 100%;
-                height: auto;
-                display: block;
-                margin: 0 auto;
-              "
-            />
-          </a>
-          <a href="https://www.peytonlegal.cz/" target="_blank">
-            <img
-              src="/images/homepage/Peyton-legal.png"
-              alt="logo firmy Peyton legal"
-              width="447"
-              height="171"
-              loading="lazy"
-              style="
-                aspect-ratio: 447 / 171;
-                width: 100%;
-                height: auto;
-                display: block;
-                margin: 0 auto;
-              "
-            />
-          </a>
-
-          <img
-            src="/images/homepage/Ronin-Advisors.jpg"
-            alt="logo firmy Ronin Advisors"
-            class="Ronin"
-            width="346"
-            loading="lazy"
-            height="40"
-            style="
-              aspect-ratio: 346 / 40;
-              width: 100%;
-              height: auto;
-              display: block;
-              margin: 0 auto;
-            "
-          />
-
-          <div class="obec_Raná">
-            <a
-              href="https://www.obec-rana.com/"
-              target="_blank"
-              class="obec_Raná"
-            >
-              <picture class="picture">
-                <source
-                  srcset="/images/homepage/Obec-Raná.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="/images/homepage/Obec-Raná.png"
-                  alt="erb obce Raná"
-                  width="260"
-                  height="260"
-                  loading="lazy"
-                  style="
-                    aspect-ratio: 1 / 1;
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                    margin: 0 auto;
-                  "
-                />
-              </picture>
-              <span>OBEC RANÁ</span>
-            </a>
-          </div>
+        <div class="value-item">
+          <img src="/images/homepage/Icon_vytrvalost.svg" alt="Perseverance" />
+          <h3>Perseverance</h3>
+          <p>Never stopping at obstacles, fighting until the very end.</p>
         </div>
       </section>
+
+      <div class="link_dark"></div>
+
+      <section class="quick-links light-bg">
+        <a href="/en\about_me_en.html" class="link-card">
+          <img src="/images/homepage/Icon_O_mně.svg" alt="About Me" />
+          <h4>About Me</h4>
+        </a>
+
+        <a href="/en\achievements_en.html" class="link-card">
+          <img
+            src="/images/homepage/Icon_Achievements_B.svg"
+            alt="Achievements"
+          />
+          <h4>Achievements</h4>
+        </a>
+
+        <a href="/en\Photo_gallery_en.html" class="link-card">
+          <img src="/images/homepage/Icon_Blog.svg" alt="Blog" />
+          <h4>Blog</h4>
+        </a>
+
+        <a href="/en\sponzoring_en.html" class="link-card">
+          <img src="/images/homepage/Icon_Sponzoring.svg" alt="Sponsorship" />
+          <h4>Sponsorship</h4>
+        </a>
+
+        <a href="/en\Photo_gallery_en.html" class="link-card">
+          <img
+            src="/images/homepage/Icon_Fotogalerie.svg"
+            alt="Photo Gallery"
+          />
+          <h4>Photo Gallery</h4>
+        </a>
+      </section>
+
+      <div class="link_dark"></div>
     </main>
 
     <footer>
@@ -583,7 +571,7 @@
       <script src="/js/blog-footer.js"></script>
 
       <div class="oddělení"></div>
-      <p class="copyright">© 2025 Jakub Klokan</p>
+      <p class="copyright">© 2026 Jakub Klokan</p>
       <p class="copyright" id="copa_photo">Photos used on this website:</p>
       <p class="copyright">© Super Stars Most</p>
       <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
