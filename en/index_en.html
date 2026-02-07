@@ -258,10 +258,16 @@
 
     <main>
       <section id="úvod">
-        <picture>
+        <!-- Obrázek jako pozadí s vysokou kvalitou a AVIF/WebP -->
+        <picture class="hero-bg">
           <source
             srcset="/images/homepage/GPB-U17-161.avif"
             type="image/avif"
+            media="(min-width: 769px)"
+          />
+          <source
+            srcset="/images/homepage/GPB-U17-161.webp"
+            type="image/webp"
             media="(min-width: 769px)"
           />
           <source
@@ -269,55 +275,47 @@
             type="image/webp"
             media="(max-width: 768px)"
           />
-          <source
-            srcset="/images/homepage/GPB-U17-161.webp"
-            type="image/webp"
-            media="(min-width: 769px)"
-          />
           <img
             src="/images/homepage/GPB-U17-161.jpg"
             alt="Momentka ze zápasu"
             loading="eager"
-            class="pic-úvod"
-            height="1920"
-            width="1080"
             decoding="async"
           />
         </picture>
 
+        <!-- Nadpis a CTA -->
         <div class="nadpis">
           <h1>Jakub Klokan</h1>
           <div class="nadpis_čára"></div>
           <h2>Elite Badminton Player</h2>
-
-          <p>I collaborate with brands that aim high<br />just like I do.</p>
+          <p>I collaborate with brands that aim high.<br />Just like me.</p>
           <div class="hero-cta">
-            <a href="/sponzoring.html" class="btn-sponsoring">
-              Collaboration & Sponsorship
-            </a>
+            <a href="/sponzoring.html" class="btn-sponsoring"
+              >Collaboration & Sponsorship</a
+            >
           </div>
         </div>
-      </section>
 
-      <section class="sponsors">
-        <!-- Levý slot (rotující logo vlevo na desktopu) -->
-        <div class="sponsors-left" id="sponsor-left">
-          <a href="#"><img src="" alt="" /></a>
-        </div>
-
-        <!-- Hlavní sponsor (Peyton) -->
-        <div class="sponsors-main">
-          <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
-            <img
-              src="/images/sponzoring/Peyton_legal.webp"
-              alt="Peyton – main partner"
-            />
-          </a>
-        </div>
-
-        <!-- Pravý slot (rotující logo vpravo na desktopu a mobilu) -->
-        <div class="sponsors-right" id="sponsor-right">
-          <a href="#"><img src="" alt="" /></a>
+        <!-- Sekce sponzorů -->
+        <div class="sponsors">
+          <div class="sponsors-left" id="sponsor-left">
+            <a href="#"><img src="" alt="" /></a>
+          </div>
+          <div class="sponsors-main">
+            <a
+              href="https://www.peytonlegal.cz/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="/images/sponzoring/Peyton_legal.webp"
+                alt="Peyton – main partner"
+              />
+            </a>
+          </div>
+          <div class="sponsors-right" id="sponsor-right">
+            <a href="#"><img src="" alt="" /></a>
+          </div>
         </div>
       </section>
 
