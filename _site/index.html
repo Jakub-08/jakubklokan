@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jakub Klokan</title>
+<meta name="description" content="Vrcholový badmintonista">
+<meta name="author" content="Jakub Klokan">
+
+<link rel="icon" href="/Logo_webu_white.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/style-homepage.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- OpenGraph -->
+<meta property="og:title" content="Jakub Klokan">
+<meta property="og:description" content="Vrcholový badmintonista">
+<meta property="og:image" content="/Logo_webu_preview.png">
+<meta property="og:url" content="http://localhost:4000">
+<meta property="og:type" content="website">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jakub Klokan",
+  "url": "http://localhost:4000",
+  "logo": "/Logo_webu_preview.png",
+  "sameAs": ["https://www.instagram.com/jakub.klokan"]
+}
+</script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-NCZN4K2E8L');
+</script>
+</head>
+<body>
+  <header>
+  <nav id="horní_lišta">
+    <a href="/index.html">Domů</a>
+    
+      <a href="/about_me.html">O mně</a>
+    
+      <a href="/achievements.html">Úspěchy</a>
+    
+      <a href="/blog/index.html">Blog</a>
+    
+      <a href="/sponzoring.html">Sponzoring</a>
+    
+      <a href="/Photo_gallery.html">Fotogalerie</a>
+    
+      <a href="/sponzoring.html#kontakt">Kontakt</a>
+    
+
+    <!-- Logo -->
+    <a href="/index.html" class="logo_webu">
+      <img src="/Logo_webu_white.svg" alt="logo webu" width="80" height="80">
+    </a>
+
+    <!-- Dark mode toggle -->
+    <button id="dark-mode-toggle" class="dark-toggle">🌙</button>
+  </nav>
+
+  <!-- Mobilní menu -->
+  <nav class="mobilni-menu">
+    <input type="checkbox" id="toggle-menu" autocomplete="off" />
+    <label for="toggle-menu" class="menu-ikona">
+      <span></span><span></span><span></span>
+    </label>
+    <ul class="odkazy-menu">
+      
+        <li><a href="/index.html">Domů</a></li>
+      
+        <li><a href="/about_me.html">O mně</a></li>
+      
+        <li><a href="/achievements.html">Úspěchy</a></li>
+      
+        <li><a href="/blog/index.html">Blog</a></li>
+      
+        <li><a href="/sponzoring.html">Sponzoring</a></li>
+      
+        <li><a href="/Photo_gallery.html">Fotogalerie</a></li>
+      
+        <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+      
+    </ul>
+  </nav>
+</header>
+  
+  <main>
+    <!-- Úvodní sekce s obrázkem -->
+<section id="úvod">
+  <picture class="hero-bg">
+    <source srcset="/images/homepage/GPB-U17-161.avif" type="image/avif" media="(min-width: 769px)" />
+    <source srcset="/images/homepage/GPB-U17-161.webp" type="image/webp" media="(min-width: 769px)" />
+    <source srcset="/images/homepage/GPB-U17-161-mobile.webp" type="image/webp" media="(max-width: 768px)" />
+    <img src="/images/homepage/GPB-U17-161.jpg" alt="Momentka ze zápasu" loading="eager" decoding="async" />
+  </picture>
+
+  <div class="nadpis">
+    <h1>Jakub Klokan</h1>
+    <h2>Vrcholový badmintonista</h2>
+    <p>Spolupracuji se značkami, které míří vysoko. Stejně jako já.</p>
+    <a href="/sponzoring.html" class="btn-sponsoring">Spolupráce &amp; sponzoring</a>
+  </div>
+
+  <!-- Sekce sponzorů -->
+  <div class="sponsors">
+    <div class="sponsors-main">
+      <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
+        <img src="/images/sponzoring/Peyton_legal.webp" alt="Peyton – hlavní partner" />
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Sekce poslední články z blogu -->
+<section id="blog-proklik-homepage">
+  <h2>Poslední z blogu</h2>
+  <div class="blog-ctverce-homepage" id="blog-prehled-seznam-homepage"></div>
+  <a href="/blog/index.html" class="zobrazit-vse-homepage">Zobrazit vše</a>
+</section>
+
+<!-- Sekce medaile -->
+<section class="medaile">
+  <div class="kruh">
+    <div class="obrázek">
+      <img src="/images/homepage/Adria-U17-medails.jpg" alt="Já se spoluhráčem s medailemi" class="image" width="250" height="250" />
+      <span class="num">15</span>
+    </div>
+    <span class="description">Mezinárodní medaile</span>
+  </div>
+
+  <div class="kruh">
+    <div class="obrázek">
+      <img src="/images/homepage/GPAu19-369.jpg" alt="Momentka ve čtyřhře z turnaje" class="image" width="250" height="250" />
+      <span class="num">30</span>
+    </div>
+    <span class="description">Národní medaile</span>
+  </div>
+
+  <div class="kruh">
+    <div class="obrázek">
+      <img src="/images/homepage/PoharAkademie202523-1200x800.jpg" alt="Já ve výpadu u sítě" class="image" width="250" height="250" />
+      <span class="num">41</span>
+    </div>
+    <span class="description">Vítězství GPC a OP</span>
+  </div>
+</section>
+
+<div class="medals-cta">
+  <a href="achievements.html" class="btn-more-achievements">Více úspěchů</a>
+</div>
+
+<!-- Sekce hodnot -->
+<section class="my-values">
+  <div class="value-item">
+    <img src="/images/homepage/Icon_Focus_target.svg" alt="Fokus" />
+    <h3>Fokus</h3>
+    <p>Vždy soustředěný na cíl a maximální výkon na kurtu i mimo něj.</p>
+  </div>
+  <div class="value-item">
+    <img src="/images/homepage/Icon_Disciplin_checklist.svg" alt="Disciplína" />
+    <h3>Disciplína</h3>
+    <p>Systematický přístup ke každému tréninku a k osobnímu rozvoji.</p>
+  </div>
+  <div class="value-item">
+    <img src="/images/homepage/Icon_Respect.svg" alt="Respekt" />
+    <h3>Respekt</h3>
+    <p>Fair play a respekt vůči soupeřům, trenérům i partnerům.</p>
+  </div>
+  <div class="value-item">
+    <img src="/images/homepage/Icon_vytrvalost.svg" alt="Vytrvalost" />
+    <h3>Vytrvalost</h3>
+    <p>Nezastavit se před překážkami, bojovat až do konce.</p>
+  </div>
+</section>
+
+<!-- Rychlé odkazy -->
+<section class="quick-links light-bg">
+  <a href="about_me.html" class="link-card">
+    <img src="/images/homepage/Icon_O_mně.svg" alt="O mně" />
+    <h4>O mně</h4>
+  </a>
+  <a href="/achievements.html" class="link-card">
+    <img src="/images/homepage/Icon_Achievements_B.svg" alt="Úspěchy" />
+    <h4>Úspěchy</h4>
+  </a>
+  <a href="/blog/index.html" class="link-card">
+    <img src="/images/homepage/Icon_Blog.svg" alt="Blog" />
+    <h4>Blog</h4>
+  </a>
+  <a href="sponzoring.html" class="link-card">
+    <img src="/images/homepage/Icon_Sponzoring.svg" alt="Sponzoring" />
+    <h4>Sponzoring</h4>
+  </a>
+  <a href="Photo_gallery.html" class="link-card">
+    <img src="/images/homepage/Icon_Fotogalerie.svg" alt="Fotogalerie" />
+    <h4>Fotogalerie</h4>
+  </a>
+</section>
+
+  </main>
+  
+  <footer>
+  <div class="footer-content">
+    <img src="/Logo_webu_white.svg" alt="logo webu" height="110" width="110">
+    <span>
+      Jmenuji se Jakub Klokan a jsem vrcholový badmintonista z České republiky.
+      Účastním se tuzemských i mezinárodních turnajů.
+    </span>
+
+    <nav class="odkazy">
+      
+        <a href="/index.html">Domů</a>
+      
+        <a href="/about_me.html">O mně</a>
+      
+        <a href="/achievements.html">Úspěchy</a>
+      
+        <a href="/blog/index.html">Blog</a>
+      
+        <a href="/sponzoring.html">Sponzoring</a>
+      
+        <a href="/Photo_gallery.html">Fotogalerie</a>
+      
+        <a href="/sponzoring.html#kontakt">Kontakt</a>
+      
+    </nav>
+
+    <div class="kontakty">
+      <a href="https://www.instagram.com/jakub.klokan" target="_blank">@Jakub.klokan</a>
+      <a href="https://m.facebook.com/klokanjakub/" target="_blank">@Jakub Klokan</a>
+      <a href="mailto:klokan.jakub08@gmail.com">klokan.jakub08@gmail.com</a>
+      <div>+420 608 021 109</div>
+    </div>
+  </div>
+</footer>
+  
+  <script src="/js/dark-mode.js"></script>
+  <script src="/js/menu-close.js" defer></script>
+  
+    
+      <script src="/js/blog-footer.js"></script>
+    
+  
+</body>
+</html>

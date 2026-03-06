@@ -1,0 +1,29 @@
+<header>
+  <nav id="horní_lišta">
+    <a href="/index.html">Domů</a>
+    {% for item in site.menu offset:1 %}
+      <a href="{{ item.link }}">{{ item.name }}</a>
+    {% endfor %}
+
+    <!-- Logo -->
+    <a href="/index.html" class="logo_webu">
+      <img src="{{ site.logo }}" alt="logo webu" width="80" height="80">
+    </a>
+
+    <!-- Dark mode toggle -->
+    <button id="dark-mode-toggle" class="dark-toggle">🌙</button>
+  </nav>
+
+  <!-- Mobilní menu -->
+  <nav class="mobilni-menu">
+    <input type="checkbox" id="toggle-menu" autocomplete="off" />
+    <label for="toggle-menu" class="menu-ikona">
+      <span></span><span></span><span></span>
+    </label>
+    <ul class="odkazy-menu">
+      {% for item in site.menu %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

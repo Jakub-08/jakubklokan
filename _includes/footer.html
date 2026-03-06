@@ -1,0 +1,22 @@
+<footer>
+  <div class="footer-content">
+    <img src="{{ site.logo }}" alt="logo webu" height="110" width="110">
+    <span>
+      Jmenuji se {{ site.author }} a jsem vrcholový badmintonista z České republiky.
+      Účastním se tuzemských i mezinárodních turnajů.
+    </span>
+
+    <nav class="odkazy">
+      {% for item in site.menu %}
+        <a href="{{ item.link }}">{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+
+    <div class="kontakty">
+      <a href="{{ site.contacts.instagram }}" target="_blank">@Jakub.klokan</a>
+      <a href="{{ site.contacts.facebook }}" target="_blank">@Jakub Klokan</a>
+      <a href="mailto:{{ site.contacts.email }}">{{ site.contacts.email }}</a>
+      <div>{{ site.contacts.phone }}</div>
+    </div>
+  </div>
+</footer>
