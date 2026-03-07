@@ -49,7 +49,10 @@ scripts:
 <!-- Sekce poslední články z blogu -->
 <section id="blog-proklik-homepage">
   <h2>Poslední z blogu</h2>
-  <div class="blog-ctverce-homepage" id="blog-prehled-seznam-homepage"></div>
+  <div class="blog-ctverce-homepage" id="blog-prehled-seznam-homepage">
+  <div class="overlay"></div>
+  </div>
+  
   <a href="/blog/index.html" class="zobrazit-vse-homepage">Zobrazit vše</a>
 </section>
 

@@ -1,19 +1,20 @@
 <header>
+  <!-- Desktop menu -->
   <nav id="horní_lišta">
     <a class="navigation_menu_buttons" href="/index.html">Domů</a>
     {% for item in site.menu offset:1 %}
-    <a class="navigation_menu_buttons" href="{{ item.link }}"
-      >{{ item.name }}</a
-    >
+      <a class="navigation_menu_buttons" href="{{ item.link }}">{{ item.name }}</a>
     {% endfor %}
 
-    <!-- Language Switcher -->
-    <a href="/en/index_en.html" hreflang="en" lang="en" class="language-switcher">
-      <img src="/images/gb.svg" alt="English" width="24" height="16" />
-    </a>
+    <!-- Language Switcher Desktop -->
+    <div class="language-switcher">
+      <a href="/en/index_en.html" hreflang="en" lang="en">
+        <img src="/images/gb.svg" alt="English" width="24" height="16" />
+      </a>
+    </div>
 
-    <!-- Dark mode toggle -->
-    <button id="dark-mode-toggle" class="dark-toggle">🌙</button>
+    <!-- Dark mode toggle Desktop -->
+    <button id="dark-mode-toggle" class="dark-toggle" aria-label="Toggle Dark Mode">🌙</button>
 
     <!-- Logo -->
     <a href="/index.html" class="logo_webu">
@@ -23,13 +24,36 @@
 
   <!-- Mobilní menu -->
   <nav class="mobilni-menu">
-    <input type="checkbox" id="toggle-menu" autocomplete="off" />
-    <label for="toggle-menu" class="menu-ikona">
-      <span></span><span></span><span></span>
+    <a href="/index.html">
+      <img src="/Logo_webu_white.svg" alt="logo_webu" class="mobilni_logo" />
+    </a>
+
+    <!-- Dark mode toggle Mobile -->
+    <button id="dark-toggle-mobile" aria-label="Toggle Dark Mode" class="dark-toggle">🌙</button>
+
+    <!-- Language Switcher Mobile -->
+    <div class="language-switcher_mobile">
+      <ul>
+        <li>
+          <a href="/en/index_en.html" hreflang="en" lang="en">
+            <img src="/images/gb.svg" alt="English" width="24" height="16" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Menu toggle -->
+    <input type="checkbox" id="toggle-menu-mobile" autocomplete="off" />
+    <label for="toggle-menu-mobile" class="menu-ikona">
+      <span></span>
+      <span></span>
+      <span></span>
     </label>
+
+    <!-- Menu odkazy -->
     <ul class="odkazy-menu">
       {% for item in site.menu %}
-      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
       {% endfor %}
     </ul>
   </nav>

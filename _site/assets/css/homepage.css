@@ -235,7 +235,7 @@
 main .blog-ctverec .overlay {
   position: relative; /** pro overlay **/
 }
-/*
+
 main .blog-ctverec .overlay::after {
   content: "";
   position: absolute;
@@ -252,7 +252,13 @@ main .blog-ctverec .overlay {
   justify-content: flex-end;
   padding: 1em;
 }
-*/
+
+.blog-ctverec h4 {
+  margin: 0 0 0.3em;
+  font-size: 1.1em;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
 
 main .blog-ctverec h3 {
   margin: 0 0 0.3em;
@@ -586,4 +592,11 @@ main .blog-ctverec h3 {
   .sponsors-main {
     display: none; /* skrytí uprostřed */
   }
+
+  .btn-sponsoring {
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
 }
+
+

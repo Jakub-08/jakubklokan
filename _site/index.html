@@ -15,7 +15,6 @@
 <link rel="stylesheet" href="/assets/css/base.css">
 <link rel="stylesheet" href="/assets/css/layout.css">
 <link rel="stylesheet" href="/assets/css/components.css">
-<link rel="stylesheet" href="/assets/css/sections.css">
 
 <link rel="stylesheet" href="/assets/css/homepage.css">
 
@@ -50,41 +49,32 @@ gtag('config', 'G-NCZN4K2E8L');
   </head>
   <body>
     <header>
+  <!-- Desktop menu -->
   <nav id="horní_lišta">
     <a class="navigation_menu_buttons" href="/index.html">Domů</a>
     
-    <a class="navigation_menu_buttons" href="/about_me.html"
-      >O mně</a
-    >
+      <a class="navigation_menu_buttons" href="/about_me.html">O mně</a>
     
-    <a class="navigation_menu_buttons" href="/achievements.html"
-      >Úspěchy</a
-    >
+      <a class="navigation_menu_buttons" href="/achievements.html">Úspěchy</a>
     
-    <a class="navigation_menu_buttons" href="/blog/index.html"
-      >Blog</a
-    >
+      <a class="navigation_menu_buttons" href="/blog/index.html">Blog</a>
     
-    <a class="navigation_menu_buttons" href="/sponzoring.html"
-      >Sponzoring</a
-    >
+      <a class="navigation_menu_buttons" href="/sponzoring.html">Sponzoring</a>
     
-    <a class="navigation_menu_buttons" href="/Photo_gallery.html"
-      >Fotogalerie</a
-    >
+      <a class="navigation_menu_buttons" href="/Photo_gallery.html">Fotogalerie</a>
     
-    <a class="navigation_menu_buttons" href="/sponzoring.html#kontakt"
-      >Kontakt</a
-    >
+      <a class="navigation_menu_buttons" href="/sponzoring.html#kontakt">Kontakt</a>
     
 
-    <!-- Language Switcher -->
-    <a href="/en/index_en.html" hreflang="en" lang="en" class="language-switcher">
-      <img src="/images/gb.svg" alt="English" width="24" height="16" />
-    </a>
+    <!-- Language Switcher Desktop -->
+    <div class="language-switcher">
+      <a href="/en/index_en.html" hreflang="en" lang="en">
+        <img src="/images/gb.svg" alt="English" width="24" height="16" />
+      </a>
+    </div>
 
-    <!-- Dark mode toggle -->
-    <button id="dark-mode-toggle" class="dark-toggle">🌙</button>
+    <!-- Dark mode toggle Desktop -->
+    <button id="dark-mode-toggle" class="dark-toggle" aria-label="Toggle Dark Mode">🌙</button>
 
     <!-- Logo -->
     <a href="/index.html" class="logo_webu">
@@ -94,30 +84,52 @@ gtag('config', 'G-NCZN4K2E8L');
 
   <!-- Mobilní menu -->
   <nav class="mobilni-menu">
-    <input type="checkbox" id="toggle-menu" autocomplete="off" />
-    <label for="toggle-menu" class="menu-ikona">
-      <span></span><span></span><span></span>
+    <a href="/index.html">
+      <img src="/Logo_webu_white.svg" alt="logo_webu" class="mobilni_logo" />
+    </a>
+
+    <!-- Dark mode toggle Mobile -->
+    <button id="dark-toggle-mobile" aria-label="Toggle Dark Mode" class="dark-toggle">🌙</button>
+
+    <!-- Language Switcher Mobile -->
+    <div class="language-switcher_mobile">
+      <ul>
+        <li>
+          <a href="/en/index_en.html" hreflang="en" lang="en">
+            <img src="/images/gb.svg" alt="English" width="24" height="16" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Menu toggle -->
+    <input type="checkbox" id="toggle-menu-mobile" autocomplete="off" />
+    <label for="toggle-menu-mobile" class="menu-ikona">
+      <span></span>
+      <span></span>
+      <span></span>
     </label>
+
+    <!-- Menu odkazy -->
     <ul class="odkazy-menu">
       
-      <li><a href="/index.html">Domů</a></li>
+        <li><a href="/index.html">Domů</a></li>
       
-      <li><a href="/about_me.html">O mně</a></li>
+        <li><a href="/about_me.html">O mně</a></li>
       
-      <li><a href="/achievements.html">Úspěchy</a></li>
+        <li><a href="/achievements.html">Úspěchy</a></li>
       
-      <li><a href="/blog/index.html">Blog</a></li>
+        <li><a href="/blog/index.html">Blog</a></li>
       
-      <li><a href="/sponzoring.html">Sponzoring</a></li>
+        <li><a href="/sponzoring.html">Sponzoring</a></li>
       
-      <li><a href="/Photo_gallery.html">Fotogalerie</a></li>
+        <li><a href="/Photo_gallery.html">Fotogalerie</a></li>
       
-      <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+        <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
       
     </ul>
   </nav>
 </header>
-
 
     <main><!-- Úvodní sekce s obrázkem -->
 <section id="úvod">
@@ -155,7 +167,10 @@ gtag('config', 'G-NCZN4K2E8L');
 <!-- Sekce poslední články z blogu -->
 <section id="blog-proklik-homepage">
   <h2>Poslední z blogu</h2>
-  <div class="blog-ctverce-homepage" id="blog-prehled-seznam-homepage"></div>
+  <div class="blog-ctverce-homepage" id="blog-prehled-seznam-homepage">
+  <div class="overlay"></div>
+  </div>
+  
   <a href="/blog/index.html" class="zobrazit-vse-homepage">Zobrazit vše</a>
 </section>
 
