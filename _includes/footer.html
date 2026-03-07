@@ -1,22 +1,71 @@
 <footer>
   <div class="footer-content">
-    <img src="{{ site.logo }}" alt="logo webu" height="110" width="110">
-    <span>
-      Jmenuji se {{ site.author }} a jsem vrcholový badmintonista z České republiky.
-      Účastním se tuzemských i mezinárodních turnajů.
-    </span>
+    <div class="footer-left">
+      <img src="{{ site.logo }}" alt="logo webu" height="110" width="110" />
+      <span>
+        Jmenuji se Jakub Klokan a jsem vrcholový badmintonista z České
+        republiky. Účastním se tuzemských i mezinárodních turnajů, odkud jsem si
+        již přivezl nespočet medailových umístění. Zároveň jsem studentem
+        Podkrušnohorského sportovního gymnázia v Mostě.
+      </span>
+    </div>
 
-    <nav class="odkazy">
-      {% for item in site.menu %}
+    <div class="oddělení"></div>
+
+    <div class="footer-middle">
+      <nav class="odkazy">
+        {% for item in site.menu %}
         <a href="{{ item.link }}">{{ item.name }}</a>
-      {% endfor %}
-    </nav>
+        {% endfor %}
+      </nav>
+    </div>
+
+    <div class="oddělení"></div>
 
     <div class="kontakty">
-      <a href="{{ site.contacts.instagram }}" target="_blank">@Jakub.klokan</a>
-      <a href="{{ site.contacts.facebook }}" target="_blank">@Jakub Klokan</a>
-      <a href="mailto:{{ site.contacts.email }}">{{ site.contacts.email }}</a>
-      <div>{{ site.contacts.phone }}</div>
+      <a href="{{ site.contacts.instagram }}" target="_blank">
+        <img
+          src="/images/homepage/instagram-white-simple.svg"
+          alt="logo Instagramu"
+          height="40"
+          width="40"
+        />
+        <span>@Jakub.klokan</span>
+      </a>
+      <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+        <img
+          src="/images/homepage/facebook-white-simple.svg"
+          alt="logo Facebooku"
+          height="40"
+          width="40"
+        />
+        <span>@Jakub Klokan</span>
+      </a>
+      <a href="mailto:{{ site.contacts.email }}" target="_blank">
+        <img
+          src="/images/homepage/email-envelope-white-icon.svg"
+          alt="ikona telefonu"
+          height="40"
+          width="40"
+        />
+        <span>{{ site.contacts.email }}</span>
+      </a>
+      <div class="phone">
+        <img
+          src="/images/homepage/phone-white-simple.svg"
+          alt="ikona E-mailu"
+          height="40"
+          width="40"
+        />
+        <span>{{ site.contacts.phone }}</span>
+      </div>
     </div>
+  </div>
+
+  <div class="copyright">
+    <p class="copyright">© 2026 Jakub Klokan</p>
+    <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
+    <p class="copyright">© Super Stars Most</p>
+    <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
   </div>
 </footer>

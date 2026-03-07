@@ -18,18 +18,32 @@ scripts:
   <div class="nadpis">
     <h1>Jakub Klokan</h1>
     <h2>Vrcholový badmintonista</h2>
-    <p>Spolupracuji se značkami, které míří vysoko. Stejně jako já.</p>
     <a href="/sponzoring.html" class="btn-sponsoring">Spolupráce & sponzoring</a>
   </div>
 
   <!-- Sekce sponzorů -->
+
   <div class="sponsors">
-    <div class="sponsors-main">
-      <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
-        <img src="/images/sponzoring/Peyton_legal.webp" alt="Peyton – hlavní partner">
-      </a>
+          <div class="sponsors-left" id="sponsor-left">
+            <a href="#"><img src="" alt="" /></a>
+          </div>
+          <div class="sponsors-main">
+            <a
+              href="https://www.peytonlegal.cz/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="/images/sponzoring/Peyton_legal.webp"
+                alt="Peyton – hlavní partner"
+              />
+            </a>
+          </div>
+          <div class="sponsors-right" id="sponsor-right">
+            <a href="#"><img src="" alt="" /></a>
+          </div>
     </div>
-  </div>
+
 </section>
 
 <!-- Sekce poslední články z blogu -->

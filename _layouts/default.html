@@ -1,23 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.language }}">
-<head>
-  {% include head.html %}
-</head>
-<body>
-  {% include header.html %}
-  
-  <main>
-    {{ content }}
-  </main>
-  
-  {% include footer.html %}
-  
-  <script src="/js/dark-mode.js"></script>
-  <script src="/js/menu-close.js" defer></script>
-  {% if page.scripts %}
-    {% for script in page.scripts %}
-      <script src="{{ script }}"></script>
-    {% endfor %}
-  {% endif %}
-</body>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+
+    <main>{{ content }}</main>
+
+    {% include footer.html %}
+
+    <script src="/js/dark-mode.js"></script>
+    <script src="/js/menu-close.js" defer></script>
+    <script src="/js/posledni-blog.js"></script>
+    <script src="/js/blog-footer.js"></script>
+    {% if page.scripts %} {% for script in page.scripts %}
+    <script src="{{ script }}"></script>
+    {% endfor %} {% endif %}
+  </body>
 </html>

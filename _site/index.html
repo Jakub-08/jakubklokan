@@ -1,16 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jakub Klokan</title>
 <meta name="description" content="Vrcholový badmintonista">
 <meta name="author" content="Jakub Klokan">
 
 <link rel="icon" href="/Logo_webu_white.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/css/style-homepage.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="/assets/css/variables.css">
+<link rel="stylesheet" href="/assets/css/base.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+<link rel="stylesheet" href="/assets/css/sections.css">
+
+<link rel="stylesheet" href="/assets/css/homepage.css">
+
 
 <!-- OpenGraph -->
 <meta property="og:title" content="Jakub Klokan">
@@ -39,32 +47,49 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-NCZN4K2E8L');
 </script>
-</head>
-<body>
-  <header>
+  </head>
+  <body>
+    <header>
   <nav id="horní_lišta">
-    <a href="/index.html">Domů</a>
+    <a class="navigation_menu_buttons" href="/index.html">Domů</a>
     
-      <a href="/about_me.html">O mně</a>
+    <a class="navigation_menu_buttons" href="/about_me.html"
+      >O mně</a
+    >
     
-      <a href="/achievements.html">Úspěchy</a>
+    <a class="navigation_menu_buttons" href="/achievements.html"
+      >Úspěchy</a
+    >
     
-      <a href="/blog/index.html">Blog</a>
+    <a class="navigation_menu_buttons" href="/blog/index.html"
+      >Blog</a
+    >
     
-      <a href="/sponzoring.html">Sponzoring</a>
+    <a class="navigation_menu_buttons" href="/sponzoring.html"
+      >Sponzoring</a
+    >
     
-      <a href="/Photo_gallery.html">Fotogalerie</a>
+    <a class="navigation_menu_buttons" href="/Photo_gallery.html"
+      >Fotogalerie</a
+    >
     
-      <a href="/sponzoring.html#kontakt">Kontakt</a>
+    <a class="navigation_menu_buttons" href="/sponzoring.html#kontakt"
+      >Kontakt</a
+    >
     
 
-    <!-- Logo -->
-    <a href="/index.html" class="logo_webu">
-      <img src="/Logo_webu_white.svg" alt="logo webu" width="80" height="80">
+    <!-- Language Switcher -->
+    <a href="/en/index_en.html" hreflang="en" lang="en" class="language-switcher">
+      <img src="/images/gb.svg" alt="English" width="24" height="16" />
     </a>
 
     <!-- Dark mode toggle -->
     <button id="dark-mode-toggle" class="dark-toggle">🌙</button>
+
+    <!-- Logo -->
+    <a href="/index.html" class="logo_webu">
+      <img src="/Logo_webu_white.svg" alt="logo webu" width="80" height="80" />
+    </a>
   </nav>
 
   <!-- Mobilní menu -->
@@ -75,26 +100,26 @@ gtag('config', 'G-NCZN4K2E8L');
     </label>
     <ul class="odkazy-menu">
       
-        <li><a href="/index.html">Domů</a></li>
+      <li><a href="/index.html">Domů</a></li>
       
-        <li><a href="/about_me.html">O mně</a></li>
+      <li><a href="/about_me.html">O mně</a></li>
       
-        <li><a href="/achievements.html">Úspěchy</a></li>
+      <li><a href="/achievements.html">Úspěchy</a></li>
       
-        <li><a href="/blog/index.html">Blog</a></li>
+      <li><a href="/blog/index.html">Blog</a></li>
       
-        <li><a href="/sponzoring.html">Sponzoring</a></li>
+      <li><a href="/sponzoring.html">Sponzoring</a></li>
       
-        <li><a href="/Photo_gallery.html">Fotogalerie</a></li>
+      <li><a href="/Photo_gallery.html">Fotogalerie</a></li>
       
-        <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
+      <li><a href="/sponzoring.html#kontakt">Kontakt</a></li>
       
     </ul>
   </nav>
 </header>
-  
-  <main>
-    <!-- Úvodní sekce s obrázkem -->
+
+
+    <main><!-- Úvodní sekce s obrázkem -->
 <section id="úvod">
   <picture class="hero-bg">
     <source srcset="/images/homepage/GPB-U17-161.avif" type="image/avif" media="(min-width: 769px)" />
@@ -106,18 +131,25 @@ gtag('config', 'G-NCZN4K2E8L');
   <div class="nadpis">
     <h1>Jakub Klokan</h1>
     <h2>Vrcholový badmintonista</h2>
-    <p>Spolupracuji se značkami, které míří vysoko. Stejně jako já.</p>
     <a href="/sponzoring.html" class="btn-sponsoring">Spolupráce &amp; sponzoring</a>
   </div>
 
   <!-- Sekce sponzorů -->
+
   <div class="sponsors">
-    <div class="sponsors-main">
-      <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
-        <img src="/images/sponzoring/Peyton_legal.webp" alt="Peyton – hlavní partner" />
-      </a>
+          <div class="sponsors-left" id="sponsor-left">
+            <a href="#"><img src="" alt="" /></a>
+          </div>
+          <div class="sponsors-main">
+            <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
+              <img src="/images/sponzoring/Peyton_legal.webp" alt="Peyton – hlavní partner" />
+            </a>
+          </div>
+          <div class="sponsors-right" id="sponsor-right">
+            <a href="#"><img src="" alt="" /></a>
+          </div>
     </div>
-  </div>
+
 </section>
 
 <!-- Sekce poslední články z blogu -->
@@ -205,50 +237,99 @@ gtag('config', 'G-NCZN4K2E8L');
     <h4>Fotogalerie</h4>
   </a>
 </section>
+</main>
 
-  </main>
-  
-  <footer>
+    <footer>
   <div class="footer-content">
-    <img src="/Logo_webu_white.svg" alt="logo webu" height="110" width="110">
-    <span>
-      Jmenuji se Jakub Klokan a jsem vrcholový badmintonista z České republiky.
-      Účastním se tuzemských i mezinárodních turnajů.
-    </span>
+    <div class="footer-left">
+      <img src="/Logo_webu_white.svg" alt="logo webu" height="110" width="110" />
+      <span>
+        Jmenuji se Jakub Klokan a jsem vrcholový badmintonista z České
+        republiky. Účastním se tuzemských i mezinárodních turnajů, odkud jsem si
+        již přivezl nespočet medailových umístění. Zároveň jsem studentem
+        Podkrušnohorského sportovního gymnázia v Mostě.
+      </span>
+    </div>
 
-    <nav class="odkazy">
-      
+    <div class="oddělení"></div>
+
+    <div class="footer-middle">
+      <nav class="odkazy">
+        
         <a href="/index.html">Domů</a>
-      
+        
         <a href="/about_me.html">O mně</a>
-      
+        
         <a href="/achievements.html">Úspěchy</a>
-      
+        
         <a href="/blog/index.html">Blog</a>
-      
+        
         <a href="/sponzoring.html">Sponzoring</a>
-      
+        
         <a href="/Photo_gallery.html">Fotogalerie</a>
-      
+        
         <a href="/sponzoring.html#kontakt">Kontakt</a>
-      
-    </nav>
+        
+      </nav>
+    </div>
+
+    <div class="oddělení"></div>
 
     <div class="kontakty">
-      <a href="https://www.instagram.com/jakub.klokan" target="_blank">@Jakub.klokan</a>
-      <a href="https://m.facebook.com/klokanjakub/" target="_blank">@Jakub Klokan</a>
-      <a href="mailto:klokan.jakub08@gmail.com">klokan.jakub08@gmail.com</a>
-      <div>+420 608 021 109</div>
+      <a href="https://www.instagram.com/jakub.klokan" target="_blank">
+        <img
+          src="/images/homepage/instagram-white-simple.svg"
+          alt="logo Instagramu"
+          height="40"
+          width="40"
+        />
+        <span>@Jakub.klokan</span>
+      </a>
+      <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+        <img
+          src="/images/homepage/facebook-white-simple.svg"
+          alt="logo Facebooku"
+          height="40"
+          width="40"
+        />
+        <span>@Jakub Klokan</span>
+      </a>
+      <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
+        <img
+          src="/images/homepage/email-envelope-white-icon.svg"
+          alt="ikona telefonu"
+          height="40"
+          width="40"
+        />
+        <span>klokan.jakub08@gmail.com</span>
+      </a>
+      <div class="phone">
+        <img
+          src="/images/homepage/phone-white-simple.svg"
+          alt="ikona E-mailu"
+          height="40"
+          width="40"
+        />
+        <span>+420 608 021 109</span>
+      </div>
     </div>
   </div>
+
+  <div class="copyright">
+    <p class="copyright">© 2026 Jakub Klokan</p>
+    <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
+    <p class="copyright">© Super Stars Most</p>
+    <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
+  </div>
 </footer>
-  
-  <script src="/js/dark-mode.js"></script>
-  <script src="/js/menu-close.js" defer></script>
-  
-    
-      <script src="/js/blog-footer.js"></script>
-    
-  
-</body>
+
+
+    <script src="/js/dark-mode.js"></script>
+    <script src="/js/menu-close.js" defer></script>
+    <script src="/js/posledni-blog.js"></script>
+    <script src="/js/blog-footer.js"></script>
+     
+    <script src="/js/blog-footer.js"></script>
+     
+  </body>
 </html>

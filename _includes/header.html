@@ -1,17 +1,24 @@
 <header>
   <nav id="horní_lišta">
-    <a href="/index.html">Domů</a>
+    <a class="navigation_menu_buttons" href="/index.html">Domů</a>
     {% for item in site.menu offset:1 %}
-      <a href="{{ item.link }}">{{ item.name }}</a>
+    <a class="navigation_menu_buttons" href="{{ item.link }}"
+      >{{ item.name }}</a
+    >
     {% endfor %}
 
-    <!-- Logo -->
-    <a href="/index.html" class="logo_webu">
-      <img src="{{ site.logo }}" alt="logo webu" width="80" height="80">
+    <!-- Language Switcher -->
+    <a href="/en/index_en.html" hreflang="en" lang="en" class="language-switcher">
+      <img src="/images/gb.svg" alt="English" width="24" height="16" />
     </a>
 
     <!-- Dark mode toggle -->
     <button id="dark-mode-toggle" class="dark-toggle">🌙</button>
+
+    <!-- Logo -->
+    <a href="/index.html" class="logo_webu">
+      <img src="{{ site.logo }}" alt="logo webu" width="80" height="80" />
+    </a>
   </nav>
 
   <!-- Mobilní menu -->
@@ -22,7 +29,7 @@
     </label>
     <ul class="odkazy-menu">
       {% for item in site.menu %}
-        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
       {% endfor %}
     </ul>
   </nav>

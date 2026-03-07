@@ -1,0 +1,13 @@
+:root {
+  --font-main: "Inter", sans-serif;
+
+  --color-bg: #f5f5f5;
+  --color-dark: #121212;
+  --color-white: #ffffff;
+  --color-text: #333;
+
+  --accent: #ffcb05;
+  --accent-dark: #ff9900;
+
+  --container-width: 1200px;
+}
