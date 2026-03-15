@@ -7,24 +7,10 @@ body {
 
 /*Tlačítko pro přepínání dark mode*/
 
-
 /* Mobilní menu: tlačítko styl jako link */
-#dark-toggle-mobile {
-  background: none;
-  border: none;
-  color: inherit;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  width: 100%;
-  text-align: right;
-  margin-left: 10px;
-}
 
 /* Můžeš přidat hover efekt i tady */
-#dark-toggle-mobile {
-  display: none;
-}
+
 .social_div {
   height: 120px;
   gap: 40px;
@@ -34,8 +20,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-
 
 .rozcestí {
   display: flex;
@@ -221,18 +205,8 @@ footer {
   font-size: 0.875rem;
   margin-top: 10px;
 }
-.mobilni-menu {
-  display: flex;
-  position: relative;
-  top: 15px;
-}
-#toggle-menu {
-  display: none;
-}
-.menu-ikona {
-  margin-right: 20px;
-  color: #f5f5f5;
-}
+
+
 .odkazy-menu {
   display: none;
   flex-direction: column;
@@ -246,10 +220,7 @@ footer {
   padding: 0;
 }
 
-.mobilni_logo {
-  margin-left: 20px;
-  display: none;
-}
+
 .odkazy-menu li {
   border-bottom: 1px solid #444;
   text-align: center;
@@ -259,38 +230,16 @@ footer {
   color: #fff;
   text-decoration: none;
 }
-.menu-ikona {
-  font-size: 1.5rem;
-  padding: 10px;
-  cursor: pointer;
-  display: none; /* Skryté na desktopu */
-}
+
 #toggle-menu:checked + .menu-ikona + .odkazy-menu {
   display: flex;
 }
 #copa_photo {
   padding-top: 10px;
 }
+
 @media screen and (max-width: 1100px) {
-  #horní_lišta,
-  .rozcestí {
-    display: none;
-  }
-  #dark-toggle-mobile {
-    display: block;
-  }
-  .záhlaví {
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    padding-bottom: 0;
-  }
-  #dark-toggle-mobile {
-    display: block;
-  }
-  .mobilni_logo {
-    display: block;
-  }
+
   .social_div {
     display: flex;
     flex-direction: row;
@@ -482,24 +431,7 @@ footer {
   .záhlaví h2 {
     font-size: 1.06rem;
   }
-  .mobilni-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2000;
-    background: rgba(15, 13, 13, 0.98);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-  }
-  .menu-ikona {
-    display: block;
-  }
-  .odkazy-menu {
-    display: 0;
-  }
+  
 }
 @media screen and (max-width: 1350px) and (min-width: 1100px) {
   .left_text {
@@ -763,35 +695,8 @@ body.dark-mode .škola a {
 }
 
 /*3*/
-.menu-ikona {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 25px;
-  height: 20px;
-  cursor: pointer;
-}
 
-.menu-ikona span {
-  display: block;
-  height: 3px;
-  background: white;
-  border-radius: 2px;
-  transition: all 0.3s ease;
-}
 
-/* Animace při otevření */
-input[type="checkbox"]:checked + .menu-ikona span:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-input[type="checkbox"]:checked + .menu-ikona span:nth-child(2) {
-  opacity: 0;
-}
-
-input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
 
 /* Efekt ikony při otevření */
 .odkazy-menu li a i {
@@ -803,8 +708,6 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
   animation: iconPop 0.3s ease forwards;
   animation-delay: 0.2s;
 }
-
-
 
 .language-switcher_mobile {
   display: flex;
@@ -836,7 +739,9 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  transition: color 0.2s, transform 0.2s;
+  transition:
+    color 0.2s,
+    transform 0.2s;
 }
 
 .language-switcher a:hover {
