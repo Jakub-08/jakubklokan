@@ -1,71 +1,71 @@
 <footer>
-  <div class="footer-content">
-    <div class="footer-left">
-      <img src="{{ site.logo }}" alt="logo webu" height="110" width="110" />
+  <div class="top-part-footer">
+    <div class="text-footer">
+      <img
+        src="{{ '/Logo_webu_white.svg' | relative_url }}"
+        alt="logo_webu"
+        height="110"
+        width="110"
+      />
       <span>
-        Jmenuji se Jakub Klokan a jsem vrcholový badmintonista z České
-        republiky. Účastním se tuzemských i mezinárodních turnajů, odkud jsem si
-        již přivezl nespočet medailových umístění. Zároveň jsem studentem
-        Podkrušnohorského sportovního gymnázia v Mostě.
+        Jmenuji se Jakub Klokan a&nbsp;jsem vrcholový badmintonista z&nbsp;České
+        republiky. Účastním se tuzemských i&nbsp;mezinárodních turnajů, odkud
+        jsem si již přivezl nespočet medailových umístění.<br />
+        Zároveň jsem studentem Podkrušnohorského sportovního gymnázia
+        v&nbsp;Mostě.
       </span>
     </div>
 
     <div class="oddělení"></div>
 
-    <div class="footer-middle">
-      <nav class="odkazy">
-        {% for item in site.menu %}
-        <a href="{{ item.link }}">{{ item.name }}</a>
-        {% endfor %}
-      </nav>
-    </div>
+    <nav class="footer-odkazy">
+      <a href="{{ '/index.html' | relative_url }}">Domů</a>
+      <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+      <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+      <a href="{{ '/blog/index.html' | relative_url }}">Blog</a>
+      <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+      <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+      <a href="{{ '/sponzoring.html#kontakt' | relative_url }}">Kontakt</a>
+    </nav>
 
     <div class="oddělení"></div>
 
     <div class="kontakty">
-      <a href="{{ site.contacts.instagram }}" target="_blank">
+      <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
         <img
-          src="/images/homepage/instagram-white-simple.svg"
+          src="{{ '/images/homepage/instagram-white-simple.svg' | relative_url }}"
           alt="logo Instagramu"
-          height="40"
-          width="40"
         />
         <span>@Jakub.klokan</span>
       </a>
       <a href="https://m.facebook.com/klokanjakub/" target="_blank">
         <img
-          src="/images/homepage/facebook-white-simple.svg"
+          src="{{ '/images/homepage/facebook-white-simple.svg' | relative_url }}"
           alt="logo Facebooku"
-          height="40"
-          width="40"
         />
         <span>@Jakub Klokan</span>
       </a>
-      <a href="mailto:{{ site.contacts.email }}" target="_blank">
+      <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
         <img
-          src="/images/homepage/email-envelope-white-icon.svg"
+          src="{{ '/images/homepage/email-envelope-white-icon.svg' | relative_url }}"
           alt="ikona telefonu"
-          height="40"
-          width="40"
         />
-        <span>{{ site.contacts.email }}</span>
+        <span>klokan.jakub08@gmail.com</span>
       </a>
       <div class="phone">
         <img
-          src="/images/homepage/phone-white-simple.svg"
-          alt="ikona E-mailu"
-          height="40"
-          width="40"
+          src="{{ '/images/homepage/phone-white-simple.svg' | relative_url }}"
+          alt="ikona telefonu"
         />
-        <span>{{ site.contacts.phone }}</span>
+        <span>+420 608 021 109</span>
       </div>
     </div>
   </div>
 
-  <div class="copyright">
-    <p class="copyright">© 2026 Jakub Klokan</p>
-    <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
-    <p class="copyright">© Super Stars Most</p>
-    <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
-  </div>
+  <div class="oddělení_X"></div>
+
+  <p class="copyright">© 2026 Jakub Klokan</p>
+  <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
+  <p class="copyright">© Super Stars Most</p>
+  <p class="copyright">© Badminton Plzeň</p>
 </footer>

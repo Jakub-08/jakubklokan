@@ -131,56 +131,6 @@ body {
 #škola {
   scroll-margin-top: 150px;
 }
-.záhlaví {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 30px;
-  justify-content: center;
-  align-items: start;
-  padding: 70px 0 70px 0;
-  height: fit-content;
-  padding-bottom: 80px;
-  font-size: 0.8rem;
-}
-.odkazy {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-.kontakty {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 10px;
-  color: #fff;
-}
-footer {
-  background-color: rgba(0, 0, 0, 0.904);
-}
-
-.text-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 60px;
-  line-height: 1.5;
-}
-
-.text-footer span {
-  text-align: center;
-  color: white;
-  margin-top: 10px;
-}
-
-.oddělení {
-  display: none;
-}
-
-.kontakty span {
-  margin-left: 15px;
-  font-size: 0.875rem;
-}
 
 .záhlaví a,
 .phone {
@@ -190,56 +140,14 @@ footer {
   text-decoration: none;
   font-size: 1rem;
 }
-.copyright {
-  color: white;
-  margin: 0;
-  padding-bottom: 20px;
-  text-align: center;
-  font-size: 0.75rem;
-}
-.záhlaví a:hover {
-  font-weight: 700;
-}
+
 .záhlaví p {
   color: #fff;
   font-size: 0.875rem;
   margin-top: 10px;
 }
 
-
-.odkazy-menu {
-  display: none;
-  flex-direction: column;
-  background-color: #222;
-  position: absolute;
-  top: 34px;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  list-style: none;
-  padding: 0;
-}
-
-
-.odkazy-menu li {
-  border-bottom: 1px solid #444;
-  text-align: center;
-  padding: 15px 0;
-}
-.odkazy-menu li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-#toggle-menu:checked + .menu-ikona + .odkazy-menu {
-  display: flex;
-}
-#copa_photo {
-  padding-top: 10px;
-}
-
 @media screen and (max-width: 1100px) {
-
   .social_div {
     display: flex;
     flex-direction: row;
@@ -397,14 +305,6 @@ footer {
     gap: 3px;
   }
 
-  .oddělení {
-    display: block;
-    margin: 1rem auto;
-    height: 1px;
-    width: 20%;
-    background-color: white;
-  }
-
   .text-footer {
     margin-left: 0;
   }
@@ -420,9 +320,7 @@ footer {
     margin: 0;
     margin-bottom: 7px;
   }
-  .záhlaví {
-    height: fit-content;
-  }
+
   .kontakty p,
   .záhlaví a,
   .záhlaví p {
@@ -431,7 +329,6 @@ footer {
   .záhlaví h2 {
     font-size: 1.06rem;
   }
-  
 }
 @media screen and (max-width: 1350px) and (min-width: 1100px) {
   .left_text {
@@ -695,8 +592,6 @@ body.dark-mode .škola a {
 }
 
 /*3*/
-
-
 
 /* Efekt ikony při otevření */
 .odkazy-menu li a i {

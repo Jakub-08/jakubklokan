@@ -1,0 +1,192 @@
+:root {
+  /* colors */
+  --color-primary: #0a84ff;
+  --color-text: #fdfdfd;
+  --color-background: #f5f5f5;
+  --color-header: rgba(15, 13, 13, 0.993);
+
+  /* font size */
+  --font-xs: 0.75rem; /* 12px */
+  --font-sm: 0.875rem; /* 14px */
+  --font-md: 1rem; /* 16px */
+  --font-lg: 1.125rem; /* 18px */
+  --font-xl: 1.5rem; /* 24px */
+  --font-2xl: 2rem; /* 32px */
+  --font-3xl: 2.5rem; /* 40px */
+  --font-4xl: 3rem; /* 48px */
+
+  /* spacing */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.5rem; /* 24px */
+  --space-6: 2rem; /* 32px */
+  --space-7: 3rem; /* 48px */
+  --space-8: 4rem; /* 64px */
+
+  /* layout */
+  --max-width: 1200px;
+  --border-radius: 10px;
+
+  /* typography */
+  --font-main: "Inter", sans-serif;
+}
+
+/* =================
+LAYOUT
+================= */
+
+.header_pc {
+  height: 70px;
+  background-color: var(--color-header);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+/* =================
+NAVIGATION
+================= */
+
+.header_middle a {
+  margin: auto 15px;
+  text-decoration: none;
+  font-size: var(--font-sm);
+  color: var(--color-text);
+}
+
+.header_middle a:hover {
+  font-weight: 700;
+}
+
+/* =================
+COMPONENTS
+================= */
+
+.logo_webu,
+.mobilni_logo {
+  position: absolute;
+  left: var(--space-5);
+  top: var(--space-1);
+}
+
+.mobilni_logo {
+  display: none;
+}
+
+.dark-toggle {
+  cursor: pointer;
+}
+
+#dark-toggle-mobile {
+  display: none;
+}
+
+.menu-ikona,
+.language_mobile {
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+/* =================
+MOBILE MENU
+================= */
+
+.mobilni-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+  background: rgba(15, 13, 13, 0.98);
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+}
+
+.menu-ikona {
+  padding: 10px;
+  cursor: pointer;
+  width: 25px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.menu-ikona span {
+  display: block;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  margin-top: 4px;
+}
+
+/* =================
+MENU ANIMATION
+================= */
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(2) {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* =================
+RESPONSIVE
+================= */
+
+/* tablet */
+@media (max-width: 1024px) {
+  .header_middle a {
+    margin: auto 8.5px;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .header_pc {
+    display: none;
+  }
+
+  .mobilni-menu {
+    display: flex;
+  }
+
+  #dark-toggle-mobile {
+    display: block;
+    margin-right: var(--space-5);
+  }
+
+  .language_mobile {
+    align-self: center;
+    height: 14px;
+    width: 19px;
+    margin-right: var(--space-6);
+    display: block;
+  }
+
+  .menu-ikona {
+    display: block;
+  }
+
+  .mobilni_logo {
+    display: block;
+  }
+}
