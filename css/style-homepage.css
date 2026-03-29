@@ -1,98 +1,6 @@
-/*HERO*/
-
-#úvod {
-  overflow: hidden;
-  margin-top: 80px;
-  padding-top: 0;
-  min-height: 60vh;
-  border-bottom: #000 1px solid;
-  height: fit-content;
-}
-.pic-úvod {
-  height: 100%;
-  width: 100vw;
-  position: absolute;
-  object-fit: cover;
-  filter: brightness(0.9);
-  display: block;
-}
-.nadpis {
-  color: #fff;
-  margin-left: 50%;
-  margin-right: 8%;
-  text-align: center;
-  z-index: 3;
-  text-shadow: #1c1c1c 0 0 10px;
-  margin-bottom: 20px;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5vh;
-}
-h1 {
-  color: #f2f2f2;
-  font-size: 4.375rem;
-  font-weight: 650;
-  position: relative;
-  margin-bottom: 0;
-}
-.nadpis_čára {
-  width: 25%;
-  height: 1px;
-  background-color: #cfcfcf;
-  margin: 2px 0;
-  z-index: 1;
-}
-h2 {
-  color: #f2f2f2ef;
-  font-size: 1.875rem;
-  font-weight: 450;
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#úvod p {
-  color: #f2f2f2ea;
-  font-size: 1.3rem;
-  position: relative;
-  margin-top: 50px;
-  text-align: center;
-}
-.nadpis a p {
-  text-shadow: #1c1c1c 0 0 10px;
-}
-/* KONTEJNER HERO CTA */
-.hero-cta {
-  margin-top: 0px;
-  text-align: center;
-  z-index: 3;
-}
-
 /* STYL TLAČÍTKA */
-.btn-sponsoring {
-  display: inline-block;
-  padding: 16px 36px;
-  background: linear-gradient(135deg, #ffcb05, #ff9900);
-  color: #121212; /* kontrastní text */
-  font-weight: 700;
-  font-size: 1.1rem;
-  border-radius: 32px;
-  text-decoration: none;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    background 0.2s ease;
-}
 
 /* HOVER EFEKT */
-.btn-sponsoring:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
-  background: linear-gradient(135deg, #ffd966, #ffb300);
-}
 
 /* MOBIL */
 
@@ -601,9 +509,6 @@ body.dark-mode .sponzoři {
 
 /*Tlačítko pro přepínání dark mode*/
 
-
-
-
 .language-switcher {
   display: flex;
   justify-content: center;
@@ -613,8 +518,6 @@ body.dark-mode .sponzoři {
   height: 50px;
   width: 50px;
 }
-
-
 
 .language-switcher img {
   display: inline-block;
@@ -645,22 +548,6 @@ body.dark-mode .sponzoři {
 }
 
 /* Obrázek na pozadí */
-.hero-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.hero-bg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  filter: brightness(0.9);
-}
 
 /* Nadpis nad obrázkem */
 .nadpis {
