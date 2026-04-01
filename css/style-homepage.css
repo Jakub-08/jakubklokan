@@ -8,15 +8,7 @@
 
 /*posts*/
 
-
-
-
 /* KONTEJNER CTA */
-.medals-cta {
-  margin-top: 5px;
-  margin-bottom: 30px;
-  text-align: center;
-}
 
 /* MOBIL */
 @media (max-width: 768px) {
@@ -47,144 +39,7 @@
   }
 }
 
-/* -------
-  ZÁPATÍ
----------*/
-
-.záhlaví {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 30px;
-  justify-content: center;
-  align-items: start;
-  padding: 70px 0 70px 0;
-  height: fit-content;
-  padding-bottom: 80px;
-  font-size: 0.8rem;
-}
-.odkazy {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-.kontakty {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 10px;
-  color: white;
-}
-footer {
-  background-color: rgba(0, 0, 0, 0.904);
-}
-
-.kontakty span {
-  margin-left: 15px;
-  font-size: 0.875rem;
-}
-
-.záhlaví a,
-.phone {
-  display: flex;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-}
-.copyright {
-  color: white;
-  margin: 0;
-  padding-bottom: 20px;
-  text-align: center;
-  font-size: 0.75rem;
-}
-.záhlaví a:hover {
-  font-weight: 700;
-}
-.záhlaví p {
-  color: #fff;
-  font-size: 0.875rem;
-  margin-top: 10px;
-}
-#copa_photo {
-  padding-top: 10px;
-}
-.mobilni-menu {
-  display: flex;
-  position: absolute;
-  top: 20px;
-}
-#toggle-menu {
-  display: none;
-}
-.menu-ikona {
-  margin-right: 20px;
-  color: #f5f5f5;
-}
-.odkazy-menu {
-  display: none;
-  flex-direction: column;
-  background-color: #222;
-  position: absolute;
-  top: 34px;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  list-style: none;
-  padding: 0;
-}
-
-.mobilni_logo {
-  margin-left: 20px;
-  display: none;
-}
-.odkazy-menu li {
-  border-bottom: 1px solid #444;
-  text-align: center;
-  padding: 15px 0;
-}
-.odkazy-menu li a {
-  color: #fff;
-  text-decoration: none;
-}
-.menu-ikona {
-  font-size: 1.5rem;
-  padding: 10px;
-  cursor: pointer;
-  display: none; /* Skryté na desktopu */
-}
-#toggle-menu:checked + .menu-ikona + .odkazy-menu {
-  display: flex;
-}
-@media screen and (max-width: 1100px) and (min-width: 800px) {
-  .domů {
-    margin-right: 20px;
-  }
-}
 @media only screen and (max-width: 1100px) {
-  #dark-toggle-mobile {
-    display: block;
-  }
-  #úvod {
-    margin-top: 0;
-  }
-  #horní_lišta {
-    display: none;
-  }
-  #dark-toggle-mobile {
-    display: block;
-  }
-  .social_div {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    margin: 0;
-  }
-
-  .pic-úvod {
-    object-position: center left;
-  }
   .medaile {
     flex-direction: column;
     height: fit-content;
@@ -225,36 +80,6 @@ footer {
     font-size: 1.1rem;
     margin-top: 50px;
   }
-
-  .pic-kobe {
-    object-position: left;
-  }
-  #qoute {
-    text-align: center;
-  }
-  .sponzoři {
-    flex-direction: column;
-    align-items: center;
-    height: fit-content;
-  }
-  .obec_Raná,
-  .sponzoři a,
-  .sponzoři img {
-    margin-bottom: 15px;
-    max-width: 40%;
-  }
-  .sponzoři img {
-    object-fit: contain;
-  }
-  .Ronin {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    background: 0 0;
-  }
 }
 
 @media only screen and (max-width: 770px) {
@@ -267,8 +92,6 @@ body.dark-mode .quick-links {
   color: #e9e9e9;
   background-color: #121212;
 }
-
-
 
 @media screen and (max-width: 1000px) {
   #blog-proklik {
@@ -328,65 +151,6 @@ body.dark-mode .sponzoři a:hover {
 body.dark-mode .sponzoři {
   background-color: #121212;
 }
-
-/*Tlačítko pro přepínání dark mode*/
-
-.language-switcher {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto auto auto 10px;
-  gap: 10px;
-  height: 50px;
-  width: 50px;
-}
-
-.language-switcher img {
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 2px;
-}
-
-.link_dark {
-  position: relative;
-  display: flex;
-  background-color: white;
-  height: 0.5px;
-  width: 20%;
-  margin: 0 auto;
-  z-index: 3;
-  opacity: 0.5;
-}
-
-#úvod {
-  position: relative;
-  width: 100%;
-  min-height: 80vh; /* výška sekce */
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* nadpis nahoře, sponzoři dole */
-  align-items: center;
-}
-
-/* Obrázek na pozadí */
-
-/* Nadpis nad obrázkem */
-.nadpis {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  color: #fff;
-  text-shadow: 0 0 10px #1c1c1c;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5vh;
-  gap: 10px;
-}
-
-/* Sponzoři nad pozadím, ale pod nadpisem */
 
 /* Responsivní mobilní obrázek */
 @media (max-width: 768px) {
