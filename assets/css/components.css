@@ -1,10 +1,204 @@
-/* BUTTONS */
+/* --------------
+---- BUTTONS ----
+---------------*/
 
-.btn-more-achievements {
+.button {
   display: inline-block;
   padding: 12px 28px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-  color: #121212;
+  font-size: 1rem;
   font-weight: 700;
-  border-radius: 28px;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+
+  transition: all var(--transition-fast);
+}
+
+/* PRIMARY BUTTON */
+
+.button--primary {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-primary-dark)
+  );
+  color: var(--color-text-dark);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.button--primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+.button--primary:active {
+  transform: translateY(-1px);
+}
+
+/* SECONDARY BUTTON */
+
+.button--secondary {
+  background: #1e1e1e;
+  color: var(--color-text-light);
+  border: 1px solid var(--color-border);
+}
+
+.button--secondary:hover {
+  background: #2a2a2a;
+}
+
+/* GHOST BUTTON */
+
+.button--ghost {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.button--ghost:hover {
+  background: rgba(255, 203, 5, 0.1);
+}
+
+/* OTHER */
+
+.button:disabled,
+.button--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+/* SIZE */
+
+.button--small {
+  padding: 8px 18px;
+  font-size: 0.875rem;
+}
+
+.button--large {
+  padding: 16px 36px;
+  font-size: 1.125rem;
+}
+
+/* ---------------
+----- LAYOUT -----
+----------------*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container--narrow {
+  max-width: 800px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.grid {
+}
+
+.flex {
+}
+
+/* -------------
+----- CARD -----
+--------------*/
+
+/* CARDS */
+.card {
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 24px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.card__title {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.card__text {
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+/* BLOG CARDS */
+.card--blog {
+  padding: 0;
+  overflow: hidden;
+}
+
+.card--blog .card__content {
+  padding: 20px;
+}
+
+/* VALUE CARDS */
+.card--value {
+  text-align: center;
+  padding: 32px 20px;
+}
+
+.card--value .card__image {
+  width: 60px;
+  margin: 0 auto 16px;
+}
+
+/* LINK CARDS */
+.card--link {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card--link:hover {
+  background: #2a2a2a;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  .grid--3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* -------------
+----- FONT -----
+--------------*/
+
+.text-shadow {
+  text-shadow: #1c1c1c 0 0 10px;
 }

@@ -148,10 +148,11 @@
 
     <link rel="stylesheet" href="/homepage.css" />
 
+    <link rel="stylesheet" href="/assets/css/variables.css" />
+
     <link rel="stylesheet" href="/assets/css/base.css" />
     <link rel="stylesheet" href="/assets/css/components.css" />
     <link rel="stylesheet" href="/assets/css/layout.css" />
-    <link rel="stylesheet" href="/assets/css/variables.css" />
   </head>
   <body>
     <header>
@@ -278,7 +279,7 @@
     </header>
 
     <main>
-      <section id="úvod">
+      <section class="hero">
         <!-- Obrázek jako pozadí s vysokou kvalitou a AVIF/WebP -->
         <picture class="hero-bg">
           <source
@@ -304,18 +305,19 @@
           />
         </picture>
 
-        <!-- Nadpis a CTA -->
-        <div class="nadpis">
-          <h1>Jakub Klokan</h1>
-          <div class="nadpis_čára"></div>
-          <h2>Vrcholový badmintonista</h2>
-          <p>
-            Spolupracuji se značkami, které míří vysoko.<br />Stejně jako já.
-          </p>
-          <div class="hero-cta">
-            <a href="/sponzoring.html" class="btn-sponsoring"
-              >Spolupráce & sponzoring</a
-            >
+        <div class="container">
+          <div class="hero-text text-shadow">
+            <h1>Jakub Klokan</h1>
+            <div class="hero-text-line"></div>
+            <h2>Vrcholový badmintonista</h2>
+            <p>
+              Spolupracuji se značkami, které míří vysoko.<br />Stejně jako já.
+            </p>
+            <div class="hero-cta">
+              <a href="/sponzoring.html" class="button button--primary"
+                >Spolupráce & sponzoring</a
+              >
+            </div>
           </div>
         </div>
 
@@ -439,63 +441,46 @@
 
       <div class="link_dark"></div>
 
-      <section class="my-values">
-        <div class="value-item">
-          <img src="/images\homepage\Icon_Focus_target.svg" alt="Fokus" />
-          <h3>Fokus</h3>
-          <p>Vždy soustředěný na cíl a maximální výkon na kurtu i mimo něj.</p>
-        </div>
+      <section class="values section">
+        <div class="container grid grid--3">
+          <div class="card card--value">
+            <img src="/images/homepage/Icon_Focus_target.svg" alt="Fokus" />
+            <h3 class="card__title">Fokus</h3>
+            <p class="card__text">
+              Vždy soustředěný na cíl a maximální výkon na kurtu i mimo něj.
+            </p>
+          </div>
 
-        <div class="value-item">
-          <img
-            src="/images\homepage\Icon_Disciplin_checklist.svg"
-            alt="Disciplína"
-          />
-          <h3>Disciplína</h3>
-          <p>Systematický přístup ke každému tréninku a k osobnímu rozvoji.</p>
-        </div>
+          <div class="card card--value">
+            <img
+              src="/images/homepage/Icon_Disciplin_checklist.svg"
+              alt="Disciplína"
+            />
+            <h3 class="card__title">Disciplína</h3>
+            <p class="card__text">
+              Systematický přístup ke každému tréninku a k osobnímu rozvoji.
+            </p>
+          </div>
 
-        <div class="value-item">
-          <img src="/images\homepage\Icon_Respect.svg" alt="Respekt" />
-          <h3>Respekt</h3>
-          <p>Fair play a respekt vůči soupeřům, trenérům i partnerům.</p>
-        </div>
+          <div class="card card--value">
+            <img src="/images/homepage/Icon_Respect.svg" alt="Respekt" />
+            <h3 class="card__title">Respekt</h3>
+            <p class="card__text">
+              Fair play a respekt vůči soupeřům, trenérům i partnerům.
+            </p>
+          </div>
 
-        <div class="value-item">
-          <img src="/images\homepage\Icon_vytrvalost.svg" alt="Respekt" />
-          <h3>Vytrvalost</h3>
-          <p>Nezastavit se před překážkami, bojovat až do konce.</p>
+          <div class="card card--value">
+            <img src="/images/homepage/Icon_vytrvalost.svg" alt="Vytrvalost" />
+            <h3 class="card__title">Vytrvalost</h3>
+            <p class="card__text">
+              Nezastavit se před překážkami, bojovat až do konce.
+            </p>
+          </div>
         </div>
       </section>
 
       <div class="link_dark"></div>
-
-      <section class="quick-links light-bg">
-        <a href="about_me.html" class="link-card">
-          <img src="/images\homepage\Icon_O_mně.svg" alt="O mně" />
-          <h4>O mně</h4>
-        </a>
-
-        <a href="/achievements.html" class="link-card">
-          <img src="/images\homepage\Icon_Achievements_B.svg" alt="Úspěchy" />
-          <h4>Úspěchy</h4>
-        </a>
-
-        <a href="/blog\index.html" class="link-card">
-          <img src="/images\homepage\Icon_Blog.svg" alt="Blog" />
-          <h4>Blog</h4>
-        </a>
-
-        <a href="sponzoring.html" class="link-card">
-          <img src="/images\homepage\Icon_Sponzoring.svg" alt="Sponzoring" />
-          <h4>Sponzoring</h4>
-        </a>
-
-        <a href="Photo_gallery.html" class="link-card">
-          <img src="/images\homepage\Icon_Fotogalerie.svg" alt="Fotogalerie" />
-          <h4>Fotogalerie</h4>
-        </a>
-      </section>
 
       <div class="link_dark"></div>
     </main>
@@ -573,5 +558,6 @@
     </footer>
 
     <script src="/js/dark-mode.js"></script>
+    <script src="/assets/js/sponsors.js"></script>
   </body>
 </html>
