@@ -335,7 +335,7 @@ RESPONSIVE
     grid-template-columns: 1fr; /* vertikálně */
     grid-template-rows: auto auto auto;
     row-gap: var(--space-4);
-    margin: 0 var(--space-7);
+    margin: 0;
     align-items: start;
   }
 

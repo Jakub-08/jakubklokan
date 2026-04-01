@@ -49,6 +49,27 @@
   margin-top: var(--space-5);
 }
 
+/* RESPONZIVE */
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-bg img {
+    object-position: 10% 20%;
+    filter: brightness(0.8);
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+  .hero-text {
+    padding: 15vh 0 10vh 0;
+  }
+}
+
 /* ---------------------
 ------- SPONSORS -------
 ----------------------*/
@@ -103,12 +124,20 @@
   );
 }
 
+/* RESPONZIVE */
+/* TABLET */
+@media (max-width: 1024px) {
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+}
+
 /* ---------------------
 --------- BLOG ---------
 ----------------------*/
 #blog {
-  border-bottom: 1px solid #ddd;
-  padding: var(--space-4) 0 var(--space-6) 0;
+  padding: var(--space-5) 0 var(--space-3) 0;
   margin: 0 auto;
 }
 
@@ -123,6 +152,7 @@
   gap: var(--space-6);
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: var(--space-5);
 }
 
 /* BLOG ARTICLE */
@@ -172,9 +202,80 @@
   z-index: 1;
 }
 
-/* BUTTON BLOG + MEDALS STATS*/
-#blog-button {
-  margin: var(--space-4) 0 0 5vw;
+/* RESPONZIVE */
+/* TABLET */
+@media (max-width: 1024px) {
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+}
+
+/* -------------------
+------ ABOUT ME ------
+--------------------*/
+.about-me-homepage {
+  padding: var(--space-7) var(--space-5);
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-6);
+}
+
+/* TEXT */
+.about-me-text {
+  flex: 1 1 400px;
+}
+
+.about-me-text h2 {
+  margin-bottom: var(--space-4);
+  color: var(--color-text-dark);
+}
+
+.about-me-text p {
+  font-size: var(--font-lg);
+  line-height: 1.6;
+  margin-bottom: var(--space-5);
+  color: var(--color-text-dark);
+}
+
+/* PHOTO */
+.about-me-photo {
+  flex: 0 0 250px;
+}
+
+.about-me-photo img {
+  width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 770px) {
+  .about-me-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-me-photo {
+    flex: 1 1 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* RESPONZIVE */
+/* TABLET */
+@media (max-width: 1024px) {
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
 }
 
 /* ---------------------
@@ -229,10 +330,32 @@
   height: 50px;
 }
 
-.medals-button {
-  margin: 0 0 0 5vw;
+/* RESPONZIVE */
+/* TABLET */
+@media (max-width: 1024px) {
 }
 
-/* ----------------------
-------- MY VALUES -------
------------------------*/
+/* MOBILE */
+@media (max-width: 768px) {
+}
+
+/* ---------------------
+-------- OTHERS --------
+----------------------*/
+
+/* Vizuální oddělovač sekcí */
+.section-divider {
+  height: 1px; /* tloušťka linky */
+  background-color: #cccccc4d; /* světle šedá, decentní */
+  margin: var(--space-3) auto; /* mezera nad a pod linkou */
+  width: 60%;
+}
+
+/* RESPONZIVE */
+/* TABLET */
+@media (max-width: 1024px) {
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+}

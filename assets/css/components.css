@@ -92,7 +92,7 @@
 ----------------*/
 
 .container {
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -102,7 +102,7 @@
 }
 
 .section {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .grid {
@@ -117,7 +117,7 @@
 
 /* CARDS */
 .card {
-  background: #1e1e1e;
+  background: var(--color-background);
   border-radius: 16px;
   padding: 24px;
   transition:
@@ -137,12 +137,10 @@
 }
 
 .card__title {
-  font-size: 1.25rem;
   margin-bottom: 8px;
 }
 
 .card__text {
-  font-size: 0.95rem;
   opacity: 0.8;
 }
 
@@ -182,11 +180,12 @@
 /* GRID */
 .grid {
   display: grid;
-  gap: 24px;
+  gap: var(--space-7);
+  margin: 0 auto;
 }
 
-.grid--3 {
-  grid-template-columns: repeat(3, 1fr);
+.grid--4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media (max-width: 768px) {
