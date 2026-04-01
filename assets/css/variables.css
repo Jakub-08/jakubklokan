@@ -13,6 +13,7 @@
   --radius-pill: 28px;
 
   --transition-fast: 0.2s ease;
+  --transform: scale(1.02);
 
   /* font size */
   --font-xs: 0.75rem; /* 12px */

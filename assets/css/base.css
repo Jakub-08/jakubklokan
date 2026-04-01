@@ -40,6 +40,10 @@ h2 {
   font-size: clamp(1.5rem, 3vw, 1.875rem);
 }
 
+h3 {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+}
+
 p {
   padding: 0;
 }

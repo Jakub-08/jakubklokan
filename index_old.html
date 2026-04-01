@@ -147,7 +147,6 @@
     />
 
     <link rel="stylesheet" href="/homepage.css" />
-
     <link rel="stylesheet" href="/assets/css/variables.css" />
 
     <link rel="stylesheet" href="/assets/css/base.css" />
@@ -344,20 +343,22 @@
         </div>
       </section>
 
-      <section id="blog-proklik-homepage">
-        <h2>Poslední z blogu</h2>
-        <div
-          class="blog-ctverce-homepage"
-          id="blog-prehled-seznam-homepage"
-        ></div>
-        <a href="/blog/index.html" class="zobrazit-vse-homepage"
-          >Zobrazit vše</a
-        >
+      <section id="blog">
+        <div class="container">
+          <h2>Poslední z blogu</h2>
+          <div class="blog-articles" id="blog-prehled-seznam-homepage"></div>
+          <a
+            href="/blog/index.html"
+            class="button button--ghost button--small"
+            id="blog-button"
+            >Zobrazit vše</a
+          >
+        </div>
       </section>
 
-      <section class="medaile">
-        <div class="kruh">
-          <div class="obrázek">
+      <section class="medals-stats container">
+        <div class="medals-one-type">
+          <div class="medals-image">
             <picture>
               <source
                 srcset="/images/homepage/Adria-U17-medails.avif"
@@ -370,20 +371,20 @@
               <img
                 src="/images/homepage/Adria-U17-medails.jpg"
                 alt="Já se spoluhráčem s medailemi"
-                class="image"
+                class="medals-one-image"
                 id="MM"
                 width="250"
                 height="250"
               />
             </picture>
 
-            <span class="num">15</span>
+            <span class="medals-number">15</span>
           </div>
-          <span class="description">Mezinárodní medaile</span>
+          <span class="medals-description">Mezinárodní medaile</span>
         </div>
 
-        <div class="kruh">
-          <div class="obrázek">
+        <div class="medals-one-type">
+          <div class="medals-image">
             <picture>
               <source
                 srcset="/images/homepage/GPAu19-369.avif"
@@ -394,20 +395,20 @@
                 type="image/webp"
               />
               <img
-                class="image"
+                class="medals-one-image"
                 src="/images/homepage/GPAu19-369.jpg"
                 alt="Momentka ve čtyřhře z turnaje"
                 width="250"
                 height="250"
               />
             </picture>
-            <span class="num">30</span>
+            <span class="medals-number">30</span>
           </div>
-          <span class="description">Národní medaile</span>
+          <span class="medals-description">Národní medaile</span>
         </div>
 
-        <div class="kruh">
-          <div class="obrázek">
+        <div class="medals-one-type">
+          <div class="medals-image">
             <picture>
               <source
                 srcset="/images/homepage/PoharAkademie202523-1200x800.avif"
@@ -418,7 +419,7 @@
                 type="image/webp"
               />
               <img
-                class="image"
+                class="medals-one-image"
                 id="MM"
                 src="/images/homepage/PoharAkademie202523-1200x800.jpg"
                 alt="Já ve výpadu u sítě"
@@ -427,13 +428,13 @@
               />
             </picture>
 
-            <span class="num">41</span>
+            <span class="medals-number">41</span>
           </div>
-          <span class="description">Vítězství GPC a OP</span>
+          <span class="medals-description">Vítězství GPC a OP</span>
         </div>
       </section>
 
-      <div class="medals-cta">
+      <div class="button button--ghost button--small medals-button">
         <a href="achievements.html" class="btn-more-achievements">
           Více úspěchů
         </a>
@@ -557,7 +558,9 @@
       <p class="copyright">© Badminton Plzeň</p>
     </footer>
 
-    <script src="/js/dark-mode.js"></script>
+    <script src="/assets/js/dark-mode.js"></script>
     <script src="/assets/js/sponsors.js"></script>
+    <script src="/assets/js/blog-homepage.js"></script>
+    <script src="/assets/js/menu-close.js"></script>
   </body>
 </html>
