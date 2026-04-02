@@ -1,40 +1,4 @@
-body {
-  font-family: "Inter", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #c5c4c4;
-}
 
-/*Tlačítko pro přepínání dark mode*/
-
-/* Mobilní menu: tlačítko styl jako link */
-
-/* Můžeš přidat hover efekt i tady */
-
-.social_div {
-  height: 120px;
-  gap: 40px;
-  margin-left: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.rozcestí {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 60px;
-  font: bold 20px #000;
-}
-.rozcestí a {
-  text-decoration: none;
-  color: #000;
-}
-.rozcestí a:hover {
-  color: #00008b;
-}
 .badminton a,
 .sociální_sítě a,
 .vzdělání a,
@@ -51,6 +15,8 @@ body {
 .škola a:hover {
   color: #00008b;
 }
+
+
 .badminton,
 .sociální_sítě,
 .vzdělání,

@@ -21,6 +21,7 @@ body {
   padding: 0;
   background-color: var(--color-bg);
   line-height: 1.5;
+  color: var(--color-text);
 }
 
 /* =====================
@@ -35,7 +36,7 @@ h5,
 h6,
 p {
   margin: 0;
-  color: var(--color-text);
+  color: inherit;
 }
 
 h1 {

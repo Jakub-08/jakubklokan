@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/about_me.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -116,12 +119,12 @@
 <lastmod>2026-02-07T15:04:09+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/To%20be%20removed/index_old.html</loc>
-<lastmod>2026-04-02T09:28:01+02:00</lastmod>
+<loc>http://localhost:4000/To%20be%20removed/about_me_old.html</loc>
+<lastmod>2026-04-02T17:17:25+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about_me.html</loc>
-<lastmod>2026-03-15T17:58:04+01:00</lastmod>
+<loc>http://localhost:4000/To%20be%20removed/index_old.html</loc>
+<lastmod>2026-04-02T13:05:52+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/achievements.html</loc>

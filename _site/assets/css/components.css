@@ -193,9 +193,15 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid--2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 @media (max-width: 768px) {
   .grid--4,
-  .grid--3 {
+  .grid--3,
+  .grid--2 {
     grid-template-columns: 1fr;
   }
 }
@@ -206,4 +212,141 @@
 
 .text-shadow {
   text-shadow: #1c1c1c 0 0 10px;
+}
+
+/* --------------
+----- STRIP -----
+---------------*/
+.container-text {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-5);
+  margin: auto 0;
+  color: var(--color-text-dark);
+}
+
+.strip {
+  background-color: var(--color-bg);
+  height: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.separate-line {
+  height: 1.8px; /* tloušťka linky */
+  background-color: var(--color-primary-dark); /* světle šedá, decentní */
+  margin: var(--space-3) 0 var(--space-4) var(--space-4); /* mezera nad a pod linkou */
+  width: var(--space-8);
+}
+
+.strip-contain {
+  gap: var(--space-5);
+  grid-template-columns: 1fr 500px;
+}
+
+.main-bg {
+  background-color: var(--color-main-bg);
+}
+
+/* KONTEJNER PRO GALERII */
+.strip-image-container {
+  position: relative;
+  height: 500px; /* fixní výška */
+  width: 100%;
+  overflow: hidden; /* aby nic nepřesahovalo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* OBRÁZKY */
+.strip-image-container .strip-image {
+  height: 100%; /* vezme výšku kontejneru */
+  width: auto; /* zachová proporce */
+  object-fit: cover; /* vyplní výšku bez deformace */
+}
+
+/* Jen pro obrázek, který chceme zobrazit celý */
+.strip-image.full {
+  max-height: 500px; /* nepřesáhne výšku kontejneru */
+  width: auto; /* zachová proporce */
+  object-fit: contain; /* celý obrázek se zobrazí bez ořezu */
+}
+
+/* ODKAZY V .container-text */
+.container-text a {
+  color: var(--color-primary-dark); /* hlavní barva odkazů */
+  transition: color var(--transition-fast);
+}
+
+.container-text a:hover {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  /* STRIP SE SEZÓNNĚ PŘIZPŮSOBÍ VÝŠCE OBSAHU */
+  .strip {
+    height: fit-content;
+  }
+
+  /* GRID NA MOBILU JEDEN SLOUPEC */
+  .strip-contain {
+    grid-template-columns: 1fr;
+  }
+
+  /* Přesun hlavičky pokud potřebuješ */
+  .mobile-header-move {
+    margin-top: var(--space-8);
+  }
+
+  /* Zaoblení obrázků */
+  .strip-image {
+    border-radius: var(--border-radius);
+  }
+
+  /* KONTEJNER GALERIE */
+  .strip-image-container {
+    display: flex; /* flex, aby flex-direction fungovalo */
+    flex-direction: column; /* obrázky pod sebou */
+    align-items: center; /* centrování obrázků */
+    gap: var(--space-4); /* mezera mezi obrázky */
+    padding-bottom: var(--space-4);
+    height: fit-content; /* kontejner přizpůsobí výšku obsahu */
+    overflow: visible; /* obrázky se neřežou */
+  }
+
+  /* Ostatní obrázky - zmenšené, ořezané, zachovávají proporce */
+  .strip-image-container .strip-image:not(.full) {
+    max-width: 450px;
+    width: 100%;
+    height: auto; /* zachovají proporce */
+    max-height: 300px; /* maximální výška */
+    object-fit: cover; /* ořezání přebytečného obsahu */
+    object-position: top; /* ořezáváme shora */
+    transition: all 0.3s ease;
+  }
+
+  /* Full obrázek - celý viditelný, nepřesáhne obrazovku */
+  .strip-image.full {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+    object-position: center;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .strip-contain {
+    grid-template-columns: 1fr 350px;
+  }
+  .strip {
+    height: fit-content;
+  }
+  .strip-image-container {
+    height: 100%;
+  }
+  .container-text {
+    padding: var(--space-6) var(--space-5);
+  }
 }
