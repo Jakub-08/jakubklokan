@@ -2,135 +2,255 @@
 layout: default
 title: Jakub Klokan
 description: Vrcholový badmintonista
+author: Jakub Klokan
+logo: /Logo_webu_white.svg
+og_image: /Logo_webu_preview.png
+url: https://www.jakubklokan.cz
+social:
+  instagram: https://www.instagram.com/jakub.klokan/
 scripts:
-  - /js/blog-footer.js
+  - /assets/js/dark-mode.js
+  - /assets/js/sponsors.js
+  - /assets/js/blog-homepage.js
+  - /assets/js/menu-close.js
+
+keywords: "badminton, škola, blog, sport, o mně"
+lang: cs
+permalink: /index.html
+categories: [homepage]
+tags: [badminton, blog]
 ---
 
-<!-- Úvodní sekce s obrázkem -->
-<section id="úvod">
+<section class="hero">
+  <!-- Obrázek jako pozadí s vysokou kvalitou a AVIF/WebP -->
   <picture class="hero-bg">
-    <source srcset="/images/homepage/GPB-U17-161.avif" type="image/avif" media="(min-width: 769px)">
-    <source srcset="/images/homepage/GPB-U17-161.webp" type="image/webp" media="(min-width: 769px)">
-    <source srcset="/images/homepage/GPB-U17-161-mobile.webp" type="image/webp" media="(max-width: 768px)">
-    <img src="/images/homepage/GPB-U17-161.jpg" alt="Momentka ze zápasu" loading="eager" decoding="async">
+    <source
+      srcset="/images/homepage/GPB-U17-161.avif"
+      type="image/avif"
+      media="(min-width: 769px)"
+    />
+    <source
+      srcset="/images/homepage/GPB-U17-161.webp"
+      type="image/webp"
+      media="(min-width: 769px)"
+    />
+    <source
+      srcset="/images/homepage/GPB-U17-161-mobile.webp"
+      type="image/webp"
+      media="(max-width: 768px)"
+    />
+    <img
+      src="/images/homepage/GPB-U17-161.jpg"
+      alt="Momentka ze zápasu"
+      loading="eager"
+      decoding="async"
+    />
   </picture>
 
-  <div class="nadpis">
-    <h1>Jakub Klokan</h1>
-    <h2>Vrcholový badmintonista</h2>
-    <a href="/sponzoring.html" class="btn-sponsoring">Spolupráce & sponzoring</a>
+  <div class="container">
+    <div class="hero-text text-shadow">
+      <h1>Jakub Klokan</h1>
+      <div class="hero-text-line"></div>
+      <h2>Vrcholový badmintonista</h2>
+      <p>Spolupracuji se značkami, které míří vysoko.<br />Stejně jako já.</p>
+      <div class="hero-cta">
+        <a href="/sponzoring.html" class="button button--primary"
+          >Spolupráce & sponzoring</a
+        >
+      </div>
+    </div>
   </div>
 
   <!-- Sekce sponzorů -->
-
   <div class="sponsors">
-          <div class="sponsors-left" id="sponsor-left">
-            <a href="#"><img src="" alt="" /></a>
-          </div>
-          <div class="sponsors-main">
-            <a
-              href="https://www.peytonlegal.cz/"
-              target="_blank"
-              rel="noopener"
-            >
-              <img
-                src="/images/sponzoring/Peyton_legal.webp"
-                alt="Peyton – hlavní partner"
-              />
-            </a>
-          </div>
-          <div class="sponsors-right" id="sponsor-right">
-            <a href="#"><img src="" alt="" /></a>
-          </div>
+    <div class="sponsors-left" id="sponsor-left">
+      <a href="#"><img src="" alt="" /></a>
     </div>
-
-</section>
-
-<!-- Sekce poslední články z blogu -->
-<section id="blog-proklik-homepage">
-  <h2>Poslední z blogu</h2>
-  <div class="blog-ctverce-homepage" id="blog-prehled-seznam-homepage">
-  <div class="overlay"></div>
-  </div>
-  
-  <a href="/blog/index.html" class="zobrazit-vse-homepage">Zobrazit vše</a>
-</section>
-
-<!-- Sekce medaile -->
-<section class="medaile">
-  <div class="kruh">
-    <div class="obrázek">
-      <img src="/images/homepage/Adria-U17-medails.jpg" alt="Já se spoluhráčem s medailemi" class="image" width="250" height="250">
-      <span class="num">15</span>
+    <div class="sponsors-main">
+      <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
+        <img
+          src="/images/sponzoring/Peyton_legal.webp"
+          alt="Peyton – hlavní partner"
+        />
+      </a>
     </div>
-    <span class="description">Mezinárodní medaile</span>
-  </div>
-
-  <div class="kruh">
-    <div class="obrázek">
-      <img src="/images/homepage/GPAu19-369.jpg" alt="Momentka ve čtyřhře z turnaje" class="image" width="250" height="250">
-      <span class="num">30</span>
+    <div class="sponsors-right" id="sponsor-right">
+      <a href="#"><img src="" alt="" /></a>
     </div>
-    <span class="description">Národní medaile</span>
-  </div>
-
-  <div class="kruh">
-    <div class="obrázek">
-      <img src="/images/homepage/PoharAkademie202523-1200x800.jpg" alt="Já ve výpadu u sítě" class="image" width="250" height="250">
-      <span class="num">41</span>
-    </div>
-    <span class="description">Vítězství GPC a OP</span>
   </div>
 </section>
 
-<div class="medals-cta">
-  <a href="achievements.html" class="btn-more-achievements">Více úspěchů</a>
-</div>
-
-<!-- Sekce hodnot -->
-<section class="my-values">
-  <div class="value-item">
-    <img src="/images/homepage/Icon_Focus_target.svg" alt="Fokus" />
-    <h3>Fokus</h3>
-    <p>Vždy soustředěný na cíl a maximální výkon na kurtu i mimo něj.</p>
-  </div>
-  <div class="value-item">
-    <img src="/images/homepage/Icon_Disciplin_checklist.svg" alt="Disciplína" />
-    <h3>Disciplína</h3>
-    <p>Systematický přístup ke každému tréninku a k osobnímu rozvoji.</p>
-  </div>
-  <div class="value-item">
-    <img src="/images/homepage/Icon_Respect.svg" alt="Respekt" />
-    <h3>Respekt</h3>
-    <p>Fair play a respekt vůči soupeřům, trenérům i partnerům.</p>
-  </div>
-  <div class="value-item">
-    <img src="/images/homepage/Icon_vytrvalost.svg" alt="Vytrvalost" />
-    <h3>Vytrvalost</h3>
-    <p>Nezastavit se před překážkami, bojovat až do konce.</p>
+<section class="blog section">
+  <div class="container">
+    <h2>Poslední z blogu</h2>
+    <div class="blog-articles" id="blog-prehled-seznam-homepage"></div>
+    <div class="button-mobile-center">
+      <a href="/blog/index.html" class="button button--ghost button--small"
+        >Zobrazit vše
+      </a>
+    </div>
   </div>
 </section>
 
-<!-- Rychlé odkazy -->
-<section class="quick-links light-bg">
-  <a href="about_me.html" class="link-card">
-    <img src="/images/homepage/Icon_O_mně.svg" alt="O mně" />
-    <h4>O mně</h4>
-  </a>
-  <a href="/achievements.html" class="link-card">
-    <img src="/images/homepage/Icon_Achievements_B.svg" alt="Úspěchy" />
-    <h4>Úspěchy</h4>
-  </a>
-  <a href="/blog/index.html" class="link-card">
-    <img src="/images/homepage/Icon_Blog.svg" alt="Blog" />
-    <h4>Blog</h4>
-  </a>
-  <a href="sponzoring.html" class="link-card">
-    <img src="/images/homepage/Icon_Sponzoring.svg" alt="Sponzoring" />
-    <h4>Sponzoring</h4>
-  </a>
-  <a href="Photo_gallery.html" class="link-card">
-    <img src="/images/homepage/Icon_Fotogalerie.svg" alt="Fotogalerie" />
-    <h4>Fotogalerie</h4>
-  </a>
+<div class="section-divider"></div>
+
+<section class="about-me-homepage section">
+  <div class="container about-me-container">
+    <div class="about-me-text">
+      <h2>O mně</h2>
+      <p>
+        Jmenuji se&nbsp;Jakub Klokan a&nbsp;hraji badminton na&nbsp;mezinárodní
+        úrovni. Jsem&nbsp;studentem Podkrušnohorského gymnázia v&nbsp;Mostě
+        a&nbsp;rád sdílím své zkušenosti, úspěchy a&nbsp;projekty
+        zde&nbsp;na&nbsp;webu.
+      </p>
+      <a href="/about_me.html" class="button button--ghost button--small"
+        >Více o mně</a
+      >
+    </div>
+    <div class="about-me-photo">
+      <img src="/images/homepage/GPA-U19-Plzeň-4.jpg" alt="Jakub Klokan" />
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section">
+  <section class="medals-stats container grid--3">
+    <div class="medals-one-type">
+      <div class="medals-image">
+        <picture>
+          <source
+            srcset="/images/homepage/Adria-U17-medails.avif"
+            type="image/avif"
+          />
+          <source
+            srcset="/images/homepage/Adria-U17-medails.webp"
+            type="image/webp"
+          />
+          <img
+            src="/images/homepage/Adria-U17-medails.jpg"
+            alt="Já se spoluhráčem s medailemi"
+            class="medals-one-image"
+            id="MM"
+            width="250"
+            height="250"
+          />
+        </picture>
+        <span class="medals-number">15</span>
+      </div>
+      <span class="medals-description">Mezinárodní medaile</span>
+    </div>
+
+    <div class="medals-one-type">
+      <div class="medals-image">
+        <picture>
+          <source srcset="/images/homepage/GPAu19-369.avif" type="image/avif" />
+          <source srcset="/images/homepage/GPAu19-369.webp" type="image/webp" />
+          <img
+            class="medals-one-image"
+            src="/images/homepage/GPAu19-369.jpg"
+            alt="Momentka ve čtyřhře z turnaje"
+            width="250"
+            height="250"
+          />
+        </picture>
+        <span class="medals-number">30</span>
+      </div>
+      <span class="medals-description">Národní medaile</span>
+    </div>
+
+    <div class="medals-one-type">
+      <div class="medals-image">
+        <picture>
+          <source
+            srcset="/images/homepage/PoharAkademie202523-1200x800.avif"
+            type="image/avif"
+          />
+          <source
+            srcset="/images/homepage/PoharAkademie202523-1200x800.webp"
+            type="image/webp"
+          />
+          <img
+            class="medals-one-image"
+            id="MM"
+            src="/images/homepage/PoharAkademie202523-1200x800.jpg"
+            alt="Já ve výpadu u sítě"
+            width="250"
+            height="250"
+          />
+        </picture>
+
+        <span class="medals-number">41</span>
+      </div>
+      <span class="medals-description">Vítězství GPC a OP</span>
+    </div>
+
+  </section>
+
+  <section class="container">
+    <div class="button-mobile-center">
+      <a href="achievements.html" class="button button--ghost button--small">
+        Více úspěchů
+      </a>
+    </div>
+  </section>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="values section">
+  <div class="container grid grid--4">
+    <div class="card card--value">
+      <img
+        src="/images/homepage/Icon_Focus_target.svg"
+        alt="Fokus"
+        class="card__image"
+      />
+      <h3 class="card__title">Fokus</h3>
+      <p class="card__text">
+        Vždy soustředěný na&nbsp;cíl a&nbsp;maximální výkon na&nbsp;kurtu
+        i&nbsp;mimo něj.
+      </p>
+    </div>
+
+    <div class="card card--value">
+      <img
+        src="/images/homepage/Icon_Disciplin_checklist.svg"
+        alt="Disciplína"
+        class="card__image"
+      />
+      <h3 class="card__title">Disciplína</h3>
+      <p class="card__text">
+        Systematický přístup ke&nbsp;každému tréninku a&nbsp;k&nbsp;osobnímu
+        rozvoji.
+      </p>
+    </div>
+
+    <div class="card card--value">
+      <img
+        src="/images/homepage/Icon_Respect.svg"
+        alt="Respekt"
+        class="card__image"
+      />
+      <h3 class="card__title">Respekt</h3>
+      <p class="card__text">
+        Fair play a&nbsp;respekt vůči soupeřům, trenérům i&nbsp;partnerům.
+      </p>
+    </div>
+
+    <div class="card card--value">
+      <img
+        src="/images/homepage/Icon_vytrvalost.svg"
+        alt="Vytrvalost"
+        class="card__image"
+      />
+      <h3 class="card__title">Vytrvalost</h3>
+      <p class="card__text">
+        Nezastavit se&nbsp;před překážkami, bojovat až&nbsp;do&nbsp;konce.
+      </p>
+    </div>
+
+  </div>
 </section>
