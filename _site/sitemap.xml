@@ -116,10 +116,6 @@
 <lastmod>2026-02-07T15:04:09+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/To%20be%20removed/index_old.html</loc>
-<lastmod>2026-03-07T20:26:31+01:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/about_me.html</loc>
 <lastmod>2026-03-15T17:58:04+01:00</lastmod>
 </url>
@@ -614,6 +610,10 @@
 <url>
 <loc>http://localhost:4000/en/sponzoring_en.html</loc>
 <lastmod>2026-02-07T15:04:06+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/index_old.html</loc>
+<lastmod>2026-04-02T09:28:01+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/sponzoring.html</loc>
