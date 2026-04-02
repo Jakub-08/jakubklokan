@@ -2,23 +2,12 @@
 layout: default
 title: Jakub Klokan
 description: Vrcholový badmintonista
-author: Jakub Klokan
-logo: /Logo_webu_white.svg
-og_image: /Logo_webu_preview.png
-url: https://www.jakubklokan.cz
-social:
-  instagram: https://www.instagram.com/jakub.klokan/
+permalink: /index.html
+
 scripts:
   - /assets/js/dark-mode.js
   - /assets/js/sponsors.js
   - /assets/js/blog-homepage.js
-  - /assets/js/menu-close.js
-
-keywords: "badminton, škola, blog, sport, o mně"
-lang: cs
-permalink: /index.html
-categories: [homepage]
-tags: [badminton, blog]
 ---
 
 <section class="hero">

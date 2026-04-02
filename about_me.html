@@ -33,9 +33,6 @@
         position: absolute;
       }
     </style>
-    <link rel="stylesheet" href="/css/about_me.css" fetchpriority="high" />
-    <link rel="stylesheet" href="/header.css" fetchpriority="high" />
-    <link rel="stylesheet" href="/footer.css" />
     <link
       rel="preconnect"
       href="https://www.googletagmanager.com"
@@ -95,66 +92,89 @@
     />
 
     <title>O mně</title>
+
+    <link rel="stylesheet" href="/assets/css/variables.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/components.css" />
+    <link rel="stylesheet" href="/assets/css/layout.css" />
+    <link rel="stylesheet" href="/about_me.css" />
   </head>
   <body>
     <header>
       <div class="header_pc">
-        <a href="/index.html" class="logo_webu">
+        <a href="{{ '/' | relative_url }}" class="logo_webu">
           <img
-            src="/Logo_webu_white.svg"
+            src="{{ '/Logo_webu_white.svg' | relative_url }}"
             alt="logo webu"
             width="60"
             height="60"
           />
         </a>
+
         <div class="header_middle">
           <a
             id="dark-mode-toggle"
             aria-label="Přepnout tmavý režim"
             class="dark-toggle"
+            >🌙</a
           >
-            🌙
-          </a>
 
-          <a href="/index.html">Domů</a>
-          <a href="/about_me.html">O mně</a>
-          <a href="/achievements.html">Úspěchy</a>
-          <a href="/blog/index.html">Blog</a>
-          <a href="/sponzoring.html">Sponzoring</a>
-          <a href="/Photo_gallery.html">Fotogalerie</a>
-          <a href="/sponzoring.html#kontakt">Kontakt</a>
+          <a href="{{ '/' | relative_url }}">Domů</a>
+          <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+          <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+          <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+          <a href="{{ '/sponzoring.html#kontakt' | relative_url }}">Kontakt</a>
 
-          <a href="/en/about_me_en.html" hreflang="en" lang="en">
-            <img src="/images/gb.svg" alt="English" width="19" height="14" />
+          <a
+            href="{{ '/en/about_me_en.html' | relative_url }}"
+            hreflang="en"
+            lang="en"
+            class="header_hover"
+          >
+            <img
+              src="{{ '/images/gb.svg' | relative_url }}"
+              alt="English"
+              width="19"
+              height="14"
+            />
           </a>
         </div>
       </div>
 
       <div class="header_mobile">
         <nav class="mobilni-menu">
-          <a href="/index.html">
+          <a href="{{ '/' | relative_url }}">
             <img
-              src="/Logo_webu_white.svg"
+              src="{{ '/Logo_webu_white.svg' | relative_url }}"
               alt="logo_webu"
               height="40"
               class="mobilni_logo"
             />
           </a>
+
           <a
             id="dark-toggle-mobile"
             aria-label="Přepnout tmavý režim"
             class="dark-toggle"
+            >🌙</a
           >
-            🌙
-          </a>
+
           <a
-            href="/en/about_me_en.html"
+            href="{{ '/en/about_me_en.html' | relative_url }}"
             hreflang="en"
             lang="en"
             class="language_mobile"
           >
-            <img src="/images/gb.svg" alt="English" width="19" height="14" />
+            <img
+              src="{{ '/images/gb.svg' | relative_url }}"
+              alt="English"
+              width="19"
+              height="14"
+            />
           </a>
+
           <input type="checkbox" id="toggle-menu" autocomplete="off" />
           <label for="toggle-menu" class="menu-ikona">
             <span></span>
@@ -164,35 +184,37 @@
 
           <ul class="odkazy-menu">
             <li>
-              <a href="/index.html"><i class="fa-solid fa-house"></i> Domů</a>
+              <a href="{{ '/' | relative_url }}"
+                ><i class="fa-solid fa-house"></i> Domů</a
+              >
             </li>
             <li>
-              <a href="/about_me.html"
+              <a href="{{ '/about_me.html' | relative_url }}"
                 ><i class="fa-solid fa-user"></i> O mně</a
               >
             </li>
             <li>
-              <a href="/achievements.html"
+              <a href="{{ '/achievements.html' | relative_url }}"
                 ><i class="fa-solid fa-trophy"></i> Úspěchy</a
               >
             </li>
             <li>
-              <a href="/blog/index.html"
+              <a href="{{ '/blog/' | relative_url }}"
                 ><i class="fa-solid fa-pencil-alt"></i> Blog</a
               >
             </li>
             <li>
-              <a href="/sponzoring.html"
+              <a href="{{ '/sponzoring.html' | relative_url }}"
                 ><i class="fa-solid fa-hand-holding-dollar"></i> Sponzoring</a
               >
             </li>
             <li>
-              <a href="/Photo_gallery.html"
+              <a href="{{ '/Photo_gallery.html' | relative_url }}"
                 ><i class="fa-solid fa-camera"></i> Fotogalerie</a
               >
             </li>
             <li>
-              <a href="/sponzoring.html#kontakt"
+              <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
                 ><i class="fa-solid fa-envelope"></i> Kontakt</a
               >
             </li>
@@ -202,52 +224,47 @@
     </header>
 
     <main>
-      <nav class="rozcestí">
-        <a href="#úvod">Úvod</a>
-        <a href="#badminton">Badminton</a>
-        <a href="#škola">Škola</a>
-        <a href="#vzdělání">Vzdělání</a>
-        <a href="#sociální_sítě">Sociální sítě</a>
-      </nav>
+      <section class="section">
+        <div class="container">
+          <div class="left_text">
+            <h1>Jakub Klokan</h1>
+            <p>
+              Můj příběh započal 11.&nbsp;září 2008,&nbsp;když jsem
+              se&nbsp;pozdě v&nbsp;noci narodil v&nbsp;Mostě.<br />Dětství
+              nepoznamenalo nic výjimečného. První stupeň základní školy jsem
+              odchodil na&nbsp;<a href="https://www.4zsmost.cz/" target="_blank"
+                >4.&nbsp;základní škole v&nbsp;Mostě</a
+              >. <br />Po&nbsp;páté třídě mě čekal přestup na&nbsp;osmileté
+              gymnázium
+              <a href="https://www.gymmost.cz/" target="_blank"
+                >Podkrušnohorského gymnázia v&nbsp;Mostě</a
+              >.<br />S&nbsp;badmintonem jsem se&nbsp;potkal
+              už&nbsp;v&nbsp;1.&nbsp;třídě a&nbsp;hned jsem věděl, co&nbsp;chci
+              dělat.
+            </p>
+          </div>
 
-      <section class="úvod" id="úvod">
-        <div class="left_text">
-          <h1>Jakub Klokan</h1>
-          <p>
-            Můj příběh započal 11.&nbsp;září 2008,&nbsp;když jsem se&nbsp;pozdě
-            v&nbsp;noci narodil v&nbsp;Mostě.<br />Dětství nepoznamenalo nic
-            výjimečného. První stupeň základní školy jsem odchodil na&nbsp;<a
-              href="https://www.4zsmost.cz/"
-              target="_blank"
-              >4.&nbsp;základní škole v&nbsp;Mostě</a
-            >. <br />Po&nbsp;páté třídě mě čekal přestup na&nbsp;osmileté
-            gymnázium
-            <a href="https://www.gymmost.cz/" target="_blank"
-              >Podkrušnohorského gymnázia v&nbsp;Mostě</a
-            >.<br />S&nbsp;badmintonem jsem se&nbsp;potkal
-            už&nbsp;v&nbsp;1.&nbsp;třídě a&nbsp;hned jsem věděl, co&nbsp;chci
-            dělat.
-          </p>
+          <picture class="middle">
+            <source
+              srcset="/images/about_me/GPAU15202216.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/about_me/GPAU15202216.webp"
+              type="image/webp"
+            />
+            <img
+              src="/images/about_me/GPAU15202216.jpg"
+              alt="Me with medals from GPA U15 2022"
+              width="500"
+              height="500"
+              fetchpriority="high"
+            />
+          </picture>
         </div>
-
-        <picture class="middle">
-          <source
-            srcset="/images/about_me/GPAU15202216.avif"
-            type="image/avif"
-          />
-          <source
-            srcset="/images/about_me/GPAU15202216.webp"
-            type="image/webp"
-          />
-          <img
-            src="/images/about_me/GPAU15202216.jpg"
-            alt="Me with medals from GPA U15 2022"
-            width="500"
-            height="500"
-            fetchpriority="high"
-          />
-        </picture>
       </section>
+
+      <div class="prostor"></div>
 
       <section class="badminton" id="badminton">
         <div class="right_text">
@@ -428,84 +445,85 @@
     </main>
 
     <footer>
-      <div class="top-part-footer">
-        <div class="text-footer">
-          <img
-            src="/Logo_webu_white.svg"
-            alt="logo_webu"
-            height="110"
-            width="110"
-          />
-          <span>
-            Jmenuji se Jakub Klokan a&nbsp;jsem vrcholový badmintonista
-            z&nbsp;České republiky. Účastním se tuzemských i&nbsp;mezinárodních
-            turnajů, odkud jsem si již přivezl nespočet medailových umístění.<br />
-            Zároveň jsem studentem Podkrušnohorského sportovního gymnázia
-            v&nbsp;Mostě.
-          </span>
-        </div>
-
-        <div class="oddělení"></div>
-
-        <nav class="footer-odkazy">
-          <a href="/index.html">Domů</a>
-          <a href="/about_me.html">O mně</a>
-          <a href="/achievements.html">Úspěchy</a>
-          <a href="/blog/index.html">Blog</a>
-          <a href="/sponzoring.html">Sponzoring</a>
-          <a href="/Photo_gallery.html">Fotogalerie</a>
-          <a href="/sponzoring.html#kontakt">Kontakt</a>
-        </nav>
-
-        <div class="oddělení"></div>
-
-        <div class="kontakty">
-          <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+      <div class="container">
+        <div class="top-part-footer">
+          <div class="text-footer">
             <img
-              src="/images/homepage/instagram-white-simple.svg"
-              alt="logo Instagramu"
-              height="40"
-              width="40"
+              src="{{ '/Logo_webu_white.svg' | relative_url }}"
+              alt="logo_webu"
+              height="110"
+              width="110"
             />
-            <span>@Jakub.klokan</span>
-          </a>
-          <a href="https://m.facebook.com/klokanjakub/" target="_blank">
-            <img
-              src="/images/homepage/facebook-white-simple.svg"
-              alt="logo Facebooku"
-              height="40"
-              width="40"
-            />
-            <span>@Jakub Klokan</span>
-          </a>
-          <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
-            <img
-              src="/images/homepage/email-envelope-white-icon.svg"
-              alt="ikona telefonu"
-              height="40"
-              width="40"
-            />
-            <span>klokan.jakub08@gmail.com</span>
-          </a>
-          <div class="phone">
-            <img
-              src="/images/homepage/phone-white-simple.svg"
-              alt="ikona E-mailu"
-              height="40"
-              width="40"
-            />
-            <span>+420 608 021 109</span>
+            <span>
+              Jmenuji se&nbsp;Jakub Klokan a&nbsp;jsem&nbsp;vrcholový
+              badmintonista z&nbsp;České republiky. Účastním se&nbsp;tuzemských
+              i&nbsp;mezinárodních turnajů, odkud
+              jsem&nbsp;si&nbsp;již&nbsp;přivezl nespočet medailových
+              umístění.<br />
+              Zároveň jsem&nbsp;studentem Podkrušnohorského sportovního gymnázia
+              v&nbsp;Mostě.
+            </span>
+          </div>
+
+          <div class="oddělení"></div>
+
+          <nav class="footer-odkazy">
+            <a href="{{ '/index.html' | relative_url }}">Domů</a>
+            <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+            <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+            <a href="{{ '/blog/index.html' | relative_url }}">Blog</a>
+            <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+            <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+            <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
+              >Kontakt</a
+            >
+          </nav>
+
+          <div class="oddělení"></div>
+
+          <div class="kontakty">
+            <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+              <img
+                src="{{ '/images/homepage/instagram-white-simple.svg' | relative_url }}"
+                alt="logo Instagramu"
+              />
+              <span>@Jakub.klokan</span>
+            </a>
+            <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+              <img
+                src="{{ '/images/homepage/facebook-white-simple.svg' | relative_url }}"
+                alt="logo Facebooku"
+              />
+              <span>@Jakub Klokan</span>
+            </a>
+            <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
+              <img
+                src="{{ '/images/homepage/email-envelope-white-icon.svg' | relative_url }}"
+                alt="ikona telefonu"
+              />
+              <span>klokan.jakub08@gmail.com</span>
+            </a>
+            <div class="phone">
+              <img
+                src="{{ '/images/homepage/phone-white-simple.svg' | relative_url }}"
+                alt="ikona telefonu"
+              />
+              <span>+420 608 021 109</span>
+            </div>
           </div>
         </div>
+
+        <div class="oddělení_X"></div>
+
+        <p class="copyright">© 2026 Jakub Klokan</p>
+        <p class="copyright" id="copa_photo">
+          Fotografie použité na tomto webu:
+        </p>
+        <p class="copyright">© Super Stars Most</p>
+        <p class="copyright">© Badminton Plzeň</p>
       </div>
-
-      <div class="oddělení_X"></div>
-
-      <p class="copyright">© 2026 Jakub Klokan</p>
-      <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
-      <p class="copyright">© Super Stars Most</p>
-      <p class="copyright">© Badminton Plzeň</p>
     </footer>
-    <script src="/js/dark-mode.js"></script>
+    <script src="/assets/js/dark-mode.js"></script>
+    <script src="/assets/js/menu-close.js"></script>
   </body>
 </html>
