@@ -103,10 +103,8 @@ MOBILE MENU
 }
 
 .menu-ikona {
-  padding: 10px;
   cursor: pointer;
   width: 25px;
-  height: 20px;
   margin-right: 20px;
 }
 
@@ -305,7 +303,7 @@ FOOTER COMPONENTS
 #copa_photo {
   text-align: center;
   font-size: var(--font-xs);
-  margin: 0;
+  margin: 0 auto;
   padding-bottom: var(--space-3);
 }
 
@@ -335,7 +333,7 @@ RESPONSIVE
     grid-template-columns: 1fr; /* vertikálně */
     grid-template-rows: auto auto auto;
     row-gap: var(--space-4);
-    margin: 0 var(--space-7);
+    margin: 0;
     align-items: start;
   }
 

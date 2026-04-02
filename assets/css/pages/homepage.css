@@ -1,124 +1,107 @@
-/* =========================
-   HERO
-========================= */
-
-#úvod {
+/* ---------------------
+----- HERO SECTION -----
+----------------------*/
+.hero {
   position: relative;
-  width: 100%;
-  min-height: 80vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
+  min-height: 60vh;
+  border-bottom: #000 1px solid;
+  height: fit-content;
   overflow: hidden;
 }
 
-/* hero image */
-
 .hero-bg {
   position: absolute;
-  inset: 0;
-  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -40;
 }
 
 .hero-bg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  filter: brightness(0.85);
 }
 
-/* hero text */
-
-.nadpis {
-  position: relative;
-  z-index: 2;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.hero-text {
+  color: var(--color-text);
   text-align: center;
 
-  color: white;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-  margin-top: 12vh;
-  max-width: 90%;
+  padding: 15vh 8% 10vh 50%;
 }
 
-.nadpis h1 {
-  font-size: 4rem;
-  margin: 0;
+.hero-text-line {
+  width: 25%;
+  height: 1px;
+  background-color: #bebebe;
+  margin: var(--space-2) auto;
 }
 
-.hero-subtitle {
-  font-size: 1.8rem;
-  margin: 6px 0 16px 0;
+.hero p {
+  color: var(--color-text);
+  font-size: var(--font-lg);
+  margin-top: var(--space-7);
 }
 
-#uvod p {
-  font-size: 1.2rem;
+.hero-cta {
+  margin-top: var(--space-5);
 }
 
-/* =========================
-   HERO CTA
-========================= */
-
-.btn-sponsoring {
-  display: inline-block;
-
-  margin-top: 30px;
-  padding: 14px 30px;
-
-  background: linear-gradient(135deg, #ffcb05, #ff9900);
-  color: #121212;
-
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 700;
-
-  transition: all 0.2s ease;
+/* RESPONZIVE */
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 83vh;
+  }
+  .hero-bg img {
+    object-position: 10% 20%;
+    filter: brightness(0.8);
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+  .hero-text {
+    padding: 20vh 0 10vh 0;
+  }
 }
 
-.btn-sponsoring:hover {
-  transform: translateY(-3px);
-}
-
-/* =========================
-   SPONSORS
-========================= */
-
-/* ===== KONTEJNER ===== */
+/* ---------------------
+------- SPONSORS -------
+----------------------*/
 .sponsors {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr auto 1fr; /* desktop */
-  align-items: center;
-  gap: 48px;
-  padding: 10px 24px;
-  text-align: center;
-  margin-top: 40px;
-  overflow: hidden;
-  width: 100%;
+  grid-template-columns: 1fr auto 1fr;
+  gap: var(--space-7);
+  padding: var(--space-3) var(--space-5);
 }
 
-/* Hlavní sponsor */
+.sponsors > * {
+  position: relative;
+  z-index: 1;
+}
+
+.sponsors-left,
+.sponsors-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sponsors-main img {
   max-width: 200px;
   display: block;
   margin: 0 auto;
   shape-rendering: geometricPrecision;
   opacity: 1;
-}
-
-/* SLOTY (rotující loga) */
-.sponsors-left,
-.sponsors-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .sponsors-left img,
@@ -130,29 +113,9 @@
     transform 0.4s ease;
 }
 
-.sponsors-left img:hover,
-.sponsors-right img:hover {
-  opacity: 1;
-  transform: scale(1.05);
-}
-
-/* FADE */
-.sponsors-left.fade-out img,
-.sponsors-right.fade-out img {
-  opacity: 0;
-  transform: scale(0.95);
-}
-.sponsors-left.fade-in img,
-.sponsors-right.fade-in img {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* STÍN NAHOŘE */
 .sponsors::before {
   content: "";
   position: absolute;
-  top: 0;
   left: 0;
   right: 0;
   height: 140px;
@@ -162,81 +125,75 @@
     rgba(18, 18, 18, 0.9),
     rgba(18, 18, 18, 1.3)
   );
-  pointer-events: none;
-  z-index: 0;
 }
 
-.sponsors > * {
+/* RESPONZIVE */
+/* MOBILE */
+@media (max-width: 768px) {
+  .sponsors {
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: var(--space-6);
+    padding-left: var(--space-6);
+
+    position: absolute;
+    bottom: 0;
+  }
+  .sponsors-left {
+    display: none;
+  }
+}
+
+/* ---------------------
+--------- BLOG ---------
+----------------------*/
+.blog h2 {
+  margin-bottom: var(--space-4);
+  text-align: center;
+  color: var(--color-text-dark);
+}
+
+.blog-articles {
+  display: flex;
+  gap: var(--space-6);
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: var(--space-5);
+}
+
+/* BLOG ARTICLE */
+.blog-article {
   position: relative;
+  flex: 1 1 30%;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  border-radius: var(--border-radius);
+  min-width: 220px;
+  max-width: 280px;
+  overflow: hidden;
+}
+
+.blog-article:hover {
+  transform: var(--transform);
+}
+
+.blog-article h3 {
+  margin: 0 0 var(--space-1);
+  font-size: var(--font-lg);
+  color: var(--color-text);
   z-index: 1;
 }
 
-/* =========================
-   BLOG HOMEPAGE
-========================= */
-
-#blog-proklik-homepage {
-  border-bottom: 1px solid #ddd;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#blog-proklik-homepage h2 {
-  margin-bottom: 1em;
-  font-size: 1.4em;
-  text-align: center;
-  color: rgb(32, 32, 32);
-}
-
-.blog-ctverce-homepage {
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  inset: 0;
   display: flex;
-  gap: 2.5em;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: fit-content;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--space-4);
 }
 
-.blog-ctverec-homepage {
-  position: relative;
-  flex: 1 1 30%;
-  aspect-ratio: 1 / 1;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  overflow: hidden;
-  text-decoration: none;
-  color: white;
-  min-width: 220px;
-  max-width: 300px;
-  transition: transform 0.2s ease;
-}
-
-.blog-ctverec-homepage:hover {
-  transform: scale(1.02);
-}
-
-.blog-ctverec {
-  position: relative;
-  flex: 1 1 30%;
-  aspect-ratio: 1 / 1;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  overflow: hidden;
-  text-decoration: none;
-  color: white;
-  min-width: 220px;
-  max-width: 280px;
-  transition: transform 0.2s ease;
-}
-
-main .blog-ctverec .overlay {
-  position: relative; /** pro overlay **/
-}
-
-main .blog-ctverec .overlay::after {
+.overlay::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -244,359 +201,137 @@ main .blog-ctverec .overlay::after {
   pointer-events: none;
 }
 
-main .blog-ctverec .overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 1em;
-}
-
-.blog-ctverec h4 {
-  margin: 0 0 0.3em;
-  font-size: 1.1em;
-  color: rgb(255, 255, 255);
+.overlay p {
+  font-size: var(--font-sm);
+  color: rgb(228, 228, 228);
   z-index: 1;
 }
 
-main .blog-ctverec h3 {
-  margin: 0 0 0.3em;
-  font-size: 1.3em;
-}
+/* -------------------
+------ ABOUT ME ------
+--------------------*/
 
-.blog-ctverec-homepage p {
-  margin: 0;
-  font-size: 0.9em;
-  color: #ddd;
-}
-
-.zobrazit-vse-homepage {
-  display: inline-block;
-  margin-top: 2em;
-  color: rgb(51, 51, 51);
-  font-weight: 500;
-  font-size: 1rem;
-  text-decoration: none;
-  position: relative;
-  transition: color 0.2s ease;
-  margin-left: 2em;
-}
-
-.zobrazit-vse-homepage::after {
-  content: "→";
-  margin-left: 0.5em;
-  transition: margin-left 0.2s ease;
-}
-
-.zobrazit-vse-homepage:hover {
-  color: black;
-}
-
-.zobrazit-vse-homepage:hover::after {
-  margin-left: 0.7em;
-}
-*/
-
-/* =========================
-   MEDALS
-========================= */
-
-.medaile {
+.about-me-container {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-
-  padding: 60px 20px 30px 20px;
-  background: #f7f9fc;
+  gap: var(--space-6);
 }
 
-.kruh {
+/* TEXT */
+.about-me-text {
+  flex: 1 1 400px;
+}
+
+.about-me-text h2 {
+  margin-bottom: var(--space-4);
+  color: var(--color-text-dark);
+}
+
+.about-me-text p {
+  font-size: var(--font-lg);
+  line-height: 1.6;
+  margin-bottom: var(--space-5);
+  color: var(--color-text-dark);
+}
+
+/* PHOTO */
+.about-me-photo {
+  flex: 0 0 250px;
+}
+
+.about-me-photo img {
+  width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .about-me-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-me-photo {
+    flex: 1 1 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .about-me-text {
+    flex: none;
+  }
+}
+
+/* ---------------------
+----- MEDALS STATS -----
+----------------------*/
+
+.medals-stats {
+  display: grid;
+}
+
+.medals-one-type {
   display: flex;
   flex-direction: column;
-  align-items: center;
-
-  margin: 20px 5%;
+  min-width: 60px;
+  max-width: 400px;
 }
 
-.obrázek {
+.medals-image {
   position: relative;
+  align-self: center;
 }
 
-.image {
-  width: 250px;
+#MM {
+  object-position: left center;
+}
+
+.medals-one-image {
   height: 250px;
+  width: 250px;
   border-radius: 50%;
   object-fit: cover;
-
-  filter: brightness(0.75);
+  filter: brightness(0.7);
 }
 
-.num {
+.medals-number {
   position: absolute;
-
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
-
-  font-size: 5rem;
+  font-size: 3.75rem;
   font-weight: 700;
-  color: white;
+  color: var(--color-text);
 }
 
-.description {
-  margin-top: 20px;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.medals-cta {
+.medals-description {
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: var(--space-5);
+  font-size: var(--font-lg);
+  font-weight: 580;
+  height: 50px;
 }
 
-.btn-more-achievements {
-  padding: 14px 28px;
-
-  background: black;
-  color: white;
-
-  border-radius: 24px;
-  text-decoration: none;
-}
-
-/* =========================
-   VALUES
-========================= */
-
-.my-values {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 48px;
-  padding: 64px 24px;
-  background: #121212; /* dark mode */
-  text-align: center;
-  transition: background 0.3s ease;
-}
-
-.value-item {
-  max-width: 240px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.value-item img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
-}
-
-.value-item h3 {
-  color: #ffcb05; /* ladí s CTA */
-  font-size: 1.25rem;
-  margin: 0;
-  transition: color 0.3s ease;
-}
-
-.value-item p {
-  color: #ededed;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-/* HOVER EFEKT */
-.value-item:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
-}
-
-.value-item:hover img {
-  transform: scale(1.1);
-}
-
-.value-item:hover h3 {
-  color: #ffd966; /* jemná změna nadpisu při hoveru */
-}
-
-/* =========================
-   QUICK LINKS
-========================= */
-
-/* KONTEJNER */
-.quick-links.light-bg {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 24px;
-  padding: 64px 24px;
-  text-align: center;
-  background: #f5f5f5; /* světlé pozadí */
-}
-
-/* KARTY */
-.link-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  background: #ffffff;
-  border-radius: 16px;
-  overflow: hidden;
-  text-decoration: none;
-  color: #121212; /* text tmavý */
-  padding: 24px 12px;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    background 0.3s ease;
-}
-
-/* IKONA NAHOŘE */
-.link-card img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
-  transition:
-    transform 0.3s ease,
-    filter 0.3s ease;
-}
-
-/* NADPIS */
-.link-card h4 {
-  margin: 0;
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #121212;
-}
-
-/* HOVER EFEKT */
-.link-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(
-    135deg,
-    #ffcb05,
-    #ffd966
-  ); /* gradient při hoveru */
-}
-
-.link-card:hover h4 {
-  color: #ffffff; /* kontrastní nadpis */
-}
-
-.link-card:hover img {
-  transform: scale(1.1);
-  filter: brightness(1.2);
-}
-
+/* RESPONZIVE */
+/* MOBILE */
 @media (max-width: 768px) {
-  .nadpis h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.3rem;
-  }
-
-  .image {
-    width: 180px;
-    height: 180px;
+  .medals-description {
+    font-weight: 600;
   }
 }
 
-/*My values*/
-@media (max-width: 768px) {
-  .my-values {
-    gap: 32px;
-    padding: 48px 16px;
-  }
+/* ---------------------
+-------- OTHERS --------
+----------------------*/
 
-  .value-item img {
-    width: 56px;
-    height: 56px;
-  }
-
-  .value-item h3 {
-    font-size: 1.1rem;
-  }
-
-  .value-item p {
-    font-size: 0.9rem;
-  }
+/* Vizuální oddělovač sekcí */
+.section-divider {
+  height: 1px; /* tloušťka linky */
+  background-color: #cccccc4d; /* světle šedá, decentní */
+  margin: var(--space-3) auto; /* mezera nad a pod linkou */
+  width: 60%;
 }
-
-/*Quicks links*/
-@media (max-width: 768px) {
-  .link-card img {
-    width: 56px;
-    height: 56px;
-  }
-
-  .link-card h4 {
-    font-size: 1rem;
-  }
-}
-
-/*Sponzors*/
-@media (max-width: 768px) {
-  /* Kontejner -> flex dva sloupce */
-  .sponsors {
-    display: flex !important; /* přepsat grid */
-    flex-direction: row; /* levý a pravý sloupec */
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 16px;
-  }
-
-  /* Levý sloupec = Peyton */
-  .sponsors-left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  .sponsors-left img {
-    max-width: 200px;
-    max-height: 50px;
-    margin-bottom: 16px;
-  }
-
-  /* Pravý sloupec = rotující loga */
-  .sponsors-right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 12px;
-  }
-
-  .sponsors-right img {
-    max-height: 42px;
-    max-width: 90%;
-    width: auto;
-    object-fit: contain;
-    margin-bottom: 16px;
-  }
-
-  /* Hlavní sponsor se v mobilu přesune do levého sloupce */
-  .sponsors-main {
-    display: none; /* skrytí uprostřed */
-  }
-
-  .btn-sponsoring {
-    padding: 14px 28px;
-    font-size: 1rem;
-  }
-}
-
-

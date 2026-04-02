@@ -1,10 +1,209 @@
-/* BUTTONS */
+/* --------------
+---- BUTTONS ----
+---------------*/
 
-.btn-more-achievements {
+.button {
   display: inline-block;
-  padding: 12px 28px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-  color: #121212;
+  padding: var(--space-3) var(--space-5);
+  font-size: var(--font-md);
   font-weight: 700;
-  border-radius: 28px;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+
+  transition: all var(--transition-fast);
+}
+
+/* PRIMARY BUTTON */
+
+.button--primary {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-primary-dark)
+  );
+  color: var(--color-text-dark);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.button--primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+.button--primary:active {
+  transform: translateY(-1px);
+}
+
+/* SECONDARY BUTTON */
+
+.button--secondary {
+  background: var(--color-secondary);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.button--secondary:hover {
+  background: #2a2a2a;
+}
+
+/* GHOST BUTTON */
+
+.button--ghost {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.button--ghost:hover {
+  background: rgba(255, 203, 5, 0.1);
+}
+
+/* OTHER */
+
+.button:disabled,
+.button--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+/* SIZE */
+
+.button--small {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--font-sm);
+}
+
+.button--large {
+  padding: var(--space-4) var(--space-6);
+  font-size: var(--font-lg);
+}
+
+@media (max-width: 768px) {
+  .button-mobile-center {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* ---------------
+----- LAYOUT -----
+----------------*/
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-5);
+}
+
+.container--narrow {
+  max-width: var(--max-width-narrow);
+}
+
+.section {
+  padding: var(--space-5) 0;
+}
+
+/* -------------
+----- CARD -----
+--------------*/
+
+/* CARDS */
+.card {
+  background: var(--color-background-card);
+  border-radius: var(--border-radius-card);
+  padding: var(--space-5);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card__image {
+  width: 100%;
+  border-radius: var(--border-radius);
+  margin-bottom: var(--space-4);
+}
+
+.card__title {
+  margin-bottom: var(--space-2);
+}
+
+.card__text {
+  opacity: 0.8;
+}
+
+/* BLOG CARDS */
+.card--blog {
+  padding: 0;
+  overflow: hidden;
+}
+
+.card--blog .card__content {
+  padding: var(--space-5);
+}
+
+/* VALUE CARDS */
+.card--value {
+  text-align: center;
+  padding: var(--space-6) var(--space-4);
+}
+
+.card--value .card__image {
+  width: 60px;
+  margin: 0 auto var(--space-4);
+}
+
+/* LINK CARDS */
+.card--link {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card--link:hover {
+  background: #2a2a2a;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  gap: var(--space-7);
+  margin: 0 auto;
+}
+
+.grid--4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  .grid--4,
+  .grid--3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* -------------
+----- FONT -----
+--------------*/
+
+.text-shadow {
+  text-shadow: #1c1c1c 0 0 10px;
 }

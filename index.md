@@ -142,7 +142,6 @@ tags: [badminton, blog]
       </div>
       <span class="medals-description">Mezinárodní medaile</span>
     </div>
-
     <div class="medals-one-type">
       <div class="medals-image">
         <picture>
