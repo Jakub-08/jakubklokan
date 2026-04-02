@@ -4,8 +4,8 @@
 
 .button {
   display: inline-block;
-  padding: 12px 28px;
-  font-size: 1rem;
+  padding: var(--space-3) var(--space-5);
+  font-size: var(--font-md);
   font-weight: 700;
   border-radius: var(--radius-pill);
   text-decoration: none;
@@ -39,8 +39,8 @@
 /* SECONDARY BUTTON */
 
 .button--secondary {
-  background: #1e1e1e;
-  color: var(--color-text-light);
+  background: var(--color-secondary);
+  color: var(--color-text);
   border: 1px solid var(--color-border);
 }
 
@@ -78,13 +78,20 @@
 /* SIZE */
 
 .button--small {
-  padding: 8px 18px;
-  font-size: 0.875rem;
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--font-sm);
 }
 
 .button--large {
-  padding: 16px 36px;
-  font-size: 1.125rem;
+  padding: var(--space-4) var(--space-6);
+  font-size: var(--font-lg);
+}
+
+@media (max-width: 768px) {
+  .button-mobile-center {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* ---------------
@@ -92,23 +99,17 @@
 ----------------*/
 
 .container {
-  max-width: 1200px;
+  max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 var(--space-5);
 }
 
 .container--narrow {
-  max-width: 800px;
+  max-width: var(--max-width-narrow);
 }
 
 .section {
-  padding: 40px 0;
-}
-
-.grid {
-}
-
-.flex {
+  padding: var(--space-5) 0;
 }
 
 /* -------------
@@ -117,9 +118,9 @@
 
 /* CARDS */
 .card {
-  background: var(--color-background);
-  border-radius: 16px;
-  padding: 24px;
+  background: var(--color-background-card);
+  border-radius: var(--border-radius-card);
+  padding: var(--space-5);
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -132,12 +133,12 @@
 
 .card__image {
   width: 100%;
-  border-radius: 12px;
-  margin-bottom: 16px;
+  border-radius: var(--border-radius);
+  margin-bottom: var(--space-4);
 }
 
 .card__title {
-  margin-bottom: 8px;
+  margin-bottom: var(--space-2);
 }
 
 .card__text {
@@ -151,18 +152,18 @@
 }
 
 .card--blog .card__content {
-  padding: 20px;
+  padding: var(--space-5);
 }
 
 /* VALUE CARDS */
 .card--value {
   text-align: center;
-  padding: 32px 20px;
+  padding: var(--space-6) var(--space-4);
 }
 
 .card--value .card__image {
   width: 60px;
-  margin: 0 auto 16px;
+  margin: 0 auto var(--space-4);
 }
 
 /* LINK CARDS */
@@ -188,7 +189,12 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 @media (max-width: 768px) {
+  .grid--4,
   .grid--3 {
     grid-template-columns: 1fr;
   }

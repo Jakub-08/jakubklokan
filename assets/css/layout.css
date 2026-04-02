@@ -305,7 +305,7 @@ FOOTER COMPONENTS
 #copa_photo {
   text-align: center;
   font-size: var(--font-xs);
-  margin: 0;
+  margin: 0 auto;
   padding-bottom: var(--space-3);
 }
 

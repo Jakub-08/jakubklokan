@@ -52,6 +52,9 @@
 /* RESPONZIVE */
 /* MOBILE */
 @media (max-width: 768px) {
+  .hero {
+    min-height: 83vh;
+  }
   .hero-bg img {
     object-position: 10% 20%;
     filter: brightness(0.8);
@@ -66,7 +69,7 @@
     font-size: 1.1rem;
   }
   .hero-text {
-    padding: 15vh 0 10vh 0;
+    padding: 20vh 0 10vh 0;
   }
 }
 
@@ -125,23 +128,25 @@
 }
 
 /* RESPONZIVE */
-/* TABLET */
-@media (max-width: 1024px) {
-}
-
 /* MOBILE */
 @media (max-width: 768px) {
+  .sponsors {
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: var(--space-6);
+    padding-left: var(--space-6);
+
+    position: absolute;
+    bottom: 0;
+  }
+  .sponsors-left {
+    display: none;
+  }
 }
 
 /* ---------------------
 --------- BLOG ---------
 ----------------------*/
-#blog {
-  padding: var(--space-5) 0 var(--space-3) 0;
-  margin: 0 auto;
-}
-
-#blog h2 {
+.blog h2 {
   margin-bottom: var(--space-4);
   text-align: center;
   color: var(--color-text-dark);
@@ -202,21 +207,9 @@
   z-index: 1;
 }
 
-/* RESPONZIVE */
-/* TABLET */
-@media (max-width: 1024px) {
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-}
-
 /* -------------------
 ------ ABOUT ME ------
 --------------------*/
-.about-me-homepage {
-  padding: var(--space-7) var(--space-5);
-}
 
 .about-me-container {
   display: flex;
@@ -256,7 +249,7 @@
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 768px) {
   .about-me-container {
     flex-direction: column-reverse;
     text-align: center;
@@ -267,15 +260,10 @@
     max-width: 300px;
     margin: 0 auto;
   }
-}
 
-/* RESPONZIVE */
-/* TABLET */
-@media (max-width: 1024px) {
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
+  .about-me-text {
+    flex: none;
+  }
 }
 
 /* ---------------------
@@ -284,7 +272,6 @@
 
 .medals-stats {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .medals-one-type {
@@ -292,7 +279,6 @@
   flex-direction: column;
   min-width: 60px;
   max-width: 400px;
-  margin: var(--space-6) 0 0;
 }
 
 .medals-image {
@@ -325,18 +311,17 @@
 .medals-description {
   text-align: center;
   margin-top: var(--space-5);
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: var(--font-lg);
+  font-weight: 580;
   height: 50px;
 }
 
 /* RESPONZIVE */
-/* TABLET */
-@media (max-width: 1024px) {
-}
-
 /* MOBILE */
 @media (max-width: 768px) {
+  .medals-description {
+    font-weight: 600;
+  }
 }
 
 /* ---------------------
@@ -349,13 +334,4 @@
   background-color: #cccccc4d; /* světle šedá, decentní */
   margin: var(--space-3) auto; /* mezera nad a pod linkou */
   width: 60%;
-}
-
-/* RESPONZIVE */
-/* TABLET */
-@media (max-width: 1024px) {
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
 }
