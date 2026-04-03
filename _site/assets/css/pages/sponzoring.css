@@ -1,18 +1,318 @@
-.prostor {
-    height: 200px;
-
+/* ---------------------
+----- HERO SECTION -----
+----------------------*/
+/* IMG */
+.sponzoring-hero {
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
 }
 
-.sponzoring-hero-bg {
-    height: 70vh;
-    overflow: hidden;
-    position: relative;
+.sponzoring-hero picture,
+.sponzoring-hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .sponzoring-hero-image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    object-position: 20% 50%;
-    display: block;
+  object-fit: cover;
+  object-position: 20% 40%;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.7);
+  z-index: 1;
+}
+
+/* TEXT */
+.sponzoring-hero-text {
+  position: relative;
+  z-index: 2; /* musí být nad obrázkem */
+  height: 100%;
+  display: flex;
+  align-items: center; /* vertikální zarovnání */
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.separate-line--sponzoring {
+  width: 100px;
+  margin: var(--space-2) auto var(--space-3) auto;
+}
+
+.button--primary {
+  margin-top: var(--space-5);
+}
+
+/* ------------------
+------- OFFER -------
+-------------------*/
+.container-text ul li {
+  margin-bottom: var(--space-2);
+}
+
+.sponzoring-h3 {
+  margin-top: var(--space-2);
+}
+
+.sponzoring-button-space {
+  margin: var(--space-3) 0 0 var(--space-3);
+}
+
+.sponzoring-primary-button {
+  color: var(--color-text-dark) !important;
+}
+
+.sponzoring-secondary-button {
+  color: var(--color-text) !important;
+}
+
+/* Náhled na PDF Portfolia */
+#pdf-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 9999;
+}
+
+.pdf-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pdf-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.pdf-content iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* -------------------
+------ ABOUT ME ------
+--------------------*/
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  flex-wrap: wrap; /* pro mobil */
+}
+
+.about-me-text p {
+  margin-bottom: var(--space-2);
+}
+
+/* --------------------
+----- MY SPONSORS -----
+---------------------*/
+.sponsors-template {
+  grid-template-columns: 1fr 550px;
+}
+
+.sponsors-logos {
+  padding: var(--space-4) 0;
+}
+
+.sponsors-logos h3 {
+  color: var(--color-text-dark);
+  text-align: center;
+}
+
+.sponsors-separate-line {
+  height: 1.8px;
+  background-color: var(--color-primary-dark);
+  margin: var(--space-1) auto var(--space-4);
+  width: 120px;
+  border-radius: 0.9px;
+}
+
+.logo {
+  display: block;
+  max-height: 80px; /* jednotná výška log */
+
+  height: auto; /* zachová proporce */
+
+  padding: var(--space-2) var(--space-2);
+}
+
+.dark-bg,
+.light-bg,
+.dark-bg-sm,
+.light-bg-sm {
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(134, 134, 134, 0.25);
+}
+
+/* Aktuální */
+.grid-sponsors-logos-now {
+  row-gap: var(--space-6);
+  column-gap: var(--space-4);
+}
+
+.dark-bg,
+.light-bg {
+  height: 70px;
+  width: 150px;
+}
+
+.dark-bg,
+.dark-bg-sm {
+  background-color: var(--color-background-card);
+}
+
+.light-bg,
+.light-bg-sm {
+  background-color: var(--color-main-bg);
+}
+
+/* Dřívější */
+.sponsors-previous {
+  margin-top: var(--space-4);
+}
+
+.grid-sponsors-logos-previous {
+  row-gap: var(--space-4);
+  column-gap: var(--space-2);
+}
+
+.dark-bg-sm,
+.light-bg-sm {
+  height: 50px;
+  width: 110px;
+}
+
+/* --------------------
+------- CONTACT -------
+---------------------*/
+
+.contact-section {
+  background-color: var(--color-background-light);
+  text-align: center;
+}
+
+/* INTRO */
+.contact-section-intro {
+  padding-top: var(--space-4);
+  color: var(--color-text-dark);
+}
+
+.contact-section h2 p {
+  color: var(--color-text-dark);
+}
+
+.contact-section p {
+  margin: 0 auto var(--space-4) auto;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin: var(--space-3) 0 0 0;
+}
+
+.contact-item a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  font-weight: 600;
+}
+
+.contact-item strong {
+  color: var(--color-text-dark);
+}
+
+/* LOGO */
+.contact-logo {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  margin-top: var(--space-3);
+  padding-bottom: var(--space-5);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: var(--space-3);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: var(--font-md);
+}
+
+.contact-form textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.contact-form button {
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .sponzoring-button-space {
+    margin: var(--space-5) 0 0 var(--space-2);
+  }
+  .sponsors-template {
+    grid-template-columns: 1fr;
+  }
+  .grid-sponsors-logos-now,
+  .grid-sponsors-logos-previous {
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-5);
+  }
 }

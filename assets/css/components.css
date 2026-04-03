@@ -204,6 +204,12 @@
   .grid--2 {
     grid-template-columns: 1fr;
   }
+
+  .grid-mobile-switch {
+    display: flex;
+    flex-direction: column-reverse; /* obrátí pořadí prvků vertikálně */
+    gap: 30px; /* mezery mezi prvky */
+  }
 }
 
 /* -------------
@@ -337,6 +343,26 @@
     object-position: center;
     transition: all 0.3s ease;
   }
+
+  /* Strip přizpůsobí výšku obsahu */
+  .strip {
+    padding-top: var(--space-4); /* zmenší horní padding */
+    padding-bottom: var(--space-4); /* zmenší spodní padding */
+  }
+
+  /* Obrázek v kontejneru */
+  .strip-image-container {
+    min-height: 0; /* odstraní pevnou výšku */
+  }
+
+  /* Samotný obrázek */
+  .strip-image {
+    height: auto; /* nechá výšku podle obsahu */
+    max-height: 70vh; /* nepřesáhne 70% viewportu */
+    width: 100%;
+    object-fit: contain; /* celý obrázek viditelný */
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -350,6 +376,6 @@
     height: 100%;
   }
   .container-text {
-    padding: var(--space-6) var(--space-5);
+    padding: var(--space-6) var(--space-2);
   }
 }

@@ -57,7 +57,7 @@ scripts:
       <!-- BADMINTON -->
       <section class="section">
         <div class="strip">
-          <div class="container grid--2 strip-contain">
+          <div class="container grid--2 strip-contain grid-mobile-switch">
             <picture class="strip-image-container">
               <source srcset="/images/about_me/Malý.avif" type="image/avif" />
               <source srcset="/images/about_me/Malý.webp" type="image/webp" />
@@ -139,7 +139,7 @@ scripts:
       <!-- EDUCATION -->
       <section class="section">
         <div class="strip">
-          <div class="container grid--2 strip-contain">
+          <div class="container grid--2 strip-contain grid-mobile-switch">
             <div class="education-gallery strip-image-container">
               <picture>
                 <source
