@@ -264,6 +264,7 @@
 .strip-image-container .strip-image {
   height: 100%; /* vezme výšku kontejneru */
   width: auto; /* zachová proporce */
+  max-width: 500px;
   object-fit: cover; /* vyplní výšku bez deformace */
 }
 

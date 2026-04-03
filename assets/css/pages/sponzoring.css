@@ -69,10 +69,97 @@
 .about-me-content {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: var(--space-6);
   flex-wrap: wrap; /* pro mobil */
 }
 
 .about-me-text p {
   margin-bottom: var(--space-2);
 }
+
+/* --------------------
+----- MY SPONSORS -----
+---------------------*/
+.sponsors-template {
+  grid-template-columns: 1fr 550px;
+}
+
+.sponsors-logos {
+  padding: var(--space-4) 0;
+}
+
+.sponsors-logos h3 {
+  color: var(--color-text-dark);
+  text-align: center;
+}
+
+.sponsors-separate-line {
+  height: 2px;
+  background-color: var(--color-primary-dark);
+  margin: var(--space-1) auto var(--space-4);
+  width: 120px;
+  border-radius: 1px;
+}
+
+.logo {
+  display: block;
+  max-height: 70px; /* jednotná výška log */
+
+  height: auto; /* zachová proporce */
+
+  padding: var(--space-2) var(--space-2);
+}
+
+.dark-bg,
+.light-bg,
+.dark-bg-sm,
+.light-bg-sm {
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(134, 134, 134, 0.25);
+}
+
+/* Aktuální */
+.grid-sponsors-logos-now {
+  row-gap: var(--space-6);
+  column-gap: var(--space-4);
+}
+
+.dark-bg,
+.light-bg {
+  height: 70px;
+  width: 150px;
+}
+
+.dark-bg,
+.dark-bg-sm {
+  background-color: var(--color-background-card);
+}
+
+.light-bg,
+.light-bg-sm {
+  background-color: var(--color-main-bg);
+}
+
+/* Dřívější */
+.sponsors-previous {
+  margin-top: var(--space-4);
+}
+
+.grid-sponsors-logos-previous {
+  row-gap: var(--space-4);
+  column-gap: var(--space-2);
+}
+
+.dark-bg-sm,
+.light-bg-sm {
+  height: 50px;
+  width: 110px;
+}
+
+/* --------------------
+------- CONTACT -------
+---------------------*/
