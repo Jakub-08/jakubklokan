@@ -824,7 +824,7 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
   width: 100vw;
   height: 70vh;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  object-position: 20% 40%;
+  
   object-fit: cover;
   z-index: -1;
   filter: brightness(0.7);

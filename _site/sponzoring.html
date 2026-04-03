@@ -30,118 +30,6 @@
     />
     <noscript><link rel="stylesheet" href="/css/sponzoring.css" /></noscript>
 
-    <style>
-      #horní_lišta {
-        height: 80px;
-        background-color: rgba(15, 13, 13, 0.993);
-        font-style: normal;
-        text-decoration: underline rgba(15, 13, 13, 0.993);
-        color: white;
-        position: sticky;
-        top: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        z-index: 1000;
-      }
-      .sponzorství {
-        height: fit-content;
-        background-color: #f7f9fc;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        padding-bottom: 30px;
-      }
-      .grid {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto auto auto;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-      }
-      #kontakt,
-      #nabídka,
-      #sponzorství {
-        scroll-margin-top: 150px;
-      }
-      .sponzorství h2,
-      .nabídka h2,
-      .kontakt h2 {
-        text-align: center;
-        color: #333;
-        padding-top: 30px;
-        font-size: 2.5rem;
-      }
-      .sponzorství-text {
-        width: 55%;
-        margin-left: 12%;
-        text-align: center;
-        align-self: start;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        padding: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
-        background-color: white;
-      }
-      .sponzorství-text p,
-      .nabídka-sponzoringu p,
-      .kontakt-text p {
-        font-size: 1.25rem;
-        line-height: 1.5;
-        color: black;
-        text-align: center;
-      }
-      .sponzorství h3,
-      .nabídka-sponzoringu h3,
-      .kontakt-text h3 {
-        text-align: center;
-        font-size: 1.9rem;
-      }
-      .sponzoři-loga {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto auto auto;
-        gap: 50px;
-        justify-content: center;
-        align-items: center;
-        margin-right: 32%;
-      }
-      .sponzoři-loga img {
-        width: 150px;
-        height: 110px;
-        object-fit: contain;
-        border-radius: 10px;
-        box-shadow: #2b2a2a 0px 0px 10px;
-      }
-      @media screen and (max-width: 880px) {
-        .sponzorství-text {
-          align-self: center;
-          justify-self: center;
-          margin: 0;
-          width: 75vw;
-        }
-        .sponzoři-loga {
-          margin: 20px 0 0 0;
-          grid-template-columns: auto auto;
-          column-gap: 10px;
-        }
-        .sponzorství h2,
-        .nabídka h2,
-        .kontakt h2 {
-          font-size: 1.88rem;
-        }
-        .sponzorství-text h3,
-        .nabídka h3,
-        .kontakt h3 {
-          font-size: 1.38rem;
-        }
-        .sponzorství-text p,
-        .nabídka p,
-        .kontakt p {
-          font-size: 1.125rem;
-        }
-      }
-    </style>
-    <link rel="stylesheet" href="/css/sponzoring.css" />
     <script src="/js/menu-close.js" defer></script>
     <meta charset="UTF-8" />
     <link
@@ -204,131 +92,139 @@
     />
 
     <title>Sponzoring</title>
+
+    <link rel="stylesheet" href="/assets/css/variables.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/components.css" />
+    <link rel="stylesheet" href="/assets/css/layout.css" />
+    <link rel="stylesheet" href="/assets/css/pages/sponzoring.css" />
   </head>
   <body>
     <header>
-      <nav id="horní_lišta" fetchpriority="high">
-        <a href="/sponzoring.html#kontakt" class="domů">Kontakt</a>
-        <a href="/Photo_gallery.html" class="domů">Fotogalerie</a>
-        <a href="/sponzoring.html" class="domů">Sponzoring</a>
-        <a href="/blog/index.html" class="domů">Blog</a>
-        <a href="/achievements.html" class="domů">Úspěchy</a>
-        <a href="/about_me.html" class="domů">O mně</a>
-        <a href="/index.html" class="domů">Domů</a>
-        <nav class="language-switcher">
-          <ul>
-            <li>
-              <a href="/en/sponzoring_en.html" hreflang="en" lang="en">
-                <img
-                  src="/images/gb.svg"
-                  alt="English"
-                  width="24"
-                  height="16"
-                />
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <button
-          id="dark-mode-toggle"
-          aria-label="Přepnout tmavý režim"
-          class="dark-toggle"
-        >
-          🌙
-        </button>
-        <a href="/index.html" class="logo_webu">
-          <div>
-            <img
-              src="/Logo_webu_white.svg"
-              alt="logo webu"
-              width="80"
-              height="80"
-            />
-          </div>
-        </a>
-      </nav>
-
-      <nav class="mobilni-menu">
-        <a href="/index.html">
+      <div class="header_pc">
+        <a href="{{ '/' | relative_url }}" class="logo_webu">
           <img
-            src="/Logo_webu_white.svg"
-            alt="logo_webu"
-            height="40"
-            class="mobilni_logo"
+            src="{{ '/Logo_webu_white.svg' | relative_url }}"
+            alt="logo webu"
+            width="60"
+            height="60"
           />
         </a>
-        <button
-          id="dark-toggle-mobile"
-          aria-label="Přepnout tmavý režim"
-          class="dark-toggle"
-        >
-          🌙
-        </button>
-        <nav class="language-switcher_mobile">
-          <ul>
+
+        <div class="header_middle">
+          <a
+            id="dark-mode-toggle"
+            aria-label="Přepnout tmavý režim"
+            class="dark-toggle"
+            >🌙</a
+          >
+
+          <a href="{{ '/' | relative_url }}">Domů</a>
+          <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+          <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+          <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+          <a href="{{ '/sponzoring.html#kontakt' | relative_url }}">Kontakt</a>
+
+          <a
+            href="{{ '/en/about_me_en.html' | relative_url }}"
+            hreflang="en"
+            lang="en"
+            class="header_hover"
+          >
+            <img
+              src="{{ '/images/gb.svg' | relative_url }}"
+              alt="English"
+              width="19"
+              height="14"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="header_mobile">
+        <nav class="mobilni-menu">
+          <a href="{{ '/' | relative_url }}">
+            <img
+              src="{{ '/Logo_webu_white.svg' | relative_url }}"
+              alt="logo_webu"
+              height="40"
+              class="mobilni_logo"
+            />
+          </a>
+
+          <a
+            id="dark-toggle-mobile"
+            aria-label="Přepnout tmavý režim"
+            class="dark-toggle"
+            >🌙</a
+          >
+
+          <a
+            href="{{ '/en/about_me_en.html' | relative_url }}"
+            hreflang="en"
+            lang="en"
+            class="language_mobile"
+          >
+            <img
+              src="{{ '/images/gb.svg' | relative_url }}"
+              alt="English"
+              width="19"
+              height="14"
+            />
+          </a>
+
+          <input type="checkbox" id="toggle-menu" autocomplete="off" />
+          <label for="toggle-menu" class="menu-ikona">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <ul class="odkazy-menu">
             <li>
-              <a href="/en/sponzoring_en.html" hreflang="en" lang="en">
-                <img
-                  src="/images/gb.svg"
-                  alt="English"
-                  width="24"
-                  height="16"
-                />
-              </a>
+              <a href="{{ '/' | relative_url }}"
+                ><i class="fa-solid fa-house"></i> Domů</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/about_me.html' | relative_url }}"
+                ><i class="fa-solid fa-user"></i> O mně</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/achievements.html' | relative_url }}"
+                ><i class="fa-solid fa-trophy"></i> Úspěchy</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/blog/' | relative_url }}"
+                ><i class="fa-solid fa-pencil-alt"></i> Blog</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/sponzoring.html' | relative_url }}"
+                ><i class="fa-solid fa-hand-holding-dollar"></i> Sponzoring</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/Photo_gallery.html' | relative_url }}"
+                ><i class="fa-solid fa-camera"></i> Fotogalerie</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
+                ><i class="fa-solid fa-envelope"></i> Kontakt</a
+              >
             </li>
           </ul>
         </nav>
-        <input type="checkbox" id="toggle-menu" autocomplete="off" />
-        <label for="toggle-menu" class="menu-ikona">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-
-        <ul class="odkazy-menu">
-          <li>
-            <a href="/index.html"><i class="fa-solid fa-house"></i> Domů</a>
-          </li>
-          <li>
-            <a href="/about_me.html"><i class="fa-solid fa-user"></i> O mně</a>
-          </li>
-          <li>
-            <a href="/achievements.html"
-              ><i class="fa-solid fa-trophy"></i> Úspěchy</a
-            >
-          </li>
-          <li>
-            <a href="/blog/index.html"
-              ><i class="fa-solid fa-pencil-alt"></i> Blog</a
-            >
-          </li>
-          <li>
-            <a href="/sponzoring.html"
-              ><i class="fa-solid fa-hand-holding-dollar"></i> Sponzoring</a
-            >
-          </li>
-          <li>
-            <a href="/Photo_gallery.html"
-              ><i class="fa-solid fa-camera"></i> Fotogalerie</a
-            >
-          </li>
-          <li>
-            <a href="/sponzoring.html#kontakt"
-              ><i class="fa-solid fa-envelope"></i> Kontakt</a
-            >
-          </li>
-        </ul>
-      </nav>
+      </div>
     </header>
 
     <main>
-      <nav class="rozcestí">
-        <a href="#nabídka">Nabídka sponzoringu</a>
-        <a href="#sponzorství">Moji sponzoři</a>
-        <a href="#kontakt">Kontakt</a>
-      </nav>
-
-      <section class="úvod">
+      <section class="section sponzoring-hero-bg">
         <picture>
           <source
             srcset="/images/sponzoring/Bozner_Cup_2-sponzring.avif"
@@ -341,11 +237,11 @@
           <img
             src="/Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.jpg"
             alt="Momentka ze zápasu"
-            class="img"
-            height="1920"
-            width="1080"
+            class="sponzoring-hero-image"
           />
         </picture>
+
+        <div class="container sponzoring-hero">         
         <div class="úvod-text">
           <p>
             Staňte se mým sponzorem a&nbsp;podpořte mladého mezinárodního
@@ -354,7 +250,11 @@
           </p>
           <a href="#kontakt" class="úvod-kontakt">Kontaktujte mě</a>
         </div>
+        </div>       
       </section>
+
+      <div class="prostor"></div>
+      <!--
 
       <section class="nabídka" id="nabídka">
         <h2>Nabídka sponzoringu</h2>
@@ -593,89 +493,85 @@
       </section>
     </main>
 
+    -->
     <footer>
-      <div class="záhlaví">
-        <div class="text-footer">
-          <img
-            src="/Logo_webu_white.svg"
-            alt="logo_webu"
-            height="110"
-            width="110"
-          />
-          <span>
-            Jmenuji se Jakub Klokan a&nbsp;jsem vrcholový badmintonista
-            z&nbsp;České republiky. Účastním se tuzemských i&nbsp;mezinárodních
-            turnajů, odkud jsem si již přivezl nespočet medailových umístění.<br />
-            Zároveň jsem studentem Podkrušnohorského sportovního gymnázia
-            v&nbsp;Mostě.
-          </span>
-        </div>
-        <div class="oddělení"></div>
-        <nav class="odkazy">
-          <a href="/index.html">Domů</a>
-          <a href="/about_me.html">O mně</a>
-          <a href="/achievements.html">Úspěchy</a>
-          <a href="/blog/index.html">Blog</a>
-          <a href="/sponzoring.html">Sponzoring</a>
-          <a href="/Photo_gallery.html">Fotogalerie</a>
-          <a href="/sponzoring.html#kontakt">Kontakt</a>
-        </nav>
-        <div class="oddělení"></div>
-        <div class="kontakty">
-          <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+      <div class="container">
+        <div class="top-part-footer">
+          <div class="text-footer">
             <img
-              src="/images/homepage/instagram-white-simple.svg"
-              alt="logo Instagramu"
-              height="40"
-              width="40"
+              src="{{ '/Logo_webu_white.svg' | relative_url }}"
+              alt="logo_webu"
+              height="110"
+              width="110"
             />
-            <span>@Jakub.klokan</span>
-          </a>
-          <a href="https://m.facebook.com/klokanjakub/" target="_blank">
-            <img
-              src="/images/homepage/facebook-white-simple.svg"
-              alt="logo Facebooku"
-              height="40"
-              width="40"
-            />
-            <span>@Jakub Klokan</span>
-          </a>
-          <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
-            <img
-              src="/images/homepage/email-envelope-white-icon.svg"
-              alt="ikona telefonu"
-              height="40"
-              width="40"
-            />
-            <span>klokan.jakub08@gmail.com</span>
-          </a>
-          <div class="phone">
-            <img
-              src="/images/homepage/phone-white-simple.svg"
-              alt="ikona E-mailu"
-              height="40"
-              width="40"
-            />
-            <span>+420 608 021 109</span>
+            <span>
+              Jmenuji se&nbsp;Jakub Klokan a&nbsp;jsem&nbsp;vrcholový
+              badmintonista z&nbsp;České republiky. Účastním se&nbsp;tuzemských
+              i&nbsp;mezinárodních turnajů, odkud
+              jsem&nbsp;si&nbsp;již&nbsp;přivezl nespočet medailových
+              umístění.<br />
+              Zároveň jsem&nbsp;studentem Podkrušnohorského sportovního gymnázia
+              v&nbsp;Mostě.
+            </span>
+          </div>
+
+          <div class="oddělení"></div>
+
+          <nav class="footer-odkazy">
+            <a href="{{ '/index.html' | relative_url }}">Domů</a>
+            <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+            <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+            <a href="{{ '/blog/index.html' | relative_url }}">Blog</a>
+            <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+            <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+            <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
+              >Kontakt</a
+            >
+          </nav>
+
+          <div class="oddělení"></div>
+
+          <div class="kontakty">
+            <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+              <img
+                src="{{ '/images/homepage/instagram-white-simple.svg' | relative_url }}"
+                alt="logo Instagramu"
+              />
+              <span>@Jakub.klokan</span>
+            </a>
+            <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+              <img
+                src="{{ '/images/homepage/facebook-white-simple.svg' | relative_url }}"
+                alt="logo Facebooku"
+              />
+              <span>@Jakub Klokan</span>
+            </a>
+            <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
+              <img
+                src="{{ '/images/homepage/email-envelope-white-icon.svg' | relative_url }}"
+                alt="ikona telefonu"
+              />
+              <span>klokan.jakub08@gmail.com</span>
+            </a>
+            <div class="phone">
+              <img
+                src="{{ '/images/homepage/phone-white-simple.svg' | relative_url }}"
+                alt="ikona telefonu"
+              />
+              <span>+420 608 021 109</span>
+            </div>
           </div>
         </div>
+
+        <div class="oddělení_X"></div>
+
+        <p class="copyright">© 2026 Jakub Klokan</p>
+        <p class="copyright" id="copa_photo">
+          Fotografie použité na tomto webu:
+        </p>
+        <p class="copyright">© Super Stars Most</p>
+        <p class="copyright">© Badminton Plzeň</p>
       </div>
-
-      <div class="oddělení"></div>
-
-      <section id="blog-proklik">
-        <h3>Poslední články</h3>
-        <div class="blog-ctverce" id="blog-prehled-seznam"></div>
-        <a href="/blog/index.html" class="zobrazit-vse">Zobrazit vše</a>
-      </section>
-
-      <script src="/js/blog-footer.js"></script>
-
-      <div class="oddělení"></div>
-      <p class="copyright">© 2026 Jakub Klokan</p>
-      <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
-      <p class="copyright">© Super Stars Most</p>
-      <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
     </footer>
     <script src="/js/dark-mode.js"></script>
   </body>
