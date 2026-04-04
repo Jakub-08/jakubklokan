@@ -1,6 +1,6 @@
 ---
 layout: photogallery
-title: "Fotogalerie - 2024"
+title: "Fotogalerie"
 galleries:
   - year: Adria U17 International 2024
     link: "/Photo_gallery/Gallery_24/Adria_2024/Adria_2024.html"
@@ -32,7 +32,6 @@ galleries:
           type: "image/webp"
       imgSrc: "/Photo_gallery/Gallery_24/MČR_Družstev_U19/Družstva_U19.jpg"
       alt: "Momentka z turnaje"
-      class: "img-top"
   - year: MČR U17
     link: "/Photo_gallery/Gallery_24/MČR_U17/MČR_U17.html"
     picture:
@@ -43,18 +42,16 @@ galleries:
           type: "image/webp"
       imgSrc: "/Photo_gallery/Gallery_24/MČR_U17/MČR_U17_-_ceny.jpg"
       alt: "Momentka z turnaje"
-      class: "img-top"
   - year: Serbian U17 International
     link: "/Photo_gallery/Gallery_24/serbia_2024/Serbia_2024.html"
     picture:
       sources:
-        - src: ""
+        - src: "/Photo_gallery/Gallery_24/serbia_2024/Serbian_U17.avif"
           type: "image/avif"
-        - src: ""
+        - src: "/Photo_gallery/Gallery_24/serbia_2024/Serbian_U17.webp"
           type: "image/webp"
       imgSrc: "/Photo_gallery/Gallery_24/serbia_2024/Serbian_U17.jpeg"
       alt: "Momentka z turnaje"
-      class: "img-top"
   - year: Super Stars Camp 2024
     link: "/Photo_gallery/Gallery_24/Super_Stars_Camp_24/Super_Stars_Camp.html"
     picture:
