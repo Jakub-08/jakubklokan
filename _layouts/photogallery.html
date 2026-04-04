@@ -11,6 +11,14 @@
         <h1 class="photo-gallery-h1">
           {{ page.title | default: "Fotogalerie" }}
         </h1>
+        {% unless page.hideBackButton %}
+        <a
+          href="{{ '/photo_gallery_index.html' | relative_url }}"
+          class="button button--primary button--small gallery-button"
+        >
+          ← Zpět
+        </a>
+        {% endunless %}
         <div class="separate-line-gallery"></div>
       </div>
 
@@ -32,7 +40,7 @@
                 <img
                   src="{{ gallery.picture.imgSrc }}"
                   alt="{{ gallery.picture.alt | default: gallery.year }}"
-                  style="{{ objectStyle }}"
+                  class="{{ gallery.picture.class }}"
                   loading="lazy"
                 />
               </picture>
@@ -60,9 +68,8 @@
 
     {% include footer.html %}
 
-    <script src="/js/dark-mode.js"></script>
-    <script src="/js/menu-close.js" defer></script>
-    <script src="/js/posledni-blog.js"></script>
+    <script src="/assets/js/dark-mode.js"></script>
+    <script src="/assets/js/menu-close.js" defer></script>
     {% if page.scripts %} {% for script in page.scripts %}
     <script src="{{ script }}"></script>
     {% endfor %} {% endif %}

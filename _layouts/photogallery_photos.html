@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ site.language | default: 'cs' }}">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <main>
+      <div class="container section">
+        <h1 class="photo-gallery-h1">{{ page.title }}</h1>
+        {% unless page.hideBackButton %}
+        <a
+          href="{{ page.backLink | default: '/photo_gallery_index.html' | relative_url }}"
+          class="button button--primary button--small gallery-button"
+        >
+          ← Zpět
+        </a>
+        {% endunless %}
+        <div class="separate-line-gallery"></div>
+      </div>
+
+      <section class="section-gallery">
+        <div class="grid grid--3 container grid-photogallery">
+          {{ content }}
+        </div>
+      </section>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox">
+        <div class="arrow left" id="prev">←</div>
+        <img id="lightbox-img" src="" alt="" />
+        <div class="arrow right" id="next">→</div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+    <!-- Scripts -->
+    <script src="/assets/js/dark-mode.js"></script>
+    <script src="/assets/js/menu-close.js"></script>
+    <script src="/assets/js/gallery-lightbox.js"></script>
+
+    {% if page.scripts %} {% for script in page.scripts %}
+    <script src="{{ script }}"></script>
+    {% endfor %} {% endif %}
+  </body>
+</html>

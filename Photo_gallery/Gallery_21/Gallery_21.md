@@ -1,6 +1,6 @@
 ---
 layout: photogallery
-title: "Fotogalerie"
+title: "Fotogalerie - 2021"
 galleries:
   - year: Adria Youth International
     link: "../Gallery_21/Adria_U15/Adria_U15.html"

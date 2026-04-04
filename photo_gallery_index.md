@@ -1,6 +1,7 @@
 ---
 layout: photogallery
 title: "Fotogalerie"
+hideBackButton: true
 galleries:
   - year: 2025
     link: "/Photo_gallery/Gallery_25/Gallery_25.html"
