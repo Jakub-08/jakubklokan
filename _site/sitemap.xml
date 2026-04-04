@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/Photo_gallery/Gallery_21/Gallery_21.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Photo_gallery/Gallery_22/Gallery_22.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Photo_gallery/Gallery_23/Gallery_23.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Photo_gallery/Gallery_24/Gallery_24.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Photo_gallery/Gallery_25/Gallery_25.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/about_me.html</loc>
 </url>
 <url>
@@ -28,10 +43,6 @@
 <lastmod>2026-02-07T15:04:10+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Photo_gallery/Gallery_21/Gallery_21.html</loc>
-<lastmod>2026-02-07T15:04:06+01:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/Photo_gallery/Gallery_22/Cup/Cup.html</loc>
 <lastmod>2026-02-07T15:04:09+01:00</lastmod>
 </url>
@@ -52,10 +63,6 @@
 <lastmod>2026-02-07T15:04:09+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Photo_gallery/Gallery_22/Gallery_22.html</loc>
-<lastmod>2026-02-07T15:04:06+01:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/Photo_gallery/Gallery_22/M%C4%8CR_U15-Krumlov/M%C4%8CR_U15_-_Krumlov.html</loc>
 <lastmod>2026-02-07T15:04:09+01:00</lastmod>
 </url>
@@ -72,20 +79,12 @@
 <lastmod>2026-02-07T15:04:09+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Photo_gallery/Gallery_23/Gallery_23.html</loc>
-<lastmod>2026-02-07T15:04:07+01:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/Photo_gallery/Gallery_23/LS_2023/LS_2023.html</loc>
 <lastmod>2026-02-07T15:04:09+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/Photo_gallery/Gallery_24/Adria_2024/Adria_2024.html</loc>
 <lastmod>2026-02-07T15:04:10+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Photo_gallery/Gallery_24/Gallery_24.html</loc>
-<lastmod>2026-02-07T15:04:06+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/Photo_gallery/Gallery_24/Gymnasiade/Gymnasiade.html</loc>
@@ -114,10 +113,6 @@
 <url>
 <loc>http://localhost:4000/Photo_gallery/Gallery_25/GPA_U19/GPA_U19.html</loc>
 <lastmod>2026-02-07T15:04:09+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Photo_gallery/Gallery_25/Gallery_25.html</loc>
-<lastmod>2026-02-07T15:04:06+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/Photo_gallery/Gallery_25/M%C4%8CR_Dru%C5%BEstev/M%C4%8CR.html</loc>
