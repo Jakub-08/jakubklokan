@@ -23,7 +23,26 @@
 
       <section class="section-gallery">
         <div class="grid grid--3 container grid-photogallery">
-          {{ content }}
+          {% for img in content %} {% assign base = img | replace: '.jpg', '' |
+          replace: '.jpeg', '' | replace: '.png', '' %}
+          <div class="gallery-card photo">
+            <picture>
+              {% if site.static_files | map: "path" | where_exp: "file", "file
+              contains base and file contains '.avif'" %}
+              <source srcset="{{ base }}.avif" type="image/avif" />
+              {% endif %} {% if site.static_files | map: "path" | where_exp:
+              "file", "file contains base and file contains '.webp'" %}
+              <source srcset="{{ base }}.webp" type="image/webp" />
+              {% endif %}
+              <img
+                src="{{ img }}"
+                fetchpriority="high"
+                alt="Momentka z turnaje"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          {% endfor %}
         </div>
       </section>
 

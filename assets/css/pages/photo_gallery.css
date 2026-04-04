@@ -83,6 +83,15 @@
 .img-top {
   object-position: 50% 20%;
 }
+.img-bottom {
+  object-position: 50% 80%;
+}
+.img-left {
+  object-position: 20% 50%;
+}
+.img-right {
+  object-position: 80% 50%;
+}
 
 /* ---------------
 --- RESPONSIVE ---
