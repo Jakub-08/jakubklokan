@@ -1,6 +1,6 @@
 ---
 layout: photogallery
-title: "Fotogalerie"
+title: "Fotogalerie - 2022"
 galleries:
   - year: FALCO Cup
     link: "../Gallery_22/Cup/Cup.html"

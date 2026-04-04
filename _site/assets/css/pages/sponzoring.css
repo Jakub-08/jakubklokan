@@ -303,6 +303,10 @@
   align-self: center;
 }
 
+#kontakt {
+   scroll-margin-top: 80px;
+}
+
 @media (max-width: 768px) {
   .sponzoring-button-space {
     margin: var(--space-5) 0 0 var(--space-2);

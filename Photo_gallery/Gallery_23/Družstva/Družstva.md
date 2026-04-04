@@ -1,0 +1,21 @@
+---
+layout: photogallery_photos
+title: "II. Liga"
+backLink: "/Photo_gallery/Gallery_23/Gallery_23.html"
+---
+
+<div class="gallery-card photo">
+  <picture>
+    <source srcset="Družstva_Dosp._1.avif" type="image/avif" />
+    <source srcset="Družstva_Dosp._1.webp" type="image/webp" />
+    <img src="../Družstva/Družstva_Dosp._1.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <source srcset="Družstva_Dosp.avif" type="image/avif" />
+    <source srcset="Družstva_Dosp.webp" type="image/webp" />
+    <img src="../Družstva/Družstva_Dosp.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" class="img-top" />
+  </picture>
+</div>

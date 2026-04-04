@@ -24,14 +24,16 @@
       <section class="section-gallery">
         <div class="grid grid--3 container grid-photogallery">
           {% for img in content %} {% assign base = img | replace: '.jpg', '' |
-          replace: '.jpeg', '' | replace: '.png', '' %}
+          replace: '.jpeg', '' | replace: '.png', '' %} {% assign avif_files =
+          site.static_files | where_exp: "f", "f.path contains base and f.path
+          contains '.avif'" %} {% assign webp_files = site.static_files |
+          where_exp: "f", "f.path contains base and f.path contains '.webp'" %}
+
           <div class="gallery-card photo">
             <picture>
-              {% if site.static_files | map: "path" | where_exp: "file", "file
-              contains base and file contains '.avif'" %}
+              {% if avif_files.size > 0 %}
               <source srcset="{{ base }}.avif" type="image/avif" />
-              {% endif %} {% if site.static_files | map: "path" | where_exp:
-              "file", "file contains base and file contains '.webp'" %}
+              {% endif %} {% if webp_files.size > 0 %}
               <source srcset="{{ base }}.webp" type="image/webp" />
               {% endif %}
               <img

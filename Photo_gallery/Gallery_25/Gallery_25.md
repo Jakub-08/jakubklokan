@@ -1,6 +1,6 @@
 ---
 layout: photogallery
-title: "Fotogalerie"
+title: "Fotogalerie - 2025"
 galleries:
   - year: MČR Družstev U19
     link: "/Photo_gallery/Gallery_25/MČR_Družstev/MČR.html"
@@ -16,9 +16,9 @@ galleries:
     link: "/Photo_gallery/Gallery_25/GPA_U19/GPA_U19.html"
     picture:
       sources:
-        - src: "Images_25/GPA_U19_2025/GPA_U19_14.avif"
+        - src: ""
           type: "image/avif"
-        - src: "Images_25/GPA_U19_2025/GPA_U19_14.webp"
+        - src: ""
           type: "image/webp"
       imgSrc: "Images_25/GPA_U19_2025/GPA_U19_14.jpg"
       alt: "Momentka ze hry"

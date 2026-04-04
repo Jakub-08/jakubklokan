@@ -24,6 +24,10 @@ body {
   color: var(--color-text);
 }
 
+main {
+  min-height: 80vh;
+}
+
 /* =====================
    TYPOGRAPHY
 ===================== */

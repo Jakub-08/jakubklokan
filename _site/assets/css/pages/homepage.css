@@ -314,6 +314,7 @@
   font-size: var(--font-lg);
   font-weight: 580;
   height: 50px;
+  color: var(--color-text-dark);
 }
 
 /* RESPONZIVE */
