@@ -2,7 +2,7 @@
 layout: photogallery
 title: "Fotogalerie"
 galleries:
-  - year: 2025
+  - year: MČR Družstev U19
     link: "/Photo_gallery/Gallery_25/MČR_Družstev/MČR.html"
     picture:
       sources:
@@ -12,7 +12,7 @@ galleries:
           type: "image/webp"
       imgSrc: "Images_25/Družstva_U19/Družstva_U19_3.jpg"
       alt: "Týmová fotka"
-  - year: 2025
+  - year: GPA U19
     link: "/Photo_gallery/Gallery_25/GPA_U19/GPA_U19.html"
     picture:
       sources:
