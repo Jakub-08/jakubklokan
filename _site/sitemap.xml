@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/2026/02/22/druha-zlata-medaile-gpb.md.html</loc>
+<lastmod>2026-02-22T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/Photo_gallery/Gallery_24/Adria_2024/Adria_2024.html</loc>
 </url>
 <url>
@@ -477,7 +481,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/articals/article_89.html</loc>
-<lastmod>2026-04-05T16:36:01+02:00</lastmod>
+<lastmod>2026-04-05T17:45:23+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/articals/article_9.html</loc>

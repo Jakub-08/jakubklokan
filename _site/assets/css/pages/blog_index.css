@@ -18,13 +18,10 @@
 }
 
 /* POSTS */
-#seznam-clanku {
+.blog-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style: none;
-  padding: 0;
-  min-height: 500px;
 }
 
 #paginace {
@@ -65,6 +62,7 @@
   height: 100px;
   object-fit: cover;
   border-radius: 6px;
+  display: block;
 }
 
 .info {
@@ -139,14 +137,14 @@
   background-color: var(--color-background-card);
 }
 
-.filtr-btn.aktivni {
+.btn-filter-blog.aktivni {
   background-color: var(--color-primary-dark);
   color: white;
   transform: scale(0.98); /* lehký stlačený efekt */
   border-color: #111;
 }
 
-.filtr-btn:hover {
+.btn-filter-blog:hover {
   font-weight: 550;
 }
 
@@ -209,4 +207,10 @@
     width: 80vw;
     padding: 20px;
   }
+}
+
+.active-page {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
 }

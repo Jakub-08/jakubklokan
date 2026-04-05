@@ -1,5 +1,71 @@
 [
   {
+  "title": "Druhá zlatá medaile z GPB",
+  "filename": "article_89",
+  "date": "2026-02-22",
+  "image": "/blog/blog-images/article-89.png",
+  "description": "Získal jsem třetí zlatou medaili z národního turnaje...",
+  "tags": ["Národní turnaje", "2026"],
+
+  "content": [
+    {
+      "type": "heading",
+      "text": "Opět po letech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Získal jsem <strong>třetí zlatou medaili</strong> z národního turnaje. Turnaj úrovně Grand Prix B kategorie U19 se opět konal v Brně. Cíl byl jasný – <strong>alespoň jedno zlato</strong>. To se nakonec podařilo, navíc s dalšími úspěchy.<br />"
+    },
+
+    {
+      "type": "heading",
+      "text": "Zlato ze dvouhry"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zlato jsem vybojoval ve dvouhře. Úvodní kola jsem první den prošel hladce. V neděli mě čekalo semifinále proti Karlu Vahalíkovi, kde jsem potvrdil roli favorita, ale byl to nejtěžší zápas dvouhry na turnaji. Finále, zároveň <strong>odveta ze semifinále GPA U19</strong> před měsícem, jsem hrál proti Martinu Valáškovi. Na zápas jsem byl lépe připravený než minule a měl jsem i více sil. Odrazilo se to na výsledku – <strong>zvítězil jsem 21:9 a 21:8</strong>.<br />"
+    },
+
+    {
+      "type": "heading",
+      "text": "Odveta ve smíšené čtyřhře"
+    },
+    {
+      "type": "paragraph",
+      "text": "Smíšená čtyřhra byla největším překvapením. Zkouška přišla ve čtvrtfinále proti našim minulým přemožitelům T. Klapalovi a A. Kábrtové. Tentokrát jsme udrželi taktiku i kontrolu hry a <strong>zvítězili ve třech napínavých setech 21:18, 14:21 a 21:18</strong>. Po vyhraném semifinále jsme postoupili do finále, kde jsme byli v roli outsiderů. Soupeři byli ten den lepší, přesto jsme odehráli kvalitní zápas.<br />"
+    },
+
+    {
+      "type": "heading",
+      "text": "Těsně pod nejvyšším stupňem"
+    },
+    {
+      "type": "paragraph",
+      "text": "Třetí disciplínou byla čtyřhra s Danielem Čadou. První den jsme se <strong>bez větších problémů dostali do semifinále</strong>. Hladká výhra v něm potvrdila naši spolupráci a skutečný test přišel až ve finále proti J. Paulíkovi a M. Valáškovi. Zápas byl dlouhý a velmi napínavý, skóre se přelévalo na obě strany. Rozhodovalo se až v koncovce třetího setu. Bohužel se nám nepodařilo získat poslední důležité míče a <strong>prohráli jsme těsně 18:21, 21:16 a 19:21</strong>. Na náš první společný turnaj to byl <strong>velmi solidní výkon</strong>.<br />"
+    },
+
+    {
+      "type": "heading",
+      "text": "Hodiny na kurtu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Celkově jsem odehrál 14 zápasů během dvou dnů – <strong>12 vítězství a 2 porážky</strong>. Výsledky i výkon hodnotím velmi pozitivně a beru je jako povzbuzení do další práce.<br />"
+    },
+
+    {
+      "type": "image",
+      "src": "/blog/blog-images/article-89.png",
+      "caption": "Společně s Terkou Čechovou s cenami"
+    },
+
+    {
+      "type": "quote",
+      "text": "Děkuji týmu Super Stars Most za důkladnou přípravu a také mému sponzoru PEYTON Legal."
+    }
+  ]
+  },
+  {
     "title": "Druhá zlatá medaile z GPB",
     "filename": "/blog/articals/article_89.html",
     "date": "2026-02-22",

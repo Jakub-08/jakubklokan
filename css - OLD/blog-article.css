@@ -156,33 +156,11 @@ body {
     min-height: 2.5em; /* rezervace místa jen na mobilu */
   }
 }
-main img {
-  width: 50vw;
-  aspect-ratio: 1 / 1;
-  display: block;
-  margin: 0 auto;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+
 p {
   margin-bottom: 1.2em;
 }
-.tags {
-  margin: 40px 0 20px 50px;
-}
-.tag {
-  display: inline-block;
-  background: #2d85c0;
-  color: white;
-  padding: 5px 10px;
-  margin-right: 8px;
-  border-radius: 15px;
-  font-size: 0.85rem;
-  cursor: default;
-  user-select: none;
-}
+
 
 /*zápatí*/
 .záhlaví {

@@ -1,52 +1,100 @@
-fetch("/blog/data/posts.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error("Chyba při načítání JSON: " + response.status);
-    }
-    return response.json();
-  })
-  .then((data) => {
-    const currentPath = window.location.pathname;
+document.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const articleId = params.get("id"); // např. "article_89"
+  const contentDiv = document.getElementById("article-content");
+  const titleElem = document.querySelector(".blog-article-h1");
+  const dateElem = document.querySelector(".date");
+  const tagsDiv = document.querySelector(".tags");
+  const imgElem = document.querySelector(".img.article");
 
-    const articleData = data.find((article) => article.filename === currentPath);
+  if (!articleId) {
+    contentDiv.innerHTML = "<p>Článek nebyl nalezen.</p>";
+    return;
+  }
 
-    if (articleData) {
-      document.title = articleData.title;
+  fetch("/blog/data/posts.json")
+    .then((res) => {
+      if (!res.ok) throw new Error("Chyba při načítání JSON: " + res.status);
+      return res.json();
+    })
+    .then((data) => {
+      const article = data.find((a) => a.filename === articleId);
 
-      const dateElem = document.querySelector(".date");
+      if (!article) {
+        contentDiv.innerHTML = "<p>Článek nebyl nalezen.</p>";
+        return;
+      }
+
+      // Nastavení hlavních informací
+      if (titleElem) titleElem.textContent = article.title;
       if (dateElem) {
-        const formattedDate = new Date(articleData.date).toLocaleDateString("cs-CZ", {
+        const d = new Date(article.date);
+        dateElem.textContent = d.toLocaleDateString("cs-CZ", {
           day: "2-digit",
           month: "long",
           year: "numeric",
         });
-        dateElem.textContent = formattedDate;
       }
 
-      const heading = document.querySelector("h1");
-      if (heading) {
-        heading.textContent = articleData.title;
+      // Hlavní obrázek (pokud máš ještě nějaký větší nadpisový)
+      if (imgElem && article.image) {
+        imgElem.src = article.image;
+        imgElem.alt = article.title;
       }
 
-      const img = document.querySelector(".img");
-      if (img && articleData.image) {
-        img.src = articleData.image;
-        img.alt = articleData.title;
-        img.style.aspectRatio = "1 / 1";
-        img.style.width = "50vw";
-        img.style.height = "auto";
+      // Generování obsahu podle typu
+      contentDiv.innerHTML = "";
+      if (Array.isArray(article.content)) {
+        article.content.forEach((section) => {
+          switch (section.type) {
+            case "heading":
+              const h2 = document.createElement("h2");
+              h2.textContent = section.text;
+              contentDiv.appendChild(h2);
+              break;
+
+            case "paragraph":
+              const pElem = document.createElement("p");
+              pElem.innerHTML = section.text;
+              contentDiv.appendChild(pElem);
+              break;
+
+            case "image":
+              const figure = document.createElement("figure");
+              const img = document.createElement("img");
+              img.className = "img article";
+              img.src = section.src;
+              img.alt = section.caption || "";
+              const figcaption = document.createElement("figcaption");
+              figcaption.className = "img-caption";
+              figcaption.textContent = section.caption || "";
+              figure.appendChild(img);
+              figure.appendChild(figcaption);
+              contentDiv.appendChild(figure);
+              break;
+
+            case "quote":
+              const blockquote = document.createElement("blockquote");
+              blockquote.className = "article-qoute";
+              blockquote.textContent = section.text;
+              contentDiv.appendChild(blockquote);
+              break;
+
+            default:
+              console.warn("Neznámý typ obsahu:", section.type);
+          }
+        });
       }
 
-      const tagsDiv = document.querySelector(".tags");
-      if (tagsDiv && Array.isArray(articleData.tags)) {
-        tagsDiv.innerHTML = articleData.tags
+      // Generování tagů
+      if (tagsDiv && Array.isArray(article.tags)) {
+        tagsDiv.innerHTML = article.tags
           .map((tag) => `<span class="tag">${tag}</span>`)
           .join(" ");
       }
-    } else {
-      console.error("Nenašel se článek pro tuto stránku v JSON:", currentPath);
-    }
-  })
-  .catch((error) => {
-    console.error("Chyba při zpracování článku:", error);
-  });
+    })
+    .catch((err) => {
+      console.error("Chyba při načítání článku:", err);
+      contentDiv.innerHTML = "<p>Chyba při načítání článku.</p>";
+    });
+});

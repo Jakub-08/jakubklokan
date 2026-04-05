@@ -28,7 +28,7 @@ function vykresliClanky(data, page = 1) {
 
   strankaClanku.forEach(function (post) {
     let a = document.createElement("a");
-    a.href = post.filename;
+    a.href = `/blog/article.html?id=${post.filename}`;
     a.className = "clanek";
     a.style.textDecoration = "none"; 
 

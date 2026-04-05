@@ -1,11 +1,7 @@
 ---
 layout: default
-title: Jakub Klokan
-description: Vítejte na mém blogu
-
-scripts:
-  - /assets/js/dark-mode.js
-  - /blog/js/blog.js
+title: "Blog"
+description: "Sledujte mojí cestu pomocí pravidelných příspěvků."
 ---
 
 <div class="main-bg">
@@ -20,7 +16,25 @@ scripts:
     <div id="filtr-tagy"></div>
   </div>
 
-  <div id="seznam-clanku"></div>
-
-  <div id="paginace"></div>
+  <div id="seznam-clanku" class="blog-list container"></div>
+  <div id="paginace" class="container pagination"></div>
 </div>
+
+<!-- Data pro JS -->
+<div id="posts-data" style="display:none">
+[
+{% for post in site.posts %}
+{
+  "title": "{{ post.title | escape }}",
+  "url": "{{ post.url | relative_url }}",
+  "description": "{{ post.description | escape }}",
+  "date": "{{ post.date | date: '%-d. %-m. %Y' }}",
+  "image": "{{ post.image | relative_url }}",
+  "tags": [{% for tag in post.tags %}"{{ tag }}"{% if forloop.last == false %}, {% endif %}{% endfor %}]
+}
+{% if forloop.last == false %},{% endif %}
+{% endfor %}
+]
+</div>
+
+<script src="/assets/js/blog.js"></script>
