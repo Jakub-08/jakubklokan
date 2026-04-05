@@ -1,0 +1,14 @@
+---
+layout: post
+title: "YONEX Bozner Cup U17 International, velká dávka zkušeností"
+date: 2023-05-04
+image: /blog/images/article-23.avif
+description: "Můj první Evropský okruh skončil s velkou dávkou..."
+tags: [Mezinárodní turnaje, 2023]
+---
+
+Můj první Evropský okruh skončil s velkou dávkou zkušeností, když jsem
+v  prvním kole narazil na Němce Alexandra Phillippa Zhanga a bohužel
+prohrál 15:21 a 13:21.Ve smíšené čtyřhře společně s Emily Abela
+jsme také nedokázali přemoct pár z Bulharska T. Mitev a S. StaynovaDěkuju
+Super Stars Most a Emily Abela za získané zkušenosti 🙏

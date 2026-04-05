@@ -1,0 +1,40 @@
+---
+title: "Osmifinále na světové Gymnasiade Bahrain 2024"
+date: "2024-11-15"
+image: "/blog/images/article-66.avif"
+tags: ["Mezinárodní turnaje", "2024"]
+---
+
+Individuální část světové Gymnasiády v Bahrainu 🇧🇭.
+Po BWF kurzu a 
+kulturním dni, kde se každá zúčastněná země představovala ostatním,
+začla individuální část.
+První den byl zcela v klidu 😉, až na
+smíšenou čtyřhru ale to později. První kolo ve všech disciplínách bylo
+jasně otočené pro mě, ať již ve dvouhře s koncovým skóre 21:8 a 21:2
+nebo ve čtyřhře 21:1 a 21:6 💪.
+Smíšená čtyřhra už byla bojovnější,
+ale pořád na naší straně. Ke konci dne se hrálo také druhé kolo
+smíšených čtyřher, kde jsme poznali kvalitu Číny 🇨🇳, která zápas zcela
+utrhla pro ně.
+Den druhý byl rozhodující, začínalo se druhým kolem
+dvouhry, kde jsem nastoupil proti soupeři z Chile 🇨🇱 a podařilo se mi
+vyhrát.
+Třetí kolo se mi už nepovedlo vyhrát 😕 a prohrál jsem
+proti Yifan Jiu také z Číny 🇨🇳. Zápas to byl ale hezký s mnoha momenty,
+kdy jsem i sám sebe překvapil 😅. Opět to byla zcela jiná hra než znám
+odsud z Evropy. A  dostání se do osmifinále na světové soutěži takového
+rozměru se počítá😅.
+Druhé kolo čtyřhry proti Yu-Hsiang Chou
+s Kuan-Hsien Huang z  Čínské Tchaj-peje🇹🇼, znova nás přesvědčili,
+že badminton v Asii je na vyšší úrovni a poměrem 7:21 a 9:21 jsme
+prohráli 💥.
+Tím pro mě soutěže na Gymnasiádě 2024 v Bahrajnu
+skončili. Byli plné nových zkušeností, které bych jen tak jinde nezískal
+🏸🙏.
+Ještě jednou děkuji Super Stars Mose a Gymmost za poskytnutí
+a organizační zvládnutí takové krásné akce 🙏
+Také znova chci
+poděkovat mým sponzorům na tuto akci. Konkrétně jsou to firmy Ronin
+Advisors, GF Machinery, Výšky lanem, JILM s.r.o., Helen Doron a obec
+Raná... Děkuju 🙏🤝

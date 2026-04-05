@@ -253,6 +253,7 @@
 
 .main-bg {
   background-color: var(--color-main-bg);
+  min-height: 80vh;
 }
 
 /* KONTEJNER PRO GALERII */

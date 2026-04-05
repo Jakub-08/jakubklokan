@@ -93,6 +93,15 @@
 }
 
 /* FILTR */
+.no-posts {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin: 20px 0;
+  width: 100%;
+  max-width: none;
+}
+
 #filtr-panel {
   display: flex;
   flex-wrap: wrap;
@@ -156,6 +165,10 @@
 .filtr-btn.reset:hover {
   border: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
+}
+
+.btn-filter-blog {
+  margin-top: 0;
 }
 
 /* BUTTON NA STRÁNKY DOLE */

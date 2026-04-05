@@ -66,7 +66,10 @@
 
 /* TAGS */
 .tags {
-  margin: 40px 0 20px 50px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
 }
 
 .tag {
@@ -74,9 +77,9 @@
   background: var(--color-primary-dark);
   color: var(--color-text-dark);
   padding: 5px 10px;
-  margin-right: 8px;
+  margin: 5px 8px 0 auto;
   border-radius: 15px;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   cursor: default;
   user-select: none;
 }

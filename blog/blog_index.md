@@ -20,7 +20,7 @@ description: "Sledujte mojí cestu pomocí pravidelných příspěvků."
   <div id="paginace" class="container pagination"></div>
 </div>
 
-<!-- Data pro JS -->
+<!-- předáme data do JS -->
 <div id="posts-data" style="display:none">
 [
 {% for post in site.posts %}
@@ -28,7 +28,7 @@ description: "Sledujte mojí cestu pomocí pravidelných příspěvků."
   "title": "{{ post.title | escape }}",
   "url": "{{ post.url | relative_url }}",
   "description": "{{ post.description | escape }}",
-  "date": "{{ post.date | date: '%-d. %-m. %Y' }}",
+  "date": "{{ post.date | date: '%Y-%m-%d' }}",
   "image": "{{ post.image | relative_url }}",
   "tags": [{% for tag in post.tags %}"{{ tag }}"{% if forloop.last == false %}, {% endif %}{% endfor %}]
 }
@@ -37,4 +37,4 @@ description: "Sledujte mojí cestu pomocí pravidelných příspěvků."
 ]
 </div>
 
-<script src="/assets/js/blog.js"></script>
+<script src="/blog/blog.js"></script>

@@ -42,7 +42,7 @@ og_image: "/Logo_webu_preview.png"
 # --- Nastavení blogu ---
 blog:
   path: /blog
-  per_page: 5
+  per_page: 10
 
 # --- Pluginy (volitelné, ale doporučené) ---
 plugins:

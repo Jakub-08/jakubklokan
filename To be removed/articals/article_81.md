@@ -1,0 +1,25 @@
+---
+title: "VICTOR Croatian International 2025"
+date: "2025-09-28"
+image: "/blog/images/article-81.png"
+tags: ["Mezinárodní turnaje", "2025"]
+---
+
+První mezinárodní turnaj mezi dospělými VICTOR Croatian International
+2025 v chorvatském Samoboru 🇵🇾.
+Ve dvouhře jsem musel nastoupit do
+kvalifikace, kde první kolo bylo hratelné💪. V prvním setu se mi vůbec
+nedařilo – nereagoval jsem na míče a dělal zbytečné chyby😕. Ve druhém
+setu to už bylo lepší, ale stále jsem věděl, že mám na víc. Bohužel jsem
+tak vypadl už v prvním kole kvalifikace.
+Ve smíšené čtyřhře s 
+Emily Abelou 🇲🇹 jsme už byli v hlavní soutěži, dokonce v osmifinále💪.
+Los nám bohužel nepřál, protože jsme narazili na japonské hráče, kteří
+se dostali až do finále. Přesto byla zkušenost velká a cenná🙏.
+Jsem
+rád, že jsem mohl hrát mezinárodní turnaj mezi dospělými. Herní styl je
+velmi odlišný od juniorských kategorií – rychlost a intenzita zápasů je
+na mnohem vyšší úrovni. Zároveň mě to hodně namotivovalo – chci se mezi
+ně dostat a představa toho mě opravdu baví🏸.
+Děkuju Super Stars
+Most a  Verče Dobiášové za možnost a organizaci.🙏

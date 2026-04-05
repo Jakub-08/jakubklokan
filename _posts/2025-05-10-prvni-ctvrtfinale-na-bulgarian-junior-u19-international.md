@@ -1,0 +1,25 @@
+---
+layout: post
+title: "První čtvrtfinále na Bulgarian Junior U19 International"
+date: 2025-05-10
+image: /blog/images/article-78.avif
+description: "První čtvrtfinále na okruhovém turnaji v kategorii U19..."
+tags: [Mezinárodní turnaje, 2025]
+---
+
+První čtvrtfinále na okruhovém turnaji v kategorii U19 💪. Konkrétně na
+turnaji Bulgarian Junior U19 International 🇧🇬, který probýhal v 
+bulharském Svilengradu, město na hraních s Tureckem 🇹🇷 a Řeckem 🇬🇷.Ve
+čtyřhře jsme měli první kolo volné, tudíž jsme nastoupili až do
+osmifinále. Jenž jsme v klidu vyhráli a postoupili do naše prvního
+čtvrtfinále na této úrovni 💥.Los nám moc "nepřál", protože jsme
+narazili na nasazené jedničky z Čínské Tchaj-peje, zápas to byl ale
+skvělý💪. Mnoho jsme se od nich naučili.Ale bohužel naše výkonnost
+na výhru nestačila a skončili jsme ve čtvrtfinále 😕.Ve dvouhře
+jsem skončil již v druhém kole, když jsem v prvím kole hladce vyhrál 💪.
+A ve druhém kole jsem sehrál tři sety, které jsem nedokázal vyhrát
+😕.Příště by ta medaile mohla padnout, po letní přípravě a s
+trochou štěstí to tam padne 🏆.Děkuji týmu Super Stars Most, kvůli
+kterému vůbec můžeme odletět na zahraniční turnaje 🙏A také bych
+chtěl poděkovat sponzoru firmě Brickhouse, která mi finančně pomohla s
+turnajem 🙏

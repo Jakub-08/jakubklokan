@@ -1,0 +1,18 @@
+---
+title: "Únor 2023"
+date: "2023-02-28"
+image: "/blog/images/article-12.avif"
+tags: ["Ohlédnutí", "2023"]
+---
+
+Únor 2023 byl stejně jak minulý měsíc ve znamení tréninků 🏸, ale i tak
+jsem odehrál pár turnajů.
+Například Grand Prix D v Praze, kde jsem
+po 14 hodinách zápasů dokázal vyhrát můj první turnaj na dospělé scéně
+🥇.
+
+        Také se konalo ocenění nejlepších hráčů klubu Super Stars Most, kde jsem
+        získal několik ocenění 🏆.
+
+Děkuju Super Stars Most za další měsíc
+tvrdé práce 🙏, další kus je před námi 💪

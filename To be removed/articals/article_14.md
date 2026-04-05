@@ -1,0 +1,11 @@
+---
+title: "18,5 hodiny dřiny aneb jarní soustředění"
+date: "2023-03-05"
+image: "/blog/images/article-14.avif"
+tags: ["Soustředění", "2023"]
+---
+
+Konec jarního soustředka 😔, uteklo to nějak rychle.
+Celkově 18,5
+hodin tréninků, to je skoro ⅙ veškerého času 🤯, co byl za posledních 5
+dní, tedy co bylo soustředko.

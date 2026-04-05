@@ -17,22 +17,23 @@
 
         <h1 class="blog-article-h1">{{ page.title }}</h1>
         <div class="separate-line article"></div>
-        <div class="date">{{ page.date | date: "%-d. %B %Y" }}</div>
+        <div class="date">
+          {% assign months =
+          "ledna,února,března,dubna,května,června,července,srpna,září,října,listopadu,prosince"
+          | split: "," %} {% assign month_index = page.date | date: "%-m" |
+          minus: 1 %} {% assign month_name = months[month_index] %} {{ page.date
+          | date: "%-d." }} {{ month_name }} {{ page.date | date: "%Y" }}
+        </div>
 
         <div class="text">{{ content }}</div>
 
         {% if page.image %}
-        <figure>
-          <img
-            class="img article"
-            src="{{ page.image }}"
-            alt="{{ page.title }}"
-            class="img article-image"
-          />
-          <figcaption class="img-caption">
-            Společně s Terkou Čechovou s cenami
-          </figcaption>
-        </figure>
+        <img
+          class="img article"
+          src="{{ page.image }}"
+          alt="{{ page.title }}"
+          class="img article-image"
+        />
         {% endif %} {% if page.tags %}
         <div class="tags">
           {% for tag in page.tags %}

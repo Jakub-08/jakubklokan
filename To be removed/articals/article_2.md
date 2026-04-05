@@ -1,0 +1,24 @@
+---
+title: "Sezóna 2022"
+date: "2023-02-24"
+image: "/blog/images/article-2.avif"
+tags: ["2022", "Ohlédnutí"]
+---
+
+Sezóna 2022 byla určitě moje prozatím nejúspěšnější sezónou mé
+kariéry🏆. Bylo hodně momentů radosti, neskutečné množství úspěchů např.
+stříbro z Estonska, tři medaile z MČR a další a další úspěchy😃🏸, ale i
+neskutečné množství momentů, kdy jsem se musel překonat, vydat ze sebe
+to poslední co mám, zůstat na dobrý vlně a dost ne úplně jednoduchých
+věcí😮‍💨.
+Bohužel ale hodně lidí vidí jenom úspěchy, ale ty stovky
+hodin dřiny, ne jenom trénink, ale celý životní styl, co to chce
+obětovat. To už jen tak někdo nevidí.
+A to je to, co dělá vrcholový
+sport tak těžkým💪, protože kdyby všechno bylo snadné, tak to mají
+všichni a nebyl by to vůbec úspěch.
+Velké díky patří mým trenérům
+🙏, rodině 🙏, kamarádům 🙏 a všem, kdo mě podporoval🙏. Děkuji, budeme
+makat dál a ještě tvrději.
+Sezóna 2023 bude ještě úspěšnější,
+ale zároveň i těžší, ale tak to mám rád 🧡🏸
