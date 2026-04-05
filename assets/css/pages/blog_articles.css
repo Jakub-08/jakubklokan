@@ -1,0 +1,30 @@
+.blog-article-h1 {
+  color: var(--color-text-dark);
+  text-align: center;
+  margin: 0px auto 10px;
+}
+
+.date {
+  color: #5f5f5f;
+  font-size: var(--font-sm);
+  margin-bottom: var(--space-4);
+  text-align: center;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: var(--space-5);
+  background-color: var(--color-main-bg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius);
+  color: var(--color-text-dark);
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.text p {
+  margin-bottom: 1.2em;
+}

@@ -43,7 +43,7 @@ function vykresliClanky(data, page = 1) {
     let info = document.createElement("div");
     info.className = "info";
 
-    let h2 = document.createElement("h2");
+    let h2 = document.createElement("h3");
     h2.textContent = post.title;
 
     let popis = document.createElement("p");
@@ -65,11 +65,9 @@ function vykresliClanky(data, page = 1) {
 
   const ulozenyScroll = sessionStorage.getItem("scrollY");
   if (ulozenyScroll) {
-    window.scrollTo({ top: parseInt(ulozenyScroll), behavior: "auto" });
-    sessionStorage.removeItem("scrollY");
-  } else {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
+  window.scrollTo({ top: parseInt(ulozenyScroll), behavior: "auto" });
+  sessionStorage.removeItem("scrollY");
+}
 
   vykresliPaginaci(data.length, page);
 }
@@ -87,11 +85,19 @@ function vykresliPaginaci(pocetClanku, aktivniStranka) {
     if (i === aktivniStranka) btn.classList.add("aktivni");
 
     btn.addEventListener("click", function () {
-      currentPage = i;
-      let filtrovaneClanky = getAktualniFilter();
-      vykresliClanky(filtrovaneClanky, currentPage);
-      ulozStav();
-    });
+  currentPage = i;
+  let filtrovaneClanky = getAktualniFilter();
+  vykresliClanky(filtrovaneClanky, currentPage);
+  ulozStav();
+
+  const seznam = document.getElementById("seznam-clanku");
+  if (seznam) {
+    // scroll na seznam
+    seznam.scrollIntoView({ behavior: "smooth", block: "start" });
+    // jemný offset nahoru, např. 20px
+    window.scrollBy(0, -200);
+  }
+});
 
     paginace.appendChild(btn);
   }
@@ -113,22 +119,29 @@ function generujTagy(data) {
   serazeneTagy.forEach(tag => {
     let btn = document.createElement("button");
     btn.textContent = tag;
-    btn.className = "filtr-btn";
+    btn.className = "filtr-btn button button--secondary button--small";
 
     btn.addEventListener("click", function () {
-      if (aktivniTagy.includes(tag)) {
-        aktivniTagy = aktivniTagy.filter(t => t !== tag);
-        btn.classList.remove("aktivni");
-      } else {
-        aktivniTagy.push(tag);
-        btn.classList.add("aktivni");
-      }
+    // uložíme scroll před filtrováním
+    const scrollY = window.scrollY || window.pageYOffset;
 
-      currentPage = 1;
-      const filtrovane = getAktualniFilter();
-      vykresliClanky(filtrovane, currentPage);
-      ulozStav();
-      window.scrollTo({ top: 0, behavior: "smooth" }); // ← skok nahoru po kliknutí na tag
+    if (aktivniTagy.includes(tag)) {
+     aktivniTagy = aktivniTagy.filter(t => t !== tag);
+      btn.classList.remove("aktivni");
+    } else {
+      aktivniTagy.push(tag);
+     btn.classList.add("aktivni");
+    }
+
+    currentPage = 1;
+    const filtrovane = getAktualniFilter();
+  
+    vykresliClanky(filtrovane, currentPage);
+
+    // po vykreslení obnovíme scroll
+    window.scrollTo({ top: scrollY, behavior: "auto" });
+
+    ulozStav();
     });
 
     filtrTagy.appendChild(btn);
@@ -136,7 +149,7 @@ function generujTagy(data) {
 
   let reset = document.createElement("button");
   reset.textContent = "Zobrazit vše";
-  reset.className = "filtr-btn reset";
+  reset.className = "filtr-btn reset button button--primary button--small";
   reset.addEventListener("click", function () {
     aktivniTagy = [];
     document.querySelectorAll(".filtr-btn").forEach(b => b.classList.remove("aktivni"));
@@ -167,7 +180,7 @@ function getAktualniFilter() {
   return filtrovane;
 }
 
-fetch("data/posts.json")
+fetch("/blog/data/posts.json")
   .then(response => response.json())
   .then(function (data) {
     data.sort((a, b) => new Date(b.date) - new Date(a.date));

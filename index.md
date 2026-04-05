@@ -74,7 +74,7 @@ scripts:
     <h2>Poslední z blogu</h2>
     <div class="blog-articles" id="blog-prehled-seznam-homepage"></div>
     <div class="button-mobile-center">
-      <a href="/blog/index.html" class="button button--ghost button--small"
+      <a href="/blog/blog_index.html" class="button button--ghost button--small"
         >Zobrazit vše
       </a>
     </div>

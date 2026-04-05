@@ -29,7 +29,7 @@
 
 #paginace {
   min-height: 40px;
-  margin: 20px 0 12px;
+  padding: var(--space-4) 0;
   text-align: center;
 }
 
@@ -52,6 +52,7 @@
 
 #seznam-clanku a {
   height: 120px;
+  max-width: 1000px;
 }
 
 .clanek:hover {
@@ -60,8 +61,8 @@
 }
 
 .clanek img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 6px;
 }
@@ -71,13 +72,7 @@
   flex-direction: column;
   justify-content: center;
   width: calc(100% - 225px);
-}
-
-.info h2,
-p {
-  text-align: left;
-  margin-bottom: 15px;
-  margin-top: 0px;
+  gap: var(--space-2);
 }
 
 .info p {
@@ -122,11 +117,10 @@ p {
     border-color 0.3s,
     box-shadow 0.3s;
   box-sizing: border-box;
-  margin-bottom: auto;
 }
 
 #vyhledavac:focus {
-  border-color: #007bff;
+  border-color: var(--color-primary-dark);
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
 
@@ -140,18 +134,16 @@ p {
 }
 
 .filtr-btn {
-  margin: 0.3em;
-  padding: 0.4em 1em;
-  background-color: #eee;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  letter-spacing: 1px;
+  margin: var(--space-1);
+  border-width: 3px;
+  background-color: var(--color-background-card);
 }
 
 .filtr-btn.aktivni {
   background-color: var(--color-primary-dark);
   color: white;
+  transform: scale(0.98); /* lehký stlačený efekt */
+  border-color: #111;
 }
 
 .filtr-btn:hover {
@@ -160,20 +152,18 @@ p {
 
 .filtr-btn.reset {
   background-color: var(--color-bg);
-  border: #111 1px ;
-  
+  border: #111 1px;
 }
 
 .filtr-btn.reset:hover {
-    border: var(--color-primary-dark);
-    border-color: var(--color-primary-dark);
-    
+  border: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
 }
 
 /* BUTTON NA STRÁNKY DOLE */
 .stranka-btn {
   background-color: #eee;
-  border: 1px solid #ccc;
+  border: 1.5px solid #ccc;
   color: #333;
   padding: 6px 12px;
   margin: 0 4px;
@@ -188,9 +178,9 @@ p {
 }
 
 .stranka-btn.aktivni {
-  background-color: #007bff;
+  background-color: var(--color-primary-dark);
   color: white;
-  border-color: #0056b3;
+  border-color: black;
   font-weight: bold;
   cursor: default;
 }

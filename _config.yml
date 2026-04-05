@@ -15,7 +15,7 @@ menu:
   - name: Úspěchy
     link: /achievements.html
   - name: Blog
-    link: /blog/index.html
+    link: /blog/blog_index.html
   - name: Sponzoring
     link: /sponzoring.html
   - name: Fotogalerie
