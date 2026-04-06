@@ -1,0 +1,396 @@
+/* --------------
+---- BUTTONS ----
+---------------*/
+
+.button {
+  display: inline-block;
+  padding: var(--space-3) var(--space-5);
+  font-size: var(--font-md);
+  font-weight: 700;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+
+  transition: all var(--transition-fast);
+}
+
+/* PRIMARY BUTTON */
+
+.button--primary {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-primary-dark)
+  );
+  color: var(--color-text-dark);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.button--primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+.button--primary:active {
+  transform: translateY(-1px);
+}
+
+/* SECONDARY BUTTON */
+
+.button--secondary {
+  background: var(--color-secondary);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.button--secondary:hover {
+  background: #2a2a2a;
+}
+
+/* GHOST BUTTON */
+
+.button--ghost {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.button--ghost:hover {
+  background: rgba(255, 203, 5, 0.1);
+}
+
+/* OTHER */
+
+.button:disabled,
+.button--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+/* SIZE */
+
+.button--small {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--font-sm);
+}
+
+.button--large {
+  padding: var(--space-4) var(--space-6);
+  font-size: var(--font-lg);
+}
+
+@media (max-width: 768px) {
+  .button-mobile-center {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* ---------------
+----- LAYOUT -----
+----------------*/
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-5);
+}
+
+.container--narrow {
+  max-width: var(--max-width-narrow);
+}
+
+.section {
+  padding: var(--space-5) 0;
+}
+
+/* -------------
+----- CARD -----
+--------------*/
+
+/* CARDS */
+.card {
+  background: var(--color-background-card);
+  border-radius: var(--border-radius-card);
+  padding: var(--space-5);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card__image {
+  width: 100%;
+  border-radius: var(--border-radius);
+  margin-bottom: var(--space-4);
+}
+
+.card__title {
+  margin-bottom: var(--space-2);
+}
+
+.card__text {
+  opacity: 0.8;
+}
+
+/* BLOG CARDS */
+.card--blog {
+  padding: 0;
+  overflow: hidden;
+}
+
+.card--blog .card__content {
+  padding: var(--space-5);
+}
+
+/* VALUE CARDS */
+.card--value {
+  text-align: center;
+  padding: var(--space-6) var(--space-4);
+}
+
+.card--value .card__image {
+  width: 60px;
+  margin: 0 auto var(--space-4);
+}
+
+/* LINK CARDS */
+.card--link {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card--link:hover {
+  background: #2a2a2a;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .card--value {
+    width: 80%;
+  }
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  gap: var(--space-7);
+  margin: 0 auto;
+}
+
+.grid--4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 768px) {
+  .grid--4,
+  .grid--3,
+  .grid--2 {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .grid {
+    gap: var(--space-5);
+  }
+
+  .grid-mobile-switch {
+    display: flex;
+    flex-direction: column-reverse; /* obrátí pořadí prvků vertikálně */
+    gap: 30px; /* mezery mezi prvky */
+  }
+}
+
+/* -------------
+----- FONT -----
+--------------*/
+
+.text-shadow {
+  text-shadow: #1c1c1c 0 0 10px;
+}
+
+/* --------------
+----- STRIP -----
+---------------*/
+.container-text {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-5);
+  margin: auto 0;
+  color: var(--color-text-dark);
+}
+
+.strip {
+  background-color: var(--color-bg);
+  height: fit-content;
+  min-height: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.separate-line {
+  height: 1.8px; /* tloušťka linky */
+  background-color: var(--color-primary-dark); /* světle šedá, decentní */
+  margin: var(--space-3) 0 var(--space-4) var(--space-4); /* mezera nad a pod linkou */
+  width: var(--space-8);
+  border-radius: 0.9px;
+}
+
+.strip-contain {
+  gap: var(--space-5);
+  grid-template-columns: 1fr 500px;
+}
+
+.main-bg {
+  background-color: var(--color-main-bg);
+  min-height: 80vh;
+}
+
+/* KONTEJNER PRO GALERII */
+.strip-image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* aby nic nepřesahovalo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+}
+
+/* OBRÁZKY */
+.strip-image-container .strip-image {
+  height: 100%; /* vezme výšku kontejneru */
+  width: auto; /* zachová proporce */
+  max-width: 500px;
+  object-fit: cover; /* vyplní výšku bez deformace */
+}
+
+/* Jen pro obrázek, který chceme zobrazit celý */
+.strip-image.full {
+  max-height: 500px; /* nepřesáhne výšku kontejneru */
+  width: auto; /* zachová proporce */
+  object-fit: contain; /* celý obrázek se zobrazí bez ořezu */
+}
+
+/* ODKAZY V .container-text */
+.container-text a {
+  color: var(--color-primary-dark); /* hlavní barva odkazů */
+  transition: color var(--transition-fast);
+}
+
+.container-text a:hover {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  /* STRIP SE SEZÓNNĚ PŘIZPŮSOBÍ VÝŠCE OBSAHU */
+  .strip {
+    height: fit-content;
+  }
+
+  /* GRID NA MOBILU JEDEN SLOUPEC */
+  .strip-contain {
+    grid-template-columns: 1fr;
+  }
+
+  /* Přesun hlavičky pokud potřebuješ */
+  .mobile-header-move {
+    margin-top: var(--space-8);
+  }
+
+  /* Zaoblení obrázků */
+  .strip-image {
+    border-radius: var(--border-radius);
+  }
+
+  /* KONTEJNER GALERIE */
+  .strip-image-container {
+    display: flex; /* flex, aby flex-direction fungovalo */
+    flex-direction: column; /* obrázky pod sebou */
+    align-items: center; /* centrování obrázků */
+    gap: var(--space-4); /* mezera mezi obrázky */
+    padding-bottom: var(--space-4);
+    height: fit-content; /* kontejner přizpůsobí výšku obsahu */
+    overflow: visible; /* obrázky se neřežou */
+  }
+
+  /* Ostatní obrázky - zmenšené, ořezané, zachovávají proporce */
+  .strip-image-container .strip-image:not(.full) {
+    max-width: 450px;
+    width: 100%;
+    height: auto; /* zachovají proporce */
+    max-height: 300px; /* maximální výška */
+    object-fit: cover; /* ořezání přebytečného obsahu */
+    object-position: top; /* ořezáváme shora */
+    transition: all 0.3s ease;
+  }
+
+  /* Full obrázek - celý viditelný, nepřesáhne obrazovku */
+  .strip-image.full {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+    object-position: center;
+    transition: all 0.3s ease;
+  }
+
+  /* Strip přizpůsobí výšku obsahu */
+  .strip {
+    padding-top: var(--space-4); /* zmenší horní padding */
+    padding-bottom: var(--space-4); /* zmenší spodní padding */
+  }
+
+  /* Obrázek v kontejneru */
+  .strip-image-container {
+    min-height: 0; /* odstraní pevnou výšku */
+  }
+
+  /* Samotný obrázek */
+  .strip-image {
+    height: auto; /* nechá výšku podle obsahu */
+    max-height: 70vh; /* nepřesáhne 70% viewportu */
+    width: 100%;
+    object-fit: contain; /* celý obrázek viditelný */
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .strip-contain {
+    grid-template-columns: 1fr 350px;
+  }
+  .strip {
+    height: fit-content;
+  }
+  .strip-image-container {
+    height: 100%;
+  }
+  .container-text {
+    padding: var(--space-6) var(--space-2);
+  }
+}

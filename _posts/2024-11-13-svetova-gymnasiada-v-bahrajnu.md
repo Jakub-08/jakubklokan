@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Světová Gymnasiáda v Bahrajnu"
+date: 2024-11-13
+image: /blog/images/article-64.avif
+description: "Soutěž, na kterou jsem se opravdu dlouho těšil,..."
+tags: [Mezinárodní turnaje, 2024]
+---
+
+Soutěž, na kterou jsem se opravdu dlouho těšil, světová Gymnasiáda 2024 
+v Bahrajnu🇧🇭. Přes 5 000 sportovců z celkově 71 zemí světa 🤯Začínalo
+se soutěží družstev, která se hrála systémem štafety. To znamená, že
+zápas končí dosáhnutím 15 bodů, kdy další zápas se začíná od konečného
+skóre z předchozího zápasu, cílem je jako první dosáhnout 75 bodů (= 5 
+zápasů v jednom utkání).Ve složení Tereza Čechová, Zhang Zhang
+Wen, Marek Kašša a já 💪První utkání proti Brazílii 🇧🇷, skončilo
+pro nás porážkou. Velký problém nám dělalo skamarádění se s obří halou
+😅Druhé proti Bahrain A 🇧🇭 už bylo o dost lepší a vyhráli jsme
+🎉Třetí a  poslední utkání ve skupině proti UAE 🇦🇪, kteří to
+dotáhli až do semifinále🥉, pro nás bylo nad naše síly 😕Sice jsme
+ze skupiny nepostoupili, ale získali jsme mnoho zkušeností a zážitků z
+této soutěže 🙏 A navíc nás ještě čekala individuální část gymnasiady
+🔜Mockrát děkuji Super Stars Most a Podkrušnohorskému Gymnáziu
+Most za podporu a možnost vyjet na takovou obrovskou akci 🙏Také
+děkuju mým sponzorům 🤝, bez kterých bych těžce tuto akci finančně
+zvládl. Konkrétně je to firma Ronin Advisors, GF Machinery, Výšky lanem,
+JILM s.r.o., Helen Doron a  obec Raná 🙏

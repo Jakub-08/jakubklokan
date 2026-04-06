@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://jakubklokan.cz/Logo_webu_white.svg"
+      type="image/svg+xml"
+    />
+    <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem("dark-mode");
+          if (
+            saved === "true" ||
+            (!saved &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches)
+          ) {
+            document.documentElement.classList.add("dark-mode");
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-NCZN4K2E8L");
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sledujte mojí cestu pomocí pravidelných příspěvků."
+    />
+    <meta
+      name="keyword"
+      content="badminton, úspěchy, medaile, turnaj, zahraničí, já, Jakub Klokan, články, blog"
+    />
+    <meta name="author" content="Jakub Klokan" />
+    <meta property="og:title" content="Jakub Klokan" />
+    <meta
+      property="og:description"
+      content="Sledujte mojí cestu pomocí pravidelných příspěvků."
+    />
+    <meta
+      property="og:image"
+      content="https://jakubklokan.cz/Logo_webu_preview.png"
+    />
+    <meta property="og:url" content="https://www.jakubklokan.cz/blog/" />
+    <meta property="og:type" content="website" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jakub Klokan",
+        "url": "https://jakubklokan.cz",
+        "logo": "https://jakubklokan.cz/Logo_webu_preview.png"
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <title>Blog</title>
+
+    <link rel="stylesheet" href="/assets/css/variables.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/components.css" />
+    <link rel="stylesheet" href="/assets/css/layout.css" />
+    <link rel="stylesheet" href="/assets/css/pages/blog_index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_pc">
+        <a href="{{ '/' | relative_url }}" class="logo_webu">
+          <img
+            src="{{ '/Logo_webu_white.svg' | relative_url }}"
+            alt="logo webu"
+            width="60"
+            height="60"
+          />
+        </a>
+
+        <div class="header_middle">
+          <a
+            id="dark-mode-toggle"
+            aria-label="Přepnout tmavý režim"
+            class="dark-toggle"
+            >🌙</a
+          >
+
+          <a href="{{ '/' | relative_url }}">Domů</a>
+          <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+          <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+          <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+          <a href="{{ '/sponzoring.html#kontakt' | relative_url }}">Kontakt</a>
+
+          <a
+            href="{{ '/en/about_me_en.html' | relative_url }}"
+            hreflang="en"
+            lang="en"
+            class="header_hover"
+          >
+            <img
+              src="{{ '/images/gb.svg' | relative_url }}"
+              alt="English"
+              width="19"
+              height="14"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="header_mobile">
+        <nav class="mobilni-menu">
+          <a href="{{ '/' | relative_url }}">
+            <img
+              src="{{ '/Logo_webu_white.svg' | relative_url }}"
+              alt="logo_webu"
+              height="40"
+              class="mobilni_logo"
+            />
+          </a>
+
+          <a
+            id="dark-toggle-mobile"
+            aria-label="Přepnout tmavý režim"
+            class="dark-toggle"
+            >🌙</a
+          >
+
+          <a
+            href="{{ '/en/about_me_en.html' | relative_url }}"
+            hreflang="en"
+            lang="en"
+            class="language_mobile"
+          >
+            <img
+              src="{{ '/images/gb.svg' | relative_url }}"
+              alt="English"
+              width="19"
+              height="14"
+            />
+          </a>
+
+          <input type="checkbox" id="toggle-menu" autocomplete="off" />
+          <label for="toggle-menu" class="menu-ikona">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <ul class="odkazy-menu">
+            <li>
+              <a href="{{ '/' | relative_url }}"
+                ><i class="fa-solid fa-house"></i> Domů</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/about_me.html' | relative_url }}"
+                ><i class="fa-solid fa-user"></i> O mně</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/achievements.html' | relative_url }}"
+                ><i class="fa-solid fa-trophy"></i> Úspěchy</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/blog/' | relative_url }}"
+                ><i class="fa-solid fa-pencil-alt"></i> Blog</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/sponzoring.html' | relative_url }}"
+                ><i class="fa-solid fa-hand-holding-dollar"></i> Sponzoring</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/Photo_gallery.html' | relative_url }}"
+                ><i class="fa-solid fa-camera"></i> Fotogalerie</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
+                ><i class="fa-solid fa-envelope"></i> Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-bg">
+        <h1 class="blog-intro-1">Vítejte na mém blogu</h1>
+        <div class="separate-line separate-line-blog"></div>
+        <h2 class="blog-intro-2">
+          Pravidelně zde přidávám nejnovější články z turnajů a akcí.
+        </h2>
+
+        <div id="filtr-panel" class="container">
+          <input
+            type="text"
+            id="vyhledavac"
+            placeholder="Hledat podle názvu…"
+          />
+          <div id="filtr-tagy"></div>
+        </div>
+
+        <div id="seznam-clanku"></div>
+
+        <div id="paginace"></div>
+      </div>
+    </main>
+
+    <script src="js/blog.js"></script>
+
+    <footer>
+      <div class="container">
+        <div class="top-part-footer">
+          <div class="text-footer">
+            <img
+              src="{{ '/Logo_webu_white.svg' | relative_url }}"
+              alt="logo_webu"
+              height="110"
+              width="110"
+            />
+            <span>
+              Jmenuji se&nbsp;Jakub Klokan a&nbsp;jsem&nbsp;vrcholový
+              badmintonista z&nbsp;České republiky. Účastním se&nbsp;tuzemských
+              i&nbsp;mezinárodních turnajů, odkud
+              jsem&nbsp;si&nbsp;již&nbsp;přivezl nespočet medailových
+              umístění.<br />
+              Zároveň jsem&nbsp;studentem Podkrušnohorského sportovního gymnázia
+              v&nbsp;Mostě.
+            </span>
+          </div>
+
+          <div class="oddělení"></div>
+
+          <nav class="footer-odkazy">
+            <a href="{{ '/index.html' | relative_url }}">Domů</a>
+            <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+            <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+            <a href="{{ '/blog/blog_index.html' | relative_url }}">Blog</a>
+            <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+            <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+            <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
+              >Kontakt</a
+            >
+          </nav>
+
+          <div class="oddělení"></div>
+
+          <div class="kontakty">
+            <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+              <img
+                src="{{ '/images/homepage/instagram-white-simple.svg' | relative_url }}"
+                alt="logo Instagramu"
+              />
+              <span>@Jakub.klokan</span>
+            </a>
+            <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+              <img
+                src="{{ '/images/homepage/facebook-white-simple.svg' | relative_url }}"
+                alt="logo Facebooku"
+              />
+              <span>@Jakub Klokan</span>
+            </a>
+            <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
+              <img
+                src="{{ '/images/homepage/email-envelope-white-icon.svg' | relative_url }}"
+                alt="ikona telefonu"
+              />
+              <span>klokan.jakub08@gmail.com</span>
+            </a>
+            <div class="phone">
+              <img
+                src="{{ '/images/homepage/phone-white-simple.svg' | relative_url }}"
+                alt="ikona telefonu"
+              />
+              <span>+420 608 021 109</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="oddělení_X"></div>
+
+        <p class="copyright">© 2026 Jakub Klokan</p>
+        <p class="copyright" id="copa_photo">
+          Fotografie použité na tomto webu:
+        </p>
+        <p class="copyright">© Super Stars Most</p>
+        <p class="copyright">© Badminton Plzeň</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+

@@ -1,0 +1,254 @@
+/* INTRO */
+.blog-intro-1 {
+  color: var(--color-text-dark);
+  text-align: center;
+  padding-top: var(--space-5);
+}
+
+.separate-line-blog {
+  margin: var(--space-1) auto var(--space-3) auto;
+  width: 120px;
+}
+
+.blog-intro-2 {
+  text-align: center;
+  color: var(--color-text-dark);
+  font-weight: 500;
+  margin: 0 auto var(--space-6) auto;
+  max-width: 90vw;
+}
+
+/* POSTS */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clanek {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+  width: 70vw;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-decoration: none;
+  color: #111;
+  gap: var(--space-4);
+  position: relative;
+}
+
+#seznam-clanku a {
+  height: 120px;
+  max-width: 1000px;
+}
+
+.clanek:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+}
+
+.clanek img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+/* Posts descrition */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100% - 225px);
+  gap: var(--space-2);
+}
+
+.info p {
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.info a {
+  text-decoration: none;
+  color: #222;
+}
+
+.datum {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  color: #333;
+  font-size: var(--font-sm);
+  white-space: nowrap;
+}
+
+/* FILTR */
+.no-posts {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin: var(--space-4) 0;
+  width: 100%;
+  max-width: none;
+}
+
+#filtr-panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-5);
+  margin-bottom: var(--space-4);
+}
+
+#vyhledavac {
+  flex: 1 1 250px;
+  max-width: 300px;
+  padding: var(--space-2) var(--space-4);
+  height: 40px;
+  font-size: var(--font-md);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+  box-sizing: border-box;
+}
+
+#vyhledavac:focus {
+  border-color: var(--color-primary-dark);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+#filtr-tagy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  justify-content: center;
+  max-width: 60vw;
+  padding: 0 var(--space-3);
+}
+
+.filtr-btn {
+  margin: var(--space-1);
+  border-width: 3px;
+  background-color: var(--color-background-card);
+}
+
+.btn-filter-blog.aktivni {
+  background-color: var(--color-primary-dark);
+  color: white;
+  transform: scale(0.98); /* lehký stlačený efekt */
+  border-color: #111;
+}
+
+.btn-filter-blog:hover {
+  font-weight: 550;
+}
+
+.filtr-btn.reset {
+  background-color: var(--color-bg);
+  border: #111 1px;
+}
+
+.filtr-btn.reset:hover {
+  border: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-filter-blog {
+  margin-top: 0;
+}
+
+/* BUTTON NA STRÁNKY DOLE */
+#paginace {
+  min-height: 40px;
+  padding: var(--space-4) 0;
+  text-align: center;
+}
+
+.stranka-btn {
+  background-color: #eee;
+  border: 1.5px solid #ccc;
+  color: #333;
+  padding: var(--space-1) var(--space-3);
+  margin: var(--space-1);
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: var(--font-sm);
+  transition: background-color 0.3s ease;
+}
+
+.stranka-btn:hover {
+  background-color: #ddd;
+}
+
+.active-page {
+  font-weight: bold;
+  background-color: var(--color-primary-dark);
+  color: var(--color-test);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  #filtr-tagy {
+    max-width: 90vw;
+  }
+  .info {
+    width: 100%;
+    padding: 0 var(--space-1);
+  }
+
+  .info h3 {
+    font-size: var(--font-sm);
+  }
+
+  .post-description {
+    display: none;
+  }
+
+  .datum {
+    display: block;
+    font-size: var(--font-xs);
+  }
+
+  .clanek {
+    align-items: center;
+    width: 95vw;
+    padding: var(--space-2);
+    gap: var(--space-2);
+  }
+
+  /* new */
+  .blog-intro-1 {
+    margin-top: 50px;
+  }
+
+  .tag {
+    padding: var(--space-1);
+  }
+
+  .tags {
+    margin-bottom: 0;
+  }
+  .container.pagination {
+    max-width: 95vw;
+  }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .post-description {
+    display: none;
+  }
+  .tags {
+    width: 160px;
+  }
+}

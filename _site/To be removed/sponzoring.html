@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem("dark-mode");
+          if (
+            saved === "true" ||
+            (!saved &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches)
+          ) {
+            document.documentElement.classList.add("dark-mode");
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link
+      rel="preload"
+      href="/css/sponzoring.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript><link rel="stylesheet" href="/css/sponzoring.css" /></noscript>
+
+    <script src="/js/menu-close.js" defer></script>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://jakubklokan.cz/Logo_webu_white.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="preconnect"
+      href="https://www.googletagmanager.com"
+      crossorigin
+    />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-NCZN4K2E8L");
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jmenuji se Jakub Klokan a již od roku 2015 se věnuji badmintonu."
+    />
+    <meta
+      name="keyword"
+      content="badminton, sponzoring, kontakty, nabídka-sponzoringu, reklama"
+    />
+    <meta name="author" content="Jakub Klokan" />
+    <meta property="og:title" content="Jakub Klokan" />
+    <meta
+      property="og:description"
+      content="Jmenuji se Jakub Klokan. Hraji badminton na mezinárodní úrovni a studuji na Podkrušnohorském gymnáziu v Mostě."
+    />
+    <meta
+      property="og:image"
+      content="https://jakubklokan.cz/Logo_webu_preview.png"
+    />
+    <meta property="og:url" content="https://www.jakubklokan.cz" />
+    <meta property="og:type" content="website" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jakub Klokan",
+        "url": "https://jakubklokan.cz",
+        "logo": "https://jakubklokan.cz/Logo_webu_preview.png"
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <title>Sponzoring</title>
+
+    <link rel="stylesheet" href="/assets/css/variables.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/components.css" />
+    <link rel="stylesheet" href="/assets/css/layout.css" />
+    <link rel="stylesheet" href="/assets/css/pages/sponzoring.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_pc">
+        <a href="{{ '/' | relative_url }}" class="logo_webu">
+          <img
+            src="{{ '/Logo_webu_white.svg' | relative_url }}"
+            alt="logo webu"
+            width="60"
+            height="60"
+          />
+        </a>
+
+        <div class="header_middle">
+          <a
+            id="dark-mode-toggle"
+            aria-label="Přepnout tmavý režim"
+            class="dark-toggle"
+            >🌙</a
+          >
+
+          <a href="{{ '/' | relative_url }}">Domů</a>
+          <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+          <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+          <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+          <a href="{{ '/sponzoring.html#kontakt' | relative_url }}">Kontakt</a>
+
+          <a
+            href="{{ '/en/about_me_en.html' | relative_url }}"
+            hreflang="en"
+            lang="en"
+            class="header_hover"
+          >
+            <img
+              src="{{ '/images/gb.svg' | relative_url }}"
+              alt="English"
+              width="19"
+              height="14"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="header_mobile">
+        <nav class="mobilni-menu">
+          <a href="{{ '/' | relative_url }}">
+            <img
+              src="{{ '/Logo_webu_white.svg' | relative_url }}"
+              alt="logo_webu"
+              height="40"
+              class="mobilni_logo"
+            />
+          </a>
+
+          <a
+            id="dark-toggle-mobile"
+            aria-label="Přepnout tmavý režim"
+            class="dark-toggle"
+            >🌙</a
+          >
+
+          <a
+            href="{{ '/en/about_me_en.html' | relative_url }}"
+            hreflang="en"
+            lang="en"
+            class="language_mobile"
+          >
+            <img
+              src="{{ '/images/gb.svg' | relative_url }}"
+              alt="English"
+              width="19"
+              height="14"
+            />
+          </a>
+
+          <input type="checkbox" id="toggle-menu" autocomplete="off" />
+          <label for="toggle-menu" class="menu-ikona">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <ul class="odkazy-menu">
+            <li>
+              <a href="{{ '/' | relative_url }}"
+                ><i class="fa-solid fa-house"></i> Domů</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/about_me.html' | relative_url }}"
+                ><i class="fa-solid fa-user"></i> O mně</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/achievements.html' | relative_url }}"
+                ><i class="fa-solid fa-trophy"></i> Úspěchy</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/blog/' | relative_url }}"
+                ><i class="fa-solid fa-pencil-alt"></i> Blog</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/sponzoring.html' | relative_url }}"
+                ><i class="fa-solid fa-hand-holding-dollar"></i> Sponzoring</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/Photo_gallery.html' | relative_url }}"
+                ><i class="fa-solid fa-camera"></i> Fotogalerie</a
+              >
+            </li>
+            <li>
+              <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
+                ><i class="fa-solid fa-envelope"></i> Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-bg">
+        <section class="section sponzoring-hero">
+          <picture>
+            <source
+              srcset="/images/sponzoring/Bozner_Cup_2-sponzring.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/sponzoring/Bozner_Cup_2-sponzring.webp"
+              type="image/webp"
+            />
+            <img
+              src="/Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.jpg"
+              alt="Momentka ze zápasu"
+              class="sponzoring-hero-image"
+            />
+          </picture>
+
+          <div class="container sponzoring-hero-text">
+            <h1>Staňte se mým sponzorem</h1>
+            <div class="separate-line separate-line--sponzoring"></div>
+            <h2>
+              Podpořte mladého mezinárodního badmintonistu a&nbsp;získejte
+              viditelnost na&nbsp;turnajích i&nbsp;online
+            </h2>
+            <a href="#kontakt" class="button button--primary button--large"
+              >Domluvit spolupráci</a
+            >
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="strip">
+            <div class="container grid--2 strip-contain">
+              <div class="container-text">
+                <h2>Nabídka sponzoringu</h2>
+                <div class="separate-line"></div>
+
+                <p>
+                  Spolupráce se&nbsp;mnou přináší reálnou viditelnost vaší
+                  značky na&nbsp; turnajích, sociálních sítích a&nbsp;webu.
+                </p>
+
+                <h3 class="sponzoring-h3">Co můžete získat:</h3>
+                <ul>
+                  <li>
+                    <strong>Propagace online:</strong> příspěvky, stories
+                    a&nbsp;zmínky na sociálních sítích a&nbsp;webu
+                  </li>
+                  <li>
+                    <strong>Branding:</strong> zmínky vaší značky na&nbsp;webu
+                    badmintonového klubu
+                    <a href="https://www.superstars-most.net" target="_blank"
+                      >Super&nbsp;Stars&nbsp;Most</a
+                    >
+                  </li>
+                  <li>
+                    <strong>Viditelnost na dresu:</strong> logo na&nbsp;dresech
+                    a&nbsp;sportovním vybavení
+                  </li>
+                  <li>
+                    <strong>Mezinárodní turnaje:</strong> prezentace značky
+                    na&nbsp; turnajích v&nbsp;zahraničí
+                  </li>
+                  <li>
+                    <strong>Marketingová spolupráce:</strong> možnost účasti
+                    na&nbsp; rozhovorech, článcích a&nbsp;promo videích
+                  </li>
+                  <li>
+                    <strong>Flexibilní partnerství:</strong> individuální
+                    spolupráce přizpůsobená potřebám vaší značky
+                  </li>
+                </ul>
+                <div class="portfolio-buttons">
+                  <a
+                    href=""
+                    class="button button--primary sponzoring-button-space sponzoring-primary-button"
+                    download
+                  >
+                    Stáhnout portfolio (PDF)
+                  </a>
+
+                  <a
+                    href="#"
+                    id="open-pdf"
+                    class="button button--secondary sponzoring-button-space sponzoring-secondary-button"
+                  >
+                    Zobrazit náhled
+                  </a>
+                </div>
+
+                <!-- Modal PDF -->
+                <div id="pdf-modal" style="display: none">
+                  <div class="pdf-overlay"></div>
+                  <div class="pdf-content">
+                    <button id="close-pdf" class="close-button">&times;</button>
+                    <iframe src="" width="100%" height="100%"></iframe>
+                  </div>
+                </div>
+              </div>
+
+              <picture class="strip-image-container">
+                <source
+                  srcset="/images/sponzoring/GPA_U19_2026_Plzeň.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="/images/sponzoring/GPA_U19_2026_Plzeň.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="/images/sponzoring/GPA_U19_2026_Plzeň.jpg"
+                  alt="Já s medailemi z GPA U15 2022"
+                  fetchpriority="high"
+                  class="strip-image"
+                />
+              </picture>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="strip">
+            <div class="container grid--2 strip-contain grid-mobile-switch">
+              <picture class="strip-image-container">
+                <img
+                  src="/Photo_gallery/Gallery_24/Super_Stars_Camp_24/Super_Stars_Camp_7.jpg"
+                  alt="Fotka z letního badmintonového campu"
+                  fetchpriority="high"
+                  class="strip-image"
+                />
+              </picture>
+              <div class="container-text">
+                <h2>O mně</h2>
+                <div class="separate-line"></div>
+                <div class="about-me-content">
+                  <div class="about-me-text">
+                    <p><strong>Jméno:</strong> Jakub Klokan</p>
+                    <p><strong>Věk:</strong> 17 let</p>
+                    <p>
+                      <strong>Úroveň:</strong> Mezinárodní vrcholový
+                      badmintonista
+                    </p>
+                    <p>
+                      <strong>Největší úspěchy:</strong> Medaile z evropského
+                      okruhu, šest medailí z MČR
+                    </p>
+                    <p>
+                      <strong>Tréninky / turnaje ročně:</strong> cca 320
+                      tréninků, 30+ turnajů
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="strip">
+            <div class="container grid--2 strip-contain sponsors-template">
+              <div class="container-text">
+                <h2>Moji sponzoři</h2>
+                <div class="separate-line"></div>
+
+                <p>
+                  Děkuji svým sponzorům za&nbsp;podporu mé&nbsp;sportovní
+                  kariéry.<br />Pomáhají mi&nbsp;financovat účast na
+                  mezinárodních turnajích a&nbsp;vybavení, díky nim mohu
+                  dosahovat svých cílů a&nbsp;úspěchů.
+                </p>
+              </div>
+
+              <div class="sponsors-logos">
+                <div class="sponsors-now">
+                  <div>
+                    <h3>Aktuální sponzoři</h3>
+                  </div>
+
+                  <div class="sponsors-separate-line"></div>
+
+                  <div class="grid grid--3 grid-sponsors-logos-now">
+                    <div class="light-bg">
+                      <a href="https://www.vyskylanemkv.cz/" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/sponzoring/Vysky_lanem_s.r.o..svg"
+                          alt="logo firmy Výšky lanem s.r.o."
+                          width="130"
+                          height="70"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="dark-bg">
+                      <a href="https://www.peytonlegal.cz" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/homepage/Peyton-legal.png"
+                          alt="logo firmy Peyton Legal"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="light-bg">
+                      <a href="https://www.brickhouse.cz" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/sponzoring/Brick_house.png"
+                          alt="logo firmy BrickHouse"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="dark-bg">
+                      <img
+                        class="logo"
+                        src="/images/homepage/Ronin-Advisors.jpg"
+                        alt="logo firmy Ronin Advisors"
+                      />
+                    </div>
+
+                    <div class="light-bg">
+                      <a href="https://kvechtru.cz/en/" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/sponzoring/K_Vechtru.png"
+                          alt="logo firmy K Vechtru Flow s.r.o."
+                        />
+                      </a>
+                    </div>
+
+                    <div class="dark-bg">
+                      <a href="https://helendoron.cz/" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/homepage/Helen-Doron.png"
+                          alt="logo firmy Helen Doron"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="sponsors-previous">
+                  <div>
+                    <h3>Dřívější sponzoři</h3>
+                  </div>
+
+                  <div class="sponsors-separate-line"></div>
+
+                  <div class="grid grid--3 grid-sponsors-logos-previous">
+                    <div class="light-bg-sm">
+                      <a href="https://www.jilm.info/" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/sponzoring/JILM_s.r.o..svg"
+                          alt="logo firmy JILM s.r.o."
+                          height="60"
+                          width="90"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="dark-bg-sm">
+                      <a href="https://www.gfm.cz/" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/sponzoring/GF_machinery_s.r.o..svg"
+                          alt="logo firmy GF machinery s.r.o."
+                          height="60"
+                          width="70"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="light-bg-sm">
+                      <img
+                        class="logo"
+                        src="/images/sponzoring/bisczech-t.png"
+                        alt="logo firmy BIS Czech"
+                      />
+                    </div>
+
+                    <div class="dark-bg-sm">
+                      <a href="https://www.obec-rana.com/" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/homepage/Obec-Raná.png"
+                          alt="logo obce Raná"
+                          height="60"
+                          width="60"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="light-bg-sm">
+                      <img
+                        class="logo"
+                        src="/images/sponzoring/Mistera_group.png"
+                        alt="logo firmy Mistera Group"
+                      />
+                    </div>
+
+                    <div class="dark-bg-sm">
+                      <img
+                        class="logo"
+                        src="/images/sponzoring/Indutech_Mont.png"
+                        alt="logo firmy Indutech Mont"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="kontakt">
+          <div class="strip">
+            <div class="container contact-section-intro">
+              <h2>Kontaktujte mě</h2>
+              <div class="sponsors-separate-line"></div>
+              <p>
+                Pro bližší informace, nabídku spolupráce nebo dotazy mě
+                neváhejte kontaktovat:
+              </p>
+            </div>
+
+            <div class="container grid--2 strip-contain">
+              <div class="contact-info">
+                <div class="contact-item">
+                  <strong>Telefon:</strong>
+                  <a href="tel:+420608021109">+420 608 021 109</a>
+                </div>
+                <div class="contact-item">
+                  <strong>Email:</strong>
+                  <a href="mailto:klokan.jakub08@gmail.com"
+                    >klokan.jakub08@gmail.com</a
+                  >
+                </div>
+                <div class="contact-item">
+                  <strong>Instagram:</strong>
+                  <a href="https://instagram.com/jakub.klokan" target="_blank"
+                    >@jakub.klokan</a
+                  >
+                </div>
+                <div class="contact-item">
+                  <strong>Web:</strong>
+                  <a href="https://jakubklokan.cz" target="_blank"
+                    >jakubklokan.cz</a
+                  >
+                </div>
+                <div class="contact-logo">
+                  <img src="/Logo_webu_black.png" alt="" />
+                </div>
+              </div>
+
+              <div class="contact-form">
+                <form action="#" method="post">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Vaše jméno"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Váš email"
+                    required
+                  />
+                  <textarea
+                    name="message"
+                    placeholder="Zpráva"
+                    required
+                  ></textarea>
+                  <button type="submit" class="button button--primary">
+                    Odeslat zprávu
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="top-part-footer">
+          <div class="text-footer">
+            <img
+              src="{{ '/Logo_webu_white.svg' | relative_url }}"
+              alt="logo_webu"
+              height="110"
+              width="110"
+            />
+            <span>
+              Jmenuji se&nbsp;Jakub Klokan a&nbsp;jsem&nbsp;vrcholový
+              badmintonista z&nbsp;České republiky. Účastním se&nbsp;tuzemských
+              i&nbsp;mezinárodních turnajů, odkud
+              jsem&nbsp;si&nbsp;již&nbsp;přivezl nespočet medailových
+              umístění.<br />
+              Zároveň jsem&nbsp;studentem Podkrušnohorského sportovního gymnázia
+              v&nbsp;Mostě.
+            </span>
+          </div>
+
+          <div class="oddělení"></div>
+
+          <nav class="footer-odkazy">
+            <a href="{{ '/index.html' | relative_url }}">Domů</a>
+            <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+            <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+            <a href="{{ '/blog/blog_index.html' | relative_url }}">Blog</a>
+            <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+            <a href="{{ '/Photo_gallery.html' | relative_url }}">Fotogalerie</a>
+            <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
+              >Kontakt</a
+            >
+          </nav>
+
+          <div class="oddělení"></div>
+
+          <div class="kontakty">
+            <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+              <img
+                src="{{ '/images/homepage/instagram-white-simple.svg' | relative_url }}"
+                alt="logo Instagramu"
+              />
+              <span>@Jakub.klokan</span>
+            </a>
+            <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+              <img
+                src="{{ '/images/homepage/facebook-white-simple.svg' | relative_url }}"
+                alt="logo Facebooku"
+              />
+              <span>@Jakub Klokan</span>
+            </a>
+            <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
+              <img
+                src="{{ '/images/homepage/email-envelope-white-icon.svg' | relative_url }}"
+                alt="ikona telefonu"
+              />
+              <span>klokan.jakub08@gmail.com</span>
+            </a>
+            <div class="phone">
+              <img
+                src="{{ '/images/homepage/phone-white-simple.svg' | relative_url }}"
+                alt="ikona telefonu"
+              />
+              <span>+420 608 021 109</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="oddělení_X"></div>
+
+        <p class="copyright">© 2026 Jakub Klokan</p>
+        <p class="copyright" id="copa_photo">
+          Fotografie použité na tomto webu:
+        </p>
+        <p class="copyright">© Super Stars Most</p>
+        <p class="copyright">© Badminton Plzeň</p>
+      </div>
+    </footer>
+    <script src="/js/dark-mode.js"></script>
+    <script src="/assets/js/sponzoring-portfolio.js"></script>
+  </body>
+</html>

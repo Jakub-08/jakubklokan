@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Shrnutí letní přípravy"
+date: 2023-09-05
+image: /blog/images/article-37.avif
+description: "Přes 120 hodin tréninků rozdělených do 4 fází:29.7.-..."
+tags: [Soustředění, 2023]
+---
+
+Přes 120 hodin tréninků rozdělených do 4 fází:29.7.- 5.8. Kondiční
+soustředění🏃6.8. - 11.8. Summer School I.🏸12.8. - 19.8.
+19th Victor International Super Stars Camp 🔥21.8. - 1.9. Summer
+School II.🏸Více info ve starších příspěvcích

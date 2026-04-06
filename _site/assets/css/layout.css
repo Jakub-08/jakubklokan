@@ -1,0 +1,355 @@
+/* --------------
+=================
+==== HEADER =====
+=================
+---------------*/
+
+/* =================
+LAYOUT
+================= */
+
+.header_pc {
+  height: 70px;
+  background-color: var(--color-header);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+/* =================
+NAVIGATION
+================= */
+
+.header_middle a {
+  margin: auto 15px;
+  text-decoration: none;
+  font-size: var(--font-sm);
+  color: var(--color-text);
+}
+
+.header_middle a:hover {
+  font-weight: 700;
+}
+
+/* =================
+COMPONENTS
+================= */
+
+.logo_webu,
+.mobilni_logo {
+  position: absolute;
+  left: var(--space-5);
+  top: var(--space-1);
+}
+
+.mobilni_logo {
+  display: none;
+}
+
+.dark-toggle {
+  cursor: pointer;
+}
+
+#dark-toggle-mobile {
+  display: none;
+}
+
+.menu-ikona,
+.language_mobile {
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+/* =================
+HEADER ICON HOVER EFFECTS
+================= */
+
+.dark-toggle,
+.header_hover img {
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.dark-toggle:hover,
+.header_hover img:hover {
+  transform: scale(1.2);
+}
+
+/* =================
+MOBILE MENU
+================= */
+
+.mobilni-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+  background: rgba(15, 13, 13, 0.98);
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+}
+
+.menu-ikona {
+  cursor: pointer;
+  width: 25px;
+  margin-right: 20px;
+}
+
+.menu-ikona span {
+  display: block;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  margin-top: 4px;
+}
+
+.odkazy-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #222;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+}
+
+.odkazy-menu li {
+  border-bottom: 1px solid #444;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.odkazy-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#toggle-menu:checked + .menu-ikona + .odkazy-menu {
+  display: flex;
+}
+
+/* =================
+MENU ANIMATION
+================= */
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(2) {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* =================
+RESPONSIVE
+================= */
+
+/* tablet */
+@media (max-width: 1024px) {
+  .header_middle a {
+    margin: auto 8.5px;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .header_pc {
+    display: none;
+  }
+
+  .mobilni-menu {
+    display: flex;
+  }
+
+  #dark-toggle-mobile {
+    display: block;
+    margin-right: var(--space-5);
+  }
+
+  .language_mobile {
+    align-self: center;
+    height: 14px;
+    width: 19px;
+    margin-right: var(--space-6);
+    display: block;
+  }
+
+  .menu-ikona {
+    display: block;
+  }
+
+  .mobilni_logo {
+    display: block;
+  }
+}
+
+/* --------------
+=================
+==== FOOTER =====
+=================
+---------------*/
+
+/* =================
+BASE STYLES
+================= */
+footer {
+  background-color: var(--color-header);
+  color: var(--color-text);
+  padding-bottom: var(--space-4);
+}
+
+footer a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-weight: 700;
+}
+
+/* =================
+FOOTER LAYOUT
+================= */
+.top-part-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: var(--space-6);
+  align-items: center;
+  padding: var(--space-6) var(--space-5);
+  margin: 0 var(--space-7) var(--space-6);
+  font-size: var(--font-sm);
+}
+
+/* =================
+FOOTER COMPONENTS
+================= */
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.text-footer span {
+  margin-top: var(--space-2);
+}
+
+.footer-odkazy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.kontakty {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.kontakty a,
+.kontakty .phone {
+  display: flex;
+  align-items: center;
+}
+
+.kontakty span {
+  margin-left: var(--space-4);
+  font-size: var(--font-sm);
+}
+
+/* oddělovače */
+.oddělení,
+.oddělení_X {
+  display: none;
+  height: 0.5px;
+  background-color: var(--color-primary);
+  margin: var(--space-2) auto;
+}
+
+.oddělení {
+  width: 25%;
+}
+.oddělení_X {
+  width: 40%;
+  margin-bottom: var(--space-4);
+  display: block;
+}
+
+/* copyright */
+.copyright,
+#copa_photo {
+  text-align: center;
+  font-size: var(--font-xs);
+  margin: 0 auto;
+  padding-bottom: var(--space-3);
+}
+
+#copa_photo {
+  padding-top: var(--space-2);
+}
+
+.kontakty img {
+  height: 30px;
+  width: 30px;
+}
+
+/* =================
+RESPONSIVE
+================= */
+
+/* tablet */
+@media (max-width: 1024px) {
+  .top-part-footer {
+    grid-template-columns: 1fr 170px 1fr;
+  }
+}
+
+/* mobile */
+@media (max-width: 830px) {
+  .top-part-footer {
+    grid-template-columns: 1fr; /* vertikálně */
+    grid-template-rows: auto auto auto;
+    row-gap: var(--space-4);
+    margin: 0;
+    align-items: start;
+  }
+
+  .footer-odkazy {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* dva sloupce pro odkazy */
+    justify-items: center;
+    gap: var(--space-4);
+  }
+
+  .kontakty {
+    align-items: center;
+  }
+
+  .oddělení,
+  .oddělení_X {
+    display: flex;
+  }
+}

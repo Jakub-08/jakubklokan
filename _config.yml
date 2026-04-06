@@ -1,0 +1,51 @@
+# --- Základní informace ---
+title: Jakub Klokan
+description: Vítám Vás na mé webové stránce, kde se dozvíte o mé badmintonové kariéře i osobním životě.
+url: "https://jakubklokan.cz"
+author: Jakub Klokan
+baseurl: ""
+lang: cs
+
+# --- Menu (generované dynamicky v headeru a footeru) ---
+menu:
+  - name: Domů
+    link: /index.html
+  - name: O mně
+    link: /about_me.html
+  - name: Úspěchy
+    link: /achievements.html
+  - name: Blog
+    link: /blog/blog_index.html
+  - name: Sponzoring
+    link: /sponzoring.html
+  - name: Fotogalerie
+    link: /photo_gallery_index.html
+  - name: Kontakt
+    link: /sponzoring.html#kontakt
+
+# --- Kontakty (pro footer a případné komponenty) ---
+contacts:
+  instagram: "https://www.instagram.com/jakub.klokan"
+  facebook: "https://m.facebook.com/klokanjakub/"
+  email: "klokan.jakub08@gmail.com"
+  phone: "+420 608 021 109"
+
+# --- Sociální sítě (OpenGraph / schema.org) ---
+social:
+  instagram: "https://www.instagram.com/jakub.klokan"
+  facebook: "https://m.facebook.com/klokanjakub/"
+
+# --- Obrázky a logo pro SEO / OpenGraph ---
+logo: "/Logo_webu_white.svg"
+og_image: "/Logo_webu_preview.png"
+
+# --- Nastavení blogu ---
+blog:
+  path: /blog
+  per_page: 10
+
+# --- Pluginy (volitelné, ale doporučené) ---
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap

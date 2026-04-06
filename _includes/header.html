@@ -1,0 +1,130 @@
+<!-- _includes/header.html -->
+<header>
+  <div class="header_pc">
+    <a href="{{ '/' | relative_url }}" class="logo_webu">
+      <img
+        src="{{ '/Logo_webu_white.svg' | relative_url }}"
+        alt="logo webu"
+        width="60"
+        height="60"
+      />
+    </a>
+
+    <div class="header_middle">
+      <!--
+      <a
+        id="dark-mode-toggle"
+        aria-label="Přepnout tmavý režim"
+        class="dark-toggle"
+        >🌙</a
+      >
+      -->
+
+      <a href="{{ '/' | relative_url }}">Domů</a>
+      <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
+      <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
+      <a href="{{ '/blog/blog_index.html' | relative_url }}">Blog</a>
+      <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
+      <a href="{{ '/photo_gallery_index.html' | relative_url }}">Fotogalerie</a>
+      <a href="{{ '/sponzoring.html#kontakt' | relative_url }}">Kontakt</a>
+
+      <!--
+      <a
+        href="{{ '/en/about_me_en.html' | relative_url }}"
+        hreflang="en"
+        lang="en"
+        class="header_hover"
+      >
+        <img
+          src="{{ '/images/gb.svg' | relative_url }}"
+          alt="English"
+          width="19"
+          height="14"
+        />
+      </a>
+      -->
+    </div>
+  </div>
+
+  <div class="header_mobile">
+    <nav class="mobilni-menu">
+      <a href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/Logo_webu_white.svg' | relative_url }}"
+          alt="logo_webu"
+          height="40"
+          class="mobilni_logo"
+        />
+      </a>
+
+      <!--
+      <a
+        id="dark-toggle-mobile"
+        aria-label="Přepnout tmavý režim"
+        class="dark-toggle"
+        >🌙</a
+      >
+
+
+      <a
+        href="{{ '/en/about_me_en.html' | relative_url }}"
+        hreflang="en"
+        lang="en"
+        class="language_mobile"
+      >
+        <img
+          src="{{ '/images/gb.svg' | relative_url }}"
+          alt="English"
+          width="19"
+          height="14"
+        />
+      </a>
+      -->
+
+      <input type="checkbox" id="toggle-menu" autocomplete="off" />
+      <label for="toggle-menu" class="menu-ikona">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="odkazy-menu">
+        <li>
+          <a href="{{ '/' | relative_url }}"
+            ><i class="fa-solid fa-house"></i> Domů</a
+          >
+        </li>
+        <li>
+          <a href="{{ '/about_me.html' | relative_url }}"
+            ><i class="fa-solid fa-user"></i> O mně</a
+          >
+        </li>
+        <li>
+          <a href="{{ '/achievements.html' | relative_url }}"
+            ><i class="fa-solid fa-trophy"></i> Úspěchy</a
+          >
+        </li>
+        <li>
+          <a href="{{ '/blog/' | relative_url }}"
+            ><i class="fa-solid fa-pencil-alt"></i> Blog</a
+          >
+        </li>
+        <li>
+          <a href="{{ '/sponzoring.html' | relative_url }}"
+            ><i class="fa-solid fa-hand-holding-dollar"></i> Sponzoring</a
+          >
+        </li>
+        <li>
+          <a href="{{ '/photo_gallery_index.html' | relative_url }}"
+            ><i class="fa-solid fa-camera"></i> Fotogalerie</a
+          >
+        </li>
+        <li>
+          <a href="{{ '/sponzoring.html#kontakt' | relative_url }}"
+            ><i class="fa-solid fa-envelope"></i> Kontakt</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,534 @@
+
+/*úvod*/
+
+
+
+
+
+
+
+
+/*js*/
+
+
+/*změna*/
+#blog-proklik {
+  padding: 2em 1em;
+  border-top: 1px solid #ddd;
+  max-width: 1200px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+
+#blog-proklik h3 {
+  margin-bottom: 1em;
+  margin-left: 1em;
+  font-size: 1.4em;
+  color: white;
+}
+
+.blog-ctverce {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-ctverce > a.blog-ctverec {
+  aspect-ratio: 1 / 1; /* rezervuje prostor ještě před načtením pozadí */
+  display: block;
+}
+
+.kontakty img,
+.text-footer img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1 / 1;
+  display: inline-block;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: auto; /* lze upravit individuálně */
+}
+
+/* Rezervace pro dynamické sekce */
+
+
+
+.blog-ctverec {
+  position: relative;
+  flex: 1 1 30%;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  min-width: 220px;
+  max-width: 280px;
+  transition: transform 0.2s ease;
+}
+
+.blog-ctverec:hover {
+  transform: scale(1.02);
+}
+
+.blog-ctverec .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* ztmavení obrázku */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1em;
+  min-width: 220px;
+  max-width: 280px;
+}
+
+.blog-ctverec h4 {
+  margin: 0 0 0.3em;
+  font-size: 1.1em;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.blog-ctverec p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+  #blog-proklik {
+    padding: 0;
+    border-top: none;
+  }
+
+  #blog-proklik h3 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .zobrazit-vse {
+    display: block;
+    text-align: center;
+    margin: 1em auto;
+  }
+
+  .blog-ctverec {
+    max-width: 50px;
+  }
+}
+
+/*konec*/
+
+/*přepínání stran*/
+#paginace {
+  
+}
+
+
+
+/*zápatí*/
+.záhlaví {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: start;
+  padding: 70px 0 70px 0;
+  height: fit-content;
+  padding-bottom: 80px;
+  font-size: 0.8rem;
+}
+
+.odkazy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.kontakty {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  color: white;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.904);
+  min-height: 900px;
+}
+
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  line-height: 1.5;
+}
+
+.text-footer span {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.oddělení {
+  display: none;
+}
+
+.kontakty span {
+  margin-left: 15px;
+  font-size: 0.875rem;
+}
+
+.záhlaví a,
+.phone {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.copyright {
+  color: white;
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+.záhlaví a:hover {
+  font-weight: bold;
+}
+
+.záhlaví p {
+  color: white;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+.mobilni-menu {
+  display: flex;
+  position: relative;
+  top: 15px;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+.odkazy-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #222;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+}
+
+.mobilni_logo {
+  margin-left: 20px;
+  display: none;
+}
+
+.odkazy-menu li {
+  border-bottom: 1px solid #444;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.odkazy-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Tlačítko (3 čárky) */
+.menu-ikona {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  margin-right: 20px;
+  padding: 10px;
+  cursor: pointer;
+  display: none; /* Skryté na desktopu */
+}
+
+/* Checkbox ovládá viditelnost menu */
+#toggle-menu:checked + .menu-ikona + .odkazy-menu {
+  display: flex;
+}
+
+#copa_photo {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 970px) {
+  #horní_lišta,
+  .rozcestí {
+    display: none;
+  }
+  #dark-toggle-mobile {
+    display: block;
+  }
+  .social_div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    max-width: 90vw;
+    margin: 70px auto;
+    margin-bottom: 20px;
+  }
+
+  .úvod2 {
+    display: none;
+  }
+
+  #filtr-tagy {
+    max-width: 90vw;
+  }
+
+  .info {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .info h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .info p {
+    display: none;
+  }
+
+  .clanek {
+    align-items: center;
+    width: 80vw;
+    padding: 20px;
+  }
+
+  /* Změny pro mobilní zobrazení */
+  .seznam-kontakt a {
+    font-size: 0.9rem;
+  }
+  .odkazy,
+  .kontakty {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+  .kontakty {
+    gap: 3px;
+  }
+  .mobilni_logo {
+    display: block;
+  }
+  .oddělení {
+    display: block;
+    margin: 1rem auto;
+    height: 1px;
+    width: 20%;
+    background-color: white;
+  }
+
+  .text-footer {
+    margin-left: 0;
+  }
+
+  .text-footer span {
+    width: 90%;
+  }
+
+  .kontakty img {
+    width: 30px;
+  }
+  .kontakty h2 {
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  .záhlaví {
+    height: fit-content;
+    padding-bottom: 0;
+  }
+  .záhlaví a,
+  .záhlaví p,
+  .kontakty p {
+    font-size: 0.875rem;
+  }
+  .záhlaví h2 {
+    font-size: 1.06rem;
+  }
+  .menu-ikona {
+    display: block;
+    color: whitesmoke;
+  }
+  .odkazy-menu {
+    display: none;
+  }
+  .mobilni-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+    background: rgba(15, 13, 13, 0.98);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+  }
+  .záhlaví {
+    grid-template-columns: 1fr; /* ze 4 sloupců na 1 */
+    justify-content: center;
+    align-content: center;
+  }
+
+  /*další změny*/
+  #blog-proklik {
+    border-top: none;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  #blog-proklik h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+    margin-left: 20px;
+  }
+  .zobrazit-vse {
+    margin-left: 20px;
+    font-size: 0.9rem;
+  }
+}
+
+body.dark-mode {
+  background-color: #3b3b3b;
+  color: #e0e0e0;
+}
+body.dark-mode h1 {
+  color: #e9e9e9;
+}
+body.dark-mode h2 {
+  color: #d1d1d1;
+}
+body.dark-mode .clanek {
+  background-color: #222;
+}
+body.dark-mode .info h2 {
+  color: #e9e9e9;
+}
+
+body.dark-mode .info p {
+  color: #c2c2c2;
+}
+
+body.dark-mode .datum {
+  color: #c2c2c2;
+}
+/* Položky v otevřeném menu */
+.mobilni-menu .odkazy-menu {
+  background-color: #121212; /* pro dark mode */
+  margin-top: 10px;
+}
+
+/* Jednotlivé odkazy */
+.mobilni-menu .odkazy-menu li a {
+  color: #fff; /* bílý text pro tmavé pozadí */
+  font-size: 1.1rem;
+}
+
+/* Oddělení mezi položkami */
+.mobilni-menu .odkazy-menu li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobilni-menu .odkazy-menu {
+  background-color: rgba(18, 18, 18, 0.95);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mobilni-menu .odkazy-menu {
+  position: fixed;
+  height: 360px;
+  width: 100%; /* nebo 100% pokud chceš celé */
+  background-color: rgba(18, 18, 18, 0.95);
+  backdrop-filter: blur(5px);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Když je menu aktivní */
+.mobilni-menu input[type="checkbox"]:checked ~ .odkazy-menu {
+  transform: translateY(0);
+}
+
+/*3*/
+.menu-ikona {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu-ikona span {
+  display: block;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Animace při otevření */
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(2) {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Efekt ikony při otevření */
+.odkazy-menu li a i {
+  margin-right: 8px;
+  font-size: 1.2rem;
+  width: 20px;
+  text-align: center;
+  transform: scale(0.8);
+  animation: iconPop 0.3s ease forwards;
+  animation-delay: 0.2s;
+}
+
+
+
+

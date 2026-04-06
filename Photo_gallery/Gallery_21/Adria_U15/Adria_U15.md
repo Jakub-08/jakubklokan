@@ -1,0 +1,45 @@
+---
+layout: photogallery_photos
+title: "Adria Youth International 2021"
+backLink: "/Photo_gallery/Gallery_21/Gallery_21.html"
+---
+
+<div class="gallery-card photo">
+  <picture>
+    <source srcset="Adria_U15_1.avif" type="image/avif" />
+    <source srcset="Adria_U15_1.webp" type="image/webp" />
+    <img src="../Adria_U15/Adria_U15_1.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <source srcset="Adria_U15_2.avif" type="image/avif" />
+    <source srcset="Adria_U15_2.webp" type="image/webp" />
+    <img src="../Adria_U15/Adria_U15_2.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" class="img-top" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <source srcset="Adria_U15_3.avif" type="image/avif" />
+    <source srcset="Adria_U15_3.webp" type="image/webp" />
+    <img src="../Adria_U15/Adria_U15_3.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" class="img-top" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <source srcset="Adria_U15_4.avif" type="image/avif" />
+    <source srcset="Adria_U15_4.webp" type="image/webp" />
+    <img src="../Adria_U15/Adria_U15_4.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" class="img-top" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <source srcset="Adria_U15_5.avif" type="image/avif" />
+    <source srcset="Adria_U15_5.webp" type="image/webp" />
+    <img src="../Adria_U15/Adria_U15_5.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" class="img-top" />
+  </picture>
+</div>

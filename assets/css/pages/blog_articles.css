@@ -1,0 +1,126 @@
+.blog-article-h1 {
+  color: var(--color-text-dark);
+  text-align: center;
+  margin: 0px auto var(--space-3);
+}
+
+.button.article {
+  margin: 0 0 0 var(--space-6);
+}
+
+.date {
+  color: #5f5f5f;
+  font-size: var(--font-sm);
+  margin-bottom: var(--space-4);
+  text-align: center;
+}
+
+.text {
+  font-size: var(--fotn-lg);
+  line-height: 1.6;
+  padding: var(--space-5);
+  background-color: rgba(202, 202, 202, 0.815);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius);
+  color: var(--color-text-dark);
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: var(--space-7);
+}
+
+.text h2 {
+  margin-top: var(--space-2);
+  padding-bottom: var(--space-1);
+}
+
+.text p {
+  margin-bottom: var(--space-4);
+}
+
+.separate-line.article {
+  margin: var(--space-2) auto;
+  width: 100px;
+  height: 2px;
+}
+
+.article-qoute {
+  text-align: center;
+}
+
+.img-caption {
+  color: var(--color-text-dark);
+  text-align: center;
+}
+
+.img.article {
+  width: 600px;
+  max-width: 90vw;
+  aspect-ratio: 1 / 1;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  margin-bottom: var(--space-2);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+blockquote p {
+  text-align: center;
+}
+
+/* TAGS */
+.tags {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--space-4);
+}
+
+.tag {
+  display: inline-block;
+  background: var(--color-primary-dark);
+  color: var(--color-text-dark);
+  padding: var(--space-1) var(--space-2);
+  margin: var(--space-1) var(--space-2) 0 auto;
+  border-radius: 15px;
+  font-size: var(--font-xs);
+  cursor: default;
+  user-select: none;
+}
+
+.tag.post {
+  margin: var(--space-1) auto 0 auto;
+}
+
+@media (max-width: 768px) {
+  .button.article {
+    display: none;
+  }
+  .blog-article-h1 {
+    margin-top: var(--space-7);
+  }
+  .text {
+    width: 95vw;
+    font-size: var(--font-md);
+    line-height: 1.5;
+  }
+  .article-qoute {
+    margin: 0 var(--space-2);
+  }
+  .tags {
+    margin: var(--space-6) auto var(--space-2) auto;
+    display: flex;
+    justify-content: center;
+    min-width: 105px;
+  }
+  .tag {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .tags {
+    width: 160px;
+  }
+}

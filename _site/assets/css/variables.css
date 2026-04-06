@@ -1,0 +1,85 @@
+:root {
+  /* =====================
+     COLORS
+  ===================== */
+  --color-primary: #ffcb05;
+  --color-primary-dark: #ff9900;
+  --color-secondary: #1e1e1e;
+
+  --color-text: #f3f3f3;
+  --color-text-dark: #121212;
+
+  --color-border: #2a2a2a;
+  --color-background-card: #1e1e1e;
+  --color-bg: #fafafa;
+  --color-main-bg: #cccccc;
+  --color-header: rgba(15, 13, 13, 0.993);
+
+  /* =====================
+     UI
+  ===================== */
+  --border-radius: 10px;
+  --border-radius-card: 16px;
+  --radius-pill: 28px;
+
+  --transition-fast: 0.2s ease;
+  --transform: scale(1.02);
+
+  /* =====================
+     TYPOGRAPHY
+  ===================== */
+  --font-main: "Inter", sans-serif;
+
+  --font-xs: 0.75rem; /* 12px */
+  --font-sm: 0.875rem; /* 14px */
+  --font-md: 1rem; /* 16px */
+  --font-lg: 1.125rem; /* 18px */
+  --font-xl: 1.5rem; /* 24px */
+  --font-2xl: 2rem; /* 32px */
+  --font-3xl: 2.5rem; /* 40px */
+  --font-4xl: 3rem; /* 48px */
+
+  /* =====================
+     SPACING
+  ===================== */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.5rem; /* 24px */
+  --space-6: 2rem; /* 32px */
+  --space-7: 3rem; /* 48px */
+  --space-8: 4rem; /* 64px */
+
+  /* =====================
+     LAYOUT
+  ===================== */
+  --max-width: 1200px;
+  --max-width-narrow: 800px;
+}
+
+/* =====================
+   MOBILE (≤768px)
+===================== */
+@media (max-width: 768px) {
+  :root {
+    /* TYPOGRAPHY ↓ */
+    --font-lg: 1rem;
+    --font-xl: 1.25rem;
+    --font-2xl: 1.5rem;
+    --font-3xl: 1.75rem;
+    --font-4xl: 2rem;
+
+    /* SPACING ↓ */
+    --space-5: 1rem;
+    --space-6: 1.5rem;
+    --space-7: 2rem;
+    --space-8: 2.5rem;
+
+    /* UI */
+    --border-radius: 12px;
+
+    /* LAYOUT */
+    --max-width: 100%;
+  }
+}

@@ -1,0 +1,200 @@
+/* ------------------
+--- YEARS + INDEX ---
+-------------------*/
+
+/* INTRO */
+.photo-gallery-h1 {
+  color: var(--color-text-dark);
+  text-align: center;
+}
+
+.separate-line-gallery {
+  height: 1.8px;
+  background-color: var(--color-primary-dark);
+  margin: var(--space-1) auto 0 auto;
+  width: 120px;
+  border-radius: 0.9px;
+}
+
+.gallery-button {
+  position: absolute;
+  top: 113px;
+  left: 10%;
+  z-index: 4;
+  margin: 0;
+}
+
+/* CARD */
+.section-gallery {
+  padding-bottom: var(--space-8);
+}
+
+.gallery-link {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+
+.gallery-card {
+  position: relative; /* nutné pro picture/img absolutně uvnitř */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 250px; /* výška galerie */
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.gallery-card picture,
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* nebo contain pokud chceš celý vidět */
+  display: block;
+  position: absolute;
+}
+
+.gallery-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-card img {
+  filter: brightness(0.6);
+}
+
+.gallery-card-text {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--font-2xl);
+  color: var(--color-text);
+  text-align: center;
+  font-weight: bolder;
+  width: 100%;
+  padding: var(--space-4);
+}
+
+.img-top {
+  object-position: 50% 20%;
+}
+.img-bottom {
+  object-position: 50% 80%;
+}
+.img-left {
+  object-position: 20% 50%;
+}
+.img-right {
+  object-position: 80% 50%;
+}
+
+/* ---------------
+--- RESPONSIVE ---
+----------------*/
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid-photogallery {
+    column-gap: var(--space-4);
+    row-gap: var(--space-5);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .gallery-button {
+    top: 170px;
+  }
+  .section-gallery {
+    padding-top: var(--space-6);
+  }
+  .separate-line-gallery {
+    margin-top: var(--space-5);
+  }
+}
+
+
+
+/* Mobil */
+@media (max-width: 768px) {
+  .photo-gallery-h1 {
+    margin-top: 55px;
+  }
+  .gallery-card img, .gallery-card {
+    object-fit: cover; /* vyplní celý rodič */
+    object-position: 50% 40%; /* ukáže horní část obrázku */
+    max-width: 450px;
+    width: 100%;
+  }
+  .gallery-card {
+    margin: 0 auto;
+  }
+  .gallery-link {
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+  }
+  .gallery-button {
+    display: none;
+  }
+}
+
+/* ----------------
+--- TOURNAMENTS ---
+-----------------*/
+.photo {
+  height: 300px;
+}
+
+.photo img {
+  filter: none;
+}
+
+/* Lightbox styl */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+
+.arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
+
+.arrow:hover {
+  color: #ddd;
+}
+
+

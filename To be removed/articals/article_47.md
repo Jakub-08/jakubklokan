@@ -1,0 +1,25 @@
+---
+title: "Sezóna 2023"
+date: "2024-01-05"
+image: "/blog/images/article-47.avif"
+tags: ["Ohlédnutí", "2023"]
+---
+
+Sezóna 2023, byla pro mě zkouškou. Kvůli přestupu do vyšší kategorie a 
+změně ve stylu hry to byla těžká sezóna.
+Na počet umístění nebyla
+tak úspěšná, jako ta předchozí, tudíž jsem se musel soustředit spíše na
+takové vlastní menší úspěchy, který mě poháněli dál, i když se turnaj
+výsledkově třeba nepovedl.
+Ale i pár medailových úspěchů se
+podařilo. Za největší považuju dvojnásobné vítezství na mezinárodním
+turnaji v  Itálii, ale i tady v ČR jsem získal nemálo medailí ať už
+z GPB, oblastních přeborů a mnoha turnajů třídy GPC.
+Rok 2023 mě
+naučil se vyrovnávat s porážkami a hledat úspěch i ve věcích
+kde "normální" lidé úspěch nevidí, takže jsem plně připravený na další
+sezónu 2024.
+Děkuju všem, kdo mě i přes to podporoval, ale i těm,
+kteří na mě nebyli příliš hodní, i kvůli nim jsem začal přemýšlet, jak
+jsem začal.
+Hodně chci také poděkovat týmu Super Stars Most.
