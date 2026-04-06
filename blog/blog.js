@@ -3,12 +3,10 @@ const allPosts = JSON.parse(document.getElementById("posts-data").textContent);
 
 const postsPerPage = 10;
 let currentPage = 1;
-let filteredTags = [];
 
 const seznamClanku = document.getElementById("seznam-clanku");
 const paginace = document.getElementById("paginace");
 const vyhledavac = document.getElementById("vyhledavac");
-const filtrTagy = document.getElementById("filtr-tagy");
 
 // ====== Funkce pro české datum ======
 function formatCzechDate(isoDate) {
@@ -43,59 +41,7 @@ allPosts.forEach(post => {
                     <p class="datum">${formatCzechDate(post.date)}</p>`;
   a.appendChild(info);
 
-  if (post.tags.length > 0) {
-    const divTags = document.createElement("div");
-    divTags.className = "tags";
-    post.tags.forEach(tag => {
-      const span = document.createElement("span");
-      span.className = "tag";
-      span.innerText = tag;
-      divTags.appendChild(span);
-    });
-    a.appendChild(divTags);
-  }
-
-  // uložíme tagy do datasetu pro filtraci
-  a.dataset.tags = post.tags.join(",");
   seznamClanku.appendChild(a);
-});
-
-// ====== Vytvoření tlačítek tagů ======
-const tagSet = new Set();
-allPosts.forEach(post => post.tags.forEach(t => tagSet.add(t)));
-const sortedTags = Array.from(tagSet).sort((a, b) => a.localeCompare(b, "cs"));
-
-// tlačítko pro zrušení všech filtrů
-const resetBtn = document.createElement("button");
-resetBtn.className = "button button--primary button--small btn-filter-blog";
-resetBtn.innerText = "Vymazat filtry";
-resetBtn.onclick = () => {
-  filteredTags = [];
-  document.querySelectorAll(".btn-filter-blog").forEach(b => b.classList.remove("aktivni"));
-  currentPage = 1;
-  renderPosts();
-  renderPagination();
-};
-filtrTagy.appendChild(resetBtn);
-
-// jednotlivé tagy
-sortedTags.forEach(tag => {
-  const btn = document.createElement("button");
-  btn.className = "button button--secondary button--small btn-filter-blog";
-  btn.innerText = tag;
-  btn.onclick = () => {
-    if (filteredTags.includes(tag)) {
-      filteredTags = filteredTags.filter(t => t !== tag);
-      btn.classList.remove("aktivni");
-    } else {
-      filteredTags.push(tag);
-      btn.classList.add("aktivni");
-    }
-    currentPage = 1;
-    renderPosts();
-    renderPagination();
-  };
-  filtrTagy.appendChild(btn);
 });
 
 // ====== Vyhledávání ======
@@ -112,14 +58,10 @@ function renderPosts() {
 
   const allClanky = Array.from(seznamClanku.children).filter(c => !c.classList.contains("no-posts"));
 
-  // vybereme viditelné články podle tagů a vyhledávání
+  // viditelné články pouze podle title
   const query = vyhledavac.value.toLowerCase();
   const visiblePosts = allClanky.filter(c => {
-    const tags = c.dataset.tags.split(",");
-    const matchesTags = filteredTags.every(t => tags.includes(t));
-    const matchesQuery = c.querySelector(".info h3").innerText.toLowerCase().includes(query) ||
-                         c.querySelector(".info p")?.innerText.toLowerCase().includes(query);
-    return matchesTags && matchesQuery;
+    return c.querySelector(".info h3").innerText.toLowerCase().includes(query);
   });
 
   // všechny články nejdřív skryjeme
@@ -152,11 +94,7 @@ function renderPagination() {
   const query = vyhledavac.value.toLowerCase();
 
   const visiblePosts = allClanky.filter(c => {
-    const tags = c.dataset.tags.split(",");
-    const matchesTags = filteredTags.every(t => tags.includes(t));
-    const matchesQuery = c.querySelector(".info h3").innerText.toLowerCase().includes(query) ||
-                         c.querySelector(".info p")?.innerText.toLowerCase().includes(query);
-    return matchesTags && matchesQuery;
+    return c.querySelector(".info h3").innerText.toLowerCase().includes(query);
   });
 
   const totalPages = Math.ceil(visiblePosts.length / postsPerPage);
