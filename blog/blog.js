@@ -63,6 +63,7 @@ allPosts.forEach(post => {
 // ====== Vytvoření tlačítek tagů ======
 const tagSet = new Set();
 allPosts.forEach(post => post.tags.forEach(t => tagSet.add(t)));
+const sortedTags = Array.from(tagSet).sort((a, b) => a.localeCompare(b, "cs"));
 
 // tlačítko pro zrušení všech filtrů
 const resetBtn = document.createElement("button");
@@ -78,7 +79,7 @@ resetBtn.onclick = () => {
 filtrTagy.appendChild(resetBtn);
 
 // jednotlivé tagy
-tagSet.forEach(tag => {
+sortedTags.forEach(tag => {
   const btn = document.createElement("button");
   btn.className = "button button--secondary button--small btn-filter-blog";
   btn.innerText = tag;

@@ -85,7 +85,7 @@ scripts:
 
 <section class="about-me-homepage section">
   <div class="container about-me-container">
-    <div class="about-me-text">
+    <div class="about-me-text homepage">
       <h2>O mně</h2>
       <p>
         Jmenuji se&nbsp;Jakub Klokan a&nbsp;hraji badminton na&nbsp;mezinárodní

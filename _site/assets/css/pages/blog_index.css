@@ -25,12 +25,6 @@
   align-items: center;
 }
 
-#paginace {
-  min-height: 40px;
-  padding: var(--space-4) 0;
-  text-align: center;
-}
-
 .clanek {
   display: flex;
   align-items: center;
@@ -66,6 +60,7 @@
   display: block;
 }
 
+/* Posts descrition */
 .info {
   display: flex;
   flex-direction: column;
@@ -173,6 +168,12 @@
 }
 
 /* BUTTON NA STRÁNKY DOLE */
+#paginace {
+  min-height: 40px;
+  padding: var(--space-4) 0;
+  text-align: center;
+}
+
 .stranka-btn {
   background-color: #eee;
   border: 1.5px solid #ccc;
@@ -189,12 +190,10 @@
   background-color: #ddd;
 }
 
-.stranka-btn.aktivni {
-  background-color: var(--color-primary-dark);
-  color: white;
-  border-color: black;
+.active-page {
   font-weight: bold;
-  cursor: default;
+  background-color: var(--color-primary-dark);
+  color: var(--color-test);
 }
 
 /* RESPONSIVE */
@@ -252,10 +251,4 @@
   .tags {
     width: 160px;
   }
-}
-
-.active-page {
-  font-weight: bold;
-  background-color: var(--color-primary-dark);
-  color: #fff;
 }

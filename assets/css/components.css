@@ -178,6 +178,15 @@
   background: #2a2a2a;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .card--value {
+    width: 80%;
+  }
+}
+
 /* GRID */
 .grid {
   display: grid;
@@ -203,6 +212,11 @@
   .grid--3,
   .grid--2 {
     grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .grid {
+    gap: var(--space-5);
   }
 
   .grid-mobile-switch {
