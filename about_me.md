@@ -140,40 +140,10 @@ scripts:
       <section class="section">
         <div class="strip">
           <div class="container grid--2 strip-contain grid-mobile-switch">
-            <div class="education-gallery strip-image-container">
-              <picture>
-                <source
-                  srcset="/images/about_me/BWF-Certificate-Jakub_Klokan.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/about_me/BWF-Certificate-Jakub_Klokan.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="/images/about_me/BWF-Certificate-Jakub_Klokan.jpg"
-                  alt="Certifikát od Badmintonové světové organizace"
-                  class="slide aktivni strip-image"
-                  loading="lazy"
-                />
-              </picture>
 
-              <picture>
-                <source
-                  srcset="/images/about_me/WAOS_AC_Cert.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/about_me/WAOS_AC_Cert.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="/images/about_me/WAOS_AC_Cert.jpg"
-                  alt="Certifikát o splnění kurzu"
-                  class="slide strip-image full"
-                  loading="lazy"
-                />
-              </picture>
+            <div class="education-gallery strip-image-container">
+              <img alt="Certifikát od Badmintonové světové organizace" src="/images/about_me/BWF-Certificate-Jakub_Klokan.jpg" class="slide aktivni strip-image" />
+              <img alt="Certifikát o splnění kurzu" src="/images/about_me/WAOS_AC_Cert.jpg" class="slide strip-image full" />
             </div>
 
             <div class="container-text">

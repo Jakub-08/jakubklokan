@@ -114,12 +114,14 @@
     </a>
 
     <div class="header_middle">
+      <!--
       <a
         id="dark-mode-toggle"
         aria-label="Přepnout tmavý režim"
         class="dark-toggle"
         >🌙</a
       >
+      -->
 
       <a href="/">Domů</a>
       <a href="/about_me.html">O mně</a>
@@ -129,6 +131,7 @@
       <a href="/photo_gallery_index.html">Fotogalerie</a>
       <a href="/sponzoring.html#kontakt">Kontakt</a>
 
+      <!--
       <a
         href="/en/about_me_en.html"
         hreflang="en"
@@ -142,6 +145,7 @@
           height="14"
         />
       </a>
+      -->
     </div>
   </div>
 
@@ -156,12 +160,14 @@
         />
       </a>
 
+      <!--
       <a
         id="dark-toggle-mobile"
         aria-label="Přepnout tmavý režim"
         class="dark-toggle"
         >🌙</a
       >
+
 
       <a
         href="/en/about_me_en.html"
@@ -176,6 +182,7 @@
           height="14"
         />
       </a>
+      -->
 
       <input type="checkbox" id="toggle-menu" autocomplete="off" />
       <label for="toggle-menu" class="menu-ikona">
@@ -327,18 +334,10 @@
       <section class="section">
         <div class="strip">
           <div class="container grid--2 strip-contain grid-mobile-switch">
-            <div class="education-gallery strip-image-container">
-              <picture>
-                <source srcset="/images/about_me/BWF-Certificate-Jakub_Klokan.avif" type="image/avif" />
-                <source srcset="/images/about_me/BWF-Certificate-Jakub_Klokan.webp" type="image/webp" />
-                <img src="/images/about_me/BWF-Certificate-Jakub_Klokan.jpg" alt="Certifikát od Badmintonové světové organizace" class="slide aktivni strip-image" loading="lazy" />
-              </picture>
 
-              <picture>
-                <source srcset="/images/about_me/WAOS_AC_Cert.avif" type="image/avif" />
-                <source srcset="/images/about_me/WAOS_AC_Cert.webp" type="image/webp" />
-                <img src="/images/about_me/WAOS_AC_Cert.jpg" alt="Certifikát o splnění kurzu" class="slide strip-image full" loading="lazy" />
-              </picture>
+            <div class="education-gallery strip-image-container">
+              <img alt="Certifikát od Badmintonové světové organizace" src="/images/about_me/BWF-Certificate-Jakub_Klokan.jpg" class="slide aktivni strip-image" />
+              <img alt="Certifikát o splnění kurzu" src="/images/about_me/WAOS_AC_Cert.jpg" class="slide strip-image full" />
             </div>
 
             <div class="container-text">

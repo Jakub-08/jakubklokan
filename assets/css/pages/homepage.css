@@ -53,7 +53,7 @@
 /* MOBILE */
 @media (max-width: 768px) {
   .hero {
-    min-height: 83vh;
+    min-height: 90vh;
   }
   .hero-bg img {
     object-position: 10% 20%;

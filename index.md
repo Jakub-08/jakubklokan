@@ -144,7 +144,7 @@ scripts:
             height="250"
           />
         </picture>
-        <span class="medals-number">30</span>
+        <span class="medals-number">32</span>
       </div>
       <span class="medals-description">Národní medaile</span>
     </div>
@@ -170,7 +170,7 @@ scripts:
           />
         </picture>
 
-        <span class="medals-number">41</span>
+        <span class="medals-number">43</span>
       </div>
       <span class="medals-description">Vítězství GPC a OP</span>
     </div>
