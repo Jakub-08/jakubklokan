@@ -365,7 +365,7 @@ scripts:
         </div>
 
         <div class="contact-form">
-          <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/diky.html">
+          <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/diky/">
             <input type="hidden" name="form-name" value="kontakt" />
             <p style="display:none">
               <label>Nejsi robot? <input name="bot-field" /></label>
