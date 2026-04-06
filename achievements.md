@@ -73,7 +73,7 @@ scripts:
         >Článek na Instagramu</a
       >
       <div class="achievements-card-space-link"></div>
-      <a href="/_posts/2024-09-26-druha-evropska-medaile-ze-zagreb-u17-open.html">Článek na blogu</a>
+      <a href="/2024/12/23/bronz-z-mistrovstvi-ceske-republiky.html">Článek na blogu</a>
     </section>
 
     <section class="achievements-card">
