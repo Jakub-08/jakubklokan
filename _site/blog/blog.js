@@ -110,10 +110,7 @@ function renderPosts() {
   const start = (currentPage - 1) * postsPerPage;
   const end = start + postsPerPage;
 
-  const allClanky = Array.from(seznamClanku.children);
-
-  // všechny články skryjeme
-  allClanky.forEach(c => c.style.display = "none");
+  const allClanky = Array.from(seznamClanku.children).filter(c => !c.classList.contains("no-posts"));
 
   // vybereme viditelné články podle tagů a vyhledávání
   const query = vyhledavac.value.toLowerCase();
@@ -125,13 +122,24 @@ function renderPosts() {
     return matchesTags && matchesQuery;
   });
 
+  // všechny články nejdřív skryjeme
+  allClanky.forEach(c => c.style.display = "none");
+
   if (visiblePosts.length === 0) {
-    seznamClanku.innerHTML = "";
-    const p = document.createElement("p");
-    p.innerText = "Žádné články.";
-    p.classList.add("no-posts");
-    seznamClanku.appendChild(p);
+    // zobrazíme zprávu jen pokud neexistuje
+    let noPosts = document.querySelector(".no-posts");
+    if (!noPosts) {
+      noPosts = document.createElement("p");
+      noPosts.classList.add("no-posts");
+      noPosts.innerText = "Žádné články.";
+      seznamClanku.appendChild(noPosts);
+    }
   } else {
+    // odstraníme zprávu, pokud existuje
+    const noPosts = document.querySelector(".no-posts");
+    if (noPosts) noPosts.remove();
+
+    // zobrazíme viditelné články podle aktuální stránky
     visiblePosts.slice(start, end).forEach(c => c.style.display = "");
   }
 }
@@ -139,12 +147,11 @@ function renderPosts() {
 // ====== Render stránkování ======
 function renderPagination() {
   paginace.innerHTML = "";
-  const allClanky = Array.from(seznamClanku.children);
+
+  const allClanky = Array.from(seznamClanku.children).filter(c => !c.classList.contains("no-posts"));
   const query = vyhledavac.value.toLowerCase();
 
   const visiblePosts = allClanky.filter(c => {
-    // ignorujeme <p class="no-posts">
-    if (c.classList.contains("no-posts")) return false;
     const tags = c.dataset.tags.split(",");
     const matchesTags = filteredTags.every(t => tags.includes(t));
     const matchesQuery = c.querySelector(".info h3").innerText.toLowerCase().includes(query) ||
@@ -153,23 +160,23 @@ function renderPagination() {
   });
 
   const totalPages = Math.ceil(visiblePosts.length / postsPerPage);
+  if (totalPages <= 1) return; // pokud je jen 1 stránka, stránkování se nezobrazí
+
   for (let i = 1; i <= totalPages; i++) {
     const btn = document.createElement("button");
     btn.className = "stranka-btn";
     btn.innerText = i;
 
-    if (i === currentPage) {
-      btn.classList.add("active-page");
-    }
+    if (i === currentPage) btn.classList.add("active-page");
 
     btn.onclick = () => {
       currentPage = i;
       renderPosts();
       renderPagination();
 
-      // scrollnutí k seznamu článků s odsazením (např. filtr nahoře)
+      // scrollnutí k seznamu článků s odsazením
       seznamClanku.scrollIntoView({ behavior: "smooth", block: "start" });
-      window.scrollBy(0, -200); // posun o 200px nahoru
+      window.scrollBy(0, -200);
     };
 
     paginace.appendChild(btn);
