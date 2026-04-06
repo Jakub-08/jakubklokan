@@ -43,7 +43,7 @@ scripts:
         >Článek na Instagramu</a
       >
       <div class="achievements-card-space-link"></div>
-      <a href="/blog/articals/article_68.html">Článek na blogu</a>
+      <a href="/_posts/2024-12-23-bronz-z-mistrovstvi-ceske-republiky.html">Článek na blogu</a>
     </section>
 
     <section class="achievements-card">
@@ -73,7 +73,7 @@ scripts:
         >Článek na Instagramu</a
       >
       <div class="achievements-card-space-link"></div>
-      <a href="/blog/articals/article_61.html">Článek na blogu</a>
+      <a href="/_posts/2024-09-26-druha-evropska-medaile-ze-zagreb-u17-open.html">Článek na blogu</a>
     </section>
 
     <section class="achievements-card">
@@ -103,7 +103,7 @@ scripts:
         >Článek na Instagramu</a
       >
       <div class="achievements-card-space-link"></div>
-      <a href="/blog/articals/article_57.html">Článek na blogu</a>
+      <a href="/_posts/2024-05-28-bronz-z-chorvatska-turnaje-evropskeho-okruhu.html">Článek na blogu</a>
     </section>
 
     <section class="achievements-card">
@@ -135,7 +135,7 @@ scripts:
         >Článek na Instagramu</a
       >
       <div class="achievements-card-space-link"></div>
-      <a href="/blog/articals/article_55.html">Článek na blogu</a>
+      <a href="/_posts/2024-04-21-po-dvou-letech-opet-na-vrcholu-gpa.html">Článek na blogu</a>
     </section>
 
     <section class="achievements-card">
@@ -164,7 +164,7 @@ scripts:
         >Článek na Instagramu</a
       >
       <div class="achievements-card-space-link"></div>
-      <a href="/blog/articals/article_49.html">Článek na blogu</a>
+      <a href="/_posts/2024-02-25-dve-stribra-z-gpa-u17.html">Článek na blogu</a>
     </section>
 
     <section class="achievements-card">
@@ -188,7 +188,7 @@ scripts:
         >Článek na Instagramu</a
       >
       <div class="achievements-card-space-link"></div>
-      <a href="/blog/articals/article_24.html">Článek na blogu</a>
+      <a href="/_posts/2023-05-04-dve-zlata-na-mezinarodnim-turnaji-v-italii.html">Článek na blogu</a>
     </section>
 
     <section class="achievements-card">
