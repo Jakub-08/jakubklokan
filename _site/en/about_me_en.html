@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem("dark-mode");
+          if (
+            saved === "true" ||
+            (!saved &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches)
+          ) {
+            document.documentElement.classList.add("dark-mode");
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preload" as="image" href="/images/about_me/GPAU15202216.avif" />
+    <style>
+      .middle {
+        display: flex;
+        align-items: center;
+      }
+      .left_text {
+        width: 40%;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+      }
+    </style>
+    <link rel="stylesheet" href="/css/about_me.css" fetchpriority="high" />
+    <link
+      rel="preconnect"
+      href="https://www.googletagmanager.com"
+      crossorigin
+    />
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://jakubklokan.cz/Logo_webu_white.svg"
+      type="image/svg+xml"
+    />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-NCZN4K2E8L");
+    </script>
+    <script src="/js/menu-close.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn more about me." />
+    <meta
+      name="keyword"
+      content="badminton, school, sport, about me, education, social media"
+    />
+    <meta name="author" content="Jakub Klokan" />
+    <meta property="og:title" content="Jakub Klokan" />
+    <meta
+      property="og:description"
+      content="My name is Jakub Klokan. I play badminton at the international level and study at the Podkrušnohorské Sports Grammar School in Most."
+    />
+    <meta
+      property="og:image"
+      content="https://jakubklokan.cz/Logo_webu_preview.png"
+    />
+    <meta property="og:url" content="https://www.jakubklokan.cz" />
+    <meta property="og:type" content="website" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jakub Klokan",
+        "url": "https://jakubklokan.cz",
+        "logo": "https://jakubklokan.cz/Logo_webu_preview.png"
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <nav id="horní_lišta" fetchpriority="high">
+        <a href="/en/sponzoring_en.html#kontakt" class="domů">Contact</a>
+        <a href="/en/Photo_gallery_en.html" class="domů">Photo Gallery</a>
+        <a href="/en/sponzoring_en.html" class="domů">Sponsorship</a>
+        <a href="/blog/index.html" class="domů">Blog</a>
+        <a href="/en/achievements_en.html" class="domů">Achievements</a>
+        <a href="/en/about_me_en.html" class="domů">About Me</a>
+        <a href="/en/index_en.html" class="domů">Home</a>
+        <nav class="language-switcher">
+          <ul>
+            <li>
+              <a href="/about_me.html" hreflang="cz" lang="cz">
+                <img src="/images/cz.svg" alt="Czech" width="24" height="16" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          id="dark-mode-toggle"
+          aria-label="Přepnout tmavý režim"
+          class="dark-toggle"
+        >
+          🌙
+        </button>
+        <a href="/en/index_en.html" class="logo_webu">
+          <div>
+            <img
+              src="/Logo_webu_white.svg"
+              alt="logo webu"
+              width="80"
+              height="80"
+            />
+          </div>
+        </a>
+      </nav>
+
+      <nav class="mobilni-menu">
+        <a href="/en/index_en.html">
+          <img
+            src="/Logo_webu_white.svg"
+            alt="logo_webu"
+            height="40"
+            class="mobilni_logo"
+          />
+        </a>
+        <button
+          id="dark-toggle-mobile"
+          aria-label="Přepnout tmavý režim"
+          class="dark-toggle"
+        >
+          🌙
+        </button>
+        <nav class="language-switcher_mobile">
+          <ul>
+            <li>
+              <a href="/en/about_me_en.html" hreflang="cz" lang="cz">
+                <img src="/images/cz.svg" alt="Czech" width="24" height="16" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <input type="checkbox" id="toggle-menu" autocomplete="off" />
+        <label for="toggle-menu" class="menu-ikona">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="odkazy-menu">
+          <li>
+            <a href="/en/index_en.html"
+              ><i class="fa-solid fa-house"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="/en/about_me_en.html"
+              ><i class="fa-solid fa-user"></i>About Me</a
+            >
+          </li>
+          <li>
+            <a href="/en/achievements_en.html"
+              ><i class="fa-solid fa-trophy"></i>Achievements</a
+            >
+          </li>
+          <li>
+            <a href="/blog/index.html"
+              ><i class="fa-solid fa-pencil-alt"></i>Blog</a
+            >
+          </li>
+          <li>
+            <a href="/en/sponzoring_en.html"
+              ><i class="fa-solid fa-hand-holding-dollar"></i>Sponsorship</a
+            >
+          </li>
+          <li>
+            <a href="/en/Photo_gallery_en.html"
+              ><i class="fa-solid fa-camera"></i>Photo Gallery</a
+            >
+          </li>
+          <li>
+            <a href="/en/sponzoring_en.html#kontakt"
+              ><i class="fa-solid fa-envelope"></i>Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <nav class="rozcestí">
+        <a href="#úvod">Introduction</a>
+        <a href="#badminton">Badminton</a>
+        <a href="#škola">School</a>
+        <a href="#vzdělání">Education</a>
+        <a href="#sociální_sítě">Social Media</a>
+      </nav>
+
+      <section class="úvod" id="úvod">
+        <div class="left_text">
+          <h1>Jakub Klokan</h1>
+          <p>
+            My story began on September 11, 2008, when I&nbsp;was born late at
+            night in Most, Czech Republic.<br />My childhood was quite ordinary.
+            I&nbsp; attended
+            <a href="https://www.4zsmost.cz/" target="_blank"
+              >4th&nbsp;Elementary School in Most </a
+            >for the first stage of my education. <br />After fifth grade,
+            I&nbsp;transferred to the eight-year program at
+            <a href="https://www.gymmost.cz/" target="_blank"
+              >Podkrušnohorské Gymnázium in&nbsp;Most</a
+            >.<br />I&nbsp;first encountered badminton in first grade, and
+            I&nbsp;immediately knew it was what I&nbsp;wanted to pursue.
+          </p>
+        </div>
+
+        <picture class="middle">
+          <source
+            srcset="/images/about_me/GPAU15202216.avif"
+            type="image/avif"
+          />
+          <source
+            srcset="/images/about_me/GPAU15202216.webp"
+            type="image/webp"
+          />
+          <img
+            src="/images/about_me/GPAU15202216.jpg"
+            alt="Já s medailem a diplomy z turnaje"
+            width="500"
+            height="500"
+            fetchpriority="high"
+          />
+        </picture>
+      </section>
+
+      <section class="badminton" id="badminton">
+        <div class="right_text">
+          <h2>Badminton Career</h2>
+          <p>
+            From a&nbsp;young age, I&nbsp;loved movement, speed, strength,
+            explosiveness, and precision — coincidentally, the very qualities
+            every badminton player needs.<br />
+            I&nbsp;started playing badminton at the age of 6&nbsp;at the
+            <a href="https://www.superstars-most.net/" target="_blank"
+              >Super Stars Most</a
+            >
+            where I&nbsp;still train under coaches Lukáš Kroc and Veronika
+            Brožkovcová.<br />At first, I&nbsp;played just for fun, without
+            visions or goals. Over time, as I&nbsp;began winning tournaments and
+            receiving awards, my coaches started telling me I&nbsp;had talent
+            and a real chance for a successful career. That’s when a goal — and
+            a dream — was born in my mind: to reach the Olympic stage.
+          </p>
+        </div>
+
+        <picture class="middle">
+          <source srcset="/images/about_me/Malý.avif" type="image/avif" />
+          <source srcset="/images/about_me/Malý.webp" type="image/webp" />
+          <img
+            src="/images/about_me/Malý.jpg"
+            alt="Já v osmi letech"
+            width="500"
+            height="500"
+          />
+        </picture>
+      </section>
+
+      <section class="škola" id="škola">
+        <div class="left_text">
+          <h2>School</h2>
+          <p>
+            Over the years, I&nbsp;attended two schools and studied three
+            different programs. In 2016, I&nbsp;started first grade
+            at&nbsp;Václav Talich Elementary School in&nbsp;Most, where
+            I&nbsp;spent five years before transferring to the eight-year
+            program at
+            <a href="https://www.gymmost.cz/" target="_blank"
+              >Podkrušnohorské Gymnázium Most</a
+            >.<br />Those four years at&nbsp;gymnasium were challenging, very
+            different from elementary school. But they taught me how
+            to&nbsp;study effectively, work independently, and meet
+            deadlines.<br />
+            After completing compulsory education, I&nbsp;changed my program
+            to&nbsp;what I&nbsp;study today:
+            <a href="https://www.gymmost.cz/" target="_blank"
+              >Sports Gymnasium at Podkrušnohorské Gymnázium Most</a
+            >.<br />After high school, I&nbsp;plan to continue my studies at
+            university. I&nbsp;haven’t fully decided on a&nbsp;field yet, but it
+            will likely be related to badminton. We’ll see where life takes me.
+          </p>
+        </div>
+
+        <img
+          src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_7.jpg"
+          alt="Me and my teamate reserving a serve in doubles match"
+          width="500"
+          height="500"
+          loading="lazy"
+          class="middle"
+        />
+      </section>
+
+      <section class="vzdělání" id="vzdělání">
+        <div class="right_text">
+          <h2>Education and Courses</h2>
+          <p>
+            Alongside school, I&nbsp;strive to learn beyond the classroom.
+            I&nbsp;have completed several courses and training programs that
+            expanded my knowledge and skills.<br />A&nbsp;big thank you goes to
+            the
+            <a href="https://www.superstars-most.net/" target="_blank"
+              >Super Stars Most</a
+            >
+            team, who supported my participation in these programs.
+          </p>
+          <ul>
+            <li>
+              Completion of elementary education with annual honors
+              (Most&nbsp;2024)
+            </li>
+            <li>BWF Shuttle Time Youth Leadership (Bahrain&nbsp;2024)</li>
+            <li>Mental Health Course (Bahrain 2024)</li>
+            <li>
+              WAoS Athlete Certificate (Online&nbsp;-&nbsp;Most&nbsp;2024)
+            </li>
+          </ul>
+        </div>
+
+        <div class="minigalerie">
+          <picture>
+            <source
+              srcset="/images/about_me/BWF-Certificate-Jakub_Klokan.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/about_me/BWF-Certificate-Jakub_Klokan.webp"
+              type="image/webp"
+            />
+            <img
+              src="/images/about_me/BWF-Certificate-Jakub_Klokan.jpg"
+              alt="Certicate of completing the BWF Shuttle Time Youth Leadership course"
+              class="slide aktivni"
+              width="400"
+              height="500"
+              loading="lazy"
+            />
+          </picture>
+
+          <picture>
+            <source
+              srcset="/images/about_me/WAOS_AC_Cert.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/about_me/WAOS_AC_Cert.webp"
+              type="image/webp"
+            />
+            <img
+              src="/images/about_me/WAOS_AC_Cert.jpg"
+              alt="Certificate of completing the WAoS Athlete Certificate course"
+              width="400"
+              height="500"
+              class="slide"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+
+        <script>
+          let index = 0;
+          const slides = document.querySelectorAll(".slide");
+
+          setInterval(() => {
+            slides[index].classList.remove("aktivni");
+            index = (index + 1) % slides.length;
+            slides[index].classList.add("aktivni");
+          }, 5000); // přepnutí každé 3 sekundy
+        </script>
+      </section>
+
+      <section class="sociální_sítě" id="sociální_sítě">
+        <div class="left_text">
+          <h2>Social Media</h2>
+          <p>
+            In summer 2022, I&nbsp;decided to share my journey and inspire
+            others with what I&nbsp;do. I started posting videos and updates
+            from tournaments, training sessions, international trips, and
+            a&nbsp;glimpse into my personal life.<br />
+            Social media has become a&nbsp;secondary hobby — time is limited,
+            but I&nbsp; strive for the best results. I&nbsp;would be very happy
+            if&nbsp;you start following me on my social channels. I&nbsp;am most
+            active on
+            <a href="https://www.instagram.com/jakub.klokan" target="_blank"
+              >Instagramu</a
+            >. Thank&nbsp;you!
+          </p>
+        </div>
+
+        <picture class="middle">
+          <source srcset="/images/about_me/Flying.avif" type="image/avif" />
+          <source srcset="/images/about_me/Flying.webp" type="image/webp" />
+          <img
+            src="/images/about_me/Flying.jpeg"
+            alt="Fotka západu slunce z letadla"
+            width="500"
+            height="500"
+            loading="lazy"
+          />
+        </picture>
+      </section>
+    </main>
+
+    <footer>
+      <div class="záhlaví">
+        <div class="text-footer">
+          <img
+            src="/Logo_webu_white.svg"
+            alt="logo_webu"
+            height="110"
+            width="110"
+          />
+          <span>
+            My name is Jakub Klokan, and I&nbsp;am a&nbsp;top-level badminton
+            player from the Czech Republic. I&nbsp;compete in both national and
+            international tournaments,&nbsp;from which I&nbsp;have brought home
+            numerous medals.<br />
+            I&nbsp;am also a&nbsp;student at the Podkrušnohorské Sports Grammar
+            School in&nbsp;Most.
+          </span>
+        </div>
+        <div class="oddělení"></div>
+        <nav class="odkazy">
+          <a href="/en/index_en.html">Home</a>
+          <a href="/en/about_me_en.html">About Me</a>
+          <a href="/en/achievements_en.html">Achievements</a>
+          <a href="/blog/index.html">Blog</a>
+          <a href="/en/sponzoring_en.html">Sponsorship</a>
+          <a href="/en/Photo_gallery_en.html">Photo Gallery</a>
+          <a href="/en/sponzoring_en.html#kontakt">Contact</a>
+        </nav>
+        <div class="oddělení"></div>
+        <div class="kontakty">
+          <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+            <img
+              src="/images/homepage/instagram-white-simple.svg"
+              alt="logo Instagramu"
+              height="40"
+              width="40"
+            />
+            <span>@Jakub.klokan</span>
+          </a>
+          <a href="https://m.facebook.com/klokanjakub/" target="_blank">
+            <img
+              src="/images/homepage/facebook-white-simple.svg"
+              alt="logo Facebooku"
+              height="40"
+              width="40"
+            />
+            <span>@Jakub Klokan</span>
+          </a>
+          <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
+            <img
+              src="/images/homepage/email-envelope-white-icon.svg"
+              alt="ikona telefonu"
+              height="40"
+              width="40"
+            />
+            <span>klokan.jakub08@gmail.com</span>
+          </a>
+          <div class="phone">
+            <img
+              src="/images/homepage/phone-white-simple.svg"
+              alt="ikona E-mailu"
+              height="40"
+              width="40"
+            />
+            <span>+420 608 021 109</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="oddělení"></div>
+
+      <section id="blog-proklik">
+        <h3>Latest Posts</h3>
+        <div class="blog-ctverce" id="blog-prehled-seznam"></div>
+        <a href="/blog/index.html" class="zobrazit-vse">View All</a>
+      </section>
+
+      <script src="/js/blog-footer.js"></script>
+
+      <div class="oddělení"></div>
+      <p class="copyright">© 2026 Jakub Klokan</p>
+      <p class="copyright" id="copa_photo">Photos used on this website:</p>
+      <p class="copyright">© Super Stars Most</p>
+      <p class="copyright">© Tomáš Kretek / Badminton Plzeň</p>
+    </footer>
+    <script src="/js/dark-mode.js"></script>
+  </body>
+</html>
