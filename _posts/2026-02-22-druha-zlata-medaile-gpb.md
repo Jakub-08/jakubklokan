@@ -28,5 +28,3 @@ Třetí disciplínou byla čtyřhra s Danielem Čadou. První den jsme se **be
 Celkově jsem odehrál 14 zápasů během dvou dnů – **12 vítězství a 2 porážky**. Výsledky i výkon hodnotím velmi pozitivně a beru je jako povzbuzení do další práce.
 
 > Děkuji týmu Super Stars Most za důkladnou přípravu a také mému sponzoru PEYTON Legal.
-
-![Společně s Terkou Čechovou s cenami](/blog/images/2026-02-22-gpb-awards.jpg)

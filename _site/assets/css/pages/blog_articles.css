@@ -1,7 +1,7 @@
 .blog-article-h1 {
   color: var(--color-text-dark);
   text-align: center;
-  margin: 0px auto 10px;
+  margin: 0px auto var(--space-3);
 }
 
 .button.article {
@@ -16,7 +16,7 @@
 }
 
 .text {
-  font-size: 1.1rem;
+  font-size: var(--fotn-lg);
   line-height: 1.6;
   padding: var(--space-5);
   background-color: rgba(202, 202, 202, 0.815);
@@ -26,16 +26,16 @@
   width: 70%;
   display: block;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: var(--space-7);
 }
 
 .text h2 {
   margin-top: var(--space-2);
-  padding-bottom: 0.2em;
+  padding-bottom: var(--space-1);
 }
 
 .text p {
-  margin-bottom: 1.2em;
+  margin-bottom: var(--space-4);
 }
 
 .separate-line.article {
@@ -55,6 +55,7 @@
 
 .img.article {
   width: 600px;
+  max-width: 90vw;
   aspect-ratio: 1 / 1;
   display: block;
   margin: 0 auto;
@@ -64,24 +65,32 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+blockquote p {
+  text-align: center;
+}
+
 /* TAGS */
 .tags {
   width: 150px;
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
+  margin-top: var(--space-4);
 }
 
 .tag {
   display: inline-block;
   background: var(--color-primary-dark);
   color: var(--color-text-dark);
-  padding: 5px 10px;
-  margin: 5px 8px 0 auto;
+  padding: var(--space-1) var(--space-2);
+  margin: var(--space-1) var(--space-2) 0 auto;
   border-radius: 15px;
-  font-size: 0.7rem;
+  font-size: var(--font-xs);
   cursor: default;
   user-select: none;
+}
+
+.tag.post {
+  margin: var(--space-1) auto 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -89,7 +98,7 @@
     display: none;
   }
   .blog-article-h1 {
-    margin-top: 50px;
+    margin-top: var(--space-7);
   }
   .text {
     width: 95vw;
@@ -103,5 +112,15 @@
     margin: var(--space-6) auto var(--space-2) auto;
     display: flex;
     justify-content: center;
+    min-width: 105px;
+  }
+  .tag {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .tags {
+    width: 160px;
   }
 }

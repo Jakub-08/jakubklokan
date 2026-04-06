@@ -8,7 +8,7 @@ description: "Sledujte mojí cestu pomocí pravidelných příspěvků."
   <h1 class="blog-intro-1">Vítejte na mém blogu</h1>
   <div class="separate-line separate-line-blog"></div>
   <h2 class="blog-intro-2">
-    Pravidelně zde přidávám nejnovější články z turnajů a akcí.
+    Pravidelně zde přidávám nejnovější články z&nbsp;turnajů a&nbsp;akcí.
   </h2>
 
   <div id="filtr-panel" class="container">
