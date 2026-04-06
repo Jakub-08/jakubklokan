@@ -29,7 +29,7 @@
   color: var(--color-text);
   text-align: center;
 
-  padding: 15vh 8% 10vh 50%;
+  padding: 15vh 8% 20vh 50%;
 }
 
 .hero-text-line {
@@ -42,11 +42,11 @@
 .hero p {
   color: var(--color-text);
   font-size: var(--font-lg);
-  margin-top: var(--space-7);
+  margin-top: var(--space-6);
 }
 
 .hero-cta {
-  margin-top: var(--space-5);
+  margin-top: var(--space-3);
 }
 
 /* RESPONZIVE */
@@ -69,7 +69,7 @@
     font-size: 1.1rem;
   }
   .hero-text {
-    padding: 20vh 0 10vh 0;
+    padding: 20vh 0 20vh 0;
   }
 }
 
@@ -336,11 +336,6 @@
   margin: var(--space-3) auto; /* mezera nad a pod linkou */
   width: 60%;
 }
-
-
-
-
-
 
 .hero {
   position: relative; /* už je, super */
