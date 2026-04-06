@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ---
 layout: none
 ---
@@ -11,4 +12,983 @@ layout: none
   "image": "{{ post.image }}"
 }{% unless forloop.last %},{% endunless %}
 {% endfor %}
+=======
+[
+  {
+    "title": "Druhá zlatá medaile z GPB",
+    "filename": "/blog/articals/article_89.html",
+    "date": "2026-02-22",
+    "image": "/blog/blog-images/article-89.png",
+    "description": "Získal jsem třetí zlatou medaili z národního turnaje...",
+    "tags": [
+      "Národní turnaje",
+      "2026"
+    ]
+  },
+  {
+    "title": "Další národní medaile z Grand Prix A U19",
+    "filename": "/blog/articals/article_88.html",
+    "date": "2026-01-25",
+    "image": "/blog/blog-images/article-88.png",
+    "description": "Na národním turnaji Grand Prix A kategorie U19 jsem si připsal...",
+    "tags": [
+      "Národní turnaje",
+      "2026"
+    ]
+  },
+  {
+    "title": "Poděkování sponzorům ze sezóny 2025",
+    "filename": "/blog/articals/article_87.html",
+    "date": "2026-01-02",
+    "image": "/blog/blog-images/article-87.png",
+    "description": "Rád bych se ohlédl za rokem 2025 a poděkoval svým sponzorům...",
+    "tags": [
+      "Ohlédnutí",
+      "2025"
+    ]
+  },
+  {
+    "title": "Sezóna 2025 je u konce",
+    "filename": "/blog/articals/article_86.html",
+    "date": "2025-12-31",
+    "image": "/blog/blog-images/article-86.png",
+    "description": "Rok 2025 je u konce a nabízí ideální prostor k ohlédnutí...",
+    "tags": [
+      "Ohlédnutí",
+      "2025"
+    ]
+  },
+  {
+    "title": "Vánoční turnaj tříčlenných družstev",
+    "filename": "/blog/articals/article_85.html",
+    "date": "2025-12-31",
+    "image": "/blog/blog-images/article-85.png",
+    "description": "Výhra tradičního turnaje tříčlených družstev...",
+    "tags": [
+      "Soutěže",
+      "2025"
+    ]
+  },
+  {
+    "title": "Mistrovství České republiky U19",
+    "filename": "/blog/articals/article_84.html",
+    "date": "2025-12-31",
+    "image": "/blog/blog-images/article-84.png",
+    "description": "Vrchol sezóny 2025 pro mě představovalo Mistrovství České...",
+    "tags": [
+      "Národní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "Czech Junior International U19 2025",
+    "filename": "/blog/articals/article_83.html",
+    "date": "2025-11-17",
+    "image": "/blog/blog-images/article-83.png",
+    "description": "Ve vzdálené Orlové se uskutečnilo Mezinárodní...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "Severočeský přebor U19",
+    "filename": "/blog/articals/article_82.html",
+    "date": "2025-10-27",
+    "image": "/blog/blog-images/article-82.png",
+    "description": "Opět po roce mě čekal severočeský přebor...",
+    "tags": [
+      "Soutěže",
+      "2025"
+    ]
+  },
+  {
+    "title": "VICTOR Croatian International 2025",
+    "filename": "/blog/articals/article_81.html",
+    "date": "2025-09-28",
+    "image": "/blog/blog-images/article-81.png",
+    "description": "První mezinárodní turnaj mezi dospělými...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "Náročná letní tréninková příprava",
+    "filename": "/blog/articals/article_80.html",
+    "date": "2025-09-01",
+    "image": "/blog/blog-images/article-80.avif",
+    "description": "Toto léto mě opět čekala náročná tréninková příprava...",
+    "tags": [
+      "Soustředění",
+      "2025"
+    ]
+  },
+  {
+    "title": "VICTOR Bulgarian Junior Challenge",
+    "filename": "/blog/articals/article_79.html",
+    "date": "2025-07-01",
+    "image": "/blog/blog-images/article-79.avif",
+    "description": "Ve dvouhře jsem skončil v top 32, když jsem celkem snadno...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "První čtvrtfinále na Bulgarian Junior U19 International",
+    "filename": "/blog/articals/article_78.html",
+    "date": "2025-05-10",
+    "image": "/blog/blog-images/article-78.avif",
+    "description": "První čtvrtfinále na okruhovém turnaji v kategorii U19...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "Znova na stupních vítězů na GPA U19",
+    "filename": "/blog/articals/article_77.html",
+    "date": "2025-05-09",
+    "image": "/blog/blog-images/article-77.avif",
+    "description": "Vyhráli jsem další medaili z národního turnaje Grand Prix A...",
+    "tags": [
+      "Národní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "Vítězství na domácím Poháru Akademie",
+    "filename": "/blog/articals/article_76.html",
+    "date": "2025-04-15",
+    "image": "/blog/blog-images/article-76.avif",
+    "description": "Jen pár dní po turnaji ve francouzském Voironu...",
+    "tags": [
+      "Soutěže",
+      "2025"
+    ]
+  },
+  {
+    "title": "Knihovna poznatků z Alpes International U19",
+    "filename": "/blog/articals/article_75.html",
+    "date": "2025-04-11",
+    "image": "/blog/blog-images/article-75.avif",
+    "description": "Zúčastnili jsme se dalšího turnaje světového okruhu. FZ FORZA...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "Jsme vítězové II. Ligy !!!",
+    "filename": "/blog/articals/article_74.html",
+    "date": "2025-04-09",
+    "image": "/blog/blog-images/article-74.avif",
+    "description": "Vyhráli jsme Play-Off II. ligy smíšených družstev dospělých...",
+    "tags": [
+      "Družstva",
+      "2025"
+    ]
+  },
+  {
+    "title": "Světová špička na YONEX German Junior International",
+    "filename": "/blog/articals/article_73.html",
+    "date": "2025-03-08",
+    "image": "/blog/blog-images/article-73.avif",
+    "description": "První okruhový světový turnaj, a to hnedka nejvyšší úrovně...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "Nečekané stříbro z plzeňského GPA U19",
+    "filename": "/blog/articals/article_72.html",
+    "date": "2025-02-19",
+    "image": "/blog/blog-images/article-72.webp",
+    "description": "Hnedka stříbro z prvního národního turnaje v nové sezóně...",
+    "tags": [
+      "Národní turnaje",
+      "2025"
+    ]
+  },
+  {
+    "title": "Anketa: Nejúspěšnější sportovec roku 2024",
+    "filename": "/blog/articals/article_71.html",
+    "date": "2025-02-18",
+    "image": "/blog/blog-images/article-71.avif",
+    "description": "Ocenění za úspěšnou minulou sezónu 2024 od České unie sportu...",
+    "tags": [
+      "Ocenění",
+      "2025"
+    ]
+  },
+  {
+    "title": "Tvrdý mentální trénink při GPC U19",
+    "filename": "/blog/articals/article_70.html",
+    "date": "2025-01-27",
+    "image": "/blog/blog-images/article-70.avif",
+    "description": "Po dosti letech jsem se dostal opět na místo, kde jsem hrál svůj...",
+    "tags": [
+      "Soutěže",
+      "2025"
+    ]
+  },
+  {
+    "title": "Shrnutí sezóny 2024",
+    "filename": "/blog/articals/article_69.html",
+    "date": "2024-12-31",
+    "image": "/blog/blog-images/article-69.webp",
+    "description": "Sezóna 2024... opět plná úspěchů...",
+    "tags": [
+      "Ohlédnutí",
+      "2024"
+    ]
+  },
+  {
+    "title": "Bronz z mistrovství české republiky",
+    "filename": "/blog/articals/article_68.html",
+    "date": "2024-12-23",
+    "image": "/blog/blog-images/article-68.avif",
+    "description": "Poslední turnaj a zároveň vrchol sezóny 2024... MČR U17...",
+    "tags": [
+      "Národní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Dvojnásobný přeborník severočeské oblasti",
+    "filename": "/blog/articals/article_67.html",
+    "date": "2024-11-20",
+    "image": "/blog/blog-images/article-67.avif",
+    "description": "Jsem opět dvojnásobný přeborník severočeské oblasti...",
+    "tags": [
+      "Soutěže",
+      "2024"
+    ]
+  },
+  {
+    "title": "Osmifinále na světové Gymnasiade Bahrain 2024",
+    "filename": "/blog/articals/article_66.html",
+    "date": "2024-11-15",
+    "image": "/blog/blog-images/article-66.avif",
+    "description": "Individuální část světové Gymnasiády v Bahrainu...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "BWF Shuttle Time Youth Leadership & Mental Health",
+    "filename": "/blog/articals/article_65.html",
+    "date": "2024-11-14",
+    "image": "/blog/blog-images/article-65.avif",
+    "description": "Mezi týmovou a individuální částí Gymnasiády jsme stihli..",
+    "tags": [
+      "2024"
+    ]
+  },
+  {
+    "title": "Světová Gymnasiáda v Bahrajnu",
+    "filename": "/blog/articals/article_64.html",
+    "date": "2024-11-13",
+    "image": "/blog/blog-images/article-64.avif",
+    "description": "Soutěž, na kterou jsem se opravdu dlouho těšil, světová Gymnasiáda...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Osmifinále ve dvouhře na YONEX German Ruhr U17 International",
+    "filename": "/blog/articals/article_63.html",
+    "date": "2024-10-15",
+    "image": "/blog/blog-images/article-63.avif",
+    "description": "Osmifinále na velmi obsazeném turnaji YONEX German Ruhr U17...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Kousek do medaile na Slovak Youth U17",
+    "filename": "/blog/articals/article_62.html",
+    "date": "2024-10-06",
+    "image": "/blog/blog-images/article-62.avif",
+    "description": "Týden po úspěšném Zagreb U17 Open 🇭🇷, kde jsme získali...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Druhá evropská medaile ze Zagreb U17 Open",
+    "filename": "/blog/articals/article_61.html",
+    "date": "2024-09-26",
+    "image": "/blog/blog-images/article-61.avif",
+    "description": "Druhá medaile z turnaje evropského okruhu Zagreb U17 Open...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Další dvě medaile z celostátních soutěží",
+    "filename": "/blog/articals/article_60.html",
+    "date": "2024-09-14",
+    "image": "/blog/blog-images/article-60.avif",
+    "description": "Další dvě medaile z turnaje Grand Prix A...",
+    "tags": [
+      "Národní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Osm týdnů ... přes 200h tréninku",
+    "filename": "/blog/articals/article_59.html",
+    "date": "2024-09-03",
+    "image": "/blog/blog-images/article-59.avif",
+    "description": "Osm týdnů tvrdé práce, dvou nebo tří fázový režim, je za mnou...",
+    "tags": [
+      "Soustředění",
+      "2024"
+    ]
+  },
+  {
+    "title": "Neúprosné teplo na turnaji Serbian U17 International",
+    "filename": "/blog/articals/article_58.html",
+    "date": "2024-06-27",
+    "image": "/blog/blog-images/article-58.avif",
+    "description": "Serbian U17 International, jeden ze dvou nejlépe hodnocených BEC...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Bronz z Chorvatska, turnaje evropského okruhu!!",
+    "filename": "/blog/articals/article_57.html",
+    "date": "2024-05-28",
+    "image": "/blog/blog-images/article-57.png",
+    "description": "První medaile z turnaje evropského okruhu!...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Štěstí v los na Austrian U17 Open",
+    "filename": "/blog/articals/article_56.html",
+    "date": "2024-05-05",
+    "image": "/blog/blog-images/article-56.avif",
+    "description": "První mezinárodní turnaj sezóny 2024 v blízkém Rakousku...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Po dvou letech opět na vrcholu GPA",
+    "filename": "/blog/articals/article_55.html",
+    "date": "2024-04-21",
+    "image": "/blog/blog-images/article-55.avif",
+    "description": "Zlatá medaile z národního GPA U17 a k tomu stříbro ze dvouhry...",
+    "tags": [
+      "Národní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Zlato z GPC dospělých a v top 50 v ČR",
+    "filename": "/blog/articals/article_54.html",
+    "date": "2024-04-21",
+    "image": "/blog/blog-images/article-54.avif",
+    "description": "Další zlatá medaile z Grand Prix C mezi dospělými...",
+    "tags": [
+      "Soutěže",
+      "2024"
+    ]
+  },
+  {
+    "title": "Zkušenosti z Grand Prix A dospělých",
+    "filename": "/blog/articals/article_53.html",
+    "date": "2024-04-21",
+    "image": "/blog/blog-images/article-53.avif",
+    "description": "Mé první GPA mezi nejstaršími, tedy dospělými...",
+    "tags": [
+      "Národní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Pět dní ukrutný bolesti",
+    "filename": "/blog/articals/article_52.html",
+    "date": "2024-03-17",
+    "image": "/blog/blog-images/article-52.avif",
+    "description": "Týden oproštění od školy, jde krásně využít k velkému...",
+    "tags": [
+      "Soustředění",
+      "2024"
+    ]
+  },
+  {
+    "title": "Třetí kolo OP smíšených družstev dospělých",
+    "filename": "/blog/articals/article_51.html",
+    "date": "2024-02-25",
+    "image": "/blog/blog-images/article-51.avif",
+    "description": "Poslední kolo družstev dospělých před Play-off bylo pro nás těsné...",
+    "tags": [
+      "Družstva",
+      "2024"
+    ]
+  },
+  {
+    "title": "Čtvrtfinále z Grand Prix A U19",
+    "filename": "/blog/articals/article_50.html",
+    "date": "2024-02-25",
+    "image": "/blog/blog-images/article-50.avif",
+    "description": "3 týdny po GPA U17 v Dobrušce se konalo i GPA...",
+    "tags": [
+      "Národní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Dvě stříbra z GPA U17",
+    "filename": "/blog/articals/article_49.html",
+    "date": "2024-02-25",
+    "image": "/blog/blog-images/article-49.avif",
+    "description": "Hnedka z kraje nové sezóny dvě stříbrná místa na národním...",
+    "tags": [
+      "Národní turnaje",
+      "2024"
+    ]
+  },
+  {
+    "title": "Mostecké derby v družstvech dospělých",
+    "filename": "/blog/articals/article_48.html",
+    "date": "2024-02-25",
+    "image": "/blog/blog-images/article-48.avif",
+    "description": "Druhé kolo družstev dospělých dopadlo vítězně...",
+    "tags": [
+      "Družstva",
+      "2024"
+    ]
+  },
+  {
+    "title": "Sezóna 2023",
+    "filename": "/blog/articals/article_47.html",
+    "date": "2024-01-05",
+    "image": "/blog/blog-images/article-47.avif",
+    "description": "Sezóna 2023, byla pro mě zkouškou. Kvůli přestupu do vyšší kategorie...",
+    "tags": [
+      "Ohlédnutí",
+      "2023"
+    ]
+  },
+  {
+    "title": "Zase po roce družstva dospělých",
+    "filename": "/blog/articals/article_46.html",
+    "date": "2024-01-05",
+    "image": "/blog/blog-images/article-46.avif",
+    "description": "Po roce, kdy jsme se dostali až do play-off...",
+    "tags": [
+      "Družstva",
+      "2024"
+    ]
+  },
+  {
+    "title": "Zkušenosti a poznatky z MČR U19",
+    "filename": "/blog/articals/article_45.html",
+    "date": "2023-12-10",
+    "image": "/blog/blog-images/article-45.avif",
+    "description": "Poslední mistrovství v již končícím roce 2023 bylo zajímavé...",
+    "tags": [
+      "Národní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Mistrovství ČR kategorie U17 dopadlo pozitivně",
+    "filename": "/blog/articals/article_44.html",
+    "date": "2023-12-10",
+    "image": "/blog/blog-images/article-44.avif",
+    "description": "Mistrovství ČR kategorie U17 dopadlo pozitivně...",
+    "tags": [
+      "Národní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Dvojnásobný severočeský přeborník",
+    "filename": "/blog/articals/article_43.html",
+    "date": "2023-10-22",
+    "image": "/blog/blog-images/article-43.avif",
+    "description": "Tuto sobotu se v Liberci konal severočeský Oblastní přebor...",
+    "tags": [
+      "Soutěže",
+      "2023"
+    ]
+  },
+  {
+    "title": "• Září •",
+    "filename": "/blog/articals/article_42.html",
+    "date": "2023-10-06",
+    "image": "/blog/blog-images/article-42.avif",
+    "description": "Září bylo zkouškou po letní přípravě 🏸. Hodně věcí se velmi zlepšilo..",
+    "tags": [
+      "Ohlédnutí",
+      "2023"
+    ]
+  },
+  {
+    "title": "Účast na Mistrovství ČR družstev dorostu",
+    "filename": "/blog/articals/article_41.html",
+    "date": "2023-10-06",
+    "image": "/blog/blog-images/article-41.avif",
+    "description": "Nakonec jsme se kvalifikovali na MČR družstev dorostu...",
+    "tags": [
+      "Družstva",
+      "2023"
+    ]
+  },
+  {
+    "title": "První mezinárodní turnaj podzimní části sezóny",
+    "filename": "/blog/articals/article_40.html",
+    "date": "2023-09-24",
+    "image": "/blog/blog-images/article-40.avif",
+    "description": "Tentokrát jsem vyjel do Chorvatska na turnaj 7th LI-NING Zagreb U17 open...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Oblastní přebor družstev dorostu",
+    "filename": "/blog/articals/article_39.html",
+    "date": "2023-09-18",
+    "image": "/blog/blog-images/article-39.avif",
+    "description": "Nabyto velké množství nových zkušeností jako tým, i individuálně...",
+    "tags": [
+      "Družstva",
+      "2023"
+    ]
+  },
+  {
+    "title": "Grand Prix A U17 a dvojnásobná účast v druhém kole",
+    "filename": "/blog/articals/article_38.html",
+    "date": "2023-09-10",
+    "image": "/blog/blog-images/article-38.avif",
+    "description": "Národní turnaj, Grand Prix A U17, a dvojnásobná účast...",
+    "tags": [
+      "Národní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Shrnutí letní přípravy",
+    "filename": "/blog/articals/article_37.html",
+    "date": "2023-09-05",
+    "image": "/blog/blog-images/article-37.avif",
+    "description": "Přes 120 hodin tréninků rozdělených do 4 fází...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "Summer School II",
+    "filename": "/blog/articals/article_36.html",
+    "date": "2023-09-02",
+    "image": "/blog/blog-images/article-36.avif",
+    "description": "Čtvrtá a zároveň poslední část letní přípravy...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "19th Victor International Super Stars Camp 2023",
+    "filename": "/blog/articals/article_35.html",
+    "date": "2023-08-21",
+    "image": "/blog/blog-images/article-35.avif",
+    "description": "Pod vedením, bývalého 10. hráče světa v mužské dvouhře...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "Druzí na Sudhakar Reddy Cupu 2023",
+    "filename": "/blog/articals/article_34.html",
+    "date": "2023-08-19",
+    "image": "/blog/blog-images/article-34.avif",
+    "description": "Každoroční zpestření Mezinárodního Super Stars Most Campu...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "Summer school I",
+    "filename": "/blog/articals/article_33.html",
+    "date": "2023-08-19",
+    "image": "/blog/blog-images/article-33.avif",
+    "description": "Jako druhý týden přípravy, jsem se účastnil Summer school I...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "Letní kondiční soustředění v Krkonoších",
+    "filename": "/blog/articals/article_32.html",
+    "date": "2023-08-19",
+    "image": "/blog/blog-images/article-32.avif",
+    "description": "Letní kondiční soustředění...16 tréninků...přes 24 hodin...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "Skoro jsem jel na Serbian U17 International",
+    "filename": "/blog/articals/article_31.html",
+    "date": "2023-06-23",
+    "image": "/blog/blog-images/article-31.avif",
+    "description": "Skoro vše už bylo připraveno, abych se mohl utkat...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Dvě medaile z GPC U19 na domácí půdě",
+    "filename": "/blog/articals/article_30.html",
+    "date": "2023-06-19",
+    "image": "/blog/blog-images/article-30.avif",
+    "description": "rvní medaile byla ze dvouhry, když jsem jako druhý nasazený...",
+    "tags": [
+      "Soutěže",
+      "2023"
+    ]
+  },
+  {
+    "title": "Zlato a stříbro z Grand Prix C U19",
+    "filename": "/blog/articals/article_29.html",
+    "date": "2023-05-29",
+    "image": "/blog/blog-images/article-29.avif",
+    "description": "Další vítězství ve dvouhře na Grand Prix C U19...",
+    "tags": [
+      "Soutěže",
+      "2023"
+    ]
+  },
+  {
+    "title": "Adria U17 international 2023",
+    "filename": "/blog/articals/article_28.html",
+    "date": "2023-05-26",
+    "image": "/blog/blog-images/article-28.avif",
+    "description": "Adria U17 International 2023...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Výhra národního titulu před rokem",
+    "filename": "/blog/articals/article_27.html",
+    "date": "2023-05-08",
+    "image": "/blog/blog-images/article-27.avif",
+    "description": "Asi není náhoda, že jsem v ten samý víkend...",
+    "tags": [
+      "Ohlédnutí",
+      "2023"
+    ]
+  },
+  {
+    "title": "Můj první úspěšný turnaj přesně před 7 lety",
+    "filename": "/blog/articals/article_26.html",
+    "date": "2023-05-07",
+    "image": "/blog/blog-images/article-26.avif",
+    "description": "Přesně před 7 lety jsem se zúčastnil mého prvního...",
+    "tags": [
+      "Ohlédnutí"
+    ]
+  },
+  {
+    "title": "• Duben •",
+    "filename": "/blog/articals/article_25.html",
+    "date": "2023-05-05",
+    "image": "/blog/blog-images/article-25.avif",
+    "description": "V dubnu jsem absolvoval hned 4 turnaje a odvezl jsem si tři zlaté medaile...",
+    "tags": [
+      "Ohlédnutí",
+      "2023"
+    ]
+  },
+  {
+    "title": "Dvě zlata na mezinárodním turnaji v Itálii",
+    "filename": "/blog/articals/article_24.html",
+    "date": "2023-05-04",
+    "image": "/blog/blog-images/article-24.avif",
+    "description": "Turnaj, Torneo Internazionale primavera di Bolzano, který se hrál 750m...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "YONEX Bozner Cup U17 International, velká dávka zkušeností",
+    "filename": "/blog/articals/article_23.html",
+    "date": "2023-05-04",
+    "image": "/blog/blog-images/article-23.avif",
+    "description": "Můj první Evropský okruh skončil s velkou dávkou zkušeností...",
+    "tags": [
+      "Mezinárodní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Boj o medaili na národním turnaji GPA U17",
+    "filename": "/blog/articals/article_22.html",
+    "date": "2023-04-27",
+    "image": "/blog/blog-images/article-22.avif",
+    "description": "Po povedeném turnaji GPC U19 a chvíli odpočinku jsem odjel do Brna...",
+    "tags": [
+      "Národní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Rekapitulace března",
+    "filename": "/blog/articals/article_21.html",
+    "date": "2023-04-02",
+    "image": "/blog/blog-images/article-21.avif",
+    "description": "Březen byl stále hlavně o trénincích a přípravě na Grand Prix A U17...",
+    "tags": [
+      "Ohlédnutí",
+      "2023"
+    ]
+  },
+  {
+    "title": "Zlato z Grand Prix C U19",
+    "filename": "/blog/articals/article_20.html",
+    "date": "2023-04-01",
+    "image": "/blog/blog-images/article-20.avif",
+    "description": "Začal Duben a hnedka zlato z Grand Prix C U19...",
+    "tags": [
+      "Soutěže",
+      "2023"
+    ]
+  },
+  {
+    "title": "Skvělý výkon na národní soutěži Grand Prix B U19",
+    "filename": "/blog/articals/article_19.html",
+    "date": "2023-03-26",
+    "image": "/blog/blog-images/article-19.avif",
+    "description": "Můj poslední březnový turnaj, Grand Prix B U19, skočil pozitivně...",
+    "tags": [
+      "Národní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Před třemi týdny skončilo jarní soustředění",
+    "filename": "/blog/articals/article_18.html",
+    "date": "2023-03-24",
+    "image": "/blog/blog-images/article-18.avif",
+    "description": "Přesně před třemi týdny skončilo Super Stars Most jarní soustředění...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "Play-off oblastního přeboru družstev dospělých",
+    "filename": "/blog/articals/article_17.html",
+    "date": "2023-03-18",
+    "image": "/blog/blog-images/article-17.avif",
+    "description": "Poslední kolo, tedy play-off, oblastního přeboru družstev dospělých...",
+    "tags": [
+      "Družstva",
+      "2023"
+    ]
+  },
+  {
+    "title": "Připomenutí sezóny 2022",
+    "filename": "/blog/articals/article_16.html",
+    "date": "2023-03-11",
+    "image": "/blog/blog-images/article-16.avif",
+    "description": "Ještě malé připomenutí, pro mě nejvydařenější sezóna kariéry...",
+    "tags": [
+      "Ohlédnutí",
+      "2022"
+    ]
+  },
+  {
+    "title": "Grand Prix B U17, další dvě čtvrtfinále",
+    "filename": "/blog/articals/article_15.html",
+    "date": "2023-03-07",
+    "image": "/blog/blog-images/article-15.avif",
+    "description": "Po minulém Grand Prix A U17 v Hradci Králové...",
+    "tags": [
+      "Národní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "18,5 hodiny dřiny aneb jarní soustředění",
+    "filename": "/blog/articals/article_14.html",
+    "date": "2023-03-05",
+    "image": "/blog/blog-images/article-14.avif",
+    "description": "Konec jarního soustředka, uteklo to nějak rychle...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "Připomenutí mého prvního národní titulu",
+    "filename": "/blog/articals/article_13.html",
+    "date": "2023-03-01",
+    "image": "/blog/blog-images/article-13.avif",
+    "description": "Přesně před 3 roky jsem získal můj první národní titul...",
+    "tags": [
+      "Ohlédnutí"
+    ]
+  },
+  {
+    "title": "Únor 2023",
+    "filename": "/blog/articals/article_12.html",
+    "date": "2023-02-28",
+    "image": "/blog/blog-images/article-12.avif",
+    "description": "Únor 2023 byl stejně jak minulý měsíc ve znamení tréninků...",
+    "tags": [
+      "Ohlédnutí",
+      "2023"
+    ]
+  },
+  {
+    "title": "Začátek jarního soustředění",
+    "filename": "/blog/articals/article_11.html",
+    "date": "2023-02-27",
+    "image": "/blog/blog-images/article-11.avif",
+    "description": "Týden těžké dřiny, to je jarní soustředění. A právě dnes začíná toto...",
+    "tags": [
+      "Soustředění",
+      "2023"
+    ]
+  },
+  {
+    "title": "Oblastní přebor družstev dospělých",
+    "filename": "/blog/articals/article_10.html",
+    "date": "2023-02-25",
+    "image": "/blog/blog-images/article-10.avif",
+    "description": "Poslední kolo družstev dospělých jsme hráli proti BK TU v Liberci B...",
+    "tags": [
+      "Družstva",
+      "2023"
+    ]
+  },
+  {
+    "title": "Poděkování sponzorům ze sezóny 2022",
+    "filename": "/blog/articals/article_9.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-9.avif",
+    "description": "Ještě jednou bych chtěl poděkovat mým sponzorům z minulé sezóny...",
+    "tags": [
+      "Ohlédnutí",
+      "2022"
+    ]
+  },
+  {
+    "title": "Vítěz turnaje Grand Prix D",
+    "filename": "/blog/articals/article_8.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-8.avif",
+    "description": "Tato čtrnácti hodinová výprava začínala turnajem GPC dospělých...",
+    "tags": [
+      "Soutěže",
+      "2023"
+    ]
+  },
+  {
+    "title": "Oceněn cenou Sportovce roku 2022",
+    "filename": "/blog/articals/article_7.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-7.avif",
+    "description": "Dne 30.1. proběhla akce města Mostu a to vyhlášení nejlepších sportovců...",
+    "tags": [
+      "Ocenění",
+      "2022"
+    ]
+  },
+  {
+    "title": "Čtvrtfinále na národním turnaji GPA U17",
+    "filename": "/blog/articals/article_6.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-6.avif",
+    "description": "První národní turnaj nové sezóny se vydařil...",
+    "tags": [
+      "Národní turnaje",
+      "2023"
+    ]
+  },
+  {
+    "title": "Zlatá medaile z Grand Prix C U19",
+    "filename": "/blog/articals/article_5.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-5.avif",
+    "description": "Zlatou medaili jsme vybojovali ve čtyřhře s Kubou Wasylkowem...",
+    "tags": [
+      "Soutěže",
+      "2023"
+    ]
+  },
+  {
+    "title": "Oblastní přebor družstev dospělých",
+    "filename": "/blog/articals/article_4.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-4.avif",
+    "description": "V druhém kole oblastního přeboru družstev dospělých jsme sehráli...",
+    "tags": [
+      "Družstva",
+      "2023"
+    ]
+  },
+  {
+    "title": "Celkově 25 medailí v sezóně 2022",
+    "filename": "/blog/articals/article_3.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-3.avif",
+    "description": "Celkově 25x jsem stál na stupních vítězů v sezóně 2022...",
+    "tags": [
+      "2022",
+      "Ohlédnutí"
+    ]
+  },
+  {
+    "title": "Sezóna 2022",
+    "filename": "/blog/articals/article_2.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-2.avif",
+    "description": "Sezóna 2022 byla určitě moje prozatím nejúspěšnější sezónou...",
+    "tags": [
+      "2022",
+      "Ohlédnutí"
+    ]
+  },
+  {
+    "title": "Oblastní přebor družstev dospělých",
+    "filename": "/blog/articals/article_1.html",
+    "date": "2023-02-24",
+    "image": "/blog/blog-images/article-1.avif",
+    "description": "Jako první turnaj sezóny byly právě družstva dospělých...",
+    "tags": [
+      "2023",
+      "Družstva"
+    ]
+  }
+>>>>>>> Stashed changes
 ]
