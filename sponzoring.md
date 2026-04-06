@@ -364,13 +364,11 @@ scripts:
         </div>
 
         <div class="contact-form">
-          <form action="#" method="post">
+          <form name="contact" method="POST" data-netlify="true">
             <input type="text" name="name" placeholder="Vaše jméno" required />
             <input type="email" name="email" placeholder="Váš email" required />
             <textarea name="message" placeholder="Zpráva" required></textarea>
-            <button type="submit" class="button button--primary">
-              Odeslat zprávu
-            </button>
+            <button type="submit" class="button button--primary">Odeslat zprávu</button>
           </form>
         </div>
       </div>
