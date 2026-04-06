@@ -2,6 +2,7 @@
 layout: default
 title: Jakub Klokan
 description: Staňte se mým sponzorem
+permalink: /sponzoring/
 
 scripts:
   - /assets/js/dark-mode.js
@@ -364,7 +365,12 @@ scripts:
         </div>
 
         <div class="contact-form">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/diky/">
+            <input type="hidden" name="form-name" value="kontakt" />
+            <p style="display:none">
+              <label>Nejsi robot? <input name="bot-field" /></label>
+            </p>
+
             <input type="text" name="name" placeholder="Vaše jméno" required />
             <input type="email" name="email" placeholder="Váš email" required />
             <textarea name="message" placeholder="Zpráva" required></textarea>
