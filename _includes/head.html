@@ -1,23 +1,32 @@
+<!-- Základ -->
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <title>{{ page.title | default: site.title }}</title>
 <meta
   name="description"
   content="{{ page.description | default: site.description }}"
 />
 <meta name="author" content="{{ site.author }}" />
-<html lang="{{ site.lang }}"></html>
 
-<link rel="icon" href="{{ site.logo }}" type="image/svg+xml" />
+<!-- Favicon -->
+<link rel="icon" href="/favicon.png" type="image/png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<!-- Fonts + ikony -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-  rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+  rel="stylesheet"
 />
+
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 />
 
+<!-- CSS -->
 <link
   rel="stylesheet"
   href="{{ '/assets/css/variables.css' | relative_url }}"
@@ -28,6 +37,8 @@
   rel="stylesheet"
   href="{{ '/assets/css/components.css' | relative_url }}"
 />
+
+<!-- Page-specific CSS -->
 <link
   rel="stylesheet"
   href="{{ '/assets/css/pages/homepage.css' | relative_url }}"
@@ -57,7 +68,7 @@
   href="{{ '/assets/css/pages/blog_articles.css' | relative_url }}"
 />
 
-<!-- OpenGraph -->
+<!-- Open Graph (sociální sítě) -->
 <meta property="og:title" content="{{ page.title | default: site.title }}" />
 <meta
   property="og:description"
@@ -67,8 +78,23 @@
   property="og:image"
   content="{{ page.og_image | default: site.og_image }}"
 />
-<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
 <meta property="og:type" content="website" />
+
+<!-- Twitter (doporučeno) -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+<meta
+  name="twitter:description"
+  content="{{ page.description | default: site.description }}"
+/>
+<meta
+  name="twitter:image"
+  content="{{ page.og_image | default: site.og_image }}"
+/>
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
 
 <!-- Schema.org -->
 <script type="application/ld+json">
@@ -77,8 +103,8 @@
     "@type": "Person",
     "name": "{{ site.author }}",
     "url": "{{ site.url }}",
-    "logo": "{{ site.og_image }}",
-    "sameAs": ["{{ site.social.instagram }}"]
+    "image": "{{ site.og_image }}",
+    "sameAs": ["{{ site.social.instagram }}", "{{ site.social.facebook }}"]
   }
 </script>
 
