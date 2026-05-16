@@ -17,18 +17,11 @@ Do Bulharska jsem vyrazil společně s Terkou Čechovou, se kterou jsem nastoupi
 
 Los nám příliš nepřál – hned v prvním kole jsme narazili na nasazené osmičky **S. Araujo a Y. Brunnschweiler**.
 
-Zápas byl velmi vyrovnaný a bojovný. Nakonec skončil:
-
-- 16:21  
-- 21:14  
-- 21:23  
+Zápas byl velmi vyrovnaný a bojovný. Nakonec skončil: 16:21, 21:14 a 21:23  
 
 Ve třetím setu jsme dokázali dotáhnout ztrátu 16:20, ale závěr zápasu jsme bohužel nezvládli. Naši soupeři se následně probojovali až do čtvrtfinále.
 
-Ve dvouhře jsem nastoupil proti hráči z Indie **Sai Nachiketh Bhatraju (Chetan Anand Badminton Academy)**. Jeho hra byla nad mé síly a prohrál jsem:
-
-- 13:21  
-- 11:21  
+Ve dvouhře jsem nastoupil proti hráči z Indie **Sai Nachiketh Bhatraju (Chetan Anand Badminton Academy)**. Jeho hra byla nad mé síly a prohrál jsem: 13:21 a 11:21  
 
 I přesto to byla cenná zkušenost proti hráči z badmintonově silné země.
 
@@ -40,10 +33,7 @@ Do Dubrovníku jsem vyrazil sám a čekala mě pouze dvouhra.
 
 Los byl opět velmi těžký – proti mně nastoupil 14letý hráč z Hongkongu **Chan Yee Hei**, stříbrný medailista z Mistrovství Asie U15.
 
-Do zápasu jsem vstoupil s klidnou hlavou, ale postupně se projevil respekt k soupeři. Dokázal jsem hrát aktivně a získávat body, ale dlouhodobě si soupeř udržel kontrolu nad výměnami. Zápas skončil:
-
-- 13:21  
-- 11:21  
+Do zápasu jsem vstoupil s klidnou hlavou, ale postupně se projevil respekt k soupeři. Dokázal jsem hrát aktivně a získávat body, ale dlouhodobě si soupeř udržel kontrolu nad výměnami. Zápas skončil: 13:21 a 11:21  
 
 I přes porážku beru tento zápas jako důležitou zkušenost – je velmi pravděpodobné, že se s tímto hráčem v budoucnu setkáme na nejvyšší úrovni.
 
