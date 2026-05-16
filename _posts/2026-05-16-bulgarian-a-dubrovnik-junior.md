@@ -3,8 +3,8 @@ layout: post
 title: "Zkušenosti z mezinárodní scény z Bulharska a Chorvatska"
 date: 2026-05-16
 image: /blog/images/Bulgarian-and-Dubrovnik-Junior.png
-description: "Druhé kolo národních turnajů GPA kategorie U19 bylo úspěšné."
-tags: [Národní turnaje, 2026]
+description: "V dubnu jsem odehrál své první mezinárodní turnaje."
+tags: [Mezinárodní turnaje, 2026]
 ---
 
 V dubnu jsem odehrál své první mezinárodní turnaje sezóny 2026 – **Bulgarian Junior U19 International ve Svilengradu** a **VALAMAR Dubrovník Junior Open**.
