@@ -25,9 +25,9 @@ function formatCzechDate(isoDate) {
   return `${d.getDate()}. ${months[d.getMonth()]} ${d.getFullYear()}`;
 }
 
-// ====== TAG RENDER ======
 function renderTags() {
-  const allTags = [...new Set(allPosts.flatMap(p => p.tags || []))];
+  const allTags = [...new Set(allPosts.flatMap(p => p.tags || []))]
+    .sort((a, b) => a.localeCompare(b, "cs"));
 
   tagContainer.innerHTML = "";
 
