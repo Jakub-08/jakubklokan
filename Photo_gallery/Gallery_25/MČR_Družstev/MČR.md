@@ -2,6 +2,7 @@
 layout: photogallery_photos
 description: Fotogalerie z Mistrovství ČR družstev U19. Jakub Klokan v týmových zápasech, herních situacích a soutěžních momentech juniorského badmintonu.
 title: "MČR Družstva U19 | Jakub Klokan badminton"
+h1: MČR Družstva U19
 backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
 
 

@@ -9,7 +9,7 @@
 
     <main>
       <div class="container section">
-        <h1 class="photo-gallery-h1">{{ page.title }}</h1>
+        <h1 class="photo-gallery-h1">{{ page.h1 }}</h1>
         {% unless page.hideBackButton %}
         <a
           href="{{ page.backLink | default: '/photo_gallery_index.html' | relative_url }}"
