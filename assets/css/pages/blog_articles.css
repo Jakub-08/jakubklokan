@@ -74,7 +74,7 @@ blockquote p {
   width: 150px;
   display: flex;
   flex-direction: column;
-      margin: var(--space-4) auto;
+  margin: var(--space-5) auto;
 }
 
 .tag {
