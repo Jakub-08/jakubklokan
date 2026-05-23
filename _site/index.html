@@ -1,104 +1,98 @@
 <!doctype html>
 <html lang="">
   <head>
-    <meta charset="UTF-8" />
+    <!-- Základ -->
+<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Jakub Klokan</title>
+
+<title>Jakub Klokan | Český badmintonista</title>
+
 <meta
   name="description"
-  content="Vrcholový badmintonista"
+  content="Jakub Klokan je český badmintonista zaměřený na vrcholový trénink, mezinárodní turnaje a sportovní rozvoj."
 />
-<meta name="author" content="Jakub Klokan" />
-<html lang="cs"></html>
 
-<link rel="icon" href="/Logo_webu_white.svg" type="image/svg+xml" />
+<meta name="author" content="Jakub Klokan" />
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.png" type="image/png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<!-- Fonts + ikony -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
 <link
-  rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+  rel="stylesheet"
 />
+
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 />
 
-<link
-  rel="stylesheet"
-  href="/assets/css/variables.css"
-/>
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/variables.css" />
 <link rel="stylesheet" href="/assets/css/base.css" />
 <link rel="stylesheet" href="/assets/css/layout.css" />
-<link
-  rel="stylesheet"
-  href="/assets/css/components.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/homepage.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/about_me.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/achievements.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/sponzoring.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/photo_gallery.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/blog_index.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/blog_articles.css"
-/>
+<link rel="stylesheet" href="/assets/css/components.css" />
 
-<!-- OpenGraph -->
-<meta property="og:title" content="Jakub Klokan" />
-<meta
-  property="og:description"
-  content="Vrcholový badmintonista"
-/>
-<meta
-  property="og:image"
-  content="/Logo_webu_preview.png"
-/>
-<meta property="og:url" content="http://localhost:4000" />
+<!-- Page-specific CSS -->
+<link rel="stylesheet" href="/assets/css/pages/homepage.css" />
+<link rel="stylesheet" href="/assets/css/pages/about_me.css" />
+<link rel="stylesheet" href="/assets/css/pages/achievements.css" />
+<link rel="stylesheet" href="/assets/css/pages/sponzoring.css" />
+<link rel="stylesheet" href="/assets/css/pages/photo_gallery.css" />
+<link rel="stylesheet" href="/assets/css/pages/blog_index.css" />
+<link rel="stylesheet" href="/assets/css/pages/blog_articles.css" />
+
+
+
+<!-- Canonical URL -->
+<link rel="canonical" href="http://localhost:4000/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Jakub Klokan | Český badmintonista" />
+<meta property="og:description" content="Jakub Klokan je český badmintonista zaměřený na vrcholový trénink, mezinárodní turnaje a sportovní rozvoj." />
+<meta property="og:image" content="/Logo_webu_preview.png" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:type" content="website" />
+
+<meta name="robots" content="index, follow" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Jakub Klokan | Český badmintonista" />
+<meta name="twitter:description" content="Jakub Klokan je český badmintonista zaměřený na vrcholový trénink, mezinárodní turnaje a sportovní rozvoj." />
+<meta name="twitter:image" content="/Logo_webu_preview.png" />
 
 <!-- Schema.org -->
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Jakub Klokan",
-    "url": "http://localhost:4000",
-    "logo": "/Logo_webu_preview.png",
-    "sameAs": ["https://www.instagram.com/jakub.klokan"]
-  }
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jakub Klokan",
+  "url": "http://localhost:4000",
+  "image": "/Logo_webu_preview.png",
+  "jobTitle": "Badminton player",
+  "description": "Český badmintonista zaměřený na mezinárodní turnaje a sportovní rozvoj.",
+  "nationality": "Czech",
+  "sameAs": [
+    "https://www.instagram.com/jakub.klokan",
+    "https://m.facebook.com/klokanjakub/"
+  ]
+}
 </script>
 
 <!-- Google Analytics -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"
-></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  gtag("config", "G-NCZN4K2E8L");
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-NCZN4K2E8L');
 </script>
-
   </head>
   <body>
     <!-- _includes/header.html -->
@@ -208,7 +202,7 @@
           >
         </li>
         <li>
-          <a href="/blog/"
+          <a href="/blog/blog_index.html"
             ><i class="fa-solid fa-pencil-alt"></i> Blog</a
           >
         </li>
@@ -246,10 +240,12 @@
     <div class="hero-text text-shadow">
       <h1>Jakub Klokan</h1>
       <div class="hero-text-line"></div>
-      <h2>Vrcholový badmintonista</h2>
-      <p>Spolupracuji se značkami, které míří vysoko.<br />Stejně jako já.</p>
+      <h2>Vrcholový badminton a mezinárodní turnaje</h2>
+      <p>
+      Český badmintonista soutěžící na domácích i mezinárodních turnajích, zaměřený na dlouhodobý sportovní výkon a rozvoj.
+      </p>
       <div class="hero-cta">
-        <a href="/sponzoring.html" class="button button--primary">Spolupráce &amp; sponzoring</a>
+        <a href="/sponzoring.html" class="button button--primary">Sponzoring &amp; spolupráce</a>
       </div>
     </div>
   </div>
@@ -257,7 +253,7 @@
   <!-- Sekce sponzorů -->
   <div class="sponsors">
     <div class="sponsors-left" id="sponsor-left">
-      <a href="#"><img src="" alt="" /></a>
+      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana" /></a>
     </div>
     <div class="sponsors-main">
       <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
@@ -265,7 +261,7 @@
       </a>
     </div>
     <div class="sponsors-right" id="sponsor-right">
-      <a href="#"><img src="" alt="" /></a>
+      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana" /></a>
     </div>
   </div>
 </section>

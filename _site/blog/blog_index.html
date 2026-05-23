@@ -1,104 +1,98 @@
 <!doctype html>
 <html lang="">
   <head>
-    <meta charset="UTF-8" />
+    <!-- Základ -->
+<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Blog</title>
+
+<title>Blog | Jakub Klokan – badminton, trénink a sportovní cesta</title>
+
 <meta
   name="description"
-  content="Sledujte mojí cestu pomocí pravidelných příspěvků."
+  content="Pravidelné články o badmintonovém tréninku, turnajích, sportovní přípravě a cestě vrcholového hráče Jakuba Klokana."
 />
-<meta name="author" content="Jakub Klokan" />
-<html lang="cs"></html>
 
-<link rel="icon" href="/Logo_webu_white.svg" type="image/svg+xml" />
+<meta name="author" content="Jakub Klokan" />
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.png" type="image/png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<!-- Fonts + ikony -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
 <link
-  rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+  rel="stylesheet"
 />
+
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 />
 
-<link
-  rel="stylesheet"
-  href="/assets/css/variables.css"
-/>
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/variables.css" />
 <link rel="stylesheet" href="/assets/css/base.css" />
 <link rel="stylesheet" href="/assets/css/layout.css" />
-<link
-  rel="stylesheet"
-  href="/assets/css/components.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/homepage.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/about_me.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/achievements.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/sponzoring.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/photo_gallery.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/blog_index.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/css/pages/blog_articles.css"
-/>
+<link rel="stylesheet" href="/assets/css/components.css" />
 
-<!-- OpenGraph -->
-<meta property="og:title" content="Blog" />
-<meta
-  property="og:description"
-  content="Sledujte mojí cestu pomocí pravidelných příspěvků."
-/>
-<meta
-  property="og:image"
-  content="/Logo_webu_preview.png"
-/>
-<meta property="og:url" content="http://localhost:4000" />
+<!-- Page-specific CSS -->
+<link rel="stylesheet" href="/assets/css/pages/homepage.css" />
+<link rel="stylesheet" href="/assets/css/pages/about_me.css" />
+<link rel="stylesheet" href="/assets/css/pages/achievements.css" />
+<link rel="stylesheet" href="/assets/css/pages/sponzoring.css" />
+<link rel="stylesheet" href="/assets/css/pages/photo_gallery.css" />
+<link rel="stylesheet" href="/assets/css/pages/blog_index.css" />
+<link rel="stylesheet" href="/assets/css/pages/blog_articles.css" />
+
+
+
+<!-- Canonical URL -->
+<link rel="canonical" href="http://localhost:4000/blog/blog_" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Blog | Jakub Klokan – badminton, trénink a sportovní cesta" />
+<meta property="og:description" content="Pravidelné články o badmintonovém tréninku, turnajích, sportovní přípravě a cestě vrcholového hráče Jakuba Klokana." />
+<meta property="og:image" content="/Logo_webu_preview.png" />
+<meta property="og:url" content="http://localhost:4000/blog/blog_" />
 <meta property="og:type" content="website" />
+
+<meta name="robots" content="index, follow" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Blog | Jakub Klokan – badminton, trénink a sportovní cesta" />
+<meta name="twitter:description" content="Pravidelné články o badmintonovém tréninku, turnajích, sportovní přípravě a cestě vrcholového hráče Jakuba Klokana." />
+<meta name="twitter:image" content="/Logo_webu_preview.png" />
 
 <!-- Schema.org -->
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Jakub Klokan",
-    "url": "http://localhost:4000",
-    "logo": "/Logo_webu_preview.png",
-    "sameAs": ["https://www.instagram.com/jakub.klokan"]
-  }
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jakub Klokan",
+  "url": "http://localhost:4000",
+  "image": "/Logo_webu_preview.png",
+  "jobTitle": "Badminton player",
+  "description": "Český badmintonista zaměřený na mezinárodní turnaje a sportovní rozvoj.",
+  "nationality": "Czech",
+  "sameAs": [
+    "https://www.instagram.com/jakub.klokan",
+    "https://m.facebook.com/klokanjakub/"
+  ]
+}
 </script>
 
 <!-- Google Analytics -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"
-></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NCZN4K2E8L"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  gtag("config", "G-NCZN4K2E8L");
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-NCZN4K2E8L');
 </script>
-
   </head>
   <body>
     <!-- _includes/header.html -->
@@ -208,7 +202,7 @@
           >
         </li>
         <li>
-          <a href="/blog/"
+          <a href="/blog/blog_index.html"
             ><i class="fa-solid fa-pencil-alt"></i> Blog</a
           >
         </li>
@@ -234,10 +228,10 @@
 
 
     <main><div class="main-bg">
-  <h1 class="blog-intro-1">Vítejte na mém blogu</h1>
+  <h1 class="blog-intro-1">Můj badmintonový blog</h1>
   <div class="separate-line separate-line-blog"></div>
   <h2 class="blog-intro-2">
-    Pravidelně zde přidávám nejnovější články z&nbsp;turnajů a&nbsp;akcí.
+    Články o badmintonových turnajích, tréninku a&nbsp;cestě vrcholového hráče.
   </h2>
 
   <div id="filtr-panel" class="container">
@@ -254,9 +248,43 @@
 [
 
 {
+  "title": "Mezinárodní badmintonové turnaje 2026 – Bulharsko a Chorvatsko | Jakub Klokan",
+  "h1": "Zkušenosti z mezinárodních turnajů v Bulharsku a Chrovatsku",
+  "summary": "V dubnu 2026 jsem absolvoval své první mezinárodní turnaje sezóny.",
+  "url": "/2026/05/16/bulgarian-a-dubrovnik-junior.html",
+  "date": "2026-05-16",
+  "image": "/blog/images/Bulgarian-and-Dubrovnik-Junior.png",
+  "tags": ["Mezinárodní turnaje", "2026"]
+}
+,
+
+{
+  "title": "Obhajoba úspěchů na GPA U19",
+  "h1": "Obhajoba úspěchů na GPA U19",
+  "summary": "",
+  "url": "/2026/03/17/stribro-a-bronz-z-gpa-u19.html",
+  "date": "2026-03-17",
+  "image": "/blog/images/GPA-U19-Plze%C5%88-2026.png",
+  "tags": ["Národní turnaje", "2026"]
+}
+,
+
+{
+  "title": "Obhájil jsem své vítězství na domácím Poháru Akademie",
+  "h1": "Obhájil jsem své vítězství na domácím Poháru Akademie",
+  "summary": "",
+  "url": "/2026/03/10/obhajeni-vitezstvi-na-poharu-akademie.html",
+  "date": "2026-03-10",
+  "image": "/blog/images/Poh%C3%A1rAkademie2026.png",
+  "tags": ["Soutěže", "2026"]
+}
+,
+
+{
   "title": "Druhá zlatá medaile z GPB",
+  "h1": "Druhá zlatá medaile z GPB",
+  "summary": "",
   "url": "/2026/02/22/druha-zlata-medaile-gpb.html",
-  "description": "Získal jsem třetí zlatou medaili z národního turnaje Grand Prix B.",
   "date": "2026-02-22",
   "image": "/blog/images/2026-02-22-gpb.png",
   "tags": ["Národní turnaje", "2026"]
@@ -264,9 +292,21 @@
 ,
 
 {
+  "title": "Mé první Mistrovství ČR Dospělých",
+  "h1": "Mé první Mistrovství ČR Dospělých",
+  "summary": "",
+  "url": "/2026/02/01/mcr-dosp-2026.html",
+  "date": "2026-02-01",
+  "image": "/blog/images/M%C4%8CR-Dosp-2026.png",
+  "tags": ["Národní turnaje", "2026"]
+}
+,
+
+{
   "title": "Další národní medaile z Grand Prix A U19",
+  "h1": "Další národní medaile z Grand Prix A U19",
+  "summary": "",
   "url": "/2026/01/25/dalsi-narodni-medaile-z-grand-prix-a-u19.html",
-  "description": "Na národním turnaji Grand Prix A kategorie U19...",
   "date": "2026-01-25",
   "image": "/blog/images/article-88.png",
   "tags": ["Národní turnaje", "2026"]
@@ -275,8 +315,9 @@
 
 {
   "title": "Poděkování sponzorům ze sezóny 2025",
+  "h1": "Poděkování sponzorům ze sezóny 2025",
+  "summary": "",
   "url": "/2026/01/02/podekovani-sponzorum-ze-sezony-2025.html",
-  "description": "Rád bych se ohlédl za rokem 2025 a...",
   "date": "2026-01-02",
   "image": "/blog/images/article-87.png",
   "tags": ["Ohlédnutí", "2025"]
@@ -285,8 +326,9 @@
 
 {
   "title": "Vánoční turnaj tříčlenných družstev",
+  "h1": "Vánoční turnaj tříčlenných družstev",
+  "summary": "",
   "url": "/2025/12/31/vanocni-turnaj-triclennych-druzstev.html",
-  "description": "Výhra tradičního turnaje tříčlených družstev. Také jsem získali...",
   "date": "2025-12-31",
   "image": "/blog/images/article-85.png",
   "tags": ["Soutěže", "2025"]
@@ -295,8 +337,9 @@
 
 {
   "title": "Sezóna 2025 je u konce",
+  "h1": "Sezóna 2025 je u konce",
+  "summary": "",
   "url": "/2025/12/31/sezona-2025-je-u-konce.html",
-  "description": "Rok 2025 je u konce a nabízí ideální...",
   "date": "2025-12-31",
   "image": "/blog/images/article-86.png",
   "tags": ["Ohlédnutí", "2025"]
@@ -305,8 +348,9 @@
 
 {
   "title": "Mistrovství České republiky U19",
+  "h1": "Mistrovství České republiky U19",
+  "summary": "",
   "url": "/2025/12/31/mistrovstvi-ceske-republiky-u19.html",
-  "description": "Vrchol sezóny 2025 pro mě představovalo Mistrovství České...",
   "date": "2025-12-31",
   "image": "/blog/images/article-84.png",
   "tags": ["Národní turnaje", "2025"]
@@ -315,8 +359,9 @@
 
 {
   "title": "Czech Junior International U19 2025",
+  "h1": "Czech Junior International U19 2025",
+  "summary": "",
   "url": "/2025/11/17/czech-junior-international-u19-2025.html",
-  "description": "Ve vzdálené Orlové se uskutečnilo Mezinárodní mistrovství ČR...",
   "date": "2025-11-17",
   "image": "/blog/images/article-83.png",
   "tags": ["Mezinárodní turnaje", "2025"]
@@ -325,8 +370,9 @@
 
 {
   "title": "Severočeský přebor U19",
+  "h1": "Severočeský přebor U19",
+  "summary": "",
   "url": "/2025/10/27/severocesky-prebor-u19.html",
-  "description": "Opět po roce mě čekal severočeský přebor, tentokrát...",
   "date": "2025-10-27",
   "image": "/blog/images/article-82.png",
   "tags": ["Soutěže", "2025"]
@@ -335,8 +381,9 @@
 
 {
   "title": "VICTOR Croatian International 2025",
+  "h1": "VICTOR Croatian International 2025",
+  "summary": "",
   "url": "/2025/09/28/victor-croatian-international-2025.html",
-  "description": "První mezinárodní turnaj mezi dospělými VICTOR Croatian International...",
   "date": "2025-09-28",
   "image": "/blog/images/article-81.png",
   "tags": ["Mezinárodní turnaje", "2025"]
@@ -345,8 +392,9 @@
 
 {
   "title": "Náročná letní tréninková příprava",
+  "h1": "Náročná letní tréninková příprava",
+  "summary": "",
   "url": "/2025/09/01/narocna-letni-treninkova-priprava.html",
-  "description": "Toto léto mě opět čekala náročná tréninková příprava...",
   "date": "2025-09-01",
   "image": "/blog/images/article-80.avif",
   "tags": ["Soustředění", "2025"]
@@ -355,8 +403,9 @@
 
 {
   "title": "VICTOR Bulgarian Junior Challenge",
+  "h1": "VICTOR Bulgarian Junior Challenge",
+  "summary": "",
   "url": "/2025/07/01/victor-bulgarian-junior-challenge.html",
-  "description": "Ve dvouhře jsem skončil v top 32, když...",
   "date": "2025-07-01",
   "image": "/blog/images/article-79.avif",
   "tags": ["Mezinárodní turnaje", "2025"]
@@ -365,8 +414,9 @@
 
 {
   "title": "První čtvrtfinále na Bulgarian Junior U19 International",
+  "h1": "První čtvrtfinále na Bulgarian Junior U19 International",
+  "summary": "",
   "url": "/2025/05/10/prvni-ctvrtfinale-na-bulgarian-junior-u19-international.html",
-  "description": "První čtvrtfinále na okruhovém turnaji v kategorii U19...",
   "date": "2025-05-10",
   "image": "/blog/images/article-78.avif",
   "tags": ["Mezinárodní turnaje", "2025"]
@@ -375,8 +425,9 @@
 
 {
   "title": "Znova na stupních vítězů na GPA U19",
+  "h1": "Znova na stupních vítězů na GPA U19",
+  "summary": "",
   "url": "/2025/05/09/znova-na-stupnich-vitezu-na-gpa-u19.html",
-  "description": "Vyhráli jsem další medaili z národního turnaje Grand...",
   "date": "2025-05-09",
   "image": "/blog/images/article-77.avif",
   "tags": ["Národní turnaje", "2025"]
@@ -385,8 +436,9 @@
 
 {
   "title": "Vítězství na domácím Poháru Akademie",
+  "h1": "Vítězství na domácím Poháru Akademie",
+  "summary": "",
   "url": "/2025/04/15/vitezstvi-na-domacim-poharu-akademie.html",
-  "description": "Jen pár dní po turnaji ve francouzském Voironu🇨🇵...",
   "date": "2025-04-15",
   "image": "/blog/images/article-76.avif",
   "tags": ["Soutěže", "2025"]
@@ -395,8 +447,9 @@
 
 {
   "title": "Knihovna poznatků z Alpes International U19",
+  "h1": "Knihovna poznatků z Alpes International U19",
+  "summary": "",
   "url": "/2025/04/11/knihovna-poznatku-z-alpes-international-u19.html",
-  "description": "Zúčastnili jsme se dalšího turnaje světového okruhu. FZ...",
   "date": "2025-04-11",
   "image": "/blog/images/article-75.avif",
   "tags": ["Mezinárodní turnaje", "2025"]
@@ -405,8 +458,9 @@
 
 {
   "title": "Jsme vítězové II. Ligy !!!",
+  "h1": "Jsme vítězové II. Ligy !!!",
+  "summary": "",
   "url": "/2025/04/09/jsme-vitezove-ii-ligy.html",
-  "description": "Vyhráli jsme Play-Off II. ligy smíšených družstev dospělých🏆🎉.Po...",
   "date": "2025-04-09",
   "image": "/blog/images/article-74.avif",
   "tags": ["Družstva", "2025"]
@@ -415,8 +469,9 @@
 
 {
   "title": "Světová špička na YONEX German Junior International",
+  "h1": "Světová špička na YONEX German Junior International",
+  "summary": "",
   "url": "/2025/03/08/svetova-spicka-na-yonex-german-junior-international.html",
-  "description": "První okruhový světový turnaj🌍, a to hnedka nejvyšší...",
   "date": "2025-03-08",
   "image": "/blog/images/article-73.avif",
   "tags": ["Mezinárodní turnaje", "2025"]
@@ -425,8 +480,9 @@
 
 {
   "title": "Nečekané stříbro z plzeňského GPA U19",
+  "h1": "Nečekané stříbro z plzeňského GPA U19",
+  "summary": "",
   "url": "/2025/02/19/necekane-stribro-z-plzenskeho-gpa-u19.html",
-  "description": "Hnedka stříbro 🥈 z prvního národního turnaje v...",
   "date": "2025-02-19",
   "image": "/blog/images/article-72.webp",
   "tags": ["Národní turnaje", "2025"]
@@ -435,8 +491,9 @@
 
 {
   "title": "Anketa: Nejúspěšnější sportovec roku 2024",
+  "h1": "Anketa: Nejúspěšnější sportovec roku 2024",
+  "summary": "",
   "url": "/2025/02/18/anketa-nejuspesnejsi-sportovec-roku-2024.html",
-  "description": "Ocenění za úspěšnou minulou sezónu 2024 od České...",
   "date": "2025-02-18",
   "image": "/blog/images/article-71.avif",
   "tags": ["Ocenění", "2025"]
@@ -445,8 +502,9 @@
 
 {
   "title": "Tvrdý mentální trénink při GPC U19",
+  "h1": "Tvrdý mentální trénink při GPC U19",
+  "summary": "",
   "url": "/2025/01/27/tvrdy-mentalni-trenink-pri-gpc-u19.html",
-  "description": "Po dosti letech jsem se dostal opět na...",
   "date": "2025-01-27",
   "image": "/blog/images/article-70.avif",
   "tags": ["Soutěže", "2025"]
@@ -455,8 +513,9 @@
 
 {
   "title": "Shrnutí sezóny 2024",
+  "h1": "Shrnutí sezóny 2024",
+  "summary": "",
   "url": "/2024/12/31/shrnuti-sezony-2024.html",
-  "description": "Sezóna 2024... opět plná úspěchů🏆.Pro příklad: dvě bronzové...",
   "date": "2024-12-31",
   "image": "/blog/images/article-69.webp",
   "tags": ["Ohlédnutí", "2024"]
@@ -465,8 +524,9 @@
 
 {
   "title": "Bronz z mistrovství české republiky",
+  "h1": "Bronz z mistrovství české republiky",
+  "summary": "",
   "url": "/2024/12/23/bronz-z-mistrovstvi-ceske-republiky.html",
-  "description": "Poslední turnaj a zároveň vrchol sezóny 2024... MČR...",
   "date": "2024-12-23",
   "image": "/blog/images/article-68.avif",
   "tags": ["Národní turnaje", "2024"]
@@ -475,8 +535,9 @@
 
 {
   "title": "Dvojnásobný přeborník severočeské oblasti",
+  "h1": "Dvojnásobný přeborník severočeské oblasti",
+  "summary": "",
   "url": "/2024/11/20/dvojnasobny-prebornik-severoceske-oblasti.html",
-  "description": "Jsem opět dvojnásobný přeborník severočeské oblasti 🏸💪Jen smíšená...",
   "date": "2024-11-20",
   "image": "/blog/images/article-67.avif",
   "tags": ["Soutěže", "2024"]
@@ -485,8 +546,9 @@
 
 {
   "title": "Osmifinále na světové Gymnasiade Bahrain 2024",
+  "h1": "Osmifinále na světové Gymnasiade Bahrain 2024",
+  "summary": "",
   "url": "/2024/11/15/osmifinale-na-svetove-gymnasiade-bahrain-2024.html",
-  "description": "Individuální část světové Gymnasiády v Bahrainu 🇧🇭.Po BWF...",
   "date": "2024-11-15",
   "image": "/blog/images/article-66.avif",
   "tags": ["Mezinárodní turnaje", "2024"]
@@ -495,8 +557,9 @@
 
 {
   "title": "BWF Shuttle Time Youth Leadership &amp; Mental Health",
+  "h1": "BWF Shuttle Time Youth Leadership &amp; Mental Health",
+  "summary": "",
   "url": "/2024/11/14/bwf-shuttle-time-youth-leadership-mental-health.html",
-  "description": "Mezi týmovou a individuální částí Gymnasiády jsme stihli...",
   "date": "2024-11-14",
   "image": "/blog/images/article-65.avif",
   "tags": ["2024"]
@@ -505,8 +568,9 @@
 
 {
   "title": "Světová Gymnasiáda v Bahrajnu",
+  "h1": "Světová Gymnasiáda v Bahrajnu",
+  "summary": "",
   "url": "/2024/11/13/svetova-gymnasiada-v-bahrajnu.html",
-  "description": "Soutěž, na kterou jsem se opravdu dlouho těšil,...",
   "date": "2024-11-13",
   "image": "/blog/images/article-64.avif",
   "tags": ["Mezinárodní turnaje", "2024"]
@@ -515,8 +579,9 @@
 
 {
   "title": "Osmifinále ve dvouhře na YONEX German Ruhr U17 International",
+  "h1": "Osmifinále ve dvouhře na YONEX German Ruhr U17 International",
+  "summary": "",
   "url": "/2024/10/15/osmifinale-ve-dvouhre-na-yonex-german-ruhr-u17-international.html",
-  "description": "Osmifinále na velmi obsazeném turnaji YONEX German Ruhr...",
   "date": "2024-10-15",
   "image": "/blog/images/article-63.avif",
   "tags": ["Mezinárodní turnaje", "2024"]
@@ -525,8 +590,9 @@
 
 {
   "title": "Kousek do medaile na Slovak Youth U17",
+  "h1": "Kousek do medaile na Slovak Youth U17",
+  "summary": "",
   "url": "/2024/10/06/kousek-do-medaile-na-slovak-youth-u17.html",
-  "description": "Týden po úspěšném Zagreb U17 Open 🇭🇷, kde...",
   "date": "2024-10-06",
   "image": "/blog/images/article-62.avif",
   "tags": ["Mezinárodní turnaje", "2024"]
@@ -535,8 +601,9 @@
 
 {
   "title": "Druhá evropská medaile ze Zagreb U17 Open",
+  "h1": "Druhá evropská medaile ze Zagreb U17 Open",
+  "summary": "",
   "url": "/2024/09/26/druha-evropska-medaile-ze-zagreb-u17-open.html",
-  "description": "Druhá medaile z turnaje evropského okruhu Zagreb U17...",
   "date": "2024-09-26",
   "image": "/blog/images/article-61.avif",
   "tags": ["Mezinárodní turnaje", "2024"]
@@ -545,8 +612,9 @@
 
 {
   "title": "Další dvě medaile z celostátních soutěží",
+  "h1": "Další dvě medaile z celostátních soutěží",
+  "summary": "",
   "url": "/2024/09/14/dalsi-dve-medaile-z-celostatnich-soutezi.html",
-  "description": "Další dvě medaile z turnaje Grand Prix A...",
   "date": "2024-09-14",
   "image": "/blog/images/article-60.avif",
   "tags": ["Národní turnaje", "2024"]
@@ -555,8 +623,9 @@
 
 {
   "title": "Osm týdnů ... přes 200h tréninku",
+  "h1": "Osm týdnů ... přes 200h tréninku",
+  "summary": "",
   "url": "/2024/09/03/osm-tydnu-pres-200h-treninku.html",
-  "description": "Osm týdnů tvrdé práce, dvou nebo tří fázový...",
   "date": "2024-09-03",
   "image": "/blog/images/article-59.avif",
   "tags": ["Soustředění", "2024"]
@@ -565,8 +634,9 @@
 
 {
   "title": "Neúprosné teplo na turnaji Serbian U17 International",
+  "h1": "Neúprosné teplo na turnaji Serbian U17 International",
+  "summary": "",
   "url": "/2024/06/27/neuprosne-teplo-na-turnaji-serbian-u17-international.html",
-  "description": "Serbian U17 International, jeden ze dvou nejlépe hodnocených...",
   "date": "2024-06-27",
   "image": "/blog/images/article-58.avif",
   "tags": ["Mezinárodní turnaje", "2024"]
@@ -575,8 +645,9 @@
 
 {
   "title": "Bronz z Chorvatska, turnaje evropského okruhu!!",
+  "h1": "Bronz z Chorvatska, turnaje evropského okruhu!!",
+  "summary": "",
   "url": "/2024/05/28/bronz-z-chorvatska-turnaje-evropskeho-okruhu.html",
-  "description": "První medaile z turnaje evropského okruhu!🥉 V chorvatské...",
   "date": "2024-05-28",
   "image": "/blog/images/article-57.png",
   "tags": ["Mezinárodní turnaje", "2024"]
@@ -585,8 +656,9 @@
 
 {
   "title": "Štěstí v los na Austrian U17 Open",
+  "h1": "Štěstí v los na Austrian U17 Open",
+  "summary": "",
   "url": "/2024/05/05/stesti-v-los-na-austrian-u17-open.html",
-  "description": "První mezinárodní turnaj sezóny 2024 v blízkém Rakousku...",
   "date": "2024-05-05",
   "image": "/blog/images/article-56.avif",
   "tags": ["Mezinárodní turnaje", "2024"]
@@ -595,8 +667,9 @@
 
 {
   "title": "Zlato z GPC dospělých a v top 50 v ČR",
+  "h1": "Zlato z GPC dospělých a v top 50 v ČR",
+  "summary": "",
   "url": "/2024/04/21/zlato-z-gpc-dospelych-a-v-top-50-v-cr.html",
-  "description": "Další zlatá medaile z Grand Prix C mezi...",
   "date": "2024-04-21",
   "image": "/blog/images/article-54.avif",
   "tags": ["Soutěže", "2024"]
@@ -605,8 +678,9 @@
 
 {
   "title": "Zkušenosti z Grand Prix A dospělých",
+  "h1": "Zkušenosti z Grand Prix A dospělých",
+  "summary": "",
   "url": "/2024/04/21/zkusenosti-z-grand-prix-a-dospelych.html",
-  "description": "Mé první GPA mezi nejstaršími, tedy dospělými. Překvapením...",
   "date": "2024-04-21",
   "image": "/blog/images/article-53.avif",
   "tags": ["Národní turnaje", "2024"]
@@ -615,8 +689,9 @@
 
 {
   "title": "Po dvou letech opět na vrcholu GPA",
+  "h1": "Po dvou letech opět na vrcholu GPA",
+  "summary": "",
   "url": "/2024/04/21/po-dvou-letech-opet-na-vrcholu-gpa.html",
-  "description": "Zlatá medaile z národního GPA U17 a k...",
   "date": "2024-04-21",
   "image": "/blog/images/article-55.avif",
   "tags": ["Národní turnaje", "2024"]
@@ -625,8 +700,9 @@
 
 {
   "title": "Pět dní ukrutný bolesti",
+  "h1": "Pět dní ukrutný bolesti",
+  "summary": "",
   "url": "/2024/03/17/pet-dni-ukrutny-bolesti.html",
-  "description": "Týden oproštění od školy, jde krásně využít k...",
   "date": "2024-03-17",
   "image": "/blog/images/article-52.avif",
   "tags": ["Soustředění", "2024"]
@@ -635,8 +711,9 @@
 
 {
   "title": "Třetí kolo OP smíšených družstev dospělých",
+  "h1": "Třetí kolo OP smíšených družstev dospělých",
+  "summary": "",
   "url": "/2024/02/25/treti-kolo-op-smisenych-druzstev-dospelych.html",
-  "description": "Poslední kolo družstev dospělých před Play-off bylo pro...",
   "date": "2024-02-25",
   "image": "/blog/images/article-51.avif",
   "tags": ["Družstva", "2024"]
@@ -645,8 +722,9 @@
 
 {
   "title": "Mostecké derby v družstvech dospělých",
+  "h1": "Mostecké derby v družstvech dospělých",
+  "summary": "",
   "url": "/2024/02/25/mostecke-derby-v-druzstvech-dospelych.html",
-  "description": "Druhé kolo družstev dospělých dopadlo vítězně, když jsme...",
   "date": "2024-02-25",
   "image": "/blog/images/article-48.avif",
   "tags": ["Družstva", "2024"]
@@ -655,8 +733,9 @@
 
 {
   "title": "Dvě stříbra z GPA U17",
+  "h1": "Dvě stříbra z GPA U17",
+  "summary": "",
   "url": "/2024/02/25/dve-stribra-z-gpa-u17.html",
-  "description": "Hnedka z kraje nové sezóny dvě stříbrná místa...",
   "date": "2024-02-25",
   "image": "/blog/images/article-49.avif",
   "tags": ["Národní turnaje", "2024"]
@@ -665,8 +744,9 @@
 
 {
   "title": "Čtvrtfinále z Grand Prix A U19",
+  "h1": "Čtvrtfinále z Grand Prix A U19",
+  "summary": "",
   "url": "/2024/02/25/ctvrtfinale-z-grand-prix-a-u19.html",
-  "description": "3 týdny po GPA U17 v Dobrušce se...",
   "date": "2024-02-25",
   "image": "/blog/images/article-50.avif",
   "tags": ["Národní turnaje", "2024"]
@@ -675,8 +755,9 @@
 
 {
   "title": "Zase po roce družstva dospělých",
+  "h1": "Zase po roce družstva dospělých",
+  "summary": "",
   "url": "/2024/01/05/zase-po-roce-druzstva-dospelych.html",
-  "description": "Po roce, kdy jsme se dostali až do...",
   "date": "2024-01-05",
   "image": "/blog/images/article-46.avif",
   "tags": ["Družstva", "2024"]
@@ -685,8 +766,9 @@
 
 {
   "title": "Sezóna 2023",
+  "h1": "Sezóna 2023",
+  "summary": "",
   "url": "/2024/01/05/sezona-2023.html",
-  "description": "Sezóna 2023, byla pro mě zkouškou. Kvůli přestupu...",
   "date": "2024-01-05",
   "image": "/blog/images/article-47.avif",
   "tags": ["Ohlédnutí", "2023"]
@@ -695,8 +777,9 @@
 
 {
   "title": "Zkušenosti a poznatky z MČR U19",
+  "h1": "Zkušenosti a poznatky z MČR U19",
+  "summary": "",
   "url": "/2023/12/10/zkusenosti-a-poznatky-z-mcr-u19.html",
-  "description": "Poslední mistrovství v již končícím roce 2023 bylo...",
   "date": "2023-12-10",
   "image": "/blog/images/article-45.avif",
   "tags": ["Národní turnaje", "2023"]
@@ -705,8 +788,9 @@
 
 {
   "title": "Mistrovství ČR kategorie U17 dopadlo pozitivně",
+  "h1": "Mistrovství ČR kategorie U17 dopadlo pozitivně",
+  "summary": "",
   "url": "/2023/12/10/mistrovstvi-cr-kategorie-u17-dopadlo-pozitivne.html",
-  "description": "Mistrovství ČR kategorie U17 dopadlo pozitivně 👍 na...",
   "date": "2023-12-10",
   "image": "/blog/images/article-44.avif",
   "tags": ["Národní turnaje", "2023"]
@@ -715,8 +799,9 @@
 
 {
   "title": "Dvojnásobný severočeský přeborník",
+  "h1": "Dvojnásobný severočeský přeborník",
+  "summary": "",
   "url": "/2023/10/22/dvojnasobny-severocesky-prebornik.html",
-  "description": "Tuto sobotu se v Liberci konal severočeský Oblastní...",
   "date": "2023-10-22",
   "image": "/blog/images/article-43.avif",
   "tags": ["Soutěže", "2023"]
@@ -725,8 +810,9 @@
 
 {
   "title": "• Září •",
+  "h1": "• Září •",
+  "summary": "",
   "url": "/2023/10/06/zari.html",
-  "description": "Září bylo zkouškou po letní přípravě 🏸. Hodně...",
   "date": "2023-10-06",
   "image": "/blog/images/article-42.avif",
   "tags": ["Ohlédnutí", "2023"]
@@ -735,8 +821,9 @@
 
 {
   "title": "Účast na Mistrovství ČR družstev dorostu",
+  "h1": "Účast na Mistrovství ČR družstev dorostu",
+  "summary": "",
   "url": "/2023/10/06/ucast-na-mistrovstvi-cr-druzstev-dorostu.html",
-  "description": "Nakonec jsme se kvalifikovali na MČR družstev dorostu,...",
   "date": "2023-10-06",
   "image": "/blog/images/article-41.avif",
   "tags": ["Družstva", "2023"]
@@ -745,8 +832,9 @@
 
 {
   "title": "První mezinárodní turnaj podzimní části sezóny",
+  "h1": "První mezinárodní turnaj podzimní části sezóny",
+  "summary": "",
   "url": "/2023/09/24/prvni-mezinarodni-turnaj-podzimni-casti-sezony.html",
-  "description": "Tentokrát jsem vyjel do Chorvatska na turnaj 7th...",
   "date": "2023-09-24",
   "image": "/blog/images/article-40.avif",
   "tags": ["Mezinárodní turnaje", "2023"]
@@ -755,8 +843,9 @@
 
 {
   "title": "Oblastní přebor družstev dorostu",
+  "h1": "Oblastní přebor družstev dorostu",
+  "summary": "",
   "url": "/2023/09/18/oblastni-prebor-druzstev-dorostu.html",
-  "description": "Nabyto velké množství nových zkušeností jako tým, i...",
   "date": "2023-09-18",
   "image": "/blog/images/article-39.avif",
   "tags": ["Družstva", "2023"]
@@ -765,8 +854,9 @@
 
 {
   "title": "Grand Prix A U17 a dvojnásobná účast v druhém kole",
+  "h1": "Grand Prix A U17 a dvojnásobná účast v druhém kole",
+  "summary": "",
   "url": "/2023/09/10/grand-prix-a-u17-a-dvojnasobna-ucast-v-druhem-kole.html",
-  "description": "Národní turnaj, Grand Prix A U17, a dvojnásobná...",
   "date": "2023-09-10",
   "image": "/blog/images/article-38.avif",
   "tags": ["Národní turnaje", "2023"]
@@ -775,8 +865,9 @@
 
 {
   "title": "Shrnutí letní přípravy",
+  "h1": "Shrnutí letní přípravy",
+  "summary": "",
   "url": "/2023/09/05/shrnuti-letni-pripravy.html",
-  "description": "Přes 120 hodin tréninků rozdělených do 4 fází:29.7.-...",
   "date": "2023-09-05",
   "image": "/blog/images/article-37.avif",
   "tags": ["Soustředění", "2023"]
@@ -785,8 +876,9 @@
 
 {
   "title": "Summer School II",
+  "h1": "Summer School II",
+  "summary": "",
   "url": "/2023/09/02/summer-school-ii.html",
-  "description": "Čtvrtá a zároveň poslední část letní přípravy 🥲,...",
   "date": "2023-09-02",
   "image": "/blog/images/article-36.avif",
   "tags": ["Soustředění", "2023"]
@@ -795,8 +887,9 @@
 
 {
   "title": "19th Victor International Super Stars Camp 2023",
+  "h1": "19th Victor International Super Stars Camp 2023",
+  "summary": "",
   "url": "/2023/08/21/19th-victor-international-super-stars-camp-2023.html",
-  "description": "Pod vedením, bývalého 10. hráče světa v mužské...",
   "date": "2023-08-21",
   "image": "/blog/images/article-35.avif",
   "tags": ["Soustředění", "2023"]
@@ -805,8 +898,9 @@
 
 {
   "title": "Summer school I",
+  "h1": "Summer school I",
+  "summary": "",
   "url": "/2023/08/19/summer-school-i.html",
-  "description": "Jako druhý týden přípravy, jsem se účastnil Summer...",
   "date": "2023-08-19",
   "image": "/blog/images/article-33.avif",
   "tags": ["Soustředění", "2023"]
@@ -815,8 +909,9 @@
 
 {
   "title": "Letní kondiční soustředění v Krkonoších",
+  "h1": "Letní kondiční soustředění v Krkonoších",
+  "summary": "",
   "url": "/2023/08/19/letni-kondicni-soustredeni-v-krkonosich.html",
-  "description": "Letní kondiční soustředění🏃‍♂️...16 tréninků🏋️...přes 24 hodin tréninku, to...",
   "date": "2023-08-19",
   "image": "/blog/images/article-32.avif",
   "tags": ["Soustředění", "2023"]
@@ -825,8 +920,9 @@
 
 {
   "title": "Druzí na Sudhakar Reddy Cupu 2023",
+  "h1": "Druzí na Sudhakar Reddy Cupu 2023",
+  "summary": "",
   "url": "/2023/08/19/druzi-na-sudhakar-reddy-cupu-2023.html",
-  "description": "Každoroční zpestření Mezinárodního Super Stars Most Campu 🌎.Po...",
   "date": "2023-08-19",
   "image": "/blog/images/article-34.avif",
   "tags": ["Soustředění", "2023"]
@@ -835,8 +931,9 @@
 
 {
   "title": "Skoro jsem jel na Serbian U17 International",
+  "h1": "Skoro jsem jel na Serbian U17 International",
+  "summary": "",
   "url": "/2023/06/23/skoro-jsem-jel-na-serbian-u17-international.html",
-  "description": "Skoro vše už bylo připraveno, abych se mohl...",
   "date": "2023-06-23",
   "image": "/blog/images/article-31.avif",
   "tags": ["Mezinárodní turnaje", "2023"]
@@ -845,8 +942,9 @@
 
 {
   "title": "Dvě medaile z GPC U19 na domácí půdě",
+  "h1": "Dvě medaile z GPC U19 na domácí půdě",
+  "summary": "",
   "url": "/2023/06/19/dve-medaile-z-gpc-u19-na-domaci-pude.html",
-  "description": "První medaile byla ze dvouhry, když jsem jako...",
   "date": "2023-06-19",
   "image": "/blog/images/article-30.avif",
   "tags": ["Soutěže", "2023"]
@@ -855,8 +953,9 @@
 
 {
   "title": "Zlato a stříbro z Grand Prix C U19",
+  "h1": "Zlato a stříbro z Grand Prix C U19",
+  "summary": "",
   "url": "/2023/05/29/zlato-a-stribro-z-grand-prix-c-u19.html",
-  "description": "Další vítězství 🏆 ve dvouhře na Grand Prix...",
   "date": "2023-05-29",
   "image": "/blog/images/article-29.avif",
   "tags": ["Soutěže", "2023"]
@@ -865,8 +964,9 @@
 
 {
   "title": "Adria U17 international 2023",
+  "h1": "Adria U17 international 2023",
+  "summary": "",
   "url": "/2023/05/26/adria-u17-international-2023.html",
-  "description": "Adria U17 International 2023 🇭🇷 Tento turnaj mi...",
   "date": "2023-05-26",
   "image": "/blog/images/article-28.avif",
   "tags": ["Mezinárodní turnaje", "2023"]
@@ -875,8 +975,9 @@
 
 {
   "title": "Výhra národního titulu před rokem",
+  "h1": "Výhra národního titulu před rokem",
+  "summary": "",
   "url": "/2023/05/08/vyhra-narodniho-titulu-pred-rokem.html",
-  "description": "Asi není náhoda 🤷, že jsem v ten...",
   "date": "2023-05-08",
   "image": "/blog/images/article-27.avif",
   "tags": ["Ohlédnutí", "2023"]
@@ -885,8 +986,9 @@
 
 {
   "title": "Můj první úspěšný turnaj přesně před 7 lety",
+  "h1": "Můj první úspěšný turnaj přesně před 7 lety",
+  "summary": "",
   "url": "/2023/05/07/muj-prvni-uspesny-turnaj-presne-pred-7-lety.html",
-  "description": "Přesně před 7 lety 🤯 jsem se zúčastnil...",
   "date": "2023-05-07",
   "image": "/blog/images/article-26.avif",
   "tags": ["Ohlédnutí"]
@@ -895,8 +997,9 @@
 
 {
   "title": "• Duben •",
+  "h1": "• Duben •",
+  "summary": "",
   "url": "/2023/05/05/duben.html",
-  "description": "V dubnu jsem absolvoval hned 4 turnaje a...",
   "date": "2023-05-05",
   "image": "/blog/images/article-25.avif",
   "tags": ["Ohlédnutí", "2023"]
@@ -905,8 +1008,9 @@
 
 {
   "title": "YONEX Bozner Cup U17 International, velká dávka zkušeností",
+  "h1": "YONEX Bozner Cup U17 International, velká dávka zkušeností",
+  "summary": "",
   "url": "/2023/05/04/yonex-bozner-cup-u17-international-velka-davka-zkusenosti.html",
-  "description": "Můj první Evropský okruh skončil s velkou dávkou...",
   "date": "2023-05-04",
   "image": "/blog/images/article-23.avif",
   "tags": ["Mezinárodní turnaje", "2023"]
@@ -915,8 +1019,9 @@
 
 {
   "title": "Dvě zlata na mezinárodním turnaji v Itálii",
+  "h1": "Dvě zlata na mezinárodním turnaji v Itálii",
+  "summary": "",
   "url": "/2023/05/04/dve-zlata-na-mezinarodnim-turnaji-v-italii.html",
-  "description": "Turnaj, Torneo Internazionale primavera di Bolzano, který se...",
   "date": "2023-05-04",
   "image": "/blog/images/article-24.avif",
   "tags": ["Mezinárodní turnaje", "2023"]
@@ -925,8 +1030,9 @@
 
 {
   "title": "Boj o medaili na národním turnaji GPA U17",
+  "h1": "Boj o medaili na národním turnaji GPA U17",
+  "summary": "",
   "url": "/2023/04/27/boj-o-medaili-na-narodnim-turnaji-gpa-u17.html",
-  "description": "Po provedeném turnaji GPC U19 🥇 a chvíli...",
   "date": "2023-04-27",
   "image": "/blog/images/article-22.avif",
   "tags": ["Národní turnaje", "2023"]
@@ -935,8 +1041,9 @@
 
 {
   "title": "Rekapitulace března",
+  "h1": "Rekapitulace března",
+  "summary": "",
   "url": "/2023/04/02/rekapitulace-brezna.html",
-  "description": "Březen byl stále hlavně o trénincích a přípravě...",
   "date": "2023-04-02",
   "image": "/blog/images/article-21.avif",
   "tags": ["Ohlédnutí", "2023"]
@@ -945,8 +1052,9 @@
 
 {
   "title": "Zlato z Grand Prix C U19",
+  "h1": "Zlato z Grand Prix C U19",
+  "summary": "",
   "url": "/2023/04/01/zlato-z-grand-prix-c-u19.html",
-  "description": "Začal Duben a hnedka zlato z Grand Prix...",
   "date": "2023-04-01",
   "image": "/blog/images/article-20.avif",
   "tags": ["Soutěže", "2023"]
@@ -955,8 +1063,9 @@
 
 {
   "title": "Skvělý výkon na národní soutěži Grand Prix B U19",
+  "h1": "Skvělý výkon na národní soutěži Grand Prix B U19",
+  "summary": "",
   "url": "/2023/03/26/skvely-vykon-na-narodni-soutezi-grand-prix-b-u19.html",
-  "description": "Můj poslední březnový turnaj, Grand Prix B U19,...",
   "date": "2023-03-26",
   "image": "/blog/images/article-19.avif",
   "tags": ["Národní turnaje", "2023"]
@@ -965,8 +1074,9 @@
 
 {
   "title": "Před třemi týdny skončilo jarní soustředění",
+  "h1": "Před třemi týdny skončilo jarní soustředění",
+  "summary": "",
   "url": "/2023/03/24/pred-tremi-tydny-skoncilo-jarni-soustredeni.html",
-  "description": "Přesně před třemi týdny skončilo Super Stars Most...",
   "date": "2023-03-24",
   "image": "/blog/images/article-18.avif",
   "tags": ["Soustředění", "2023"]
@@ -975,8 +1085,9 @@
 
 {
   "title": "Play-off oblastního přeboru družstev dospělých",
+  "h1": "Play-off oblastního přeboru družstev dospělých",
+  "summary": "",
   "url": "/2023/03/18/play-off-oblastniho-preboru-druzstev-dospelych.html",
-  "description": "Poslední kolo, tedy play-off, oblastního přeboru družstev dospělých...",
   "date": "2023-03-18",
   "image": "/blog/images/article-17.avif",
   "tags": ["Družstva", "2023"]
@@ -985,8 +1096,9 @@
 
 {
   "title": "Připomenutí sezóny 2022",
+  "h1": "Připomenutí sezóny 2022",
+  "summary": "",
   "url": "/2023/03/11/pripomenuti-sezony-2022.html",
-  "description": "Ještě malé připomenutí, pro mě nejvydařenější sezóna kariéry......",
   "date": "2023-03-11",
   "image": "/blog/images/article-16.avif",
   "tags": ["Ohlédnutí", "2022"]
@@ -995,8 +1107,9 @@
 
 {
   "title": "Grand Prix B U17, další dvě čtvrtfinále",
+  "h1": "Grand Prix B U17, další dvě čtvrtfinále",
+  "summary": "",
   "url": "/2023/03/07/grand-prix-b-u17-dalsi-dve-ctvrtfinale.html",
-  "description": "Po minulém Grand Prix A U17 v Hradci...",
   "date": "2023-03-07",
   "image": "/blog/images/article-15.avif",
   "tags": ["Národní turnaje", "2023"]
@@ -1005,8 +1118,9 @@
 
 {
   "title": "18,5 hodiny dřiny aneb jarní soustředění",
+  "h1": "18,5 hodiny dřiny aneb jarní soustředění",
+  "summary": "",
   "url": "/2023/03/05/18-5-hodiny-driny-aneb-jarni-soustredeni.html",
-  "description": "Konec jarního soustředka 😔, uteklo to nějak rychle.Celkově...",
   "date": "2023-03-05",
   "image": "/blog/images/article-14.avif",
   "tags": ["Soustředění", "2023"]
@@ -1015,8 +1129,9 @@
 
 {
   "title": "Připomenutí mého prvního národní titulu",
+  "h1": "Připomenutí mého prvního národní titulu",
+  "summary": "",
   "url": "/2023/03/01/pripomenuti-meho-prvniho-narodni-titulu.html",
-  "description": "Přesně před 3 roky jsem získal můj první...",
   "date": "2023-03-01",
   "image": "/blog/images/article-13.avif",
   "tags": ["Ohlédnutí"]
@@ -1025,8 +1140,9 @@
 
 {
   "title": "Únor 2023",
+  "h1": "Únor 2023",
+  "summary": "",
   "url": "/2023/02/28/unor-2023.html",
-  "description": "Únor 2023 byl stejně jak minulý měsíc ve...",
   "date": "2023-02-28",
   "image": "/blog/images/article-12.avif",
   "tags": ["Ohlédnutí", "2023"]
@@ -1035,8 +1151,9 @@
 
 {
   "title": "Začátek jarního soustředění",
+  "h1": "Začátek jarního soustředění",
+  "summary": "",
   "url": "/2023/02/27/zacatek-jarniho-soustredeni.html",
-  "description": "Týden těžké dřiny, to je jarní soustředění. A...",
   "date": "2023-02-27",
   "image": "/blog/images/article-11.avif",
   "tags": ["Soustředění", "2023"]
@@ -1045,8 +1162,9 @@
 
 {
   "title": "Oblastní přebor družstev dospělých",
+  "h1": "Oblastní přebor družstev dospělých",
+  "summary": "",
   "url": "/2023/02/25/oblastni-prebor-druzstev-dospelych.html",
-  "description": "Poslední kolo družstev dospělých jsme hráli proti BK...",
   "date": "2023-02-25",
   "image": "/blog/images/article-10.avif",
   "tags": ["Družstva", "2023"]
@@ -1055,8 +1173,9 @@
 
 {
   "title": "Zlatá medaile z Grand Prix C U19",
+  "h1": "Zlatá medaile z Grand Prix C U19",
+  "summary": "",
   "url": "/2023/02/24/zlata-medaile-z-grand-prix-c-u19.html",
-  "description": "Zlatou medaili jsme vybojovali ve čtyřhře s Kubou...",
   "date": "2023-02-24",
   "image": "/blog/images/article-5.avif",
   "tags": ["Soutěže", "2023"]
@@ -1065,8 +1184,9 @@
 
 {
   "title": "Vítěz turnaje Grand Prix D",
+  "h1": "Vítěz turnaje Grand Prix D",
+  "summary": "",
   "url": "/2023/02/24/vitez-turnaje-grand-prix-d.html",
-  "description": "Tato čtrnácti hodinová výprava 😅 začínala turnajem GPC...",
   "date": "2023-02-24",
   "image": "/blog/images/article-8.avif",
   "tags": ["Soutěže", "2023"]
@@ -1075,8 +1195,9 @@
 
 {
   "title": "Sezóna 2022",
+  "h1": "Sezóna 2022",
+  "summary": "",
   "url": "/2023/02/24/sezona-2022.html",
-  "description": "Sezóna 2022 byla určitě moje prozatím nejúspěšnější sezónou...",
   "date": "2023-02-24",
   "image": "/blog/images/article-2.avif",
   "tags": ["2022", "Ohlédnutí"]
@@ -1085,8 +1206,9 @@
 
 {
   "title": "Poděkování sponzorům ze sezóny 2022",
+  "h1": "Poděkování sponzorům ze sezóny 2022",
+  "summary": "",
   "url": "/2023/02/24/podekovani-sponzorum-ze-sezony-2022.html",
-  "description": "Ještě jednou bych chtěl poděkovat mým sponzorům z...",
   "date": "2023-02-24",
   "image": "/blog/images/article-9.avif",
   "tags": ["Ohlédnutí", "2022"]
@@ -1095,8 +1217,9 @@
 
 {
   "title": "Oceněn cenou Sportovce roku 2022",
+  "h1": "Oceněn cenou Sportovce roku 2022",
+  "summary": "",
   "url": "/2023/02/24/ocenen-cenou-sportovce-roku-2022.html",
-  "description": "Dne 30.1. proběhla akce města Mostu a to...",
   "date": "2023-02-24",
   "image": "/blog/images/article-7.avif",
   "tags": ["Ocenění", "2022"]
@@ -1105,8 +1228,9 @@
 
 {
   "title": "Oblastní přebor družstev dospělých",
+  "h1": "Oblastní přebor družstev dospělých",
+  "summary": "",
   "url": "/2023/02/24/oblastni-prebor-druzstev-dospelych.html",
-  "description": "Jako první turnaj sezóny byly právě družstva dospělých,...",
   "date": "2023-02-24",
   "image": "/blog/images/article-1.avif",
   "tags": ["2023", "Družstva"]
@@ -1115,8 +1239,9 @@
 
 {
   "title": "Čtvrtfinále na národním turnaji GPA U17",
+  "h1": "Čtvrtfinále na národním turnaji GPA U17",
+  "summary": "",
   "url": "/2023/02/24/ctvrtfinale-na-narodnim-turnaji-gpa-u17.html",
-  "description": "První národní turnaj nové sezóny se vydařil. Když...",
   "date": "2023-02-24",
   "image": "/blog/images/article-6.avif",
   "tags": ["Národní turnaje", "2023"]
@@ -1125,8 +1250,9 @@
 
 {
   "title": "Celkově 25 medailí v sezóně 2022",
+  "h1": "Celkově 25 medailí v sezóně 2022",
+  "summary": "",
   "url": "/2023/02/24/celkove-25-medaili-v-sezone-2022.html",
-  "description": "Celkově 25x🤯 jsem stál na stupních vítězů v...",
   "date": "2023-02-24",
   "image": "/blog/images/article-3.avif",
   "tags": ["2022", "Ohlédnutí"]
@@ -1135,8 +1261,9 @@
 
 {
   "title": "Oblastní přebor družstev dospělých",
+  "h1": "Oblastní přebor družstev dospělých",
+  "summary": "",
   "url": "/2023/02/24/Oblastn%C3%AD-p%C5%99ebor-dru%C5%BEstev-dosp%C4%9Bl%C3%BDch.html",
-  "description": "Jako první turnaj sezóny byly právě družstva dospělých...",
   "date": "2023-02-24",
   "image": "/blog/images/article-1.avif",
   "tags": ["2023", "Družstva"]

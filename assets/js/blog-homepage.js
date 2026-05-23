@@ -21,7 +21,7 @@ fetch("/blog/data/posts.json")
       overlay.className = "overlay";
 
       const title = document.createElement("h3");
-      title.textContent = post.title;
+      title.textContent = post.h1;
 
       const date = document.createElement("p");
       date.textContent = formatDate(post.date);

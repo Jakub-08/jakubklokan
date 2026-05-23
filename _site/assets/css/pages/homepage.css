@@ -29,7 +29,7 @@
   color: var(--color-text);
   text-align: center;
 
-  padding: 15vh 8% 10vh 50%;
+  padding: 15vh 8% 20vh 50%;
 }
 
 .hero-text-line {
@@ -42,11 +42,11 @@
 .hero p {
   color: var(--color-text);
   font-size: var(--font-lg);
-  margin-top: var(--space-7);
+  margin-top: var(--space-6);
 }
 
 .hero-cta {
-  margin-top: var(--space-5);
+  margin-top: var(--space-3);
 }
 
 /* RESPONZIVE */
@@ -69,7 +69,7 @@
     font-size: 1.1rem;
   }
   .hero-text {
-    padding: 20vh 0 10vh 0;
+    padding: 20vh 0 20vh 0;
   }
 }
 
@@ -335,4 +335,30 @@
   background-color: #cccccc4d; /* světle šedá, decentní */
   margin: var(--space-3) auto; /* mezera nad a pod linkou */
   width: 60%;
+}
+
+.hero {
+  position: relative; /* už je, super */
+  min-height: 60vh;
+  height: auto; /* fit-content může dělat problém na mobilech */
+}
+
+.sponsors {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: var(--space-7);
+  padding: var(--space-3) var(--space-5);
+  z-index: 10;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .sponsors {
+    grid-template-columns: 1fr 1fr;
+    padding: var(--space-3) var(--space-6);
+  }
 }

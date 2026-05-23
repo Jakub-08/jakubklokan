@@ -167,6 +167,30 @@
   margin-top: 0;
 }
 
+/* new */
+
+.tag-btn {
+  margin: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  border: 0.5px solid #ccc;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: var(--font-sm);
+  transition: 0.2s ease;
+}
+
+.tag-btn:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-dark);
+}
+
+.active-tag {
+  background-color: var(--color-primary-dark);
+  color: white;
+  border-color: #111;
+  transform: scale(0.97);
+}
+
 /* BUTTON NA STRÁNKY DOLE */
 #paginace {
   min-height: 40px;
@@ -210,7 +234,7 @@
     font-size: var(--font-sm);
   }
 
-  .post-description {
+  .post-summary {
     display: none;
   }
 
@@ -245,7 +269,7 @@
 
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .post-description {
+  .post-summary {
     display: none;
   }
   .tags {
