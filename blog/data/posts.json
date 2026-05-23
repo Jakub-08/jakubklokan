@@ -6,6 +6,7 @@ layout: none
 {% for post in site.posts %}
 {
   "title": {{ post.title | jsonify }},
+  "h1": {{ post.h1 | jsonify }},
   "date": "{{ post.date | date_to_xmlschema }}",
   "filename": "{{ post.url }}",
   "image": "{{ post.image }}"

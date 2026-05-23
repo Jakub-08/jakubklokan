@@ -13,7 +13,7 @@ fetch("/blog/data/posts.json")
 
     posledni.forEach(post => {
       const card = document.createElement("a");
-      card.href = post.filename;
+      card.href = post.filename.startsWith("/") ? post.filename : "/" + post.filename;
       card.className = "blog-article";
       card.style.backgroundImage = `url(${post.image})`;
 
