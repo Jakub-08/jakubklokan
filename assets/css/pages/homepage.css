@@ -149,6 +149,13 @@
   color: var(--color-text-dark);
 }
 
+.paragraph_seo {
+  text-align: center;
+  margin-bottom: var(--space-6);
+  font-size: var(--font-lg);
+  color: var(--color-text-dark);
+}
+
 .blog-articles {
   display: flex;
   gap: var(--space-6);
@@ -269,6 +276,12 @@
 ----- MEDALS STATS -----
 ----------------------*/
 
+.h2_homepage_stats {
+  text-align: center;
+  margin-bottom: var(--space-6);
+  color: var(--color-text-dark);
+}
+
 .medals-stats {
   display: grid;
   justify-items: center;
@@ -315,6 +328,8 @@
   font-weight: 580;
   height: 50px;
   color: var(--color-text-dark);
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease;
 }
 
 /* RESPONZIVE */

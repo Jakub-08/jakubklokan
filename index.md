@@ -74,7 +74,7 @@ scripts:
 <section class="blog section">
   <div class="container">
     <h2>Turnajové výsledky a blog</h2>
-    <p>
+    <p class="paragraph_seo">
       Pravidelně publikuji výsledky z turnajů, zkušenosti ze zápasů a sportovní progres v badmintonové kariéře.
     </p>
     <div class="blog-articles" id="blog-prehled-seznam-homepage"></div>
@@ -88,23 +88,23 @@ scripts:
 
 <div class="section-divider"></div>
 
-<section class="seo-content section">
-  <div class="container">
-
-    <h2>Badmintonová kariéra</h2>
-
-    <p>
-      Jsem český badmintonový hráč kategorie U19. Zaměřuji se na dlouhodobý sportovní rozvoj, účast na národních soutěžích GPA a GPC a sbírání zkušeností z mezinárodních turnajů po Evropě i Asii.
-    </p>
-
-    <p>
-      Reprezentuji klub Super Stars Most a pravidelně se účastním juniorských turnajů, kde porovnávám svou výkonnost s nejlepšími hráči své kategorie.
-    </p>
-
-    <p>
-      Cílem je postupný přechod na vrcholovou mezinárodní úroveň a stabilní výkony v juniorských i budoucích seniorských soutěžích.
-    </p>
-
+<section class="about-me-homepage section">
+  <div class="container about-me-container">
+    <div class="about-me-text homepage">
+      <h2>Badmintonová kariéra</h2>
+      <p>
+        Jsem český badmintonový hráč kategorie U19. Zaměřuji se na dlouhodobý sportovní rozvoj, účast na národních soutěžích GPA a GPC a sbírání zkušeností z mezinárodních turnajů po Evropě i Asii.
+      </p>
+      <p>
+        Reprezentuji klub Super Stars Most a pravidelně se účastním juniorských turnajů, kde porovnávám svou výkonnost s nejlepšími hráči své kategorie.
+      </p>
+      <p>
+        Cílem je postupný přechod na vrcholovou mezinárodní úroveň a stabilní výkony v juniorských i budoucích seniorských soutěžích.
+      </p>
+    </div>
+    <div class="about-me-photo">
+      <img src="/images/homepage/GPA-U19-Plzeň-4.jpg" alt="Jakub Klokan" />
+    </div>
   </div>
 </section>
 
@@ -282,7 +282,7 @@ scripts:
       Spolupracuji s partnery, kteří podporují můj sportovní rozvoj a účast na mezinárodních turnajích.
     </p>
 
-    <a href="/sponzoring.html">Spolupráce</a>
+    <a class="button button--ghost button--small" href="/sponzoring.html">Spolupráce</a>
 
   </div>
 </section>
