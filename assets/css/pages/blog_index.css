@@ -172,16 +172,15 @@
 .tag-btn {
   margin: var(--space-1);
   padding: var(--space-1) var(--space-3);
-  border: 1px solid #ccc;
+  border: 0,5px solid #ccc;
   border-radius: 999px;
-  background-color: var(--color-background-card);
   cursor: pointer;
   font-size: var(--font-sm);
   transition: 0.2s ease;
 }
 
 .tag-btn:hover {
-  background-color: #eee;
+  background-color: var(--color-primary);
 }
 
 .active-tag {
