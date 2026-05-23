@@ -83,6 +83,9 @@ scripts:
               přizpůsobená potřebám vaší značky
             </li>
           </ul>
+
+
+          <!--
           <div class="portfolio-buttons">
             <a
               href=""
@@ -109,6 +112,9 @@ scripts:
               <iframe src="" width="100%" height="100%"></iframe>
             </div>
           </div>
+          -->
+
+          
         </div>
 
         <picture class="strip-image-container">
