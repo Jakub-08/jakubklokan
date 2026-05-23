@@ -180,7 +180,8 @@
 }
 
 .tag-btn:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-dark);
 }
 
 .active-tag {
