@@ -281,17 +281,17 @@ scripts:
       <h2>Sponzoring & spolupráce</h2>
 
       <p>
-        Jsem český badmintonový hráč kategorie U19 zaměřený na mezinárodní turnaje a dlouhodobý sportovní rozvoj. 
-        V rámci své kariéry pravidelně startuji na národních i mezinárodních soutěžích v Evropě a sbírám zkušenosti proti hráčům světové úrovně.
+        Jsem český badmintonový hráč kategorie U19 zaměřený na&nbsp;mezinárodní turnaje a&nbsp;dlouhodobý sportovní rozvoj. 
+        V&nbsp;rámci své kariéry pravidelně startuji na&nbsp;národních i&nbsp;mezinárodních soutěžích v&nbsp;Evropě a&nbsp;sbírám zkušenosti proti hráčům světové úrovně.
       </p>
 
       <p>
-        Sport na této úrovni je finančně i organizačně náročný, a proto spolupracuji s partnery, kteří mi pomáhají s přípravou, cestováním a účastí na turnajích. 
-        Na oplátku nabízím reprezentaci značky v prostředí vrcholového sportu, viditelnost na turnajích a prezentaci na tomto webu.
+        Sport na této úrovni je finančně i&nbsp;organizačně náročný, a&nbsp;proto spolupracuji s&nbsp;partnery, kteří mi pomáhají s&nbsp;přípravou, cestováním a&nbsp;účastí na&nbsp;turnajích. 
+        Na&nbsp;oplátku nabízím reprezentaci značky v&nbsp;prostředí vrcholového sportu, viditelnost na&nbsp;turnajích a&nbsp;prezentaci na&nbsp;tomto webu.
       </p>
 
       <p>
-        Pokud hledáte spolupráci v oblasti sportu, juniorského vrcholového badmintonu nebo dlouhodobého partnerství, rád se s vámi spojím.
+        Pokud hledáte spolupráci v&nbsp;oblasti sportu, juniorského vrcholového badmintonu nebo dlouhodobého partnerství, rád se&nbsp;s&nbsp;vámi spojím.
       </p>
 
       <a href="/sponzoring.html" class="button button--ghost button--small">
