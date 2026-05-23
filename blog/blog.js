@@ -1,126 +1,111 @@
-// ====== Připravené pole článků z Jekyllu ======
-const allPosts = JSON.parse(document.getElementById("posts-data").textContent);
+// ====== DATA ======
+const allPosts = JSON.parse(
+  document.getElementById("posts-data").textContent
+);
 
 const postsPerPage = 10;
 let currentPage = 1;
+let query = "";
 
+// ====== DOM ======
 const seznamClanku = document.getElementById("seznam-clanku");
 const paginace = document.getElementById("paginace");
 const vyhledavac = document.getElementById("vyhledavac");
 
-// ====== Funkce pro české datum ======
+// ====== Datum ======
 function formatCzechDate(isoDate) {
   const d = new Date(isoDate);
   const months = [
-    "ledna", "února", "března", "dubna", "května", "června",
-    "července", "srpna", "září", "října", "listopadu", "prosince"
+    "ledna","února","března","dubna","května","června",
+    "července","srpna","září","října","listopadu","prosince"
   ];
-  const day = d.getDate();
-  const month = months[d.getMonth()];
-  const year = d.getFullYear();
-  return `${day}. ${month} ${year}`;
+  return `${d.getDate()}. ${months[d.getMonth()]} ${d.getFullYear()}`;
 }
 
-// ====== Vytvoření všech článků jen jednou ======
-allPosts.forEach(post => {
-  const a = document.createElement("a");
-  a.href = post.url;
-  a.className = "clanek";
+// ====== FILTER ======
+function getFilteredPosts() {
+  return allPosts.filter(p =>
+    p.title.toLowerCase().includes(query)
+  );
+}
 
-  if (post.image) {
-    const img = document.createElement("img");
-    img.src = post.image;
-    img.alt = post.title;
-    a.appendChild(img);
+// ====== RENDER ======
+function render() {
+  const filtered = getFilteredPosts();
+  const totalPages = Math.ceil(filtered.length / postsPerPage);
+
+  // clamp page
+  if (currentPage > totalPages) currentPage = 1;
+
+  const start = (currentPage - 1) * postsPerPage;
+  const pageItems = filtered.slice(start, start + postsPerPage);
+
+  // clear
+  seznamClanku.innerHTML = "";
+
+  if (pageItems.length === 0) {
+    seznamClanku.innerHTML = `<p class="no-posts">Žádné články.</p>`;
+    paginace.innerHTML = "";
+    return;
   }
 
-  const info = document.createElement("div");
-  info.className = "info";
-  info.innerHTML = `<h3>${post.title}</h3>
-                    ${post.description ? `<p class="post-description">${post.description}</p>` : ""}
-                    <p class="datum">${formatCzechDate(post.date)}</p>`;
-  a.appendChild(info);
+  // render posts
+  pageItems.forEach(post => {
+    const a = document.createElement("a");
+    a.href = post.url;
+    a.className = "clanek";
 
-  seznamClanku.appendChild(a);
-});
+    let html = "";
 
-// ====== Vyhledávání ======
-vyhledavac.addEventListener("input", () => {
-  currentPage = 1;
-  renderPosts();
-  renderPagination();
-});
+    if (post.image) {
+      html += `<img src="${post.image}" alt="${post.title}">`;
+    }
 
-// ====== Render článků ======
-function renderPosts() {
-  const start = (currentPage - 1) * postsPerPage;
-  const end = start + postsPerPage;
+    html += `
+      <div class="info">
+        <h3>${post.title}</h3>
+        ${post.description ? `<p class="post-description">${post.description}</p>` : ""}
+        <p class="datum">${formatCzechDate(post.date)}</p>
+      </div>
+    `;
 
-  const allClanky = Array.from(seznamClanku.children).filter(c => !c.classList.contains("no-posts"));
-
-  // viditelné články pouze podle title
-  const query = vyhledavac.value.toLowerCase();
-  const visiblePosts = allClanky.filter(c => {
-    return c.querySelector(".info h3").innerText.toLowerCase().includes(query);
+    a.innerHTML = html;
+    seznamClanku.appendChild(a);
   });
 
-  // všechny články nejdřív skryjeme
-  allClanky.forEach(c => c.style.display = "none");
-
-  if (visiblePosts.length === 0) {
-    // zobrazíme zprávu jen pokud neexistuje
-    let noPosts = document.querySelector(".no-posts");
-    if (!noPosts) {
-      noPosts = document.createElement("p");
-      noPosts.classList.add("no-posts");
-      noPosts.innerText = "Žádné články.";
-      seznamClanku.appendChild(noPosts);
-    }
-  } else {
-    // odstraníme zprávu, pokud existuje
-    const noPosts = document.querySelector(".no-posts");
-    if (noPosts) noPosts.remove();
-
-    // zobrazíme viditelné články podle aktuální stránky
-    visiblePosts.slice(start, end).forEach(c => c.style.display = "");
-  }
+  renderPagination(totalPages);
 }
 
-// ====== Render stránkování ======
-function renderPagination() {
+// ====== PAGINATION ======
+function renderPagination(totalPages) {
   paginace.innerHTML = "";
 
-  const allClanky = Array.from(seznamClanku.children).filter(c => !c.classList.contains("no-posts"));
-  const query = vyhledavac.value.toLowerCase();
-
-  const visiblePosts = allClanky.filter(c => {
-    return c.querySelector(".info h3").innerText.toLowerCase().includes(query);
-  });
-
-  const totalPages = Math.ceil(visiblePosts.length / postsPerPage);
-  if (totalPages <= 1) return; // pokud je jen 1 stránka, stránkování se nezobrazí
+  if (totalPages <= 1) return;
 
   for (let i = 1; i <= totalPages; i++) {
     const btn = document.createElement("button");
-    btn.className = "stranka-btn";
     btn.innerText = i;
+    btn.className = "stranka-btn";
 
     if (i === currentPage) btn.classList.add("active-page");
 
     btn.onclick = () => {
       currentPage = i;
-      renderPosts();
-      renderPagination();
+      render();
 
-      // scrollnutí k seznamu článků s odsazením
-      seznamClanku.scrollIntoView({ behavior: "smooth", block: "start" });
-      window.scrollBy(0, -200);
+      seznamClanku.scrollIntoView({ behavior: "smooth" });
     };
 
     paginace.appendChild(btn);
   }
 }
 
-// ====== Inicializace ======
-renderPosts();
-renderPagination();
+// ====== SEARCH ======
+vyhledavac.addEventListener("input", (e) => {
+  query = e.target.value.toLowerCase();
+  currentPage = 1;
+  render();
+});
+
+// ====== INIT ======
+render();
