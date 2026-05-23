@@ -151,7 +151,7 @@
 
 .paragraph_seo {
   text-align: center;
-  margin-bottom: var(--space-6);
+  margin: 0 auto var(--space-4) auto;
   font-size: var(--font-lg);
   color: var(--color-text-dark);
 }
@@ -278,7 +278,7 @@
 
 .h2_homepage_stats {
   text-align: center;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-5);
   color: var(--color-text-dark);
 }
 
@@ -323,13 +323,29 @@
 
 .medals-description {
   text-align: center;
-  margin-top: var(--space-5);
-  font-size: var(--font-lg);
-  font-weight: 580;
-  height: 50px;
+  margin-top: var(--space-4);
+  font-size: var(--font-sm);
+  font-weight: 600;
   color: var(--color-text-dark);
-  border: 1px solid transparent;
-  transition: border-color 0.3s ease;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  opacity: 0.8;
+  position: relative;
+  padding-top: 10px;
+}
+
+.medals-description::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 2px;
+  background: var(--color-accent, #caa24a);
+  border-radius: 2px;
 }
 
 /* RESPONZIVE */
@@ -347,7 +363,7 @@
 /* Vizuální oddělovač sekcí */
 .section-divider {
   height: 1px; /* tloušťka linky */
-  background-color: #cccccc4d; /* světle šedá, decentní */
+  background-color: #9595954d; /* světle šedá, decentní */
   margin: var(--space-3) auto; /* mezera nad a pod linkou */
   width: 60%;
 }

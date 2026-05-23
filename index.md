@@ -90,21 +90,22 @@ scripts:
 
 <section class="about-me-homepage section">
   <div class="container about-me-container">
-    <div class="about-me-text homepage">
-      <h2>Badmintonová kariéra</h2>
-      <p>
-        Jsem český badmintonový hráč kategorie U19. Zaměřuji se na dlouhodobý sportovní rozvoj, účast na národních soutěžích GPA a GPC a sbírání zkušeností z mezinárodních turnajů po Evropě i Asii.
-      </p>
-      <p>
-        Reprezentuji klub Super Stars Most a pravidelně se účastním juniorských turnajů, kde porovnávám svou výkonnost s nejlepšími hráči své kategorie.
-      </p>
-      <p>
-        Cílem je postupný přechod na vrcholovou mezinárodní úroveň a stabilní výkony v juniorských i budoucích seniorských soutěžích.
-      </p>
-    </div>
     <div class="about-me-photo">
       <img src="/images/homepage/GPA-U19-Plzeň-4.jpg" alt="Jakub Klokan" />
     </div>
+    <div class="about-me-text homepage">
+      <h2>Badmintonová kariéra</h2>
+      <p>
+        Jsem český badmintonový hráč kategorie U19. Zaměřuji se na dlouhodobý sportovní rozvoj, účast na národních soutěžích GPA a GPB a sbírání zkušeností z mezinárodních turnajů po Evropě i Asii.
+      </p>
+      <p>
+        Reprezentuji klub Super Stars Most a pravidelně se účastním juniorských a seniorních turnajů, kde porovnávám svou výkonnost s nejlepšími hráči své kategorie.
+      </p>
+      <p>
+        Cílem je postupný přechod na vrcholovou mezinárodní úroveň a stabilní výkony v juniorských i budoucích seniorských soutěžích. S pozdějším startem na Olympijských hrách 2023.
+      </p>
+    </div>
+    
   </div>
 </section>
 
@@ -273,16 +274,19 @@ scripts:
 
 <div class="section-divider"></div>
 
-<section class="sponsoring section">
-  <div class="container">
-
-    <h2>Sponzoring a spolupráce</h2>
-
-    <p>
-      Spolupracuji s partnery, kteří podporují můj sportovní rozvoj a účast na mezinárodních turnajích.
-    </p>
-
-    <a class="button button--ghost button--small" href="/sponzoring.html">Spolupráce</a>
-
+<section class="about-me-homepage section">
+  <div class="container about-me-container">
+    <div class="about-me-text homepage">
+      <h2>Sponzoring a spolupráce</h2>
+      <p>
+        Spolupracuji s partnery, kteří podporují můj sportovní rozvoj a účast na mezinárodních turnajích.
+      </p>
+      <a href="/sponzoring.html" class="button button--ghost button--small"
+        >Spolupráce</a
+      >
+    </div>
+    <div class="about-me-photo">
+      <img src="/images/homepage/GPA-U19-Plzeň-4.jpg" alt="Jakub Klokan" />
+    </div>
   </div>
 </section>
