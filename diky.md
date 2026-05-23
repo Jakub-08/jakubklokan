@@ -3,7 +3,6 @@ layout: default
 title: Děkujeme | Jakub Klokan
 description: Potvrzení odeslání zprávy.
 permalink: /diky/
-<meta name="robots" content="noindex, follow" />
 ---
 
 <section class="section container diky">
