@@ -104,7 +104,6 @@ scripts:
             </a>
           </div>
 
-          <!-- Modal PDF -->
           <div id="pdf-modal" style="display: none">
             <div class="pdf-overlay"></div>
             <div class="pdf-content">
@@ -114,7 +113,7 @@ scripts:
           </div>
           -->
 
-          
+
         </div>
 
         <picture class="strip-image-container">
