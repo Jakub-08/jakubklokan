@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/blog_articles.css" />
+  </head>
+  <body>
+    {% include header.html %}
+
+    <main class="blog-article-main">
+      <div class="container section">
+        <a
+          class="button button--primary button--small article"
+          href="/blog/blog_index.html"
+          >← Zpět na blog</a
+        >
+
+        <h1 class="blog-article-h1">
+          {{ page.h1 | default: page.title }}
+        </h1>
+        <div class="separate-line article"></div>
+        <div class="date">
+          {% assign months =
+          "ledna,února,března,dubna,května,června,července,srpna,září,října,listopadu,prosince"
+          | split: "," %} {% assign month_index = page.date | date: "%-m" |
+          minus: 1 %} {% assign month_name = months[month_index] %} {{ page.date
+          | date: "%-d." }} {{ month_name }} {{ page.date | date: "%Y" }}
+        </div>
+
+        <div class="text">{{ content }}</div>
+
+        {% if page.image %}
+        <img
+          class="img article article-image"
+          src="{{ page.image }}"
+          alt="{{ page.h1 | default: page.title }}"
+        />
+        {% endif %} {% if page.tags %}
+        <div class="tags">
+          {% for tag in page.tags %}
+          <span class="tag post">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

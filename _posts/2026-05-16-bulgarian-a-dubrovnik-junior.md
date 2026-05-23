@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Mezinárodní badmintonové turnaje 2026 – Bulharsko a Chorvatsko | Jakub Klokan"
 date: 2026-05-16
 image: /blog/images/Bulgarian-and-Dubrovnik-Junior.png
@@ -7,7 +7,7 @@ description: "Jakub Klokan na mezinárodních badmintonových turnajích 2026 v 
 tags: [Mezinárodní turnaje, 2026]
 
 h1: Zkušenosti z mezinárodních turnajů v Bulharsku a Chrovatsku
-des: V dubnu 2026 jsem absolvoval své první mezinárodní turnaje sezóny.
+summary: V dubnu 2026 jsem absolvoval své první mezinárodní turnaje sezóny.
 ---
 
 V dubnu 2026 jsem absolvoval své první mezinárodní turnaje sezóny – **Bulgarian Junior U19 International ve Svilengradu** a **VALAMAR Dubrovník Junior Open**.
