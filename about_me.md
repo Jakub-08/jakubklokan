@@ -204,7 +204,6 @@ scripts:
                 >
                 jsem nejaktivnější. Děkuju&nbsp;...
               </p>
-              </p>
               <a href="/achievements.html" class="button button--primary aboutMeToAchievements">
                 Sponzoring
               </a>
