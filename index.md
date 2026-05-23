@@ -91,7 +91,7 @@ scripts:
 <section class="about-me-homepage section">
   <div class="container about-me-container">
     <div class="about-me-photo">
-      <img src="/images/homepage/GPA-U19-Plzeň-4.jpg" alt="Jakub Klokan" />
+      <img src="/images/homepage/SuperStarsCamp25.jpg" alt="Jakub Klokan" />
     </div>
     <div class="about-me-text homepage">
       <h2>Badmintonová kariéra</h2>
@@ -102,7 +102,7 @@ scripts:
         Reprezentuji klub Super Stars Most a pravidelně se účastním juniorských a seniorních turnajů, kde porovnávám svou výkonnost s nejlepšími hráči své kategorie.
       </p>
       <p>
-        Cílem je postupný přechod na vrcholovou mezinárodní úroveň a stabilní výkony v juniorských i budoucích seniorských soutěžích. S pozdějším startem na Olympijských hrách 2023.
+        Cílem je postupný přechod na vrcholovou mezinárodní úroveň a stabilní výkony v juniorských i budoucích seniorských soutěžích. S pozdějším startem na Olympijských hrách 2032.
       </p>
     </div>
     
@@ -286,7 +286,7 @@ scripts:
       >
     </div>
     <div class="about-me-photo">
-      <img src="/images/homepage/GPA-U19-Plzeň-4.jpg" alt="Jakub Klokan" />
+      <img src="/images/homepage/Dornbirn.jpg" alt="Jakub Klokan" />
     </div>
   </div>
 </section>
