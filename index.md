@@ -73,13 +73,38 @@ scripts:
 
 <section class="blog section">
   <div class="container">
-    <h2>Poslední z blogu</h2>
+    <h2>Turnajové výsledky a blog</h2>
+    <p>
+      Pravidelně publikuji výsledky z turnajů, zkušenosti ze zápasů a sportovní progres v badmintonové kariéře.
+    </p>
     <div class="blog-articles" id="blog-prehled-seznam-homepage"></div>
     <div class="button-mobile-center">
       <a href="/blog/blog_index.html" class="button button--ghost button--small"
         >Zobrazit vše
       </a>
     </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="seo-content section">
+  <div class="container">
+
+    <h2>Badmintonová kariéra</h2>
+
+    <p>
+      Jsem český badmintonový hráč kategorie U19. Zaměřuji se na dlouhodobý sportovní rozvoj, účast na národních soutěžích GPA a GPC a sbírání zkušeností z mezinárodních turnajů po Evropě i Asii.
+    </p>
+
+    <p>
+      Reprezentuji klub Super Stars Most a pravidelně se účastním juniorských turnajů, kde porovnávám svou výkonnost s nejlepšími hráči své kategorie.
+    </p>
+
+    <p>
+      Cílem je postupný přechod na vrcholovou mezinárodní úroveň a stabilní výkony v juniorských i budoucích seniorských soutěžích.
+    </p>
+
   </div>
 </section>
 
@@ -108,6 +133,7 @@ scripts:
 <div class="section-divider"></div>
 
 <section class="section">
+  <h2 class="h2_homepage_stats">Sportovní přehled</h2>
   <section class="medals-stats container grid--3">
     <div class="medals-one-type">
       <div class="medals-image">
@@ -241,6 +267,22 @@ scripts:
         Nezastavit se&nbsp;před překážkami, bojovat až&nbsp;do&nbsp;konce.
       </p>
     </div>
+
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="sponsoring section">
+  <div class="container">
+
+    <h2>Sponzoring a spolupráce</h2>
+
+    <p>
+      Spolupracuji s partnery, kteří podporují můj sportovní rozvoj a účast na mezinárodních turnajích.
+    </p>
+
+    <a href="/sponzoring.html">Spolupráce</a>
 
   </div>
 </section>
