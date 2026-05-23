@@ -36,7 +36,8 @@ allPosts.forEach(post => {
 
   const info = document.createElement("div");
   info.className = "info";
-  info.innerHTML = `<h3>${post.title}</h3>
+  info.innerHTML = `<h3>${post.h1 || post.title}</h3>
+${post.summary ? `<p class="post-summary">${post.summary}</p>` : ""}
                     ${post.description ? `<p class="post-description">${post.description}</p>` : ""}
                     <p class="datum">${formatCzechDate(post.date)}</p>`;
   a.appendChild(info);

@@ -26,6 +26,8 @@ description: "Pravidelné články o badmintonovém tréninku, turnajích, sport
 {% for post in site.posts %}
 {
   "title": "{{ post.title | escape }}",
+  "h1": "{{ post.h1 | default: post.title | escape }}",
+  "summary": "{{ post.summary | escape }}",
   "url": "{{ post.url | relative_url }}",
   "description": "{{ post.description | escape }}",
   "date": "{{ post.date | date: '%Y-%m-%d' }}",
