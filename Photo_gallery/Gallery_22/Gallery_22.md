@@ -1,6 +1,7 @@
 ---
 layout: photogallery
 title: "Fotogalerie badminton 2022 | Jakub Klokan – MČR U15, GPB, GPA a turnaje"
+h1: Fotogalerie - 2022
 description: "Fotogalerie Jakuba Klokana z roku 2022. Badmintonové turnaje MČR U15, MČR U17, GPA a GPB soutěže po celé České republice."
 
 galleries:

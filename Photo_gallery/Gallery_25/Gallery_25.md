@@ -2,6 +2,7 @@
 layout: photogallery
 description: Fotogalerie českého badmintonisty Jakuba Klokana z roku 2025 – turnaje, zápasy, mezinárodní soutěže a sportovní příprava.
 title: Jakub Klokan – fotogalerie badminton 2025 | turnaje a zápasy
+h1: Fotogalerie - 2025
 galleries:
   - year: MČR Družstev U19
     link: "/Photo_gallery/Gallery_25/MČR_Družstev/MČR.html"

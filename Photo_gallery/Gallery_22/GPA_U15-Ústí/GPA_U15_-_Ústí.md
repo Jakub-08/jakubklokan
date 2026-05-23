@@ -2,6 +2,7 @@
 layout: photogallery_photos
 title: "Grand Prix A U15 – Ústí nad Labem 2022"
 description: Fotogalerie z turnaje Grand Prix A U15 v Ústí nad Labem. Jakub Klokan v zápasech a týmových momentech z badmintonového turnaje.
+h1: Grand Prix A U15 – Ústí nad Labem
 backLink: "/Photo_gallery/Gallery_22/Gallery_22.html"
 ---
 

@@ -2,6 +2,7 @@
 layout: photogallery_photos
 description: Fotogalerie ze Serbian U17 International 2024. Zápasové momenty Jakuba Klokana během mezinárodního badmintonového turnaje.
 title: "Serbian U17 International 2024 | Jakub Klokan"
+h1: Serbian U17 International 2024
 backLink: "/Photo_gallery/Gallery_24/Gallery_24.html"
 ---
 

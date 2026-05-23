@@ -2,6 +2,7 @@
 layout: photogallery_photos
 title: "Mistrovství ČR U17 – Brno 2022"
 description: Fotogalerie z Mistrovství České republiky U17 v Brně. Jakub Klokan v zápasech a turnajových výměnách badmintonu.
+h1: Mistrovství ČR U17
 backLink: "/Photo_gallery/Gallery_22/Gallery_22.html"
 ---
 

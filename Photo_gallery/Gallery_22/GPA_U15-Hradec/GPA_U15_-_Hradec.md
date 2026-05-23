@@ -2,6 +2,7 @@
 layout: photogallery_photos
 description: Fotogalerie z turnaje Grand Prix A U15 v Hradci Králové. Jakub Klokan v zápasech a týmových momentech během soutěže.
 title: "Grand Prix A U15 – Hradec Králové | Jakub Klokan"
+h1: Grand Prix A U15 – Hradec Králové
 backLink: "/Photo_gallery/Gallery_22/Gallery_22.html"
 ---
 
