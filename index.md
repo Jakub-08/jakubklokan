@@ -38,7 +38,7 @@ scripts:
 
   <div class="container">
     <div class="hero-text text-shadow">
-      <h1>Jakub Klokan – český badmintonista</h1>
+      <h1>Jakub Klokan <br> český badmintonista</h1>
       <div class="hero-text-line"></div>
       <h2>Vrcholový badminton a mezinárodní turnaje</h2>
       <p>
