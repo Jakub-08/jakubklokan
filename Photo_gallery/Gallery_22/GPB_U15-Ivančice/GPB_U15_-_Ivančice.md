@@ -1,5 +1,5 @@
 ---
-layout: photogallery
+layout: photogallery_photos
 title: "Grand Prix B U15 – Ivančice 2022"
 description: Fotogalerie z turnaje Grand Prix B U15 v Ivančicích. Jakub Klokan v zápasech, výměnách a turnajových momentech badmintonu.
 backLink: "/Photo_gallery/Gallery_22/Gallery_22.html"

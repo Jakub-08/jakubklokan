@@ -1,5 +1,5 @@
 ---
-layout: photogallery
+layout: photogallery_photos
 title: "II. liga badminton | Jakub Klokan týmové zápasy"
 description: "Fotogalerie z týmových zápasů II. ligy badmintonu. Jakub Klokan v ligových utkáních, zápasových výměnách a týmových momentech."
 backLink: "/Photo_gallery/Gallery_23/Gallery_23.html"

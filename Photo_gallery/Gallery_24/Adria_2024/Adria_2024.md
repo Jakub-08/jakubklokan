@@ -1,5 +1,5 @@
 ---
-layout: photogallery
+layout: photogallery_photos
 title: "Adria U17 International 2024 | Jakub Klokan badminton"
 description: "Fotogalerie z mezinárodního turnaje Adria U17 International 2024. Jakub Klokan v zápasech, výměnách a soutěžních momentech proti evropské konkurenci."
 backLink: "/Photo_gallery/Gallery_24/Gallery_24.html"
