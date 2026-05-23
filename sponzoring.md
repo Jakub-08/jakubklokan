@@ -28,7 +28,7 @@ scripts:
     </picture>
 
     <div class="container sponzoring-hero-text">
-      <h1>Sponzoring a spolupráce</h1>
+      <h1>Sponzoring &&nbsp;spolupráce</h1>
       <div class="separate-line separate-line--sponzoring"></div>
       <h2>
         Podpořte mladého mezinárodního badmintonistu a&nbsp;získejte viditelnost

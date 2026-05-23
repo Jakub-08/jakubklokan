@@ -15,7 +15,7 @@ scripts:
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text">
-              <h1>Má badmintonová cesta</h1>
+              <h1 class="h1-about-me">Má badmintonová cesta</h1>
               <p>
                 Český badmintonista soutěžící na domácích i mezinárodních turnajích. Hráč klubu Super Stars Most.
               </p>
