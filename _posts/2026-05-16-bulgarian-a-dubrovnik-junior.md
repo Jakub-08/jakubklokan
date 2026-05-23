@@ -1,55 +1,57 @@
 ---
 layout: post
-title: "Zkušenosti z mezinárodní scény z Bulharska a Chorvatska"
+title: "Mezinárodní badmintonové turnaje 2026 – Bulharsko a Chorvatsko | Jakub Klokan"
 date: 2026-05-16
 image: /blog/images/Bulgarian-and-Dubrovnik-Junior.png
-description: "V dubnu jsem odehrál své první mezinárodní turnaje."
+description: "Jakub Klokan na mezinárodních badmintonových turnajích 2026 v Bulharsku a Chorvatsku. Zápasy, zkušenosti a srovnání s evropskou i asijskou špičkou U19."
 tags: [Mezinárodní turnaje, 2026]
 ---
 
-V dubnu jsem odehrál své první mezinárodní turnaje sezóny 2026 – **Bulgarian Junior U19 International ve Svilengradu** a **VALAMAR Dubrovník Junior Open**.
+V dubnu 2026 jsem absolvoval své první mezinárodní turnaje sezóny – **Bulgarian Junior U19 International ve Svilengradu** a **VALAMAR Dubrovník Junior Open**.
 
 ---
 
-## Bulgarian Junior U19 International 2026
+## Bulgarian Junior U19 International 2026 (Svilengrad, Bulharsko)
 
-Do Bulharska jsem vyrazil společně s Terkou Čechovou, se kterou jsem nastoupil i do smíšené čtyřhry.
+Na turnaj jsem odcestoval společně s Terkou Čechovou, se kterou jsem nastoupil i do smíšené čtyřhry.
 
-Los nám příliš nepřál – hned v prvním kole jsme narazili na nasazené osmičky **S. Araujo a Y. Brunnschweiler**.
+Los nám přidělil velmi silné soupeře již v 1. kole – nasazený pár **S. Araujo / Y. Brunnschweiler**.
 
-Zápas byl velmi vyrovnaný a bojovný. Nakonec skončil: 16:21, 21:14 a 21:23  
+Zápas byl vyrovnaný a bojovný: **16:21, 21:14, 21:23**.
 
-Ve třetím setu jsme dokázali dotáhnout ztrátu 16:20, ale závěr zápasu jsme bohužel nezvládli. Naši soupeři se následně probojovali až do čtvrtfinále.
+Ve třetím setu jsme dokázali smazat ztrátu 16:20, ale závěr zápasu jsme nezvládli. Soupeři se následně probojovali až do čtvrtfinále.
 
-Ve dvouhře jsem nastoupil proti hráči z Indie **Sai Nachiketh Bhatraju (Chetan Anand Badminton Academy)**. Jeho hra byla nad mé síly a prohrál jsem: 13:21 a 11:21  
+Ve dvouhře jsem nastoupil proti hráči z Indie **Sai Nachiketh Bhatraju (Chetan Anand Badminton Academy)**. Zápas skončil: **13:21, 11:21**.
 
-I přesto to byla cenná zkušenost proti hráči z badmintonově silné země.
+I přes jasnou porážku šlo o cennou zkušenost proti hráči z jedné z nejsilnějších badmintonových zemí.
 
 ---
 
-## VALAMAR Dubrovník Junior Open 2026
+## VALAMAR Dubrovník Junior Open 2026 (Chorvatsko)
 
-Do Dubrovníku jsem vyrazil sám a čekala mě pouze dvouhra.
+Do Dubrovníku jsem odcestoval sám a nastoupil pouze do dvouhry.
 
-Los byl opět velmi těžký – proti mně nastoupil 14letý hráč z Hongkongu **Chan Yee Hei**, stříbrný medailista z Mistrovství Asie U15.
+V 1. kole jsem hrál proti hráči z Hongkongu **Chan Yee Hei**, stříbrnému medailistovi z Mistrovství Asie U15.
 
-Do zápasu jsem vstoupil s klidnou hlavou, ale postupně se projevil respekt k soupeři. Dokázal jsem hrát aktivně a získávat body, ale dlouhodobě si soupeř udržel kontrolu nad výměnami. Zápas skončil: 13:21 a 11:21  
+Zápas skončil: **13:21, 11:21**.
 
-I přes porážku beru tento zápas jako důležitou zkušenost – je velmi pravděpodobné, že se s tímto hráčem v budoucnu setkáme na nejvyšší úrovni.
+Soupeř postupně převzal kontrolu nad výměnami, přesto jsem dokázal získávat body aktivní hrou. Tempo i kvalita výměn ukázaly rozdíl oproti evropské špičce.
 
 ---
 
 ## Shrnutí
 
-Z turnajů si odnáším především reálné srovnání s aktuální mezinárodní konkurencí. Měl jsem možnost sledovat i další zápasy a získat lepší představu o tempu, stylu a nárocích na této úrovni.
+Turnaje mi poskytly reálné srovnání s mezinárodní úrovní U19 badmintonu. Měl jsem možnost sledovat i další zápasy a lépe pochopit rozdíly v tempu, technice a taktice mezi Evropou a Asií.
 
 ---
 
-## Další období
+## Následující období
 
-Nyní mě čeká intenzivní období:
+Čeká mě intenzivní tréninkové období:
 
-- měsíční trénink v **Chetan Anand Badminton Academy v Indii**
-- následně měsíční soustředění s klubem **Super Stars Most**
+- měsíční příprava v **Chetan Anand Badminton Academy (Indie)**
+- následné soustředění s klubem **Super Stars Most**
 
-> Děkuji firmě Peyton Legal za podporu při výjezdu a klubu Super Stars Most za umožnění účasti na turnajích.
+---
+
+> Poděkování patří společnosti Peyton Legal za podporu a klubu Super Stars Most za umožnění účasti na mezinárodních turnajích.
