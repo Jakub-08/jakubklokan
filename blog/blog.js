@@ -31,16 +31,22 @@ function renderTags() {
 
   tagContainer.innerHTML = "";
 
+  // RESET tlačítko
   const clearBtn = document.createElement("button");
   clearBtn.innerText = "Vše";
   clearBtn.className = "tag-btn";
+
+  if (!activeTag) clearBtn.classList.add("active-tag");
+
   clearBtn.onclick = () => {
     activeTag = null;
     currentPage = 1;
     render();
   };
+
   tagContainer.appendChild(clearBtn);
 
+  // TAGY
   allTags.forEach(tag => {
     const btn = document.createElement("button");
     btn.className = "tag-btn";
