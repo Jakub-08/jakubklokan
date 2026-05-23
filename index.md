@@ -111,28 +111,6 @@ scripts:
 
 <div class="section-divider"></div>
 
-<section class="about-me-homepage section">
-  <div class="container about-me-container">
-    <div class="about-me-text homepage">
-      <h2>O mně</h2>
-      <p>
-        Jmenuji se&nbsp;Jakub Klokan a&nbsp;hraji badminton na&nbsp;mezinárodní
-        úrovni. Jsem&nbsp;studentem Podkrušnohorského gymnázia v&nbsp;Mostě
-        a&nbsp;rád sdílím své zkušenosti, úspěchy a&nbsp;projekty
-        zde&nbsp;na&nbsp;webu.
-      </p>
-      <a href="/about_me.html" class="button button--ghost button--small"
-        >Více o mně</a
-      >
-    </div>
-    <div class="about-me-photo">
-      <img src="/images/homepage/GPA-U19-Plzeň-4.jpg" alt="Jakub Klokan" />
-    </div>
-  </div>
-</section>
-
-<div class="section-divider"></div>
-
 <section class="section">
   <h2 class="h2_homepage_stats">Sportovní přehled</h2>
   <section class="medals-stats container grid--3">
@@ -213,6 +191,28 @@ scripts:
       </a>
     </div>
   </section>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="about-me-homepage section">
+  <div class="container about-me-container">
+    <div class="about-me-text homepage">
+      <h2>O mně</h2>
+      <p>
+        Jmenuji se&nbsp;Jakub Klokan a&nbsp;hraji badminton na&nbsp;mezinárodní
+        úrovni. Jsem&nbsp;studentem Podkrušnohorského gymnázia v&nbsp;Mostě
+        a&nbsp;rád sdílím své zkušenosti, úspěchy a&nbsp;projekty
+        zde&nbsp;na&nbsp;webu.
+      </p>
+      <a href="/about_me.html" class="button button--ghost button--small"
+        >Více o mně</a
+      >
+    </div>
+    <div class="about-me-photo">
+      <img src="/images/homepage/GPA-U19-Plzeň-4.jpg" alt="Jakub Klokan" />
+    </div>
+  </div>
 </section>
 
 <div class="section-divider"></div>
