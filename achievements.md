@@ -9,7 +9,7 @@ scripts:
 ---
 
 <section class="introduction container">
-  <h1>Badmintonové úspěchy Jakuba Klokana</h1>
+  <h1>Mé největší badmintonové úspěchy</h1>
   <div class="separate-line"></div>
   <p>
     Přehled výsledků českého badmintonisty Jakuba Klokana na národních i mezinárodních turnajích, včetně Mistrovství České republiky a evropských soutěží.
