@@ -5,10 +5,10 @@ description: "Pravidelné články o badmintonovém tréninku, turnajích, sport
 ---
 
 <div class="main-bg">
-  <h1 class="blog-intro-1">Vítejte na mém blogu</h1>
+  <h1 class="blog-intro-1">Můj badmintonový blog</h1>
   <div class="separate-line separate-line-blog"></div>
   <h2 class="blog-intro-2">
-    Pravidelně zde přidávám nejnovější články z&nbsp;turnajů.
+    Články o badmintonových turnajích, tréninku a&nbsp;cestě vrcholového hráče.
   </h2>
 
   <div id="filtr-panel" class="container">
