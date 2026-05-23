@@ -21,7 +21,7 @@ permalink: /diky/
     Zpět na sponzoring
   </a>
 
-  <a href="/achievements/" class="button button--ghost btn-diky">
+  <a href="/achievements/" class="button button--secondary btn-diky">
     Moje úspěchy
   </a>
 
