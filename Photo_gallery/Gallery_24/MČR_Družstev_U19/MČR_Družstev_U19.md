@@ -1,29 +1,34 @@
 ---
-layout: photogallery_photos
-title: "Mistrovství ČR Družstev U19"
+layout: photogallery
+description: Fotogalerie z Mistrovství ČR družstev U19. Zápasové momenty, týmová hra a soutěžní atmosféra Jakuba Klokana během turnaje.
+title: "Mistrovství ČR Družstev U19 | Jakub Klokan"
 backLink: "/Photo_gallery/Gallery_24/Gallery_24.html"
 ---
 
 <div class="gallery-card photo">
   <picture>
-    <source srcset="" />
-    <source srcset="" />
-    <img src="../MČR_Družstev_U19/Družstva_U19.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" class="img-top"/>  
+    <img src="../MČR_Družstev_U19/Družstva_U19.jpg"
+         fetchpriority="high"
+         loading="lazy"
+         class="img-top"
+         alt="Tým U19 během Mistrovství ČR družstev – Jakub Klokan" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <source srcset="" />
-    <source srcset="" />
-    <img src="../MČR_Družstev_U19/Družstva_U19_1.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy" />
+    <img src="../MČR_Družstev_U19/Družstva_U19_1.jpg"
+         fetchpriority="high"
+         loading="lazy"
+         alt="Zápasový moment Mistrovství ČR družstev U19 – Jakub Klokan" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <source srcset="" type="image/avif" />
-    <source srcset="" type="image/webp" />
-    <img src="../MČR_Družstev_U19/Družstva_U19_2.jpg" fetchpriority="high" alt="Momentka z turnaje" loading="lazy"/>
+    <img src="../MČR_Družstev_U19/Družstva_U19_2.jpg"
+         fetchpriority="high"
+         loading="lazy"
+         alt="Soutěžní utkání družstev U19 na Mistrovství ČR – Jakub Klokan" />
   </picture>
 </div>

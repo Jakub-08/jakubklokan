@@ -78,8 +78,9 @@
   property="og:image"
   content="{{ page.og_image | default: site.og_image }}"
 />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:url" content="{{ page.url | absolute_url | remove:'index.html' }}" />
 <meta property="og:type" content="website" />
+<meta name="robots" content="index, follow" />
 
 <!-- Twitter (doporučeno) -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -94,18 +95,24 @@
 />
 
 <!-- Canonical URL -->
-<link rel="canonical" href="{{ page.url | absolute_url }}" />
+<link rel="canonical" href="{{ page.url | absolute_url | remove:'index.html' }}" />
 
 <!-- Schema.org -->
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "{{ site.author }}",
-    "url": "{{ site.url }}",
-    "image": "{{ site.og_image }}",
-    "sameAs": ["{{ site.social.instagram }}", "{{ site.social.facebook }}"]
-  }
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jakub Klokan",
+  "url": "{{ site.url }}",
+  "image": "{{ site.og_image }}",
+  "jobTitle": "Badminton player",
+  "description": "Český badmintonista zaměřený na mezinárodní turnaje a sportovní rozvoj.",
+  "nationality": "Czech",
+  "sameAs": [
+    "{{ site.social.instagram }}",
+    "{{ site.social.facebook }}"
+  ]
+}
 </script>
 
 <!-- Google Analytics -->

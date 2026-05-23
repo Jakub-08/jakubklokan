@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Jakub Klokan
-description: Vrcholový badmintonista
-permalink: /index.html
+title: Jakub Klokan | Český badmintonista
+description: Jakub Klokan je český badmintonista zaměřený na vrcholový trénink, mezinárodní turnaje a sportovní rozvoj.
+permalink: /
 
 scripts:
   - /assets/js/dark-mode.js
@@ -38,13 +38,15 @@ scripts:
 
   <div class="container">
     <div class="hero-text text-shadow">
-      <h1>Jakub Klokan</h1>
+      <h1>Jakub Klokan – český badmintonista</h1>
       <div class="hero-text-line"></div>
-      <h2>Vrcholový badmintonista</h2>
-      <p>Spolupracuji se značkami, které míří vysoko.<br />Stejně jako já.</p>
+      <h2>Vrcholový badminton a mezinárodní turnaje</h2>
+      <p>
+      Český badmintonista soutěžící na domácích i mezinárodních turnajích, zaměřený na dlouhodobý sportovní výkon a rozvoj.
+      </p>
       <div class="hero-cta">
         <a href="/sponzoring.html" class="button button--primary"
-          >Spolupráce & sponzoring</a
+          >Sponzoring & spolupráce</a
         >
       </div>
     </div>
@@ -53,7 +55,7 @@ scripts:
   <!-- Sekce sponzorů -->
   <div class="sponsors">
     <div class="sponsors-left" id="sponsor-left">
-      <a href="#"><img src="" alt="" /></a>
+      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana" /></a>
     </div>
     <div class="sponsors-main">
       <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
@@ -64,7 +66,7 @@ scripts:
       </a>
     </div>
     <div class="sponsors-right" id="sponsor-right">
-      <a href="#"><img src="" alt="" /></a>
+      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana" /></a>
     </div>
   </div>
 </section>

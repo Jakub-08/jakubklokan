@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Jakub Klokan
-description: Staňte se mým sponzorem
+title: Sponzoring | Jakub Klokan – Badminton partnerství
+description: Sponzoring a partnerství s českým badmintonistou Jakubem Klokanem. Viditelnost značky na mezinárodních turnajích, sociálních sítích a sportovních projektech.
 permalink: /sponzoring/
 
 scripts:
@@ -22,13 +22,13 @@ scripts:
       />
       <img
         src="/Photo_gallery/Gallery_23/Bozner/Bozner_Cup_2.jpg"
-        alt="Momentka ze zápasu"
+        alt="Jakub Klokan – badmintonový turnaj Bozner Cup 2023"
         class="sponzoring-hero-image"
       />
     </picture>
 
     <div class="container sponzoring-hero-text">
-      <h1>Staňte se mým sponzorem</h1>
+      <h1>Sponzoring a spolupráce – Jakub Klokan (badminton)</h1>
       <div class="separate-line separate-line--sponzoring"></div>
       <h2>
         Podpořte mladého mezinárodního badmintonistu a&nbsp;získejte viditelnost
@@ -122,7 +122,7 @@ scripts:
           />
           <img
             src="/images/sponzoring/GPA_U19_2026_Plzeň.jpg"
-            alt="Já s medailemi z GPA U15 2022"
+            alt="Jakub Klokan – badminton GPA U19 Plzeň 2026 turnaj"
             fetchpriority="high"
             class="strip-image"
           />
@@ -138,7 +138,7 @@ scripts:
         <picture class="strip-image-container">
           <img
             src="/Photo_gallery/Gallery_24/Super_Stars_Camp_24/Super_Stars_Camp_7.jpg"
-            alt="Fotka z letního badmintonového campu"
+            alt="Jakub Klokan – badmintonový tréninkový kemp Super Stars Most"
             fetchpriority="high"
             class="strip-image"
           />
@@ -196,7 +196,7 @@ scripts:
                   <img
                     class="logo"
                     src="/images/sponzoring/Výšky_Lanem.png"
-                    alt="logo firmy Výšky lanem s.r.o."
+                    alt="Výšky lanem s.r.o. – sponzor Jakuba Klokana badminton"
                   />
                 </a>
               </div>
@@ -206,7 +206,7 @@ scripts:
                   <img
                     class="logo"
                     src="/images/homepage/Peyton-legal.png"
-                    alt="logo firmy Peyton Legal"
+                    alt="Peyton Legal – partner Jakuba Klokana badminton"
                   />
                 </a>
               </div>
@@ -216,7 +216,7 @@ scripts:
                   <img
                     class="logo"
                     src="/images/sponzoring/Brick_house.png"
-                    alt="logo firmy BrickHouse"
+                    alt="BrickHouse – partner Jakuba Klokana badminton"
                   />
                 </a>
               </div>
@@ -225,7 +225,7 @@ scripts:
                 <img
                   class="logo"
                   src="/images/homepage/Ronin-Advisors.jpg"
-                  alt="logo firmy Ronin Advisors"
+                  alt="Ronin Advisors – sponzor Jakuba Klokana badminton"
                 />
               </div>
 
@@ -234,7 +234,7 @@ scripts:
                   <img
                     class="logo"
                     src="/images/sponzoring/K_Vechtru.png"
-                    alt="logo firmy K Vechtru Flow s.r.o."
+                    alt="K Vechtru Flow s.r.o. – partner Jakuba Klokana badminton"
                   />
                 </a>
               </div>
@@ -244,7 +244,7 @@ scripts:
                   <img
                     class="logo"
                     src="/images/homepage/Helen-Doron.png"
-                    alt="logo firmy Helen Doron"
+                    alt="Helen Doron – sponzor Jakuba Klokana badminton"
                   />
                 </a>
               </div>
@@ -264,7 +264,7 @@ scripts:
                   <img
                     class="logo"
                     src="/images/sponzoring/JILM.png"
-                    alt="logo firmy JILM s.r.o."
+                    alt="JILM s.r.o. – bývalý sponzor Jakuba Klokana badminton"
                     height="60"
                     width="90"
                   />
@@ -276,7 +276,7 @@ scripts:
                   <img
                     class="logo"
                     src="/images/sponzoring/GF_Machinery.png"
-                    alt="logo firmy GF machinery s.r.o."
+                    alt="GF Machinery – bývalý partner Jakuba Klokana badminton"
                     height="60"
                     width="70"
                   />
@@ -287,7 +287,7 @@ scripts:
                 <img
                   class="logo"
                   src="/images/sponzoring/bisczech-t.png"
-                  alt="logo firmy BIS Czech"
+                  alt="BIS Czech – bývalý sponzor Jakuba Klokana badminton"
                 />
               </div>
 
@@ -296,7 +296,7 @@ scripts:
                   <img
                     class="logo"
                     src="/images/homepage/Obec-Raná.png"
-                    alt="logo obce Raná"
+                    alt="Obec Raná – podporovatel Jakuba Klokana badminton"
                     height="60"
                     width="60"
                   />
@@ -307,7 +307,7 @@ scripts:
                 <img
                   class="logo"
                   src="/images/sponzoring/Mistera_group.png"
-                  alt="logo firmy Mistera Group"
+                  alt="Mistera Group – bývalý partner Jakuba Klokana badminton"
                 />
               </div>
 
@@ -315,7 +315,7 @@ scripts:
                 <img
                   class="logo"
                   src="/images/sponzoring/Indutech_Mont.png"
-                  alt="logo firmy Indutech Mont"
+                  alt="Indutech Mont – bývalý sponzor Jakuba Klokana badminton"
                 />
               </div>
             </div>
@@ -357,10 +357,10 @@ scripts:
           </div>
           <div class="contact-item">
             <strong>Web:</strong>
-            <a href="https://jakubklokan.cz" target="_blank">jakubklokan.cz</a>
+            <a href="https://jakubklokan.cz" target="_blank" rel="noopener">jakubklokan.cz</a>
           </div>
           <div class="contact-logo">
-            <img src="/Logo_webu_black.png" alt="" />
+            <img src="/Logo_webu_black.png" alt="Jakub Klokan – badminton sponzoring a kontakt" />
           </div>
         </div>
 

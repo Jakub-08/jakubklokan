@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Jakub Klokan
-description: Dozvěďte se o mně více
+title: Jakub Klokan | Český badmintonista
+description: Životní příběh a badmintonová kariéra Jakuba Klokana, českého hráče zaměřeného na mezinárodní turnaje a sportovní rozvoj.
 
 scripts:
   - /assets/js/dark-mode.js
@@ -15,7 +15,10 @@ scripts:
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text">
-              <h1>Jakub Klokan</h1>
+              <h1>Jakub Klokan – badmintonová kariéra</h1>
+              <p>
+                Český badmintonista soutěžící na domácích i mezinárodních turnajích. Hráč klubu Super Stars Most.
+              </p>
               <div class="separate-line"></div>
               <p>
                 Můj&nbsp;příběh započal 11.&nbsp;září 2008, když jsem
@@ -45,7 +48,7 @@ scripts:
               />
               <img
                 src="/images/about_me/GPAU15202216.jpg"
-                alt="Já s medailemi z GPA U15 2022"
+                alt="Jakub Klokan – badmintonový hráč s medailemi z GPA U15 2022"
                 fetchpriority="high"
                 class="strip-image"
               />
@@ -63,7 +66,7 @@ scripts:
               <source srcset="/images/about_me/Malý.webp" type="image/webp" />
               <img
                 src="/images/about_me/Malý.jpg"
-                alt="I when I was 8"
+                alt="Jakub Klokan v dětství při badmintonu"
                 class="strip-image"
               />
             </picture>
@@ -127,7 +130,7 @@ scripts:
             <div class="strip-image-container">
               <img
                 src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_7.jpg"
-                alt="Já a můj spoluhráč na příjmu podání"
+                alt="Jakub Klokan během badmintonového zápasu"
                 class="strip-image"
                 loading="lazy"
               />
@@ -142,8 +145,8 @@ scripts:
           <div class="container grid--2 strip-contain grid-mobile-switch">
 
             <div class="education-gallery strip-image-container">
-              <img alt="Certifikát od Badmintonové světové organizace" src="/images/about_me/BWF-Certificate-Jakub_Klokan.jpg" class="slide aktivni strip-image" />
-              <img alt="Certifikát o splnění kurzu" src="/images/about_me/WAOS_AC_Cert.jpg" class="slide strip-image full" />
+              <img alt="Jakub Klokan – badmintonové trenérské a vzdělávací certifikáty BWF a WAoS" src="/images/about_me/BWF-Certificate-Jakub_Klokan.jpg" class="slide aktivni strip-image" />
+              <img alt="Jakub Klokan – badmintonové trenérské a vzdělávací certifikáty BWF a WAoS" src="/images/about_me/WAOS_AC_Cert.jpg" class="slide strip-image full" />
             </div>
 
             <div class="container-text">
@@ -205,7 +208,7 @@ scripts:
               <source srcset="/images/about_me/Flying.webp" type="image/webp" />
               <img
                 src="/images/about_me/Flying.jpeg"
-                alt="Fotka západu slunce z letadla"
+                alt="Jakub Klokan – cestování na badmintonový turnaj"
                 loading="lazy"
                 class="strip-image"
               />
