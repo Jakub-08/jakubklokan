@@ -13,6 +13,7 @@
   gap: var(--space-4);
   margin-top: var(--space-4);
   max-width: 400px;
+  color: var(--color-text-dark);
 }
 
 /* GALLERY */
