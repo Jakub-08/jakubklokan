@@ -7,7 +7,7 @@ const allPosts = JSON.parse(
 const postsPerPage = 10;
 let currentPage = 1;
 let query = "";
-let activeTag = null;
+let activeTags = [];
 
 // ====== DOM ======
 const seznamClanku = document.getElementById("seznam-clanku");
@@ -25,47 +25,6 @@ function formatCzechDate(isoDate) {
   return `${d.getDate()}. ${months[d.getMonth()]} ${d.getFullYear()}`;
 }
 
-function renderTags() {
-  const allTags = [...new Set(allPosts.flatMap(p => p.tags || []))]
-    .sort((a, b) => a.localeCompare(b, "cs"));
-
-  tagContainer.innerHTML = "";
-
-  // RESET tlačítko
-  const clearBtn = document.createElement("button");
-  clearBtn.innerText = "Vše";
-  clearBtn.className = "tag-btn";
-
-  if (!activeTag) clearBtn.classList.add("active-tag");
-
-  clearBtn.onclick = () => {
-    activeTag = null;
-    currentPage = 1;
-    render();
-  };
-
-  tagContainer.appendChild(clearBtn);
-
-  // TAGY
-  allTags.forEach(tag => {
-    const btn = document.createElement("button");
-    btn.className = "tag-btn";
-    btn.innerText = tag;
-
-    if (activeTag === tag) {
-      btn.classList.add("active-tag");
-    }
-
-    btn.onclick = () => {
-      activeTag = tag;
-      currentPage = 1;
-      render();
-    };
-
-    tagContainer.appendChild(btn);
-  });
-}
-
 // ====== FILTERED DATA ======
 function getFilteredPosts() {
   return allPosts.filter(post => {
@@ -77,10 +36,62 @@ function getFilteredPosts() {
       title.includes(query) ||
       summary.includes(query);
 
-    const matchesTag =
-      !activeTag || tags.includes(activeTag.toLowerCase());
+    const matchesTags =
+      activeTags.length === 0 ||
+      activeTags.every(t => tags.includes(t.toLowerCase()));
 
-    return matchesQuery && matchesTag;
+    return matchesQuery && matchesTags;
+  });
+}
+
+// ====== TAG RENDER ======
+function renderTags() {
+  const allTags = [...new Set(allPosts.flatMap(p => p.tags || []))]
+    .sort((a, b) => a.localeCompare(b, "cs"));
+
+  tagContainer.innerHTML = "";
+
+  // RESET BUTTON
+  const clearBtn = document.createElement("button");
+  clearBtn.className = "tag-btn";
+  clearBtn.innerText = "Vše";
+
+  if (activeTags.length === 0) {
+    clearBtn.classList.add("active-tag");
+  }
+
+  clearBtn.onclick = () => {
+    activeTags = [];
+    currentPage = 1;
+    render();
+  };
+
+  tagContainer.appendChild(clearBtn);
+
+  // TAG BUTTONS
+  allTags.forEach(tag => {
+    const btn = document.createElement("button");
+    btn.className = "tag-btn";
+    btn.innerText = tag;
+
+    const isActive = activeTags.includes(tag);
+
+    if (isActive) {
+      btn.classList.add("active-tag");
+    }
+
+    btn.onclick = () => {
+      if (activeTags.includes(tag)) {
+        activeTags = activeTags.filter(t => t !== tag);
+      } else {
+        activeTags.push(tag);
+      }
+
+      currentPage = 1;
+      render();
+    };
+
+    tagContainer.appendChild(btn);
   });
 }
 
