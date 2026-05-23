@@ -42,11 +42,11 @@ scripts:
       <div class="hero-text-line"></div>
       <h2>Vrcholový badminton a mezinárodní turnaje</h2>
       <p>
-      Český badmintonista soutěžící na domácích i mezinárodních turnajích, zaměřený na dlouhodobý sportovní výkon a rozvoj.
+      Český badmintonista soutěžící na&nbsp;domácích i&nbsp;mezinárodních turnajích, zaměřený na&nbsp;dlouhodobý sportovní výkon a&nbsp;rozvoj.
       </p>
       <div class="hero-cta">
         <a href="/sponzoring.html" class="button button--primary"
-          >Sponzoring & spolupráce</a
+          >Sponzoring &&nbsp;spolupráce</a
         >
       </div>
     </div>
@@ -73,9 +73,9 @@ scripts:
 
 <section class="blog section">
   <div class="container">
-    <h2>Turnajové výsledky a blog</h2>
+    <h2>Turnajové výsledky a&nbsp;blog</h2>
     <p class="paragraph_seo">
-      Pravidelně publikuji výsledky z turnajů, zkušenosti ze zápasů a sportovní progres v badmintonové kariéře.
+      Pravidelně publikuji výsledky z&nbsp;turnajů, zkušenosti ze&nbsp;zápasů a&nbsp;sportovní progres v&nbsp;badmintonové kariéře.
     </p>
     <div class="blog-articles" id="blog-prehled-seznam-homepage"></div>
     <div class="button-mobile-center">
@@ -96,13 +96,13 @@ scripts:
     <div class="about-me-text homepage">
       <h2>Badmintonová kariéra</h2>
       <p>
-        Jsem český badmintonový hráč kategorie U19. Zaměřuji se na dlouhodobý sportovní rozvoj, účast na národních soutěžích GPA a GPB a sbírání zkušeností z mezinárodních turnajů po Evropě i Asii.
+        Jsem český badmintonový hráč kategorie U19. Zaměřuji se&nbsp;na&nbsp;dlouhodobý sportovní rozvoj, účast na&nbsp;národních soutěžích GPA a&nbsp;GPB a&nbsp;sbírání zkušeností z&nbsp;mezinárodních turnajů po&nbsp;Evropě i&nbsp;Asii.
       </p>
       <p>
-        Reprezentuji klub Super Stars Most a pravidelně se účastním juniorských a seniorních turnajů, kde porovnávám svou výkonnost s nejlepšími hráči své kategorie.
+        Reprezentuji klub Super Stars Most a&nbsp;pravidelně se&nbsp;účastním juniorských a&nbsp;seniorních turnajů, kde porovnávám svou výkonnost s&nbsp;nejlepšími hráči své&nbsp;kategorie.
       </p>
       <p>
-        Cílem je postupný přechod na vrcholovou mezinárodní úroveň a stabilní výkony v juniorských i budoucích seniorských soutěžích. S pozdějším startem na Olympijských hrách 2032.
+        Cílem je&nbsp;postupný přechod na&nbsp;vrcholovou mezinárodní úroveň a&nbsp;stabilní výkony v&nbsp;juniorských i&nbsp;budoucích seniorských soutěžích. S&nbsp;pozdějším startem na&nbsp;Olympijských hrách 2032.
       </p>
     </div>
     
@@ -276,17 +276,33 @@ scripts:
 
 <section class="about-me-homepage section">
   <div class="container about-me-container">
+
     <div class="about-me-text homepage">
-      <h2>Sponzoring a spolupráce</h2>
+      <h2>Sponzoring & spolupráce</h2>
+
       <p>
-        Spolupracuji s partnery, kteří podporují můj sportovní rozvoj a účast na mezinárodních turnajích.
+        Jsem český badmintonový hráč kategorie U19 zaměřený na mezinárodní turnaje a dlouhodobý sportovní rozvoj. 
+        V rámci své kariéry pravidelně startuji na národních i mezinárodních soutěžích v Evropě a sbírám zkušenosti proti hráčům světové úrovně.
       </p>
-      <a href="/sponzoring.html" class="button button--ghost button--small"
-        >Spolupráce</a
-      >
+
+      <p>
+        Sport na této úrovni je finančně i organizačně náročný, a proto spolupracuji s partnery, kteří mi pomáhají s přípravou, cestováním a účastí na turnajích. 
+        Na oplátku nabízím reprezentaci značky v prostředí vrcholového sportu, viditelnost na turnajích a prezentaci na tomto webu.
+      </p>
+
+      <p>
+        Pokud hledáte spolupráci v oblasti sportu, juniorského vrcholového badmintonu nebo dlouhodobého partnerství, rád se s vámi spojím.
+      </p>
+
+      <a href="/sponzoring.html" class="button button--ghost button--small">
+        Spolupráce
+      </a>
+
     </div>
+
     <div class="about-me-photo">
       <img src="/images/homepage/Dornbirn.jpg" alt="Jakub Klokan" />
     </div>
+
   </div>
 </section>
