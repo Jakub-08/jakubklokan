@@ -91,7 +91,7 @@ scripts:
                 sen.<br />A&nbsp;to&nbsp;dosáhnout až&nbsp;na&nbsp;olympijské
                 kruhy.
               </p>
-              <a href="/achievements.html" class="button button--primary">
+              <a href="/achievements.html" class="button button--primary aboutMeToAchievements">
               Mé úspěchy
               </a>
             </div>
