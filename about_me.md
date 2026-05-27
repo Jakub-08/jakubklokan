@@ -16,9 +16,6 @@ scripts:
           <div class="container grid--2 strip-contain">
             <div class="container-text">
               <h1 class="h1-about-me">Má badmintonová cesta</h1>
-              <p>
-                Český badmintonista soutěžící na domácích i mezinárodních turnajích. Hráč klubu Super Stars Most.
-              </p>
               <div class="separate-line"></div>
               <p>
                 Můj&nbsp;příběh započal 11.&nbsp;září 2008, když jsem

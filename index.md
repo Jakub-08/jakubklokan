@@ -42,7 +42,7 @@ scripts:
       <div class="hero-text-line"></div>
       <h2>Vrcholový badminton a mezinárodní turnaje</h2>
       <p>
-      Český badmintonista soutěžící na&nbsp;domácích i&nbsp;mezinárodních turnajích, zaměřený na&nbsp;dlouhodobý sportovní výkon a&nbsp;rozvoj.
+      Jsem český badmintonista soutěžící na&nbsp;domácích i&nbsp;mezinárodních turnajích a&nbsp;se&nbsp;snem startu na&nbsp;Olympijských hrách 2032.
       </p>
       <div class="hero-cta">
         <a href="/sponzoring.html" class="button button--primary"
@@ -79,7 +79,7 @@ scripts:
     </p>
     <div class="blog-articles" id="blog-prehled-seznam-homepage"></div>
     <div class="button-mobile-center">
-      <a href="/blog/blog_index.html" class="button button--ghost button--small"
+      <a href="/blog/blog_index.html" class="button button--secondary button--small"
         >Zobrazit vše
       </a>
     </div>

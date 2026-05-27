@@ -1,6 +1,6 @@
 # --- Základní informace ---
 title: Jakub Klokan
-description: Vítám Vás na mé webové stránce, kde se dozvíte o mé badmintonové kariéře i osobním životě.
+description: Vítejte na mém webu, kde sdílím svou badmintonovou kariéru i osobní cestu.
 url: "https://jakubklokan.cz"
 author: Jakub Klokan
 baseurl: ""
@@ -36,8 +36,8 @@ social:
   facebook: "https://m.facebook.com/klokanjakub/"
 
 # --- Obrázky a logo pro SEO / OpenGraph ---
-logo: "/Logo_webu_white.svg"
-og_image: "/Logo_webu_preview.png"
+logo: "/favicon_black_BG.svg"
+og_image: "/favicon_black_BG.png"
 
 # --- Nastavení blogu ---
 blog:
