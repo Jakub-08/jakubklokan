@@ -186,7 +186,7 @@ scripts:
 
   <section class="container">
     <div class="button-mobile-center">
-      <a href="achievements.html" class="button button--ghost button--small">
+      <a href="achievements.html" class="button button--primary button--small">
         Více úspěchů
       </a>
     </div>
