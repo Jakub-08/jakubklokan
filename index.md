@@ -79,7 +79,7 @@ scripts:
     </p>
     <div class="blog-articles" id="blog-prehled-seznam-homepage"></div>
     <div class="button-mobile-center">
-      <a href="/blog/blog_index.html" class="button button--secondary button--small"
+      <a href="/blog/blog_index.html" class="button button--primary button--small"
         >Zobrazit vše
       </a>
     </div>
@@ -205,7 +205,7 @@ scripts:
         a&nbsp;rád sdílím své zkušenosti, úspěchy a&nbsp;projekty
         zde&nbsp;na&nbsp;webu.
       </p>
-      <a href="/about_me.html" class="button button--ghost button--small"
+      <a href="/about_me.html" class="button button--primary button--small"
         >Více o mně</a
       >
     </div>
@@ -294,7 +294,7 @@ scripts:
         Pokud hledáte spolupráci v&nbsp;oblasti sportu, juniorského vrcholového badmintonu nebo dlouhodobého partnerství, rád se&nbsp;s&nbsp;vámi spojím.
       </p>
 
-      <a href="/sponzoring.html" class="button button--ghost button--small">
+      <a href="/sponzoring.html" class="button button--primary button--small">
         Spolupráce
       </a>
 
