@@ -149,9 +149,10 @@ MOBILE MENU - MODERN DRAWER
 
 .separator {
   height: 1px;
-  width: 5dvh;
+  width: 10dvh;
   background-color: var(--color-primary-dark);
   margin: 0 auto;
+  border-radius: 0.5px;
 }
 
 /* open state */
@@ -161,7 +162,7 @@ MOBILE MENU - MODERN DRAWER
 
 /* items */
 .odkazy-menu li {
-  margin: 8px 0;
+  margin: 5px 0;
   opacity: 0;
   transform: translateY(10px);
   transition: 0.3s ease;
