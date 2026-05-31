@@ -2,7 +2,7 @@
 layout: post
 title: "Připomenutí mého prvního národní titulu"
 date: 2023-03-01
-image: /blog/images/article-13.avif
+image: /blog/images/season/article-13.avif
 description: "Přesně před 3 roky jsem získal můj první..."
 tags: [Ohlédnutí]
 ---

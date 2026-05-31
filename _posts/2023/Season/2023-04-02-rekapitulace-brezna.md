@@ -2,7 +2,7 @@
 layout: post
 title: "Rekapitulace března"
 date: 2023-04-02
-image: /blog/images/article-21.avif
+image: /blog/images/season/article-21.avif
 description: "Březen byl stále hlavně o trénincích a přípravě..."
 tags: [Ohlédnutí, 2023]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Výhra národního titulu před rokem"
 date: 2023-05-08
-image: /blog/images/article-27.avif
+image: /blog/images/season/article-27.avif
 description: "Asi není náhoda 🤷, že jsem v ten..."
 tags: [Ohlédnutí, 2023]
 ---
