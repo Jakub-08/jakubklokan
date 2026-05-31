@@ -177,7 +177,7 @@ scripts:
           />
         </picture>
 
-        <span class="medals-number">43</span>
+        <span class="medals-number">45</span>
       </div>
       <span class="medals-description">Vítězství GPC a OP</span>
     </div>
