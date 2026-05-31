@@ -2,7 +2,7 @@
 layout: post
 title: "Poděkování sponzorům ze sezóny 2022"
 date: 2023-02-24
-image: /blog/images/article-9.avif
+image: /blog/images/sponsors/article-9.avif
 description: "Ještě jednou bych chtěl poděkovat mým sponzorům z..."
 tags: [Ohlédnutí, 2022]
 ---
