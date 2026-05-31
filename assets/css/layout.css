@@ -91,11 +91,11 @@ MOBILE MENU - MODERN DRAWER
 ===================== */
 
 .mobilni-menu {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   height: 56px;
-  z-index: 2000;
+  z-index: 3000;
   background: rgba(10, 10, 10, 0.92);
   backdrop-filter: blur(10px);
   display: flex;
@@ -106,11 +106,13 @@ MOBILE MENU - MODERN DRAWER
 
 /* hamburger */
 .menu-ikona {
+  position: relative;
   cursor: pointer;
   width: 26px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+  z-index: 3000;
 }
 
 .menu-ikona span {
@@ -123,9 +125,11 @@ MOBILE MENU - MODERN DRAWER
 /* full-screen overlay menu */
 .odkazy-menu {
   position: fixed;
+  z-index: 2500;
   inset: 0;
   background: rgba(15, 15, 15, 0.98);
   backdrop-filter: blur(12px);
+  pointer-events: none;
 
   display: flex;
   flex-direction: column;
@@ -157,6 +161,10 @@ MOBILE MENU - MODERN DRAWER
 #toggle-menu:checked ~ .odkazy-menu li {
   opacity: 1;
   transform: translateY(0);
+}
+
+#toggle-menu:checked ~ .odkazy-menu {
+  pointer-events: all;
 }
 
 .odkazy-menu li a {
