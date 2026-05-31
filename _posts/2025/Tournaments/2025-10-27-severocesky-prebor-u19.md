@@ -2,7 +2,7 @@
 layout: post
 title: "Severočeský přebor U19"
 date: 2025-10-27
-image: /blog/images/article-82.png
+image: /blog/images/tournaments/article-82.png
 description: "Opět po roce mě čekal severočeský přebor, tentokrát..."
 tags: [Soutěže, 2025]
 ---

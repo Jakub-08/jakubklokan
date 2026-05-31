@@ -2,7 +2,7 @@
 layout: post
 title: "Poděkování sponzorům ze sezóny 2025"
 date: 2026-01-02
-image: /blog/images/article-87.png
+image: /blog/images/sponsors/article-87.png
 description: "Rád bych se ohlédl za rokem 2025 a..."
 tags: [Ohlédnutí, 2025]
 ---

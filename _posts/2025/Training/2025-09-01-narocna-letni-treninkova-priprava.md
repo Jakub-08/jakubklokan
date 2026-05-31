@@ -2,7 +2,7 @@
 layout: post
 title: "Náročná letní tréninková příprava"
 date: 2025-09-01
-image: /blog/images/article-80.avif
+image: /blog/images/training/article-80.avif
 description: "Toto léto mě opět čekala náročná tréninková příprava..."
 tags: [Soustředění, 2025]
 ---

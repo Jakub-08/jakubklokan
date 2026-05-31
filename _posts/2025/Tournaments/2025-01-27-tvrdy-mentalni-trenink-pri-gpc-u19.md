@@ -2,7 +2,7 @@
 layout: post
 title: "Tvrdý mentální trénink při GPC U19"
 date: 2025-01-27
-image: /blog/images/article-70.avif
+image: /blog/images/tournaments/article-70.avif
 description: "Po dosti letech jsem se dostal opět na..."
 tags: [Soutěže, 2025]
 ---

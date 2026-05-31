@@ -2,7 +2,7 @@
 layout: post
 title: "Vítězství na domácím Poháru Akademie"
 date: 2025-04-15
-image: /blog/images/article-76.avif
+image: /blog/images/tournaments/article-76.avif
 description: "Jen pár dní po turnaji ve francouzském Voironu🇨🇵..."
 tags: [Soutěže, 2025]
 ---

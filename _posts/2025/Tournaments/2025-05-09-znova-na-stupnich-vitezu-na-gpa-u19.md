@@ -2,7 +2,7 @@
 layout: post
 title: "Znova na stupních vítězů na GPA U19"
 date: 2025-05-09
-image: /blog/images/article-77.avif
+image: /blog/images/tournaments/article-77.avif
 description: "Vyhráli jsem další medaili z národního turnaje Grand..."
 tags: [Národní turnaje, 2025]
 ---

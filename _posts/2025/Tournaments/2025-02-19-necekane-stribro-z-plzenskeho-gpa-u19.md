@@ -2,7 +2,7 @@
 layout: post
 title: "Nečekané stříbro z plzeňského GPA U19"
 date: 2025-02-19
-image: /blog/images/article-72.webp
+image: /blog/images/tournaments/article-72.webp
 description: "Hnedka stříbro 🥈 z prvního národního turnaje v..."
 tags: [Národní turnaje, 2025]
 ---

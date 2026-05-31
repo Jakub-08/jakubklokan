@@ -2,7 +2,7 @@
 layout: post
 title: "Czech Junior International U19 2025"
 date: 2025-11-17
-image: /blog/images/article-83.png
+image: /blog/images/tournaments/article-83.png
 description: "Ve vzdálené Orlové se uskutečnilo Mezinárodní mistrovství ČR..."
 tags: [Mezinárodní turnaje, 2025]
 ---

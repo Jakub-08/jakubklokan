@@ -2,7 +2,7 @@
 layout: post
 title: "VICTOR Bulgarian Junior Challenge"
 date: 2025-07-01
-image: /blog/images/article-79.avif
+image: /blog/images/tournaments/article-79.avif
 description: "Ve dvouhře jsem skončil v top 32, když..."
 tags: [Mezinárodní turnaje, 2025]
 ---
