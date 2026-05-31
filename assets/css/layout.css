@@ -91,10 +91,10 @@ MOBILE MENU - MODERN DRAWER
 ===================== */
 
 .mobilni-menu {
-  position: relative;
+  position: absolute;
   top: 0;
   width: 100%;
-  height: 50px;
+  height: 56px;
   z-index: 3000;
   background: rgba(10, 10, 10, 0.92);
   backdrop-filter: blur(10px);
@@ -203,6 +203,29 @@ input[type="checkbox"]:checked + .menu-ikona span:nth-child(2) {
 
 input[type="checkbox"]:checked + .menu-ikona span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* =================
+OVERLAY
+================= */
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease;
+
+  z-index: 1800;
+}
+
+#toggle-menu:checked ~ .menu-overlay {
+  opacity: 1;
+  pointer-events: all;
 }
 
 /* =================
