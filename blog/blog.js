@@ -164,9 +164,14 @@ function renderPagination(totalPages) {
       currentPage = i;
       render();
 
-      seznamClanku.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
+      const y =
+        seznamClanku.getBoundingClientRect().top +
+        window.pageYOffset -
+        80; // <- offset (uprav si hodnotu)
+
+      window.scrollTo({
+        top: y,
+        behavior: "smooth"
       });
     };
 
