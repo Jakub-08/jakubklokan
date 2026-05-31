@@ -2,7 +2,7 @@
 layout: post
 title: "Oblastní přebor družstev dospělých"
 date: 2023-02-24
-image: /blog/images/article-1.avif
+image: /blog/images/tournaments/article-1.avif
 description: "Jako první turnaj sezóny byly právě družstva dospělých,..."
 tags: [2023, Družstva]
 ---

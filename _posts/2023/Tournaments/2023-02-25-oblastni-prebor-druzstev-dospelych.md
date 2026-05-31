@@ -2,7 +2,7 @@
 layout: post
 title: "Oblastní přebor družstev dospělých"
 date: 2023-02-25
-image: /blog/images/article-10.avif
+image: /blog/images/tournaments/article-10.avif
 description: "Poslední kolo družstev dospělých jsme hráli proti BK..."
 tags: [Družstva, 2023]
 ---

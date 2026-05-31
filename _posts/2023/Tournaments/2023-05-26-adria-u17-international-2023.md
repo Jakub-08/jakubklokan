@@ -2,7 +2,7 @@
 layout: post
 title: "Adria U17 international 2023"
 date: 2023-05-26
-image: /blog/images/article-28.avif
+image: /blog/images/tournaments/article-28.avif
 description: "Adria U17 International 2023 🇭🇷 Tento turnaj mi..."
 tags: [Mezinárodní turnaje, 2023]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Skoro jsem jel na Serbian U17 International"
 date: 2023-06-23
-image: /blog/images/article-31.avif
+image: /blog/images/tournaments/article-31.avif
 description: "Skoro vše už bylo připraveno, abych se mohl..."
 tags: [Mezinárodní turnaje, 2023]
 ---

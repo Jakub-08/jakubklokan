@@ -2,7 +2,7 @@
 layout: post
 title: "První mezinárodní turnaj podzimní části sezóny"
 date: 2023-09-24
-image: /blog/images/article-40.avif
+image: /blog/images/tournaments/article-40.avif
 description: "Tentokrát jsem vyjel do Chorvatska na turnaj 7th..."
 tags: [Mezinárodní turnaje, 2023]
 ---

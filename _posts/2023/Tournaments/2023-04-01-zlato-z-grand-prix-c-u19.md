@@ -2,7 +2,7 @@
 layout: post
 title: "Zlato z Grand Prix C U19"
 date: 2023-04-01
-image: /blog/images/article-20.avif
+image: /blog/images/tournaments/article-20.avif
 description: "Začal Duben a hnedka zlato z Grand Prix..."
 tags: [Soutěže, 2023]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Čtvrtfinále na národním turnaji GPA U17"
 date: 2023-02-24
-image: /blog/images/article-6.avif
+image: /blog/images/tournaments/article-6.avif
 description: "První národní turnaj nové sezóny se vydařil. Když..."
 tags: [Národní turnaje, 2023]
 ---

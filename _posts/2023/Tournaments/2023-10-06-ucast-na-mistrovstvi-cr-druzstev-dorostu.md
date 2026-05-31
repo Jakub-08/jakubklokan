@@ -2,7 +2,7 @@
 layout: post
 title: "Účast na Mistrovství ČR družstev dorostu"
 date: 2023-10-06
-image: /blog/images/article-41.avif
+image: /blog/images/tournaments/article-41.avif
 description: "Nakonec jsme se kvalifikovali na MČR družstev dorostu,..."
 tags: [Družstva, 2023]
 ---

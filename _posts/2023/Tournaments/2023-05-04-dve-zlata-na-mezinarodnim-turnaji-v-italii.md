@@ -2,7 +2,7 @@
 layout: post
 title: "Dvě zlata na mezinárodním turnaji v Itálii"
 date: 2023-05-04
-image: /blog/images/article-24.avif
+image: /blog/images/tournaments/article-24.avif
 description: "Turnaj, Torneo Internazionale primavera di Bolzano, který se..."
 tags: [Mezinárodní turnaje, 2023]
 ---

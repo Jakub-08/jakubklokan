@@ -2,7 +2,7 @@
 layout: post
 title: "Dvojnásobný severočeský přeborník"
 date: 2023-10-22
-image: /blog/images/article-43.avif
+image: /blog/images/tournaments/article-43.avif
 description: "Tuto sobotu se v Liberci konal severočeský Oblastní..."
 tags: [Soutěže, 2023]
 ---

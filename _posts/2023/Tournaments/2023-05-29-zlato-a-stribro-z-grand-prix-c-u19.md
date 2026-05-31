@@ -2,7 +2,7 @@
 layout: post
 title: "Zlato a stříbro z Grand Prix C U19"
 date: 2023-05-29
-image: /blog/images/article-29.avif
+image: /blog/images/tournaments/article-29.avif
 description: "Další vítězství 🏆 ve dvouhře na Grand Prix..."
 tags: [Soutěže, 2023]
 ---

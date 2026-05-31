@@ -2,7 +2,7 @@
 layout: post
 title: "Grand Prix A U17 a dvojnásobná účast v druhém kole"
 date: 2023-09-10
-image: /blog/images/article-38.avif
+image: /blog/images/tournaments/article-38.avif
 description: "Národní turnaj, Grand Prix A U17, a dvojnásobná..."
 tags: [Národní turnaje, 2023]
 ---

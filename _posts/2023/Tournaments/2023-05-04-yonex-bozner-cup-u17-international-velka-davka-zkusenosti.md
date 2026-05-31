@@ -2,7 +2,7 @@
 layout: post
 title: "YONEX Bozner Cup U17 International, velká dávka zkušeností"
 date: 2023-05-04
-image: /blog/images/article-23.avif
+image: /blog/images/tournaments/article-23.avif
 description: "Můj první Evropský okruh skončil s velkou dávkou..."
 tags: [Mezinárodní turnaje, 2023]
 ---

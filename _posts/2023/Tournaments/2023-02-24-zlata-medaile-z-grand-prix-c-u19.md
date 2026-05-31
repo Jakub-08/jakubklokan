@@ -2,7 +2,7 @@
 layout: post
 title: "Zlatá medaile z Grand Prix C U19"
 date: 2023-02-24
-image: /blog/images/article-5.avif
+image: /blog/images/tournaments/article-5.avif
 description: "Zlatou medaili jsme vybojovali ve čtyřhře s Kubou..."
 tags: [Soutěže, 2023]
 ---
