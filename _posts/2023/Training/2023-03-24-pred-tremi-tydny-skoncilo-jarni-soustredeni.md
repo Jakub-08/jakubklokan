@@ -2,7 +2,7 @@
 layout: post
 title: "Před třemi týdny skončilo jarní soustředění"
 date: 2023-03-24
-image: /blog/images/article-18.avif
+image: /blog/images/training/article-18.avif
 description: "Přesně před třemi týdny skončilo Super Stars Most..."
 tags: [Soustředění, 2023]
 ---

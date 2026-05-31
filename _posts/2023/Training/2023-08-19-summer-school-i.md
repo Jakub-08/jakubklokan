@@ -2,7 +2,7 @@
 layout: post
 title: "Summer school I"
 date: 2023-08-19
-image: /blog/images/article-33.avif
+image: /blog/images/training/article-33.avif
 description: "Jako druhý týden přípravy, jsem se účastnil Summer..."
 tags: [Soustředění, 2023]
 ---

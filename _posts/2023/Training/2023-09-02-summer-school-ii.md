@@ -2,7 +2,7 @@
 layout: post
 title: "Summer School II"
 date: 2023-09-02
-image: /blog/images/article-36.avif
+image: /blog/images/training/article-36.avif
 description: "Čtvrtá a zároveň poslední část letní přípravy 🥲,..."
 tags: [Soustředění, 2023]
 ---

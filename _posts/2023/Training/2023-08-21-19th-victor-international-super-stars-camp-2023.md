@@ -2,7 +2,7 @@
 layout: post
 title: "19th Victor International Super Stars Camp 2023"
 date: 2023-08-21
-image: /blog/images/article-35.avif
+image: /blog/images/training/article-35.avif
 description: "Pod vedením, bývalého 10. hráče světa v mužské..."
 tags: [Soustředění, 2023]
 ---

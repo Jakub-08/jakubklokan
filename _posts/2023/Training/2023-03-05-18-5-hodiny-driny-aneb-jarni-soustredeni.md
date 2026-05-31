@@ -2,7 +2,7 @@
 layout: post
 title: "18,5 hodiny dřiny aneb jarní soustředění"
 date: 2023-03-05
-image: /blog/images/article-14.avif
+image: /blog/images/training/article-14.avif
 description: "Konec jarního soustředka 😔, uteklo to nějak rychle.Celkově..."
 tags: [Soustředění, 2023]
 ---
