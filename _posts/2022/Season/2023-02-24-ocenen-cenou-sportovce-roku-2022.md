@@ -2,7 +2,7 @@
 layout: post
 title: "Oceněn cenou Sportovce roku 2022"
 date: 2023-02-24
-image: /blog/images/article-7.avif
+image: /blog/images/season/article-7.avif
 description: "Dne 30.1. proběhla akce města Mostu a to..."
 tags: [Ocenění, 2022]
 ---
