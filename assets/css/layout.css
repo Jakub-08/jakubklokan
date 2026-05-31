@@ -96,7 +96,7 @@ MOBILE MENU - MODERN DRAWER
   width: 100%;
   height: 56px;
   z-index: 3000;
-  background: rgba(10, 10, 10, 0.92);
+  background: var(--color-header);
   backdrop-filter: blur(10px);
   display: none;
   align-items: center;
