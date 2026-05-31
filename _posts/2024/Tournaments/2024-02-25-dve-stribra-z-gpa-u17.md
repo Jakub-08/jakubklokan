@@ -2,7 +2,7 @@
 layout: post
 title: "Dvě stříbra z GPA U17"
 date: 2024-02-25
-image: /blog/images/article-49.avif
+image: /blog/images/tournaments/article-49.avif
 description: "Hnedka z kraje nové sezóny dvě stříbrná místa..."
 tags: [Národní turnaje, 2024]
 ---

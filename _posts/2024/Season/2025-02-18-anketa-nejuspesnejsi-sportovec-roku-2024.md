@@ -2,7 +2,7 @@
 layout: post
 title: "Anketa: Nejúspěšnější sportovec roku 2024"
 date: 2025-02-18
-image: /blog/images/article-71.avif
+image: /blog/images/season/article-71.avif
 description: "Ocenění za úspěšnou minulou sezónu 2024 od České..."
 tags: [Ocenění, 2025]
 ---

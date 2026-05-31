@@ -2,7 +2,7 @@
 layout: post
 title: "Shrnutí sezóny 2024"
 date: 2024-12-31
-image: /blog/images/article-69.webp
+image: /blog/images/season/article-69.webp
 description: "Sezóna 2024... opět plná úspěchů🏆.Pro příklad: dvě bronzové..."
 tags: [Ohlédnutí, 2024]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Druhá evropská medaile ze Zagreb U17 Open"
 date: 2024-09-26
-image: /blog/images/article-61.avif
+image: /blog/images/tournaments/article-61.avif
 description: "Druhá medaile z turnaje evropského okruhu Zagreb U17..."
 tags: [Mezinárodní turnaje, 2024]
 ---

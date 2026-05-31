@@ -2,7 +2,7 @@
 layout: post
 title: "Mostecké derby v družstvech dospělých"
 date: 2024-02-25
-image: /blog/images/article-48.avif
+image: /blog/images/tournaments/article-48.avif
 description: "Druhé kolo družstev dospělých dopadlo vítězně, když jsme..."
 tags: [Družstva, 2024]
 ---

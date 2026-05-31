@@ -2,7 +2,7 @@
 layout: post
 title: "Bronz z Chorvatska, turnaje evropského okruhu!!"
 date: 2024-05-28
-image: /blog/images/article-57.png
+image: /blog/images/tournaments/article-57.png
 description: "První medaile z turnaje evropského okruhu!🥉 V chorvatské..."
 tags: [Mezinárodní turnaje, 2024]
 ---

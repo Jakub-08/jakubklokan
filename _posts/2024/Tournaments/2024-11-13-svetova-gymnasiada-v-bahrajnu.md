@@ -2,7 +2,7 @@
 layout: post
 title: "Světová Gymnasiáda v Bahrajnu"
 date: 2024-11-13
-image: /blog/images/article-64.avif
+image: /blog/images/tournaments/article-64.avif
 description: "Soutěž, na kterou jsem se opravdu dlouho těšil,..."
 tags: [Mezinárodní turnaje, 2024]
 ---

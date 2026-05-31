@@ -2,7 +2,7 @@
 layout: post
 title: "Osmifinále ve dvouhře na YONEX German Ruhr U17 International"
 date: 2024-10-15
-image: /blog/images/article-63.avif
+image: /blog/images/tournaments/article-63.avif
 description: "Osmifinále na velmi obsazeném turnaji YONEX German Ruhr..."
 tags: [Mezinárodní turnaje, 2024]
 ---

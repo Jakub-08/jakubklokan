@@ -2,7 +2,7 @@
 layout: post
 title: "Zkušenosti z Grand Prix A dospělých"
 date: 2024-04-21
-image: /blog/images/article-53.avif
+image: /blog/images/tournaments/article-53.avif
 description: "Mé první GPA mezi nejstaršími, tedy dospělými. Překvapením..."
 tags: [Národní turnaje, 2024]
 ---

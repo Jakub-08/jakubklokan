@@ -2,7 +2,7 @@
 layout: post
 title: "Další dvě medaile z celostátních soutěží"
 date: 2024-09-14
-image: /blog/images/article-60.avif
+image: /blog/images/tournaments/article-60.avif
 description: "Další dvě medaile z turnaje Grand Prix A..."
 tags: [Národní turnaje, 2024]
 ---

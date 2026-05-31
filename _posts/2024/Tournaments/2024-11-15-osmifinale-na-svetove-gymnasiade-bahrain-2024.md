@@ -2,7 +2,7 @@
 layout: post
 title: "Osmifinále na světové Gymnasiade Bahrain 2024"
 date: 2024-11-15
-image: /blog/images/article-66.avif
+image: /blog/images/tournaments/article-66.avif
 description: "Individuální část světové Gymnasiády v Bahrainu 🇧🇭.Po BWF..."
 tags: [Mezinárodní turnaje, 2024]
 ---

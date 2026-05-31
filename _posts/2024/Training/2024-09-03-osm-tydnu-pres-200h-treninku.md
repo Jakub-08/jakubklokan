@@ -2,7 +2,7 @@
 layout: post
 title: "Osm týdnů ... přes 200h tréninku"
 date: 2024-09-03
-image: /blog/images/article-59.avif
+image: /blog/images/training/article-59.avif
 description: "Osm týdnů tvrdé práce, dvou nebo tří fázový..."
 tags: [Soustředění, 2024]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "BWF Shuttle Time Youth Leadership & Mental Health"
 date: 2024-11-14
-image: /blog/images/article-65.avif
+image: /blog/images/season/article-65.avif
 description: "Mezi týmovou a individuální částí Gymnasiády jsme stihli..."
 tags: [2024]
 ---

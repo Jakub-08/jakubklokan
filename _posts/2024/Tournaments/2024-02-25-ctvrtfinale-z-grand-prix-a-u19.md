@@ -2,7 +2,7 @@
 layout: post
 title: "Čtvrtfinále z Grand Prix A U19"
 date: 2024-02-25
-image: /blog/images/article-50.avif
+image: /blog/images/tournaments/article-50.avif
 description: "3 týdny po GPA U17 v Dobrušce se..."
 tags: [Národní turnaje, 2024]
 ---

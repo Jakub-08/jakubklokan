@@ -2,7 +2,7 @@
 layout: post
 title: "Zase po roce družstva dospělých"
 date: 2024-01-05
-image: /blog/images/article-46.avif
+image: /blog/images/tournaments/article-46.avif
 description: "Po roce, kdy jsme se dostali až do..."
 tags: [Družstva, 2024]
 ---

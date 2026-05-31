@@ -2,7 +2,7 @@
 layout: post
 title: "Kousek do medaile na Slovak Youth U17"
 date: 2024-10-06
-image: /blog/images/article-62.avif
+image: /blog/images/tournaments/article-62.avif
 description: "Týden po úspěšném Zagreb U17 Open 🇭🇷, kde..."
 tags: [Mezinárodní turnaje, 2024]
 ---
