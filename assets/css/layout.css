@@ -127,6 +127,7 @@ MOBILE MENU - MODERN DRAWER
 /* full-screen overlay menu */
 .odkazy-menu {
   position: fixed;
+  height: fit-content;
   z-index: 2500;
   inset: 0;
   background: rgba(15, 15, 15, 0.98);
@@ -146,6 +147,13 @@ MOBILE MENU - MODERN DRAWER
   transition: transform 0.35s ease;
 }
 
+.separator {
+  height: 1px;
+  width: 5dvh;
+  background-color: var(--color-primary-dark);
+  margin: 0 auto;
+}
+
 /* open state */
 #toggle-menu:checked ~ .odkazy-menu {
   transform: translateY(0);
@@ -153,7 +161,7 @@ MOBILE MENU - MODERN DRAWER
 
 /* items */
 .odkazy-menu li {
-  margin: 14px 0;
+  margin: 8px 0;
   opacity: 0;
   transform: translateY(10px);
   transition: 0.3s ease;
