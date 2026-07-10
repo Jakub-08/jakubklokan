@@ -77,22 +77,17 @@
 .gallery-card-text {
   position: absolute;
   inset: 0;
+  z-index: 5;
 
   display: flex;
-  justify-content: center; /* horizontálně */
-  align-items: center;     /* vertikálně */
-  z-index: 5;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+
   font-size: var(--font-2xl);
   color: var(--color-text);
   text-align: center;
   font-weight: bolder;
-  width: 100%;
   padding: var(--space-4);
-
-  backdrop-filter: blur(2px);
 }
 
 .gallery-card:hover .gallery-card-text {
