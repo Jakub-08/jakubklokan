@@ -13,7 +13,7 @@ galleries:
           type: "image/avif"
         - src: ""
           type: "image/webp"
-      imgSrc: "/Photo_gallery/Gallery_26/Indie/Indie_1.jpg"
+      imgSrc: "/Photo_gallery/Gallery_26/Indie/Indie_27.jpg"
       alt: "Jakub Klokan – tréninkový pobyt Indie"
 
   - year: 2025
