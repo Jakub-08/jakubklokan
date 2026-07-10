@@ -96,7 +96,10 @@
   margin-top: var(--space-3);
 }
 
-
+.cta-button-mobile {
+    margin-top: var(--space-2);
+    margin-left: var(--space-2);
+}
 
 /* RESPONZIVE */
 /* MOBILE */
@@ -121,11 +124,7 @@
   .hero-text {
     margin: 20vh 0 20vh 0;
   }
-  .cta-button-mobile {
-    display: inline-block;
-    margin-top: var(--space-2);
-    margin-left: var(--space-2);
-  }
+  
   .hero-cta {
     margin-top: 240px;
   }
