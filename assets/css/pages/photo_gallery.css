@@ -76,6 +76,11 @@
 
 .gallery-card-text {
   position: absolute;
+  inset: 0;
+
+  display: flex;
+  justify-content: center; /* horizontálně */
+  align-items: center;     /* vertikálně */
   z-index: 5;
   left: 50%;
   top: 50%;
