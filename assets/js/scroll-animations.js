@@ -23,3 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   elements.forEach(element => observer.observe(element));
 });
+
+
+
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+document.querySelectorAll(".clanek").forEach(card=>{
+    observer.observe(card);
+});
