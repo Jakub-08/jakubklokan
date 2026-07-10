@@ -25,7 +25,7 @@
       <section class="section-gallery">
         <div class="grid grid--3 container grid-photogallery">
           {% for gallery in page.galleries %}
-          <div class="gallery-card">
+          <div class="gallery-card reveal">
             <a href="{{ gallery.link }}" class="gallery-link">
               <span class="gallery-card-text">{{ gallery.year }}</span>
 
@@ -70,6 +70,7 @@
 
     <script src="/assets/js/dark-mode.js"></script>
     <script src="/assets/js/menu-close.js" defer></script>
+    <script src="/assets/js/scroll-animations.js" defer></script>
     {% if page.scripts %} {% for script in page.scripts %}
     <script src="{{ script }}"></script>
     {% endfor %} {% endif %}
