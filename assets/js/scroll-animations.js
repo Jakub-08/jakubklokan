@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           const index = [...elements].indexOf(entry.target);
 
-          entry.target.style.transitionDelay = `${index * 100}ms`;
+          entry.target.style.transitionDelay = `${Math.min(index * 100, 500)}ms`;
 
           entry.target.classList.add("active");
 
