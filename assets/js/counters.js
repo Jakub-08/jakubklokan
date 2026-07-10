@@ -1,35 +1,47 @@
 const counters = document.querySelectorAll(".counter");
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
+document.addEventListener("DOMContentLoaded", () => {
+  const counters = document.querySelectorAll(".counter");
+  const statsSection = document.querySelector(".medals-stats");
 
-      counters.forEach(counter => {
-        const target = Number(counter.dataset.target);
-        let current = 0;
+  if (!statsSection || counters.length === 0) return;
 
-        const duration = 1200;
-        const step = target / (duration / 16);
+  const animateCounters = () => {
+    counters.forEach(counter => {
+      const target = Number(counter.dataset.target);
+      let current = 0;
 
-        const update = () => {
-          current += step;
+      const duration = 1200;
+      const increment = target / (duration / 16);
 
-          if (current < target) {
-            counter.textContent = Math.floor(current);
-            requestAnimationFrame(update);
-          } else {
-            counter.textContent = target;
-          }
-        };
+      const update = () => {
+        current += increment;
 
-        update();
-      });
+        if (current < target) {
+          counter.textContent = Math.floor(current) + "+";
+          requestAnimationFrame(update);
+        } else {
+          counter.textContent = target + "+";
+        }
+      };
 
-      observer.disconnect();
+      update();
+    });
+  };
+
+  const observer = new IntersectionObserver(
+    entries => {
+      if (entries[0].isIntersecting) {
+        animateCounters();
+        observer.disconnect();
+      }
+    },
+    {
+      threshold: 0.5
     }
-  });
-}, {
-  threshold: 0.5
+  );
+
+  observer.observe(statsSection);
 });
 
 
