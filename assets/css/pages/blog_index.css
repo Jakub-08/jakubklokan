@@ -53,11 +53,10 @@
 }
 
 .clanek img {
-  width: 100px;
-  height: 100px;
+  width: 180px;
+  height: 120px;
   object-fit: cover;
-  border-radius: 6px;
-  display: block;
+  border-radius: 8px;
 }
 
 /* Posts descrition */
@@ -65,7 +64,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: calc(100% - 225px);
+  width: calc(100% - 220px);
   gap: var(--space-2);
 }
 
