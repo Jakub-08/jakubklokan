@@ -1,145 +1,63 @@
 ---
 layout: photogallery_photos
-description: Fotogalerie z Super Stars Camp 2025. Jakub Klokan v týmových zápasech, herních situacích a soutěžních momentech juniorského badmintonu.
-title: "Super Stars Camp 2025 | Jakub Klokan badminton"
-h1: Super Stars Camp 2025
-backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
+description: Fotogalerie z GPA dospělých. Jakub Klokan v týmových zápasech, herních situacích a soutěžních momentech juniorského badmintonu.
+title: "Grand Prix A dospělých | Jakub Klokan badminton"
+h1: Grand Prix A dospělých
+backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
 
 
 ---
-
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_1.jpg"
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_1.avif" type="image/avif" />
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_1.webp" type="image/webp" />
+    <img src="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_1.jpg"
+         fetchpriority="high"
          loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 úvodní týmový moment" />
+         alt="Jakub Klokan – Grand Prix A dospělých moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_2.jpg"
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_2.avif" type="image/avif" />
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_2.webp" type="image/webp" />
+    <img src="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_2.jpg"
+         fetchpriority="high"
          loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+         alt="Jakub Klokan – Grand Prix A dospělých moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_3.jpg"
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.avif" type="image/avif" />
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.webp" type="image/webp" />
+    <img src="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.jpg"
+         fetchpriority="high"
          loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+         alt="Jakub Klokan – Grand Prix A dospělých moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_4.jpg"
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_4.avif" type="image/avif" />
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_4.webp" type="image/webp" />
+    <img src="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_4.jpg"
+         fetchpriority="high"
          loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+         alt="Jakub Klokan – Grand Prix A dospělých moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_5.jpg"
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_5.avif" type="image/avif" />
+    <source srcset="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_5.webp" type="image/webp" />
+    <img src="/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_5.jpg"
+         fetchpriority="high"
          loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_6.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_7.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_8.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_9.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_10.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_11.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_12.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_13.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_14.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_15.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_16.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
-  </picture>
-</div>
-
-<div class="gallery-card photo">
-  <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_17.jpg"
-         loading="lazy"
-         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+         alt="Jakub Klokan – Grand Prix A dospělých moment ze hry" />
   </picture>
 </div>

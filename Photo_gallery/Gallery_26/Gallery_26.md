@@ -14,4 +14,26 @@ galleries:
           type: "image/webp"
       imgSrc: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.jpg"
       alt: "Jakub Klokan – badminton GPA Dospělých"
+
+  - year: GPA U19
+    link: "/Photo_gallery/Gallery_26/GPA_U19_Plzeň/GPA_U19.html"
+    picture:
+      sources:
+        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_4.avif"
+          type: "image/avif"
+        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_4.webp"
+          type: "image/webp"
+      imgSrc: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_4.jpg"
+      alt: "Jakub Klokan – badminton GPA U19"
+
+  - year: GPA Dospělých
+    link: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS.html"
+    picture:
+      sources:
+        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.avif"
+          type: "image/avif"
+        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.webp"
+          type: "image/webp"
+      imgSrc: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.jpg"
+      alt: "Jakub Klokan – badminton GPA Dospělých"
 ---
