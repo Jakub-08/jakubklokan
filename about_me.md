@@ -7,11 +7,12 @@ scripts:
   - /assets/js/dark-mode.js
   - /assets/js/menu-close.js
   - /assets/js/about_me-minigalery.js
+  - /assets/js/scroll-animations.js
 ---
 
 <div class="main-bg">
         <!-- INTRODUCTION -->
-      <section class="section mobile-header-move">
+      <section class="section mobile-header-move reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text">
@@ -55,7 +56,7 @@ scripts:
       </section>
 
       <!-- BADMINTON -->
-      <section class="section">
+      <section class="section reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain grid-mobile-switch">
             <picture class="strip-image-container">
@@ -97,7 +98,7 @@ scripts:
       </section>
 
       <!-- SCHOOL -->
-      <section class="section">
+      <section class="section reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text">
@@ -140,7 +141,7 @@ scripts:
       </section>
 
       <!-- EDUCATION -->
-      <section class="section">
+      <section class="section reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain grid-mobile-switch">
 
@@ -179,7 +180,7 @@ scripts:
       </section>
 
       <!-- SOCIAL MEDIA -->
-      <section class="section">
+      <section class="section reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text">
