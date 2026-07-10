@@ -153,21 +153,39 @@
   align-items: center;
 }
 
-.sponsors-main img {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
-  shape-rendering: geometricPrecision;
-  opacity: 1;
-}
+.sponsors img {
 
-.sponsors-left img,
-.sponsors-right img {
-  max-height: 30px;
-  opacity: 0.85;
+  width: 160px;
+  height: 60px;
+
+  object-fit: contain;
+
+  display: block;
+
   transition:
     opacity 0.4s ease,
     transform 0.4s ease;
+
+}
+
+
+.sponsors-main img {
+
+  width: 220px;
+  height: 90px;
+
+}
+
+
+.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+
+.fade-in {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .sponsors::before {
