@@ -1,15 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const elements = document.querySelectorAll(
-    ".reveal, .reveal-left, .reveal-right"
-  );
-
-  if (elements.length === 0) return;
+  const elements = document.querySelectorAll(".reveal");
 
   const observer = new IntersectionObserver(
     entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
+
+          const index = [...elements].indexOf(entry.target);
+
+          entry.target.style.transitionDelay = `${Math.min(index * 100, 500)}ms`;
+
           entry.target.classList.add("active");
+
           observer.unobserve(entry.target);
         }
       });
@@ -19,7 +21,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   );
 
-  elements.forEach(element => {
-    observer.observe(element);
-  });
+  elements.forEach(element => observer.observe(element));
 });
