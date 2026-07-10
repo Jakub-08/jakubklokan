@@ -26,78 +26,114 @@ const sponsors = [
   }
 ];
 
+
 const leftSlot = document.getElementById("sponsor-left");
+const mainSlot = document.getElementById("sponsor-main");
 const rightSlot = document.getElementById("sponsor-right");
 
-let leftIndex = 0;
-let rightIndex = 1;
+const slots = [leftSlot, mainSlot, rightSlot];
+
+let sponsorIndexes = [0, 1, 2];
 let rotationInterval = null;
 
-/* Nastaví obrázek do slotu */
+
+/* Nastavení loga */
 function setSponsor(slot, sponsor) {
   const img = slot.querySelector("img");
   const link = slot.querySelector("a");
 
   img.src = sponsor.src;
   img.alt = sponsor.name;
-  link.href = sponsor.url || "#";
+
+  if (sponsor.url) {
+    link.href = sponsor.url;
+  } else {
+    link.href = "#";
+  }
 }
 
-/* Inicializace */
-function initSlots() {
-  leftIndex = 0;
-  rightIndex = 1;
 
-  setSponsor(leftSlot, sponsors[leftIndex]);
-  setSponsor(rightSlot, sponsors[rightIndex]);
+/* První načtení */
+function initSponsors() {
+  sponsorIndexes.forEach((index, i) => {
+    setSponsor(slots[i], sponsors[index]);
+  });
 }
+
 
 /* Rotace */
-function rotateSlots() {
-  leftSlot.classList.add("fade-out");
-  rightSlot.classList.add("fade-out");
+function rotateSponsors() {
+
+  slots.forEach(slot => {
+    slot.classList.add("fade-out");
+  });
+
 
   setTimeout(() => {
-    leftIndex = (leftIndex + 1) % sponsors.length;
-    rightIndex = (rightIndex + 1) % sponsors.length;
 
-    if (leftIndex === rightIndex) {
-      rightIndex = (rightIndex + 1) % sponsors.length;
+    sponsorIndexes = sponsorIndexes.map(index => {
+      return (index + 1) % sponsors.length;
+    });
+
+
+    // kontrola, aby se neopakovalo stejné logo
+    if (
+      sponsorIndexes[0] === sponsorIndexes[1] ||
+      sponsorIndexes[0] === sponsorIndexes[2] ||
+      sponsorIndexes[1] === sponsorIndexes[2]
+    ) {
+      sponsorIndexes[2] = (sponsorIndexes[2] + 1) % sponsors.length;
     }
 
-    setSponsor(leftSlot, sponsors[leftIndex]);
-    setSponsor(rightSlot, sponsors[rightIndex]);
 
-    leftSlot.classList.remove("fade-out");
-    rightSlot.classList.remove("fade-out");
+    sponsorIndexes.forEach((index, i) => {
+      setSponsor(slots[i], sponsors[index]);
+    });
 
-    leftSlot.classList.add("fade-in");
-    rightSlot.classList.add("fade-in");
+
+    slots.forEach(slot => {
+      slot.classList.remove("fade-out");
+      slot.classList.add("fade-in");
+    });
+
 
     setTimeout(() => {
-      leftSlot.classList.remove("fade-in");
-      rightSlot.classList.remove("fade-in");
+      slots.forEach(slot => {
+        slot.classList.remove("fade-in");
+      });
     }, 400);
+
+
   }, 400);
 }
 
-/* Start */
-initSlots();
-rotationInterval = setInterval(rotateSlots, 4500);
 
-/* Pauza při hoveru */
-[rightSlot, leftSlot].forEach(slot => {
+
+/* Start */
+initSponsors();
+
+rotationInterval = setInterval(rotateSponsors, 4500);
+
+
+
+/* Pauza při najetí */
+slots.forEach(slot => {
+
   slot.addEventListener("mouseenter", () => {
     clearInterval(rotationInterval);
   });
 
+
   slot.addEventListener("mouseleave", () => {
     clearInterval(rotationInterval);
-    rotationInterval = setInterval(rotateSlots, 4500);
+    rotationInterval = setInterval(rotateSponsors, 4500);
   });
+
 });
 
-/* Přepočítání po změně velikosti okna */
+
+
+/* Resize */
 window.addEventListener("resize", () => {
-  initSlots();
+  initSponsors();
 });
