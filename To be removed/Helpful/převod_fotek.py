@@ -3,7 +3,7 @@ from PIL import Image
 from pathlib import Path
 
 # 🔧 Nastavení:
-source_folder = r"C:\02_My Data\Projects\Programming\My WebPage\jakubklokan\Photo_gallery\Gallery_26/GPA U19 - Plzeň"  # <- sem zadej svou cestu, např. r"C:\Users\Tomas\Obrazky"
+source_folder = r"C:\02_My Data\Projects\Programming\My WebPage\jakubklokan\Photo_gallery\Gallery_26/Indie"  # <- sem zadej svou cestu, např. r"C:\Users\Tomas\Obrazky"
 new_width = 700
 new_height = 400
 formats = ['.jpg', '.jpeg', '.png']

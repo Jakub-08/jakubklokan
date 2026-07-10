@@ -26,14 +26,14 @@ galleries:
       imgSrc: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_4.jpg"
       alt: "Jakub Klokan – badminton GPA U19"
 
-  - year: GPA Dospělých
-    link: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS.html"
+  - year: Tréninkový pobyt Indie
+    link: "/Photo_gallery/Gallery_26/Indie/Indie.html"
     picture:
       sources:
-        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.avif"
+        - src: ""
           type: "image/avif"
-        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.webp"
+        - src: ""
           type: "image/webp"
-      imgSrc: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.jpg"
-      alt: "Jakub Klokan – badminton GPA Dospělých"
+      imgSrc: "/Photo_gallery/Gallery_26/Indie/Indie_27.jpg"
+      alt: "Jakub Klokan – badminton tréninkový pobyt Indie"
 ---

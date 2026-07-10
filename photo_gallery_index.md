@@ -9,12 +9,12 @@ galleries:
     link: "/Photo_gallery/Gallery_26/Gallery_26.html"
     picture:
       sources:
-        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.avif"
+        - src: ""
           type: "image/avif"
-        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.webp"
+        - src: ""
           type: "image/webp"
-      imgSrc: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.jpg"
-      alt: "Jakub Klokan – badmintonový turnaj a medaile 2026"
+      imgSrc: "/Photo_gallery/Gallery_26/Indie/Indie_1.jpg"
+      alt: "Jakub Klokan – tréninkový pobyt Indie"
 
   - year: 2025
     link: "/Photo_gallery/Gallery_25/Gallery_25.html"
