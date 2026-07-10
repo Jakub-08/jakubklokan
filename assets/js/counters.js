@@ -9,23 +9,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const animateCounters = () => {
     counters.forEach(counter => {
       const target = Number(counter.dataset.target);
-      let current = 0;
+      const duration = 1500;
+      const startTime = performance.now();
 
-      const duration = 1200;
-      const increment = target / (duration / 16);
+      const update = (currentTime) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
 
-      const update = () => {
-        current += increment;
+        // zpomalení ke konci (easeOut)
+        const easeProgress = 1 - Math.pow(1 - progress, 3);
 
-        if (current < target) {
-          counter.textContent = Math.floor(current) + "+";
+        const current = Math.floor(target * easeProgress);
+
+        counter.textContent = current + "+";
+
+        if (progress < 1) {
           requestAnimationFrame(update);
         } else {
           counter.textContent = target + "+";
         }
       };
 
-      update();
+      requestAnimationFrame(update);
     });
   };
 
