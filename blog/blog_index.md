@@ -39,3 +39,4 @@ description: "Pravidelné články o badmintonovém tréninku, turnajích, sport
 </div>
 
 <script src="/blog/blog.js"></script>
+<script src="/assets/js/scroll-animations.js"></script>
