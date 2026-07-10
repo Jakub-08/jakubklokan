@@ -39,8 +39,9 @@
 .hero-text {
   color: var(--color-text);
   text-align: center;
+  max-width: 450px;
 
-  padding: 15vh 8% 20vh 50%;
+  margin: 15vh 2% 20vh 55%;
 
   animation: heroFade 1s ease-out forwards;
 }
@@ -118,7 +119,7 @@
     display: none;
   }
   .hero-text {
-    padding: 20vh 0 20vh 0;
+    margin: 20vh 0 20vh 0;
   }
   .cta-button-mobile {
     display: inline-block;
