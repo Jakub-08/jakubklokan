@@ -5,6 +5,17 @@ title: Fotogalerie | Jakub Klokan – badmintonové turnaje
 h1: Fotogalerie
 hideBackButton: true
 galleries:
+  - year: 2026
+    link: "/Photo_gallery/Gallery_26/Gallery_26.html"
+    picture:
+      sources:
+        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.avif"
+          type: "image/avif"
+        - src: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.webp"
+          type: "image/webp"
+      imgSrc: "/Photo_gallery/Gallery_26/GPA_DOS._Plzeň/GPA_DOS_3.jpg"
+      alt: "Jakub Klokan – badmintonový turnaj a medaile 2026"
+
   - year: 2025
     link: "/Photo_gallery/Gallery_25/Gallery_25.html"
     picture:
