@@ -9,7 +9,7 @@ scripts:
   - /assets/js/scroll-animations.js
 ---
 
-<section class="introduction container">
+<section class="introduction container reveal">
   <h1>Mé největší badmintonové úspěchy</h1>
   <div class="separate-line"></div>
   <p>
