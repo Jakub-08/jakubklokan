@@ -37,6 +37,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_4.jpg"
          loading="lazy"
+         class="img-bottom"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
@@ -45,6 +46,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_5.jpg"
          loading="lazy"
+         class="img-bottom"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
@@ -53,6 +55,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_6.jpg"
          loading="lazy"
+         class="img-bottom"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
@@ -69,6 +72,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_8.jpg"
          loading="lazy"
+         class="img-bottom"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
@@ -93,6 +97,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_11.jpg"
          loading="lazy"
+         class="img-bottom"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
@@ -133,6 +138,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_16.jpg"
          loading="lazy"
+         class="img-bottom"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
@@ -141,6 +147,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_17.jpg"
          loading="lazy"
+         class="img-bottom"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
@@ -149,6 +156,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_18.jpg"
          loading="lazy"
+         class="img-bottom"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
@@ -205,6 +213,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_25.jpg"
          loading="lazy"
+         class="img-top"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
 </div>
