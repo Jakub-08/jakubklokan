@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const animateCounters = () => {
     counters.forEach(counter => {
       const target = Number(counter.dataset.target);
-      const duration = 1500;
+      const duration = 2200;
       const startTime = performance.now();
 
       const update = (currentTime) => {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const progress = Math.min(elapsed / duration, 1);
 
         // zpomalení ke konci (easeOut)
-        const easeProgress = 1 - Math.pow(1 - progress, 3);
+        const easeProgress = 1 - Math.pow(1 - progress, 4);
 
         const current = Math.floor(target * easeProgress);
 
