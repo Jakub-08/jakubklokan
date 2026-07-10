@@ -41,6 +41,20 @@
   text-align: center;
 
   padding: 15vh 8% 20vh 50%;
+
+  animation: heroFade 1s ease-out forwards;
+}
+
+@keyframes heroFade {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero-text-line {
