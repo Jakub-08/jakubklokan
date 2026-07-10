@@ -6,6 +6,7 @@ description: Přehled badmintonových úspěchů Jakuba Klokana na národních i
 scripts:
   - /assets/js/dark-mode.js
   - /assets/js/menu-close.js
+  - /assets/js/scroll-animations.js
 ---
 
 <section class="introduction container">
@@ -19,7 +20,7 @@ scripts:
 <section class="section">
   <div class="grid-achievements container">
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/MČR_U17_2024.avif" type="image/avif" />
         <source srcset="/images/achievements/MČR_U17_2024.webp" type="image/webp" />
@@ -32,7 +33,7 @@ scripts:
       <a href="{{ '/2024/12/23/bronz-z-mistrovstvi-ceske-republiky.html' | relative_url }}">Článek na blogu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/Badminton_Europe_sign.avif" type="image/avif" />
         <source srcset="/images/achievements/Badminton_Europe_sign.webp" type="image/webp" />
@@ -45,7 +46,7 @@ scripts:
       <a href="{{ '/2024/12/23/bronz-z-mistrovstvi-ceske-republiky.html' | relative_url }}">Článek na blogu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/homepage/Adria-U17-medails.avif" type="image/avif" />
         <source srcset="/images/homepage/Adria-U17-medails.webp" type="image/webp" />
@@ -58,7 +59,7 @@ scripts:
       <a href="{{ '/2024/05/28/bronz-z-chorvatska-turnaje-evropskeho-okruhu.html' | relative_url }}">Článek na blogu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/GPA_U17_Ústí.avif" type="image/avif" />
         <source srcset="/images/achievements/GPA_U17_Ústí.webp" type="image/webp" />
@@ -71,7 +72,7 @@ scripts:
       <a href="{{ '/2024/04/21/po-dvou-letech-opet-na-vrcholu-gpa.html' | relative_url }}">Článek na blogu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/GPA_U17_Dobruška.avif" type="image/avif" />
         <source srcset="/images/achievements/GPA_U17_Dobruška.webp" type="image/webp" />
@@ -84,7 +85,7 @@ scripts:
       <a href="{{ '/2024/02/25/dve-stribra-z-gpa-u17.html' | relative_url }}">Článek na blogu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/Bozner.avif" type="image/avif" />
         <source srcset="/images/achievements/Bozner.webp" type="image/webp" />
@@ -97,7 +98,7 @@ scripts:
       <a href="{{ '/2023/05/04/dve-zlata-na-mezinarodnim-turnaji-v-italii.html' | relative_url }}">Článek na blogu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/Estonian.avif" type="image/avif" />
         <source srcset="/images/achievements/Estonian.webp" type="image/webp" />
@@ -108,7 +109,7 @@ scripts:
       <a href="https://www.instagram.com/p/CmCq_QsjMMI/" target="_blank">Článek na Instagramu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/Slovak.avif" type="image/avif" />
         <source srcset="/images/achievements/Slovak.webp" type="image/webp" />
@@ -119,7 +120,7 @@ scripts:
       <a href="https://www.instagram.com/p/Cld2XiSDUVu/" target="_blank">Článek na Instagramu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/MČR_U15_2022.avif" type="image/avif" />
         <source srcset="/images/achievements/MČR_U15_2022.webp" type="image/webp" />
@@ -130,7 +131,7 @@ scripts:
       <a href="https://www.instagram.com/p/Ck8kGY4jaJm/" target="_blank">Článek na Instagramu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/Adria_Youth.avif" type="image/avif" />
         <source srcset="/images/achievements/Adria_Youth.webp" type="image/webp" />
@@ -140,7 +141,7 @@ scripts:
       <p>Opakované medailové výsledky na Adria Youth International v letech 2021–2022.</p>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/GPA_U15.avif" type="image/avif" />
         <source srcset="/images/achievements/GPA_U15.webp" type="image/webp" />
@@ -151,7 +152,7 @@ scripts:
       <a href="https://www.instagram.com/p/Cda39QiIV6F/" target="_blank">Článek na Instagramu</a>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/MČR_U15_2021.avif" type="image/avif" />
         <source srcset="/images/achievements/MČR_U15_2021.webp" type="image/webp" />
@@ -161,7 +162,7 @@ scripts:
       <p>Dvě bronzové medaile z Mistrovství České republiky U15 2021.</p>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/GPB_U13.avif" type="image/avif" />
         <source srcset="/images/achievements/GPB_U13.webp" type="image/webp" />
@@ -171,7 +172,7 @@ scripts:
       <p>První národní vítězství – Grand Prix B U13 v Karlových Varech.</p>
     </section>
 
-    <section class="achievements-card">
+    <section class="achievements-card reveal">
       <picture>
         <source srcset="/images/achievements/Trobitz.avif" type="image/avif" />
         <source srcset="/images/achievements/Trobitz.webp" type="image/webp" />
