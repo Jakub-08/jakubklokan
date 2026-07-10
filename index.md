@@ -8,6 +8,7 @@ scripts:
   - /assets/js/dark-mode.js
   - /assets/js/sponsors.js
   - /assets/js/blog-homepage.js
+  - /assets/js/counters.js
 ---
 
 <section class="hero">
@@ -137,7 +138,7 @@ scripts:
             height="250"
           />
         </picture>
-        <span class="medals-number">15</span>
+        <span class="medals-number counter" data-target="15">15+</span>
       </div>
       <span class="medals-description">Mezinárodní medaile</span>
     </div>
@@ -154,7 +155,7 @@ scripts:
             height="250"
           />
         </picture>
-        <span class="medals-number">32</span>
+        <span class="medals-number counter" data-target="32">32+</span>
       </div>
       <span class="medals-description">Národní medaile</span>
     </div>
@@ -180,7 +181,7 @@ scripts:
           />
         </picture>
 
-        <span class="medals-number">45</span>
+        <span class="medals-number counter" data-target="45">45+</span>
       </div>
       <span class="medals-description">Vítězství GPC a OP</span>
     </div>

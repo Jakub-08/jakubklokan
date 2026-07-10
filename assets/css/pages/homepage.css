@@ -400,6 +400,19 @@
   font-size: 3.75rem;
   font-weight: 700;
   color: var(--color-text);
+
+  animation: numberPop .5s ease;
+}
+
+@keyframes numberPop {
+  from {
+    transform: translate(-50%, -50%) scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
 }
 
 .medals-description {
