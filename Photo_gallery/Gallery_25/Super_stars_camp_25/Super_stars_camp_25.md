@@ -1,8 +1,8 @@
 ---
 layout: photogallery_photos
-description: Fotogalerie z Mistrovství ČR družstev U19. Jakub Klokan v týmových zápasech, herních situacích a soutěžních momentech juniorského badmintonu.
-title: "MČR Družstva U19 | Jakub Klokan badminton"
-h1: MČR Družstva U19
+description: Fotogalerie z Super Stars Camp 2025. Jakub Klokan v týmových zápasech, herních situacích a soutěžních momentech juniorského badmintonu.
+title: "Super Stars Camp 2025 | Jakub Klokan badminton"
+h1: Super Stars Camp 2025
 backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
 
 
@@ -10,80 +10,136 @@ backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_1.jpg"
          loading="lazy"
-         alt="Jakub Klokan – MČR družstva U19 úvodní týmový moment" />
+         alt="Jakub Klokan – Super Stars Camp 2026 úvodní týmový moment" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_1.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_2.jpg"
          loading="lazy"
-         alt="Týmový zápas na MČR družstev U19 – Jakub Klokan v akci" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_2.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_3.jpg"
          loading="lazy"
-         alt="Badmintonový týmový zápas U19 – soutěžní výměna" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_3.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_4.jpg"
          loading="lazy"
-         alt="Jakub Klokan během družstevního utkání U19" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_4.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_5.jpg"
          loading="lazy"
-         alt="Soutěžní moment MČR družstva U19 badminton" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_5.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_6.jpg"
          loading="lazy"
-         alt="Herní výměna v týmovém zápase U19 – Jakub Klokan" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_6.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_7.jpg"
          loading="lazy"
-         alt="Badmintonový zápas družstev U19 – MČR moment" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_7.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_8.jpg"
          loading="lazy"
-         alt="Jakub Klokan v týmové soutěži U19 – herní situace" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_8.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_9.jpg"
          loading="lazy"
-         alt="Intenzivní výměna v družstevním utkání U19 badminton" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
 
 <div class="gallery-card photo">
   <picture>
-    <img src="/Photo_gallery/Gallery_25/Images_25/Družstva_U19/Družstva_U19_9.jpg"
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_10.jpg"
          loading="lazy"
-         alt="Závěrečný moment MČR družstva U19 – Jakub Klokan" />
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_11.jpg"
+         loading="lazy"
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_12.jpg"
+         loading="lazy"
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_13.jpg"
+         loading="lazy"
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_14.jpg"
+         loading="lazy"
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_15.jpg"
+         loading="lazy"
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_16.jpg"
+         loading="lazy"
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
+  </picture>
+</div>
+
+<div class="gallery-card photo">
+  <picture>
+    <img src="/Photo_gallery/Gallery_25/Images_25/Super_stars_camp_25/super_stars_camp_25_17.jpg"
+         loading="lazy"
+         alt="Jakub Klokan – Super Stars Camp 2026 moment ze hry" />
   </picture>
 </div>
