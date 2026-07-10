@@ -59,18 +59,15 @@ scripts:
   <!-- Sekce sponzorů -->
   <div class="sponsors">
     <div class="sponsors-left" id="sponsor-left">
-      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana" /></a>
+      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana"></a>
     </div>
-    <div class="sponsors-main">
-      <a href="https://www.peytonlegal.cz/" target="_blank" rel="noopener">
-        <img
-          src="/images/sponzoring/Peyton_legal.webp"
-          alt="Peyton – hlavní partner"
-        />
-      </a>
+
+    <div class="sponsors-main" id="sponsor-main">
+      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana"></a>
     </div>
+
     <div class="sponsors-right" id="sponsor-right">
-      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana" /></a>
+      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana"></a>
     </div>
   </div>
 </section>
