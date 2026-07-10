@@ -27,6 +27,7 @@ backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
 <div class="gallery-card photo">
   <picture>
     <img src="/Photo_gallery/Gallery_26/Indie/Indie_3.jpg"
+         class="img-bottom"
          loading="lazy"
          alt="Jakub Klokan – tréninkový pobyt Indie" />
   </picture>
