@@ -24,4 +24,14 @@ galleries:
           type: "image/webp"
       imgSrc: "Images_25/GPA_U19_2025/GPA_U19_14.jpg"
       alt: "Jakub Klokan – badminton GPA U19 2025 zápasová momentka"
+  - year: Super Stars Camp 2026
+    link: "/Photo_gallery/Gallery_25/Super_stars_camp_25/Super_stars_camp_25.html"
+    picture:
+      sources:
+        - src: ""
+          type: "image/avif"
+        - src: ""
+          type: "image/webp"
+      imgSrc: "Images_25/Super_stars_camp_25/super_stars_camp_25_4.jpg"
+      alt: "Jakub Klokan – badminton tréninkový camp"
 ---
