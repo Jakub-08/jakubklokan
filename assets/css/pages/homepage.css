@@ -45,6 +45,8 @@
   animation: heroFade 1s ease-out forwards;
 }
 
+/* ----- animace -----*/
+
 @keyframes heroFade {
   from {
     opacity: 0;
@@ -55,6 +57,25 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.hero h1 {
+  animation: heroFade 0.8s ease-out forwards;
+}
+
+.hero h2 {
+  opacity: 0;
+  animation: heroFade 0.8s ease-out 0.2s forwards;
+}
+
+.hero p {
+  opacity: 0;
+  animation: heroFade 0.8s ease-out 0.4s forwards;
+}
+
+.hero-cta {
+  opacity: 0;
+  animation: heroFade 0.8s ease-out 0.6s forwards;
 }
 
 .hero-text-line {
