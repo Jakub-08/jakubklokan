@@ -90,10 +90,6 @@
   padding: var(--space-4);
 }
 
-.gallery-card:hover {
-  transform: translate(-50%, -50%) scale(1.05);
-}
-
 .img-top {
   object-position: 50% 20%;
 }
