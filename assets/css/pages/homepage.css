@@ -49,6 +49,10 @@
   margin-top: var(--space-3);
 }
 
+.cta-button-mobile {
+  display: none;
+}
+
 /* RESPONZIVE */
 /* MOBILE */
 @media (max-width: 768px) {
@@ -64,12 +68,17 @@
   }
   .hero h2 {
     font-size: 1.5rem;
+    margin-bottom: var(--space-8);
   }
   .hero p {
-    font-size: 1.1rem;
+    display: none;
   }
   .hero-text {
     padding: 20vh 0 20vh 0;
+  }
+  .cta-button-mobile {
+    display: inline-block;
+    margin-top: var(--space-2);
   }
 }
 

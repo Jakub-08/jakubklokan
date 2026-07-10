@@ -48,6 +48,9 @@ scripts:
         <a href="/sponzoring.html" class="button button--primary"
           >Sponzoring &&nbsp;spolupráce</a
         >
+        <a href="/about_me.html" class="button button--secondary cta-button-mobile"
+          >O mně</a
+        >
       </div>
     </div>
   </div>
