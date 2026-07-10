@@ -40,7 +40,7 @@ scripts:
     <div class="hero-text text-shadow">
       <h1>Jakub Klokan</h1>
       <div class="hero-text-line"></div>
-      <h2>Vrcholový badminton a mezinárodní turnaje</h2>
+      <h2>Vrcholový badminton &&nbsp;mezinárodní turnaje</h2>
       <p>
       Jsem český badmintonista soutěžící na&nbsp;domácích i&nbsp;mezinárodních turnajích a&nbsp;se&nbsp;snem startu na&nbsp;Olympijských hrách 2032.
       </p>

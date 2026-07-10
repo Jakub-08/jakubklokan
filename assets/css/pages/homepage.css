@@ -79,6 +79,10 @@
   .cta-button-mobile {
     display: inline-block;
     margin-top: var(--space-2);
+    margin-left: var(--space-2);
+  }
+  .hero-cta {
+    margin-top: 240px;
   }
 }
 
@@ -404,7 +408,6 @@
 
 .hero {
   position: relative; /* už je, super */
-  min-height: 60vh;
   height: auto; /* fit-content může dělat problém na mobilech */
 }
 
