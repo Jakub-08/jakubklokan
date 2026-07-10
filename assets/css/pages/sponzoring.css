@@ -170,6 +170,11 @@
   height: auto; /* zachová proporce */
 
   padding: var(--space-2) var(--space-2);
+  transition:.3s ease;
+}
+
+.logo:hover {
+  transform:scale(1.08);
 }
 
 .dark-bg,
@@ -340,4 +345,65 @@
   .container.diky {
     max-width: 90%;
   }
+}
+
+
+
+/* -----------------
+------- ANIMATION -------
+------------------*/
+
+.sponzoring-hero-image {
+  animation: heroZoom 15s ease forwards;
+}
+
+@keyframes heroZoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.06);
+  }
+}
+
+
+.sponzoring-hero-text h1,
+.sponzoring-hero-text h2,
+.sponzoring-hero-text a {
+  opacity: 0;
+  animation: heroText .8s ease forwards;
+}
+
+
+.sponzoring-hero-text h1 {
+  animation-delay: .2s;
+}
+
+.sponzoring-hero-text h2 {
+  animation-delay: .4s;
+}
+
+.sponzoring-hero-text a {
+  animation-delay: .6s;
+}
+
+
+@keyframes heroText {
+  from {
+    opacity:0;
+    transform:translateY(30px);
+  }
+
+  to {
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+.sponsors-now,
+.sponsors-previous,
+.contact-info,
+.contact-form {
+  transition:.4s ease;
 }

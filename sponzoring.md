@@ -7,10 +7,11 @@ permalink: /sponzoring/
 scripts:
   - /assets/js/dark-mode.js
   - /assets/js/sponzoring-portfolio.js
+  - /assets/js/scroll-animations.js
 ---
 
 <div class="main-bg">
-  <section class="section sponzoring-hero">
+  <section class="section sponzoring-hero reveal">
     <picture>
       <source
         srcset="/images/sponzoring/Bozner_Cup_2-sponzring.avif"
@@ -41,9 +42,9 @@ scripts:
 
   </section>
 
-  <section class="section">
+  <section class="section reveal">
     <div class="strip">
-      <div class="container grid--2 strip-contain">
+      <div class="container grid--2 strip-contain reveal">
         <div class="container-text">
           <h2>Nabídka sponzoringu</h2>
           <div class="separate-line"></div>
@@ -137,9 +138,9 @@ scripts:
 
   </section>
 
-  <section class="section">
+  <section class="section reveal">
     <div class="strip">
-      <div class="container grid--2 strip-contain grid-mobile-switch">
+      <div class="container grid--2 strip-contain grid-mobile-switch reveal">
         <picture class="strip-image-container">
           <img
             src="/Photo_gallery/Gallery_24/Super_Stars_Camp_24/Super_Stars_Camp_7.jpg"
@@ -173,9 +174,9 @@ scripts:
     </div>
   </section>
 
-  <section class="section">
+  <section class="section reveal">
     <div class="strip">
-      <div class="container grid--2 strip-contain sponsors-template">
+      <div class="container grid--2 strip-contain sponsors-template reveal">
         <div class="container-text">
           <h2>Moji sponzoři</h2>
           <div class="separate-line"></div>
@@ -331,7 +332,7 @@ scripts:
 
   </section>
 
-  <section class="section contact-section" id="kontakt">
+  <section class="section contact-section reveal" id="kontakt" >
     <div class="strip">
       <div class="container contact-section-intro">
         <h2>Kontaktujte mě</h2>
