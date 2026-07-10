@@ -15,7 +15,7 @@ scripts:
       <section class="section mobile-header-move reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain">
-            <div class="container-text">
+            <div class="container-text reveal-left">
               <h1 class="h1-about-me">Má badmintonová cesta</h1>
               <div class="separate-line"></div>
               <p>
@@ -35,7 +35,7 @@ scripts:
               </p>
             </div>
 
-            <picture class="strip-image-container">
+            <picture class="strip-image-container reveal-right">
               <source
                 srcset="/images/about_me/GPAU15202216.avif"
                 type="image/avif"
@@ -59,7 +59,7 @@ scripts:
       <section class="section reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain grid-mobile-switch">
-            <picture class="strip-image-container">
+            <picture class="strip-image-container reveal-right">
               <source srcset="/images/about_me/Malý.avif" type="image/avif" />
               <source srcset="/images/about_me/Malý.webp" type="image/webp" />
               <img
@@ -69,7 +69,7 @@ scripts:
               />
             </picture>
 
-            <div class="container-text">
+            <div class="container-text reveal-left">
               <h2>Badmintonová kariéra</h2>
               <div class="separate-line"></div>
               <p>
@@ -101,7 +101,7 @@ scripts:
       <section class="section reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain">
-            <div class="container-text">
+            <div class="container-text reveal-left">
               <h2>Škola</h2>
               <div class="separate-line"></div>
               <p>
@@ -150,7 +150,7 @@ scripts:
               <img alt="Jakub Klokan – badmintonové trenérské a vzdělávací certifikáty BWF a WAoS" src="/images/about_me/WAOS_AC_Cert.jpg" class="slide strip-image full" />
             </div>
 
-            <div class="container-text">
+            <div class="container-text reveal-left">
               <h2>Dosažené vzdělání</h2>
               <div class="separate-line"></div>
               <p>
@@ -183,7 +183,7 @@ scripts:
       <section class="section reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain">
-            <div class="container-text">
+            <div class="container-text reveal-left">
               <h2>Sociální sítě</h2>
               <div class="separate-line"></div>
               <p>
@@ -207,7 +207,7 @@ scripts:
               </a>
             </div>
 
-            <picture class="strip-image-container">
+            <picture class="strip-image-container reveal-right">
               <source srcset="/images/about_me/Flying.avif" type="image/avif" />
               <source srcset="/images/about_me/Flying.webp" type="image/webp" />
               <img
