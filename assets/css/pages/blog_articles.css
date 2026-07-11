@@ -39,6 +39,25 @@
   background: rgba(0,0,0,0.45);
 }
 
+/* METADATA */
+
+.article-meta {
+  display: inline-flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 8px 18px;
+
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(8px);
+
+  border-radius: 20px;
+
+  color: white;
+  font-size: var(--font-sm);
+}
+
 /* TEXTY */
 
 .article-hero .blog-article-h1 {

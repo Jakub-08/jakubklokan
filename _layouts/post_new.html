@@ -42,6 +42,17 @@
         </section>
         {% endif %}
 
+        <div class="article-meta">
+          <span>{{ page.author }}</span>
+          <span>·</span>
+          <span>{{ page.reading_time }} čtení</span>
+          <br>
+          <span>
+            Publikováno 
+            {{ page.date | date: "%-d. %-m. %Y" }}
+          </span>
+        </div>
+
         <div class="text">{{ content }}</div>
 
          {% if page.tags %}
