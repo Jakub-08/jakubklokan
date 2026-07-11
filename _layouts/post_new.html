@@ -14,7 +14,10 @@
         {% if page.image %}
         <section 
           class="article-hero"
-          style="background-image: url('{{ page.image }}')"
+          style="
+            background-image: url('{{ page.image }}');
+            background-position: {{ page.image_position | default: 'center' }};
+          "
         >
 
             
