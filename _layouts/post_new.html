@@ -19,26 +19,28 @@
 
             
           <div class="article-hero-overlay">
-            
+
             <h1 class="blog-article-h1">
               {{ page.h1 | default: page.title }}
             </h1>
+
+            <div class="article-meta">
+              <div class="article-author">
+                {{ page.author }}
+              </div>
+
+              <div class="article-details">
+                {{ page.date | date: "%-d. %B %Y" }}
+                ·
+                {{ page.reading_time }} čtení
+              </div>
+            </div>
 
           </div>
         </section>
         {% endif %}
 
-        <div class="article-meta">
-          <div class="article-author">
-            {{ page.author }}
-          </div>
-
-          <div class="article-details">
-            {{ page.date | date: "%-d. %B %Y" }}
-            ·
-            {{ page.reading_time }} čtení
-          </div>
-        </div>
+        
 
         <div class="text">{{ content }}</div>
 
