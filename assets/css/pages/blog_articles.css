@@ -184,8 +184,6 @@ blockquote p {
   align-items: center;
   justify-content: center;
 
-  gap: 14px;
-
   width: 180px;
   margin: 35px auto 20px;
 }
@@ -199,7 +197,7 @@ blockquote p {
   height: 9px;
   border-width: 1.5px;
 
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-primary-dark);
   background: transparent;
 
   transform: rotate(45deg);
@@ -211,7 +209,7 @@ blockquote p {
 
   flex: 1;
 
-  background: var(--color-primary);
+  background: var(--color-primary-dark);
 }
 
 
