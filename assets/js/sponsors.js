@@ -112,14 +112,7 @@ function rotateSponsors() {
 
 function initSponsors() {
 
-  indexes.forEach((index, i) => {
-    setSponsor(slots[i], sponsors[index]);
-  });
-
-
-  slots[1]
-    .querySelector("img")
-    .classList.add("main-sponsor");
+  indexes = [0,1,2];
 
 }
 

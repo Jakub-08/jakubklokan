@@ -58,15 +58,29 @@ scripts:
   <!-- Sekce sponzorů -->
   <div class="sponsors">
     <div class="sponsors-left" id="sponsor-left">
-      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana"></a>
+      <a href="https://www.brickhouse.cz/">
+        <img 
+          src="/images/sponzoring/SVG/Brick_house.svg"
+          alt="Brick House">
+      </a>
     </div>
+
 
     <div class="sponsors-main" id="sponsor-main">
-      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana"></a>
+      <a href="https://helendoron.cz/">
+        <img 
+          src="/images/sponzoring/SVG/Helen_Doron.svg"
+          alt="Helen Doron English">
+      </a>
     </div>
 
+
     <div class="sponsors-right" id="sponsor-right">
-      <a href="#"><img src="" alt="Sponzoři Jakuba Klokana"></a>
+      <a href="https://kvechtru.cz/">
+        <img 
+          src="/images/sponzoring/SVG/K_Vechtru.svg"
+          alt="K Vechtru">
+      </a>
     </div>
   </div>
 </section>
