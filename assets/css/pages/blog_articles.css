@@ -75,7 +75,7 @@
   color: white;
   font-size: clamp(2rem, 5vw, 4rem);
   margin-bottom: var(--space-3);
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .article-details {
@@ -84,38 +84,35 @@
 
 /* TEXTY */
 
-.button.article {
-  margin: 0 80% 4.5% 2%;
-}
-
-.date {
-  color: white;
-  font-size: var(--font-sm);
-  margin-bottom: var(--space-4);
-  text-align: center;
-}
-
 .text {
   font-size: var(--font-lg);
-  line-height: 1.6;
-  padding: var(--space-5);
-  background-color: rgba(202, 202, 202, 0.815);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: var(--border-radius);
+  line-height: 1.7;
+
+  width: min(800px, 90vw);
+
   color: var(--color-text-dark);
-  width: 70%;
+
   display: block;
-  margin: auto;
-  margin-bottom: var(--space-7);
+  margin: 0 auto var(--space-7);
+
+  padding: 0;
 }
 
 .text h2 {
-  margin-top: var(--space-2);
-  padding-bottom: var(--space-1);
+  font-size: var(--font-xl);
+  margin-top: var(--space-7);
+  margin-bottom: var(--space-3);
+
+  line-height: 1.2;
 }
 
 .text p {
   margin-bottom: var(--space-4);
+}
+
+.text > p:first-of-type {
+  font-size: 1.15em;
+  font-weight: 500;
 }
 
 .separate-line.article {
@@ -125,7 +122,11 @@
 }
 
 .article-qoute {
+  font-size: var(--font-xl);
+  font-weight: 600;
   text-align: center;
+  margin: var(--space-7) 0;
+  font-style: italic;
 }
 
 .img-caption {
