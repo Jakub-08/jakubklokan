@@ -16,7 +16,7 @@ summary: Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších h
 
 Byla mi nabídnuta možnost trénovat v **prestižní Chetan Anand Badminton Academy**, která patří bývalému **10. hráči světa Chetanovi Anandovi**. Taková příležitost se nenabídne jen tak komukoliv, proto si jí velice vážím. Ani bez pomoci a iniciativy **klubu Super Stars Most** by se tato možnost pro mě neotevřela.
 
-<div class="section-divider">
+<div class="section-divider-article">
   <span></span>
 </div>
 

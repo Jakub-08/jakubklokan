@@ -179,7 +179,7 @@ blockquote p {
 
 /* SECTION DIVIDER */
 
-.section-divider {
+.section-divider-article {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,7 +191,7 @@ blockquote p {
 }
 
 
-.section-divider::before,
+.section-divider-article::before,
 .section-divider::after {
   content: "";
 
@@ -206,7 +206,7 @@ blockquote p {
 }
 
 
-.section-divider span {
+.section-divider-article span {
   height: 1.5px;
 
   flex: 1;
