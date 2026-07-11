@@ -6,7 +6,7 @@ image: /blog/images/training/treninkovy-pobyt-indie.png
 description: "Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa"
 tags: [Mezinárodní turnaje, 2026]
 
-h1: 180 hodin tréninku: Pět týdnů v Chetan Anand Badminton Academy
+h1: 180 hodin tréninku - Pět týdnů v Chetan Anand Badminton Academy
 summary: Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa
 ---
 
