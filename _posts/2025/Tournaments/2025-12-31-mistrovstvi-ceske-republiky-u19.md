@@ -5,6 +5,7 @@ date: 2025-12-31
 image: /blog/images/tournaments/article-84.png
 description: "Vrchol sezóny 2025 pro mě představovalo Mistrovství České..."
 tags: [Národní turnaje, 2025]
+image_position: center
 ---
 
 Vrchol sezóny 2025 pro mě představovalo Mistrovství České republiky U19,
