@@ -15,23 +15,21 @@ body {
   overflow-x: hidden;
 }
 
+
+
 body {
+  font-family: var(--font-main);
+  margin: 0;
   padding-top:70px;
+  background-color: var(--color-bg);
+  line-height: 1.5;
+  color: var(--color-text);
 }
 
 @media(max-width:768px){
   body {
     padding-top:56px;
   }
-}
-
-body {
-  font-family: var(--font-main);
-  margin: 0;
-  padding: 0;
-  background-color: var(--color-bg);
-  line-height: 1.5;
-  color: var(--color-text);
 }
 
 main {
@@ -47,7 +45,7 @@ header {
 
   z-index: 3000;
 
-  transition: transform .3s ease;
+  transition: transform .35s cubic-bezier(.4,0,.2,1);
 }
 
 

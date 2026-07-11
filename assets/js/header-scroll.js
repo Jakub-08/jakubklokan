@@ -2,24 +2,24 @@ let lastScroll = 0;
 
 const header = document.querySelector("header");
 
+if(header){
+
 window.addEventListener("scroll", () => {
 
   const currentScroll = window.scrollY;
 
 
-  if (currentScroll <= 20) {
+  if(currentScroll <= 20){
     header.classList.remove("hide");
+    lastScroll = currentScroll;
     return;
   }
 
 
-  if (currentScroll > lastScroll) {
-    // dolů
+  if(currentScroll > lastScroll){
     header.classList.add("hide");
   } 
-  
   else {
-    // nahoru
     header.classList.remove("hide");
   }
 
@@ -27,3 +27,5 @@ window.addEventListener("scroll", () => {
   lastScroll = currentScroll;
 
 });
+
+}
