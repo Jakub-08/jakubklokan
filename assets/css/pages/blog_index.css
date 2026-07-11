@@ -202,6 +202,51 @@
   transform: scale(0.97);
 }
 
+/* NO POSTS */
+.no-posts {
+  width: min(500px, 90vw);
+  margin: 60px auto;
+  padding: 40px 30px;
+  text-align:center;
+  background:white;
+  border-radius:20px;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+
+.no-posts-icon {
+  font-size:3rem;
+  margin-bottom:20px;
+}
+
+
+.no-posts h3 {
+  margin-bottom:10px;
+  font-size:1.5rem;
+}
+
+
+.no-posts p {
+  color:#666;
+  margin-bottom:25px;
+}
+
+
+.reset-search {
+  border:none;
+  background:var(--color-primary-dark);
+  color:white;
+  padding:10px 20px;
+  border-radius:999px;
+  cursor:pointer;
+  transition:.2s;
+}
+
+
+.reset-search:hover {
+  transform:scale(1.05);
+}
+
 /* BUTTON NA STRÁNKY DOLE */
 #paginace {
   min-height: 40px;

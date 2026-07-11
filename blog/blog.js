@@ -108,9 +108,35 @@ function render() {
   seznamClanku.innerHTML = "";
 
   if (pageItems.length === 0) {
-    seznamClanku.innerHTML = `<p class="no-posts">Žádné články.</p>`;
+    seznamClanku.innerHTML = `
+      <div class="no-posts">
+
+        <div class="no-posts-icon">
+          🔍
+        </div>
+
+        <h3>Nic jsme nenašli</h3>
+
+        <p>
+          Zkus změnit hledaný výraz nebo vybrat jiný filtr.
+        </p>
+
+        <button class="reset-search">
+          Zobrazit všechny články
+        </button>
+
+      </div>
+    `;
+
+    document.querySelector(".reset-search").onclick = () => {
+      query = "";
+      activeTags = [];
+      vyhledavac.value = "";
+      currentPage = 1;
+      render();
+    };
+
     paginace.innerHTML = "";
-    renderTags();
     return;
   }
 
