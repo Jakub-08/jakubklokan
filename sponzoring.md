@@ -30,7 +30,9 @@ scripts:
 
     <div class="container sponzoring-hero-text">
       <h1>Sponzoring &&nbsp;spolupráce</h1>
-      <div class="section-divider-1">
+      <div class="section-divider-1  about-me">
+        <span></span>
+      </div>
       <h2>
         Podpořte mladého mezinárodního badmintonistu a&nbsp;získejte viditelnost
         na&nbsp;turnajích i&nbsp;online
@@ -48,6 +50,8 @@ scripts:
         <div class="container-text">
           <h2>Nabídka sponzoringu</h2>
           <div class="section-divider-1  about-me">
+            <span></span>
+          </div>
 
           <p>
             Spolupráce se&nbsp;mnou přináší reálnou viditelnost vaší značky
@@ -152,6 +156,8 @@ scripts:
         <div class="container-text">
           <h2>O mně</h2>
           <div class="section-divider-1  about-me">
+            <span></span>
+          </div>
           <div class="about-me-content">
             <div class="about-me-text">
               <p><strong>Jméno:</strong> Jakub Klokan</p>
@@ -180,6 +186,8 @@ scripts:
         <div class="container-text">
           <h2>Moji sponzoři</h2>
           <div class="section-divider-1  about-me">
+            <span></span>
+          </div>
 
           <p>
             Děkuji svým sponzorům za&nbsp;podporu mé&nbsp;sportovní kariéry.<br />Pomáhají
@@ -337,6 +345,8 @@ scripts:
       <div class="container contact-section-intro">
         <h2>Kontaktujte mě</h2>
         <div class="section-divider-1  about-me">
+          <span></span>
+        </div>
         <p>
           Pro bližší informace, nabídku spolupráce nebo dotazy mě neváhejte
           kontaktovat:

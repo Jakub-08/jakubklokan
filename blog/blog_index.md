@@ -6,7 +6,9 @@ description: "Pravidelné články o badmintonovém tréninku, turnajích, sport
 
 <div class="main-bg">
   <h1 class="blog-intro-1">Můj badmintonový blog</h1>
-  <div class="separate-line separate-line-blog"></div>
+  <div class="section-divider-1">
+    <span></span>
+  </div>
   <h2 class="blog-intro-2">
     Články o badmintonových turnajích, tréninku a&nbsp;cestě vrcholového hráče.
   </h2>
