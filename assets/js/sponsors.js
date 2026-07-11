@@ -67,7 +67,6 @@ function rotateSponsors() {
   );
 
 
-  // start animace
   imgs[0].classList.add("sponsor-left-move");
   imgs[1].classList.add("sponsor-center-move");
   imgs[2].classList.add("sponsor-right-move");
@@ -76,7 +75,6 @@ function rotateSponsors() {
   setTimeout(()=>{
 
 
-    // posun pozic
     indexes = [
       indexes[2],
       indexes[0],
@@ -92,7 +90,6 @@ function rotateSponsors() {
     });
 
 
-    // reset
     imgs.forEach(img=>{
       img.classList.remove(
         "sponsor-left-move",

@@ -188,6 +188,22 @@
 
 }
 
+.sponsors-left,
+.sponsors-right {
+  opacity:.75;
+  transform:scale(.85);
+}
+
+
+.sponsors-main {
+  z-index:2;
+}
+
+
+.sponsors-main img {
+  filter:drop-shadow(0 8px 15px rgba(0,0,0,.2));
+}
+
 /* animace pohybu */
 .sponsor-left-move {
   transform:translateX(-80px) scale(.85);
