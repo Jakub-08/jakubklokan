@@ -5,6 +5,7 @@ date: 2023-02-25
 image: /blog/images/tournaments/article-10.avif
 description: "Poslední kolo družstev dospělých jsme hráli proti BK..."
 tags: [Družstva, 2023]
+image_position: 50% 30%
 ---
 
 Poslední kolo družstev dospělých jsme hráli proti BK TU v Liberci B a TJ

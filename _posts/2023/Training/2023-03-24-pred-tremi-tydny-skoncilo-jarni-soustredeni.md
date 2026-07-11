@@ -5,6 +5,7 @@ date: 2023-03-24
 image: /blog/images/training/article-18.avif
 description: "Přesně před třemi týdny skončilo Super Stars Most..."
 tags: [Soustředění, 2023]
+image_position: 50% 30%
 ---
 
 Přesně před třemi týdny skončilo Super Stars Most jarní soustředění.Trénovalo se celkových 19 hodin za 5 dní tréninků 🤯 a na konci toho to

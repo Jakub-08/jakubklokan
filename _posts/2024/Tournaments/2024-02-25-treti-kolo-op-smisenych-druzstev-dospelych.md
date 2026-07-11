@@ -5,6 +5,7 @@ date: 2024-02-25
 image: /blog/images/tournaments/article-51.avif
 description: "Poslední kolo družstev dospělých před Play-off bylo pro..."
 tags: [Družstva, 2024]
+image_position: 50% 30%
 ---
 
 Poslední kolo družstev dospělých před Play-off bylo pro nás těsné.S TJ

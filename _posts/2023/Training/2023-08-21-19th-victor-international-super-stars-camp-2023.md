@@ -5,6 +5,7 @@ date: 2023-08-21
 image: /blog/images/training/article-35.avif
 description: "Pod vedením, bývalého 10. hráče světa v mužské..."
 tags: [Soustředění, 2023]
+image_position: 50% 30%
 ---
 
 Pod vedením, bývalého 10. hráče světa v mužské dvouhře, Chetana Ananda

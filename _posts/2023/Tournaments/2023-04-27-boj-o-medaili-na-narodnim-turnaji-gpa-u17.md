@@ -5,6 +5,7 @@ date: 2023-04-27
 image: /blog/images/tournaments/article-22.avif
 description: "Po provedeném turnaji GPC U19 🥇 a chvíli..."
 tags: [Národní turnaje, 2023]
+image_position: 50% 30%
 ---
 
 Po provedeném turnaji GPC U19 🥇 a chvíli odpočinku jsem odjel do Brno

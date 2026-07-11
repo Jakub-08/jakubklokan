@@ -5,6 +5,7 @@ date: 2023-03-26
 image: /blog/images/tournaments/article-19.avif
 description: "Můj poslední březnový turnaj, Grand Prix B U19,..."
 tags: [Národní turnaje, 2023]
+image_position: 50% 30%
 ---
 
 Můj poslední březnový turnaj, Grand Prix B U19, skočil pozitivně ⬇️.Ve

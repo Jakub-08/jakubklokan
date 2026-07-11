@@ -5,6 +5,7 @@ date: 2023-02-24
 image: /blog/images/tournaments/article-1.avif
 description: "Jako první turnaj sezóny byly právě družstva dospělých,..."
 tags: [2023, Družstva]
+image_position: 50% 30%
 ---
 
 Jako první turnaj sezóny byly právě družstva dospělých, ve složení Anna

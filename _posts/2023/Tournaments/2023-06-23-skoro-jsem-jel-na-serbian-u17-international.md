@@ -5,6 +5,7 @@ date: 2023-06-23
 image: /blog/images/tournaments/article-31.avif
 description: "Skoro vše už bylo připraveno, abych se mohl..."
 tags: [Mezinárodní turnaje, 2023]
+image_position: center
 ---
 
 Skoro vše už bylo připraveno, abych se mohl utkat o další body na

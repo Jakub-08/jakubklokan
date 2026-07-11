@@ -5,6 +5,7 @@ date: 2023-05-04
 image: /blog/images/tournaments/article-23.avif
 description: "Můj první Evropský okruh skončil s velkou dávkou..."
 tags: [Mezinárodní turnaje, 2023]
+image_position: 50% 30%
 ---
 
 Můj první Evropský okruh skončil s velkou dávkou zkušeností, když jsem

@@ -5,6 +5,7 @@ date: 2023-02-24
 image: /blog/images/season/article-7.avif
 description: "Dne 30.1. proběhla akce města Mostu a to..."
 tags: [Ocenění, 2022]
+image_position: 50% 30%
 ---
 
 Dne 30.1. proběhla akce města Mostu a to vyhlášení nejlepších sportovců

@@ -5,6 +5,7 @@ date: 2023-03-07
 image: /blog/images/tournaments/article-15.avif
 description: "Po minulém Grand Prix A U17 v Hradci..."
 tags: [Národní turnaje, 2023]
+image_position: 50% 30%
 ---
 
 Po minulém Grand Prix A U17 v Hradci Králové, kde jsem ve dvouhře vypadl

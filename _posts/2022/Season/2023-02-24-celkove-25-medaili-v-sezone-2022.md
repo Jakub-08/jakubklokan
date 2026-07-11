@@ -5,6 +5,7 @@ date: 2023-02-24
 image: /blog/images/season/article-3.avif
 description: "Celkově 25x🤯 jsem stál na stupních vítězů v..."
 tags: [2022, Ohlédnutí]
+image_position: center
 ---
 
 Celkově 25x🤯 jsem stál na stupních vítězů v sezóně 2022 💪.Byly

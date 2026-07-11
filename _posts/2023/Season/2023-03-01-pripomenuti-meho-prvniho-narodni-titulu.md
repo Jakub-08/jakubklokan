@@ -5,6 +5,7 @@ date: 2023-03-01
 image: /blog/images/season/article-13.avif
 description: "Přesně před 3 roky jsem získal můj první..."
 tags: [Ohlédnutí]
+image_position: 50% 30%
 ---
 
 Přesně před 3 roky jsem získal můj první národní titul, konkrétně to byl

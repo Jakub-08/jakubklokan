@@ -5,6 +5,7 @@ date: 2023-03-11
 image: /blog/images/season/article-16.avif
 description: "Ještě malé připomenutí, pro mě nejvydařenější sezóna kariéry......"
 tags: [Ohlédnutí, 2022]
+image_position: 50% 30%
 ---
 
 Ještě malé připomenutí, pro mě nejvydařenější sezóna kariéry... sezóny

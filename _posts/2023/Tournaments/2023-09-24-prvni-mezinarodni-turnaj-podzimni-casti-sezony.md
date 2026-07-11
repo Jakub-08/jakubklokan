@@ -5,6 +5,7 @@ date: 2023-09-24
 image: /blog/images/tournaments/article-40.avif
 description: "Tentokrát jsem vyjel do Chorvatska na turnaj 7th..."
 tags: [Mezinárodní turnaje, 2023]
+image_position: 50% 30%
 ---
 
 Tentokrát jsem vyjel do Chorvatska na turnaj 7th LI-NING Zagreb U17 open

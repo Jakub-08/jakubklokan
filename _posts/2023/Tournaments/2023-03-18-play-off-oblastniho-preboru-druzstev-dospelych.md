@@ -5,6 +5,7 @@ date: 2023-03-18
 image: /blog/images/tournaments/article-17.avif
 description: "Poslední kolo, tedy play-off, oblastního přeboru družstev dospělých..."
 tags: [Družstva, 2023]
+image_position: 50% 30%
 ---
 
 Poslední kolo, tedy play-off, oblastního přeboru družstev dospělých se

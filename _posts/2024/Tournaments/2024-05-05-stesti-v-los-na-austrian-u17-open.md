@@ -5,6 +5,7 @@ date: 2024-05-05
 image: /blog/images/tournaments/article-56.avif
 description: "První mezinárodní turnaj sezóny 2024 v blízkém Rakousku..."
 tags: [Mezinárodní turnaje, 2024]
+image_position: 50% 30%
 ---
 
 První mezinárodní turnaj sezóny 2024 v blízkém Rakousku 🇦🇹, kde se konal

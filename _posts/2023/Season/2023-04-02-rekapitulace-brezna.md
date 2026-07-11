@@ -5,6 +5,7 @@ date: 2023-04-02
 image: /blog/images/season/article-21.avif
 description: "Březen byl stále hlavně o trénincích a přípravě..."
 tags: [Ohlédnutí, 2023]
+image_position: 50% 30%
 ---
 
 Březen byl stále hlavně o trénincích a přípravě na Grand Prix A U17,
