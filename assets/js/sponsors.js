@@ -21,11 +21,6 @@ const sponsors = [
     name: "Ronin Advisors",
     url: "#"
   },
-  {
-    src: "/images/sponzoring/Peyton_legal.webp",
-    name: "Peyton Legal",
-    url: "https://www.peytonlegal.cz/"
-  }
 ];
 
 

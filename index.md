@@ -75,7 +75,7 @@ scripts:
   <div class="container">
     <h2>Turnajové výsledky a&nbsp;blog</h2>
 
-    <div class="section-divider-article">
+    <div class="section-divider-1">
       <span></span>
     </div>
 
