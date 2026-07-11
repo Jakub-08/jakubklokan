@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "BWF Shuttle Time Youth Leadership & Mental Health"
 date: 2024-11-14
 image: /blog/images/season/article-65.avif

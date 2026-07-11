@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Oblastní přebor družstev dospělých"
 date: 2023-02-24
 image: /blog/images/tournaments/article-1.avif

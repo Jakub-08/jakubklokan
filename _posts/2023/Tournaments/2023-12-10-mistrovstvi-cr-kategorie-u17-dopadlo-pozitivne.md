@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Mistrovství ČR kategorie U17 dopadlo pozitivně"
 date: 2023-12-10
 image: /blog/images/tournaments/article-44.avif

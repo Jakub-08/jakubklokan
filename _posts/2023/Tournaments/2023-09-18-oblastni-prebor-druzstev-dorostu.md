@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Oblastní přebor družstev dorostu"
 date: 2023-09-18
 image: /blog/images/tournaments/article-39.avif

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Štěstí v los na Austrian U17 Open"
 date: 2024-05-05
 image: /blog/images/tournaments/article-56.avif

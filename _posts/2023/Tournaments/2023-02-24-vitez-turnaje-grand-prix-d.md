@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Vítěz turnaje Grand Prix D"
 date: 2023-02-24
 image: /blog/images/tournaments/article-8.avif

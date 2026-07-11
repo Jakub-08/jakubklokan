@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "VICTOR Bulgarian Junior Challenge"
 date: 2025-07-01
 image: /blog/images/tournaments/article-79.avif

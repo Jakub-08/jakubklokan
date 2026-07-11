@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Náročná letní tréninková příprava"
 date: 2025-09-01
 image: /blog/images/training/article-80.avif

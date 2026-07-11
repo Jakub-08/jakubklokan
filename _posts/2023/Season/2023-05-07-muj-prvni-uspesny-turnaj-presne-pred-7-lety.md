@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Můj první úspěšný turnaj přesně před 7 lety"
 date: 2023-05-07
 image: /blog/images/season/article-26.avif

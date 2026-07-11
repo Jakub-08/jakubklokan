@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Neúprosné teplo na turnaji Serbian U17 International"
 date: 2024-06-27
 image: /blog/images/tournaments/article-58.avif

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Osm týdnů ... přes 200h tréninku"
 date: 2024-09-03
 image: /blog/images/training/article-59.avif

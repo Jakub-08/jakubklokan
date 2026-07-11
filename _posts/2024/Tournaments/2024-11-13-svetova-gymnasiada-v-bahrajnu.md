@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Světová Gymnasiáda v Bahrajnu"
 date: 2024-11-13
 image: /blog/images/tournaments/article-64.avif

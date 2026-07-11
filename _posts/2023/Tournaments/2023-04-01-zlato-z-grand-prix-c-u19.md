@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Zlato z Grand Prix C U19"
 date: 2023-04-01
 image: /blog/images/tournaments/article-20.avif

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "První čtvrtfinále na Bulgarian Junior U19 International"
 date: 2025-05-10
 image: /blog/images/tournaments/article-78.avif

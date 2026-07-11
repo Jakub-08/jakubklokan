@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Vánoční turnaj tříčlenných družstev"
 date: 2025-12-31
 image: /blog/images/tournaments/article-85.png

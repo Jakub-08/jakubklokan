@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Dvojnásobný severočeský přeborník"
 date: 2023-10-22
 image: /blog/images/tournaments/article-43.avif

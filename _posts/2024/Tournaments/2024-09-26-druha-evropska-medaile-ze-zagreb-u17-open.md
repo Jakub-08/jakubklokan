@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Druhá evropská medaile ze Zagreb U17 Open"
 date: 2024-09-26
 image: /blog/images/tournaments/article-61.avif

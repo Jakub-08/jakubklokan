@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Sezóna 2025 je u konce"
 date: 2025-12-31
 image: /blog/images/season/article-86.png

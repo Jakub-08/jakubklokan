@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Druzí na Sudhakar Reddy Cupu 2023"
 date: 2023-08-19
 image: /blog/images/tournaments/article-34.avif

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Poděkování sponzorům ze sezóny 2022"
 date: 2023-02-24
 image: /blog/images/sponsors/article-9.avif

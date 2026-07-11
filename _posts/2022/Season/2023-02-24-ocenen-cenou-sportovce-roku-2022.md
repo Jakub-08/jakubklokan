@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Oceněn cenou Sportovce roku 2022"
 date: 2023-02-24
 image: /blog/images/season/article-7.avif

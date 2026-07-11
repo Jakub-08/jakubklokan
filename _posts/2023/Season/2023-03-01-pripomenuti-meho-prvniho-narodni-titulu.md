@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Připomenutí mého prvního národní titulu"
 date: 2023-03-01
 image: /blog/images/season/article-13.avif

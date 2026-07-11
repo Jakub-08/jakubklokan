@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "První mezinárodní turnaj podzimní části sezóny"
 date: 2023-09-24
 image: /blog/images/tournaments/article-40.avif

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Zkušenosti a poznatky z MČR U19"
 date: 2023-12-10
 image: /blog/images/tournaments/article-45.avif

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Další národní medaile z Grand Prix A U19"
 date: 2026-01-25
 image: /blog/images/tournaments/article-88.png

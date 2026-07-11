@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Boj o medaili na národním turnaji GPA U17"
 date: 2023-04-27
 image: /blog/images/tournaments/article-22.avif

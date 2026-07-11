@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Kousek do medaile na Slovak Youth U17"
 date: 2024-10-06
 image: /blog/images/tournaments/article-62.avif

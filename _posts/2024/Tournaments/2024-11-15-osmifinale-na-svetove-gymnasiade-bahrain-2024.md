@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Osmifinále na světové Gymnasiade Bahrain 2024"
 date: 2024-11-15
 image: /blog/images/tournaments/article-66.avif

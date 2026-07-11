@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Dvojnásobný přeborník severočeské oblasti"
 date: 2024-11-20
 image: /blog/images/tournaments/article-67.avif

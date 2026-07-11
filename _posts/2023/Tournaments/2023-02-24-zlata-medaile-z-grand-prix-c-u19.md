@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Zlatá medaile z Grand Prix C U19"
 date: 2023-02-24
 image: /blog/images/tournaments/article-5.avif

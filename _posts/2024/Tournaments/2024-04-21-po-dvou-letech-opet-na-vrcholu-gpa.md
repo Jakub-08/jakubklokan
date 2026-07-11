@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Po dvou letech opět na vrcholu GPA"
 date: 2024-04-21
 image: /blog/images/tournaments/article-55.avif

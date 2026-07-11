@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Třetí kolo OP smíšených družstev dospělých"
 date: 2024-02-25
 image: /blog/images/tournaments/article-51.avif

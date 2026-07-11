@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Čtvrtfinále z Grand Prix A U19"
 date: 2024-02-25
 image: /blog/images/tournaments/article-50.avif

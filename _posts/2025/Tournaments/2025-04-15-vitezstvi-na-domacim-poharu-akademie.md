@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Vítězství na domácím Poháru Akademie"
 date: 2025-04-15
 image: /blog/images/tournaments/article-76.avif

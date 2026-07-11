@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Obhájil jsem své vítězství na domácím Poháru Akademie"
 date: 2026-03-10
 reading_time: "5 min"

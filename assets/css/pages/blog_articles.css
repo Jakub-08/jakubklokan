@@ -274,7 +274,7 @@ blockquote p {
   height: 180px;
 
   object-fit: cover;
-  object-position: top;
+  object-position: 50% 10%;
 
   display: block;
 }

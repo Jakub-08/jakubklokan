@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Severočeský přebor U19"
 date: 2025-10-27
 image: /blog/images/tournaments/article-82.png

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "19th Victor International Super Stars Camp 2023"
 date: 2023-08-21
 image: /blog/images/training/article-35.avif

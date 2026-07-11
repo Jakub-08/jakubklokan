@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Před třemi týdny skončilo jarní soustředění"
 date: 2023-03-24
 image: /blog/images/training/article-18.avif

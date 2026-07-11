@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Obhajoba úspěchů na GPA U19"
 date: 2026-03-17
 image: /blog/images/tournaments/GPA-U19-Plzeň-2026.png

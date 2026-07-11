@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Připomenutí sezóny 2022"
 date: 2023-03-11
 image: /blog/images/season/article-16.avif

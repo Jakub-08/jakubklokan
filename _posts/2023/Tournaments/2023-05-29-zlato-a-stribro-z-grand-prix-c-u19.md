@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Zlato a stříbro z Grand Prix C U19"
 date: 2023-05-29
 image: /blog/images/tournaments/article-29.avif

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Mostecké derby v družstvech dospělých"
 date: 2024-02-25
 image: /blog/images/tournaments/article-48.avif

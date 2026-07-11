@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Mistrovství České republiky U19"
 date: 2025-12-31
 image: /blog/images/tournaments/article-84.png

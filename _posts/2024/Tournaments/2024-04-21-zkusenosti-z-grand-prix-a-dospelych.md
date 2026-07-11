@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Zkušenosti z Grand Prix A dospělých"
 date: 2024-04-21
 image: /blog/images/tournaments/article-53.avif

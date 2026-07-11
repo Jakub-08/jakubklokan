@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Znova na stupních vítězů na GPA U19"
 date: 2025-05-09
 image: /blog/images/tournaments/article-77.avif

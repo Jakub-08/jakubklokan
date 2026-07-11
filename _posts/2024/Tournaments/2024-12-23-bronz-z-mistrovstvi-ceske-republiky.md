@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Bronz z mistrovství české republiky"
 date: 2024-12-23
 image: /blog/images/tournaments/article-68.avif

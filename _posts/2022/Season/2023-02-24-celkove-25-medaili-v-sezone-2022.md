@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Celkově 25 medailí v sezóně 2022"
 date: 2023-02-24
 image: /blog/images/season/article-3.avif

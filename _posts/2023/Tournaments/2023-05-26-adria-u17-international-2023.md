@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Adria U17 international 2023"
 date: 2023-05-26
 image: /blog/images/tournaments/article-28.avif

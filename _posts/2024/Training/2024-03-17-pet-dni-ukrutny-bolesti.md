@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Pět dní ukrutný bolesti"
 date: 2024-03-17
 image: /blog/images/training/article-52.avif

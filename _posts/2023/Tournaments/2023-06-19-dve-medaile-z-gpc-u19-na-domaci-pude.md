@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Dvě medaile z GPC U19 na domácí půdě"
 date: 2023-06-19
 image: /blog/images/tournaments/article-30.avif

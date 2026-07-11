@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Účast na Mistrovství ČR družstev dorostu"
 date: 2023-10-06
 image: /blog/images/tournaments/article-41.avif

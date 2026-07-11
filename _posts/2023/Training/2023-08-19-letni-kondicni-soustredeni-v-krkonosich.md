@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Letní kondiční soustředění v Krkonoších"
 date: 2023-08-19
 image: /blog/images/training/article-32.avif

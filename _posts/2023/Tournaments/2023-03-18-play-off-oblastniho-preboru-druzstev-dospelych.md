@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Play-off oblastního přeboru družstev dospělých"
 date: 2023-03-18
 image: /blog/images/tournaments/article-17.avif

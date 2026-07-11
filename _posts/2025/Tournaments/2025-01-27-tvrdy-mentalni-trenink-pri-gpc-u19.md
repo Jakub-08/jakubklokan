@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Tvrdý mentální trénink při GPC U19"
 date: 2025-01-27
 image: /blog/images/tournaments/article-70.avif

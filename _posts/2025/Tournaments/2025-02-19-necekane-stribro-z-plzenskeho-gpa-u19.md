@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Nečekané stříbro z plzeňského GPA U19"
 date: 2025-02-19
 image: /blog/images/tournaments/article-72.webp

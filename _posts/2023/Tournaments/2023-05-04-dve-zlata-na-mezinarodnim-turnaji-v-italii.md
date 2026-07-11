@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Dvě zlata na mezinárodním turnaji v Itálii"
 date: 2023-05-04
 image: /blog/images/tournaments/article-24.avif

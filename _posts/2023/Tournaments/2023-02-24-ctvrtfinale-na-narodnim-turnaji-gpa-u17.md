@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Čtvrtfinále na národním turnaji GPA U17"
 date: 2023-02-24
 image: /blog/images/tournaments/article-6.avif

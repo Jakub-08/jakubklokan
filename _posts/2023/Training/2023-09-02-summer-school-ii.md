@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Summer School II"
 date: 2023-09-02
 image: /blog/images/training/article-36.avif

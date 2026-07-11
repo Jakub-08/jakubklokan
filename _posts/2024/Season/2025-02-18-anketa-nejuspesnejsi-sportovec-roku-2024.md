@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Anketa: Nejúspěšnější sportovec roku 2024"
 date: 2025-02-18
 image: /blog/images/season/article-71.avif

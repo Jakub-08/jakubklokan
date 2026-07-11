@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Skvělý výkon na národní soutěži Grand Prix B U19"
 date: 2023-03-26
 image: /blog/images/tournaments/article-19.avif

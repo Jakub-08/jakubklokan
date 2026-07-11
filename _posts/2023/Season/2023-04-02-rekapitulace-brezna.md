@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Rekapitulace března"
 date: 2023-04-02
 image: /blog/images/season/article-21.avif

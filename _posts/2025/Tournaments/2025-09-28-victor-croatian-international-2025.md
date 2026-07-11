@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "VICTOR Croatian International 2025"
 date: 2025-09-28
 image: /blog/images/tournaments/article-81.png

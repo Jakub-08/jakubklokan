@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Výhra národního titulu před rokem"
 date: 2023-05-08
 image: /blog/images/season/article-27.avif

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "YONEX Bozner Cup U17 International, velká dávka zkušeností"
 date: 2023-05-04
 image: /blog/images/tournaments/article-23.avif

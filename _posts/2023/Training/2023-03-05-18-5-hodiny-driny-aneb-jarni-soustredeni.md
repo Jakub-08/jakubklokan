@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "18,5 hodiny dřiny aneb jarní soustředění"
 date: 2023-03-05
 image: /blog/images/training/article-14.avif

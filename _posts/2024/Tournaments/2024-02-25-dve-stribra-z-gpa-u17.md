@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Dvě stříbra z GPA U17"
 date: 2024-02-25
 image: /blog/images/tournaments/article-49.avif

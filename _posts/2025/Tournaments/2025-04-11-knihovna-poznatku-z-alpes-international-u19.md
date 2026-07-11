@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Knihovna poznatků z Alpes International U19"
 date: 2025-04-11
 image: /blog/images/tournaments/article-75.avif

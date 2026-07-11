@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Poděkování sponzorům ze sezóny 2025"
 date: 2026-01-02
 image: /blog/images/sponsors/article-87.png

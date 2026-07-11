@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Shrnutí sezóny 2024"
 date: 2024-12-31
 image: /blog/images/season/article-69.webp

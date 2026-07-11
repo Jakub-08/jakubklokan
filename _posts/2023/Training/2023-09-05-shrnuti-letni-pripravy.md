@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Shrnutí letní přípravy"
 date: 2023-09-05
 image: /blog/images/training/article-37.avif

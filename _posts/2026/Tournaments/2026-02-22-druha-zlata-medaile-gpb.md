@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Druhá zlatá medaile z GPB"
 date: 2026-02-22
 image: /blog/images/tournaments/2026-02-22-gpb.png

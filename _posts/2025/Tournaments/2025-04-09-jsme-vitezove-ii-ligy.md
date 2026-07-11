@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Jsme vítězové II. Ligy !!!"
 date: 2025-04-09
 image: /blog/images/tournaments/article-74.avif

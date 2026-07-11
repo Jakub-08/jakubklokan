@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Další dvě medaile z celostátních soutěží"
 date: 2024-09-14
 image: /blog/images/tournaments/article-60.avif

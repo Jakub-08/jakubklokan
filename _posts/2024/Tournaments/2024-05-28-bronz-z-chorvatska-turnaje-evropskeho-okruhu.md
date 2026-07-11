@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title: "Bronz z Chorvatska, turnaje evropského okruhu!!"
 date: 2024-05-28
 image: /blog/images/tournaments/article-57.png
