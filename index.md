@@ -5,7 +5,6 @@ description: Jakub Klokan je český badmintonista zaměřený na vrcholový tr�
 permalink: /
 
 scripts:
-  - /assets/js/dark-mode.js
   - /assets/js/sponsors.js
   - /assets/js/blog-homepage.js
   - /assets/js/counters.js
