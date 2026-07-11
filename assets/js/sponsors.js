@@ -62,53 +62,47 @@ function initSponsors() {
 /* Rotace */
 function rotateSponsors() {
 
-
-  slots.forEach(slot => {
-    slot.classList.add("fade-out");
-  });
-
-
-  setTimeout(() => {
+  const imgs = slots.map(
+    slot => slot.querySelector("img")
+  );
 
 
-    indexes = indexes.map(index => {
-      return (index + 1) % sponsors.length;
+  // start animace
+  imgs[0].classList.add("sponsor-left-move");
+  imgs[1].classList.add("sponsor-center-move");
+  imgs[2].classList.add("sponsor-right-move");
+
+
+  setTimeout(()=>{
+
+
+    // posun pozic
+    indexes = [
+      indexes[2],
+      indexes[0],
+      indexes[1]
+    ];
+
+
+    indexes.forEach((index,i)=>{
+      setSponsor(
+        slots[i],
+        sponsors[index]
+      );
     });
 
 
-    // zabrání stejnému logu vedle sebe
-    while (
-      indexes[0] === indexes[1] ||
-      indexes[1] === indexes[2] ||
-      indexes[0] === indexes[2]
-    ) {
-
-      indexes = indexes.map(index => {
-        return (index + 1) % sponsors.length;
-      });
-
-    }
-
-
-    indexes.forEach((index, i) => {
-      setSponsor(slots[i], sponsors[index]);
+    // reset
+    imgs.forEach(img=>{
+      img.classList.remove(
+        "sponsor-left-move",
+        "sponsor-center-move",
+        "sponsor-right-move"
+      );
     });
 
 
-
-    slots.forEach(slot => {
-      slot.classList.remove("fade-out");
-      slot.classList.add("fade-in");
-
-
-      setTimeout(() => {
-        slot.classList.remove("fade-in");
-      },400);
-
-    });
-
-
-  },400);
+  },700);
 
 }
 
@@ -116,12 +110,18 @@ function rotateSponsors() {
 
 /* Start */
 
-initSponsors();
+function initSponsors() {
 
-rotationInterval = setInterval(
-  rotateSponsors,
-  4500
-);
+  indexes.forEach((index, i) => {
+    setSponsor(slots[i], sponsors[index]);
+  });
+
+
+  slots[1]
+    .querySelector("img")
+    .classList.add("main-sponsor");
+
+}
 
 
 
@@ -140,7 +140,7 @@ slots.forEach(slot => {
     () => {
       rotationInterval = setInterval(
         rotateSponsors,
-        4500
+        5000
       );
     }
   );
