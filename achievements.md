@@ -11,7 +11,7 @@ scripts:
 
 <section class="introduction container reveal">
   <h1>Mé největší badmintonové úspěchy</h1>
-  <div class="separate-line"></div>
+  <div class="section-divider-1">
   <p>
     Přehled mých výsledků na domácích i mezinárodních badmintonových turnajích, včetně Mistrovství České republiky a evropských soutěží.
   </p>
