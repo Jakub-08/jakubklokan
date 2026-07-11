@@ -401,8 +401,8 @@
 
 .reveal {
   opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transform: translateY(20px);
+  transition: opacity .35s ease-out, transform .35s ease-out;
 }
 
 .reveal.active {
