@@ -16,7 +16,7 @@
 }
 
 .text {
-  font-size: var(--fotn-lg);
+  font-size: var(--font-lg);
   line-height: 1.6;
   padding: var(--space-5);
   background-color: rgba(202, 202, 202, 0.815);
@@ -54,15 +54,13 @@
 }
 
 .img.article {
-  width: 600px;
-  max-width: 90vw;
-  aspect-ratio: 1 / 1;
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   display: block;
-  margin: 0 auto;
-  height: auto;
-  margin-bottom: var(--space-2);
+  margin: 0 auto var(--space-5);
   border-radius: var(--border-radius);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 blockquote p {
