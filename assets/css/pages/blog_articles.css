@@ -298,6 +298,15 @@ blockquote p {
   border-radius: var(--border-radius);
 
   box-shadow: 0 8px 20px rgba(0,0,0,.12);
+
+  opacity:0;
+  transform:translateY(30px);
+  transition:.7s ease;
+}
+
+.text img.show {
+  opacity:1;
+  transform:none;
 }
 
 /* TAGS */
