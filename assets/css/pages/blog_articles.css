@@ -3,7 +3,11 @@
 .article-hero {
   width: 100%;
   min-height: 500px;
-  min-width: 840px;
+
+  background-image: var(--hero-image);
+  background-size: cover;
+  background-position: var(--hero-position);
+  background-repeat: no-repeat;
 
   display: flex;
   align-items: center;
@@ -15,20 +19,18 @@
 
   border-radius: 0 0 24px 24px;
   overflow: hidden;
+
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-
-  background-image: var(--hero-image);
-  background-position: var(--hero-position);
-
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .article-hero-overlay {
   position: relative;
   z-index: 2;
 
+  width: min(1000px, 90vw);
+
   text-align: center;
+
   padding: var(--space-5);
 
   color: white;
@@ -42,25 +44,83 @@
   background: rgba(0,0,0,0.45);
 }
 
+.article-hero .blog-article-h1 {
+  max-width: 1000px;
+
+  color: white;
+
+  font-size: clamp(2rem, 5vw, 4rem);
+
+  line-height: 1.15;
+
+  margin-bottom: var(--space-3);
+}
+
+@media (max-width: 1024px) {
+
+  .article-hero {
+    min-height: 420px;
+  }
+
+  .article-hero-overlay {
+    padding: var(--space-4);
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .article-hero {
+    min-height: 300px;
+
+    border-radius: 0 0 18px 18px;
+
+    background-position: var(--hero-position);
+  }
+
+
+  .article-hero-overlay {
+    width: 95vw;
+
+    padding: 20px;
+  }
+
+
+  .article-hero .blog-article-h1 {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+
+    line-height: 1.2;
+  }
+
+}
+
+
 /* METADATA */
 
 .article-meta {
-  display: inline-flex;
-  gap: 10px;
-  flex-wrap: wrap;
+  display: flex;
+
   justify-content: center;
+  align-items: center;
 
-  padding: 8px 18px;
-  margin-top: var(--space-4);
-  text-align: center;
+  flex-wrap: wrap;
 
-  background: rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(2px);
+  gap: 8px;
+
+  padding: 8px 16px;
+
+  max-width: 90vw;
+
+  margin: auto;
+
+  background: rgba(0,0,0,.25);
+
+  backdrop-filter: blur(8px);
 
   border-radius: 20px;
 
-  color: white;
-  font-size: var(--font-sm);
+  color:white;
 }
 
 .article-author {
