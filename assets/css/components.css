@@ -409,3 +409,39 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+
+/* SEPARATE LINE */ 
+
+.section-divider-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 180px;
+  margin: 35px auto 20px;
+}
+
+
+.section-divider-1::before,
+.section-divider-1::after {
+  content: "";
+
+  width: 9px;
+  height: 9px;
+  border-width: 1.5px;
+
+  border: 2px solid var(--color-primary-dark);
+  background: transparent;
+
+  transform: rotate(45deg);
+}
+
+
+.section-divider-1 span {
+  height: 1.5px;
+
+  flex: 1;
+
+  background: var(--color-primary-dark);
+}

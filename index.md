@@ -74,6 +74,11 @@ scripts:
 <section class="blog section">
   <div class="container">
     <h2>Turnajové výsledky a&nbsp;blog</h2>
+
+    <div class="section-divider-article">
+      <span></span>
+    </div>
+
     <p class="paragraph_seo">
       Pravidelně publikuji výsledky z&nbsp;turnajů, zkušenosti ze&nbsp;zápasů a&nbsp;sportovní progres v&nbsp;badmintonové kariéře.
     </p>

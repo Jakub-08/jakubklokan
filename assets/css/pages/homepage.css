@@ -242,19 +242,6 @@
   padding-top: 12px;
 }
 
-.paragraph_seo::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  width: 40px;
-  height: 2px;
-  background: var(--color-accent, #caa24a);
-  border-radius: 2px;
-}
-
 .blog-articles {
   display: flex;
   gap: var(--space-6);
