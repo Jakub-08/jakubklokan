@@ -1,25 +1,27 @@
-let lastScroll = 0;
-
 const header = document.querySelector("header");
 
-if(header){
+let lastScroll = 0;
+let headerHeight = header.offsetHeight;
+
 
 window.addEventListener("scroll", () => {
 
   const currentScroll = window.scrollY;
 
 
-  if(currentScroll <= 20){
+  if (currentScroll < headerHeight + 50) {
     header.classList.remove("hide");
     lastScroll = currentScroll;
     return;
   }
 
 
-  if(currentScroll > lastScroll){
+  if (currentScroll > lastScroll) {
+    // scroll dolů
     header.classList.add("hide");
   } 
   else {
+    // scroll nahoru
     header.classList.remove("hide");
   }
 
@@ -27,5 +29,3 @@ window.addEventListener("scroll", () => {
   lastScroll = currentScroll;
 
 });
-
-}
