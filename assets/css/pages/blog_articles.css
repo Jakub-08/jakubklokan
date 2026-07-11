@@ -98,6 +98,8 @@
   display: block;
   margin: 0 auto var(--space-7);
 
+  background: none;
+  box-shadow: none;
   padding: 0;
 }
 
