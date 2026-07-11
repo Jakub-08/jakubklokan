@@ -11,7 +11,7 @@ scripts:
 ---
 
 <div class="main-bg">
-  <section class="section sponzoring-hero reveal">
+  <section class="section sponzoring-hero">
     <picture>
       <source
         srcset="/images/sponzoring/Bozner_Cup_2-sponzring.avif"
