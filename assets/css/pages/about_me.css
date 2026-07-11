@@ -1,3 +1,5 @@
+
+
 .strip-image-container .slide {
   display: none;
   height: 100%;
@@ -40,10 +42,18 @@
   opacity: 1;
 }
 
+.section-divider-1.about-me {
+  margin: 5px auto 2px 30px;
+}
+
 @media (max-width: 768px) {
   .h1-about-me {
     text-align: center;
     margin-bottom: var(--space-2);
+  }
+
+  .h2-about-me {
+    text-align: center;
   }
 
   .education-gallery {

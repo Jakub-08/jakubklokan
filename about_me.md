@@ -17,7 +17,7 @@ scripts:
           <div class="container grid--2 strip-contain">
             <div class="container-text reveal-left">
               <h1 class="h1-about-me">Má badmintonová cesta</h1>
-              <div class="section-divider-1">
+              <div class="section-divider-1  about-me">
                 <span></span>
               </div>
               <p>
@@ -72,8 +72,8 @@ scripts:
             </picture>
 
             <div class="container-text reveal-left">
-              <h2>Badmintonová kariéra</h2>
-              <div class="section-divider-1">
+              <h2 class="h2-about-me">Badmintonová kariéra</h2>
+              <div class="section-divider-1  about-me">
                 <span></span>
               </div>
               <p>
@@ -106,8 +106,8 @@ scripts:
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text reveal-left">
-              <h2>Škola</h2>
-              <div class="section-divider-1">
+              <h2 class="h2-about-me">Škola</h2>
+              <div class="section-divider-1  about-me">
                 <span></span>
               </div>
               <p>
@@ -157,8 +157,8 @@ scripts:
             </div>
 
             <div class="container-text reveal-left">
-              <h2>Dosažené vzdělání</h2>
-              <div class="section-divider-1">
+              <h2 class="h2-about-me">Dosažené vzdělání</h2>
+              <div class="section-divider-1  about-me">
                 <span></span>
               </div>
               <p>
@@ -192,8 +192,8 @@ scripts:
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text reveal-left">
-              <h2>Sociální sítě</h2>
-              <div class="section-divider-1">
+              <h2 class="h2-about-me">Sociální sítě</h2>
+              <div class="section-divider-1  about-me">
                 <span></span>
               </div>
               <p>
