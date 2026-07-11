@@ -106,7 +106,7 @@ scripts:
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text reveal-left">
-              <h2 class="h2-about-me">Škola</h2>
+              <h2 class="h2-about-me">Cesta vzděláním</h2>
               <div class="section-divider-1  about-me">
                 <span></span>
               </div>
