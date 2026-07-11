@@ -118,10 +118,17 @@
   margin-bottom: var(--space-4);
 }
 
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
 #vyhledavac {
   flex: 1 1 250px;
   max-width: 300px;
-  padding: var(--space-2) var(--space-4);
+  width: 100%;
+  padding: var(--space-2) 42px var(--space-2) var(--space-4);
   height: 40px;
   font-size: var(--font-md);
   border: 1px solid #ccc;
@@ -131,6 +138,24 @@
     border-color 0.3s,
     box-shadow 0.3s;
   box-sizing: border-box;
+}
+
+#clear-search {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #777;
+  display: none;
+  transition: .2s;
+}
+
+#clear-search:hover {
+  color: #111;
 }
 
 #vyhledavac:focus {

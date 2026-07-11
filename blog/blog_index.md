@@ -12,7 +12,17 @@ description: "Pravidelné články o badmintonovém tréninku, turnajích, sport
   </h2>
 
   <div id="filtr-panel" class="container">
-    <input type="text" id="vyhledavac" placeholder="🔍 Hledat články..." />
+    <div class="search-wrapper">
+      <input
+        type="text"
+        id="vyhledavac"
+        placeholder="🔍 Hledat články..."
+      />
+
+      <button id="clear-search" aria-label="Vymazat hledání">
+        ×
+      </button>
+    </div>
     <div id="filtr-tagy"></div>
   </div>
 

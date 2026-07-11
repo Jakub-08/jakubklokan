@@ -13,6 +13,7 @@ let activeTags = [];
 const seznamClanku = document.getElementById("seznam-clanku");
 const paginace = document.getElementById("paginace");
 const vyhledavac = document.getElementById("vyhledavac");
+const clearSearch = document.getElementById("clear-search");
 const tagContainer = document.getElementById("filtr-tagy");
 
 // ====== DATE FORMAT ======
@@ -212,9 +213,32 @@ function renderPagination(totalPages) {
 
 // ====== SEARCH ======
 vyhledavac.addEventListener("input", (e) => {
+
   query = e.target.value.toLowerCase();
+
   currentPage = 1;
+
+  clearSearch.style.display =
+    query ? "block" : "none";
+
   render();
+
+});
+
+clearSearch.addEventListener("click", () => {
+
+  vyhledavac.value = "";
+
+  query = "";
+
+  currentPage = 1;
+
+  clearSearch.style.display = "none";
+
+  render();
+
+  vyhledavac.focus();
+
 });
 
 // ====== INIT ======
