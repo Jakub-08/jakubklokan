@@ -14,6 +14,7 @@
   position: relative;
 
   margin-bottom: var(--space-7);
+  border-radius: var(--border-radius);
 }
 
 .article-hero-overlay {
