@@ -29,15 +29,6 @@
               {{ page.h1 | default: page.title }}
             </h1>
 
-            <div class="date">
-              {% assign months =
-              "ledna,února,března,dubna,května,června,července,srpna,září,října,listopadu,prosince"
-              | split: "," %}
-              {% assign month_index = page.date | date: "%-m" | minus: 1 %}
-              {{ page.date | date: "%-d." }}
-              {{ months[month_index] }}
-              {{ page.date | date: "%Y" }}
-            </div>
           </div>
         </section>
         {% endif %}
