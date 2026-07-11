@@ -15,6 +15,10 @@
   position: relative;
 
   margin-bottom: var(--space-7);
+
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 .article-hero-overlay {
