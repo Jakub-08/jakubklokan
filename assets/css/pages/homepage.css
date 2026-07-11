@@ -192,27 +192,66 @@
 .sponsor-left-move {
   transform:translateX(-80px) scale(.85);
   opacity:.3;
+  animation: moveLeft .7s cubic-bezier(.4,0,.2,1);
 }
 
 
 .sponsor-right-move {
   transform:translateX(80px) scale(.85);
   opacity:.3;
+  animation: moveRight .7s cubic-bezier(.4,0,.2,1);
 }
 
 
 .sponsor-center-move {
   transform:scale(1.15);
+  animation: moveCenter .7s cubic-bezier(.4,0,.2,1);
 }
 
-.fade-out {
-  opacity: 0;
-  transform: scale(0.95);
+@keyframes moveLeft {
+
+  0% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(120px) scale(.85);
+    opacity: .65;
+  }
+
 }
 
-.fade-in {
-  opacity: 1;
-  transform: scale(1);
+
+@keyframes moveCenter {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(.85);
+  }
+
+}
+
+
+@keyframes moveRight {
+
+  0% {
+    transform: translateX(0) scale(.85);
+    opacity:.65;
+  }
+
+  100% {
+    transform: translateX(-120px) scale(1);
+    opacity:1;
+  }
+
 }
 
 .sponsors::before {
