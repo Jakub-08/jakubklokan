@@ -171,10 +171,8 @@
   opacity: .65;
   transform: scale(.85);
 
-  transition:
-    transform .7s cubic-bezier(.4,0,.2,1),
-    opacity .7s ease,
-    filter .7s ease;
+  transition: transform .7s cubic-bezier(.4,0,.2,1),
+              opacity .7s ease;
 }
 
 /* hlavní logo */
@@ -206,8 +204,8 @@
 
 /* animace pohybu */
 .sponsor-left-move {
-  transform:translateX(-80px) scale(.85);
-  opacity:.3;
+  transform: translateX(-120px);
+  opacity: .5;
   animation: moveLeft .7s cubic-bezier(.4,0,.2,1);
 }
 
