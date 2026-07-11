@@ -39,7 +39,9 @@ scripts:
   <div class="container">
     <div class="hero-text text-shadow">
       <h1>Jakub Klokan</h1>
-      <div class="hero-text-line"></div>
+      <div class="section-divider-1">
+        <span></span>
+      </div>
       <h2>Vrcholový badminton &&nbsp;mezinárodní turnaje</h2>
       <p>
       Jsem český badmintonista soutěžící na&nbsp;domácích i&nbsp;mezinárodních turnajích a&nbsp;se&nbsp;snem startu na&nbsp;Olympijských&nbsp;hrách&nbsp;2032.
