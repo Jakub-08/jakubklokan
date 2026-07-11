@@ -154,7 +154,7 @@ scripts:
           />
         </picture>
         <div class="container-text">
-          <h2 class="h2-about-me">O mně</h2>
+          <h2 class="h2-about-me">Badmintonový profil</h2>
           <div class="section-divider-1  about-me">
             <span></span>
           </div>
