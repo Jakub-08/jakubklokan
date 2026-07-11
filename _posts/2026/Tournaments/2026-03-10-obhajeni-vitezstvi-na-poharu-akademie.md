@@ -2,6 +2,7 @@
 layout: post
 title: "Obhájil jsem své vítězství na domácím Poháru Akademie"
 date: 2026-03-10
+reading_time: "5 min"
 image: /blog/images/tournaments/PohárAkademie2026.png
 description: "Znovu jsem obhájil vítězství na domácím turnaji GPC dospělých"
 tags: [Soutěže, 2026]
