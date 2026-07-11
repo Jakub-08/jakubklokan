@@ -148,14 +148,6 @@ MOBILE MENU - MODERN DRAWER
   transition: transform 0.35s ease;
 }
 
-.separator {
-  height: 1px;
-  width: 10dvh;
-  background-color: var(--color-primary-dark);
-  margin: 0 auto;
-  border-radius: 0.5px;
-}
-
 /* open state */
 #toggle-menu:checked ~ .odkazy-menu {
   transform: translateY(0);
