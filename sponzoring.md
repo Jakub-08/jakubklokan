@@ -30,10 +30,10 @@ scripts:
 
     <div class="container sponzoring-hero-text">
       <h1>Sponzoring &&nbsp;spolupráce</h1>
-      <div class="section-divider-1  about-me">
+      <div class="section-divider-1">
         <span></span>
       </div>
-      <h2>
+      <h2 class="h2-about-me">
         Podpořte mladého mezinárodního badmintonistu a&nbsp;získejte viditelnost
         na&nbsp;turnajích i&nbsp;online
       </h2>
@@ -48,7 +48,7 @@ scripts:
     <div class="strip">
       <div class="container grid--2 strip-contain reveal">
         <div class="container-text">
-          <h2>Nabídka sponzoringu</h2>
+          <h2 class="h2-about-me">Nabídka sponzoringu</h2>
           <div class="section-divider-1  about-me">
             <span></span>
           </div>
@@ -154,7 +154,7 @@ scripts:
           />
         </picture>
         <div class="container-text">
-          <h2>O mně</h2>
+          <h2 class="h2-about-me">O mně</h2>
           <div class="section-divider-1  about-me">
             <span></span>
           </div>
@@ -184,7 +184,7 @@ scripts:
     <div class="strip">
       <div class="container grid--2 strip-contain sponsors-template reveal">
         <div class="container-text">
-          <h2>Moji sponzoři</h2>
+          <h2 class="h2-about-me">Moji sponzoři</h2>
           <div class="section-divider-1  about-me">
             <span></span>
           </div>
@@ -343,8 +343,8 @@ scripts:
   <section class="section contact-section reveal" id="kontakt" >
     <div class="strip">
       <div class="container contact-section-intro">
-        <h2>Kontaktujte mě</h2>
-        <div class="section-divider-1  about-me">
+        <h2 class="h2-about-me">Kontaktujte mě</h2>
+        <div class="section-divider-1">
           <span></span>
         </div>
         <p>
