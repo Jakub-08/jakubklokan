@@ -5,6 +5,7 @@ date: 2025-07-01
 image: /blog/images/tournaments/article-79.avif
 description: "Ve dvouhře jsem skončil v top 32, když..."
 tags: [Mezinárodní turnaje, 2025]
+image_position: 50% 30%
 ---
 
 Ve dvouhře jsem skončil v top 32, když jsem celkem snadno prošel přes

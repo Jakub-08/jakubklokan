@@ -5,6 +5,7 @@ date: 2024-05-28
 image: /blog/images/tournaments/article-57.png
 description: "První medaile z turnaje evropského okruhu!🥉 V chorvatské..."
 tags: [Mezinárodní turnaje, 2024]
+image_position: 50% 30%
 ---
 
 První medaile z turnaje evropského okruhu!🥉 V chorvatské Opatiji

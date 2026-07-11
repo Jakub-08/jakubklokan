@@ -5,6 +5,7 @@ date: 2025-09-28
 image: /blog/images/tournaments/article-81.png
 description: "První mezinárodní turnaj mezi dospělými VICTOR Croatian International..."
 tags: [Mezinárodní turnaje, 2025]
+image_position: 50% 30%
 ---
 
 První mezinárodní turnaj mezi dospělými VICTOR Croatian International

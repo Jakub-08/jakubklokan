@@ -5,6 +5,7 @@ date: 2025-12-31
 image: /blog/images/season/article-86.png
 description: "Rok 2025 je u konce a nabízí ideální..."
 tags: [Ohlédnutí, 2025]
+image_position: 50% 30%
 ---
 
 Rok 2025 je u konce a nabízí ideální prostor k ohlédnutí za uplynulou
