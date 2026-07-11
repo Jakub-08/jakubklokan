@@ -174,7 +174,7 @@ blockquote p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 .tag {
   background: transparent;
@@ -184,10 +184,8 @@ blockquote p {
   border-radius: 20px;
 
   font-size: var(--font-xs);
-}
-
-.tag.post {
-  margin: var(--space-1) auto 0 auto;
+  color: var(--color-primary-dark);
+  font-weight: bolder;
 }
 
 
