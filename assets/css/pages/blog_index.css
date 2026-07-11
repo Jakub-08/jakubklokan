@@ -35,7 +35,6 @@
   width: 70vw;
   border-radius: var(--border-radius);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition:.3s;
   text-decoration: none;
   color: #111;
   gap: var(--space-4);
@@ -43,12 +42,16 @@
 
   opacity:0;
   transform:translateY(40px);
+
+  transition:
+    opacity .6s ease,
+    transform .6s ease,
+    box-shadow .3s ease;
 }
 
 .clanek.show{
-    opacity:1;
-    transform:none;
-    transition:.6s;
+  opacity:1;
+  transform:translateY(0);
 }
 
 #seznam-clanku a {

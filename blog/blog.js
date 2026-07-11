@@ -139,6 +139,11 @@ function render() {
 
     a.innerHTML = html;
     seznamClanku.appendChild(a);
+
+    setTimeout(() => {
+      a.classList.add("show");
+    }, 50 * (seznamClanku.children.length));
+
   });
 
   renderPagination(totalPages);
