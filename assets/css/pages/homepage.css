@@ -207,8 +207,9 @@
 /* animace pohybu */
 .sponsor-left-move {
   transform: translateX(-80px);
-  opacity: .5;
+  opacity: 0;
   animation: moveLeft .7s cubic-bezier(.4,0,.2,1);
+  transition: .5s ease;
 }
 
 

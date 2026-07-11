@@ -109,10 +109,19 @@ function rotateSponsors() {
 /* Start */
 
 function initSponsors() {
+  indexes = [0, 1, 2];
 
-  indexes = [0,1,2];
-
+  indexes.forEach((index, i) => {
+    setSponsor(slots[i], sponsors[index]);
+  });
 }
+
+initSponsors();
+
+rotationInterval = setInterval(
+  rotateSponsors,
+  4000
+);
 
 
 
@@ -130,16 +139,29 @@ slots.forEach(slot => {
     "mouseleave",
     () => {
       // první posun po 2 sekundách
-      setTimeout(() => {
+      slots.forEach(slot => {
 
-        rotateSponsors();
-
-        rotationInterval = setInterval(
-          rotateSponsors,
-          5000
+        slot.addEventListener(
+          "mouseenter",
+          () => {
+            clearInterval(rotationInterval);
+          }
         );
 
-      }, 2000);
+
+        slot.addEventListener(
+          "mouseleave",
+          () => {
+
+            rotationInterval = setInterval(
+              rotateSponsors,
+              4000
+            );
+
+          }
+        );
+
+      });
     }
   );
 
