@@ -67,16 +67,13 @@ function rotateSponsors() {
   );
 
 
-  // celá řada jede doleva
-  imgs.forEach(img => {
+  imgs.forEach(img=>{
     img.classList.add("sponsor-move-left");
   });
 
 
-  setTimeout(() => {
+  setTimeout(()=>{
 
-
-    // posun indexů doleva
     indexes = [
       indexes[1],
       indexes[2],
@@ -84,7 +81,7 @@ function rotateSponsors() {
     ];
 
 
-    indexes.forEach((index, i) => {
+    indexes.forEach((index,i)=>{
       setSponsor(
         slots[i],
         sponsors[index]
@@ -92,13 +89,18 @@ function rotateSponsors() {
     });
 
 
-    // reset animace
-    imgs.forEach(img => {
-      img.classList.remove("sponsor-move-left");
+    requestAnimationFrame(()=>{
+
+      imgs.forEach(img=>{
+        img.classList.remove(
+          "sponsor-move-left"
+        );
+      });
+
     });
 
 
-  },700);
+  },800);
 
 }
 
