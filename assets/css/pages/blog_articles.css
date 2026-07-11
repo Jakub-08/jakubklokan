@@ -187,12 +187,12 @@ blockquote p {
   gap: 14px;
 
   width: 180px;
-  margin: 70px auto 60px;
+  margin: 35px auto 20px;
 }
 
 
 .section-divider-article::before,
-.section-divider::after {
+.section-divider-article::after {
   content: "";
 
   width: 9px;
