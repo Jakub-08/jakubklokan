@@ -34,14 +34,15 @@
         {% endif %}
 
         <div class="article-meta">
-          <span>{{ page.author }}</span>
-          <span>·</span>
-          <span>{{ page.reading_time }} čtení</span>
-          <br>
-          <span>
-            Publikováno 
-            {{ page.date | date: "%-d. %-m. %Y" }}
-          </span>
+          <div class="article-author">
+            {{ page.author }}
+          </div>
+
+          <div class="article-details">
+            {{ page.date | date: "%-d. %B %Y" }}
+            ·
+            {{ page.reading_time }} čtení
+          </div>
         </div>
 
         <div class="text">{{ content }}</div>

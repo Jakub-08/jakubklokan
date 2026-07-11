@@ -48,6 +48,8 @@
   justify-content: center;
 
   padding: 8px 18px;
+  margin-top: var(--space-4);
+  text-align: center;
 
   background: rgba(0,0,0,0.35);
   backdrop-filter: blur(8px);
@@ -56,6 +58,27 @@
 
   color: white;
   font-size: var(--font-sm);
+}
+
+.article-author {
+  font-size: var(--font-md);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.article-details {
+  font-size: var(--font-sm);
+  opacity: 0.85;
+}
+
+.article-hero .blog-article-h1 {
+  max-width: 900px;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1.1;
+}
+
+.article-details {
+  letter-spacing: .3px;
 }
 
 /* TEXTY */
