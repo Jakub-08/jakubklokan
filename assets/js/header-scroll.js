@@ -9,7 +9,7 @@ window.addEventListener("scroll", () => {
   const currentScroll = window.scrollY;
 
 
-  if (currentScroll < headerHeight + 30) {
+  if (currentScroll < headerHeight + 50) {
     header.classList.remove("hide");
     lastScroll = currentScroll;
     return;
