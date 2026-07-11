@@ -24,17 +24,22 @@
               {{ page.h1 | default: page.title }}
             </h1>
 
-            <div class="article-meta">
-              <div class="article-author">
-                {{ page.author }}
-              </div>
+            {% assign months =
+            "ledna,února,března,dubna,května,června,července,srpna,září,října,listopadu,prosince"
+            | split: "," %}
 
-              <div class="article-details">
-                ·
-                {{ page.date | date: "%-d. %B %Y" }}
-                ·
-                {{ page.reading_time }} čtení
-              </div>
+            {% assign month_index = page.date | date: "%-m" | minus: 1 %}
+
+            <div class="article-meta">
+              <span>{{ page.author }}</span>
+              <span>·</span>
+              <span>
+                {{ page.date | date: "%-d." }}
+                {{ months[month_index] }}
+                {{ page.date | date: "%Y" }}
+              </span>
+              <span>·</span>
+              <span>{{ page.reading_time }} čtení</span>
             </div>
 
           </div>
