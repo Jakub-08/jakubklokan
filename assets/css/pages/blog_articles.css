@@ -225,6 +225,80 @@ blockquote p {
 }
 
 
+/* LATEST POSTS */
+
+.latest-posts {
+  width: min(1000px, 90vw);
+  margin: var(--space-8) auto;
+}
+
+
+.latest-posts h2 {
+  text-align: center;
+  margin-bottom: var(--space-5);
+}
+
+
+.latest-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+
+.latest-post-card {
+  text-decoration: none;
+  color: var(--color-text-dark);
+
+  border-radius: var(--border-radius);
+  overflow: hidden;
+
+  background: rgba(202,202,202,.5);
+
+  transition: transform .2s;
+}
+
+
+.latest-post-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.latest-post-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+
+.latest-post-content {
+  padding: 15px;
+}
+
+
+.latest-post-content h3 {
+  font-size: var(--font-md);
+  margin-bottom: 8px;
+}
+
+
+.latest-post-content p {
+  font-size: var(--font-sm);
+  opacity: .7;
+}
+
+@media (max-width:768px){
+
+.latest-posts-grid {
+  grid-template-columns: 1fr;
+}
+
+}
+
+
 
 /* media queries */
 

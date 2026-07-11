@@ -56,6 +56,43 @@
           {% endfor %}
         </div>
         {% endif %}
+
+
+        <section class="latest-posts">
+
+          <h2>Nejnovější články</h2>
+
+          <div class="latest-posts-grid">
+
+            {% for post in site.posts limit:3 %}
+
+              {% unless post.url == page.url %}
+
+              <a href="{{ post.url }}" class="latest-post-card">
+
+                <img 
+                  src="{{ post.image }}"
+                  alt="{{ post.title }}"
+                >
+
+                <div class="latest-post-content">
+                  <h3>{{ post.h1 | default: post.title }}</h3>
+
+                  <p>
+                    {{ post.date | date: "%d. %m. %Y" }}
+                  </p>
+                </div>
+
+              </a>
+
+              {% endunless %}
+
+            {% endfor %}
+
+          </div>
+
+        </section>
+
       </div>
     </main>
 
