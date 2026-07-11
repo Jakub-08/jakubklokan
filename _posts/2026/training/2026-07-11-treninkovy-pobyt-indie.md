@@ -16,6 +16,9 @@ summary: Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších h
 
 Byla mi nabídnuta možnost trénovat v **prestižní Chetan Anand Badminton Academy**, která patří bývalému **10. hráči světa Chetanovi Anandovi**. Taková příležitost se nenabídne jen tak komukoliv, proto si jí velice vážím. Ani bez pomoci a iniciativy **klubu Super Stars Most** by se tato možnost pro mě neotevřela.
 
+<div class="section-divider">
+  <span></span>
+</div>
 
 ## Na tréninku již v 5:30 ráno
 
@@ -26,7 +29,7 @@ Dost se mi změnil názor na multifeeding, protože v **Chetan Anand Badminton A
 
 ## 180 hodin za 5 týdnů
 
-Trénovalo se **od pondělí do soboty třikrát denně**. Celkově to znamená **18 tréninků za týden**, z toho **6 atletických**, **3 posilovny** a **9 badmintonových**. V hodinových číslech jsme trénovali **přes 36 hodin týdně**, takže za pět týdnů našeho pobytu jsme odtrénovali **180 hodin tréninku**.
+Trénovalo se od pondělí do soboty třikrát denně. Celkově to znamená **18 tréninků za týden**, z toho **6 atletických**, **3 posilovny** a **9 badmintonových**. V hodinových číslech jsme trénovali **přes 36 hodin týdně**, takže za pět týdnů našeho pobytu jsme odtrénovali **180 hodin tréninku**.
 
 Pro představu: u nás doma trénuji zhruba **18 hodin týdně**, tudíž **dvakrát méně**. Natrénovat tolik hodin by nám v našich podmínkách trvalo **dva a půl měsíce**. Proto je takový rozdíl mezi evropskými a asijskými hráči, protože oni dokáží v běžném režimu trénovat **dvakrát více než my**.
 
@@ -37,7 +40,7 @@ Za oněch pět týdnů tréninku jsem cítil **velký pokrok ve výkonu**. I kdy
 
 Byly momenty, kdy se mi chtělo začít brečet, protože to tělo ani hlava už nedávaly. Ale pokaždé jsem to překonal, i díky **skvělým spoluhráčům a kamarádům**, kteří mě povzbuzovali a hecovali.
 
-Právě toto **překonávání komfortní zóny** je to, co nás posouvá nejvíce a nejdál. Každý umí hrát, když je odpočinutý a má perfektní podmínky, ale **jen ti nejlepší** dokáží toto překonat, adaptovat se a tím se stát ještě lepšími. Přeci jen **nejlepší sportovci světa často vzešli z těch nejtěžších podmínek**.
+Právě toto **překonávání komfortní zóny** je to, co nás posouvá nejvíce a nejdál. Každý umí hrát, když je odpočinutý a má perfektní podmínky, ale jen ti nejlepší dokáží toto překonat, adaptovat se a tím se stát ještě lepšími. Přeci jen **nejlepší sportovci světa často vzešli z těch nejtěžších podmínek**.
 
 
 ## Jsem vám vděčný
