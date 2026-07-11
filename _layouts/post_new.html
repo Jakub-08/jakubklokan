@@ -8,7 +8,7 @@
     {% include header.html %}
 
     <main class="blog-article-main">
-      <div class="container section">
+      <div class="container">
         
 
         {% if page.image %}
@@ -16,13 +16,15 @@
           class="article-hero"
           style="background-image: url('{{ page.image }}')"
         >
-          <div class="article-hero-overlay">
+
             <a
               class="button button--primary button--small article"
               href="/blog/blog_index.html"
               >← Zpět na blog</a
             >
+          <div class="article-hero-overlay">
             
+
             <h1 class="blog-article-h1">
               {{ page.h1 | default: page.title }}
             </h1>
