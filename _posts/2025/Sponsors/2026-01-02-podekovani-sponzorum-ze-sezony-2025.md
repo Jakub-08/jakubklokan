@@ -5,6 +5,7 @@ date: 2026-01-02
 image: /blog/images/sponsors/article-87.png
 description: "Rád bych se ohlédl za rokem 2025 a..."
 tags: [Ohlédnutí, 2025]
+image_position: center
 ---
 
 Rád bych se ohlédl za rokem 2025 a poděkoval svým
