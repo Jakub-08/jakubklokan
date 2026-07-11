@@ -51,7 +51,9 @@
   margin-top: var(--space-4);
   text-align: center;
 
-  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 
   border-radius: 20px;
 
@@ -62,7 +64,6 @@
 .article-author {
   font-size: var(--font-md);
   font-weight: 600;
-  margin-bottom: 6px;
 }
 
 .article-details {
