@@ -1,13 +1,17 @@
+.blog-article-main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* HERO */
 
 .article-hero {
   width: 100%;
-  min-height: 500px;
+  min-height: clamp(320px, 55vw, 550px);
 
   background-image: var(--hero-image);
   background-size: cover;
   background-position: var(--hero-position);
-  background-repeat: no-repeat;
 
   display: flex;
   align-items: center;
@@ -15,12 +19,10 @@
 
   position: relative;
 
-  margin-bottom: var(--space-7);
+  margin-bottom: clamp(40px, 6vw, 80px);
 
   border-radius: 0 0 24px 24px;
   overflow: hidden;
-
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 .article-hero-overlay {
@@ -31,7 +33,7 @@
 
   text-align: center;
 
-  padding: var(--space-5);
+  padding: clamp(20px, 5vw, 50px);
 
   color: white;
 }
@@ -74,7 +76,7 @@
   .article-hero {
     min-height: 300px;
 
-    border-radius: 0 0 18px 18px;
+    border-radius: 0 0 16px 16px;
 
     background-position: var(--hero-position);
   }
@@ -185,10 +187,10 @@
 }
 
 .text h2 {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 24px;
 
-  font-size: var(--font-xl);
+  font-size:clamp(1.5rem,3vw,2.3rem);
   line-height: 1.2;
 }
 
@@ -227,6 +229,7 @@
 .img.article {
   width: 100%;
   max-width: 900px;
+  height: auto;
   object-fit: cover;
   display: block;
   margin: 0 auto var(--space-5);
@@ -242,6 +245,7 @@ blockquote p {
 .text img {
   width: 100%;
   max-width: 900px;
+  height: auto;
 
   display: block;
   margin: var(--space-6) auto;
@@ -377,12 +381,17 @@ blockquote p {
   opacity: .7;
 }
 
-@media (max-width:768px){
+@media(max-width:1024px){
 
-.latest-posts-grid {
-  grid-template-columns: 1fr;
+  .latest-posts-grid{
+  grid-template-columns:repeat(2,1fr);
+  }
 }
 
+@media (max-width:768px){
+  .latest-posts-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 
@@ -397,9 +406,9 @@ blockquote p {
     margin-top: 60px;
   }
   .text {
-    width: 95vw;
+    width: 90vw;
     font-size: var(--font-md);
-    line-height: 1.5;
+    line-height: 1.6;
   }
   .article-qoute {
     margin: 0 var(--space-2);
@@ -409,9 +418,19 @@ blockquote p {
     display: flex;
     justify-content: center;
     min-width: 105px;
+    width:90vw;
   }
   .tag {
     margin-right: 0;
+  }
+
+  .text h2{
+    margin-top:50px;
+  }
+
+  .text img{
+    border-radius:12px;
+    margin:30px auto;
   }
 }
 
