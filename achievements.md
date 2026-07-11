@@ -11,7 +11,7 @@ scripts:
 
 <section class="introduction container reveal">
   <h1>Mé největší badmintonové úspěchy</h1>
-  <div class="section-divider-1  about-me">
+  <div class="section-divider-1">
     <span></span>
   </div>
   <p>
