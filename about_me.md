@@ -17,7 +17,9 @@ scripts:
           <div class="container grid--2 strip-contain">
             <div class="container-text reveal-left">
               <h1 class="h1-about-me">Má badmintonová cesta</h1>
-              <div class="separate-line"></div>
+              <div class="section-divider-1">
+                <span></span>
+              </div>
               <p>
                 Můj&nbsp;příběh započal 11.&nbsp;září 2008, když jsem
                 se&nbsp;pozdě v&nbsp;noci narodil v&nbsp;Mostě.<br />Dětství
@@ -71,7 +73,9 @@ scripts:
 
             <div class="container-text reveal-left">
               <h2>Badmintonová kariéra</h2>
-              <div class="separate-line"></div>
+              <div class="section-divider-1">
+                <span></span>
+              </div>
               <p>
                 Už odmalička jsem měl rád pohyb, rychlost, sílu,
                 výbušnost,&nbsp;přesnost. Shodou okolností to&nbsp;jsou
@@ -103,7 +107,9 @@ scripts:
           <div class="container grid--2 strip-contain">
             <div class="container-text reveal-left">
               <h2>Škola</h2>
-              <div class="separate-line"></div>
+              <div class="section-divider-1">
+                <span></span>
+              </div>
               <p>
                 Postupem času jsem vystřídal dvě školy a&nbsp;tři různé
                 obory.<br />
@@ -152,7 +158,9 @@ scripts:
 
             <div class="container-text reveal-left">
               <h2>Dosažené vzdělání</h2>
-              <div class="separate-line"></div>
+              <div class="section-divider-1">
+                <span></span>
+              </div>
               <p>
                 Současně se&nbsp;snažím vzdělávat i&nbsp;mimo školu. Absolvoval
                 jsem několik kurzů a&nbsp;školení, které mi&nbsp;pomohly
@@ -185,7 +193,9 @@ scripts:
           <div class="container grid--2 strip-contain">
             <div class="container-text reveal-left">
               <h2>Sociální sítě</h2>
-              <div class="separate-line"></div>
+              <div class="section-divider-1">
+                <span></span>
+              </div>
               <p>
                 V&nbsp;létě&nbsp;2022 jsem se&nbsp;rozhodl, že&nbsp;se&nbsp;chci
                 podělit a&nbsp;motivovat ostatní tím, co&nbsp;dělám.<br />Tak&nbsp;jsem
