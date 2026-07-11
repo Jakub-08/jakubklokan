@@ -9,11 +9,7 @@
 
     <main class="blog-article-main">
       <div class="container section">
-        <a
-          class="button button--primary button--small article"
-          href="/blog/blog_index.html"
-          >← Zpět na blog</a
-        >
+        
 
         {% if page.image %}
         <section 
@@ -21,6 +17,12 @@
           style="background-image: url('{{ page.image }}')"
         >
           <div class="article-hero-overlay">
+            <a
+              class="button button--primary button--small article"
+              href="/blog/blog_index.html"
+              >← Zpět na blog</a
+            >
+            
             <h1 class="blog-article-h1">
               {{ page.h1 | default: page.title }}
             </h1>
@@ -36,14 +38,6 @@
             </div>
           </div>
         </section>
-        {% endif %}
-
-        {% if page.image %}
-        <img
-          class="img article article-image"
-          src="{{ page.image }}"
-          alt="{{ page.h1 | default: page.title }}"
-        />
         {% endif %}
 
         <div class="text">{{ content }}</div>
