@@ -168,22 +168,22 @@ blockquote p {
 
 /* TAGS */
 .tags {
-  width: 150px;
+  width: min(800px, 90vw);
+  margin: var(--space-7) auto;
+  
   display: flex;
-  flex-direction: column;
-  margin: var(--space-5) auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-
 .tag {
-  display: inline-block;
-  background: var(--color-primary-dark);
-  color: var(--color-text-dark);
-  padding: var(--space-1) var(--space-2);
-  margin: var(--space-1) var(--space-2) 0 auto;
-  border-radius: 15px;
+  background: transparent;
+  border: 1px solid var(--color-primary-dark);
+
+  padding: 6px 14px;
+  border-radius: 20px;
+
   font-size: var(--font-xs);
-  cursor: default;
-  user-select: none;
 }
 
 .tag.post {
