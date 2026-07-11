@@ -56,6 +56,10 @@
     text-align: center;
   }
 
+  .section-divider-1.about-me {
+    margin: 5px auto 2px;
+  }
+
   .education-gallery {
     display: flex;
     flex-direction: column;
