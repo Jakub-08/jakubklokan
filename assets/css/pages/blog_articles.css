@@ -99,15 +99,31 @@
 }
 
 .text h2 {
-  font-size: var(--font-xl);
-  margin-top: var(--space-7);
-  margin-bottom: var(--space-3);
+  margin-top: 80px;
+  margin-bottom: 24px;
 
+  font-size: var(--font-xl);
   line-height: 1.2;
 }
 
+.text h2:first-child {
+  margin-top: 0;
+}
+
 .text p {
-  margin-bottom: var(--space-4);
+  margin-bottom: 28px;
+}
+
+.text h2::after {
+  content: "";
+  display: block;
+
+  width: 50px;
+  height: 3px;
+
+  margin-top: 12px;
+
+  background: var(--color-primary);
 }
 
 .text > p:first-of-type {

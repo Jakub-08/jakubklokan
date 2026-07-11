@@ -16,7 +16,6 @@ summary: Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších h
 
 Byla mi nabídnuta možnost trénovat v **prestižní Chetan Anand Badminton Academy**, která patří bývalému **10. hráči světa Chetanovi Anandovi**. Taková příležitost se nenabídne jen tak komukoliv, proto si jí velice vážím. Ani bez pomoci a iniciativy **klubu Super Stars Most** by se tato možnost pro mě neotevřela.
 
----
 
 ## Na tréninku již v 5:30 ráno
 
@@ -24,7 +23,6 @@ Den začínal již v **5:30 ráno** atletickým tréninkem venku. Bylo běžné,
 
 Dost se mi změnil názor na multifeeding, protože v **Chetan Anand Badminton Academy** se trénuje ve **vysokých objemech a intenzitě**. Ale má to výsledky, i sám na sobě jsem po několika týdnech cítil **značné zlepšení**. Třetí trénink od **17:00** patřil kombinacím, herním situacím a do toho bylo v programu **třikrát týdně hodinu a půl posilování**.
 
----
 
 ## 180 hodin za 5 týdnů
 
@@ -32,7 +30,6 @@ Trénovalo se **od pondělí do soboty třikrát denně**. Celkově to znamená 
 
 Pro představu: u nás doma trénuji zhruba **18 hodin týdně**, tudíž **dvakrát méně**. Natrénovat tolik hodin by nám v našich podmínkách trvalo **dva a půl měsíce**. Proto je takový rozdíl mezi evropskými a asijskými hráči, protože oni dokáží v běžném režimu trénovat **dvakrát více než my**.
 
----
 
 ## Překonání vlastních limitů
 
@@ -42,7 +39,6 @@ Byly momenty, kdy se mi chtělo začít brečet, protože to tělo ani hlava už
 
 Právě toto **překonávání komfortní zóny** je to, co nás posouvá nejvíce a nejdál. Každý umí hrát, když je odpočinutý a má perfektní podmínky, ale **jen ti nejlepší** dokáží toto překonat, adaptovat se a tím se stát ještě lepšími. Přeci jen **nejlepší sportovci světa často vzešli z těch nejtěžších podmínek**.
 
----
 
 ## Jsem vám vděčný
 
