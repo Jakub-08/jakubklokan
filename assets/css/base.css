@@ -16,6 +16,16 @@ body {
 }
 
 body {
+  padding-top:70px;
+}
+
+@media(max-width:768px){
+  body {
+    padding-top:56px;
+  }
+}
+
+body {
   font-family: var(--font-main);
   margin: 0;
   padding: 0;
@@ -26,6 +36,23 @@ body {
 
 main {
   min-height: 80vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 3000;
+
+  transition: transform .3s ease;
+}
+
+
+header.hide {
+  transform: translateY(-100%);
 }
 
 /* =====================
