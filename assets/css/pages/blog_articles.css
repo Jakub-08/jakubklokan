@@ -1,7 +1,45 @@
-.blog-article-h1 {
-  color: var(--color-text-dark);
+/* HERO */
+
+.article-hero {
+  width: 100%;
+  min-height: 500px;
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  margin-bottom: var(--space-7);
+}
+
+.article-hero-overlay {
+  position: relative;
+  z-index: 2;
+
   text-align: center;
-  margin: 0px auto var(--space-3);
+  padding: var(--space-5);
+
+  color: white;
+}
+
+.article-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0,0,0,0.45);
+}
+
+/* TEXTY */
+
+.article-hero .blog-article-h1 {
+  color: white;
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: var(--space-3);
 }
 
 .button.article {
@@ -9,7 +47,7 @@
 }
 
 .date {
-  color: #5f5f5f;
+  color: white;
   font-size: var(--font-sm);
   margin-bottom: var(--space-4);
   text-align: center;
