@@ -26,6 +26,7 @@ Den začínal již v **5:30 ráno** atletickým tréninkem venku. Bylo běžné,
 
 Dost se mi změnil názor na multifeeding, protože v **Chetan Anand Badminton Academy** se trénuje ve **vysokých objemech a intenzitě**. Ale má to výsledky, i sám na sobě jsem po několika týdnech cítil **značné zlepšení**. Třetí trénink od **17:00** patřil kombinacím, herním situacím a do toho bylo v programu **třikrát týdně hodinu a půl posilování**.
 
+![Trénink v Chetan Anand Badminton Academy](/blog/images/training/treninkovy-pobyt-indie-2.jpg)
 
 ## 180 hodin za 5 týdnů
 
@@ -42,6 +43,7 @@ Byly momenty, kdy se mi chtělo začít brečet, protože to tělo ani hlava už
 
 Právě toto **překonávání komfortní zóny** je to, co nás posouvá nejvíce a nejdál. Každý umí hrát, když je odpočinutý a má perfektní podmínky, ale jen ti nejlepší dokáží toto překonat, adaptovat se a tím se stát ještě lepšími. Přeci jen **nejlepší sportovci světa často vzešli z těch nejtěžších podmínek**.
 
+![Trénink v Chetan Anand Badminton Academy](/blog/images/training/treninkovy-pobyt-indie-3.jpg)
 
 ## Jsem vám vděčný
 

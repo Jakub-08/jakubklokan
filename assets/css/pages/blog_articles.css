@@ -152,6 +152,20 @@ blockquote p {
   text-align: center;
 }
 
+/* IMAGES */
+
+.text img {
+  width: 100%;
+  max-width: 900px;
+
+  display: block;
+  margin: var(--space-6) auto;
+
+  border-radius: var(--border-radius);
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.12);
+}
+
 /* TAGS */
 .tags {
   width: 150px;
