@@ -129,10 +129,17 @@ slots.forEach(slot => {
   slot.addEventListener(
     "mouseleave",
     () => {
-      rotationInterval = setInterval(
-        rotateSponsors,
-        5000
-      );
+      // první posun po 2 sekundách
+      setTimeout(() => {
+
+        rotateSponsors();
+
+        rotationInterval = setInterval(
+          rotateSponsors,
+          5000
+        );
+
+      }, 2000);
     }
   );
 
