@@ -1,6 +1,7 @@
 ---
 layout: photogallery
 lang: cs
+gallery_lang: cs
 description: Fotogalerie českého badmintonisty Jakuba Klokana z roku 2026 – turnaje, zápasy, mezinárodní soutěže a sportovní příprava.
 title: Jakub Klokan – fotogalerie badminton 2026 | turnaje a zápasy
 h1: Fotogalerie - 2026

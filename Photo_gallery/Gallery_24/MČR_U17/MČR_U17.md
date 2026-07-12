@@ -1,6 +1,7 @@
 ---
 layout: photogallery_photos
 lang: cs
+gallery_lang: cs
 description: Fotogalerie z Mistrovství ČR U17. Zápasy, slavnostní vyhlášení a turnajové momenty Jakuba Klokana během soutěže.
 title: "Mistrovství ČR U17 | Jakub Klokan"
 h1: Mistrovství ČR U17

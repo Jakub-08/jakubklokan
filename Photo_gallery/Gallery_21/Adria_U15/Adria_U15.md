@@ -1,6 +1,7 @@
 ---
 layout: photogallery_photos
 lang: cs
+gallery_lang: cs
 title: "Adria Youth International 2021 | Jakub Klokan – mezinárodní turnaj"
 description: "Fotogalerie Adria Youth International 2021. Jakub Klokan na svém mezinárodním badmintonovém turnaji, zápasy a turnajové momenty."
 h1: Adria Youth International 2021

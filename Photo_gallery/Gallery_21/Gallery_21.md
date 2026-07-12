@@ -1,6 +1,7 @@
 ---
 layout: photogallery
 lang: cs
+gallery_lang: cs
 title: "Fotogalerie badminton 2021 | Jakub Klokan – Adria Youth a GPA U15"
 h1: Fotogalerie - 2021
 description: "Fotogalerie Jakuba Klokana z roku 2021. Badmintonové turnaje Adria Youth International a GPA U15 Pardubice, první mezinárodní a národní zkušenosti."

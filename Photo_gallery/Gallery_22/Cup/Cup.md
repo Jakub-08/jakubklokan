@@ -1,6 +1,7 @@
 ---
 layout: photogallery_photos
 lang: cs
+gallery_lang: cs
 description: Fotogalerie z turnaje FALCO Cup (Severočeský pohár). Jakub Klokan v zápasech, na kurtu i během vyhlášení výsledků.
 title: "28th FALCO Cup | Jakub Klokan – fotogalerie"
 h1: 28th FALCO Cup

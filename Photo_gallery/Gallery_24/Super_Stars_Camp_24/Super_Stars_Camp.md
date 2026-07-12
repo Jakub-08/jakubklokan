@@ -1,6 +1,7 @@
 ---
 layout: photogallery_photos
 lang: cs
+gallery_lang: cs
 description: Fotogalerie z FELET 20th Super Stars Camp 2024. Tréninkové jednotky, badmintonová příprava a momenty Jakuba Klokana z mezinárodního kempu.
 title: "FELET 20th Super Stars Camp 2024 | Jakub Klokan"
 h1: FELET 20th Super Stars Camp 2024

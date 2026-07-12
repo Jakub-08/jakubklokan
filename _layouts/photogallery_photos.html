@@ -13,11 +13,10 @@
 
         {% unless page.hideBackButton %}
         <a
-          href="/photo_gallery_index.html"
-          id="gallery-back"
+          href="{% if page.gallery_lang == 'en' %}/en/photo_gallery_index_en.html{% else %}/photo_gallery_index.html{% endif %}"
           class="button button--primary button--small gallery-button"
         >
-          ← {% if page.lang == "en" %}Back{% else %}Zpět{% endif %}
+          ← {% if page.gallery_lang == 'en' %}Back{% else %}Zpět{% endif %}
         </a>
         {% endunless %}
 

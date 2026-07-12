@@ -1,6 +1,7 @@
 ---
 layout: photogallery_photos
 lang: cs
+gallery_lang: cs
 description: Fotogalerie ze Zagreb U17 International. Zápasové momenty, čtyřhra a slavnostní vyhlášení Jakuba Klokana na mezinárodním turnaji.
 title: "Zagreb U17 International | Jakub Klokan"
 h1: Zagreb U17 International

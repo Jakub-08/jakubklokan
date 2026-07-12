@@ -1,6 +1,7 @@
 ---
 layout: photogallery_photos
 lang: cs
+gallery_lang: cs
 description: Fotogalerie z turnaje Grand Prix A U15 v Pardubicích. Jakub Klokan na zápasech, nástupu a slavnostním vyhlášení výsledků.
 title: "Grand Prix A U15 2021 | Jakub Klokan – fotogalerie"
 h1: Grand Prix A U15

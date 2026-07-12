@@ -1,6 +1,7 @@
 ---
 layout: photogallery
 lang: cs
+gallery_lang: cs
 title: "Fotogalerie badminton 2024 | Jakub Klokan – turnaje a úspěchy"
 h1: Fotogalerie - 2024
 description: "Fotogalerie Jakuba Klokana z roku 2024. Badmintonové turnaje, mezinárodní soutěže, MČR U17 a U19, tréninky a sportovní příprava."
