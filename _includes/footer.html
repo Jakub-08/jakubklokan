@@ -1,76 +1,195 @@
 <footer>
-  <div class="container">
-    <div class="top-part-footer">
-      <div class="text-footer">
-        <img
-          src="{{ '/Logo_webu_white.svg' | relative_url }}"
-          alt="logo_webu"
-          height="110"
-          width="110"
-        />
-        <span>
-          Jmenuji se&nbsp;Jakub Klokan a&nbsp;jsem&nbsp;vrcholový badmintonista
-          z&nbsp;České republiky. Účastním se&nbsp;tuzemských
-          i&nbsp;mezinárodních turnajů, odkud jsem&nbsp;si&nbsp;již&nbsp;přivezl
-          nespočet medailových umístění.<br />
-          Zároveň jsem&nbsp;studentem Podkrušnohorského sportovního gymnázia
-          v&nbsp;Mostě.
-        </span>
-      </div>
 
-      <div class="oddělení"></div>
+{% if page.url contains '/en/' %}
+  {% assign is_en = true %}
+{% else %}
+  {% assign is_en = false %}
+{% endif %}
 
-      <nav class="footer-odkazy">
-        <a href="{{ '/index.html' | relative_url }}">Domů</a>
-        <a href="{{ '/about_me.html' | relative_url }}">O mně</a>
-        <a href="{{ '/achievements.html' | relative_url }}">Úspěchy</a>
-        <a href="{{ '/blog/blog_index.html' | relative_url }}">Blog</a>
-        <a href="{{ '/sponzoring.html' | relative_url }}">Sponzoring</a>
-        <a href="{{ '/photo_gallery_index.html' | relative_url }}"
-          >Fotogalerie</a
-        >
-        <a href="{{ '/sponzoring.html#kontakt' | relative_url }}">Kontakt</a>
-      </nav>
 
-      <div class="oddělení"></div>
+<div class="container">
 
-      <div class="kontakty">
-        <a href="https://www.instagram.com/jakub.klokan/" target="_blank">
-          <img
-            src="{{ '/images/homepage/instagram-white-simple.svg' | relative_url }}"
-            alt="logo Instagramu"
-          />
-          <span>@Jakub.klokan</span>
-        </a>
-        <a href="https://m.facebook.com/klokanjakub/" target="_blank">
-          <img
-            src="{{ '/images/homepage/facebook-white-simple.svg' | relative_url }}"
-            alt="logo Facebooku"
-          />
-          <span>@Jakub Klokan</span>
-        </a>
-        <a href="mailto:klokan.jakub08@gmail.com" target="_blank">
-          <img
-            src="{{ '/images/homepage/email-envelope-white-icon.svg' | relative_url }}"
-            alt="ikona telefonu"
-          />
-          <span>klokan.jakub08@gmail.com</span>
-        </a>
-        <div class="phone">
-          <img
-            src="{{ '/images/homepage/phone-white-simple.svg' | relative_url }}"
-            alt="ikona telefonu"
-          />
-          <span>+420 608 021 109</span>
-        </div>
-      </div>
-    </div>
+<div class="top-part-footer">
 
-    <div class="oddělení_X"></div>
 
-    <p class="copyright">© 2026 Jakub Klokan</p>
-    <p class="copyright" id="copa_photo">Fotografie použité na tomto webu:</p>
-    <p class="copyright">© Super Stars Most</p>
-    <p class="copyright">© Badminton Plzeň</p>
-  </div>
+<div class="text-footer">
+
+<img
+src="{{ '/Logo_webu_white.svg' | relative_url }}"
+alt="logo_webu"
+height="110"
+width="110"
+/>
+
+
+<span>
+
+{% if is_en %}
+
+My name is Jakub Klokan and I am an elite badminton player from the Czech Republic.
+I participate in national and international tournaments, where I have already achieved
+numerous medal positions.<br />
+I am also a student at the Podkrušnohorské sports high school in Most.
+
+{% else %}
+
+Jmenuji se&nbsp;Jakub Klokan a&nbsp;jsem&nbsp;vrcholový badmintonista
+z&nbsp;České republiky. Účastním se&nbsp;tuzemských
+i&nbsp;mezinárodních turnajů, odkud jsem&nbsp;si&nbsp;již&nbsp;přivezl
+nespočet medailových umístění.<br />
+Zároveň jsem&nbsp;studentem Podkrušnohorského sportovního gymnázia
+v&nbsp;Mostě.
+
+{% endif %}
+
+</span>
+
+</div>
+
+
+
+<div class="oddělení"></div>
+
+
+
+<nav class="footer-odkazy">
+
+
+<a href="{% if is_en %}/en/{% else %}/{% endif %}">
+{% if is_en %}Home{% else %}Domů{% endif %}
+</a>
+
+
+<a href="{% if is_en %}/en/about_me_en.html{% else %}/about_me.html{% endif %}">
+{% if is_en %}About me{% else %}O mně{% endif %}
+</a>
+
+
+<a href="{% if is_en %}/en/achievements_en.html{% else %}/achievements.html{% endif %}">
+{% if is_en %}Achievements{% else %}Úspěchy{% endif %}
+</a>
+
+
+<a href="{% if is_en %}/en/blog/blog_index_en.html{% else %}/blog/blog_index.html{% endif %}">
+Blog
+</a>
+
+
+<a href="{% if is_en %}/en/sponzoring_en.html{% else %}/sponzoring.html{% endif %}">
+{% if is_en %}Sponsors{% else %}Sponzoring{% endif %}
+</a>
+
+
+<a href="{% if is_en %}/en/photo_gallery_index_en.html{% else %}/photo_gallery_index.html{% endif %}">
+{% if is_en %}Gallery{% else %}Fotogalerie{% endif %}
+</a>
+
+
+<a href="{% if is_en %}/en/sponzoring_en.html#contact{% else %}/sponzoring.html#kontakt{% endif %}">
+{% if is_en %}Contact{% else %}Kontakt{% endif %}
+</a>
+
+
+</nav>
+
+
+
+<div class="oddělení"></div>
+
+
+
+<div class="kontakty">
+
+
+<a href="https://www.instagram.com/jakub.klokan/" target="_blank">
+
+<img
+src="{{ '/images/homepage/instagram-white-simple.svg' | relative_url }}"
+alt="Instagram"
+/>
+
+<span>@Jakub.klokan</span>
+
+</a>
+
+
+
+<a href="https://m.facebook.com/klokanjakub/" target="_blank">
+
+<img
+src="{{ '/images/homepage/facebook-white-simple.svg' | relative_url }}"
+alt="Facebook"
+/>
+
+<span>@Jakub Klokan</span>
+
+</a>
+
+
+
+<a href="mailto:klokan.jakub08@gmail.com">
+
+<img
+src="{{ '/images/homepage/email-envelope-white-icon.svg' | relative_url }}"
+alt="Email"
+/>
+
+<span>klokan.jakub08@gmail.com</span>
+
+</a>
+
+
+
+<div class="phone">
+
+<img
+src="{{ '/images/homepage/phone-white-simple.svg' | relative_url }}"
+alt="Phone"
+/>
+
+<span>+420 608 021 109</span>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<div class="oddělení_X"></div>
+
+
+
+<p class="copyright">
+© 2026 Jakub Klokan
+</p>
+
+
+<p class="copyright" id="copa_photo">
+
+{% if is_en %}
+Photos used on this website:
+{% else %}
+Fotografie použité na tomto webu:
+{% endif %}
+
+</p>
+
+
+<p class="copyright">
+© Super Stars Most
+</p>
+
+
+<p class="copyright">
+© Badminton Plzeň
+</p>
+
+
+</div>
+
+
 </footer>
