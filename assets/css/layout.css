@@ -274,6 +274,7 @@ RESPONSIVE
 
 /* mobile */
 @media (max-width: 768px) {
+
   .header_pc {
     display: none;
   }
@@ -282,22 +283,27 @@ RESPONSIVE
     display: flex;
   }
 
-  #dark-toggle-mobile {
-    display: block;
-    margin-right: var(--space-5);
-  }
-
-  .language_mobile {
-    display: block;
-  }
-
-  .menu-ikona {
-    display: block;
-  }
-
   .mobilni_logo {
     display: block;
   }
+
+  .mobile-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .language_mobile {
+    display: flex;
+  }
+
+  .menu-ikona {
+    display: flex;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+
 }
 
 /* --------------
