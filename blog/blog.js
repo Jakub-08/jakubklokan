@@ -16,14 +16,42 @@ const vyhledavac = document.getElementById("vyhledavac");
 const clearSearch = document.getElementById("clear-search");
 const tagContainer = document.getElementById("filtr-tagy");
 
+
+const lang = document.body.dataset.lang || "cs";
+
+const translations = {
+  cs: {
+    months: [
+      "ledna", "února", "března", "dubna", "května", "června",
+      "července", "srpna", "září", "října", "listopadu", "prosince"
+    ],
+    all: "Vše",
+    noPosts: "Nic jsme nenašli",
+    noPostsText: "Zkus změnit hledaný výraz nebo vybrat jiný filtr.",
+    showAll: "Zobrazit všechny články",
+    searchPlaceholder: "🔍 Hledat články..."
+  },
+
+  en: {
+    months: [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ],
+    all: "All",
+    noPosts: "Nothing found",
+    noPostsText: "Try changing your search phrase or selecting another filter.",
+    showAll: "Show all articles",
+    searchPlaceholder: "🔍 Search articles..."
+  }
+};
+
+const t = translations[lang];
+
 // ====== DATE FORMAT ======
 function formatCzechDate(isoDate) {
   const d = new Date(isoDate);
-  const months = [
-    "ledna", "února", "března", "dubna", "května", "června",
-    "července", "srpna", "září", "října", "listopadu", "prosince"
-  ];
-  return `${d.getDate()}. ${months[d.getMonth()]} ${d.getFullYear()}`;
+
+  return `${d.getDate()}. ${t.months[d.getMonth()]} ${d.getFullYear()}`;
 }
 
 // ====== FILTERED DATA ======
@@ -55,7 +83,7 @@ function renderTags() {
   // RESET BUTTON
   const clearBtn = document.createElement("button");
   clearBtn.className = "tag-btn";
-  clearBtn.innerText = "Vše";
+  clearBtn.innerText = t.all;
 
   if (activeTags.length === 0) {
     clearBtn.classList.add("active-tag");
@@ -116,14 +144,14 @@ function render() {
           🔍
         </div>
 
-        <h3>Nic jsme nenašli</h3>
+        <h3>${t.noPosts}</h3>
 
         <p>
-          Zkus změnit hledaný výraz nebo vybrat jiný filtr.
+          ${t.noPostsText}
         </p>
 
         <button class="reset-search">
-          Zobrazit všechny články
+          ${t.showAll}
         </button>
 
       </div>
