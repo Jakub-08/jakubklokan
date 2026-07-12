@@ -84,3 +84,7 @@ galleries:
       imgSrc: "/Photo_gallery/Gallery_20/GPB_U13_-_Vary_-_stupně_vítězů.jpg"
       alt: "Jakub Klokan – badmintonový turnaj a medaile 2020"
 ---
+
+<script>
+  localStorage.setItem("gallery-lang", "cs");
+</script>

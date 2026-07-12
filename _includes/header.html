@@ -85,6 +85,15 @@ Kontakt
 
 <!-- Přepínač jazyka -->
 
+{% assign hide_language_switch = false %}
+
+{% if page.layout == "photogallery" and page.url != "/photo_gallery_index.html" and page.url != "/en/photo_gallery_index_en.html" %}
+  {% assign hide_language_switch = true %}
+{% endif %}
+
+
+{% unless hide_language_switch %}
+
 {% if page.url contains '/en/' %}
 
 <a href="{{ page.url | remove: '/en' | replace: '_en', '' | relative_url }}"
@@ -118,6 +127,8 @@ height="14"
 </a>
 
 {% endif %}
+
+{% endunless %}
 
 
 </div>

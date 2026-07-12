@@ -21,6 +21,14 @@
         </a>
         {% endunless %}
 
+        <script>
+          const backButton = document.getElementById("gallery-back");
+
+          if (localStorage.getItem("gallery-lang") === "en") {
+            backButton.href = "/en/photo_gallery_index_en.html";
+          }
+        </script>
+
         <div class="section-divider-1">
           <span></span>
         </div>
@@ -104,16 +112,6 @@
       <script src="{{ script }}"></script>
       {% endfor %}
     {% endif %}
-
-    <script>
-      const backButton = document.getElementById("gallery-back");
-
-      if (document.referrer.includes("/en/")) {
-        backButton.href = "/en/photo_gallery_index_en.html";
-      } else {
-        backButton.href = "/photo_gallery_index.html";
-      }
-    </script>
 
   </body>
 </html>
