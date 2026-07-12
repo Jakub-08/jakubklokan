@@ -20,6 +20,7 @@ backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
   <picture>
     <img src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_1.jpg"
          loading="lazy"
+         class="img-top"
          alt="Jakub Klokan během zápasu na Grand Prix A U19 – herní výměna" />
   </picture>
 </div>
@@ -28,6 +29,7 @@ backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
   <picture>
     <img src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_2.jpg"
          loading="lazy"
+         class="img-top"
          alt="Badmintonový zápas Jakuba Klokana – Grand Prix A U19" />
   </picture>
 </div>
@@ -36,6 +38,7 @@ backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
   <picture>
     <img src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_3.jpg"
          loading="lazy"
+         class="img-top"
          alt="Soutěžní moment Jakuba Klokana na juniorském turnaji U19" />
   </picture>
 </div>
@@ -44,6 +47,7 @@ backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
   <picture>
     <img src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_4.jpg"
          loading="lazy"
+         class="img-top"
          alt="Jakub Klokan v akci během Grand Prix A U19 2025" />
   </picture>
 </div>
@@ -52,6 +56,7 @@ backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
   <picture>
     <img src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_5.jpg"
          loading="lazy"
+         class="img-top"
          alt="Herní výměna na turnaji Grand Prix A U19" />
   </picture>
 </div>
@@ -108,6 +113,7 @@ backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
   <picture>
     <img src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_12.jpg"
          loading="lazy"
+         class="img-right"
          alt="Jakub Klokan v zápase – juniorský badminton U19" />
   </picture>
 </div>
@@ -140,6 +146,7 @@ backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
   <picture>
     <img src="/Photo_gallery/Gallery_25/Images_25/GPA_U19_2025/GPA_U19_16.jpg"
          loading="lazy"
+         class="img-left"
          alt="Závěrečný turnajový moment – Jakub Klokan U19" />
   </picture>
 </div>
