@@ -3,7 +3,6 @@ layout: default
 lang: en
 title: Sponsoring | Jakub Klokan – Badminton partnerships
 description: Sponsoring and partnership opportunities with Czech badminton player Jakub Klokan. Brand visibility at international tournaments, on social media and through sports projects.
-permalink: /en/sponsoring/
 
 scripts:
   - /assets/js/dark-mode.js
