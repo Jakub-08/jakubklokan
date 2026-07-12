@@ -87,13 +87,13 @@ Kontakt
 
 {% assign hide_language_switch = false %}
 
-<!-- Skrytí u podstránek fotogalerie -->
-{% if page.layout == "photogallery" and page.url != "/photo_gallery_index.html" and page.url != "/en/photo_gallery_index_en.html" %}
+<!-- Skrytí všech podstránek fotogalerie -->
+{% if page.url contains '/Photo_gallery/' %}
   {% assign hide_language_switch = true %}
 {% endif %}
 
-<!-- Skrytí u článků -->
-{% if page.layout == "post_new" %}
+<!-- Skrytí článků -->
+{% if page.layout == "post" %}
   {% assign hide_language_switch = true %}
 {% endif %}
 

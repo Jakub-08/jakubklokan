@@ -13,7 +13,7 @@ description: "Articles about badminton tournaments, training, sports preparation
   </div>
 
   <h2 class="blog-intro-2">
-    Articles about badminton tournaments, training and the journey of a professional player.
+    Articles about badminton tournaments, training and the journey of an elite player.
   </h2>
 
   <p class="blog-language-note">
