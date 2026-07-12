@@ -13,13 +13,8 @@
 
         {% unless page.hideBackButton %}
         <a
-          href="{% if page.backLink %}
-            {{ page.backLink | relative_url }}
-          {% elsif page.lang == 'en' %}
-            {{ '/en/photo_gallery_index_en.html' | relative_url }}
-          {% else %}
-            {{ '/photo_gallery_index.html' | relative_url }}
-          {% endif %}"
+          href="/photo_gallery_index.html"
+          id="gallery-back"
           class="button button--primary button--small gallery-button"
         >
           ← {% if page.lang == "en" %}Back{% else %}Zpět{% endif %}
@@ -110,6 +105,15 @@
       {% endfor %}
     {% endif %}
 
+    <script>
+      const backButton = document.getElementById("gallery-back");
+
+      if (document.referrer.includes("/en/")) {
+        backButton.href = "/en/photo_gallery_index_en.html";
+      } else {
+        backButton.href = "/photo_gallery_index.html";
+      }
+    </script>
 
   </body>
 </html>
