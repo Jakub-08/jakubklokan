@@ -297,7 +297,7 @@ RESPONSIVE
   }
 
   .language_mobile {
-    display: flex;
+    display: block;
   }
 
   .menu-ikona {
