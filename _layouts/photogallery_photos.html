@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.language | default: 'cs' }}">
+<html lang="{{ page.lang | default: site.language | default: 'cs' }}">
   <head>
     {% include head.html %}
   </head>
@@ -10,63 +10,110 @@
     <main>
       <div class="container section">
         <h1 class="photo-gallery-h1">{{ page.h1 }}</h1>
+
         {% unless page.hideBackButton %}
         <a
-          href="{{ page.backLink | default: '/photo_gallery_index.html' | relative_url }}"
+          href="{% if page.backLink %}
+            {{ page.backLink | relative_url }}
+          {% elsif page.lang == 'en' %}
+            {{ '/en/photo_gallery_index_en.html' | relative_url }}
+          {% else %}
+            {{ '/photo_gallery_index.html' | relative_url }}
+          {% endif %}"
           class="button button--primary button--small gallery-button"
         >
-          ← Zpět
+          {% if page.lang == "en" %}
+            ← Back
+          {% else %}
+            ← Zpět
+          {% endif %}
         </a>
         {% endunless %}
+
         <div class="section-divider-1">
           <span></span>
         </div>
       </div>
 
+
       <section class="section-gallery">
         <div class="grid grid--3 container grid-photogallery">
-          {% for img in content %} {% assign base = img | replace: '.jpg', '' |
-          replace: '.jpeg', '' | replace: '.png', '' %} {% assign avif_files =
-          site.static_files | where_exp: "f", "f.path contains base and f.path
-          contains '.avif'" %} {% assign webp_files = site.static_files |
-          where_exp: "f", "f.path contains base and f.path contains '.webp'" %}
+
+          {% for img in content %}
+
+          {% assign base = img | replace: '.jpg', '' |
+          replace: '.jpeg', '' |
+          replace: '.png', '' %}
+
+          {% assign avif_files =
+          site.static_files | where_exp: "f", "f.path contains base and f.path contains '.avif'" %}
+
+          {% assign webp_files =
+          site.static_files | where_exp: "f", "f.path contains base and f.path contains '.webp'" %}
+
 
           <div class="gallery-card photo">
+
             <picture>
+
               {% if avif_files.size > 0 %}
               <source srcset="{{ base }}.avif" type="image/avif" />
-              {% endif %} {% if webp_files.size > 0 %}
+              {% endif %}
+
+              {% if webp_files.size > 0 %}
               <source srcset="{{ base }}.webp" type="image/webp" />
               {% endif %}
+
+
               <img
                 src="{{ img }}"
                 fetchpriority="high"
-                alt="Momentka z turnaje"
+                alt="{% if page.lang == 'en' %}Photo from badminton tournament{% else %}Momentka z turnaje{% endif %}"
                 loading="lazy"
               />
+
             </picture>
+
           </div>
+
           {% endfor %}
+
         </div>
       </section>
 
+
+
       <!-- Lightbox -->
       <div class="lightbox" id="lightbox">
+
         <div class="arrow left" id="prev">←</div>
+
         <img id="lightbox-img" src="" alt="" />
+
         <div class="arrow right" id="next">→</div>
+
       </div>
+
     </main>
+
 
     {% include footer.html %}
 
+
+
     <!-- Scripts -->
+
     <script src="/assets/js/dark-mode.js"></script>
     <script src="/assets/js/menu-close.js"></script>
     <script src="/assets/js/gallery-lightbox.js"></script>
 
-    {% if page.scripts %} {% for script in page.scripts %}
-    <script src="{{ script }}"></script>
-    {% endfor %} {% endif %}
+
+    {% if page.scripts %}
+      {% for script in page.scripts %}
+      <script src="{{ script }}"></script>
+      {% endfor %}
+    {% endif %}
+
+
   </body>
 </html>
