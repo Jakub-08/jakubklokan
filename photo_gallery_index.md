@@ -2,6 +2,7 @@
 layout: photogallery
 lang: cs
 gallery_lang: cs
+gallery_home: true
 description: Fotogalerie z turnajů, tréninků a zápasů Jakuba Klokana. Momentky z vrcholového badmintonu a sportovní přípravy.
 title: Fotogalerie | Jakub Klokan – badmintonové turnaje
 h1: Fotogalerie

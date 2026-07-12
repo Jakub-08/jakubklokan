@@ -13,11 +13,18 @@
         </h1>
         {% unless page.hideBackButton %}
         <a
-          href="{{ '/photo_gallery_index.html' | relative_url }}"
+          id="gallery-back"
+          href="/photo_gallery_index.html"
           class="button button--primary button--small gallery-button"
         >
-          ← Zpět
+          ← {% if page.lang == "en" %}Back{% else %}Zpět{% endif %}
         </a>
+
+        {% if page.gallery_home %}
+        <script>
+          localStorage.setItem("gallery-lang", "{{ page.lang }}");
+        </script>
+        {% endif %}
         {% endunless %}
         <div class="section-divider-1">
           <span></span>
