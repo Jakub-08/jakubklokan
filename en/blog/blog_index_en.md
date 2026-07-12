@@ -16,6 +16,10 @@ description: "Articles about badminton tournaments, training, sports preparation
     Articles about badminton tournaments, training and the journey of a professional player.
   </h2>
 
+  <p class="blog-language-note">
+    Most blog articles are currently written in Czech. English versions may be added in the future. Thank you for your understanding.
+  </p>
+
 
   <div id="filtr-panel" class="container">
 

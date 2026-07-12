@@ -18,6 +18,15 @@
   max-width: 90vw;
 }
 
+.blog-language-note {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  text-align: center;
+  font-size: 0.95rem;
+  opacity: 0.75;
+  font-style: italic;
+}
+
 /* POSTS */
 .blog-list {
   display: flex;
