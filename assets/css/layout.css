@@ -107,13 +107,19 @@ MOBILE MENU - MODERN DRAWER
 
 /* JAZYK */
 
+/* JAZYK - mobil */
 .language_mobile {
   position: absolute;
-  right: 60px;
+  right: 55px;
   top: 21px;
+  display: block;
+  z-index: 3500;
 }
 
 .language_mobile img {
+  display: block;
+  width: 19px;
+  height: 14px;
   transition: transform 0.3s ease;
 }
 
@@ -123,13 +129,9 @@ MOBILE MENU - MODERN DRAWER
 
 /* hamburger */
 .menu-ikona {
-  position: relative;
-  cursor: pointer;
-  width: 26px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  z-index: 3000;
+  position: absolute;
+  right: var(--space-5);
+  top: 16px;
 }
 
 .menu-ikona span {
