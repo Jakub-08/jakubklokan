@@ -30,7 +30,7 @@ scripts:
         <img class="achievements-image" src="/images/achievements/MČR_U17_2024.jpg" alt="Jakub Klokan – medaile z Mistrovství České republiky U17 2024" fetchpriority="high" />
       </picture>
       <h2>Mistrovství ČR U17 2024</h2>
-      <p>Již šestá medaile z&nbsp;Mistrovství České republiky U17 2024, potvrzení dlouhodobé výkonnosti na&nbsp;národní úrovni.</p>
+      <p>Již šestá medaile z&nbsp;Mistrovství České republiky, potvrzení dlouhodobé výkonnosti na&nbsp;národní úrovni.</p>
       <a href="https://www.instagram.com/p/DD7bQbqgqA_/" target="_blank">Článek na Instagramu</a>
       <div class="achievements-card-space-link"></div>
       <a href="{{ '/2024/12/23/bronz-z-mistrovstvi-ceske-republiky.html' | relative_url }}">Článek na blogu</a>

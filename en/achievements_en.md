@@ -48,7 +48,7 @@ fetchpriority="high"
 <h2>Czech U17 Championship 2024</h2>
 
 <p>
-My sixth medal from the Czech U17 Championship 2024, confirming my
+My sixth medal from the Czech National Championship, confirming my
 long-term performance at the national level.
 </p>
 

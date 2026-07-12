@@ -13,7 +13,7 @@ scripts:
 
 <div class="main-bg">
         <!-- INTRODUCTION -->
-      <section class="section mobile-header-move reveal">
+      <section class="section reveal">
         <div class="strip">
           <div class="container grid--2 strip-contain">
             <div class="container-text reveal-left">

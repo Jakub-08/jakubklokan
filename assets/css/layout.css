@@ -130,6 +130,8 @@ MOBILE MENU - MODERN DRAWER
   height: 14px;
   display: block;
   transition: transform 0.3s ease;
+  margin-top: 3px;
+  margin-right: 8px;
 }
 
 
