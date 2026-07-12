@@ -21,9 +21,9 @@ galleries:
     link: "/Photo_gallery/Gallery_26/GPA_U19_Plzeň/GPA_U19.html"
     picture:
       sources:
-        - src: "/Photo_gallery/Gallery_26/GPA_U19_Plzeň/GPA_U19_Plzeň_3.avif"
+        - src: ""
           type: "image/avif"
-        - src: "/Photo_gallery/Gallery_26/GPA_U19_Plzeň/GPA_U19_Plzeň_3.webp"
+        - src: ""
           type: "image/webp"
       imgSrc: "/Photo_gallery/Gallery_26/GPA_U19_Plzeň/GPA_U19_Plzeň_3.jpg"
       alt: "Jakub Klokan – badminton GPA U19"
