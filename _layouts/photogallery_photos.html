@@ -22,11 +22,7 @@
           {% endif %}"
           class="button button--primary button--small gallery-button"
         >
-          {% if page.lang == "en" %}
-            ← Back
-          {% else %}
-            ← Zpět
-          {% endif %}
+          ← {% if page.lang == "en" %}Back{% else %}Zpět{% endif %}
         </a>
         {% endunless %}
 
