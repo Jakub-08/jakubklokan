@@ -108,20 +108,27 @@ MOBILE MENU - MODERN DRAWER
 /* JAZYK */
 
 /* JAZYK - mobil */
-.language_mobile {
-  position: absolute;
-  right: 65px;
-  top: 21px;
-  display: block;
-  z-index: 3500;
+
+.mobile-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
+
+.language_mobile {
+  display: flex;
+  align-items: center;
+}
+
+
 .language_mobile img {
-  display: block;
   width: 19px;
   height: 14px;
+  display: block;
   transition: transform 0.3s ease;
 }
+
 
 .language_mobile img:hover {
   transform: scale(1.2);
