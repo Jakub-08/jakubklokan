@@ -61,7 +61,10 @@ COMPONENTS
   display: none;
 }
 
-.menu-ikona,
+.menu-ikona {
+  display: none;
+}
+
 .language_mobile {
   display: none;
 }
