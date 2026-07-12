@@ -1,5 +1,6 @@
 ---
 layout: photogallery_photos
+lang: cs
 description: Fotogalerie z turnaje Grand Prix A U19 2025. Jakub Klokan v zápasech, výměnách a soutěžních momentech na juniorském badmintonovém turnaji.
 title: "Grand Prix A U19 2025 | Jakub Klokan badminton"
 h1: Grand Prix A U19 2025

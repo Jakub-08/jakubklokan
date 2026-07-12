@@ -1,5 +1,6 @@
 ---
 layout: photogallery_photos
+lang: cs
 description: Fotogalerie z Mistrovství ČR družstev U19. Zápasové momenty, týmová hra a soutěžní atmosféra Jakuba Klokana během turnaje.
 title: "Mistrovství ČR Družstev U19 | Jakub Klokan"
 h1: Mistrovství ČR Družstev U19

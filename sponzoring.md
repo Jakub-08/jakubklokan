@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: cs
 title: Sponzoring | Jakub Klokan – Badminton partnerství
 description: Sponzoring a partnerství s českým badmintonistou Jakubem Klokanem. Viditelnost značky na mezinárodních turnajích, sociálních sítích a sportovních projektech.
 permalink: /sponzoring/

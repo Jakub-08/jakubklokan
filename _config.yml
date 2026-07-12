@@ -4,7 +4,6 @@ description: Vítejte na mém webu, kde sdílím svou badmintonovou kariéru i o
 url: "https://jakubklokan.cz"
 author: Jakub Klokan
 baseurl: ""
-lang: cs
 
 # --- Menu (generované dynamicky v headeru a footeru) ---
 menu:

@@ -1,5 +1,6 @@
 ---
 layout: photogallery_photos
+lang: cs
 title: "Grand Prix B U13 Karlovy Vary | Jakub Klokan – první národní vítězství"
 description: "Fotogalerie Grand Prix B U13 Karlovy Vary. Jakub Klokan na badmintonovém turnaji, vítězství a stupně vítězů v kategorii U13."
 backLink: "/Photo_gallery_index.html"

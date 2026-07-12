@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: cs
 title: Jakub Klokan | Český badmintonista
 description: Životní příběh a badmintonová kariéra Jakuba Klokana, českého hráče zaměřeného na mezinárodní turnaje a sportovní rozvoj.
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: cs
 title: "Blog | Jakub Klokan – badminton, trénink a sportovní cesta"
 description: "Pravidelné články o badmintonovém tréninku, turnajích, sportovní přípravě a cestě vrcholového hráče Jakuba Klokana."
 ---

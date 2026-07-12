@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: cs
 title: Děkujeme | Jakub Klokan
 description: Potvrzení odeslání zprávy.
 permalink: /diky/

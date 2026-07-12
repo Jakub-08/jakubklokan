@@ -1,5 +1,6 @@
 ---
 layout: photogallery_photos
+lang: cs
 description: Fotogalerie z GPA dospělých. Jakub Klokan v týmových zápasech, herních situacích a soutěžních momentech juniorského badmintonu.
 title: "Grand Prix A dospělých | Jakub Klokan badminton"
 h1: Grand Prix A dospělých

@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: cs
 title: Jakub Klokan | Badmintonové úspěchy a výsledky
 description: Přehled badmintonových úspěchů Jakuba Klokana na národních i mezinárodních turnajích včetně MČR a evropských soutěží.
 

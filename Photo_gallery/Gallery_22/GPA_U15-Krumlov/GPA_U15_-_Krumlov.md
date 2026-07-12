@@ -1,5 +1,6 @@
 ---
 layout: photogallery_photos
+lang: cs
 description: Fotogalerie z turnaje Grand Prix A U15 v Českém Krumlově. Jakub Klokan v zápasech, výměnách a turnajových momentech.
 title: "Grand Prix A U15 – Český Krumlov | Jakub Klokan"
 h1: Grand Prix A U15 – Český Krumlov

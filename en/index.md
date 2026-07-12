@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 title: Jakub Klokan | Czech Badminton Playes
 description: Jakub Klokan is a Czech badminton player focused on elite training, international tournaments, and long-term athletic development.
 permalink: /en/

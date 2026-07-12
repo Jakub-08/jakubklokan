@@ -1,5 +1,6 @@
 ---
 layout: photogallery
+lang: cs
 title: "Fotogalerie badminton 2023 | Jakub Klokan – turnaje, liga a soustředění"
 h1: Fotogalerie - 2023
 description: "Fotogalerie Jakuba Klokana z roku 2023. Badmintonové turnaje, Bozner Frühling Cup, týmové soutěže, II. liga a kondiční příprava."

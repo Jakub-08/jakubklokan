@@ -1,5 +1,6 @@
 ---
 layout: photogallery
+lang: cs
 description: Fotogalerie českého badmintonisty Jakuba Klokana z roku 2025 – turnaje, zápasy, mezinárodní soutěže a sportovní příprava.
 title: Jakub Klokan – fotogalerie badminton 2025 | turnaje a zápasy
 h1: Fotogalerie - 2025
