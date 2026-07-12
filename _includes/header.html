@@ -85,14 +85,12 @@ Kontakt
 
 <!-- Přepínač jazyka -->
 
-{% if is_en %}
+{% if page.url contains '/en/' %}
 
-<a
-href="{{ page.cz_url | relative_url }}"
+<a href="{{ page.url | remove: '/en' | replace: '_en', '' | relative_url }}"
 class="header_hover"
 hreflang="cs"
-lang="cs"
->
+lang="cs">
 
 <img
 src="{{ '/images/cz.svg' | relative_url }}"
@@ -105,12 +103,10 @@ height="14"
 
 {% else %}
 
-<a
-href="{{ page.en_url | relative_url }}"
+<a href="/en{{ page.url | replace: '.html', '_en.html' | relative_url }}"
 class="header_hover"
 hreflang="en"
-lang="en"
->
+lang="en">
 
 <img
 src="{{ '/images/gb.svg' | relative_url }}"
