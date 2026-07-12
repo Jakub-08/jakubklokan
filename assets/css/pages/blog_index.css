@@ -25,6 +25,7 @@
   font-size: 0.95rem;
   opacity: 0.75;
   font-style: italic;
+  color: var(--color-text-dark);
 }
 
 /* POSTS */
