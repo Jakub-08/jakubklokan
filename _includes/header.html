@@ -2,7 +2,7 @@
 
 <header>
 
-{% if page.lang == "en" %}
+{% if page.url contains '/en/' %}
   {% assign is_en = true %}
 {% else %}
   {% assign is_en = false %}
