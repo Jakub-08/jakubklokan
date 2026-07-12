@@ -12,21 +12,13 @@
         <h1 class="photo-gallery-h1">{{ page.h1 }}</h1>
 
         {% unless page.hideBackButton %}
-        <a
-          href="{% if page.gallery_lang == 'en' %}/en/photo_gallery_index_en.html{% else %}/photo_gallery_index.html{% endif %}"
+        <button
+          onclick="history.back()"
           class="button button--primary button--small gallery-button"
         >
-          ← {% if page.gallery_lang == 'en' %}Back{% else %}Zpět{% endif %}
-        </a>
+          ← {% if page.lang == "en" %}Back{% else %}Zpět{% endif %}
+        </button>
         {% endunless %}
-
-        <script>
-          const backButton = document.getElementById("gallery-back");
-
-          if (localStorage.getItem("gallery-lang") === "en") {
-            backButton.href = "/en/photo_gallery_index_en.html";
-          }
-        </script>
 
         <div class="section-divider-1">
           <span></span>
