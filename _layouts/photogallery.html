@@ -14,10 +14,16 @@
         
         {% unless page.hideBackButton %}
         <button
-          onclick="history.back()"
+          onclick="
+            if (document.referrer) {
+              history.back();
+            } else {
+              window.location.href='/photo_gallery_index.html';
+            }
+          "
           class="button button--primary button--small gallery-button"
         >
-          ← {% if page.lang == "en" %}Back{% else %}Zpět{% endif %}
+          ← Zpět
         </button>
         {% endunless %}
 

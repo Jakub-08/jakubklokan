@@ -105,6 +105,22 @@ MOBILE MENU - MODERN DRAWER
   padding: 0 var(--space-5);
 }
 
+/* JAZYK */
+
+.language_mobile {
+  position: absolute;
+  right: 60px;
+  top: 21px;
+}
+
+.language_mobile img {
+  transition: transform 0.3s ease;
+}
+
+.language_mobile img:hover {
+  transform: scale(1.2);
+}
+
 /* hamburger */
 .menu-ikona {
   position: relative;
@@ -257,10 +273,6 @@ RESPONSIVE
   }
 
   .language_mobile {
-    align-self: center;
-    height: 14px;
-    width: 19px;
-    margin-right: var(--space-6);
     display: block;
   }
 
