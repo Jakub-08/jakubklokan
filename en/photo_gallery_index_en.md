@@ -6,7 +6,7 @@ title: Photo Gallery | Jakub Klokan – badminton tournaments
 h1: Photo Gallery
 hideBackButton: true
 
-alleries:
+galleries:
   - year: 2026
     link: "/Photo_gallery/Gallery_26/Gallery_26.html"
     picture:
