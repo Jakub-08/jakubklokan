@@ -167,7 +167,6 @@ class="mobilni_logo"
 
 <div class="mobile-right">
 
-
 {% unless hide_language_switch %}
 
 {% if page.url contains '/en/' %}
@@ -180,6 +179,8 @@ lang="cs">
 <img
 src="{{ '/images/cz.svg' | relative_url }}"
 alt="Čeština"
+width="19"
+height="14"
 />
 
 </a>
@@ -194,6 +195,8 @@ lang="en">
 <img
 src="{{ '/images/gb.svg' | relative_url }}"
 alt="English"
+width="19"
+height="14"
 />
 
 </a>
@@ -203,14 +206,13 @@ alt="English"
 {% endunless %}
 
 
-
 <label for="toggle-menu" class="menu-ikona">
 <span></span>
 <span></span>
 <span></span>
 </label>
 
-</div> <!-- konec mobile-right -->
+</div>
 
 
 <ul class="odkazy-menu">

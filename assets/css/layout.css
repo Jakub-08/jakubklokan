@@ -143,8 +143,8 @@ MOBILE MENU - MODERN DRAWER
   width: 26px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  z-index: 3500;
+  gap: 2px;
+  z-index: 2000;
 }
 
 .menu-ikona span {
