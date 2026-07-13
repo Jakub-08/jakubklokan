@@ -7,7 +7,7 @@ reading_time: "5 min"
 author: "Jakub Klokan"
 description: "Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa"
 tags: [Mezinárodní turnaje, 2026, soustředění]
-image_position: bottom left
+image_position: top
 
 h1: Indie – země lidí, zážitků a nových přátelství
 summary: Indie, která mi dala nové přátele, zkušenosti a vzpomínky na celý život
