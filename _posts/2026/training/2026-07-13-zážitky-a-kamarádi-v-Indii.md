@@ -2,7 +2,7 @@
 layout: post_new
 title: "Indie – země lidí, zážitků a nových přátelství | Jakub Klokan"
 date: 2026-07-13
-image: /blog/images/training/zážitky-a-kamarádi-v-Indii-3.png
+image: /blog/images/training/zážitky-a-kamarádi-v-Indii-5.png
 reading_time: "5 min"
 author: "Jakub Klokan"
 description: "Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa"
