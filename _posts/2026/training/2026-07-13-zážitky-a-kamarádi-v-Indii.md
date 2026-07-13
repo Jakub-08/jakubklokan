@@ -2,12 +2,12 @@
 layout: post_new
 title: "Indie – země lidí, zážitků a nových přátelství | Jakub Klokan"
 date: 2026-07-11
-image: /blog/images/training/treninkovy-pobyt-indie.png
+image: /blog/images/training/zážitky-a-kamarádi-v-Indii-3.png
 reading_time: "5 min"
 author: "Jakub Klokan"
 description: "Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa"
 tags: [Mezinárodní turnaje, 2026, soustředění]
-image_position: center
+image_position: bottom left
 
 h1: Indie – země lidí, zážitků a nových přátelství
 summary: Indie, která mi dala nové přátele, zkušenosti a vzpomínky na celý život
