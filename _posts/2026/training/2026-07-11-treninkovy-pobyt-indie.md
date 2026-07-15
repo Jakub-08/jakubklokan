@@ -54,6 +54,6 @@ Poděkování patří i mým partnerům, firmě **BrickHouse** a **Hotelu Pohád
 
 Také děkuji **své rodině**, protože stále z většinové části financuje moji kariéru.
 
-<a href="{% link _posts/2026/training/2026-07-13-zážitky-a-kamarádi-v-Indii.md %}" class="button button--primary">
+<a href="{% link _posts/2026/training/2026-07-13-zážitky-a-kamarádi-v-Indii.md %}" class="button button--primary button--small">
   Za kulisy tréninkového kempu
 </a>

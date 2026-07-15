@@ -78,6 +78,6 @@ A samozřejmě děkuji i své rodině, protože **bez její podpory by měsíčn
 Děkuji. 
 
 
-<a href="{% link _posts/2026/training/2026-07-11-treninkovy-pobyt-indie.md %}" class="button button--primary">
+<a href="{% link _posts/2026/training/2026-07-11-treninkovy-pobyt-indie.md %}" class="button button--primary button--small">
   Poznejte můj tréninkový kemp
 </a>

@@ -364,19 +364,20 @@ blockquote p {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 14px 28px;
-  border-radius: 12px;
-  background: var(--primary-color);
-  color: white;
+  padding: 14px 30px;
+  border-radius: 14px;
+  background: #111827;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.25s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .gallery-button-article:hover {
   transform: translateY(-3px);
-  opacity: 0.9;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.18);
 }
 
 
