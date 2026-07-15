@@ -60,6 +60,14 @@
 
         <div class="text">{{ content }}</div>
 
+        {% if page.gallery %}
+        <div class="article-gallery-link">
+          <a href="{{ page.gallery }}" class="gallery-button-article">
+            📸 Prohlédnout fotogalerii
+          </a>
+        </div>
+        {% endif %}
+
          {% if page.tags %}
         <div class="tags">
           {% for tag in page.tags %}
@@ -67,15 +75,6 @@
           {% endfor %}
         </div>
         {% endif %}
-
-        {% if page.gallery %}
-        <div class="article-gallery-link">
-          <a href="{{ page.gallery }}" class="gallery-button">
-            📸 Prohlédnout fotogalerii
-          </a>
-        </div>
-        {% endif %}
-
 
         <section class="latest-posts">
 

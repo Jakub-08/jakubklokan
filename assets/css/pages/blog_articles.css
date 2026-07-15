@@ -360,7 +360,7 @@ blockquote p {
   text-align: center;
 }
 
-.gallery-button {
+.gallery-button-article {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -374,7 +374,7 @@ blockquote p {
   transition: all 0.25s ease;
 }
 
-.gallery-button:hover {
+.gallery-button-article:hover {
   transform: translateY(-3px);
   opacity: 0.9;
 }
