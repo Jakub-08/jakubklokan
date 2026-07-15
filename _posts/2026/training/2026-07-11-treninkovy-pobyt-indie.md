@@ -8,6 +8,7 @@ author: "Jakub Klokan"
 description: "Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa"
 tags: [Mezinárodní turnaje, 2026, soustředění]
 image_position: center
+gallery: /Photo_gallery/Gallery_26/Indie/Indie/
 
 h1: 180 hodin tréninku - pět týdnů v Chetan Anand Badminton Academy
 summary: Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa.
