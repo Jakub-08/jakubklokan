@@ -354,6 +354,31 @@ blockquote p {
   font-weight: bolder;
 }
 
+/* PHOTO GALLERY LINK */
+.article-gallery-link {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.gallery-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border-radius: 12px;
+  background: var(--primary-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.gallery-button:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
 
 /* SECTION DIVIDER */
 

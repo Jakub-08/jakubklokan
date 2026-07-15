@@ -9,6 +9,8 @@ description: "Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepš�
 tags: [Mezinárodní turnaje, 2026, soustředění]
 image_position: top
 
+gallery: /Photo_gallery/Gallery_26/Indie/Indie/
+
 h1: Indie – země lidí, zážitků a nových přátelství
 summary: Indie, která mi dala nové přátele, zkušenosti a vzpomínky na celý život
 ---
