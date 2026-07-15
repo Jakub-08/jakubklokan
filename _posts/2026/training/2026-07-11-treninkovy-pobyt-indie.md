@@ -53,3 +53,7 @@ Chtěl bych ještě jednou poděkovat **Chetan Anand Badminton Academy** za skv�
 Poděkování patří i mým partnerům, firmě **BrickHouse** a **Hotelu Pohádka**, bez kterých by bylo financování pobytu náročné. I když je Indie levná země, vyjet mimo Evropu na pět týdnů není úplně levná záležitost.
 
 Také děkuji **své rodině**, protože stále z většinové části financuje moji kariéru.
+
+<a href="_posts\2026\training\2026-07-13-zážitky-a-kamarádi-v-Indii.html" class="button button--primary"
+  >Za kulisy tréninkového kempu</a
+>

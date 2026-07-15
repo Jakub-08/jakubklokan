@@ -49,7 +49,9 @@ Velkou část pobytu tvořili také hráči, trenéři a další lidé z akademi
 
 Pomohlo tomu i to, že hráči jsou přibližně stejně staří jako já, takže máme podobné zájmy, pohled na svět i humor. A právě humor byl jednou z nejlepších částí celého pobytu.
 
-![Trénink v Chetan Anand Badminton Academy](/blog/images/training/zážitky-a-kamarádi-v-Indii-4.jpg)
+<img src="/blog/images/training/zážitky-a-kamarádi-v-Indii-4.jpg" 
+     alt="Trénink v Chetan Anand Badminton Academy"
+     class="img-top">
 
 ## Nová oblíbená země
 
@@ -72,3 +74,8 @@ Cestování za sportem je často levnější než klasická dovolená, ale stál
 A samozřejmě děkuji i své rodině, protože **bez její podpory by měsíční cesta přes půl světa nebyla možná**.
 
 Děkuji. 
+
+
+<a href="/_posts\2026\training\2026-07-11-treninkovy-pobyt-indie.html" class="button button--primary"
+  >Poznejte můj tréninkový kemp</a
+>

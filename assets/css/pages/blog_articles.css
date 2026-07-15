@@ -324,6 +324,12 @@ blockquote p {
 .text img.show {
   opacity:1;
   transform:none;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.img-top {
+  object-position: 50% 25%;
 }
 
 /* TAGS */
