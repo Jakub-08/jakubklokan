@@ -273,6 +273,19 @@ scripts:
             <div class="sponsors-separate-line"></div>
 
             <div class="grid grid--3 grid-sponsors-logos-previous">
+
+            <div class="dark-bg-sm">
+                <a href="https://www.peytonlegal.cz" target="_blank">
+                  <img
+                    class="logo"
+                    src="/images/homepage/Peyton-legal.png"
+                    alt="Peyton Legal – bývalý partner Jakuba Klokana badminton"
+                    height="60"
+                    width="70"
+                  />
+                </a>
+              </div>
+
               <div class="light-bg-sm">
                 <a href="https://www.jilm.info/" target="_blank">
                   <img
@@ -285,17 +298,7 @@ scripts:
                 </a>
               </div>
 
-              <div class="dark-bg">
-                <a href="https://www.peytonlegal.cz" target="_blank">
-                  <img
-                    class="logo"
-                    src="/images/homepage/Peyton-legal.png"
-                    alt="Peyton Legal – bývalý partner Jakuba Klokana badminton"
-                    height="60"
-                    width="70"
-                  />
-                </a>
-              </div>
+              
 
               <div class="dark-bg-sm">
                 <a href="https://www.gfm.cz/" target="_blank">
