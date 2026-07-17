@@ -22,7 +22,7 @@ const sponsors = [
     url: "http://hotelpohadka.cz/"
   },
   {
-    src: "/images/sponzoring/Výšky_Lanem_white.png",
+    src: "/images/sponzoring/SVG/Výšky_Lanem_white.svg",
     name: "Výšky Lanem",
     url: "https://vyskylanemkv.cz/"
   },
