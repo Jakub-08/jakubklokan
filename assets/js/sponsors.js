@@ -17,6 +17,16 @@ const sponsors = [
     url: "https://kvechtru.cz/"
   },
   {
+    src: "/images/sponzoring/SVG/Hotel_Pohádka.svg",
+    name: "Hotel Pohádka",
+    url: "http://hotelpohadka.cz/"
+  },
+  {
+    src: "/images/sponzoring/Výšky_Lanem_white.png",
+    name: "Výšky Lanem",
+    url: "https://vyskylanemkv.cz/"
+  },
+  {
     src: "/images/sponzoring/SVG/Ronin_Advisors.svg",
     name: "Ronin Advisors",
     url: "#"

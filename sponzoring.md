@@ -216,14 +216,14 @@ scripts:
               </div>
 
               <div class="dark-bg">
-                <a href="https://www.peytonlegal.cz" target="_blank">
+                <a href="https://www.hotelpohadka.cz" target="_blank">
                   <img
                     class="logo"
-                    src="/images/homepage/Peyton-legal.png"
-                    alt="Peyton Legal – partner Jakuba Klokana badminton"
+                    src="/images/sponzoring/Hotel_Pohádka.png"
+                    alt="Hotel Pohádka – partner Jakuba Klokana badminton"
                   />
                 </a>
-              </div>
+              </div>           
 
               <div class="light-bg">
                 <a href="https://www.brickhouse.cz" target="_blank">
@@ -281,6 +281,18 @@ scripts:
                     alt="JILM s.r.o. – bývalý sponzor Jakuba Klokana badminton"
                     height="60"
                     width="90"
+                  />
+                </a>
+              </div>
+
+              <div class="dark-bg">
+                <a href="https://www.peytonlegal.cz" target="_blank">
+                  <img
+                    class="logo"
+                    src="/images/homepage/Peyton-legal.png"
+                    alt="Peyton Legal – bývalý partner Jakuba Klokana badminton"
+                    height="60"
+                    width="70"
                   />
                 </a>
               </div>
