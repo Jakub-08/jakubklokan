@@ -5,7 +5,7 @@
 .gallery-article-link {
   display: flex;
   justify-content: center;
-  margin: var(--space-5) auto var(--space-7);
+  margin: var(--space-6) auto var(--space-3);
   width: 500px;
   max-width: 80%;
 }
