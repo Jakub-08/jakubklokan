@@ -5,6 +5,8 @@ date: 2024-06-27
 image: /blog/images/tournaments/article-58.avif
 description: "Serbian U17 International, jeden ze dvou nejlépe hodnocených..."
 tags: [Mezinárodní turnaje, 2024]
+
+gallery: /photo_gallery/gallery_24/serbia_2024/serbia_2024
 ---
 
 Serbian U17 International, jeden ze dvou nejlépe hodnocených BEC

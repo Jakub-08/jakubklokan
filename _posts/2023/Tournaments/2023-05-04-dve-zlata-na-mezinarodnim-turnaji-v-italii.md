@@ -5,6 +5,8 @@ date: 2023-05-04
 image: /blog/images/tournaments/article-24.avif
 description: "Turnaj, Torneo Internazionale primavera di Bolzano, který se..."
 tags: [Mezinárodní turnaje, 2023]
+
+gallery: /photo_gallery/gallery_23/bozner/bozner
 ---
 
 Turnaj, Torneo Internazionale primavera di Bolzano, který se hrál 750m

@@ -5,6 +5,8 @@ date: 2023-08-19
 image: /blog/images/training/article-32.avif
 description: "Letní kondiční soustředění🏃‍♂️...16 tréninků🏋️...přes 24 hodin tréninku, to..."
 tags: [Soustředění, 2023]
+
+gallery: /photo_gallery/gallery_23/ls_2023/ls_2023
 ---
 
 Letní kondiční soustředění🏃‍♂️...16 tréninků🏋️...přes 24 hodin tréninku,

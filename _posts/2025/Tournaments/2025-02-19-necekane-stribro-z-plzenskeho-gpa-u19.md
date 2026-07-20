@@ -5,6 +5,7 @@ date: 2025-02-19
 image: /blog/images/tournaments/article-72.webp
 description: "Hnedka stříbro 🥈 z prvního národního turnaje v..."
 tags: [Národní turnaje, 2025]
+gallery: /photo_gallery/gallery_25/gpa_u19/gpa_u19
 ---
 
 Hnedka stříbro 🥈 z prvního národního turnaje v nové sezóně, ve které

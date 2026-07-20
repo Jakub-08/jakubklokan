@@ -5,6 +5,8 @@ date: 2025-09-01
 image: /blog/images/training/article-80.avif
 description: "Toto léto mě opět čekala náročná tréninková příprava..."
 tags: [Soustředění, 2025]
+
+gallery: /photo_gallery/gallery_25/super_stars_camp_25/super_stars_camp_25
 ---
 
 Toto léto mě opět čekala náročná tréninková příprava 🏋‍♂️. První týden

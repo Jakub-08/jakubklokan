@@ -6,6 +6,8 @@ image: /blog/images/tournaments/article-57.png
 description: "První medaile z turnaje evropského okruhu!🥉 V chorvatské..."
 tags: [Mezinárodní turnaje, 2024]
 image_position: 50% 30%
+
+gallery: /photo_gallery/gallery_24/adria_2024/adria_2024
 ---
 
 První medaile z turnaje evropského okruhu!🥉 V chorvatské Opatiji

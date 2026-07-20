@@ -5,6 +5,8 @@ date: 2024-09-03
 image: /blog/images/training/article-59.avif
 description: "Osm týdnů tvrdé práce, dvou nebo tří fázový..."
 tags: [Soustředění, 2024]
+
+gallery: /photo_gallery/gallery_24/super_stars_camp_24/super_stars_camp
 ---
 
 Osm týdnů tvrdé práce, dvou nebo tří fázový režim, je za mnou😅.Tři

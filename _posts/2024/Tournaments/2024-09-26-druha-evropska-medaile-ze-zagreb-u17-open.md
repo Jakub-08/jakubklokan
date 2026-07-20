@@ -5,6 +5,8 @@ date: 2024-09-26
 image: /blog/images/tournaments/article-61.avif
 description: "Druhá medaile z turnaje evropského okruhu Zagreb U17..."
 tags: [Mezinárodní turnaje, 2024]
+
+gallery: /photo_gallery/gallery_24/zagreb/zagreb
 ---
 
 Druhá medaile z turnaje evropského okruhu Zagreb U17 Open, taktéž v 
