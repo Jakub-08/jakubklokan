@@ -31,17 +31,7 @@
         <div class="section-divider-1">
           <span></span>
         </div>
-
-        {% if page.article %}
-          <a
-            href="{{ page.article }}"
-            class="button button--secondary button--small gallery-article-link"
-          >
-            📰 {{ page.articleText | default: "Přečíst článek" }}
-          </a>
-        {% endif %}
-
-        
+      
       </div>
 
 
@@ -86,6 +76,15 @@
           </div>
 
           {% endfor %}
+
+          {% if page.article %}
+            <a
+              href="{{ page.article }}"
+              class="button button--secondary button--small gallery-article-link"
+            >
+              📰 {{ page.articleText | default: "Přečíst článek" }}
+            </a>
+          {% endif %}
 
         </div>
       </section>

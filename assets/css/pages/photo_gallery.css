@@ -5,7 +5,8 @@
 .gallery-article-link {
   display: flex;
   justify-content: center;
-  margin: var(--space-5) 0 var(--space-7);
+  margin: var(--space-5) auto var(--space-7);
+  max-width: 500px;
 }
 
 /* INTRO */
