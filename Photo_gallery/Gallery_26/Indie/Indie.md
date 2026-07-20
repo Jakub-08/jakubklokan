@@ -6,7 +6,7 @@ description: Fotogalerie z tréninkového pobytu v Indie. Jakub Klokan v týmov�
 title: "Tréninkový pobyt v Indii | Jakub Klokan badminton"
 h1: Tréninkový pobyt v Indii
 backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
-
+article: /2026/07/11/treninkovy-pobyt-indie.html
 
 ---
 

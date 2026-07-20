@@ -6,6 +6,7 @@ description: Fotogalerie z Super Stars Camp 2025. Jakub Klokan v týmových záp
 title: "Super Stars Camp 2025 | Jakub Klokan badminton"
 h1: Super Stars Camp 2025
 backLink: "/Photo_gallery/Gallery_25/Gallery_25.html"
+article: /2025/09/01/narocna-letni-treninkova-priprava.html
 
 
 ---

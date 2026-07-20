@@ -6,6 +6,7 @@ description: Fotogalerie ze Serbian U17 International 2024. Zápasové momenty J
 title: "Serbian U17 International 2024 | Jakub Klokan"
 h1: Serbian U17 International 2024
 backLink: "/Photo_gallery/Gallery_24/Gallery_24.html"
+article: /2024/06/27/neuprosne-teplo-na-turnaji-serbian-u17-international.html
 ---
 
 <div class="gallery-card photo">

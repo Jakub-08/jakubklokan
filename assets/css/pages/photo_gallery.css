@@ -6,7 +6,8 @@
   display: flex;
   justify-content: center;
   margin: var(--space-5) auto var(--space-7);
-  max-width: 500px;
+  width: 500px;
+  max-width: 80%;
 }
 
 /* INTRO */

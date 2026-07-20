@@ -7,7 +7,6 @@ title: "Grand Prix A U19 | Jakub Klokan badminton"
 h1: Grand Prix A U19
 backLink: "/Photo_gallery/Gallery_26/Gallery_26.html"
 article: /2026/03/17/stribro-a-bronz-z-gpa-u19.html
-
 ---
 
 <div class="gallery-card photo">

@@ -6,6 +6,7 @@ description: Fotogalerie z Mistrovství ČR U17. Zápasy, slavnostní vyhlášen
 title: "Mistrovství ČR U17 | Jakub Klokan"
 h1: Mistrovství ČR U17
 backLink: "/Photo_gallery/Gallery_24/Gallery_24.html"
+article: /2024/12/23/bronz-z-mistrovstvi-ceske-republiky.html
 ---
 
 <div class="gallery-card photo">

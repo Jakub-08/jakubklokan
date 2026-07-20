@@ -6,6 +6,7 @@ title: "II. liga badminton | Jakub Klokan týmové zápasy"
 description: "Fotogalerie z týmových zápasů II. ligy badmintonu. Jakub Klokan v ligových utkáních, zápasových výměnách a týmových momentech."
 h1: II. liga badminton
 backLink: "/Photo_gallery/Gallery_23/Gallery_23.html"
+article: /2023/03/18/play-off-oblastniho-preboru-druzstev-dospelych.html
 ---
 
 <div class="gallery-card photo">

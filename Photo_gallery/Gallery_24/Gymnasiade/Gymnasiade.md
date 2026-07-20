@@ -6,6 +6,7 @@ title: "ISF Gymnasiade Bahrain 2024 | Jakub Klokan badminton"
 description: "Fotogalerie z ISF Gymnasiade Bahrain 2024. Jakub Klokan reprezentuje v mezinárodních badmintonových zápasech a týmových momentech v Bahrajnu."
 h1: ISF Gymnasiade Bahrain 2024
 backLink: "/Photo_gallery/Gallery_24/Gallery_24.html"
+article: /2024/11/13/svetova-gymnasiada-v-bahrajnu.html
 ---
 
 <div class="gallery-card photo">

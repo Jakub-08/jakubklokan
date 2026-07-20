@@ -6,6 +6,7 @@ description: Fotogalerie ze Zagreb U17 International. Zápasové momenty, čtyř
 title: "Zagreb U17 International | Jakub Klokan"
 h1: Zagreb U17 International
 backLink: "/Photo_gallery/Gallery_24/Gallery_24.html"
+article: /2024/09/26/druha-evropska-medaile-ze-zagreb-u17-open.html
 ---
 
 <div class="gallery-card photo">

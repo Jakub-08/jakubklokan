@@ -6,6 +6,7 @@ title: "Bozner Frühling Cup 2023 | Jakub Klokan badminton"
 description: "Fotogalerie z mezinárodního turnaje Bozner Frühling Cup 2023. Jakub Klokan v zápasech, výměnách a turnajových momentech."
 h1: Bozner Frühling Cup 2023
 backLink: "/Photo_gallery/Gallery_23/Gallery_23.html"
+article: /2023/05/04/dve-zlata-na-mezinarodnim-turnaji-v-italii.html
 ---
 
 <div class="gallery-card photo">

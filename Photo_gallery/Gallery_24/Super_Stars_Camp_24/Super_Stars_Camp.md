@@ -6,6 +6,7 @@ description: Fotogalerie z FELET 20th Super Stars Camp 2024. Tréninkové jednot
 title: "FELET 20th Super Stars Camp 2024 | Jakub Klokan"
 h1: FELET 20th Super Stars Camp 2024
 backLink: "/Photo_gallery/Gallery_24/Gallery_24.html"
+article: /2024/09/03/osm-tydnu-pres-200h-treninku.html
 ---
 
 <div class="gallery-card photo">
