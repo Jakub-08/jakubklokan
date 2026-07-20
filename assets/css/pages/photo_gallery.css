@@ -2,6 +2,12 @@
 --- YEARS + INDEX ---
 -------------------*/
 
+.gallery-article-link {
+  display: flex;
+  justify-content: center;
+  margin: var(--space-5) 0 var(--space-7);
+}
+
 /* INTRO */
 .photo-gallery-h1 {
   color: var(--color-text-dark);
