@@ -13,7 +13,7 @@ h1: Kolik stojí cesta za vrcholovým badmintonem?
 summary: Co všechno se skrývá za jedním mezinárodním turnajem a proč cesta za vrcholovým sportem není jen o tréninku.
 ---
 
-Úvodní odstavec...
+V dnešní době, kdy se řeší to, jak vypadá na sociálních sítích. Porovnáváme se s ostatními pomocí pár fotek na Instagramu a hodnotíme svůj život podle toho. Bych vám chtěl ukázat, že to není jen samé vítězství a radost. Ale i spousta věcí co se musí řešit okolo - regenerace, organizace výjezdů, sponzorství... ale také vyvažování času s rodinou a přáteli. Navíc většina hráčů k tomu ještě studuje.
 
 ## Každý turnaj začíná dlouho před prvním zápasem
 
