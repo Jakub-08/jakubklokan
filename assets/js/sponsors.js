@@ -12,6 +12,11 @@ const sponsors = [
     url: "https://helendoron.cz/"
   },
   {
+    src: "/images/sponzoring/Centrum-síly-a-regenerace.png",
+    name: "Centrum síly a regenerace",
+    url: "https://centrumsily.cz/"
+  },
+  {
     src: "/images/sponzoring/SVG/K_Vechtru.svg",
     name: "K Vechtru",
     url: "https://kvechtru.cz/"

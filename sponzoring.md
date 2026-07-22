@@ -205,6 +205,16 @@ scripts:
             <div class="sponsors-separate-line"></div>
 
             <div class="grid grid--3 grid-sponsors-logos-now">
+              <div class="dark-bg">
+                <a href="https://centrumsily.cz/" target="_blank">
+                  <img
+                    class="logo"
+                    src="/images/sponzoring/Centrum-síly-a-regenerace.png"
+                    alt="Centrum síly a regenerace – sponzor Jakuba Klokana badminton"
+                  />
+                </a>
+              </div>
+
               <div class="light-bg">
                 <a href="https://www.vyskylanemkv.cz/" target="_blank">
                   <img
