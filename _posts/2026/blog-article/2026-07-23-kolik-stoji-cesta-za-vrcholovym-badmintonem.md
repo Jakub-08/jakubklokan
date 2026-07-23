@@ -1,9 +1,9 @@
 ---
 layout: post_new
 title: "Kolik stojí cesta za vrcholovým badmintonem? | Jakub Klokan"
-date: 2026-07-20
+date: 2026-07-23
 image: blog\images\tournaments\cesta-vrcholovy-badminton.jpg
-reading_time: ""
+reading_time: "7 min"
 author: "Jakub Klokan"
 description: "Co všechno stojí za cestou na mezinárodní badmintonové turnaje? Nahlédněte do zákulisí přípravy, nákladů a každodenní práce sportovce."
 tags: [badminton, sport, finance]
