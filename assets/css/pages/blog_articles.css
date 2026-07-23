@@ -684,19 +684,20 @@ blockquote p {
 
 .article-quote {
 
-  width: min(750px, 85vw);
+  width: min(750px, 90vw);
+  max-width:700px;
 
   margin: var(--space-8) auto;
 
-  padding: 35px 55px;
+  padding: 40px 60px;
 
   position: relative;
 
   text-align: center;
 
-  font-size: clamp(1.3rem,3vw,2rem);
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
 
-  line-height: 1.4;
+  line-height: 1.5;
 
   font-weight: 600;
 
@@ -704,43 +705,77 @@ blockquote p {
 
   color: var(--color-text-dark);
 
-}
+  border-left:4px solid var(--color-primary-dark);
 
+  padding-left:45px;
+}
 
 .article-quote::before,
 .article-quote::after {
 
   position: absolute;
 
-  font-size: 90px;
+  color: var(--color-primary-dark);
+
+  opacity: .18;
+
+  font-size: clamp(70px, 8vw, 100px);
 
   font-weight: 700;
 
-  color: var(--color-primary-dark);
+  line-height: 1;
 
-  opacity: .25;
-
+  pointer-events: none;
 }
-
 
 .article-quote::before {
 
   content: "“";
 
-  top: -20px;
-
+  top: -10px;
   left: 10px;
-
 }
-
 
 .article-quote::after {
 
   content: "”";
 
   bottom: -45px;
+  right: 20px;
+}
 
-  right: 10px;
+@media (max-width:768px){
+
+  .article-quote{
+
+    width:92vw;
+
+    padding:28px 24px;
+
+    margin:50px auto;
+
+    font-size:1.2rem;
+
+    line-height:1.55;
+  }
+
+  .article-quote::before{
+
+    font-size:58px;
+
+    top:-8px;
+
+    left:4px;
+  }
+
+  .article-quote::after{
+
+    font-size:58px;
+
+    bottom:-26px;
+
+    right:6px;
+  }
 
 }
 

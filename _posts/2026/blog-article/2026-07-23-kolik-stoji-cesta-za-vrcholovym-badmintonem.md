@@ -73,7 +73,7 @@ Je potřeba zaplatit dopravu, ubytování, startovné, stravu, ale také vybaven
 <p>🏸 Startovné</p>
 <p>👟 Vybavení</p>
 
-<strong>10 000 – 15 000 Kč</strong>
+<strong>7 000 – 15 000 Kč</strong>
 
 </div>
 
