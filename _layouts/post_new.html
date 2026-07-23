@@ -68,6 +68,33 @@
         </div>
         {% endif %}
 
+        {% if page.sponsors %}
+        <section class="article-sponsors">
+
+          <h2>Partneři tohoto článku</h2>
+
+          <p>
+            Děkuji partnerům, kteří mi pomohli uskutečnit tento výjezd.
+          </p>
+
+          <div class="article-sponsors-grid">
+
+            {% for sponsor in page.sponsors %}
+
+            <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+              <img 
+                src="{{ sponsor.logo }}" 
+                alt="{{ sponsor.name }}"
+              >
+            </a>
+
+            {% endfor %}
+
+          </div>
+
+        </section>
+        {% endif %}
+
          {% if page.tags %}
         <div class="tags">
           {% for tag in page.tags %}

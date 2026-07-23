@@ -549,4 +549,47 @@ blockquote p {
   }
 }
 
+/* Article Sponsors Section */
 
+.article-sponsors {
+  width: min(800px, 90vw);
+  margin: var(--space-8) auto;
+  text-align: center;
+}
+
+.article-sponsors h2 {
+  margin-bottom: 15px;
+}
+
+.article-sponsors p {
+  margin-bottom: 30px;
+}
+
+.article-sponsors-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.article-sponsors-grid img {
+  max-width: 180px;
+  max-height: 80px;
+  object-fit: contain;
+  transition: .3s ease;
+}
+
+.article-sponsors-grid img:hover {
+  transform: scale(1.05);
+}
+
+@media(max-width:768px){
+  .article-sponsors-grid {
+    gap: 25px;
+  }
+
+  .article-sponsors-grid img {
+    max-width: 130px;
+  }
+}
