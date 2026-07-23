@@ -796,14 +796,17 @@ blockquote p {
 
 .article-image-block img {
 
-  width:100%;
+  display: block;
+
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+
+  object-fit: contain;
 
   border-radius: var(--border-radius);
 
-  display:block;
-
-  box-shadow:0 12px 30px rgba(0,0,0,.15);
-
+  box-shadow: 0 12px 30px rgba(0,0,0,.15);
 }
 
 
