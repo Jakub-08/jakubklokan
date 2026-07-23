@@ -17,7 +17,7 @@ V dnešní době, kdy se řeší to, jak vypadá na sociálních sítích. Porov
 
 ## Každý turnaj začíná dlouho před prvním zápasem
 
-Text...
+První 
 
 ## Co všechno je potřeba zaplatit
 
