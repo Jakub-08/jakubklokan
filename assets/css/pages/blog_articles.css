@@ -977,9 +977,9 @@ blockquote p {
 
 .text hr {
 
-  width: 120px;
+  width: 600px;
 
-  height: 1px;
+  height: 2px;
 
   margin: 70px auto;
 
@@ -993,24 +993,4 @@ blockquote p {
   );
 
   position: relative;
-}
-
-.text hr::after {
-
-  content: "";
-
-  position: absolute;
-
-  left: 50%;
-  top: 50%;
-
-  width: 6px;
-  height: 6px;
-
-  transform: translate(-50%, -50%);
-
-  border-radius: 50%;
-
-  background: var(--color-primary-dark);
-
 }
