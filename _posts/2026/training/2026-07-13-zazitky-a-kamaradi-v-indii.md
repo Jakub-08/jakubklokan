@@ -15,13 +15,13 @@ h1: Indie – země lidí, zážitků a nových přátelství
 summary: Indie, která mi dala nové přátele, zkušenosti a vzpomínky na celý život
 
 sponsors:
-  - name: BrickHouse
-    logo: /images/sponzoring/Brick_house.png
-    link: https://www.brickhouse.cz/
+  - name: "BrickHouse"
+    logo: "/images/sponzoring/Brick_house.png"
+    link: "https://www.brickhouse.cz/"
 
-  - name: Hotel Pohádka
-    logo: /images/sponzoring/Hotel_Pohádka.png
-    link: http://hotelpohadka.cz/
+  - name: "Hotel Pohádka"
+    logo: "/images/sponzoring/Hotel_Pohádka.png"
+    link: "http://hotelpohadka.cz/"
 ---
 
 ## Více než jen sportovní pobyt
