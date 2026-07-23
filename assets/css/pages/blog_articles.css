@@ -688,7 +688,7 @@ blockquote p {
 
   margin: var(--space-8) auto;
 
-  padding: 35px 40px;
+  padding: 35px 55px;
 
   position: relative;
 
@@ -707,14 +707,10 @@ blockquote p {
 }
 
 
-.article-quote::before {
-
-  content: "“";
+.article-quote::before,
+.article-quote::after {
 
   position: absolute;
-
-  top: -25px;
-  left: 10px;
 
   font-size: 90px;
 
@@ -723,6 +719,28 @@ blockquote p {
   color: var(--color-primary-dark);
 
   opacity: .25;
+
+}
+
+
+.article-quote::before {
+
+  content: "“";
+
+  top: -20px;
+
+  left: 10px;
+
+}
+
+
+.article-quote::after {
+
+  content: "”";
+
+  bottom: -45px;
+
+  right: 10px;
 
 }
 

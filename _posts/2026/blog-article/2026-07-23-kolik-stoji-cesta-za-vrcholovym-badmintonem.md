@@ -45,7 +45,7 @@ U každého turnaje je důležitá nejen fyzická připravenost, ale také ment�
 
 <div class="article-quote">
 
-„Na turnaj nepřijíždím pouze s raketou v ruce. Přijíždím s týdny a měsíci práce, které jsou za tím.“
+Na turnaj nepřijíždím pouze s raketou v ruce. Přijíždím s týdny a měsíci práce, které jsou za tím.
 
 </div>
 
@@ -73,7 +73,7 @@ Je potřeba zaplatit dopravu, ubytování, startovné, stravu, ale také vybaven
 <p>🏸 Startovné</p>
 <p>👟 Vybavení</p>
 
-<strong>10 000–15 000 Kč</strong>
+<strong>10 000 – 15 000 Kč</strong>
 
 </div>
 
@@ -113,7 +113,7 @@ A tento režim se opakuje téměř každý den.
 
 <div class="article-quote">
 
-„Vrcholový sport není jen o tom, co děláte na kurtu. Je hlavně o tom, co jste ochotni dělat každý den.“
+Vrcholový sport není jen o tom, co děláte na kurtu. Je hlavně o tom, co jste ochotni dělat každý den.
 
 </div>
 
@@ -141,7 +141,7 @@ Protože když máte za sebou lidi, kteří ve vás věří a fandí vám, netr�
 
 <div class="article-quote">
 
-„Partnerství není pouze o podpoře sportovce. Je o společné cestě za cílem.“
+Partnerství není pouze o podpoře sportovce. Je o společné cestě za cílem.
 
 </div>
 
@@ -157,7 +157,7 @@ Postupně se mi ale podařilo ukázat, že i touto cestou lze budovat hodnotná 
 
 <figure class="article-image-block">
 
-<img src="/blog/images/general/airport.jpg">
+<img src="/blog/images/general/airport.jpg" class="img-bottom">
 
 <figcaption>
 Díky badmintonu poznávám nová místa a lidi z celého světa.
