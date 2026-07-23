@@ -14,13 +14,13 @@ h1: 180 hodin tréninku - pět týdnů v Chetan Anand Badminton Academy
 summary: Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa.
 
 sponsors:
-  - name: BrickHouse
-    logo: images\sponzoring\Brick_house.png
-    link: https://www.brickhouse.cz/
+  - name: "BrickHouse"
+    logo: "/images/sponzoring/Brick_house.png"
+    link: "https://www.brickhouse.cz/"
 
-  - name: Hotel Pohádka
-    logo: images\sponzoring\Hotel_Pohádka.png
-    link: http://hotelpohadka.cz/
+  - name: "Hotel Pohádka"
+    logo: "/images/sponzoring/Hotel_Pohádka.png"
+    link: "http://hotelpohadka.cz/"
 ---
 
 ## Na pět týdnů trénovat do Indie
