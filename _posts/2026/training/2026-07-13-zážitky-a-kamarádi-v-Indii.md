@@ -92,7 +92,3 @@ Děkuji.
 <a href="{% link _posts/2026/training/2026-07-11-treninkovy-pobyt-indie.md %}" class="button button--primary button--small">
   Poznejte můj tréninkový kemp
 </a>
-
-<div class="section-divider-article">
-  <span></span>
-</div>
