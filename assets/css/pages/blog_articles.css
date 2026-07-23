@@ -931,3 +931,55 @@ blockquote p {
 
 
 }
+
+
+/* =========================
+   ARTICLE HR DIVIDER
+========================= */
+
+.text hr {
+
+  width: 140px;
+
+  height: 2px;
+
+  margin: var(--space-8) auto;
+
+  border: none;
+
+  background: var(--color-primary-dark);
+
+  position: relative;
+
+}
+
+
+.text hr::before,
+.text hr::after {
+
+  content: "";
+
+  position: absolute;
+
+  top: 50%;
+
+  width: 8px;
+  height: 8px;
+
+  border: 2px solid var(--color-primary-dark);
+
+  background: var(--color-background);
+
+  transform: translateY(-50%) rotate(45deg);
+
+}
+
+
+.text hr::before {
+  left: -15px;
+}
+
+
+.text hr::after {
+  right: -15px;
+}
