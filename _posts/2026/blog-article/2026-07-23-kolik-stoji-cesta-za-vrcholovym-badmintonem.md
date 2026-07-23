@@ -31,7 +31,7 @@ Po přihlášení začíná organizace celého výjezdu – od dopravy až po ce
 
 <figure class="article-image-block">
 
-<img src="blog/images/general/flight.png">
+<img src="blog/images/general/flight.jpg">
 
 <figcaption>
 Několik měsíců před turnajem začíná plánování celé cesty.
@@ -87,7 +87,7 @@ Cílem není jet na jeden turnaj za 30 tisíc korun, ale najít cestu, díky kte
 
 <figure class="article-image-block">
 
-<img src="blog/images/training/trenink-badminton.jpg">
+<img src="/blog/images/training/trenink-badminton.jpg">
 
 <figcaption>
 Vrcholový sport není pouze několik hodin na kurtu.
@@ -123,7 +123,7 @@ A tento režim se opakuje téměř každý den.
 
 <figure class="article-image-block">
 
-<img src="blog/images/sponsors/dulezitost-partneru.png">
+<img src="/blog/images/sponsors/dulezitost-partneru.png">
 
 <figcaption>
 Partneři nejsou pouze finanční podpora. Jsou součástí celé cesty.
@@ -157,7 +157,7 @@ Postupně se mi ale podařilo ukázat, že i touto cestou lze budovat hodnotná 
 
 <figure class="article-image-block">
 
-<img src="blog/images/general/airport.jpg">
+<img src="/blog/images/general/airport.jpg">
 
 <figcaption>
 Díky badmintonu poznávám nová místa a lidi z celého světa.
