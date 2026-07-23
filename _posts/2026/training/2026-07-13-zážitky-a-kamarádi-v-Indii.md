@@ -18,10 +18,12 @@ sponsors:
   - name: "BrickHouse"
     logo: "/images/sponzoring/Brick_house.png"
     link: "https://www.brickhouse.cz/"
+    dark_background: false
 
   - name: "Hotel Pohádka"
     logo: "/images/sponzoring/Hotel_Pohádka.png"
     link: "http://hotelpohadka.cz/"
+    dark_background: true
 ---
 
 ## Více než jen sportovní pobyt

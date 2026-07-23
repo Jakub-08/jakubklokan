@@ -86,10 +86,14 @@
             {% for sponsor in page.sponsors %}
 
             <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
-              <img 
-                src="{{ sponsor.logo }}" 
-                alt="{{ sponsor.name }}"
-              >
+              <div class="sponsor-logo {% if sponsor.dark_background %}dark{% endif %}">
+
+                <img 
+                  src="{{ sponsor.logo }}" 
+                  alt="{{ sponsor.name }}"
+                >
+
+              </div>
             </a>
 
             {% endfor %}
