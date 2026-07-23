@@ -580,6 +580,7 @@ blockquote p {
   width: min(800px, 90vw);
   margin: var(--space-8) auto;
   text-align: center;
+  color: var(--color-text-dark);
 }
 
 .article-sponsors h2 {
