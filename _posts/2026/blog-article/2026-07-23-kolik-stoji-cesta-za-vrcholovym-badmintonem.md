@@ -2,7 +2,7 @@
 layout: post_new
 title: "Kolik stojí cesta za vrcholovým badmintonem? | Jakub Klokan"
 date: 2026-07-23
-image: blog/images/tournaments/cesta-vrcholovy-badminton.jpg
+image: /blog/images/tournaments/cesta-vrcholovy-badminton.jpg
 reading_time: "7 min"
 author: "Jakub Klokan"
 description: "Co všechno stojí za cestou na mezinárodní badmintonové turnaje? Nahlédněte do zákulisí přípravy, nákladů a každodenní práce sportovce."
@@ -31,7 +31,7 @@ Po přihlášení začíná organizace celého výjezdu – od dopravy až po ce
 
 <figure class="article-image-block">
 
-<img src="blog/images/general/flight.jpg">
+<img src="/blog/images/general/flight.jpg">
 
 <figcaption>
 Několik měsíců před turnajem začíná plánování celé cesty.
