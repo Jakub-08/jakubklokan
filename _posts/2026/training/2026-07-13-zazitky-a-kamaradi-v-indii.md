@@ -16,11 +16,11 @@ summary: Indie, která mi dala nové přátele, zkušenosti a vzpomínky na cel�
 
 sponsors:
   - name: BrickHouse
-    logo: images\sponzoring\Brick_house.png
+    logo: /images/sponzoring/Brick_house.png
     link: https://www.brickhouse.cz/
 
   - name: Hotel Pohádka
-    logo: images\sponzoring\Hotel_Pohádka.png
+    logo: /images/sponzoring/Hotel_Pohádka.png
     link: http://hotelpohadka.cz/
 ---
 
