@@ -4,7 +4,7 @@ title: "Pět dní ukrutný bolesti"
 date: 2024-03-17
 image: /blog/images/training/article-52.avif
 description: "Týden oproštění od školy, jde krásně využít k..."
-tags: [Soustředění, Příprava]
+tags: [Soustředění, Příprava, Trénink]
 ---
 
 Týden oproštění od školy, jde krásně využít k velkému posunu ve

@@ -4,7 +4,7 @@ title: "Čtvrtfinále z Grand Prix A U19"
 date: 2024-02-25
 image: /blog/images/tournaments/article-50.avif
 description: "3 týdny po GPA U17 v Dobrušce se..."
-tags: [národní turnaje, výsledky, příprava]
+tags: [Národní turnaje]
 ---
 
 3 týdny po GPA U17 v Dobrušce se konalo i GPA vyšší kategorie, U19,

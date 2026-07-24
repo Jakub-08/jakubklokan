@@ -4,7 +4,7 @@ title: "Shrnutí sezóny 2024"
 date: 2024-12-31
 image: /blog/images/season/article-69.webp
 description: "Sezóna 2024... opět plná úspěchů🏆.Pro příklad: dvě bronzové..."
-tags: [osobní, výsledky, příprava, sponzoring]
+tags: [Moje cesta, Příprava, Sponzoring]
 ---
 
 Sezóna 2024... opět plná úspěchů🏆.Pro příklad: dvě bronzové

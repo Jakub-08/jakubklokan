@@ -4,7 +4,7 @@ title: "Neúprosné teplo na turnaji Serbian U17 International"
 date: 2024-06-27
 image: /blog/images/tournaments/article-58.avif
 description: "Serbian U17 International, jeden ze dvou nejlépe hodnocených..."
-tags: [mezinárodní turnaje, cestování]
+tags: [Mezinárodní turnaje, Cestování]
 
 gallery: /photo_gallery/gallery_24/serbia_2024/serbia_2024
 ---

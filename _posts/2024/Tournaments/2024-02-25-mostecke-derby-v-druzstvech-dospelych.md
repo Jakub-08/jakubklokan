@@ -4,7 +4,7 @@ title: "Mostecké derby v družstvech dospělých"
 date: 2024-02-25
 image: /blog/images/tournaments/article-48.avif
 description: "Druhé kolo družstev dospělých dopadlo vítězně, když jsme..."
-tags: [družstva, výsledky]
+tags: [Družstva, Oblastní turnaj]
 ---
 
 Druhé kolo družstev dospělých dopadlo vítězně, když jsme na domácí půdě

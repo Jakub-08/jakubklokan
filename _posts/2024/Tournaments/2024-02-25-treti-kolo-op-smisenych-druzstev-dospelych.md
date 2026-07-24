@@ -4,7 +4,7 @@ title: "Třetí kolo OP smíšených družstev dospělých"
 date: 2024-02-25
 image: /blog/images/tournaments/article-51.avif
 description: "Poslední kolo družstev dospělých před Play-off bylo pro..."
-tags: [družstva, výsledky]
+tags: [Družstva, Oblastní turnaje]
 image_position: 50% 30%
 ---
 

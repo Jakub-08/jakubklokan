@@ -4,7 +4,7 @@ title: "Zlato z GPC dospělých a v top 50 v ČR"
 date: 2024-04-21
 image: /blog/images/tournaments/article-54.avif
 description: "Další zlatá medaile z Grand Prix C mezi..."
-tags: [oblastní turnaje, výsledky]
+tags: [Oblastní turnaje, Moje cesta]
 ---
 
 Další zlatá medaile z Grand Prix C mezi dospělými.Tentokrát na

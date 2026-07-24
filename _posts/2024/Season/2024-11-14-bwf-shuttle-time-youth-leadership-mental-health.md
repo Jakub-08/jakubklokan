@@ -4,7 +4,7 @@ title: "BWF Shuttle Time Youth Leadership & Mental Health"
 date: 2024-11-14
 image: /blog/images/season/article-65.avif
 description: "Mezi týmovou a individuální částí Gymnasiády jsme stihli..."
-tags: [vzdělávání, mentalita, osobní]
+tags: [Moje cesta]
 ---
 
 Mezi týmovou a individuální částí Gymnasiády jsme stihli absolvoval kurz

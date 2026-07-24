@@ -4,7 +4,7 @@ title: "Osm týdnů ... přes 200h tréninku"
 date: 2024-09-03
 image: /blog/images/training/article-59.avif
 description: "Osm týdnů tvrdé práce, dvou nebo tří fázový..."
-tags: [Soustředění, Příprava]
+tags: [Soustředění, Trénink, Příprava]
 
 gallery: /photo_gallery/gallery_24/super_stars_camp_24/super_stars_camp
 ---
