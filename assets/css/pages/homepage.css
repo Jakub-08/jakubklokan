@@ -396,7 +396,6 @@
 .about-me-text.homepage {
   flex: 1 1 400px;
   color: var(--color-text-dark);
-  margin-bottom: 50px;
 }
 
 .about-me-text.homepage h2 {
@@ -410,6 +409,7 @@
 
 .about-me-text.homepage a {
   margin-top: var(--space-5);
+  margin-bottom: var(--space-5);
 }
 
 /* PHOTO */
