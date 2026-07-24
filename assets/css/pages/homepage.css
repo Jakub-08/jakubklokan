@@ -396,6 +396,7 @@
 .about-me-text.homepage {
   flex: 1 1 400px;
   color: var(--color-text-dark);
+  margin-bottom: 50px;
 }
 
 .about-me-text.homepage h2 {
