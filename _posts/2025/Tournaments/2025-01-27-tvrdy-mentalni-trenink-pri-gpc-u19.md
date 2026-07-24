@@ -4,7 +4,7 @@ title: "Tvrdý mentální trénink při GPC U19"
 date: 2025-01-27
 image: /blog/images/tournaments/article-70.avif
 description: "Po dosti letech jsem se dostal opět na..."
-tags: [Oblastní turnaje, Mentalita]
+tags: [Oblastní turnaje]
 ---
 
 Po dosti letech jsem se dostal opět na místo, kde jsem hrál svůj úplně

@@ -4,7 +4,7 @@ title: "Sezóna 2025 je u konce"
 date: 2025-12-31
 image: /blog/images/season/article-86.png
 description: "Rok 2025 je u konce a nabízí ideální..."
-tags: [Moje cesta, Ohlédnutí, Sponzoring]
+tags: [Moje cesta, Mezinárodní turnaje, Oblastní turnaje, Příprava, Soustředění, Sponzoring]
 image_position: 50% 30%
 ---
 

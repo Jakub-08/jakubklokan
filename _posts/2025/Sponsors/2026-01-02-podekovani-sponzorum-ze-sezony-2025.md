@@ -4,7 +4,7 @@ title: "Poděkování sponzorům ze sezóny 2025"
 date: 2026-01-02
 image: /blog/images/sponsors/article-87.png
 description: "Rád bych se ohlédl za rokem 2025 a..."
-tags: [Sponzoring, Ohlédnutí]
+tags: [Sponzoring]
 image_position: center
 ---
 
