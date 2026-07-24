@@ -207,7 +207,12 @@ function renderYears() {
 
     btn.onclick = () => {
 
-      activeYear = year;
+      if (activeYear === year) {
+        activeYear = "";
+      } else {
+        activeYear = year;
+      }
+
       currentPage = 1;
 
       render();
