@@ -4,7 +4,7 @@ title: "Čtvrtfinále na národním turnaji GPA U17"
 date: 2023-02-24
 image: /blog/images/tournaments/article-6.avif
 description: "První národní turnaj nové sezóny se vydařil. Když..."
-tags: [národní turnaje, výsledky]
+tags: [Národní turnaje]
 ---
 
 První národní turnaj nové sezóny se vydařil. Když jsme s Kubou

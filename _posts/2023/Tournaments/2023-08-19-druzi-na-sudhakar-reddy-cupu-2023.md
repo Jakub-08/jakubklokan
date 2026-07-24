@@ -4,7 +4,7 @@ title: "Druzí na Sudhakar Reddy Cupu 2023"
 date: 2023-08-19
 image: /blog/images/tournaments/article-34.avif
 description: "Každoroční zpestření Mezinárodního Super Stars Most Campu 🌎.Po..."
-tags: [soustředění, výsledky, osobní]
+tags: [Soustředění, Mezinárodní turnaje]
 image_position: 50% 30%
 ---
 

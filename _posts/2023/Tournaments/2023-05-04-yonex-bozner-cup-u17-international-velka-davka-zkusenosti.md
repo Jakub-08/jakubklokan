@@ -4,7 +4,7 @@ title: "YONEX Bozner Cup U17 International, velká dávka zkušeností"
 date: 2023-05-04
 image: /blog/images/tournaments/article-23.avif
 description: "Můj první Evropský okruh skončil s velkou dávkou..."
-tags: [mezinárodní turnaje, výsledky, cestování]
+tags: [Mezinárodní turnaje, Cestování]
 image_position: 50% 30%
 ---
 

@@ -4,7 +4,7 @@ title: "Zlatá medaile z Grand Prix C U19"
 date: 2023-02-24
 image: /blog/images/tournaments/article-5.avif
 description: "Zlatou medaili jsme vybojovali ve čtyřhře s Kubou..."
-tags: [oblastní turnaje, výsledky]
+tags: [Oblastní turnaje]
 ---
 
 Zlatou medaili jsme vybojovali ve čtyřhře s Kubou Wasylkowem, když jsme

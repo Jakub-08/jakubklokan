@@ -4,7 +4,7 @@ title: "Účast na Mistrovství ČR družstev dorostu"
 date: 2023-10-06
 image: /blog/images/tournaments/article-41.avif
 description: "Nakonec jsme se kvalifikovali na MČR družstev dorostu,..."
-tags: [národní turnaje, výsledky, družstva]
+tags: [Družstva, Národní turnaje]
 image_position: 50% 30%
 ---
 

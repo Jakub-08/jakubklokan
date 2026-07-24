@@ -4,7 +4,7 @@ title: "Zkušenosti a poznatky z MČR U19"
 date: 2023-12-10
 image: /blog/images/tournaments/article-45.avif
 description: "Poslední mistrovství v již končícím roce 2023 bylo..."
-tags: [národní turnaje, výsledky]
+tags: [Národní turnaje, Moje cesta]
 ---
 
 Poslední mistrovství v již končícím roce 2023 bylo zajímavé.Už jen

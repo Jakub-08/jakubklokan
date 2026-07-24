@@ -4,7 +4,7 @@ title: "Oblastní přebor družstev dospělých"
 date: 2023-02-25
 image: /blog/images/tournaments/article-10.avif
 description: "Poslední kolo družstev dospělých jsme hráli proti BK..."
-tags: [družstva, výsledky]
+tags: [Družstva, Oblastní turnaje]
 image_position: 50% 30%
 ---
 

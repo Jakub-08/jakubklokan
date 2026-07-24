@@ -4,7 +4,7 @@ title: "Play-off oblastního přeboru družstev dospělých"
 date: 2023-03-18
 image: /blog/images/tournaments/article-17.avif
 description: "Poslední kolo, tedy play-off, oblastního přeboru družstev dospělých..."
-tags: [družstva, výsledky]
+tags: [Družstva, Oblastní turnaje]
 image_position: 50% 30%
 ---
 

@@ -4,7 +4,7 @@ title: "První mezinárodní turnaj podzimní části sezóny"
 date: 2023-09-24
 image: /blog/images/tournaments/article-40.avif
 description: "Tentokrát jsem vyjel do Chorvatska na turnaj 7th..."
-tags: [mezinárodní turnaje, výsledky, cestování]
+tags: [Mezinárodní turnaje, Cestování]
 image_position: 50% 30%
 ---
 
