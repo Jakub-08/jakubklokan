@@ -6,7 +6,7 @@ image: /blog/images/tournaments/cesta-vrcholovy-badminton.jpg
 reading_time: "7 min"
 author: "Jakub Klokan"
 description: "Co všechno stojí za cestou na mezinárodní badmintonové turnaje? Nahlédněte do zákulisí přípravy, nákladů a každodenní práce sportovce."
-tags: [badminton, sport, finance]
+tags: [Moje cesta, Sponzoring, Cestování, Příprava]
 image_position: center
 
 h1: Kolik stojí cesta za vrcholovým badmintonem?

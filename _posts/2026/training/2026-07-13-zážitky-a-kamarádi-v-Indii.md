@@ -6,7 +6,7 @@ image: /blog/images/training/zážitky-a-kamarádi-v-Indii-5.png
 reading_time: "5 min"
 author: "Jakub Klokan"
 description: "Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa"
-tags: [Cestování, Mezinárodní]
+tags: [Cestování, Moje cesta]
 image_position: top
 
 gallery: /Photo_gallery/Gallery_26/Indie/Indie/
