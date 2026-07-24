@@ -4,7 +4,7 @@ title: "Poděkování sponzorům ze sezóny 2022"
 date: 2023-02-24
 image: /blog/images/sponsors/article-9.avif
 description: "Ještě jednou bych chtěl poděkovat mým sponzorům z..."
-tags: [sponzoring, partneři, osobní]
+tags: [Moje cesta, Sponzoring]
 ---
 
 Ještě jednou bych chtěl poděkovat mým sponzorům z minulé sezóny, kvůli

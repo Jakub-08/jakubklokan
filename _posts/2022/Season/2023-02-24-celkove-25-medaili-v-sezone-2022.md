@@ -4,12 +4,12 @@ title: "Celkově 25 medailí v sezóně 2022"
 date: 2023-02-24
 image: /blog/images/season/article-3.avif
 description: "Celkově 25x🤯 jsem stál na stupních vítězů v..."
-tags: [výsledky, turnaje, osobní]
+tags: [Mezinárodní turnaje, Národní turnaje, Oblastní turnaje, Ocenění, Moje cesta]
 image_position: center
 ---
 
-Celkově 25x🤯 jsem stál na stupních vítězů v sezóně 2022 💪.Byly
-to stupně vítězů na mezinárodních turnajích, na MČR, na národních i
-kvalifikačních turnajích 💪.Hodně medailí jsem dokázal získat na
-konci sezóny, kde se ukázalo, že tvrdá letní příprava v Super Stars Most
-🔥 se vyplácí.
+V sezóně 2022 jsem celkem 25×🤯 stál na stupních vítězů. 💪
+
+Medaile jsem získal na mezinárodních turnajích, Mistrovství České republiky, národních i kvalifikačních soutěžích.
+
+Velká část úspěchů přišla hlavně na konci sezóny, kdy se ukázalo, že tvrdá letní příprava v Super Stars Most 🔥 přinesla své výsledky.

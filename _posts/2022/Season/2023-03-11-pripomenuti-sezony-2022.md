@@ -4,7 +4,7 @@ title: "Připomenutí sezóny 2022"
 date: 2023-03-11
 image: /blog/images/season/article-16.avif
 description: "Ještě malé připomenutí, pro mě nejvydařenější sezóna kariéry......"
-tags: [osobní, výsledky, turnaje, trénink]
+tags: [Moje cesta, Soustředění, Trénink, Mezinárodní turnaje, Národní turnaje, Ocenění]
 image_position: 50% 30%
 ---
 
