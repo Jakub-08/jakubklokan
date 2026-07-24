@@ -8,6 +8,7 @@ const postsPerPage = 10;
 let currentPage = 1;
 let query = "";
 let activeTags = [];
+let activeYear = "";
 
 // ====== DOM ======
 const seznamClanku = document.getElementById("seznam-clanku");
@@ -15,6 +16,7 @@ const paginace = document.getElementById("paginace");
 const vyhledavac = document.getElementById("vyhledavac");
 const clearSearch = document.getElementById("clear-search");
 const tagContainer = document.getElementById("filtr-tagy");
+const yearContainer = document.getElementById("filtr-roky");
 
 
 const lang = document.body.dataset.lang || "cs";
@@ -57,19 +59,40 @@ function formatCzechDate(isoDate) {
 // ====== FILTERED DATA ======
 function getFilteredPosts() {
   return allPosts.filter(post => {
+
     const title = (post.h1 || post.title).toLowerCase();
     const summary = (post.summary || "").toLowerCase();
-    const tags = (post.tags || []).map(t => t.toLowerCase());
+
+    const tags = (post.tags || [])
+      .map(t => t.toLowerCase());
+
+
+    const postYear = post.date.substring(0, 4);
+
 
     const matchesQuery =
       title.includes(query) ||
       summary.includes(query);
 
+
     const matchesTags =
       activeTags.length === 0 ||
-      activeTags.every(t => tags.includes(t.toLowerCase()));
+      activeTags.every(t =>
+        tags.includes(t.toLowerCase())
+      );
 
-    return matchesQuery && matchesTags;
+
+    const matchesYear =
+      activeYear === "" ||
+      postYear === activeYear;
+
+
+    return (
+      matchesQuery &&
+      matchesTags &&
+      matchesYear
+    );
+
   });
 }
 
@@ -124,6 +147,80 @@ function renderTags() {
   });
 }
 
+
+function renderYears() {
+
+  const years = [...new Set(
+    allPosts.map(post =>
+      post.date.substring(0,4)
+    )
+  )].sort((a,b) => b-a);
+
+
+  yearContainer.innerHTML = "";
+
+
+  const title = document.createElement("span");
+  title.className = "filter-title";
+  title.innerText = "Rok:";
+  yearContainer.appendChild(title);
+
+
+
+  const allBtn = document.createElement("button");
+
+  allBtn.className = "tag-btn";
+  allBtn.innerText = t.all;
+
+
+  if(activeYear === "") {
+    allBtn.classList.add("active-tag");
+  }
+
+
+  allBtn.onclick = () => {
+
+    activeYear = "";
+    currentPage = 1;
+
+    render();
+
+  };
+
+
+  yearContainer.appendChild(allBtn);
+
+
+
+  years.forEach(year => {
+
+    const btn = document.createElement("button");
+
+    btn.className = "tag-btn";
+    btn.innerText = year;
+
+
+    if(activeYear === year) {
+      btn.classList.add("active-tag");
+    }
+
+
+    btn.onclick = () => {
+
+      activeYear = year;
+      currentPage = 1;
+
+      render();
+
+    };
+
+
+    yearContainer.appendChild(btn);
+
+  });
+
+}
+
 // ====== RENDER ======
 function render() {
   const filtered = getFilteredPosts();
@@ -160,6 +257,7 @@ function render() {
     document.querySelector(".reset-search").onclick = () => {
       query = "";
       activeTags = [];
+      activeYear = "";
       vyhledavac.value = "";
       currentPage = 1;
       render();
@@ -203,6 +301,7 @@ function render() {
 
   renderPagination(totalPages);
   renderTags();
+  renderYears();
 }
 
 // ====== PAGINATION ======

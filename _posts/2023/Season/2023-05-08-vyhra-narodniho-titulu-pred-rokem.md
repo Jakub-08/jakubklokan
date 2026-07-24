@@ -4,7 +4,7 @@ title: "Výhra národního titulu před rokem"
 date: 2023-05-08
 image: /blog/images/season/article-27.avif
 description: "Asi není náhoda 🤷, že jsem v ten..."
-tags: [Národní turnaje, Moje cesta]
+tags: [Moje cesta]
 ---
 
 Asi není náhoda 🤷, že jsem v ten samý víkend o 6 let později, jako když
