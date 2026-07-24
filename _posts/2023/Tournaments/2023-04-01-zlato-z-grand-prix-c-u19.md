@@ -4,7 +4,7 @@ title: "Zlato z Grand Prix C U19"
 date: 2023-04-01
 image: /blog/images/tournaments/article-20.avif
 description: "Začal Duben a hnedka zlato z Grand Prix..."
-tags: [Soutěže, 2023]
+tags: [oblastní turnaje, výsledky]
 ---
 
 Začal Duben a hnedka zlato z Grand Prix C U19🥇 Cíl byl jasný... Vyhrát

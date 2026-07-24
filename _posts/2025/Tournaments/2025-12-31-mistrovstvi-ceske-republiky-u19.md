@@ -4,7 +4,7 @@ title: "Mistrovství České republiky U19"
 date: 2025-12-31
 image: /blog/images/tournaments/article-84.png
 description: "Vrchol sezóny 2025 pro mě představovalo Mistrovství České..."
-tags: [Národní turnaje, 2025]
+tags: [Národní turnaje]
 image_position: 50% 30%
 ---
 

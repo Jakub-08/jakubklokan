@@ -4,7 +4,7 @@ title: "Anketa: Nejúspěšnější sportovec roku 2024"
 date: 2025-02-18
 image: /blog/images/season/article-71.avif
 description: "Ocenění za úspěšnou minulou sezónu 2024 od České..."
-tags: [Ocenění, 2025]
+tags: [ocenění, výsledky, osobní]
 ---
 
 Ocenění za úspěšnou minulou sezónu 2024 od České unie sportu🇨🇿.Slavnostní galavečer se konal v mosteckém divadle, kde byli oceněni

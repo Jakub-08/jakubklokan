@@ -4,7 +4,7 @@ title: "Knihovna poznatků z Alpes International U19"
 date: 2025-04-11
 image: /blog/images/tournaments/article-75.avif
 description: "Zúčastnili jsme se dalšího turnaje světového okruhu. FZ..."
-tags: [Mezinárodní turnaje, 2025]
+tags: [Mezinárodní turnaje, Cestování]
 ---
 
 Zúčastnili jsme se dalšího turnaje světového okruhu. FZ FORZA Alpes

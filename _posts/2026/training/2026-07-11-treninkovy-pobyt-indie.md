@@ -6,7 +6,7 @@ image: /blog/images/training/treninkovy-pobyt-indie.png
 reading_time: "5 min"
 author: "Jakub Klokan"
 description: "Na pět týdnů jsem se vydal do Indie trénovat po boku nejlepších hřáčů světa"
-tags: [Mezinárodní turnaje, 2026, soustředění]
+tags: [Mezinárodní, Soustředění, Příprava]
 image_position: center
 gallery: /Photo_gallery/Gallery_26/Indie/Indie/
 

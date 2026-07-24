@@ -4,7 +4,7 @@ title: "Dvojnásobný přeborník severočeské oblasti"
 date: 2024-11-20
 image: /blog/images/tournaments/article-67.avif
 description: "Jsem opět dvojnásobný přeborník severočeské oblasti 🏸💪Jen smíšená..."
-tags: [Soutěže, 2024]
+tags: [oblastní turnaje, výsledky]
 ---
 
 Jsem opět dvojnásobný přeborník severočeské oblasti 🏸💪Jen

@@ -4,7 +4,7 @@ title: "Můj první úspěšný turnaj přesně před 7 lety"
 date: 2023-05-07
 image: /blog/images/season/article-26.avif
 description: "Přesně před 7 lety 🤯 jsem se zúčastnil..."
-tags: [Ohlédnutí]
+tags: [výsledky, turnaje, osobní]
 ---
 
 Přesně před 7 lety 🤯 jsem se zúčastnil mého prvního úspěšného

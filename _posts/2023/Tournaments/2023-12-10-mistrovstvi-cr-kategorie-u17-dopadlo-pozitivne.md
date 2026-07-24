@@ -4,7 +4,7 @@ title: "Mistrovství ČR kategorie U17 dopadlo pozitivně"
 date: 2023-12-10
 image: /blog/images/tournaments/article-44.avif
 description: "Mistrovství ČR kategorie U17 dopadlo pozitivně 👍 na..."
-tags: [Národní turnaje, 2023]
+tags: [národní turnaje, výsledky]
 image_position: 50% 30%
 ---
 

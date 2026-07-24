@@ -4,7 +4,7 @@ title: "Boj o medaili na národním turnaji GPA U17"
 date: 2023-04-27
 image: /blog/images/tournaments/article-22.avif
 description: "Po provedeném turnaji GPC U19 🥇 a chvíli..."
-tags: [Národní turnaje, 2023]
+tags: [národní turnaje, výsledky]
 image_position: 50% 30%
 ---
 

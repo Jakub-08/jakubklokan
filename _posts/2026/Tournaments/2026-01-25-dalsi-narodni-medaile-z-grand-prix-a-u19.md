@@ -4,7 +4,7 @@ title: "Další národní medaile z Grand Prix A U19"
 date: 2026-01-25
 image: /blog/images/tournaments/article-88.png
 description: "Na národním turnaji Grand Prix A kategorie U19..."
-tags: [Národní turnaje, 2026]
+tags: [Národní turnaje]
 ---
 
 Na národním turnaji Grand Prix A kategorie U19 jsem si připsal další

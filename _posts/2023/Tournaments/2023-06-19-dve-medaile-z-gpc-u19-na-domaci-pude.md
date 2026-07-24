@@ -4,7 +4,7 @@ title: "Dvě medaile z GPC U19 na domácí půdě"
 date: 2023-06-19
 image: /blog/images/tournaments/article-30.avif
 description: "První medaile byla ze dvouhry, když jsem jako..."
-tags: [Soutěže, 2023]
+tags: [oblastní turnaje, výsledky]
 ---
 
 První medaile byla ze dvouhry, když jsem jako druhý nasazený měl první

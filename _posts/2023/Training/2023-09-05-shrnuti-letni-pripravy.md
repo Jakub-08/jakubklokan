@@ -4,7 +4,7 @@ title: "Shrnutí letní přípravy"
 date: 2023-09-05
 image: /blog/images/training/article-37.avif
 description: "Přes 120 hodin tréninků rozdělených do 4 fází:29.7.-..."
-tags: [Soustředění, 2023]
+tags: [příprava, trénink, soustředění, kondice]
 image_position: 50% 30%
 ---
 

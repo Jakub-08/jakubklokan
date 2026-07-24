@@ -4,7 +4,7 @@ title: "Vánoční turnaj tříčlenných družstev"
 date: 2025-12-31
 image: /blog/images/tournaments/article-85.png
 description: "Výhra tradičního turnaje tříčlených družstev. Také jsem získali..."
-tags: [Soutěže, 2025]
+tags: [Družstva, Ostatní]
 image_position: 50% 30%
 ---
 

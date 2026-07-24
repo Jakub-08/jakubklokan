@@ -6,7 +6,7 @@ image: /blog/images/tournaments/Bulgarian-and-Dubrovnik-Junior.png
 reading_time: "3 min"
 author: "Jakub Klokan"
 description: "Jakub Klokan na mezinárodních badmintonových turnajích 2026 v Bulharsku a Chorvatsku. Zápasy, zkušenosti a srovnání s evropskou i asijskou špičkou U19."
-tags: [Mezinárodní turnaje, 2026]
+tags: [Mezinárodní turnaje]
 image_position: top
 
 h1: Zkušenosti z mezinárodních turnajů v Bulharsku a Chorvatsku

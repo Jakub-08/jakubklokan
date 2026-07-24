@@ -4,7 +4,7 @@ title: "Grand Prix B U17, další dvě čtvrtfinále"
 date: 2023-03-07
 image: /blog/images/tournaments/article-15.avif
 description: "Po minulém Grand Prix A U17 v Hradci..."
-tags: [Národní turnaje, 2023]
+tags: [národní turnaje, výsledky]
 image_position: 50% 30%
 ---
 

@@ -4,7 +4,7 @@ title: "Obhajoba úspěchů na GPA U19"
 date: 2026-03-17
 image: /blog/images/tournaments/GPA-U19-Plzeň-2026.png
 description: "Druhé kolo národních turnajů GPA kategorie U19 bylo úspěšné."
-tags: [Národní turnaje, 2026]
+tags: [Národní turnaje]
 gallery: /Photo_gallery/Gallery_26/gpa_u19_plzeň/gpa_u19
 ---
 

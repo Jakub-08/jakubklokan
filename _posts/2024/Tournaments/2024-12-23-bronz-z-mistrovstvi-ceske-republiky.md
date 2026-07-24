@@ -4,7 +4,7 @@ title: "Bronz z mistrovství české republiky"
 date: 2024-12-23
 image: /blog/images/tournaments/article-68.avif
 description: "Poslední turnaj a zároveň vrchol sezóny 2024... MČR..."
-tags: [Národní turnaje, 2024]
+tags: [národní turnaje, výsledky]
 
 gallery: /photo_gallery/gallery_24/mčr_u17/mčr_u17
 ---

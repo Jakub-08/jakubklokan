@@ -4,7 +4,7 @@ title: "Vítězství na domácím Poháru Akademie"
 date: 2025-04-15
 image: /blog/images/tournaments/article-76.avif
 description: "Jen pár dní po turnaji ve francouzském Voironu🇨🇵..."
-tags: [Soutěže, 2025]
+tags: [Oblastní turnaje]
 ---
 
 Jen pár dní po turnaji ve francouzském Voironu🇨🇵 následoval domácí Pohár

@@ -4,7 +4,7 @@ title: "Začátek jarního soustředění"
 date: 2023-02-27
 image: /blog/images/training/article-11.avif
 description: "Týden těžké dřiny, to je jarní soustředění. A..."
-tags: [Soustředění, 2023]
+tags: [soustředění, trénink, příprava]
 ---
 
 Týden těžké dřiny, to je jarní soustředění. A právě dnes začíná toto

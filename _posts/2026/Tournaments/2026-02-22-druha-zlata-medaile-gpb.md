@@ -4,7 +4,7 @@ title: "Druhá zlatá medaile z GPB"
 date: 2026-02-22
 image: /blog/images/tournaments/2026-02-22-gpb.png
 description: "Získal jsem třetí zlatou medaili z národního turnaje Grand Prix B."
-tags: [Národní turnaje, 2026]
+tags: [Národní turnaje]
 ---
 
 ## Opět po letech

@@ -4,7 +4,7 @@ title: "Jsme vítězové II. Ligy !!!"
 date: 2025-04-09
 image: /blog/images/tournaments/article-74.avif
 description: "Vyhráli jsme Play-Off II. ligy smíšených družstev dospělých🏆🎉.Po..."
-tags: [Družstva, 2025]
+tags: [Družstva]
 ---
 
 Vyhráli jsme Play-Off II. ligy smíšených družstev dospělých🏆🎉.Po

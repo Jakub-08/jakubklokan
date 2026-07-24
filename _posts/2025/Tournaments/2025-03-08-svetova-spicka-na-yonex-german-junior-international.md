@@ -4,7 +4,7 @@ title: "Světová špička na YONEX German Junior International"
 date: 2025-03-08
 image: /blog/images/tournaments/article-73.avif
 description: "První okruhový světový turnaj🌍, a to hnedka nejvyšší..."
-tags: [Mezinárodní turnaje, 2025]
+tags: [Mezinárodní turnaje, Cestování]
 ---
 
 První okruhový světový turnaj🌍, a to hnedka nejvyšší úrovně Grand Prix,

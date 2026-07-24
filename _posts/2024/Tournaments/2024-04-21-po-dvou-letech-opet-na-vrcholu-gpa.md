@@ -4,7 +4,7 @@ title: "Po dvou letech opět na vrcholu GPA"
 date: 2024-04-21
 image: /blog/images/tournaments/article-55.avif
 description: "Zlatá medaile z národního GPA U17 a k..."
-tags: [Národní turnaje, 2024]
+tags: [národní turnaje, výsledky]
 ---
 
 Zlatá medaile z národního GPA U17 a k tomu stříbro ze dvouhry 🥇🥈Po

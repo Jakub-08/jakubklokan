@@ -4,7 +4,7 @@ title: "Bronz z Chorvatska, turnaje evropského okruhu!!"
 date: 2024-05-28
 image: /blog/images/tournaments/article-57.png
 description: "První medaile z turnaje evropského okruhu!🥉 V chorvatské..."
-tags: [Mezinárodní turnaje, 2024]
+tags: [mezinárodní turnaje, cestování]
 image_position: 50% 30%
 
 gallery: /photo_gallery/gallery_24/adria_2024/adria_2024

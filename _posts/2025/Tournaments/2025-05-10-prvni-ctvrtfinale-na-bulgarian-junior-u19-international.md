@@ -4,7 +4,7 @@ title: "První čtvrtfinále na Bulgarian Junior U19 International"
 date: 2025-05-10
 image: /blog/images/tournaments/article-78.avif
 description: "První čtvrtfinále na okruhovém turnaji v kategorii U19..."
-tags: [Mezinárodní turnaje, 2025]
+tags: [Mezinárodní turnaje, Cestování]
 image_position: 50% 30%
 ---
 
