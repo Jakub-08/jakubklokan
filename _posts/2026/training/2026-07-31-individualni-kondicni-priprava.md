@@ -7,7 +7,7 @@ reading_time: "3 min"
 author: "Jakub Klokan"
 description: "Tři týdny individuální kondiční přípravy zaměřené na rozvoj rychlosti, síly, vytrvalosti a regenerace před podzimní částí badmintonové sezóny."
 tags: [Příprava, Trénink, Regenerace]
-image_position: bottom
+image_position: top
 
 h1: Individuální kondiční příprava před podzimní částí sezóny
 summary: Tři týdny intenzivní individuální přípravy zaměřené na rozvoj fyzických schopností před klubovým kondičním soustředěním a podzimní částí sezóny.
