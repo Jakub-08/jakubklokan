@@ -41,6 +41,6 @@ Minulý ročník jsem vyhrál, takže jsem měl chuť si toto vítězství obhá
 
 ![Zpět na kurt](/blog/images/training/super-stars-camp-2026-3.jpg)
 
-## Kdo se nezúčastnil tak zmeškal
+## Kdo se nezúčastnil, tak zmeškal
 
 Děkuji týmu Super Stars Most za podmínky a příležitosti, které nám všem v klubu dáváte. Ten, kdo je využívá, je za ně určitě vděčný, včetně mě. 🙏
