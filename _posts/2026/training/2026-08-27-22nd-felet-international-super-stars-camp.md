@@ -10,7 +10,7 @@ tags: [Příprava, Trénink, Soustředění]
 image_position: 50% 15%
 
 h1: 22nd FELET International Super Stars Camp – 19 tréninků, nové zkušenosti a obhájené vítězství
-summary: Již tradičně jsem se účastnil každoročního tréninkového campu, letos již dvaadvacátého ročníku. Tento rok jsem mohl čerpat zkušenosti a poznatky od mnoha trenérů.
+summary: Již tradičně jsem se účastnil každoročního tréninkového campu, letos již dvaadvacátého ročníku.
 ---
 
 ## 22nd FELET International Super Stars Camp

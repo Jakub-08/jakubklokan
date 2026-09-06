@@ -10,7 +10,7 @@ tags: [Příprava, Trénink, Soustředění]
 image_position: 50% 35%
 
 h1: Kondiční soustředění + Summer School I – první krok k podzimní sezóně
-summary: Týdenní kondiční soustředění v Krkonoších a následný Summer School I byly další důležitou součástí letní přípravy před podzimní částí badmintonové sezóny.
+summary: Týdenní kondiční soustředění v Krkonoších a následný Summer School I byly další důležitou součástí letní přípravy.
 ---
 
 ## Týden pod Sněžkou

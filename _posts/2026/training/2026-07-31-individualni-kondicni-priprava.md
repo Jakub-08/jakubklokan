@@ -10,7 +10,7 @@ tags: [Příprava, Trénink, Regenerace]
 image_position: 50% 20%
 
 h1: Individuální kondiční příprava před podzimní částí sezóny
-summary: Tři týdny intenzivní individuální přípravy zaměřené na rozvoj fyzických schopností před klubovým kondičním soustředěním a podzimní částí sezóny.
+summary: Tři týdny intenzivní individuální přípravy zaměřené na rozvoj fyzických schopností.
 ---
 
 ## Tři týdny individuální kondiční přípravy
