@@ -111,5 +111,4 @@ Ale sezóna nekončí a nemá cenu se rozčilovat nad věcmi, které nemůžeme 
   <p>
     Poslední juniorská sezóna právě začíná.
   </p>
-
 </div>
