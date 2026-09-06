@@ -64,7 +64,9 @@ Hodně lidí si myslí, že nejtěžší je ten samotný trénink, ale většinu
 Zatímco moji vrstevníci měli prázdniny, dny volna a méně povinností, já jsem byl každý den ve stejné rutině. Tímto si nestěžuji, jen chci ukázat věci, které jsou tzv. pod pokličkou. 
 
 <div class="article-quote">
+
 Každý si vybral nějakou cestu, kterou jde... já jsem si vybral tuto, a s radostí ji vyšlapávám.
+
 </div>
 
 ## 08 / Co mi léto dalo a vzalo
