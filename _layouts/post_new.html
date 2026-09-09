@@ -42,6 +42,12 @@
               <span>{{ page.reading_time | default: "3 min" }} čtení</span>
             </div>
 
+            {% if page.summary %}
+            <p class="article-hero-summary">
+              {{ page.summary }}
+            </p>
+            {% endif %}
+
           </div>
         </section>
 

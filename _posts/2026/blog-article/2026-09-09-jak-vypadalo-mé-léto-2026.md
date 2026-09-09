@@ -13,17 +13,64 @@ h1: "Léto bez prázdnin: Jak jsem se v létě připravoval"
 summary: Co všechno obnáší letní příprava badmintonisty, který chce posunout svůj výkon a být připravený na podzimní část sezóny.
 ---
 
+<section class="article-stats">
+
+  <div class="article-stat">
+    <strong>7</strong>
+    <span>TÝDNŮ PŘÍPRAVY</span>
+  </div>
+
+  <div class="article-stat">
+    <strong>92</strong>
+    <span>TRÉNINKŮ</span>
+  </div>
+
+  <div class="article-stat">
+    <strong>146</strong>
+    <span>HODIN TRÉNINKU</span>
+  </div>
+
+</section>
+
 Léto pro mě není jenom čas pro odpočinek, ale ta velká hromada volného času se nabízí k využití k tréninku. Protože nejsem zatížen školou a nemusím tam trávit "x" hodin týdně. Tak volný čas můžu využít k přípravě na podzimní část sezóny, kde mě čeká Mistrovství ČR a také mnoho mezinárodních turnajů.
 
 ---
 
-## 01 / Z Indie zpátky do režimu
+## 01 — Z Indie zpátky do režimu
 
 Měl jsem štěstí, že mi byla nabídnuta možnost tréninků v prestižní Chetan Anand Badminton Academy, kde jsme nakonec strávili více než měsíc. Konkrétně 5 týdnů, celý červen a prvních 8 dní července. Tudíž jsem si potřeboval po takovém zatížení odpočinout, tak jsem se těšil na celých 5 dní volna.
 
 Následně mě čekalo přesně sedm týdnů tréninkové přípravy, která se skládala z individuální a klubové části. Začínal jsem individuální, kde jsem se převážně zaměřoval na základy sportovního výkonu. Vlastnosti a schopnosti, které jsou základním kamenem každého sportovce a bez kterých to nejde vysoko dotáhnout.
 
-## 02 / Síla, rychlost a vytrvalost
+## 02 — Síla, rychlost a vytrvalost
+
+<div class="training-grid">
+
+  <div class="training-card">
+    <span>01</span>
+    <h3>Síla</h3>
+    <p>Spodní i horní část těla a jejich propojení.</p>
+  </div>
+
+  <div class="training-card">
+    <span>02</span>
+    <h3>Rychlost</h3>
+    <p>Explozivita, sprint a schopnost rychle měnit směr.</p>
+  </div>
+
+  <div class="training-card">
+    <span>03</span>
+    <h3>Vytrvalost</h3>
+    <p>Schopnost udržet vysoký výkon po celý zápas.</p>
+  </div>
+
+  <div class="training-card">
+    <span>04</span>
+    <h3>Regenerace</h3>
+    <p>Spánek, odpočinek a prostor pro adaptaci těla.</p>
+  </div>
+
+</div>
 
 Hlavně jsem se zaměřil na sílu, a to sílu spodní i horní části těla, ale také propojení těchto dvou částí. Protože badminton je o celém těle a o tom, aby všechny části těla dokázaly spolupracovat. Síla je také hlavním předpokladem pro trénink rychlosti, který byl další velkou součástí mého tréninkového plánu. 
 
@@ -31,19 +78,19 @@ I když Světová badmintonová federace od nové sezóny 2027 změnila pravidla
 
 Je malý mýtus, že výkonnost se zlepšuje hlavně na tréninku. Částečně to je pravda, ale hlavní progres se děje při regeneraci. Tudíž v čase, kdy tělo ale i hlava odpočívá a může se zotavovat. Nejefektivněji probíhá při spánku, proto špičkoví světoví sportovci tak dbají na spánek. A výjimkou to nebylo ani u mě, denně jsem naspal minimálně 9 hodin s častým odpoledním šlofíkem. I teďka, při psaní tohoto článku, jsem v tréninkovém režimu a cítím potřebu spánku, takže je na čas krátký šlofík...
 
-## 03 / V týmu se to táhne lépe
+## 03 — V týmu se to táhne lépe
 
 I můj klub Super Stars Most, který hrdě reprezentuji dává na kondici velký důraz. Důkazem je již každoroční kondiční soustředění, které se koná v horách. Ani letos jsem samozřejmě nemohl nejet, protože v týmu se vždy trénuje lépe. Kdy sami bychom nějaké věci neodtrénovali, ale v týmu kde se vzájemně povzbuzujeme a hecujeme, to není zas tak těžké. Je krásné, jak již malé děti dokáží zvládnout režim, který mají profesionální sportovci. Tudíž třífázové tréninky, které dohromady představují 7 hodin práce denně po dobu sedmi dnů s jedním dnem volna.
 
 U soustředěních klubu Super Stars Most ještě zůstanu další 2 týdny. Kdy mě čekal Summer School I a následně 22nd FELET International Super Stars Camp.
 
-## 04 / Po měsíci zpátky na kurt
+## 04 — Po měsíci zpátky na kurt
 
 Jak jsem již zmiňoval, tak hnedka den po příjezdu z kondičního soustředění nás čekal první trénink součástí Summer School I. Který plynule navazoval na předchozí části přípravy. 
 
 Zaměřovali jsme se především na kondiční část badmintonu, ale již na kurtu (samozřejmě atletické tréninky pořád nemohly chybět). Formou různých cvičení a kombinací, díky kterým jsme znovu získali cit pro hru po týdnech "bez rakety".
 
-## 05 / Vrchol letní přípravy
+## 05 — Vrchol letní přípravy
 
 Vrcholem letní přípravy byl mezinárodní tréninkový camp, který již po dvacáté druhé organizuje klub Super Stars Most, a to 22nd FELET International Super Stars Camp. Každoročně se o nás stará hvězdný trenérský tým a ani letos tomu nebylo jinak. 
 
@@ -51,13 +98,47 @@ Hlavní trenérskou hvězdou byla Rita Yuan Gao, bývalá desátá hráčka svě
 
 Na letošním campu se mi velmi líbila právě ta pestrost trenérů. Jelikož každý trenér má lehce jiný styl tréninku, i když cvičení jsou podobná, tak přístup je odlišný. Díky této příležitosti jsem si odnesl mnoho poznatků z taktiky, techniky i mentální přípravy. Celé to podtrhla perfektní atmosféra v týmu, kdy i přes únavu všichni makali.
 
-## 06 / Obhajoba zlata
+## 06 — Obhajoba zlata
 
 V polovině náročného tréninkového režimu se odehrál vzpomínkový turnaj na legendu Sudhakara Reddyho, trenéra, který několik let vedl celou naší letní přípravu. Minulý ročník jsem vyhrál, tudíž jsem měl myšlenky na obhájení zlata. Do dvojice jsem byl vylosován s Jirkou Končelem, tak se tento cíl zdál dosažitelný. 
 
 Skupinu jsme ovládli jen s jedním klopýtnutím, kdy jsme sehráli třísetový zápas, který se protáhl do napínavé koncovky. Ale vítězství padlo na naši stranu a do vyřazovacích kol jsme šli jako neporažení. Přes semifinále jsme prošli bez problémů a ve finále na nás čekali soupeři z našeho minulého klopýtnutí. Opět byl zápas na tři sety, ale v koncovce jsme vyhráli bez dramatu. Můj cíl byl tedy splněn... zároveň nový stanoven na další ročník.
 
-## 07 / Co je na tom nejtěžší?
+<div class="article-timeline">
+
+  <div class="timeline-item">
+    <span>ČERVEN</span>
+    <strong>Chetan Anand Badminton Academy</strong>
+    <p>5 týdnů mezinárodního tréninku v Indii.</p>
+  </div>
+
+  <div class="timeline-item">
+    <span>8. ČERVENCE</span>
+    <strong>Návrat domů</strong>
+    <p>Pět dní úplného volna a regenerace.</p>
+  </div>
+
+  <div class="timeline-item">
+    <span>ČERVENEC</span>
+    <strong>Individuální příprava</strong>
+    <p>Síla, rychlost, vytrvalost a regenerace.</p>
+  </div>
+
+  <div class="timeline-item">
+    <span>SRPEN</span>
+    <strong>Klubová příprava</strong>
+    <p>Kondiční soustředění, Summer School a International Camp.</p>
+  </div>
+
+  <div class="timeline-item">
+    <span>ZÁŘÍ</span>
+    <strong>Začátek sezóny</strong>
+    <p>Návrat k turnajovému badmintonu.</p>
+  </div>
+
+</div>
+
+## 07 — Co je na tom nejtěžší?
 
 Hodně lidí si myslí, že nejtěžší je ten samotný trénink, ale většinu času to tak není. Hlavní je celkový režim, který je s intenzivním tréninkem spojen. Jako je správná strava, regenerace a především spánkový režim. Protože tělo v zátěži vyžaduje mnohem více spánku, tudíž nebylo neobvyklé, že jsem za den naspal i víc jak jedenáct hodin.
 
@@ -69,7 +150,7 @@ Každý si vybral nějakou cestu, kterou jde... já jsem si vybral tuto, a s rad
 
 </div>
 
-## 08 / Co mi léto dalo a vzalo
+## 08 — Co mi léto dalo a vzalo
 
 <div class="article-highlight">
 
@@ -94,7 +175,7 @@ Je asi jasné, co mi tolik hodin tréninků dalo... je to hlavně zlepšení vý
 
 Čas je komodita, které není nikdy dost. A proto jsem ji zařadil na první pozici toho, co mi letní příprava vzala. Protože i když sportem trávím drtivou většinu mého času, tak přesto mám pár věcí a zájmů, kterým bych se chtěl věnovat víc. Ale bohužel na to nezbývá čas, který bych si přál.
 
-## 09 / Co mě čeká dál?
+## 09 — Co mě čeká dál?
 
 Nyní se potřebuji vrátit do režimu spojeného se školou. To trvá jen pár dní a dál mě čekají turnaje v poslední mé juniorské sezóně.
 
@@ -109,6 +190,6 @@ Ale sezóna nekončí a nemá cenu se rozčilovat nad věcmi, které nemůžeme 
   <h2>Léto skončilo.<br>Práce pokračuje.</h2>
 
   <p>
-    Poslední juniorská sezóna právě začíná.
+    Poslední juniorská sezóna jede dál.
   </p>
 </div>
