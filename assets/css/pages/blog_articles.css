@@ -545,6 +545,18 @@
   margin-right: auto;
 }
 
+.article-content > h2 {
+  margin: 90px auto 25px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e5e5e5;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.article-content > h2 + p {
+  margin-top: 0;
+}
+
 .article-content > .article-image-block {
   width: min(900px, 92vw);
   margin: 65px auto;
@@ -1395,6 +1407,22 @@ blockquote p {
 }
 
 .article-image-block figcaption {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 2px;
+
+  text-align: center;
+
+  font-size: .78rem;
+  line-height: 1.5;
+
+  color: var(--color-text-dark);
+  opacity: .55;
+
+  font-style: italic;
+}
+
+.article-image-wide figcaption {
   grid-column: 1 / -1;
   width: 100%;
   margin-top: 2px;
