@@ -236,6 +236,218 @@
 
 }
 
+/* =========================
+   ARTICLE TIMELINE
+========================= */
+
+.article-timeline {
+  width: 100%;
+  margin: 70px auto 90px;
+
+  position: relative;
+  padding: 10px 0;
+}
+
+/* Vertikální čára */
+
+.article-timeline::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  left: 50%;
+
+  width: 2px;
+
+  background: rgba(0, 0, 0, .12);
+
+  transform: translateX(-50%);
+}
+
+
+/* Jedna položka */
+
+.timeline-item {
+  width: 50%;
+
+  position: relative;
+
+  padding: 0 45px 55px;
+
+  box-sizing: border-box;
+}
+
+
+/* Levá / pravá strana */
+
+.timeline-item:nth-child(odd) {
+  margin-right: auto;
+
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  margin-left: 50%;
+
+  text-align: left;
+}
+
+
+/* Bod na timeline */
+
+.timeline-item::before {
+  content: "";
+
+  position: absolute;
+
+  top: 4px;
+
+  width: 13px;
+  height: 13px;
+
+  border-radius: 50%;
+
+  background: var(--color-primary-dark);
+
+  border: 4px solid white;
+
+  box-shadow: 0 0 0 1px var(--color-primary-dark);
+
+  z-index: 2;
+}
+
+
+/* Pozice bodu */
+
+.timeline-item:nth-child(odd)::before {
+  right: -7px;
+}
+
+.timeline-item:nth-child(even)::before {
+  left: -7px;
+}
+
+
+/* Datum */
+
+.timeline-item > span {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: .7rem;
+
+  font-weight: 800;
+
+  letter-spacing: .16em;
+
+  color: var(--color-primary-dark);
+
+  opacity: .7;
+}
+
+
+/* Nadpis */
+
+.timeline-item strong {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 1.25rem;
+
+  line-height: 1.3;
+
+  color: var(--color-text-dark);
+}
+
+
+/* Popis */
+
+.timeline-item p {
+  margin: 0;
+
+  font-size: .95rem;
+
+  line-height: 1.55;
+
+  opacity: .65;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .article-timeline {
+    margin: 60px 0 70px;
+
+    padding-left: 25px;
+  }
+
+
+  /* Čára vlevo */
+
+  .article-timeline::before {
+    left: 7px;
+
+    transform: none;
+  }
+
+
+  /* Všechny položky na jednu stranu */
+
+  .timeline-item,
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+
+    width: 100%;
+
+    margin: 0;
+
+    padding: 0 0 45px 35px;
+
+    text-align: left;
+  }
+
+
+  /* Bod */
+
+  .timeline-item::before,
+  .timeline-item:nth-child(odd)::before,
+  .timeline-item:nth-child(even)::before {
+
+    left: 0;
+    right: auto;
+
+    width: 11px;
+    height: 11px;
+
+    top: 3px;
+  }
+
+
+  .timeline-item > span {
+    font-size: .65rem;
+  }
+
+
+  .timeline-item strong {
+    font-size: 1.1rem;
+  }
+
+
+  .timeline-item p {
+    font-size: .9rem;
+  }
+
+}
+
 /* STATS */
 
 .article-stats {
