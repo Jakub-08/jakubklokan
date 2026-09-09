@@ -1050,7 +1050,7 @@ blockquote p {
 ========================= */
 
 .article-highlight > div {
-  padding: 50px 48px;
+  padding: 50px 55px 50px 95px;
 
   display: flex;
   flex-direction: column;
