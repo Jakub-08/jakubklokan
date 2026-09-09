@@ -1341,16 +1341,11 @@ blockquote p {
 
 
 /* =========================
-   IMAGE BLOCK
-========================= */
-
-/* =========================
-   ARTICLE IMAGES
+   BĚŽNÉ FOTKY
 ========================= */
 
 .article-image-block {
-  width: 100%;
-  max-width: 1000px;
+  width: min(900px, 92vw);
   margin: 65px auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -1358,22 +1353,27 @@ blockquote p {
   justify-items: center;
 }
 
-/* Jeden obrázek */
 .article-image-block img {
   display: block;
-  width: auto;
-  max-width: 100%;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
   max-height: 650px;
   object-fit: contain;
   margin: 0 auto;
   border-radius: var(--border-radius);
+  box-shadow: 0 15px 40px rgba(0,0,0,.12);
 }
 
-/* DVOJICE FOTEK */
+
+/* =========================
+   DVOJICE FOTEK
+========================= */
+
 .article-image-block:has(img + img) {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: center;
   gap: 18px;
+  align-items: center;
 }
 
 .article-image-block:has(img + img) img {
@@ -1382,28 +1382,16 @@ blockquote p {
   max-height: 550px;
   object-fit: contain;
   margin: 0;
-  box-shadow: none;
 }
 
-/* Popisek přes celou šířku */
-.article-image-block figcaption {
-  grid-column: 1 / -1;
-  width: 100%;
-  margin-top: 5px;
-  text-align: center;
-  font-size: .8rem;
-  line-height: 1.5;
-  opacity: .6;
-}
 
 /* =========================
-   WIDE IMAGE
+   WIDE FOTKA
 ========================= */
 
 .article-image-wide {
-  width: 100%;
-  max-width: 1100px;
-  margin: 65px auto;
+  width: min(1150px, 94vw);
+  margin: 90px auto;
   text-align: center;
 }
 
@@ -1411,8 +1399,8 @@ blockquote p {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 650px;
-  object-fit: cover;
+  max-height: 700px;
+  object-fit: contain;
   margin: 0 auto;
   border-radius: var(--border-radius);
 }
@@ -1425,65 +1413,40 @@ blockquote p {
   text-align: center;
 }
 
+
 /* =========================
-   MOBILE
+   MOBIL
 ========================= */
 
 @media (max-width: 768px) {
 
   .article-image-block {
+    width: 92vw;
     margin: 50px auto;
     gap: 14px;
   }
 
   .article-image-block:has(img + img) {
     grid-template-columns: 1fr;
-    gap: 14px;
   }
 
   .article-image-block:has(img + img) img {
     width: 100%;
-    height: auto;
     max-height: none;
     object-fit: contain;
   }
 
-  .article-image-block img {
-    max-height: none;
-  }
-
-  .article-image-block figcaption {
-    font-size: .75rem;
-  }
-
   .article-image-wide {
+    width: 100%;
     margin: 50px auto;
   }
-}
 
-/* =========================
-   WIDE IMAGE
-========================= */
+  .article-image-wide img {
+    width: 100%;
+    max-height: none;
+    border-radius: 12px;
+  }
 
-
-.article-image-wide {
-  width: min(1100px, 100vw);
-
-  margin: 90px auto;
-
-  position: relative;
-
-  left: 50%;
-
-  transform: translateX(-50%);
-}
-
-.article-image-wide img {
-  width: 100%;
-
-  display: block;
-
-  border-radius: 0;
 }
 
 
