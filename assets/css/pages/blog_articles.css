@@ -1038,39 +1038,62 @@ blockquote p {
 ========================= */
 
 .article-highlight {
+  width: 100%;
   max-width: 900px;
+
   margin: 90px auto;
+
   display: grid;
-  grid-template-columns: 1fr 70px 1fr;
-  align-items: stretch;
+  grid-template-columns: 1fr 1fr;
+
+  position: relative;
 }
 
-/* obě poloviny */
+/* =========================
+   PANELY
+========================= */
+
 .article-highlight > div {
-  padding: 48px 45px;
+  padding: 50px 48px;
+
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
+  min-height: 280px;
+  box-sizing: border-box;
 }
 
 /* DALO */
+
 .article-highlight > div:first-child {
   background: #f2f2f0;
-  border-radius: 14px 0 0 14px;
+
+  border-radius: 18px 0 0 18px;
 }
 
 /* VZALO */
+
 .article-highlight > div:last-child {
   background: #1b1b1b;
+
   color: white;
-  border-radius: 0 14px 14px 0;
+
+  border-radius: 0 18px 18px 0;
 }
 
-/* DALO / VZALO */
+/* =========================
+   NADPISY
+========================= */
+
 .article-highlight span {
   display: block;
+
   margin-bottom: 28px;
+
   font-size: .68rem;
   font-weight: 800;
+
   letter-spacing: .22em;
 }
 
@@ -1079,54 +1102,84 @@ blockquote p {
 }
 
 .article-highlight > div:last-child span {
+  color: white;
   opacity: .5;
 }
 
-/* položky */
+/* =========================
+   POLOŽKY
+========================= */
+
 .article-highlight strong {
   display: block;
-  margin: 0 0 9px;
-  font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+
+  margin: 0 0 10px;
+
+  font-size: clamp(1.3rem, 2.3vw, 1.8rem);
+
   line-height: 1.15;
+
   font-weight: 700;
 }
 
 /* =========================
-   STŘED
+   STŘEDOVÁ LINKA
+========================= */
+
+.article-highlight::after {
+  content: "";
+
+  position: absolute;
+
+  top: 35px;
+  bottom: 35px;
+
+  left: 50%;
+
+  width: 1px;
+
+  transform: translateX(-50%);
+
+  background: rgba(255,255,255,.25);
+
+  z-index: 2;
+}
+
+/* =========================
+   LETO 2026
 ========================= */
 
 .article-highlight::before {
   content: "LETO 2026";
-  align-self: stretch;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
 
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 3;
+
+  padding: 8px 13px;
+
+  background: white;
+
+  color: #1b1b1b;
+
+  border-radius: 20px;
 
   font-size: .55rem;
+
   font-weight: 800;
-  letter-spacing: .2em;
 
-  color: var(--color-text-dark);
-  opacity: .45;
+  letter-spacing: .16em;
 
-  position: relative;
+  white-space: nowrap;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,.12);
 }
 
-/* tenká osa */
-.article-highlight::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 1px;
-  background: currentColor;
-  opacity: .15;
-  transform: translateX(-50%);
-  left: 50%;
-}
 
 /* =========================
    MOBILE
@@ -1136,63 +1189,57 @@ blockquote p {
 
   .article-highlight {
     margin: 65px auto;
-    display: grid;
+
     grid-template-columns: 1fr;
-    position: relative;
   }
 
   .article-highlight > div {
+    min-height: auto;
+
     padding: 38px 30px;
   }
 
   .article-highlight > div:first-child {
-    border-radius: 14px 14px 0 0;
+    border-radius: 18px 18px 0 0;
   }
 
   .article-highlight > div:last-child {
-    border-radius: 0 0 14px 14px;
+    border-radius: 0 0 18px 18px;
   }
 
-  /* LETO 2026 mezi bloky */
+  /* středová linka mezi panely */
+
+  .article-highlight::after {
+    top: 50%;
+
+    left: 30px;
+    right: 30px;
+
+    width: auto;
+    height: 1px;
+
+    transform: translateY(-50%);
+
+    background: rgba(255,255,255,.25);
+  }
+
+  /* LETO 2026 */
+
   .article-highlight::before {
-    content: "LETO 2026";
-    writing-mode: horizontal-tb;
-    transform: none;
-
-    position: absolute;
-    z-index: 3;
-
     left: 50%;
     top: 50%;
 
     transform: translate(-50%, -50%);
 
-    width: auto;
-    height: auto;
+    padding: 7px 12px;
 
-    padding: 7px 14px;
-
-    background: white;
-    color: #1b1b1b;
-
-    border-radius: 20px;
-
-    font-size: .55rem;
-    letter-spacing: .16em;
-
-    opacity: 1;
-  }
-
-  .article-highlight::after {
-    display: none;
+    font-size: .52rem;
   }
 
   .article-highlight strong {
     font-size: 1.35rem;
   }
 }
-
-
 
 /* =========================
    ARTICLE QUOTE
@@ -1559,13 +1606,6 @@ blockquote p {
 
 
 @media(max-width:768px){
-
-
-.article-highlight {
-
-  padding:25px 20px;
-
-}
 
 
 .article-quote {
