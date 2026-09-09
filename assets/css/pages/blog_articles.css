@@ -1034,85 +1034,162 @@ blockquote p {
 
 
 /* =========================
-   ARTICLE HIGHLIGHT BOX
+   DALO / VZALO — EDITORIAL
 ========================= */
 
 .article-highlight {
-  width: 100%;
-
-  margin: 90px 0;
-
-  padding: 0;
-
+  max-width: 900px;
+  margin: 90px auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  overflow: hidden;
-
-  border-radius: 24px;
-
-  background: #f1f1f1;
-
-  border: none;
-
-  box-shadow: 0 15px 40px rgba(0,0,0,.08);
+  grid-template-columns: 1fr 70px 1fr;
+  align-items: stretch;
 }
 
+/* obě poloviny */
 .article-highlight > div {
-  padding: 40px;
+  padding: 48px 45px;
+  display: flex;
+  flex-direction: column;
 }
 
+/* DALO */
 .article-highlight > div:first-child {
-  background: rgba(0,0,0,.04);
+  background: #f2f2f0;
+  border-radius: 14px 0 0 14px;
 }
 
+/* VZALO */
 .article-highlight > div:last-child {
-  border-left: 1px solid rgba(0,0,0,.08);
+  background: #1b1b1b;
+  color: white;
+  border-radius: 0 14px 14px 0;
 }
 
+/* DALO / VZALO */
 .article-highlight span {
   display: block;
-
-  margin-bottom: 20px;
-
-  font-size: .7rem;
+  margin-bottom: 28px;
+  font-size: .68rem;
   font-weight: 800;
+  letter-spacing: .22em;
+}
 
+.article-highlight > div:first-child span {
+  color: var(--color-primary-dark);
+}
+
+.article-highlight > div:last-child span {
+  opacity: .5;
+}
+
+/* položky */
+.article-highlight strong {
+  display: block;
+  margin: 0 0 9px;
+  font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+/* =========================
+   STŘED
+========================= */
+
+.article-highlight::before {
+  content: "LETO 2026";
+  align-self: stretch;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+
+  font-size: .55rem;
+  font-weight: 800;
   letter-spacing: .2em;
 
-  opacity: .55;
-}
-
-.article-highlight strong {
-  margin: 12px 0;
-
-  font-size: 1.25rem;
-
-  text-align: left;
-
   color: var(--color-text-dark);
+  opacity: .45;
+
+  position: relative;
 }
 
-@media(max-width:768px) {
+/* tenká osa */
+.article-highlight::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background: currentColor;
+  opacity: .15;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
 
   .article-highlight {
+    margin: 65px auto;
+    display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    position: relative;
   }
 
-}
+  .article-highlight > div {
+    padding: 38px 30px;
+  }
 
-@media(max-width:600px) {
-
-  .article-highlight {
-    grid-template-columns: 1fr;
+  .article-highlight > div:first-child {
+    border-radius: 14px 14px 0 0;
   }
 
   .article-highlight > div:last-child {
-    border-left: none;
-    border-top: 1px solid rgba(0,0,0,.08);
+    border-radius: 0 0 14px 14px;
   }
 
+  /* LETO 2026 mezi bloky */
+  .article-highlight::before {
+    content: "LETO 2026";
+    writing-mode: horizontal-tb;
+    transform: none;
+
+    position: absolute;
+    z-index: 3;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: auto;
+    height: auto;
+
+    padding: 7px 14px;
+
+    background: white;
+    color: #1b1b1b;
+
+    border-radius: 20px;
+
+    font-size: .55rem;
+    letter-spacing: .16em;
+
+    opacity: 1;
+  }
+
+  .article-highlight::after {
+    display: none;
+  }
+
+  .article-highlight strong {
+    font-size: 1.35rem;
+  }
 }
 
 
