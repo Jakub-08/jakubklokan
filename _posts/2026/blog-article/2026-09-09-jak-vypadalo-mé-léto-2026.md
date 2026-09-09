@@ -3,7 +3,7 @@ layout: post_new
 title: "Léto bez prázdnin: Jak jsem se v létě připravoval | Jakub Klokan"
 date: 2026-09-09
 image: /blog/images/tournaments/cesta-vrcholovy-badminton.jpg
-reading_time: "8 min"
+reading_time: "10 min"
 author: "Jakub Klokan"
 description: "Jak vypadala moje letní příprava, od individuálního tréninku přes klubové soustředění až po mezinárodní kemp."
 tags: [Moje cesta, Příprava, Soustředění, Trénink, Regenerace]

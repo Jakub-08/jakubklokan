@@ -1224,44 +1224,123 @@ blockquote p {
    IMAGE BLOCK
 ========================= */
 
+/* =========================
+   ARTICLE IMAGES
+========================= */
+
 .article-image-block {
-
-  width: min(900px,90vw);
-
-  margin: var(--space-7) auto;
-
-}
-
-
-.article-image-block img {
-
-  display: block;
-
   width: 100%;
+  max-width: 1000px;
+  margin: 65px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  justify-items: center;
+}
+
+/* Jeden obrázek */
+.article-image-block img {
+  display: block;
+  width: auto;
   max-width: 100%;
-  height: auto;
-
+  max-height: 650px;
   object-fit: contain;
-
+  margin: 0 auto;
   border-radius: var(--border-radius);
-
-  box-shadow: 0 12px 30px rgba(0,0,0,.15);
 }
 
+/* Dva a více obrázků */
+.article-image-block:has(img + img) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+}
 
+/* Obrázky uvnitř galerie */
+.article-image-block:has(img + img) img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Popisek přes celou šířku */
 .article-image-block figcaption {
-
-  margin-top:12px;
-
-  text-align:center;
-
-  font-size:var(--font-sm);
-
-  opacity:.65;
-
-  font-style:italic;
-
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  font-size: .8rem;
+  line-height: 1.5;
+  opacity: .6;
 }
+
+/* =========================
+   WIDE IMAGE
+========================= */
+
+.article-image-wide {
+  width: 100%;
+  max-width: 1100px;
+  margin: 65px auto;
+  text-align: center;
+}
+
+.article-image-wide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: var(--border-radius);
+}
+
+.article-image-wide figcaption {
+  margin-top: 10px;
+  font-size: .8rem;
+  line-height: 1.5;
+  opacity: .6;
+  text-align: center;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .article-image-block {
+    margin: 50px auto;
+    gap: 14px;
+  }
+
+  /* Dva obrázky se na mobilu složí pod sebe */
+  .article-image-block:has(img + img) {
+    grid-template-columns: 1fr;
+  }
+
+  .article-image-block:has(img + img) img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+
+  .article-image-block img {
+    max-height: none;
+  }
+
+  .article-image-block figcaption {
+    font-size: .75rem;
+  }
+
+  .article-image-wide {
+    margin: 50px auto;
+  }
+}
+
+/* =========================
+   WIDE IMAGE
+========================= */
 
 
 .article-image-wide {
