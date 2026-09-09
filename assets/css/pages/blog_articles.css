@@ -528,61 +528,31 @@
 
 /* TEXTY */
 
-.text {
+.article-content {
   font-size: var(--font-lg);
   line-height: 1.7;
-  width: min(800px, 90vw);
+  width: 100%;
   color: var(--color-text-dark);
-  display: block;
-  margin: 0 auto var(--space-7);
-  background: none;
-  box-shadow: none;
-  padding: 0;
 }
 
-
-
-.text h2 {
-  position: relative;
-
-  margin-top: 90px;
-  margin-bottom: 30px;
-
-  font-size: clamp(1.7rem, 3vw, 2.5rem);
-  line-height: 1.15;
-
-  letter-spacing: -0.02em;
+.article-content > p,
+.article-content > h2,
+.article-content > h3,
+.article-content > ul,
+.article-content > ol {
+  width: min(800px, 90vw);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text h2::after {
-  content: "";
-
-  display: block;
-
-  width: 45px;
-  height: 3px;
-
-  margin: 14px auto 0 auto;
-
-  background: var(--color-primary-dark);
-
-  border-radius: 3px;
+.article-content > .article-image-block {
+  width: min(900px, 92vw);
+  margin: 65px auto;
 }
 
-.text h2:first-child {
-  margin-top: 0;
-}
-
-.text p {
-  margin-bottom: 28px;
-}
-
-.text > p:first-of-type {
-  font-size: clamp(1.1rem, 2vw, 1.3rem);
-  line-height: 1.65;
-  font-weight: 500;
-
-  margin-bottom: 45px;
+.article-content > .article-image-wide {
+  width: min(1150px, 94vw);
+  margin: 90px auto;
 }
 
 .separate-line.article {
