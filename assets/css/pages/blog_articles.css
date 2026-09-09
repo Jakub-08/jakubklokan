@@ -1347,10 +1347,14 @@ blockquote p {
 .article-image-block {
   width: min(900px, 92vw);
   margin: 65px auto;
+  margin-left: auto;
+  margin-right: auto;
+
   display: grid;
   grid-template-columns: 1fr;
   gap: 18px;
   justify-items: center;
+  box-sizing: border-box;
 }
 
 .article-image-block img {
@@ -1362,7 +1366,6 @@ blockquote p {
   object-fit: contain;
   margin: 0 auto;
   border-radius: var(--border-radius);
-  box-shadow: 0 15px 40px rgba(0,0,0,.12);
 }
 
 
@@ -1392,7 +1395,10 @@ blockquote p {
 .article-image-wide {
   width: min(1150px, 94vw);
   margin: 90px auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .article-image-wide img {
