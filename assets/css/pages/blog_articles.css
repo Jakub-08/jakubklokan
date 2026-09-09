@@ -680,26 +680,22 @@ blockquote p {
 
 /* IMAGES */
 
-.text img {
+.text > img {
   width: min(900px, 90vw);
   max-width: 900px;
   height: auto;
-
   display: block;
   margin: 65px auto;
-
   border-radius: 20px;
-
   box-shadow: 0 15px 40px rgba(0,0,0,.14);
-
-  opacity:0;
-  transform:translateY(30px);
-  transition:.7s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .7s ease;
 }
 
-.text img.show {
-  opacity:1;
-  transform:none;
+.text > img.show {
+  opacity: 1;
+  transform: none;
   max-height: 600px;
   object-fit: cover;
 }
@@ -1373,17 +1369,20 @@ blockquote p {
   border-radius: var(--border-radius);
 }
 
-/* Dva a více obrázků */
+/* DVOJICE FOTEK */
 .article-image-block:has(img + img) {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: center;
+  gap: 18px;
 }
 
-/* Obrázky uvnitř galerie */
 .article-image-block:has(img + img) img {
   width: 100%;
-  height: 500px;
-  object-fit: cover;
+  height: auto;
+  max-height: 550px;
+  object-fit: contain;
+  margin: 0;
+  box-shadow: none;
 }
 
 /* Popisek přes celou šířku */
@@ -1437,9 +1436,9 @@ blockquote p {
     gap: 14px;
   }
 
-  /* Dva obrázky se na mobilu složí pod sebe */
   .article-image-block:has(img + img) {
     grid-template-columns: 1fr;
+    gap: 14px;
   }
 
   .article-image-block:has(img + img) img {
