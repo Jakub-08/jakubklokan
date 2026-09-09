@@ -1,7 +1,7 @@
 ---
 layout: post_new
 title: "Léto bez prázdnin: Jak jsem se v létě připravoval | Jakub Klokan"
-date: 2026-09-10
+date: 2026-09-09
 image: /blog/images/tournaments/cesta-vrcholovy-badminton.jpg
 reading_time: "8 min"
 author: "Jakub Klokan"
