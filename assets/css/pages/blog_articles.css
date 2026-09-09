@@ -646,7 +646,7 @@ blockquote p {
 
 /* IMAGES */
 
-.text > img {
+.article-content > img {
   width: min(900px, 90vw);
   max-width: 900px;
   height: auto;
@@ -659,7 +659,7 @@ blockquote p {
   transition: .7s ease;
 }
 
-.text > img.show {
+.article-content > img.show {
   opacity: 1;
   transform: none;
   max-height: 600px;
@@ -885,7 +885,7 @@ blockquote p {
   .blog-article-h1 {
     margin-top: 60px;
   }
-  .text {
+  .article-content {
     width: 90vw;
     font-size: var(--font-md);
     line-height: 1.6;
@@ -904,11 +904,11 @@ blockquote p {
     margin-right: 0;
   }
 
-  .text h2{
+  .article-content h2{
     margin-top:50px;
   }
 
-  .text img{
+  .article-content img{
     border-radius:12px;
     margin:30px auto;
   }
@@ -1540,7 +1540,7 @@ blockquote p {
    ARTICLE HR DIVIDER
 ========================= */
 
-.text hr {
+.article-content hr {
 
   width: 600px;
 
