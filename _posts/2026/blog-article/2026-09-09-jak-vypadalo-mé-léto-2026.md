@@ -16,6 +16,11 @@ summary: Co všechno obnáší letní příprava badmintonisty, který chce posu
 <section class="article-stats">
 
   <div class="article-stat">
+    <strong>6</strong>
+    <span>DNÍ VOLNA</span>
+  </div>
+
+  <div class="article-stat">
     <strong>7</strong>
     <span>TÝDNŮ PŘÍPRAVY</span>
   </div>
@@ -156,16 +161,16 @@ Každý si vybral nějakou cestu, kterou jde... já jsem si vybral tuto, a s rad
 
   <div>
     <span>DALO</span>
-    <strong>Výkonnost</strong>
-    <strong>Zkušenosti</strong>
-    <strong>Zážitky</strong>
+    <strong>Výkonnost,</strong>
+    <strong>Zkušenosti,</strong>
+    <strong>Zážitky,</strong>
     <strong>Přátelství</strong>
   </div>
 
   <div>
     <span>VZALO</span>
-    <strong>Čas</strong>
-    <strong>Volno</strong>
+    <strong>Čas,</strong>
+    <strong>Volno,</strong>
     <strong>Prostor pro jiné zájmy</strong>
   </div>
 
