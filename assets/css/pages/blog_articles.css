@@ -1322,11 +1322,10 @@ blockquote p {
 
 .article-image-block img {
   display: block;
-  width: 100%;
   height: auto;
   max-height: 650px;
   object-fit: contain;
-  margin: 0;
+  margin: auto auto;
   border-radius: var(--border-radius);
   box-shadow: 0 15px 40px rgba(0,0,0,.12);
 }
@@ -1358,11 +1357,10 @@ blockquote p {
 
 .article-image-wide img {
   display: block;
-  width: 100%;
   height: auto;
   max-height: 700px;
   object-fit: contain;
-  margin: 0;
+  margin: auto auto;
   border-radius: var(--border-radius);
 }
 
@@ -1394,6 +1392,22 @@ blockquote p {
     max-height: none;
     border-radius: 12px;
   }
+}
+
+.article-image-block figcaption {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 2px;
+
+  text-align: center;
+
+  font-size: .78rem;
+  line-height: 1.5;
+
+  color: var(--color-text-dark);
+  opacity: .55;
+
+  font-style: italic;
 }
 
 
