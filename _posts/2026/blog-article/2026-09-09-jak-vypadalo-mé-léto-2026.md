@@ -2,7 +2,7 @@
 layout: post_new
 title: "Léto bez prázdnin: Jak jsem se v létě připravoval | Jakub Klokan"
 date: 2026-09-10
-image: /blog/images/tournaments/camp-2025-2.jpg
+image: /blog/images/training/camp-2025-2.jpg
 reading_time: "10 min"
 author: "Jakub Klokan"
 description: "Jak vypadala moje letní příprava, od individuálního tréninku přes klubové soustředění až po mezinárodní kemp."
