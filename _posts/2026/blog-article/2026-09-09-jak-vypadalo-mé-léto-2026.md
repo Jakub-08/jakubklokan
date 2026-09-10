@@ -1,8 +1,8 @@
 ---
 layout: post_new
 title: "Léto bez prázdnin: Jak jsem se v létě připravoval | Jakub Klokan"
-date: 2026-09-09
-image: /blog/images/tournaments/cesta-vrcholovy-badminton.jpg
+date: 2026-09-10
+image: /blog/images/tournaments/camp-2025-2.jpg
 reading_time: "10 min"
 author: "Jakub Klokan"
 description: "Jak vypadala moje letní příprava, od individuálního tréninku přes klubové soustředění až po mezinárodní kemp."
@@ -139,7 +139,7 @@ Jeden z mých cviků z posilovny
 
 ## 03 — V týmu se to táhne lépe
 
-I můj klub Super Stars Most, který hrdě reprezentuji dává na kondici velký důraz. Důkazem je již každoroční kondiční soustředění, které se koná v horách. Ani letos jsem samozřejmě nemohl nejet, protože v týmu se vždy trénuje lépe. Kdy sami bychom nějaké věci neodtrénovali, ale v týmu kde se vzájemně povzbuzujeme a hecujeme, to není zas tak těžké. Je krásné, jak již malé děti dokáží zvládnout režim, který mají profesionální sportovci. Tudíž třífázové tréninky, které dohromady představují 7 hodin práce denně po dobu sedmi dnů s jedním dnem volna.
+I můj klub Super Stars Most, který hrdě reprezentuji dává na kondici velký důraz. Důkazem je již každoroční kondiční soustředění, které se koná v horách. Ani letos jsem samozřejmě nemohl nejet, protože v týmu se vždy trénuje lépe. Kdy sami bychom nějaké věci neodtrénovali, ale v týmu kde se vzájemně povzbuzujeme a hecujeme, to není zas tak těžké. Je krásné, jak již malé děti dokáží zvládnout režim, běžný u vrcholových sportovců. Tudíž třífázové tréninky, které dohromady představují 7 hodin práce denně po dobu sedmi dnů s jedním dnem volna.
 
 U soustředěních klubu Super Stars Most ještě zůstanu další 2 týdny. Kdy mě čekal Summer School I a následně 22nd FELET International Super Stars Camp.
 
