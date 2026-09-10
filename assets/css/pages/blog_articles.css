@@ -1603,7 +1603,7 @@ blockquote p {
 }
 
 /* Obrázky ve starších článcích */
-.article-content > img {
+.article-content > p > img {
   width: min(900px, 92vw);
   height: auto;
   display: block;
