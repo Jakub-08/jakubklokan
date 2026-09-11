@@ -82,7 +82,7 @@ Naše tréninková skupina v Chetan Anand Academy
   <div class="training-card">
     <span>04</span>
     <h3>Regenerace</h3>
-    <p>Spánek, jídlo a adaptace na trénink</p>
+    <p>Spánek, jídlo a adaptace na trénink.</p>
   </div>
 
 </div>
