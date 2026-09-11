@@ -10,7 +10,7 @@ tags: [Moje cesta, Příprava, Soustředění, Trénink, Regenerace]
 image_position: center
 
 h1: "Léto bez prázdnin: Jak jsem se v létě připravoval"
-summary: Co všechno obnáší letní příprava badmintonisty, který chce posunout svůj výkon a být připravený na podzimní část sezóny.
+summary: Co všechno obnáší má letní příprava, pro zlepšení výkonnosti a připravenosti na podzimní část sezóny.
 ---
 
 <section class="article-stats">
@@ -70,19 +70,19 @@ Naše tréninková skupina v Chetan Anand Academy
   <div class="training-card">
     <span>02</span>
     <h3>Rychlost</h3>
-    <p>Explozivita, sprint a schopnost rychle měnit směr.</p>
+    <p>Explozivita, sprinty a rychlé změny směru.</p>
   </div>
 
   <div class="training-card">
     <span>03</span>
     <h3>Vytrvalost</h3>
-    <p>Schopnost udržet vysoký výkon po celý zápas.</p>
+    <p>Být schopný vydržet náročný režim.</p>
   </div>
 
   <div class="training-card">
     <span>04</span>
     <h3>Regenerace</h3>
-    <p>Spánek, odpočinek a prostor pro adaptaci těla.</p>
+    <p>Spánek, jídlo a adaptace na trénink</p>
   </div>
 
 </div>
@@ -98,7 +98,7 @@ Je malý mýtus, že výkonnost se zlepšuje hlavně na tréninku. Částečně 
 <img src="/blog/images/training/individualni-priprava-2.jpg">
 
 <figcaption>
-Jeden z mých cviků z posilovny
+Jeden z mých cviků v posilovně
 </figcaption>
 
 </figure>
@@ -114,7 +114,7 @@ Jeden z mých cviků z posilovny
   <div class="timeline-item">
     <span>8. ČERVENCE</span>
     <strong>Návrat domů</strong>
-    <p>Pět dní úplného volna a regenerace.</p>
+    <p>Pět dní úplného volna.</p>
   </div>
 
   <div class="timeline-item">
@@ -126,20 +126,20 @@ Jeden z mých cviků z posilovny
   <div class="timeline-item">
     <span>SRPEN</span>
     <strong>Klubová příprava</strong>
-    <p>Kondiční soustředění, Summer School a International Camp.</p>
+    <p>Kondiční soustředění, Summer School I a 22nd FELET International Super Stars Camp.</p>
   </div>
 
   <div class="timeline-item">
     <span>ZÁŘÍ</span>
-    <strong>Začátek sezóny</strong>
-    <p>Návrat k turnajovému badmintonu.</p>
+    <strong>Pokračování sezóny</strong>
+    <p>Návrat k turnajům.</p>
   </div>
 
 </div>
 
 ## 03 — V týmu se to táhne lépe
 
-I můj klub Super Stars Most, který hrdě reprezentuji dává na kondici velký důraz. Důkazem je již každoroční kondiční soustředění, které se koná v horách. Ani letos jsem samozřejmě nemohl nejet, protože v týmu se vždy trénuje lépe. Kdy sami bychom nějaké věci neodtrénovali, ale v týmu kde se vzájemně povzbuzujeme a hecujeme, to není zas tak těžké. Je krásné, jak již malé děti dokáží zvládnout režim, běžný u vrcholových sportovců. Tudíž třífázové tréninky, které dohromady představují 7 hodin práce denně po dobu sedmi dnů s jedním dnem volna.
+I můj klub Super Stars Most, který hrdě reprezentuji, dává na kondici velký důraz. Důkazem je již každoroční kondiční soustředění, které se koná v horách. Ani letos jsem samozřejmě nemohl nejet, protože v týmu se vždy trénuje lépe. Kdy sami bychom nějaké věci neodtrénovali, ale v týmu kde se vzájemně povzbuzujeme a hecujeme, to není zas tak těžké. Je krásné, jak již malé děti dokáží zvládnout režim, běžný u vrcholových sportovců. Tudíž třífázové tréninky, které dohromady představují 7 hodin práce denně po dobu sedmi dnů s jedním dnem volna.
 
 U soustředěních klubu Super Stars Most ještě zůstanu další 2 týdny. Kdy mě čekal Summer School I a následně 22nd FELET International Super Stars Camp.
 
@@ -184,7 +184,7 @@ Na letošním campu se mi velmi líbila právě ta pestrost trenérů. Jelikož 
 <img src="/blog/images/training/super-stars-camp-2026-2.jpg">
 
 <figcaption>
-Vysněný trenérský tým - Rita Yuan Gao, Jan Lounda
+Hvězdný trenérský tým - Rita Yuan Gao, Jan Lounda
 </figcaption>
 
 </figure>
