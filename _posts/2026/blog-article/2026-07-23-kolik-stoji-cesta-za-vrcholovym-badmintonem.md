@@ -63,7 +63,7 @@ S mezinárodním turnajem se pojí velké množství nákladů.
 
 Je potřeba zaplatit dopravu, ubytování, startovné, stravu, ale také vybavení, které si sportovec bere s sebou a které se postupně opotřebovává.
 
-<div class="article-highlight">
+<div class="article-highlight-table">
 
 <h2>Průměrné náklady na jeden mezinárodní turnaj</h2>
 
