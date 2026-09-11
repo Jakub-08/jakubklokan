@@ -67,11 +67,11 @@ Je potřeba zaplatit dopravu, ubytování, startovné, stravu, ale také vybaven
 
 <h2>Průměrné náklady na jeden mezinárodní turnaj</h2>
 
-<p>🚆 Doprava</p>
-<p>🏨 Ubytování</p>
-<p>🍽️ Strava</p>
-<p>🏸 Startovné</p>
-<p>👟 Vybavení</p>
+<p class="article-highlight-table">🚆 Doprava</p>
+<p class="article-highlight-table">🏨 Ubytování</p>
+<p class="article-highlight-table">🍽️ Strava</p>
+<p class="article-highlight-table">🏸 Startovné</p>
+<p class="article-highlight-table">👟 Vybavení</p>
 
 <strong>7 000 – 15 000 Kč</strong>
 

@@ -1199,6 +1199,10 @@ blockquote p {
   color: #f28c28;
 }
 
+.article-highlight-table {
+  color: #fff;
+}
+
 @media (max-width: 600px) {
   .article-highlight-table {
     padding: 1.5rem;
