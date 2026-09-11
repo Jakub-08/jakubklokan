@@ -1168,6 +1168,12 @@ blockquote p {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
+.article-highlight-table p {
+  margin: 0;
+  padding: 0.5rem 0;
+  color: #cfcfcf;
+}
+
 .article-highlight-table h2 {
   margin: 0 0 1.5rem;
   font-size: 1.4rem;
@@ -1197,10 +1203,6 @@ blockquote p {
   font-size: 2rem;
   line-height: 1;
   color: #f28c28;
-}
-
-.article-highlight-table {
-  color: #fff;
 }
 
 @media (max-width: 600px) {
