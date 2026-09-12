@@ -235,7 +235,7 @@ Badminton profile
 
 
 <p>
-<strong>Age:</strong> 17 years old
+<strong>Age:</strong> 18 years old
 </p>
 
 

@@ -161,7 +161,7 @@ scripts:
           <div class="about-me-content">
             <div class="about-me-text">
               <p><strong>Jméno:</strong> Jakub Klokan</p>
-              <p><strong>Věk:</strong> 17 let</p>
+              <p><strong>Věk:</strong> 18 let</p>
               <p>
                 <strong>Úroveň:</strong> Mezinárodní vrcholový badmintonista
               </p>
