@@ -199,7 +199,7 @@ scripts:
           />
         </picture>
 
-        <span class="medals-number counter" data-target="45">45+</span>
+        <span class="medals-number counter" data-target="48">48+</span>
       </div>
       <span class="medals-description">GPC & OP Titles</span>
     </div>
