@@ -173,7 +173,7 @@ scripts:
             height="250"
           />
         </picture>
-        <span class="medals-number counter" data-target="32">32+</span>
+        <span class="medals-number counter" data-target="33">33+</span>
       </div>
       <span class="medals-description">National Medals</span>
     </div>
