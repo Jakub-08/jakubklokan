@@ -41,7 +41,7 @@ Nejvíce si ale z turnaje neodnáším samotné druhé místo. Důležitější 
   </div>
 
   <div class="article-stat">
-    <strong>5.- 8.</strong>
+    <strong>5.-8.</strong>
     <span>MÍSTO VE ČTYŘHŘE</span>
   </div>
 
