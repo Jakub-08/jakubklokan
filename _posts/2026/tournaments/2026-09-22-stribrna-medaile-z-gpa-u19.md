@@ -107,7 +107,7 @@ Ve čtvrtfinále mě čekal můj dlouhodobý soupeř **Kryštof Klíma**.
 
 <div class="article-quote">
 
-13:2. Taková byla moje dosavadní bilance s Kryštofem Klímou.
+16:2. Taková byla moje dosavadní bilance s Kryštofem Klímou.
 
 </div>
 
@@ -150,7 +150,7 @@ Z finále jsem odcházel s lehkým sklamáním. Ale náladu mi zlepšilo uvědom
   <img src="/blog/images/tournaments/GPA-U19-Plzeň-2026-podzim-2.jpg" alt="Jakub Klokan na GPA U19 v Plzni">
 
   <figcaption>
-    Cesta do prvního singlového finále na GPA U19.
+    Fotka z "bedny".
   </figcaption>
 
 </div>
