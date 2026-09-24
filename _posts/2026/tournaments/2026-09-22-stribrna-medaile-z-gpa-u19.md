@@ -8,7 +8,7 @@ author: "Jakub Klokan"
 
 description: "Jakub Klokan na turnaji GPA U19 v Plzni. Cesta do finále dvouhry, vítězství nad Kryštofem Klímou a Františkem Vrchotickým a zkušenosti z posledního juniorského GPA."
 tags: [Národní turnaje]
-image_position: center
+image_position: top
 
 h1: Nejlepší výsledek v sezóně na GPA U19
 summary: Na posledním juniorském GPA sezóny jsem v Plzni došel až do finále dvouhry.
