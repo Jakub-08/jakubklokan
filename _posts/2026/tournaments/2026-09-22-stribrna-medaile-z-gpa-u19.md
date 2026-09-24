@@ -2,7 +2,7 @@
 layout: post_new
 title: "Nejlepší výsledek v sezóně na GPA U19 | Jakub Klokan"
 date: 2026-09-22
-image: /blog/images/tournaments/GPA-U19-Plzeň-2026-podzim.jpg
+image: /blog/images/tournaments/GPA-U19-Plzeň-2026-podzim-2.jpg
 reading_time: "3 min"
 author: "Jakub Klokan"
 
