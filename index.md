@@ -199,7 +199,7 @@ scripts:
           />
         </picture>
 
-        <span class="medals-number counter" data-target="48">48+</span>
+        <span class="medals-number counter" data-target="51">51+</span>
       </div>
       <span class="medals-description">Vítězství GPC a OP</span>
     </div>
