@@ -116,6 +116,6 @@ Celková turnajová bilance činila **sedm vítězství ze sedmi zápasů**. Ve 
 
 Zároveň se mi podařilo navázat na předchozí výsledky a oproti minulému ročníku oblastního přeboru ještě posunout své maximum.
 
-Velké poděkování patří **Super Stars Most** za přípravu, tréninkové zázemí a podporu. Děkuji také **Tereze Čechové a Ondřeji Živcovi** za společné výkony a vítězství v párových disciplínách.
+Velké poděkování patří **Super Stars Most** za přípravu, tréninkové zázemí a podporu. Děkuji také **Terce Čechové a Ondrovi Živcovi** za společné výkony a vítězství v párových disciplínách.
 
 Tři disciplíny, tři zlaté medaile. Lepší zakončení oblastních přeborů juniorských kategorií jsem si nemohl přát.
